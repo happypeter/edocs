@@ -1,0 +1,9 @@
+when my note-taking was in ***kdocs*** era, I always think about the question, that how can I get all the revisions of a
+specific file.
+
+Now I know ikiwikki can actually does the job, I need to find out how well it can work with EmacsMuse
+
+then
+ - git commit time will be the revision time
+ - git log message will be the revision log 
+ - and the history of the file will produce all the revisions

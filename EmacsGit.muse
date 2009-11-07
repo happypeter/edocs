@@ -4,4 +4,9 @@ for the beginning, I think I can go without IkiWiki, I do not need all my revisi
 
  - I think I can just use simple git command in emacs
  - as long as my data is save, I am OK
- - 
+ - now I can run
+<example>
+C+x g .
+</example>
+
+to invoke ***git-cmd*** , since I already know git commands, so this is easy
