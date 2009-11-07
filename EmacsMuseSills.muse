@@ -15,3 +15,8 @@ M-x muse-insert-tag
 </example>
 
 but how I can get to know the keyboard short cut for it?
+A: check ***muse-mode.el***, 
+to insert a tag 
+<example>
+C+c+i t
+</example>

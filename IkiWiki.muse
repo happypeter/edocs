@@ -1,3 +1,4 @@
+<contents>
 when my note-taking was in ***kdocs*** era, I always think about the question, that how can I get all the revisions of a
 specific file.
 
@@ -7,3 +8,25 @@ then
  - git commit time will be the revision time
  - git log message will be the revision log 
  - and the history of the file will produce all the revisions
+
+** Installation
+
+pet@girl:~$ sudo apt-get install ikiwiki
+
+** setup
+
+ - IkiSetup 
+
+the search engine here, is sth I want http://ikiwiki.info/examples/softwaresite/
+
+github
+
+http://ikiwiki.info/tips/github/ I want a github page!!!
+
+** convertor
+
+here http://ikiwiki.info/users/joshtriplett/
+
+git clone git://svcs.cs.pdx.edu/git/wiki2iki/moin2iki
+
+I definately need to try this 
