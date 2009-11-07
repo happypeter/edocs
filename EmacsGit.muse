@@ -1,0 +1,7 @@
+for the beginning, I think I can go without IkiWiki, I do not need all my revisions so much
+
+* Now
+
+ - I think I can just use simple git command in emacs
+ - as long as my data is save, I am OK
+ - 
