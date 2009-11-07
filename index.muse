@@ -1,0 +1,1 @@
+edocs is son of kdocs in the form of EmacsMuse
