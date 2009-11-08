@@ -1,0 +1,26 @@
+<src lang="c">
+#include <stdlib.h>
+
+char *unused;
+
+int main (int argc, char *argv[])
+{
+    puts("Hello, world!\n");
+}
+</src>
+
+* trick
+
+By changing ***peter.css*** 
+
+pre.src
+
+I can have the
+
+<example>
+pre.src {
+  background-color: black;
+}
+</example>
+
+so the finally output looks like real console display, wonderful

@@ -1,0 +1,22 @@
+I want a full-screen emacs, so firstly I add this into ***.emacs***
+<example>
+;; peter--full screen
+    (defun switch-full-screen ()
+      (interactive)
+      (shell-command "wmctrl -r :ACTIVE: -btoggle,fullscreen"))
+
+    (global-set-key [f11] 'switch-full-screen)
+
+;; run this 
+(switch-full-screen)
+</example>
+
+it works, but later I find the below way is better
+<example>
+emacs -fs
+</example>
+
+have this script as a command in ***/usr/bin/eee***
+may be in the future I want emacs run a el file during startup,
+I think I can aslo achieve this by changing  ***/usr/bin/eee***
+

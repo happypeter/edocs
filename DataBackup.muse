@@ -1,0 +1,42 @@
+Now I have EmacsMuse and GitHub together to proform NoteTaking
+
+I shall say I am quite satisfied.
+
+But this is only for documentation, 
+
+Actually I have another 10 or 20G data, which I do not want to lose.
+
+Perhaps I should follow Simon's instruction, and have my home as a separation and back it up all.
+since I will have some conf file that I do not want to lose, like **.emacs** ...
+
+
+Now I finally have two computers(my laptop and desktop) and I have md5sum
+so I can do data backup finally.
+
+1. things to backup
+        1.1 kdocs will be kept in github
+        1.2 there will be a list in kdocs for my data_backup, I mean big things
+        1.3 music
+            - photo(local+flicker)
+            - project data(vivi arm-linux-gcc ...)
+            - +pdf-books
+            - others
+
+2. rules
+        2.1 things shall be backed as tar.gz file
+        2.2 md5sum check is required everytime they are moved
+
+
+
+DATA TREE
+
+ - bigpeki/md5sum
+ - bigpeki/books
+ - bigpeki/projects/axtu/
+
+* now I think
+
+ - I do not need backup most of the pdf books, they shall be served well as links in my muse file.
+ - but maybe it is nice to have a music repo ... well this is not so important anyway
+ - my photos are of course important, I shall merge it into my edocs system, 
+ - 

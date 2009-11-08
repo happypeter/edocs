@@ -10,18 +10,18 @@ then
  - and the history of the file will produce all the revisions
 
 ** Installation
-
+<example>
 pet@girl:~$ sudo apt-get install ikiwiki
-
+</example>
 ** setup
 
  - IkiSetup 
 
 the search engine here, is sth I want http://ikiwiki.info/examples/softwaresite/
 
-github
+** Github
 
-http://ikiwiki.info/tips/github/ I want a github page!!!
+http://ikiwiki.info/tips/github/ I want a GitHub page!!!
 
 ** convertor
 

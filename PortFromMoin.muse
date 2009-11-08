@@ -1,5 +1,5 @@
-Now I want to port the pages form moin to muse
+Now I want to port the pages form MoinMoin to muse
 
 I tried ***muse-import-docbook*** and find it a piece of shit
 
-it is better to just open moin files in firefox and cp the page with mouse
+it is better to just open moin wiki source files  cp the page.
