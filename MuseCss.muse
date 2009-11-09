@@ -1,7 +1,20 @@
 Hi, I am reading http://www.linfo.org/ now. and shocked by the beauty of it simplicity. It is really what I want!!! To make edocs more linfo-like, all I need to do is to make a little change to the css in ***muse.el***
 
 Do nothing more than necessary, nothing but what is really useful, and this is the phylosophy here. 
-And anthor question is do I really need CamelWords, [[docs][do not really need camal style words]]
+And anthor question is do I really need CamelWords?
+
+A: No, I think I will be better off without **muse-wiki.el** , if I want to use wiki style name, I should have it this way
+<example>
+[[WikiName]]
+</example>
+
+so that I can go without msue-wiki.
+
+Q: Do I need the highlighting for code in html ?
+
+A: No, I should make my doc or at least my knowledge base as simple as possible, and make the style like a O'Reilly Book,
+and like [[http://www.linfo.org][linfo]]. Thus it is pointless to mark code this way
+<example>
 <src lang="c">
 #include <stdlib.h>
 
@@ -12,6 +25,17 @@ int main (int argc, char *argv[])
     puts("Hello, world!\n");
 }
 </src>
+
+</example>
+I can easily use 
+<example>
+<example>
+</example>
+for everything, so that pages looks simpler and yet not reducing clarity.
+
+
+So I do not think I need the following tricks, at least not for my [[KnowledgeBase][knowledge base]], since I modify it a lot, it is really wise
+to keep it as simple as possible.
 
 * trick
 

@@ -2,10 +2,10 @@
 I decided to switch to emacs to do my notetaking.
 but I also need to vertify if it works well with git or not.
 
-see EmacsGit
+see [[EmacsGit][Emacs Git]]
 
-EmacsMuseSills
+[[EmacsMuseSills]]
 
-MuseCss
+[[MuseCss]]
 
-this file shall be son of  EmacsUse
+this file shall be son of  [[EmacsUse]]

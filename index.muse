@@ -1,10 +1,14 @@
-* edocs 
-is son of kdocs in the form of EmacsMuse
+** edocs 
+ - is son of kdocs in the form of [[EmacsMuse][Emacs Muse]]
+ - is my [[KnowledgeBase][KB]]
 
-PortFromMoin
+*** Table
+ - [[PortFromMoin][Prot form moin]]
+ - [[DataBackup][About data backup]]
+ - [[PhpStudy][PHP study]]
+ - [[GitHub][Github stuff]]
+ - [[yum][YUM study]]
+ - [[firefox]]
+ - [[DocHowto][How to do documentation]]
+ - [[Emacs]]
 
-DataBackup
-
-PhpStudy
-
-GitHub

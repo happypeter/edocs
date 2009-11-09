@@ -1,0 +1,6 @@
+
+
+<example>
+M-x replace-string RET string RET newstring RET
+M-x copy-to-buffer
+</example>
