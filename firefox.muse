@@ -1,11 +1,11 @@
 
 
-Back	Ctrl+[
+Back |	Ctrl+[
 
-Home	Alt+Home
+Home |	Alt+Home
 
-Reload	Ctrl+R
+Reload |	Ctrl+R
 
-Reload (override cache)	Ctrl+F5
+Reload | (override cache)	Ctrl+F5
 
-Search Ctrl+G(and also as find next)
+Search | Ctrl+G(and also as find next)

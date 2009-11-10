@@ -1,0 +1,3 @@
+[[index][Index]]
+
+Metadata is "data about data", basiclly can be considered as infomation. see http://www.linfo.org/metadata.html

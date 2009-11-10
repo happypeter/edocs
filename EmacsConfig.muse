@@ -1,4 +1,4 @@
-I want a full-screen emacs, so firstly I add this into ***.emacs***
+I want a full-screen emacs, so firstly I add this into *.emacs*
 <example>
 ;; peter--full screen
     (defun switch-full-screen ()
@@ -16,7 +16,8 @@ it works, but later I find the below way is better
 emacs -fs
 </example>
 
-have this script as a command in ***/usr/bin/eee***
+have this script as a command in */usr/bin/eee*
 may be in the future I want emacs run a el file during startup,
-I think I can aslo achieve this by changing  ***/usr/bin/eee***
+I think I can aslo achieve this by changing  */usr/bin/eee*
+
 

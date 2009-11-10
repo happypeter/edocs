@@ -1,11 +1,8 @@
+son of [[Emacs]]
 
-I decided to switch to emacs to do my notetaking.
-but I also need to vertify if it works well with git or not.
 
-see [[EmacsGit][Emacs Git]]
-
-[[EmacsMuseSills]]
-
-[[MuseCss]]
-
-this file shall be son of  [[EmacsUse]]
+ - [[EmacsGit][Ema cs Git]] 
+ - [[EmacsMuseSills][Muse Basics]]
+ - [[MuseCss][Muse Style]]
+ - [[musePdf][Publish as PDF]]
+ - [[EmacsUse][Emacs Basic Usage]]

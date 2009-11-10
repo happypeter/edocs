@@ -1,4 +1,7 @@
-
+ go to [[index]]
+ - [[EmacsMuse]]
+ - [[EmacsUse][Basic Emacs Usage]]
+ - [[EmacsGit][Git working with Emacs]]
 
 <example>
 M-x replace-string RET string RET newstring RET

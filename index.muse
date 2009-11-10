@@ -11,4 +11,5 @@
  - [[firefox]]
  - [[DocHowto][How to do documentation]]
  - [[Emacs]]
+ - [[vocabulary]]
 
