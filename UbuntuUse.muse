@@ -1,8 +1,9 @@
 FrontPage
 
-*** ubuntu ***
+*** ubuntu 
 
  - SmallTricks 
  - StartupScript
  - VideoEdit
  - UbuntuSsh
+ - GnomeTip

@@ -1,6 +1,6 @@
 FrontPage
 
-** WebHost **
+** WebHost
 see below link
 http://sourceforge.net/apps/trac/sourceforge/wiki/Project web
 <example>

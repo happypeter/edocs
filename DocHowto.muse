@@ -1,15 +1,18 @@
 son fo FrontPage
+          
+** Hot Topics 
+ - MoinOrMuse
+ - DocBook
+ - [[PortFromMoin][Prot form moin to Muse]]
+
 ** tools
 
  - [[MoinMoin]]
  - [[doxygen]]
+ - [[Emacs]]
+
+
+** Phylosophy
  - [[dream][I have a dream]]
  - [[anounce]]
  - DocGuideline
- - MoinPrombles   maybe some of them are my own prolem :-)
- - PowerfulTemplete
- - MoinTips
-
- - MoinBackup
-other note-taking tools
- -Tomboy  it is really easy

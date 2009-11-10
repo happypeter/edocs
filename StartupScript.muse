@@ -1,6 +1,6 @@
 son of FrontPage
 
-** Step 1 **
+** Step 1
 so I first create my '' peterd_startup.sh '' with this
 
 http://rob.pectol.com/startup_scriptbuilder/
@@ -32,7 +32,7 @@ why is this? :-) i really need to study bash
 
 and I aslo have a FdSyntaxError
 
-** Step 2 **
+** Step 2
 <example>
 root@girl:~# update-rc.d  peterd_startup.sh start  23 5 .
 update-rc.d: warning: /etc/init.d/peterd_startup.sh missing LSB information
@@ -52,7 +52,7 @@ but this is easy to fix, all I need is
 <example>
 mv /etc/rc5.d/S23peterd_startup.s /etc/rc2.d
 </example>
-** Step 3 **
+** Step 3
 so it works, interesting is this
 
 <example>

@@ -1,14 +1,11 @@
 son of FrontPage
 
-** OS Spec **
-
 - UbuntuUse
 
-*** Fedora ***
-
-** Misc **
+** Misc 
 
  - VimHacking  wiki is nice and this page is also ''son of FrontPage'', nice link!
  - DualBoot  having more OSes
  - BashUse
  - SshTip
+ - [[firefox]]

@@ -1,8 +1,8 @@
 son of FrontPage
 
 
-* TODO *
-** wtec **
+* TODO 
+** wtec
 I need to add wtec signup page to axtu-authen-client
 FYI, WTEC registraion page.
 http://www.wtec.co.th/asianux_registration.html
@@ -11,8 +11,8 @@ Better to comfirm with wtec guys before I do the patch
         
 
 
-* SDS *
-** tips **
+* SDS 
+** tips
  - NOTE:
    SDS will fail to readout package info if you have format error in spec file,
    even it is a missing '-' in the changlog
@@ -27,7 +27,7 @@ Better to comfirm with wtec guys before I do the patch
   1. release number must be changed
   1. add changelog
 
-** If you want to build **
+** If you want to build
 <example>
 $ssh 10.1.0.8 --------------jupiter(32 bit)
 10.1.0.3-------------pluto(64 bit)
@@ -70,7 +70,7 @@ sudo  /project/bin/axbldpkg -j Quartet-sp2  -V 3.0-maint  -w ~/sds/ -t /home/pet
 
 
 
-** test case study **
+** test case study 
 <example>
 $cd /usr/share/doc/asianux-release/
 $rpm --import RPM-GPG-KEY
@@ -100,7 +100,7 @@ Writing header.info file
 
 
 
-** Bugzilla **
+** Bugzilla 
 <example>
 Hi Developers,
 
@@ -119,41 +119,22 @@ Thank you,
 -
 
 
-** VERMAP-DIR **
+** VERMAP-DIR
 
 as long as they do not touch axtu,
 I do not need to update it on
 <example>
 romi:/home/peter/sds/VERMAP-DIR
 </example>
-~                                                                                                                                                                                
--- INSERT --                                
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                  
-* Tech related *
-** svn **
+** svn 
 <example>
 $svn log 1.4
 $svn co $SR/axtu/1.4 -r r5850 // on peter-laptop
 $svn co $SR/axtu/1.4 -r 5850 //on romi
 </example>
 
-** rpm info **
+** rpm info
 
 rpm source code
 <example>
@@ -169,7 +150,7 @@ later Huajie will copy the lastest ISOs to romi:/project/ISO/
 /project/Quartet/distro/asianux-3.0/src/SRPMS--------------lastest src rpms
 </example>
 
-** NOTE **
+** NOTE 
 
 when Jun apprival my IP, I need to login SDS  to change it status to "closed".
 And after the svn merge, I need close the bugs and check if the change is really integrated in the new ISO, but how?
@@ -184,7 +165,7 @@ note the name "axtu" or "axtu-authen-client" in
 <example>
 $sudo  /project/bin/axbldpkg -j Quartet-sp2  -V 3.0  -w ~/sds/ -t /home/peter/tmp/    axtu
 </example>
-** spcewalk **
+** spcewalk
 
 <example>
 url:    https://10.1.0.76/rhn/
@@ -192,7 +173,7 @@ id:     yuzhu
 pwd: abc123
 </example>
 if you have any question let me know,regards!
-** Sent a IP **
+** Sent a IP
 on local machine
 <example>
 ssh peter@romi
@@ -210,7 +191,7 @@ then
  1. change source code
  1. choose MT or CurrentDev in sds
  1. compile             
-** Axtu Working Copy **
+** Axtu Working Copy 
 How to checkout my own working copy
 
  1. login to rumi
@@ -236,7 +217,7 @@ How to checkout my own working copy
    don't check out here
 
  
-** IP_WE_NEED **
+** IP_WE_NEED 
 >>>DHCP
 
 1. Pierrik
@@ -306,14 +287,14 @@ tatal DHCP : 24 +5
 tatal STATIC: 11+5
 
 
-* Non-Tech *
-** approval **
+* Non-Tech
+** approval
 intranet->approval->vacation
 
 add Ray+Shiery+SMT(Software maintainence team) as recipeants
 
 add Hwanii as first approver and then Jaykey as final approver
-** They way I work **
+** They way I work
 go the axtu-debug/ and see what a mess there!!!
 I need rules to devide all stuff here into distingushed parts, and yet well keep their connection.
 
@@ -324,7 +305,7 @@ too much disorgnized contents, why is this?
  1. I really need to change the way I take debug notes, otherwise things will get undercontrol getting bigger.
 
 >>> some conclutions are really useful for later development, I will copy(maybe mv is better, since it is always stupid to maintain two copy of the same thing) it to doc-axtu/, such as HOW_AXTU_USE_AK and AXTU_GUI_WORK_FLOW, and this also means we do not need peki/study/axtu/ anymore.
-** Jun Letter **
+** Jun Letter 
 
 <example>
 Hi All,

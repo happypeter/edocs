@@ -10,7 +10,9 @@ http://en.wikipedia.org/wiki/List_of_wiki_software#Python-based
 
 then it is obvious MoinMoin is really what I need
 
-[[Alternatives]]
+ - [[Alternatives]]
+ - MoinTips
+ - MoinBackup
 
 
 Below is some small patches for  moin-1.8.5 

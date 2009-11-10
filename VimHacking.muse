@@ -1,7 +1,7 @@
 son of FrontPage
 
 
-** gvimtutor **
+** gvimtutor 
 run this in ubuntu
 
 <example>
@@ -26,7 +26,7 @@ ignore case during searching
 :set ic
 </example>
 
-** others **
+** others 
 folding
 
 in noramal mode
