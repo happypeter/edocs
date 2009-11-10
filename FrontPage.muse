@@ -13,6 +13,8 @@ go [[index]]
  - SourceForge
  - [[GitHub][Github]]
 
+*** New
+ - [[encryption]]
 
 *** work
  - WorkNotes   tips on my daily work

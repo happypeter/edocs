@@ -4,17 +4,17 @@ go here to check packages
 http://packages.ubuntu.com/jaunty/editors/
 
 
-** shutdown **
- 1. 
+** shutdown the machine
+ - sudo without pswd
  <example>
  pet@girl:~$ sudo vim /etc/sudoers
  </example>
- 1. now add one line
+  now add one line
  <example>
  pet ALL*(ALL)NOPASSWD: ALL
  </example>
- 1. now I can "sudo -i" without typing password
- 1. so I
+ now I can "sudo -i" without typing password
+ - so I
  <example>
  pet@girl:~$ sudo vim /usr/bin/gohome 
  </example>
@@ -22,30 +22,29 @@ http://packages.ubuntu.com/jaunty/editors/
  <example>
  sudo init 0
  </example>
- 1. so next time I want to shutdown the  machine, all I need is
+ so next time I want to shutdown the  machine, all I need is
  <example>
  pet@girl:~$ gohome 
  </example>
 
-** Format disk **
- 1. 
+** Format disk 
+ - check dev/
  <example>
 $cd /dev
 $ls s-
  </example>
 
- 1. plug mp3
+ - plug mp3
  <example>
 $ls s-
  </example>
- now i see a sdb is added here
-
- 1.
+now i see a sdb is added here
+ - umount
  <example> 
  umount /media/disk-1         //not always disk-1
  </example>
 
- 1.
+ - then
  <example> 
  mkfs.vfat -I /dev/sdb
  </example>
