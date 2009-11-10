@@ -1,23 +1,23 @@
 go [[index]]
 
-** As a Coder 
-
-*** topics 
- - DocHowto  about how I take note and something
- - AxtuWeb
- - [[GitHub][Github stuff]]
 *** Basic Skills
+ - DocHowto  about how I take note and something
  - [[DataBackup][About data backup]]
  - [[vocabulary]]
  - [[PhpStudy][PHP study]]
  - [[Emacs]]
+ - [[VimHacking][Vim]]
  - LinuxUsage
  - UbuntuUse
+*** web tools
  - SourceForge
- - [[VimHacking][Vim]]
+ - [[GitHub][Github]]
+
 
 *** work
  - WorkNotes   tips on my daily work
  - YumHacking what I am working on
-** As a Scholar 
- - EnglishStudy 
+ - AxtuWeb
+
+*** Non-tech 
+ - [[EnglishStudy]] 
