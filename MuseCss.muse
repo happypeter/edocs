@@ -1,4 +1,8 @@
-Hi, I am reading http://www.linfo.org/ now. and shocked by the beauty of it simplicity. It is really what I want!!! To make edocs more linfo-like, all I need to do is to make a little change to the css in ***muse.el***
+ - see [[StyleSheet]] for more
+
+After seeing http://www.linfo.org/, I am shocked by the beauty of it simplicity.
+
+To make edocs more linfo-like, all I need to do is to make a little change to the css in ***muse.el***
 
 Do nothing more than necessary, nothing but what is really useful, and this is the phylosophy here. 
 And anthor question is do I really need CamelWords?

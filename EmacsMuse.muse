@@ -3,52 +3,21 @@ son of [[Emacs]]
 
 
  - [[EmacsGit][Emacs Git]] 
- - [[EmacsMuseSills][Muse Basics]]
+ - [[EmacsMuseSills][Muse Basic Commands]]
  - [[MuseCss][Muse Style]]
  - [[musePdf][Publish as PDF]]
- - [[EmacsUse][Emacs Basic Usage]]
-~                                     
-<example>
-root@girl:~# apt-get install emacs
-
-root@girl:~# apt-get install muse-el
-</example>
-bhl    change plain text to wiki html ...
-
- - IkiwikiTip  
-   since ikiwiki is integrated in muse, so I do not need the stupid moin-style revision sys, 
-   ikiwiki reads git, git commit has time has commit message has all the modification, all my info is save
  - HtmlizeMode
- - StyleSheet
+
+
 http://mwolson.org/projects/EmacsMuse.html
 
 
-
-check this http://www.linux.com/archive/feature/61208
-maybe I also need 
-<example>
-(add-to-list 'load-path "/home/scott/elisp/muse_latest/lisp")
-(require 'muse-mode)
-(require 'muse-html)
-(require 'muse-latex)
-(require 'muse-texinfo)
-(require 'muse-docbook)
-(require 'muse-book)
-
-</example>
-
-in ''.emacs''
-
-and here
-http://mwolson.org/projects/EmacsMuse.html#sec3
-I can get ''muse_latest''
-
-** ubuntu **
+** ubuntu 
 http://mwolson.org/projects/DebianPackages.html
 
 
-** succeed **
-so now my ''.emacs'' is
+** succeed 
+so now my *.emacs* is
 <example>
      (setq muse-project-alist
            '(("Website" ("~/Pages" :default "index")
@@ -69,4 +38,4 @@ so now my ''.emacs'' is
 then all I need to do is open ''~/Pages/index.muse''
 edit it and then '''C+c p''', done!
 
- - to eable camelwords, all I need to do is add '''muse-wiki''' as required in ''.emacs''
+ - to eable camelwords, all I need to do is add *muse-wiki* required in *.emacs*

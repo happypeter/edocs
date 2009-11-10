@@ -30,4 +30,8 @@ REASON: we lost this file
 <example>
 pet@girl:~/moin-1.8.5/wiki/data$ edit-log
 </example>
- - DeleteCache
+*** Delete Cache
+I modified pages/ at home, and when I am in office, I do a git push
+and updates some wiki pages, but in brower, I still have only the old pages, even I clicked the refresh button
+
+'' action->delete cache '' is required actually

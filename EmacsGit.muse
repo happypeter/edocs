@@ -29,7 +29,7 @@ http://github.com/tsgates/git-emacs
 which mostly works, try ''M-x'' to see the new commands provided.
 e.g ''gitk'' ''git-config-init'' and a lot others...
 
-** dd **
+** git-status
 below is what I learned form http://xtalk.msk.su/~ott/en/writings/emacs-vcs/EmacsGit.html
 <example>
 Work with package always starts with execution of git-status command,

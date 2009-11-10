@@ -1,12 +1,12 @@
 FrontPage
 
  - EmacsInit
-*** face customization ***
+*** face customization 
 <example>
 M-x list-faces-display
 </example>
  
-**** install twilight ****
+**** install twilight 
 http://github.com/crafterm/twilight-emacs
 
 but this requires ''color-theme'', which used to be a ubuntu package
@@ -39,8 +39,8 @@ pet@girl:~/color_theme_peter$
  </example>
 resart emacs, it works :-)
 
-*** More Trick ***
-**** Fullscreen ****
+*** More Trick 
+ - Fullscreen 
 http://www.emacswiki.org/emacs/FullScreen#toc1
 I actually use this:
  - install windows manager
@@ -56,7 +56,7 @@ pet@girl:~$ sudo apt-get install wmctrl
 
     (global-set-key [f11] 'switch-full-screen)
  </example>
-**** hide toolbar ****
+**** hide toolbar 
 <example>
 M-x tool-bar-mode
 </example>

@@ -7,8 +7,6 @@ son fo FrontPage
  - [[anounce]]
  - DocGuideline
  - MoinPrombles   maybe some of them are my own prolem :-)
- - WhatIsGood good things
- - NoteTip
  - PowerfulTemplete
  - MoinTips
 

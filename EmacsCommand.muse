@@ -14,3 +14,5 @@ M-x global-set-key
 </example>
 
 :-) I can  attach ''Cltr+m'' to "moinmoin-mode"
+
+- [[EmacsMuseSills][Muse Basic Commands]]

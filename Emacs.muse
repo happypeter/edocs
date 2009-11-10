@@ -1,9 +1,13 @@
  go to [[index]]
- - [[EmacsMuse]]
- - [[EmacsUse][Basic Emacs Usage]]
  - [[EmacsGit][Git working with Emacs]]
+ - EmacsCommand
+ - InstallTheme
+ - EmacsInit
+ - [[EmacsConfig]]
+** Modes
+ - EmacsMoin
+ - OrgMode
+ - PlanerMode
+ - FlySpell
+ - [[EmacsMuse]]
 
-<example>
-M-x replace-string RET string RET newstring RET
-M-x copy-to-buffer
-</example>

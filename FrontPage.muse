@@ -1,25 +1,26 @@
-'''Kdocs''' 
-is my brain extended, which means it is the center of all my knowledge.
-
-** Hot Topics **
+[[index]]
+          
+** Hot Topics 
  - MoinOrMuse
  - DocBook
-
-** As a Coder **
- - DataBackup
+ - [[PortFromMoin][Prot form moin]]
+** As a Coder 
  - PeterTmp sth not important
- - EmacsUse
  - UbuntuUse
  - GnomeTip
- - FireFox
-*** topics ***
+ - [[firefox]]
+*** topics 
 
  - DocHowto  about how I take note and something
  - YumHacking what I am working on
  - AxtuWeb
  - AxtuDebug
-
-*** Basic Skills ***
+ - [[GitHub][Github stuff]]
+*** Basic Skills
+ - [[DataBackup][About data backup]]
+ - [[vocabulary]]
+ - [[PhpStudy][PHP study]]
+ - [[Emacs]]
  - LinuxUsage
  - SourceForge
 I would also Like to do 
@@ -31,11 +32,5 @@ not so important stuff
 
  - WorkNotes   tips on my daily work
 
-** As a Scholar **
+** As a Scholar 
  - EnglishStudy 
-----
- built-in pages
- 
-doing this in vim, but some moin diff feathers maybe malfaction.
-
- - SiteNavigation: get an overview over this site and what it contains
