@@ -1,0 +1,62 @@
+FrontPage
+
+** the simple way **
+
+by changing ''muse-html.el'', in this file, there is a default ''header'' for every page
+
+** more flexiable way **
+
+refer to Quickstart.muse
+
+
+<example>
+pet@girl:~$ cp  lisp-lib/muse_peter/examples/mwolson/templates/  .emacs.d/muse
+
+pet@girl:~$ cp  lisp-lib/muse_peter/examples/mwolson/stylesheets/peter.css /home/pet/
+</example>
+
+with the below in ''.emacs'', everything works
+<example>
+
+(setq peter-style-sheet
+      (concat "<link rel*\"stylesheet\" type*\"text/css\""
+              " charset*\"utf-8\" media*\"all\""
+              " href*\"/home/pet/peter.css\" />"))
+
+(muse-derive-style "peter-xhtml" "xhtml"
+                   :header "~/.emacs.d/muse/header.html"
+                   :footer "~/.emacs.d/muse/footer.html"
+                   :style-sheet peter-style-sheet)
+
+</example>
+'''peter-style-sheet''' finally become a line in the final  html
+<example>
+  <link rel*"stylesheet" type*"text/css" charset*"utf-8" media*"all" href*"/home/pet/peter.css" />
+</example>
+the lisp code here also confused me a lot
+
+** trap **
+when you modify sth, be sure to run this if you want to see the modification 
+<example>
+M-x muse-project-delete-output-files
+</example>
+
+and if you modify ''.el'' file, you need to restart emacs.
+
+
+
+** example **
+
+<example>
+root@girl:/home/pet/lisp-lib/muse_peter/lisp# vim muse-html.el 
+</example>
+
+<example>
+pet@girl:~$ vim peter.css 
+</example>
+
+<example>
+pet@girl:~/.emacs.d/muse$ vim header.html
+</example> 
+
+basiclly I can do everything with the above action, haha

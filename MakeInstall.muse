@@ -1,0 +1,25 @@
+Describe MakeInstall here.bug: when I debug libs/, every time I am done, I can simply run make install and test it.
+but gui/ stuff simply can not be updated by make install, no matter you run command in top dir or sub dir.
+
+FIX: so seems done by rpm, can check the SPEC
+
+NOTE: now I am not sure if the above is right,
+there is a story about this. so on the svn repo there is actually a final binary under gui/setup/
+just now I found it and considered it dirty, so I git remove it, and commit this into my own git repo
+then something strange happens.
+so under gui/setup/, I run make, then there is no binary found anymore.
+the changed binary is in /usr/share/axtu/gui/
+there is even no need to run "make install"
+I consider the reason like this,
+so someone commit the binary into svn repo,
+then next time I check it out, then run ./configure
+since there is sth dirty there, the Makefile therefore generated is buggy.
+Anyway, now the binary is removed and everything actually works as it should again.
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                                                                                                                
+~                                                                                

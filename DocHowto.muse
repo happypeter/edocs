@@ -1,7 +1,17 @@
+son fo FrontPage
 ** tools
 
  - [[MoinMoin]]
  - [[doxygen]]
  - [[dream][I have a dream]]
  - [[anounce]]
+ - DocGuideline
+ - MoinPrombles   maybe some of them are my own prolem :-)
+ - WhatIsGood good things
+ - NoteTip
+ - PowerfulTemplete
+ - MoinTips
 
+ - MoinBackup
+other note-taking tools
+ -Tomboy  it is really easy

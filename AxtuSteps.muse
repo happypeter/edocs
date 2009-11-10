@@ -1,0 +1,80 @@
+son of AxtuWeb
+
+
+if I click axtu -U 
+firrst I see 
+<example>
+"Verifying Header files integrity...", 
+</example>
+it takes long time, so I suspect if hdr anylysis is done here
+but the following serch result prove my prediction wrong, and it is nothing but downloading
+<example>
+if(ds ** DS_DOWN){
+                        strDownloadLabel*"Downloading Header files....";
+                }else if(ds ** DS_CHECK){
+                        strDownloadLabel*"Verifying Header files integrity....";
+                }else{
+                        strDownloadLabel*"Unknown state";
+                }
+
+
+
+typedef enum{
+        DS_DOWN * 1,
+        DS_CHECK
+} DOWNLOAD_STATE;
+
+</example>
+
+*** as a test ***
+
+I delete everything in ''/var/cache/axtu/'', 
+then axtu -U again
+now it take 100 times longer when "Downloading hdr ..."
+
+and also 100 times less time "Verifying Header files integrity..."
+
+then "Reading header informaintion..."-----it is done in ReadHeaders()
+
+
+Q.how TestRpmEngine() get executed, since I can not find the call for it???
+
+A: it is simply never used, haha.
+
+so there is no steps you can see in main.cpp, but it has this 
+<example>
+        gui * new classGui(nMode);
+        gui->show();
+        app->setMainWidget(gui);
+</example>}
+so details are in classGui.
+** now let's see classGui.cpp **
+
+/!\ NOTE: when axtu first start it is lancher that get executed, you click one button here
+or issue ''$axtu -u''
+
+then axtu/classGui is generated.
+and
+<example>
+classGui::classGui(int nMode)
+</example>
+is aumatically executed.
+<example>
+    
+        btnNext
+        clicked()
+        MainDialog
+        slotNext()
+    
+</example>
+so if we click "Next<<" let's see what will happen
+<example>
+void classGui::slotNext()
+{
+        MoveNextPage();
+}
+</example>
+then
+<example>
+InitRpm()->ShowList()-----------all my step questions have their answers here
+</example>

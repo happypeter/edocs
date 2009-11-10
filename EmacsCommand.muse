@@ -1,0 +1,16 @@
+FrontPage
+
+To see which directories are in your load-path, type 
+<example>
+C-h v load-path 
+</example>
+
+<example> 
+view-echo-area-messages  shows all the startup info
+</example>
+
+<example>
+M-x global-set-key
+</example>
+
+:-) I can  attach ''Cltr+m'' to "moinmoin-mode"

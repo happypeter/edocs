@@ -1,0 +1,35 @@
+FrontPage
+
+ 1.First I install the following packages(using apt-get install xxx):
+
+ 1. xsltproc (the XSL Transformations Processor)
+ 1. docbook-xsl (stylesheets for HTML, XHTML, HTML Help and others)
+ 1. docbook-defguide (The Definitive Guide to DocBook - recommended)
+
+
+ 1. then the file test.xml and the following command
+
+  <example>
+
+ xsltproc -o test.html /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl test.xml
+
+  </example>
+ 1. the use of Makefile is easy
+
+ 1. now I want to use fop to generate PDF file, but fop is java-based, so I need to install java first
+  <example>
+   $apt-get install sun-java6-bin
+  </example>
+   well, fop is not working!
+
+ - LINKS
+
+http://www.oasis-open.org/docbook/documentation/reference/
+
+http://www.docbook.org/tdg/en/html/docbook.html
+
+https://help.ubuntu.com/community/DocBook
+
+now I know how to include other file by using "Xinclude"
+
+http://www.sagehill.net/docbookxsl/ModularDoc.html#UsingXinclude

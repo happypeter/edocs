@@ -1,0 +1,41 @@
+'''Kdocs''' 
+is my brain extended, which means it is the center of all my knowledge.
+
+** Hot Topics **
+ - MoinOrMuse
+ - DocBook
+
+** As a Coder **
+ - DataBackup
+ - PeterTmp sth not important
+ - EmacsUse
+ - UbuntuUse
+ - GnomeTip
+ - FireFox
+*** topics ***
+
+ - DocHowto  about how I take note and something
+ - YumHacking what I am working on
+ - AxtuWeb
+ - AxtuDebug
+
+*** Basic Skills ***
+ - LinuxUsage
+ - SourceForge
+I would also Like to do 
+
+ - MoinHacking
+ - VimHacking
+
+not so important stuff
+
+ - WorkNotes   tips on my daily work
+
+** As a Scholar **
+ - EnglishStudy 
+----
+ built-in pages
+ 
+doing this in vim, but some moin diff feathers maybe malfaction.
+
+ - SiteNavigation: get an overview over this site and what it contains

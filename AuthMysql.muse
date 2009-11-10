@@ -1,0 +1,110 @@
+son of AxtuWeb
+
+refer to apache doc/A.A.A
+
+http://httpd.apache.org/docs/2.0/howto/auth.html#related 
+
+** easist way to do auth **
+nothing to do with mysql 
+ 1. htpasswd -c /usr/local/apache/passwd/passwords peter 
+ 1. Now added the below stuff in conf.d/auth_mysql.conf 
+ <example>
+AuthType Basic 
+AuthName "Restricted Files" 
+AuthUserFile /usr/local/apache/passwd/passwords 
+require user peter  
+ </example>
+ 1. done
+
+** bring mysql into the game **
+
+ 1. I add in httpd.conf, this stuff LoadModule mysql_auth_module modules/mod_auth_mysql.so
+ <example>
+AuthName "MySQL group authenticated zone" AuthType Basic AuthMYSQLEnable on AuthMySQLUser authuser AuthMySQLPassword PaSsW0Rd AuthMySQLDB auth AuthMySQLUserTable users AuthMySQLNameField user_name AuthMySQLPasswordField user_passwd require valid-user
+ </example>
+ 1. do exactly the following stuff
+ <example>
+###################################################################
+# This will enable user-based MySQL authentication of everything 
+# within /var/www.  You'll need to do the following as the MySQL 
+# root user beforehand: 
+# 
+#    CREATE DATABASE auth; 
+#    USE auth; 
+#    CREATE TABLE users ( 
+#      user_name CHAR(30) NOT NULL, 
+#      user_passwd CHAR(20) NOT NULL, 
+#      PRIMARY KEY (user_name) 
+#    ); 
+#    GRANT SELECT 
+#      ON auth.users 
+#      TO authuser@localhost 
+#      IDENTIFIED BY 'PaSsW0Rd'; 
+# 
+#    INSERT INTO users VALUES ('testuser', ENCRYPT('testpass')); 
+#
+######################################################################
+ </example>
+ 1. try to open peter/ in firefox, use this as id and passwd testuser  testpass 
+ 1. then it is done
+
+** axtu case **
+ Below is a redo of the above process, with the concern of axtu case
+ <example>
+ . AuthName "MySQL group authenticated zone" 
+   AuthType Basic 
+   AuthMYSQLEnable on AuthMySQLUser axtu 
+   AuthMySQLPassword axtu 
+   AuthMySQLDB auth AuthMySQLUserTable users 
+   AuthMySQLNameField user_name AuthMySQLPasswordField user_passwd 
+   require valid-user
+ </example>
+then I run >INSERT INTO users VALUES ('axtu',  ENCRYPT('axtu'), 'user');  1. Now  type in testuser and testpass, then failed, which means the next step is necessary 2. GRANT SELECT ON auth.users TO axtu@localhost IDENTIFIED BY 'axtu', you don't need resart apache again here 3. now it works, haha
+
+ try this
+
+mysql>  INSERT INTO users VALUES ('peter', ENCRYPT('111111')); Query OK, 1 row affected (0.01 sec)
+
+also works
+
+
+** important **
+ I failed many times to do the same thing to the offical axtu area 
+
+ https://10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/ 
+
+ until I did the below:
+ <example>
+mysql> GRANT SELECT
+
+ . -> ON asianux_authentication.authentication_info -> TO axtu@localhost -> IDENTIFIED BY 'axtu' -> ;
+
+Query OK, 0 rows affected (0.00 sec)
+</example>
+
+ after the GRANT, I can use  /var/axtu/asianux-auth the UNencrypted tk to open the area - if I do  
+ <example>
+ mysql> INSERT INTO authentication_info VALUES ('peter', ENCRYPT('111111'),'','','','','','','','','','','',''); 
+ </example>
+ then I can use  peter 111111 for test. 
+** 3tips ** 
+** ff **
+ 1. firefox can rember the id&passwd, even you click no when asked whether you want firefox to remember it or not
+
+ . you still need to resart firefox to make things cleared.
+
+ 1. peter 11111
+
+ . bille 22222 xxxxx xxxxx every thing can be right at the same time, what I mean is
+
+ <example>
+
+  AuthMySQLDB auth AuthMySQLUserTable users AuthMySQLNameField user_name
+
+ </example>
+
+ does not sepicify one line of db filed, anything can be the right thing, which means all the ak&tk in asianux_authentication can be used as id&passwd, no matter ip,     hardware info or any other field matches or not.
+
+ 1. tk is always "ENCRYPT"ed, so you can not read the orignal value with phpMyAdime but when you type it into that firefox popup diolog, you just use the orignal value(e.g '111111')
+
+  

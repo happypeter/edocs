@@ -1,0 +1,13 @@
+FrontPage
+
+son of DocHowto
+
+I see keep things small is really good for wiki
+
+one topic one page
+
+it is easy to reorganize,
+
+big pages with many topics are not easy to link to
+
+even you have links to each topic, but if one day you edit this page, and the sequence of these topics is changed, then some links are dead

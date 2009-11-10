@@ -1,0 +1,6 @@
+Rezound
+
+ 1. How to make sound louder? voice recorded by gnome-sound-recorder is simple not loud enough
+      Filters->Arbitary Filter
+ 1. cool effect
+      Effect->simple delay(echo) 

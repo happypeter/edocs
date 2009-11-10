@@ -1,0 +1,8 @@
+FrontPage
+
+Note the about link, i get this by changing 
+<example>
+pet@pet-desktop:~/moin-1.8.5/MoinMoin$ vim PageEditor.py
+</example>
+
+AnotherTmp

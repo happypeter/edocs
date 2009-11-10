@@ -1,0 +1,78 @@
+FrontPage
+
+ - EmacsInit
+*** face customization ***
+<example>
+M-x list-faces-display
+</example>
+ 
+**** install twilight ****
+http://github.com/crafterm/twilight-emacs
+
+but this requires ''color-theme'', which used to be a ubuntu package
+'''emacs-color-themes'''
+
+but as I checked here
+
+http://packages.ubuntu.com/jaunty/editors/
+
+this package is no longer available in 9.04, must be provided by sth
+
+but I do not know
+
+ - install ''color-theme'' is actually easy:
+ 1. have ''.emacs'' like this
+ <example>
+(add-to-list 'load-path "/home/pet/color_theme_peter")
+(require 'color-theme)
+(color-theme-initialize)
+(load-file "~/.emacs.d/twilight-emacs/color-theme-twilight.el")
+(color-theme-twilight)
+ </example>
+ 1. natrually, I need this as well
+ <example>
+pet@girl:~/color_theme_peter$ ls
+color-theme.el  themes
+pet@girl:~/color_theme_peter$ ls themes/
+color-theme-example.el  color-theme-library.el
+pet@girl:~/color_theme_peter$ 
+ </example>
+resart emacs, it works :-)
+
+*** More Trick ***
+**** Fullscreen ****
+http://www.emacswiki.org/emacs/FullScreen#toc1
+I actually use this:
+ - install windows manager
+ <example>
+pet@girl:~$ sudo apt-get install wmctrl
+ </example>
+ - ''.emacs'' looks
+ <example>
+ ;; peter--full screen
+    (defun switch-full-screen ()
+      (interactive)
+      (shell-command "wmctrl -r :ACTIVE: -btoggle,fullscreen"))
+
+    (global-set-key [f11] 'switch-full-screen)
+ </example>
+**** hide toolbar ****
+<example>
+M-x tool-bar-mode
+</example>
+
+if I add 
+<example>
+(tool-bar-mode)
+</example>
+into ''.emacs'', this is done automatically
+and I can get the tool bar back if I want, by run the command again
+
+I finally have this in my ''.emacs''
+<example>
+;; run this in order to hide toolbar...
+(tool-bar-mode)
+(menu-bar-mode)
+(scroll-bar-mode)
+(switch-full-screen)
+</example>

@@ -1,0 +1,84 @@
+FrontPage
+
+here I want to add vim as the editor for moin
+
+so what is visible in editor is actually in a tmp file, it is only saved to the real page in data/pages/ when "Save Changes" is clicked.
+
+So now I need to find out where the tmp file is.  when client side user click "Edit(text)", I just add
+
+<example>
+import os
+os.system("vim cur_file") #current file means the file opened by Moin's own editor
+</example>
+I think I can also flash Moin's editor the moment vim quit. I add
+
+<example>
+gggggggg
+</example>
+to this page, and search in pet's home dir and found it is in
+
+<example>
+./.mozilla/firefox/mkyaxt0x.default/sessionstore.js
+</example>
+/!\ but this file only contains "ggggggg", everything else is not found. now it gets difficult.
+
+:-0so I just give up finding some tmp file.
+
+** Better way **
+ 1. below I just let vim open the real current file,
+ 1. and after vim quite, then moin editor will read the modified version of '''current''',
+ 1. this may produce some confusion when moin tries to generate diff, but basically it works.
+ <example>
+--------------------------- MoinMoin/action/edit.py ---------------------------
+index ad45d47..de4a288 100644
+@@ -10,7 +10,6 @@
+ """
+...
+     else: # 'text'
++        import os
+         from MoinMoin.PageEditor import PageEditor
+...
+-        cmd * "vim "+pagename
++        re_path * "wiki/data/pages/"+pagename #not absolute path
++        f * open (re_path+"/current","r")
++        revision * f.read() #get revision num
++        file_name * re_path+"/revisions/"+revision
++        cmd * "vim "+file_name
++         os.system(cmd)
+</example>
+
+** Problem **
+is vim is also invoked when you click '''Save Cancle ...'''
+
+actually problems like above can be soloved like this, maybe stupidly
+<example>
+--------------------------- MoinMoin/action/edit.py ---------------------------
+index ae6e39e..3b3aee3 100644
+@@ -84,7 +84,8 @@ def execute(pagename, request):
+         pg * PageEditor(request, pagename)
+         if cancelled:
+             pass
+-
++        if savetext is not None: 
++            pass
+         else:
+             import os
+             print "---PageEditor------------------------------"
+</example>
+
+
+And I actually tried gvim as well, but end up not satisfied with the result, there were too many problems
+<example>
+pet@girl:~$ gvim
+pet@girl:~$ gvim ss
+pet@girl:~$ sudo apt-get install vim-python
+</example>
+
+So I will give up!
+** Solution **
+haha, I finally got the cure of all my pain
+https://addons.mozilla.org/en-US/firefox/addon/4125
+
+and to make the thing perfect, people also made a emacs mode for
+'''moin  editing''' , it goes here
+http://moinmo.in/EmacsForMoinMoin#preview

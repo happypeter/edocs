@@ -1,0 +1,16 @@
+FrontPage
+
+** shutcut **
+
+<example>
+Alt + F2---Displays the Run Application dialog. 
+Alt + Print Screen----Takes a screenshot of the window that has focus. 
+</example>
+
+<example>
+Alt + Tab  
+Alt + Esc  
+Ctrl + Alt + left arrow  
+
+
+</example>

@@ -1,0 +1,5 @@
+son of VideoEdit
+
+ 1. how to save what you've done file->render
+ 1. Import image Settings->Preferences->recording->images-5Second
+ 1. drag and drop very usefu, see manual for details 

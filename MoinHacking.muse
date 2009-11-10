@@ -1,0 +1,17 @@
+son of FrontPage
+
+
+
+Here we care about the implematation of Moin, in order to do some modification
+
+user-level general issues can be found at DocHowto
+
+** Tech Points **
+ - XmlRpc
+ - WhatNeedBackup
+ - EditLog
+** Config **
+ - AddVim
+ - ThemeEdit
+** Bugs **
+ - NavigationMacro

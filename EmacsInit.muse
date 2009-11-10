@@ -1,0 +1,45 @@
+FrontPage
+
+here is my current ''.emacs'' file
+
+<example>
+     (setq muse-project-alist
+           '(("Website" ("~/Pages" :default "index")
+              (:base "html" :path "~/public_html")
+              (:base "docbook" :path "~/public_html/docbook"))))
+
+;; Twilight Colour Theme for Emacs.
+;;
+;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.
+;; To use add the following to your .emacs file (requires the color-theme package):
+;;
+;; (require 'color-theme)
+;; (color-theme-initialize)
+;; (load-file "~/.emacs.d/twilight-emacs/color-theme-twilight.el")
+(add-to-list 'load-path "/home/pet/color_theme_peter")
+(require 'color-theme)
+(color-theme-initialize)
+(load-file "~/.emacs.d/twilight-emacs/color-theme-twilight.el")
+(color-theme-twilight) 
+
+;; peter--full screen
+    (defun switch-full-screen ()
+      (interactive)
+      (shell-command "wmctrl -r :ACTIVE: -btoggle,fullscreen"))
+
+    (global-set-key [f11] 'switch-full-screen)
+
+;; run this in order to hide toolbar...
+(tool-bar-mode)
+(menu-bar-mode)
+(scroll-bar-mode)
+(switch-full-screen)
+</example>
+
+set key !!!
+<example>
+
+like C-c r by adding this to your ~/.emacs:
+
+  (global-set-key (kbd "C-c r") 'remember)
+</example>

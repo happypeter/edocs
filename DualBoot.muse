@@ -1,0 +1,17 @@
+son of LinuxUsage
+
+ 1. install ubuntu first
+ 1. install asianux S3SP1
+ 1.
+ <example> 
+vim /etc/fstab -----on asianux
+dev/sda6               /mnt/ubuntu             ext3    defaults        0 0
+ </example>
+ add the above line to its tail, then automount is set.
+ 1. find the xen kernel boot Entry in asiannux:/boot/grub
+   add it to ubuntu grub.conf
+ 1. you need to
+ <example>
+[root@dhcp17 ubuntu]# mount -f /dev/sda2 /mnt/ubuntu/boot/
+ </example>
+ before you see anything in /mnt/ubuntu/boot/

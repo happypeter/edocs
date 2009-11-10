@@ -1,3 +1,7 @@
+FrontPage
+
+- RsyncTip
+
 Now I have EmacsMuse and GitHub together to proform NoteTaking
 
 I shall say I am quite satisfied.

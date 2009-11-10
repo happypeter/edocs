@@ -1,0 +1,6 @@
+FrontPage
+ Outlines allow a document to be organized in a hierarchical structure, 
+
+ which (at least for me) is the best representation of notes and thoughts.
+
+ An overview of this structure is achieved by folding (hiding) large parts of the document to show only the general do

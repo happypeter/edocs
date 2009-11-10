@@ -1,7 +1,8 @@
 ** edocs 
+ 
  - is son of kdocs in the form of [[EmacsMuse][Emacs Muse]]
  - is my [[KnowledgeBase][KB]]
-
+ - [[FrontPage]]
 *** Table
  - [[PortFromMoin][Prot form moin]]
  - [[DataBackup][About data backup]]

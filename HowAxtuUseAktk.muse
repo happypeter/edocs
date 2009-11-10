@@ -1,0 +1,47 @@
+son of AxtuWeb
+
+axtu-auth-client will save ak and tk into two files so that axtu can use them
+<example>
+ak /var/axtu/asianux-auth
+tk /var/axtu/tmp/axTK19799            
+</example>
+/!\ TK will change every time you connect server,you can write it into debuglog if you want it(bool classAuthen::SetTk(void))
+                                   
+
+then axtu will read ak&tk 
+by
+<example> 	
+if(m_clsAuth->GetAK(m_strUserId) && (m_clsAuth->GetDontGetTk()?true:m_clsAuth->GetTK(m_strUserPass))))
+ak is pass to   m_strUserId
+tk to           m_strUserPass
+</example>
+used this way
+        m_clsDown->setUser(m_strUserId);
+        m_clsDown->setPass(m_strUserPass);
+***
+hack into ./libs/classDownloader.cpp
+then we see
+<>
+const int user_max_length * 32;
+
+const int pass_max_length * 16;//why 16 here, since tk is also 32 bit??
+
+...
+void classDownloader::setUser(string strUser)
+{
+        strncpy(opt.user,strUser.c_str(),user_max_length+1); 
+}
+
+/-!
+@brief A user Password is set.
+
+To download the files from server protected by mod_auth_mysql.
+@param strPass - user Password
+-/
+void classDownloader::setPass(string strPass)
+{
+        strncpy(opt.passwd,strPass.c_str(),pass_max_length+1);
+}
+
+
+then the struct opt is passed to wget

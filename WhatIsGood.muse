@@ -1,0 +1,17 @@
+Describe WhatIsGood here.
+
+A side-effect is AccidentalLinking, which is a GoodThing(tm).
+
+go back to FrontPage
+
+Why Peter choose to use wiki? and why Moin?
+
+A: I choose wiki, since wiki means quick, if there will be sth quicker, I will switch
+
+I love wikipedia so much, so dream of owning one
+I need to customize the wiki of course, so I need to use sth based on python
+check here
+
+http://en.wikipedia.org/wiki/List_of_wiki_software#Python-based
+
+then it is obvious MoinMoin is really what I need

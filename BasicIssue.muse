@@ -1,0 +1,62 @@
+Describe BasicIssue here.
+MySQL
+mysql -uroot -p
+show databases;
+use databasename;
+
+
+>create table new_register_info(asianux_number char(40) NOT NULL,product_number char(40),product_type char(10),licence_figure int(11),reg_date datetime,exp_date datetime,primary key(asianux_number));
+>insert into new_register_info(asianux_number,product_number,product_type,licence_figure,reg_date,exp_date) (select asianux_number,product_number,product_type,licence_figure,reg_date,exp_date from register_info);
+
+
+
+
+>>>
+/etc/my.cnf
+
+$mysqldump  dbname> xxx.sql
+$mysql dbnameno
+
+then big problems, I can not change anything even as root
+
+when I try
+$mysql mysql < mysql.sql
+the error: not permission
+so I delete mysql.user table.
+then reboot the machine.
+Now the error is ".../../sock" can not open
+I can not open mysql at all.
+I check and found
+/var/lib/mysql/mysql/
+there are many MYD file for all other tables of mysql
+but not the "user" I deleted.
+so I trying to convert my back up mysql.sql into MYD files,
+but people on net say there is no way to do that unless you run mysql again.
+
+---------------
+Now I start my virtualbox sp1:
+then
+$mysql
+and I see the the same 'socket not open' error
+then I
+$service mysqld start
+now login succeed.
+
+SO I copy all the user files to 155,
+and restart the machine,
+run mysql, then fail again
+but then I issue
+/var/lib/mysq/mysql/
+$ll
+-rw-rw----  1 mysql mysql   1024 Apr 21 21:30 time_zone_transition_type.MYI
+-rw-r-----  1 mysql root   10330 Apr 26 09:05 user.frm
+-rw-r-----  1 mysql root     208 Apr 26 09:05 user.MYD
+-rw-r-----  1 mysql root    2048 Apr 26 09:05 user.MYI
+
+so I need to change owner//the write access is not a problem, cause it is the same on my virtual sp1
+$chgrp -c mysql user.-
+$chown -c mysql user.-
+reboot 155----------"service mysqld restart" does not work well on 155
+now mysql is alive---hahahahahha
+
+

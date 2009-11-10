@@ -1,0 +1,22 @@
+son of FrontPage
+
+Most important topics
+
+ - AddAuth
+ - GetMethod
+ - OpenAuthMysqlArea
+
+Many things to do, here is a list
+
+ - CreatRepo   my test
+ - PackageKit  not much
+ - UnclassifiedTips
+ - DownLoad   how Yum download pkgs
+ - KernelRelatedIssue
+ - PlugIn  I need to write one for auth
+ - UbuntuJoke a little naughty right?
+ - ObsoleteTag
+
+sth not classified
+
+ - HwaniiPpt

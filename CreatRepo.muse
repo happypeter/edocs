@@ -1,0 +1,45 @@
+son of YumHacking
+
+<example>
+git clone http://createrepo.baseurl.org/git/createrepo.git
+</example>
+http://www.informit.com/articles/article.aspx?p*440160       set up a yum repo--HOWTO /etc/yum
+
+** Use creatrepo on AX3SP1 **
+ 1. change /etc/yum.repo.d/asianux.repo
+ baseurl * http://127.0.0.1/peter
+ 1. I put xpdf  into the dir in asianux.repo
+ 1. $creatrepo
+ 1. run 
+ <example> 
+ $yum list
+ </example>
+ then I see the right info
+
+ 1. but when I copy sos into peter/
+
+ then $creatrepo
+
+ 1. $yum list can only give the xpdf info, even though I rm xpdf and run $creatrepo again
+ 1. delete all the xml in /var/cache/yum, now it is OK
+
+** tips **
+ 1. AX3SP1 has creatrepo installed as default
+ 1. yum-arch is not, since it is considered obselete
+ 1. /etc/yum.conf**/etc/axtu/axtu.conf
+
+mv what's in
+
+<example>
+/etc/yum.repo.d/asianux.repo
+</example>
+to ''/etc/yum.conf''
+
+then everything still works, good
+
+<example>
+$yum list available --------run this to test if the repo is found or not
+
+baseurl * http://127.0.0.1/peter     ---------works
+baseurl * http://10.1.0.155/peter     ---------works
+</example>

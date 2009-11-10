@@ -1,0 +1,17 @@
+FrontPage
+
+ 1. count line num
+ <example>
+awk 'END {print NR}' infile
+ </example>
+
+ 1. get part of a line
+ <example>
+pet@girl:~$ cat infile 
+5287:6033
+pet@girl:~$ awk -F":" '{ print $1 }' infile 
+5287
+pet@girl:~$ 
+ </example>
+
+check KillMoin as a real world example

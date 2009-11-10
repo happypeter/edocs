@@ -1,0 +1,6 @@
+FrontPage
+
+Yesterday I modified pages/ at home, and when I am in office, I do a git push
+and updates some wiki pages, but in brower, I still have only the old pages, even I clicked the refresh button
+
+'' action->delete cache '' is required actually

@@ -1,5 +1,0 @@
-Yum is my work
-
-[[AddAuth][add auth module]]
-
-[[GetMethod][the GET method]]
