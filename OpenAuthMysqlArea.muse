@@ -1,57 +1,58 @@
 son of YumHacking
 
-** Steps **
- 1. goto
+** Steps 
+goto
  <example>
  10.1.0.64/auth/asianux2/AXS3-RF/x86_64/
  </example>
- run $createrepo UPDATE
+run 
+<example>
+$createrepo UPDATE
+</example>
+goto */etc/yum.repos.d/*  there is FILE named *asianux.repo*
 
- 1. goto
- ''/etc/yum.repos.d/'' the FILE named 'asianux.repo'
-
- <example>
+<example>
 [core]
 name*Asianux Server 3
-baseurl*http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
-enabled*1
-gpgcheck*1
-gpgkey*file:///usr/share/doc/asianux-release/RPM-GPG-KEY
- </example>
-** test **
- 1. now the final test 
+baseurl=http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+enabled=1
+gpgcheck=1
+gpgkey=file:///usr/share/doc/asianux-release/RPM-GPG-KEY
+</example>
+
+** test 
+now the final test 
  <example>
  $yum list
  </example>
- works
+works
 
- 1. if
+if
  <example>
-   ---baseurl*http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
-   +++baseurl*http:///auth/asianux2/AXS3-RF/x86_64/UPDATE/
+   ---baseurl=http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+   +++baseurl=http:///auth/asianux2/AXS3-RF/x86_64/UPDATE/
  </example>
- then
+ 
+then
 
  <example>
  HTTP Error 401: Authorization Required
  </example>
 
-** note **
+** note 
 
 careful about the cache, it will ruin your test, so do this, when things go strange
-
  <example>
 [root@dhcp08 yum]# rm -rf core/
 [root@dhcp08 yum]# pwd
 /var/cache/yum
- </example>
+</example>
 
-** solution **
- 
+** solution 
 
- 1. use auth-client get ak file and tk file, see AddAuth
- 1. write python code get ak and tk, and modify this way 
+use auth-client get ak file and tk file, see AddAuth
+write python code get ak and tk, and modify this way 
  <example>
-   baseurl*http://ak:tk@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/ 
+  baseurl=http://ak:tk@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/ 
  </example> 
- 1. yum will work fine with the new url, like the test above goes, to do everything as it can be done with common url
+yum will work fine with the new url, like the test above goes, to do everything as it can be done with common url

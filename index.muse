@@ -1,7 +1,6 @@
-** edocs 
- 
- - is son of kdocs in the form of [[EmacsMuse][Emacs Muse]]
- - is my [[KnowledgeBase][KB]]
- - see  [[FrontPage]] for table of contents
+see  [[FrontPage]] for table of contents
 
 
+** what is hot ?
+ - [[YumHacking]]
+ - [[vocabulary]]

@@ -1,6 +1,6 @@
 son of YumHacking
 
-GET sends the data as part of the URL. For example, suppose you enter the value "West Rochester" in this form below:
+GET sends the data as part of the URL.
 
 
 add auth is now simple, since we have axtu-auth-client.
@@ -15,4 +15,5 @@ I believe it is auth-server that is responsible to open the auth_mysql area.
 
 /!\ NO, both auth-client and auth-server are already dead then
 
-and auth_server simply get AK&&TK via some simple method like GET or POST (maybe crypted).
+auth_server simply get AK&&TK via some simple method like GET or POST (maybe encrypted).
+

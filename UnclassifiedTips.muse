@@ -7,6 +7,8 @@ Q. 9: How does yum handle updates/installs on x86_64 machines?
 A. There are times when it is beneficial to have both 32 and 64 bit versions of a package installed on a machine such as when another package only has a 32bit version and needs to access 32bit libraries of something that you would normally only install the 64bit package. So, if you do "yum install foo" then you will get both foo.i386.rpm and foo.x86_64.rpm installed on your system. This is the desired behavior in most cases even if it takes up more disk space. If you do a "yum install foo.x86_64" then you will only get the x86_64 package.
 </example>
 
-Nice Yum docs go here
+** Nice Yum docs go here
 
 https://www.opensource.com/docs/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/c1-yum.html
+
+up2date is now deprecated in favor of yum (Yellowdog Updater Modified). The entire stack of tools which installs and updates software in Red Hat Enterprise Linux 5.2 is now based on yum. This includes everything, from the initial installation via Anaconda to host software management tools like pirut
