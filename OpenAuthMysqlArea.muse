@@ -20,6 +20,8 @@ gpgcheck=1
 gpgkey=file:///usr/share/doc/asianux-release/RPM-GPG-KEY
 </example>
 
+NOTE: check [[AuthMysql]] to see how to insert stuff in db
+
 ** test 
 now the final test 
  <example>
@@ -30,7 +32,7 @@ works
 if
  <example>
    ---baseurl=http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
-   +++baseurl=http:///auth/asianux2/AXS3-RF/x86_64/UPDATE/
+   +++baseurl=http://10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
  </example>
  
 then

@@ -2,7 +2,6 @@
  - [[EmacsGit][Git working with Emacs]]
  - EmacsCommand
  - InstallTheme
- - EmacsInit
  - [[EmacsConfig]]
 ** Modes
  - EmacsMoin

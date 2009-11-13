@@ -1,5 +1,7 @@
-Describe BasicIssue here.
-MySQL
+
+MySQL Basic Operation
+
+<example>
 mysql -uroot -p
 show databases;
 use databasename;
@@ -58,5 +60,4 @@ $chgrp -c mysql user.-
 $chown -c mysql user.-
 reboot 155----------"service mysqld restart" does not work well on 155
 now mysql is alive---hahahahahha
-
-
+</example>

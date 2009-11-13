@@ -120,35 +120,96 @@ tk is changed, though it is in encrypted form.
 
 ** A tale of three errors:
 Now ak and tk are all available, I now try to change baseurl,
-
+<example>
 [root@dhcp05 yum.repos.d]# vim asianux.repo
-
- then run
+</example>
+then run
 <example>
 [root@dhcp05 yum.repos.d]# yum list
 </example>
-when the ip is changed to 54
+
 
 <example>
 [Errno 14] HTTP Error 404: Not Found
+//when the ip is changed to 54
 
-when nothing is changed
 
 Errno 14] HTTP Error 401: Authorization Required
+//when nothing is changed
 
-
-when use ak:tk@10.1.0.55
-         tk:ak@10.1.0.55  //same thing
+        
 [Errno 14] HTTP Error 400: Bad Request
+//when use ak:tk@10.1.0.55
 
 
-baseurl=http://426994C693EAA75344:760@10.1.0.55/auth/asianux2/AXS3-RF/x86_64/UPDATE/
 [Errno 14] HTTP Error 401: Authorization Required
+//when baseurl=http://426994C693EAA75344:760@10.1.0.55/auth/asianux2/AXS3-RF/x86_64/UPDATE/
 </example>
 
+
+NOTE:the **GRANT** issue fooled me again, see here [[AuthMysql]]
 
 ** try wget first
 
 maybe I'd better try wget to download some package to see if the modified *baseurl* is right or not
 
 see [[OpenAuthArea]] for this
+
+** news
+<example>
+[root@dhcp05 axtu]# wget --no-check-certificate https://426994C693EA41C2B9D77F1760A75344:9EDEBD84EEBB477693E43D8E185791AB@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm
+--05:52:07--  https://426994C693EA41C2B9D77F1760A75344:*password*@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm
+Connecting to 10.1.0.66:443... connected.
+WARNING: cannot verify 10.1.0.66's certificate, issued by `/C=--/ST=SomeState/L=SomeCity/O=SomeOrganization/OU=SomeOrganizationalUnit/CN=localhost.localdomain/emailAddress=root@localhost.localdomain':
+  Self-signed certificate encountered.
+WARNING: certificate common name `localhost.localdomain' doesn't match requested host name `10.1.0.66'.
+HTTP request sent, awaiting response... 200 OK
+Length: 118514 (116K) [application/x-rpm]
+Saving to: `sos-1.7-9.16.2AXS3.noarch.rpm'
+
+100%[====================================================================================>] 118,514     --.-K/s   in 0.004s
+
+05:52:08 (26.1 MB/s) - `sos-1.7-9.16.2AXS3.noarch.rpm' saved [118514/118514]
+
+
+[root@dhcp17 x86_64]# createrepo UPDATE  // on server
+
+
+
+[root@dhcp05 yum.repos.d]# wget --no-check-certificate  http://426994C693EA41C2B9D77F1760A75344:9EDEBD84EEBB477693E43D8E185791AB@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/repodata/repomd.xml
+--06:00:23--  http://426994C693EA41C2B9D77F1760A75344:*password*@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/repodata/repomd.xml
+Connecting to 10.1.0.66:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 951 [text/xml]
+Saving to: `repomd.xml'
+
+100%[====================================================================================>] 951         --.-K/s   in 0s
+
+06:00:23 (101 MB/s) - `repomd.xml' saved [951/951]
+
+//but even in yum.repo.d, I have this
+
+baseurl=http://426994C693EA41C2B9D77F1760A75344:9EDEBD84EEBB477693E43D8E185791AB@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+//and firefox also likes the above url.
+
+//but stll this error, when I run $yum list
+
+Errno 14] HTTP Error 400: Bad Request
+
+but when I use peter:111111 for baseurl, yum list done, haha, why?
+
+I even paied specieal care to /var/cache/yum/, but same solution.
+</example>
+SO if I run mysql command manually to insert aktk into db, I believe it will work out for yum, 
+since peter:111111 already works
+ 
+it must be that axtu only use the upper 16 bits of tk to update db, which causes this peoblem
+
+so I need to study tk a little more.
+
+NOTE: one thing worth noting is that you do
+<example>
+mysql>  INSERT INTO authentication_info VALUES ('testtk3', ENCRYPT('9EDEBD84EEBB477693E43D8E185791AB'),'','','','','','','','','','','','');
+
+</example>
+everytime you get differnt output in phpMyAdmin of the encryped filed (tk, to be specific), even though you are inserting the same value.

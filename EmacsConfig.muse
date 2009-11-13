@@ -5,6 +5,8 @@ I actually use this:
  - install windows manager
  <example>
 pet@girl:~$ sudo apt-get install wmctrl
+
+NOTE: wmctrl= Window Manager CTRL
  </example>
  - ''.emacs'' looks
  <example>
@@ -37,20 +39,7 @@ I finally have this in my ''.emacs''
 </example>
 
 *** better way to do full screen
-I want a full-screen emacs, so firstly I add this into *.emacs*
-<example>
-;; peter--full screen
-    (defun switch-full-screen ()
-      (interactive)
-      (shell-command "wmctrl -r :ACTIVE: -btoggle,fullscreen"))
 
-    (global-set-key [f11] 'switch-full-screen)
-
-;; run this 
-(switch-full-screen)
-</example>
-
-it works, but later I find the below way is better
 <example>
 emacs -fs
 </example>

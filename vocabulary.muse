@@ -1,20 +1,30 @@
 [[index][Index]]
 
-Metadata is "data about data", basiclly can be considered as infomation. see http://www.linfo.org/metadata.html
+Metadata ::
+
+ is "data about data", basiclly can be considered as infomation. see http://www.linfo.org/metadata.html
 
 Bit is short for Binary digit
 
 
-Unicode (which attempts to provide a unique encoding for every character used by the world's languages). 
+Unicode ::
+
+ (which attempts to provide a unique encoding for every character used by the world's languages). 
 
 http://en.wikipedia.org/wiki/Character_encoding
 Common examples of character encoding systems include Morse code, the Baudot code, the American Standard Code for Information Interchange (ASCII) and Unicode.
 
 ASCII) was introduced in 1963 and is a 7-bit encoding scheme
 
-UTF-8 (8-bit UCS/Unicode Transformation Format) 
+UTF-8 ::
 
-** sack
-a big back
-*** e.g
+ (8-bit UCS/Unicode Transformation Format) 
+
+sack ::
+
+a big bag
+
+e.g
+
+
 rpmsack.py

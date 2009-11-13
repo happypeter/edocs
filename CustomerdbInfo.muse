@@ -1,7 +1,8 @@
-Describe CustomerdbInfo here.
-Report to Hwanii
 
+Report to Hwanii
+<example>
 What should be in Customer db
+
 1. product number
 
 2. userID and passwd
@@ -35,3 +36,4 @@ What should be in Customer db
 4.connect_info
 	>. we need to add info here
 	>. they are not in customer db
+</example>

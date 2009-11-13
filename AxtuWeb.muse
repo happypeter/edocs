@@ -3,7 +3,7 @@ son of FrontPage
 AxtuWeb is the well organized stuff out of AxtuDebug
 
 
-
+** Axtu
  1. SuccessLog
  1. AxtuSteps
  1. BlackList
@@ -25,7 +25,6 @@ AxtuWeb is the well organized stuff out of AxtuDebug
 
  1. [[Clone155Howto]]
  1. CustomerdbInfo
- 1. UntypedTips
  1. BasicIssue 
 
 ** General Issues 

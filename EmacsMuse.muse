@@ -1,7 +1,7 @@
 FrontPage
 son of [[Emacs]]
 
-
+ - [[MuseFormat]]
  - [[EmacsGit][Emacs Git]] 
  - [[EmacsMuseSills][Muse Basic Commands]]
  - [[MuseCss][Muse Style]]
