@@ -56,3 +56,5 @@ write python code get ak and tk, and modify this way
   baseurl=http://ak:tk@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/ 
  </example> 
 yum will work fine with the new url, like the test above goes, to do everything as it can be done with common url
+
+see [[OpenAuthArea]] for more info

@@ -1,0 +1,154 @@
+** everything is right
+
+only need to add auth part, which equals adding aktk to *baseurl*
+
+<example>
+[root@dhcp05 yum.repos.d]# yum list
+Loading "auth" plugin
+Loading "installonlyn" plugin
+
+// the following stuff come form auth plugin
+authen_key = 26E354BDC5744E25852B035A3F92302D
+
+Usage: axtu-authen-client-cui [OPTION...]
+  -t, --tk-path=STRING            follow with file path for temporary-key
+  -a, --address-path=STRING       follow with file path for repository
+                                  addresses
+  -i, --id=STRING                 follow with Your member Id
+  -p, --password=STRING           follow with Your password for member ID
+  -n, --product-number=STRING     follow with your product number
+  -s, --system-name=STRING        follow with your system name
+  -d, --disable-collect-info      You may not allow sending the system
+                                  information to server.
+  -r, --remove-key                You can remove the authentication key in
+                                  your system.
+// auth module ends here
+Setting up repositories
+http://10.1.0.55/auth/asianux2/AXS3-RF/x86_64/UPDATE/repodata/repomd.xml: [Errno 14] HTTP Error 401: Authorization Required
+Trying other mirror.
+Error: Cannot open/read repomd.xml file for repository: core
+[root@dhcp05 yum.repos.d]# ls
+asianux.repo  asianux.repo.64  asianux.repo.bak
+</example>
+
+//if you see *Authorization Required*, that means everything is alright
+
+** need this
+<example>
+[root@dhcp05 pluginconf.d]# ls
+auth.conf  hello.conf  installonlyn.conf
+[root@dhcp05 pluginconf.d]# pwd
+/etc/yum/pluginconf.d
+</example>
+<example>
+[root@dhcp05 yum.repos.d]# vim asianux.repo
+
+[core]
+name=Asianux Server 3
+baseurl=http://10.1.0.55/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+enabled=1
+gpgcheck=1
+gpgkey=file:///usr/share/doc/asianux-release/RPM-GPG-KEY
+</example>
+
+** server side
+
+server IP: 10.1.0.55
+
+and the rest is just a 155 clone + creatrepo
+
+** when tk is produced ?
+the process is:
+
+first time you run this
+<example>
+/usr/share/axtu-authen-client/bin/axtu-authen-client-cui -i user3 -p abc123 -n 203T5-44QG2-0000N-383LN-MGN2Q
+</example>
+ak is generated and saved in */var/axtu/asianux-auth*, but tk is not obtained.
+
+then I run
+
+<example>
+[root@dhcp05 ~]# axtu
+</example>
+
+right after I click **UPDATE**, tk is got
+
+my own vmware server IP: 10.1.0.55, has a little problem:
+
+when I use 246, tk is read out by my little program
+
+<example>
+#!/usr/bin/python
+import os
+while 1:
+    os.system("ls tmp >tt.txt")
+    tk_filename = open("tt.txt").readline()
+    if tk_filename:
+        print "got you !"
+        tk_filename = tk_filename.rstrip() #remove trailing "\n"
+        tk = open("tmp/"+tk_filename).readline()
+        print tk
+        break
+</example>
+
+but when connecting to my 55, I first time endup with a error:
+<example>
+[root@dhcp05 axtu]# ./tk.py
+got you !
+Traceback (most recent call last):
+  File "./tk.py", line 10, in ?
+    tk = open("tmp/"+tk_filename).readline()
+IOError: [Errno 2] No such file or directory: 'tmp/authentication.php'
+[root@dhcp05 axtu]#
+</example>
+
+NOTE: when I see the above error, tk file in phpMyAdmin is empty
+this means a error has occured, strange thing is this is not always reproducable.
+it is very easy to get tk right.
+
+but second time is ok, I do not know why, but I got this:
+
+<example>
+[root@dhcp05 axtu]# ./tk.py
+got you !
+76008789811B419580C21762F7A8997C
+[root@dhcp05 axtu]#
+</example>
+and I realtimely checked through *https://10.1.0.55/phpAdmin*
+tk is changed, though it is in encrypted form.
+
+** A tale of three errors:
+Now ak and tk are all available, I now try to change baseurl,
+
+[root@dhcp05 yum.repos.d]# vim asianux.repo
+
+ then run
+<example>
+[root@dhcp05 yum.repos.d]# yum list
+</example>
+when the ip is changed to 54
+
+<example>
+[Errno 14] HTTP Error 404: Not Found
+
+when nothing is changed
+
+Errno 14] HTTP Error 401: Authorization Required
+
+
+when use ak:tk@10.1.0.55
+         tk:ak@10.1.0.55  //same thing
+[Errno 14] HTTP Error 400: Bad Request
+
+
+baseurl=http://426994C693EAA75344:760@10.1.0.55/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+[Errno 14] HTTP Error 401: Authorization Required
+</example>
+
+
+** try wget first
+
+maybe I'd better try wget to download some package to see if the modified *baseurl* is right or not
+
+see [[OpenAuthArea]] for this

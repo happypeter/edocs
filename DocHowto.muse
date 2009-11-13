@@ -10,9 +10,10 @@ son fo FrontPage
  - [[MoinMoin]]
  - [[doxygen]]
  - [[Emacs]]
-
+ 
 
 ** Phylosophy
  - [[dream][I have a dream]]
  - [[anounce]]
  - DocGuideline
+ - [[AxtuManifesto]]

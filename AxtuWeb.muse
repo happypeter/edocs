@@ -1,50 +1,34 @@
 son of FrontPage
 
 AxtuWeb is the well organized stuff out of AxtuDebug
-''' Welcom to Project AXTU '''
 
 
-
-** Intro
-
-AXTU is short for "Asianux TSN Updater"
-
-TSN is in turn short for "Technical Support Network"
-
-** Getting Started 
-
-*** About this doc 
-
-Software needs its own doc. Linux Kernel uses docbook, my Project Tinylion uses wiki, all nice. But you need to install realted software to write or read these things, so I decide to use html format for this doc, since all computers have browers, so everybody can read it.
-
-Everything shall be kept as easy as possible, I do not use CSS, I will use bluefish to edit my pages, but I will keep the format simple enough to gurantee my own freedom to modify the docs without bluefish 
-*** axtu 
 
  1. SuccessLog
  1. AxtuSteps
  1. BlackList
  1. HowAxtuUseAktk 
 
-*** Auth Client ***
+** Auth Client 
 
  1. OnYum
  1. HwaniiAuth
  1. MakeInstall 
 
-*** Auth Server ***
-**** ApacheTip ****
+** Auth Server 
+*** ApacheTip 
  1. AuthMysql
  1. OpenAuthArea
  1. DataBase 
 
-**** mysql ****
+*** mysql 
 
  1. [[Clone155Howto]]
  1. CustomerdbInfo
  1. UntypedTips
  1. BasicIssue 
 
-*** General Issues 
+** General Issues 
 
  1. PortInUse
  1. CornUsage

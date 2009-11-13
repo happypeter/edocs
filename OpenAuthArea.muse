@@ -17,3 +17,5 @@ the above still works, but if you remove again the last char
 2
 </example>
 then it will fail
+
+see [[OpenAuthMysqlArea]] for more

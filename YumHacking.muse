@@ -5,6 +5,7 @@ Most important topics
  - AddAuth
  - GetMethod
  - OpenAuthMysqlArea
+ - [[AuthOverView]]
 
 Many things to do, here is a list
 
