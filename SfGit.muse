@@ -1,0 +1,119 @@
+** NOT in use now
+I am for now not using sf git repo due to the following error:
+
+whatever I do to any sourceforge git url,
+if I "git push" or "git clone ssh://happypeter@vivion.git.sourceforge.net/gitroot/vivion"
+<example>
+fatal: '/gitroot/tinylion': unable to chdir or not a git archive
+</example>
+
+Is this because I used "ssh sf" just now and did sth wrong?
+
+** tips
+=Project Admin->Feather Setting->Enable Git=
+
+then I get 
+<example>
+git://tinylion.git.sourceforge.net/gitroot/tinylion (read-only)
+
+ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion (read/write) 
+</example>
+
+<example>
+[root@dhcp17 ~]# git clone ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion xxx
+Initialized empty Git repository in /root/xxx/.git/
+The authenticity of host 'tinylion.git.sourceforge.net (216.34.181.91)' can't be established.
+RSA key fingerprint is 86:7b:1b:12:85:35:8a:b7:98:b6:d2:97:5e:96:58:1d.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'tinylion.git.sourceforge.net,216.34.181.91' (RSA) to the list of known hosts.
+happypeter@tinylion.git.sourceforge.net's password:
+warning: You appear to have cloned an empty repository.
+[root@dhcp17 ~]# fatal: The remote end hung up unexpectedly
+</example>
+
+<example>
+[root@dhcp17 ~]# cd xxx/
+[root@dhcp17 xxx]# ls
+[root@dhcp17 xxx]# ls
+[root@dhcp17 xxx]# vim README
+[root@dhcp17 xxx]# ls
+README
+[root@dhcp17 xxx]# git add .
+[root@dhcp17 xxx]# git commit -a -m "initial commit"
+[master (root-commit) 393072c] initial commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README
+[root@dhcp17 xxx]# git push
+warning: You did not specify any refspecs to push, and the current remote
+warning: has not configured any push refspecs. The default action in this
+warning: case is to push all matching refspecs, that is, all branches
+warning: that exist both locally and remotely will be updated.  This may
+warning: not necessarily be what you want to happen.
+warning:
+warning: You can specify what action you want to take in this case, and
+warning: avoid seeing this message again, by configuring 'push.default' to:
+warning:   'nothing'  : Do not push anything
+warning:   'matching' : Push all matching branches (default)
+warning:   'tracking' : Push the current branch to whatever it is tracking
+warning:   'current'  : Push the current branch
+happypeter@tinylion.git.sourceforge.net's password:
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion'
+</example>
+
+<example>
+[root@dhcp17 sf]# git clone ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion tinylion
+Initialized empty Git repository in /root/github/sf/tinylion/.git/
+happypeter@tinylion.git.sourceforge.net's password:
+warning: You appear to have cloned an empty repository.
+[root@dhcp17 sf]# fatal: The remote end hung up unexpectedly
+
+[root@dhcp17 sf]# git remote add origin ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion
+fatal: Not a git repository (or any of the parent directories): .git
+[root@dhcp17 sf]# cd tinylion/
+[root@dhcp17 tinylion]# git remote add origin ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion
+fatal: remote origin already exists.
+[root@dhcp17 tinylion]# git config branch.master.remote origin
+[root@dhcp17 tinylion]# git config branch.master.merge refs/heads/master
+[root@dhcp17 tinylion]# vim README
+[root@dhcp17 tinylion]# git add .
+[root@dhcp17 tinylion]# git commit -a -m "initial commit"
+[master (root-commit) 75ab13d] initial commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README
+[root@dhcp17 tinylion]# git push
+warning: You did not specify any refspecs to push, and the current remote
+warning: has not configured any push refspecs. The default action in this
+warning: case is to push all matching refspecs, that is, all branches
+warning: that exist both locally and remotely will be updated.  This may
+warning: not necessarily be what you want to happen.
+warning:
+warning: You can specify what action you want to take in this case, and
+warning: avoid seeing this message again, by configuring 'push.default' to:
+warning:   'nothing'  : Do not push anything
+warning:   'matching' : Push all matching branches (default)
+warning:   'tracking' : Push the current branch to whatever it is tracking
+warning:   'current'  : Push the current branch
+happypeter@tinylion.git.sourceforge.net's password:
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion'
+[root@dhcp17 tinylion]# git push origin master
+happypeter@tinylion.git.sourceforge.net's password:
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 230 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ssh://happypeter@tinylion.git.sourceforge.net/gitroot/tinylion
+ * [new branch]      master -> master
+[root@dhcp17 tinylion]#                               
+</example>
+
+see https://sourceforge.net/apps/trac/sourceforge/wiki/Git#Access
+After the first push, you will be able to use the simpler "git push" to push the master branch to our "origin" server. 
+
+*** more git repo
+see https://sourceforge.net/apps/trac/sourceforge/wiki/Git 
+Creating Multple Repositories

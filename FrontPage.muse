@@ -9,6 +9,7 @@ go [[index]]
  - [[VimHacking][Vim]]
  - LinuxUsage
  - UbuntuUse
+ - [[Git]]
 *** web tools
  - SourceForge
  - [[GitHub][Github]]
