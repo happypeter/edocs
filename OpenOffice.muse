@@ -1,0 +1,8 @@
+** Drawing
+=File->Preview in web brower=
+
+then you get what you've done in a pic 
+
+nice quanlity samll size
+
+useful when I want a follow chart or anything fancy
