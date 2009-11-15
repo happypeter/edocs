@@ -28,3 +28,7 @@ e.g
 
 
 rpmsack.py
+
+Ethics ::
+
+(also known as moral philosophy)

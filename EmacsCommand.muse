@@ -1,13 +1,16 @@
 FrontPage
 
-To see which directories are in your load-path, type 
+
 <example>
-C-h v load-path 
-C-x-o
+C-h v load-path ;;To see which directories are in your load-path, type 
+C-x-o           ;;REMOVE following blank lines
+C-x o           ;; switch between windows
 C-d
 M-d
 M-<del>
-M-5 C-n ;;go down five lines
+M-5 C-n         ;;go down five lines
+C-x ->          ;;go to next buffer
+C-x C-w         ;; save as
 </example>
 
 <example> 

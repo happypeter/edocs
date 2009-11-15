@@ -4,8 +4,8 @@ I am always addressing myself a scholar, funny thing is I actually does not spea
 
 What am I going to do for this?
 
- - Building my vacabulary
- - Reading non-technical book
+ - Building my [[vocabulary]]
+ - Reading [[ExtReading][non-tech books]]
 
  - VideoDownload
  - PlaceToGo
