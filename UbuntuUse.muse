@@ -8,3 +8,9 @@ FrontPage
  - UbuntuSsh
  - GnomeTip
  - [[Apache2]]
+ - [[One]]
+ - [[UbuntuI18n]]
+ - [[Iso]]
+ - [[UbuntuRepo]]
+ - [[UpgradeOs]]
+

@@ -1,0 +1,10 @@
+last change in 10_20_2008
+
+on a fresh 8.04 LTS english version ubuntu
+
+click systerm->administration->languange, choose chinese and install it
+
+$sudo apt-get install languange-pack-zh
+
+$sudo apt-get install languange-support-zh
+
