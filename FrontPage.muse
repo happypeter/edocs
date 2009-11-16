@@ -1,21 +1,34 @@
 go [[index]]
 
-*** Basic Skills
- - DocHowto  about how I take note and something
- - [[DataBackup][About data backup]]
- - [[vocabulary]]
+
+*** languages
  - [[PhpStudy][PHP study]]
+
+*** Documentation
+ - DocHowto  about how I take note and something
+
+*** System Administration
+ - [[DataBackup][About data backup]]
+ - [[encryption]]
+
+
+
+*** Editors
  - [[Emacs]]
  - [[VimHacking][Vim]]
+
+
+*** OS
  - LinuxUsage
  - UbuntuUse
  - [[Git]]
+
 *** web tools
  - SourceForge
  - [[GitHub][Github]]
 
-*** New
- - [[encryption]]
+*** Embedded
+
  - [[n810]]
 
 *** work
@@ -25,3 +38,5 @@ go [[index]]
 
 *** Non-tech 
  - [[EnglishStudy]] 
+ - [[WhoIsPeter]]
+ - [[vocabulary]]

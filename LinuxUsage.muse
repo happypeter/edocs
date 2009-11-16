@@ -4,8 +4,8 @@ son of FrontPage
 
 ** Misc 
 
- - VimHacking  wiki is nice and this page is also ''son of FrontPage'', nice link!
- - DualBoot  having more OSes
+ - VimHacking 
+ - DualBoot  
  - BashUse
  - SshTip
  - [[firefox]]

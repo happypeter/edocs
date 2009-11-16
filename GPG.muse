@@ -1,0 +1,3 @@
+what is the realtionship between [[PGP]] and [[GPG]] ?
+
+GNU Privacy Guard (GnuPG or GPG) is a free software alternative to the PGP suite of cryptographic software. 

@@ -1,4 +1,4 @@
-[[index][Index]]
+e[[index][Index]]
 
 Metadata ::
 
@@ -32,3 +32,6 @@ rpmsack.py
 Ethics ::
 
 (also known as moral philosophy)
+
+A digital signature ::
+ is reminiscent of an ordinary signature; they both have the characteristic that they are easy for a user to produce, but difficult for anyone else to forge. 

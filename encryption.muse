@@ -1,15 +1,19 @@
-GPG 
 
 ** Why Hash?
  - Verify integrity
+
 people use md5 to gurantee the integrity of iso files, while sha1 is safer.
          
  - speed up database search
 
 
-[[http://en.wikipedia.org/wiki/Pretty_Good_Privacy][Pretty Good Privacy]]
 
-GNU Privacy Guard (GnuPG or GPG) is a free software alternative to the PGP suite of cryptographic software. 
+The [[http://en.wikipedia.org/wiki/RSA][RSA]] algorithm was publicly described in 1978 by Ron Rivest, Adi Shamir, and Leonard Adleman at MIT; 
+the letters RSA are the initials of their surnames.
 
 
-The [[http://en.wikipedia.org/wiki/RSA][RSA]] algorithm was publicly described in 1978 by Ron Rivest, Adi Shamir, and Leonard Adleman at MIT; the letters RSA are the initials of their surnames.
+** tools
+
+ - [[Seahorse]]
+ - [[GPG]]
+ - [[PGP]]
