@@ -9,3 +9,6 @@ son of FrontPage
  - BashUse
  - SshTip
  - [[firefox]]
+ - [[vmware]]
+ - VirtualBox 
+ - [[wget]]

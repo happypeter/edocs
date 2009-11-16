@@ -10,5 +10,6 @@ all my data gone, haha
  - have seperate partitions for /var and /home
  - use ext4, cause it is really faster
 
-    * Update manager has a option to upgrade to higher version of the os, here is 8.10->9.04
-    * ubuntu only support update form one version to its next one, no skip is allowed for security
+** from ubuntu.com
+ - Update manager has a option to upgrade to higher version of the os, here is 8.10->9.04
+ - ubuntu only support update form one version to its next one, no skip is allowed for security

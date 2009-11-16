@@ -1,0 +1,106 @@
+VIM command
+==
+:make
+:make install 
+:!autoscan
+:Tohtml
+you don't need to quite to run these command
+** undo-redo
+u
+Ctrl+R
+** delete the following 100 lines
+d100
+
+** jump 10 line
+10+Enter
+** go to specific line
+:23
+//go to line 23
+
+** substtution
+%s/god/dog/gc
+
+** 
+b 	To the beginning of a word.
+B 	To the beginning of a whitespace-delimited word.
+0 	To the beginning of a line.
+^ 	To the first non-whitespace character of a line.
+$ 	To the end of a line.
+H 	To the first line of the screen.
+
+M 	To the middle line of the screen.
+L 	To the the last line of the screen.
+:n 	Jump to line number n. For example, to jump to line 42, you'd type :42
+
+Deleting text
+Vim command 	Action
+x 	Delete characters under the cursor.
+X 	Delete characters before the cursor.
+dd or :d 	Delete the current line.
+
+Search
+Vim command 	Action
+/pattern 	Search the file for pattern.
+n 	Scan for next search match in the same direction.
+N 	Scan for next search match but opposite direction.
+
+gg	jump to the top
+** r+otherkey-----------replace one character
+
+**  press End, to jump to the end of a line.
+ press Home, to jump to the beginning of a line.
+
+NOTE: below stuff is added by =:r filename=, the former content fo this file is not overwriten
+
+1. delete one line
+<example>
+dd
+</example>
+
+1. delete n(1,2,3...) line
+<example>
+ndd
+</example>
+1. delete form current position to the end of this line
+<example>
+D
+</example>
+
+1. delete from current to the end of the file
+<example>
+dG
+</example>
+
+1. delete form current to the end of the word
+<example>
+dw
+</example>
+
+1.delete the following one char
+<example>
+dl
+</example>
+
+
+1. to Yank all
+<example>
+gg #goto the top of the file first
+yG #cp everything
+</example>
+
+1. current position to the end of the file
+<example>
+yG
+</example>
+
+1. yank one line 
+<example>
+Y or yy
+</example>
+
+1. yank 2 line
+<example>
+2Y or 2yy
+</example>
+
+

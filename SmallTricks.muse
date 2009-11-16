@@ -3,6 +3,10 @@ son of LinuxUsage
 go here to check packages
 http://packages.ubuntu.com/jaunty/editors/
 
+** term
+== 9.04 ==
+edit->preference->color->gray on black
+
 
 ** shutdown the machine
  - sudo without pswd

@@ -13,4 +13,7 @@ FrontPage
  - [[Iso]]
  - [[UbuntuRepo]]
  - [[UpgradeOs]]
+ - [[grub]]
+ - [[Ubuntugcc]]
+ - [[printer]]
 

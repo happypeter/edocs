@@ -1,6 +1,6 @@
 son of FrontPage
 
-
+VimCommand
 ** gvimtutor 
 run this in ubuntu
 

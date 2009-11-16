@@ -9,3 +9,4 @@ son of LinuxUsage
  - RecordDesktop
  - CineLerra
  - [[OpenCourseWare]]
+ - [[gimp]]

@@ -25,3 +25,6 @@ I should say it is really a nice way to learn a languages, better way than a kno
  -  happypeter/peter-homepage
  -  happypeter/projecthome-vivion
 
+** NOTE
+when you try to add ssh pub key, add it to your account rather then to every repo.
+You will need different keys for every repo.
