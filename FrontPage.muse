@@ -33,7 +33,7 @@ go [[index]]
 
 *** work
  - WorkNotes   tips on my daily work
- - YumHacking what I am working on
+ - YumHacking  what I am working on
  - AxtuWeb
 
 *** Non-tech 

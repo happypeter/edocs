@@ -1,6 +1,5 @@
 FrontPage
 
-- RsyncTip
 
 Now I have EmacsMuse and GitHub together to proform NoteTaking
 
@@ -44,4 +43,7 @@ DATA TREE
  - but maybe it is nice to have a music repo ... well this is not so important anyway
  - my photos are of course important, I shall merge it into my edocs system, 
  - see [[One]] 
+
+ - [[rsync]]
+
 

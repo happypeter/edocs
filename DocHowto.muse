@@ -1,6 +1,10 @@
 son fo FrontPage
+
+** rules
+
+ - DocGuideline
           
-** Hot Topics 
+** Hot yTopics 
  - MoinOrMuse
  - DocBook
  - [[PortFromMoin][Prot form moin to Muse]]
@@ -18,5 +22,4 @@ son fo FrontPage
 ** Phylosophy
  - [[dream][I have a dream]]
  - [[anounce]]
- - DocGuideline
  - [[AxtuManifesto]]

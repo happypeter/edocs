@@ -1,0 +1,2 @@
+apt-get purge
+apt-get rm

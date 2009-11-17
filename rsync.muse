@@ -1,0 +1,11 @@
+see =man rsync=
+
+<example>
+              Note that rsync always verifies that each transferred  file  was
+              correctly  reconstructed  on  the  receiving  side by checking a
+              whole-file checksum that is generated  as  the  file  is  trans-
+              ferred,  but  that automatic after-the-transfer verification has
+              nothing to do with this option's before-the-transfer "Does  this
+              file need to be updated?" check.
+
+</example>

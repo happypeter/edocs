@@ -6,7 +6,7 @@ FrontPage
  - StartupScript
  - VideoEdit
  - UbuntuSsh
- - GnomeTip
+ - [[GnomeTip]]
  - [[Apache2]]
  - [[One]]
  - [[UbuntuI18n]]
@@ -16,4 +16,5 @@ FrontPage
  - [[grub]]
  - [[Ubuntugcc]]
  - [[printer]]
+ - [[apt-get]]
 

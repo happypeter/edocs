@@ -1,6 +1,6 @@
 FrontPage
 
-** shutcut **
+** shutcut 
 
 <example>
 Alt + F2---Displays the Run Application dialog. 

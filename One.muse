@@ -1,5 +1,13 @@
 https://one.ubuntu.com/
 
 
+- remove and reinstall the Ubuntu One client
+https://answers.edge.launchpad.net/ubuntuone-client/+faq/778
+
+9.10 will have One pre-installed, wow, I can really count on it:-)
+
+<example>
+mkdir ~/Ubuntu\ One
+</example>
 
 

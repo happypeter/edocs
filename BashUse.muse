@@ -3,5 +3,10 @@ son of LinuxUsage
  - AwkTip
  - DirWalk
 
+<example>
+mkdir ~/Ubuntu\ One
+</example>
+
+
 *** Error 
 FdSyntaxError
