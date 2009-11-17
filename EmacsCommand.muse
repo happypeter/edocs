@@ -29,3 +29,8 @@ M-x global-set-key
 - [[http://www.gnu.org/software/emacs/manual/html_mono/emacs.html.gz#Keymaps][keymaps]]
 The global keymap is the most important keymap because it is always in effect. The global keymap defines keys for Fundamental mode; most of these definitions are common to most or all major modes. Each major or minor mode can have its own keymap which overrides the global definitions of some keys. 
 
+Q: How to kill a region ?
+
+A: =C-space= to set a "mark", then go to any point, =C-w= to kill the =region= between current point and the "mark"
+
+nice doc goes here http://www.cs.utah.edu/dept/old/texinfo/emacs18/emacs_13.html

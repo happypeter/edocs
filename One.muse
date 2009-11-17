@@ -11,3 +11,43 @@ mkdir ~/Ubuntu\ One
 </example>
 
 
+
+https://wiki.ubuntu.com/UbuntuOne/Tutorials/Subscriptions#Install 
+<example>
+9.10 (Karmic) or later subscribers
+
+The Ubuntu One software is pre-installed in 9.10 (Karmic) or later versions of Ubuntu so no download is needed. All that is left is to configure your computers to talk to Ubuntu One for synchronization.
+
+   1. Go to Applications >> Internet and click Ubuntu One.
+   2. If you are not already logged into Launchpad, you will be asked to do so.
+   3. Click "Add your computer" in your web browser. 
+
+Your computer will now synchronize files. 
+</example>
+
+
+** Dropbox also
+https://www.dropbox.com/
+seen there wed, I feel these guys seem to know how things is rightly done
+
+<example>
+Dropbox replaces:
+
+    * Emailing file attachments to yourself and other people
+    * Using USB drives to move files between computers
+    * Renaming files to keep a history of previous versions
+    * Complicated backup software
+    * FTP servers, system-specific sharing methods, Network Attached Storage (NAS)
+
+Not convinced yet? Then take a look at our list of features. Otherwise, go ahead and get started:
+</example>
+
+from wikipeida
+<example>
+and it supports revision history –by use of deltas or delta encoding technology
+</example>
+
+go here to get a web access to you folder
+https://www.dropbox.com/photos/
+** PowerFolder 
+5GB free!!!x
