@@ -41,3 +41,7 @@ we do not rely one =wikiness= , we want to go without =muse-wiki=
 change =UbuntuUse= into [[ubuntu]] , since the latter is natral and simple
 
 Change =VimHacking= into [[vim]], since the =Hacking= there is stupid bring nothing but distraction.
+
+** wikipedia rules
+
+they has no rules here, messy, ahah
