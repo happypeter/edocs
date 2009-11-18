@@ -1,4 +1,3 @@
-son of LinuxUsage
 
  - install ubuntu first
  - install asianux S3SP1

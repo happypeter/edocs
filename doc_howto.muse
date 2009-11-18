@@ -2,11 +2,11 @@ son fo FrontPage
 
 ** rules
 
- - DocGuideline
+ - [[doc_format]]
           
 ** Hot yTopics 
  - MoinOrMuse
- - DocBook
+ - [[docbook]]
  - [[PortFromMoin][Prot form moin to Muse]]
 
 ** tools
@@ -14,12 +14,12 @@ son fo FrontPage
  - [[MoinMoin]]
  - [[doxygen]]
  - [[Emacs]]
- - [[OpenOffice]]
- - [[TomboyNote]]
+ - [[openoffice]]
+ - [[tomboy]]
 
  
 
 ** Phylosophy
- - [[dream][I have a dream]]
+ - [[dream][dream]]
  - [[anounce]]
  - [[AxtuManifesto]]

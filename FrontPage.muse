@@ -2,16 +2,17 @@ go [[index]]
 
 
 *** languages
- - [[PhpStudy][PHP study]]
+ - [[php][php]]
+ - [[bash]]
 
 *** Documentation
- - DocHowto  about how I take note and something
+ - [[doc_howto]]  about how I take note and something
 
 *** System Administration
  - data [[backup][backup]]
  - [[encryption]]
-
-
+ - [[dual_boot]]
+ - [[ssh]]
 
 *** Editors
  - [[Emacs]]
@@ -19,21 +20,25 @@ go [[index]]
 
 
 *** OS
- - LinuxUsage
- - UbuntuUse
+ - [[ubuntu]]
  - [[Git]]
 
 *** web tools
  - SourceForge
  - [[GitHub][Github]]
 
+ - [[firefox]]
+ - [[vmware]]
+ - [[virtualbox]]
+ - [[wget]]
+
 *** Embedded
 
  - [[n810]]
 
 *** work
- - WorkNotes   tips on my daily work
- - [[yum]]  what I am working on
+ - [[work]]   tips on my daily work
+ - [[yum]]    what I am working on
  - [[axtu]]
 
 *** Non-tech 

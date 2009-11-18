@@ -1,6 +1,6 @@
 FrontPage
 
-son of DocHowto
+son of [[doc_howto]]
 
 
 ** phylosophy
