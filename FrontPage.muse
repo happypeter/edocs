@@ -8,14 +8,14 @@ go [[index]]
  - DocHowto  about how I take note and something
 
 *** System Administration
- - [[DataBackup][About data backup]]
+ - data [[backup][backup]]
  - [[encryption]]
 
 
 
 *** Editors
  - [[Emacs]]
- - [[VimHacking][Vim]]
+ - [[vim]]
 
 
 *** OS
@@ -33,8 +33,8 @@ go [[index]]
 
 *** work
  - WorkNotes   tips on my daily work
- - YumHacking  what I am working on
- - AxtuWeb
+ - [[yum]]  what I am working on
+ - [[axtu]]
 
 *** Non-tech 
  - [[EnglishStudy]] 

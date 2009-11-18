@@ -1,6 +1,6 @@
 son of FrontPage 
 
-AxtuWeb is the well organized stuff out of AxtuDebug
+[[axtu]] is the well organized stuff out of AxtuDebug
 
 
 ** Axtu

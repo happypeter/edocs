@@ -12,10 +12,10 @@ then it is obvious MoinMoin is really what I need
 
  - [[Alternatives]]
  - MoinTips
- - MoinBackup
+ - [[moin_backup]]
 
 
-this [[YumHacking]] related web is also powered by [[MoinMoin]]
+this [[yum]] related web is also powered by [[MoinMoin]]
 http://wiki.linux.duke.edu/
 
 Below is some small patches for  moin-1.8.5 

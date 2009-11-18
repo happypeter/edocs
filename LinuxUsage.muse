@@ -1,6 +1,6 @@
 son of FrontPage
 
-- UbuntuUse
+- [[ubuntu]]
 
 ** Misc 
 

@@ -5,3 +5,4 @@ see  [[FrontPage]] for table of contents
  - [[YumHacking]]
  - [[vocabulary]]
  - [[AxtuWeb]]
+ - [[ubuntu]]
