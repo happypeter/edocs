@@ -4,32 +4,32 @@ son of FrontPage
 
 
 ** Axtu
- 1. SuccessLog
- 1. AxtuSteps
- 1. BlackList
- 1. HowAxtuUseAktk 
+ 1. [[success_log]]
+ 1. [[axtu_steps]]
+ 1. [[blacklist]]
+ 1. [[how_axtu_use_ak_tk]] 
 
 ** Auth Client 
 
- 1. OnYum
- 1. HwaniiAuth
- 1. MakeInstall 
+ 1. [[on_yum]]
+ 1. [[hwanii_auth]]
+ 1. [[make_install]] 
 
 ** Auth Server 
-*** ApacheTip 
- 1. AuthMysql
- 1. OpenAuthArea
- 1. DataBase 
+*** ApacheTip
+ - [[auth_mysql]]
+ - [[open_auth_area]]
+ - [[data_base]] 
 
 *** mysql 
 
- 1. [[Clone155Howto]]
- 1. CustomerdbInfo
- 1. BasicIssue 
+ - [[clone_155_howto]]
+ - [[customer_db_info]]
+ - [[basic_issue]] 
 
 ** General Issues 
 
- 1. PortInUse
- 1. CornUsage
- 1. AkInfo
- 1. [[I18nRelated]] 
+ -  [[port_in_use]]
+ -  [[corn]]
+ -  [[ak_info]]
+ -  [[i18n_related]] 

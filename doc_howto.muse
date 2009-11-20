@@ -13,7 +13,7 @@ son fo FrontPage
 
  - [[MoinMoin]]
  - [[doxygen]]
- - [[Emacs]]
+ - [[emacs]]
  - [[openoffice]]
  - [[tomboy]]
 
@@ -22,4 +22,4 @@ son fo FrontPage
 ** Phylosophy
  - [[dream][dream]]
  - [[anounce]]
- - [[AxtuManifesto]]
+
