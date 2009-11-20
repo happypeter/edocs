@@ -11,5 +11,5 @@ $ffmpeg -i theyoukuvideo.flv myaudio.mp3
 </example>
 failed
 
-but ubuntu built-in RhythmBox player can play it directly, I can really happy with that
+but ubuntu built-in [[rhythmbox]] player can play it directly, I can really happy with that
 since YouKu also has lots of EnglishStudy resources, I can download these videos can have a repo for them. 

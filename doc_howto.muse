@@ -5,13 +5,13 @@ son fo FrontPage
  - [[doc_format]]
           
 ** Hot yTopics 
- - MoinOrMuse
+ - [[moin_or_muse]]
  - [[docbook]]
- - [[PortFromMoin][Prot form moin to Muse]]
+ - [[port_from_moin]]
 
 ** tools
 
- - [[MoinMoin]]
+ - [[moinmoin]]
  - [[doxygen]]
  - [[emacs]]
  - [[openoffice]]

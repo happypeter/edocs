@@ -5,7 +5,7 @@ Son of DocHowto
 A: when you finish the editing, press save, then you want to edit more, you should not use firefox ''goback''
 you should click 'edit this page' again
  - How can I stop Moin cleanly, since I can not kill the process by ctl+c?
-A: see KillMoin
+A: see [[kill_moin]]
 ** small things
 *** indention 
 when you use 

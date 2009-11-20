@@ -2,27 +2,27 @@ son of FrontPage
 
 Most important topics
 
- - AddAuth
- - GetMethod
- - OpenAuthMysqlArea
- - [[AuthOverView]]
+ - [[add_auth]]
+ - [[get_method]]
+ - [[open_auth_mysql_area]]
+ - [[auth_overview]]
 
 Many things to do, here is a list
 
- - CreatRepo   my test
- - PackageKit  not much
- - UnclassifiedTips
- - DownLoad   how Yum download pkgs
- - KernelRelatedIssue
- - PlugIn  I need to write one for auth
- - UbuntuJoke a little naughty right?
- - ObsoleteTag
+ - [[creatrepo]]   my test
+ - [[packagekit]]  not much
+ - [[unclassified_tips]]
+ - [[download]]   how Yum download pkgs
+ - [[kernel_related_issue]]
+ - [[plugin]]  I need to write one for auth
+ - [[ubuntu_joke]] a little naughty right?
+ - [[obsolete_tag]]
 
 sth not classified
 
- - HwaniiPpt
+ - [[hwanii_ppt]]
 
 mechanism
 
- - [[Conduits]]
+ - [[conduits]]
 

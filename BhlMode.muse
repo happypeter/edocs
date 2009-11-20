@@ -1,8 +1,0 @@
-FrontPage
-
-I had a glance onto bhl manual just now, and find two things I do not like:
-
- 1. it has its own mark format, differnt form muse format
- 1. no many fancy feather
-
-I think I will not use this mode, and I seems to recall people said it is porting to OrgMode.

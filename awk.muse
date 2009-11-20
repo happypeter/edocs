@@ -14,4 +14,4 @@ pet@girl:~$ awk -F":" '{ print $1 }' infile
 pet@girl:~$ 
  </example>
 
-check KillMoin as a real world example
+check [[kill_moin]] as a real world example
