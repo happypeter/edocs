@@ -1,12 +1,11 @@
 FrontPage
 son of [[emacs]]
 
- - [[MuseFormat]]
- - [[EmacsGit][Emacs Git]] 
- - [[EmacsMuseSills][Muse Basic Commands]]
- - [[MuseCss][Muse Style]]
- - [[musePdf][Publish as PDF]]
- - HtmlizeMode
+ - [[emacs_git]] 
+ - [[emacs_muse_skills]]
+ - [[muse_css]]
+ - [[muse_pdf]]
+ - [[emacs_htmlize]]
 
 
 http://mwolson.org/projects/EmacsMuse.html

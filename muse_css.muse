@@ -1,4 +1,4 @@
- - see [[StyleSheet]] for more
+ - see [[style_sheet]] for more
 
 After seeing http://www.linfo.org/, I am shocked by the beauty of it simplicity.
 
@@ -38,7 +38,7 @@ I can easily use
 for everything, so that pages looks simpler and yet not reducing clarity.
 
 
-So I do not think I need the following tricks, at least not for my [[KnowledgeBase][knowledge base]], since I modify it a lot, it is really wise
+So I do not think I need the following tricks, at least not for my [[knowledge_base][knowledge base]], since I modify it a lot, it is really wise
 to keep it as simple as possible.
 
 * trick

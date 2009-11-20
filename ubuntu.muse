@@ -2,19 +2,18 @@ FrontPage
 
 *** ubuntu 
 
- - SmallTricks 
- - StartupScript
- - VideoEdit
- - UbuntuSsh
- - [[GnomeTip]]
- - [[Apache2]]
- - [[One]]
- - [[UbuntuI18n]]
- - [[Iso]]
- - [[UbuntuRepo]]
- - [[UpgradeOs]]
+ - [[small_tricks]] 
+ - [[startup_script]]
+ - [[video_edit]]
+ - [[ubuntu_ssh]]
+ - [[gnome_tip]]
+ - [[apache2]]
+ - [[one]]
+ - [[ubuntu_i18n]]
+ - [[iso]]
+ - [[ubuntu_repo]]
+ - [[upgrade_os]]
  - [[grub]]
- - [[Ubuntugcc]]
+ - [[ubuntu_gcc]]
  - [[printer]]
  - [[apt-get]]
-

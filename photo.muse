@@ -12,3 +12,5 @@ Upload easily to your favourite social network or photo-sharing sites including 
 y
 </example>
 
+
+dropbox->photo also nice
