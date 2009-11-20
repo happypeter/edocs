@@ -1,7 +1,7 @@
 son of LinuxUsage
 
- - AwkTip
- - DirWalk
+ - [[awk]]
+ - [[dir_walk]]
 
 <example>
 mkdir ~/Ubuntu\ One
@@ -9,4 +9,4 @@ mkdir ~/Ubuntu\ One
 
 
 *** Error 
-FdSyntaxError
+[[fd_syntax_error]]
