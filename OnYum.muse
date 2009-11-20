@@ -1,6 +1,6 @@
-son of AxtuWeb
+son of [[axtu]]
 
-Related to YumHacking
+Related to [[yum]]
 
 now my big question is can I use auth module to yum?
 

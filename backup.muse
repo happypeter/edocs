@@ -2,7 +2,7 @@ FrontPage
 
 
 ** documantation backup
-Now I have EmacsMuse and GitHub together to proform NoteTaking
+Now I have [[emacs_muse]] to proform NoteTaking
 
 I shall say I am quite satisfied.
 
@@ -40,10 +40,10 @@ DATA TREE
 
  - I do not need backup most of the pdf books, they shall be served well as links in my muse file.
  - but maybe it is nice to have a music repo ... well this is not so important anyway
- - my [[Photo]] are of course important
+ - my [[photo]] are of course important
 
 ** tools 
- - [[One]] 
+ - [[one]] 
 
  - [[rsync]]
 

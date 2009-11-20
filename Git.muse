@@ -1,7 +1,0 @@
-SfGit
-
-GitHub
-
-EmacsGit
-
-GitCommand

@@ -2,9 +2,8 @@ see  [[FrontPage]] for table of contents
 
 
 ** what is hot ?
- - [[YumHacking]]
+ - [[yum]]
  - [[vocabulary]]
- - [[AxtuWeb]]
+ - [[axtu]]
  - [[ubuntu]]
-
  - [[doc_format]]

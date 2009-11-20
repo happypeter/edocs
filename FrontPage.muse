@@ -15,17 +15,17 @@ go [[index]]
  - [[ssh]]
 
 *** Editors
- - [[Emacs]]
+ - [[emacs]]
  - [[vim]]
 
 
 *** OS
  - [[ubuntu]]
- - [[Git]]
+ - [[git]]
 
 *** web tools
- - SourceForge
- - [[GitHub][Github]]
+ - [[sf]]
+ - [[github][github]]
 
  - [[firefox]]
  - [[vmware]]
@@ -40,9 +40,10 @@ go [[index]]
  - [[work]]   tips on my daily work
  - [[yum]]    what I am working on
  - [[axtu]]
+ - [[gmail]]
 
 *** Non-tech 
- - [[EnglishStudy]] 
- - [[WhoIsPeter]]
+ - [[english_study]] 
+ - [[peter_homepage]]
  - [[vocabulary]]
- - [[Photo]]
+ - [[photo]]

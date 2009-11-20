@@ -1,0 +1,12 @@
+ go to [[index]]
+ - [[emacs_git]]
+ - [[emacs_command]]
+ - [[install_theme]]
+ - [[emacs_config]]
+** Modes
+ - [[emacs_moin]]
+ - [[emacs_org]]
+ - [[emacs_planer]]
+ - [[emacs_flyspell]]
+ - [[emacs_muse]]
+

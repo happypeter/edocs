@@ -1,5 +1,5 @@
 FrontPage
-son of [[Emacs]]
+son of [[emacs]]
 
  - [[MuseFormat]]
  - [[EmacsGit][Emacs Git]] 

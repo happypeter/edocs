@@ -1,7 +1,7 @@
 FrontPage
 
 
-Org is implemented on top of OutlineMode.
+Org is implemented on top of [[emacs_outline]].
 
 
 http://orgmode.org/org.html#HTML-Export-commands
