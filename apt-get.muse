@@ -1,2 +1,9 @@
+useful commands
+<example>
 apt-get purge
+
 apt-get rm
+
+pet@cow:~$ dpkg-query -l|grep emacs
+
+</example>
