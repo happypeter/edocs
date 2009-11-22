@@ -1,6 +1,6 @@
 son of LinuxUsage
 
- - [[youyube]]
+ - [[youtube]]
  - [[youku]]
  - [[rezound]]
  - [[audacity]]
