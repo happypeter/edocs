@@ -1,4 +1,3 @@
-rontPage
 
 ** face customization 
 <example>
@@ -17,8 +16,8 @@ http://packages.ubuntu.com/jaunty/editors/
 
 this package is no longer available in 9.04, must be provided by sth I do not know
 
-Luckily, to install ''color-theme'' is actually easy:
- 1. have ''.emacs'' like this
+Luckily, to install =color-theme= is actually easy:
+ 1. have =.emacs= like this
  <example>
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0/")
 (require 'color-theme)
@@ -27,10 +26,20 @@ Luckily, to install ''color-theme'' is actually easy:
 (color-theme-twilight)
  </example>
  2. *color-theme* is here http://www.nongnu.org/color-theme/
-
 <example>
 pet@pet-desktop:~$ tar zxvf Desktop/color-theme-6.6.0.tar.gz -C .emacs.d/
 pet@pet-desktop:~$ mv twilight-emacs/ .emacs.d/
 </example>
+
+Note: deb available for color-theme as for 9.04
+<example>
+pet@cow:~$ sudo apt-get install emacs-goodies-el 
+
+pet@cow:~$ dpkg-query -L emacs-goodies-el|grep colo
+/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el
+pet@cow:~$ 
+</example>
+
+
 
 

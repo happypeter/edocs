@@ -30,7 +30,6 @@ go [[index]]
  - [[vmware]]
  - [[virtualbox]]
  - [[wget]]
-
  - [[vnc]]
 *** Embedded
 

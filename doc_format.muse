@@ -21,7 +21,9 @@ rather than in other issue(e.g meeting_miniutes, hwanii_ppt)
 
 ** Format && naming rules
 
-I do not think I need to use only camel words, [[http://www.linfo.org][linfo]] does very well without it.
+After seeing http://www.linfo.org/, I am shocked by the beauty of it simplicity.
+
+I do not think I need to use CamelCase, [[http://www.linfo.org][linfo]] does very well without it.
 
  - for the sake of easy searching
 

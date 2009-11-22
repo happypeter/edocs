@@ -6,4 +6,9 @@ apt-get rm
 
 pet@cow:~$ dpkg-query -l|grep emacs
 
+pet@cow:~$ dpkg-query -L emacs-goodies-el|grep colo
+/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el
+pet@cow:~$ 
+
+
 </example>

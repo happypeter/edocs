@@ -10,3 +10,12 @@ mkdir ~/Ubuntu\ One
 
 *** Error 
 [[fd_syntax_error]]
+
+
+
+<example>
+find . -exec grep $1 '{}' \; -print
+</example>
+<example>
+xsltproc -o ~/Desktop/output.html /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl $1
+</example>
