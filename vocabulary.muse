@@ -35,3 +35,11 @@ Ethics ::
 
 A digital signature ::
  is reminiscent of an ordinary signature; they both have the characteristic that they are easy for a user to produce, but difficult for anyone else to forge. 
+
+hybrid ::
+
+ is the combination of two or more different things, aimed at achieving a particular objective or goal. 
+
+passphrase ::
+
+Finally you have to enter a password (actually passphrase would be more appropriate, since blanks are allowed).

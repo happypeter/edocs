@@ -21,3 +21,7 @@ but I want to know how the reciver can open it, so I
  - then I went to =seahorse= and deleted =peter-pgp=
  - but since =peter-pgp.asc= was there, so I was confident to open =peter.txt.pgp=
  - but I failed, I hated gui!!
+
+the keys are in =~/.gnupg= , it just a front-end of [[gpg]] 
+
+
