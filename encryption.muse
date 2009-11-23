@@ -17,3 +17,27 @@ the letters RSA are the initials of their surnames.
  - [[seahorse]]
  - [[gpg]]
  - [[pgp]]
+** what I need 
+ - [[private-data]]
+
+
+** lock a folder to non-root 
+<example>
+
+root@girl:/home/pet/Desktop# chown root dd
+root@girl:/home/pet/Desktop# chgrp root dd
+root@girl:/home/pet/Desktop# chmod -r dd
+root@girl:/home/pet/Desktop# ls -l dd
+total 0
+-rw-r--r-- 1 pet pet 0 2009-11-23 11:22 dd
+---
+pet@girl:~/Desktop/dd$ ls
+ls: cannot open directory .: Permission denied
+pet@girl:~/Desktop/dd$ 
+
+</example>
+
+or maybe this way as a much easier solution
+<example>
+Just chmod them to 000, it will then require root access to view them.
+</example>

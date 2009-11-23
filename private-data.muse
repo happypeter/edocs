@@ -1,0 +1,9 @@
+https://help.ubuntu.com/community/EncryptedPrivateDirectory
+
+not what I want, I want sth like =1password= 
+
+
+** 1
+Sync your 1Password database
+
+1Password is a password manager and auto-form-filler for the Mac that has been a hit among the Ars staff and readers alike. It's much more secure than the built-in OS X Keychain and lets you store tons of data, including credit cards, frequent flyer miles, addresses, phone numbers—you name it, 1Password can store it. Then, with a simple keyboard command in most major browsers (command+ \), you can instantly log into any website or fill out any form without having to remember thousands of data snippets. 

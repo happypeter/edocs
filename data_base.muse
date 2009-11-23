@@ -1,9 +1,9 @@
 son of AxtuWeb
 
 
-** Step 1 **
+** Step 1 
 now I change
-'' authentication_info ''
+=authentication_info=
 into
 <example>
 authentication_key 	temporary_key 
@@ -17,7 +17,7 @@ peter 	                 111111
  </example>
  1. works.
 
-** Step2 **
+** Step2 
 
 reg      succeed
 
@@ -35,7 +35,7 @@ $AuthenDB->UpdateAuthenticationInfo(
 </example>
 does not work.
 
-** Step3 **
+** Step3 
 suddenly I find there is file named xufen@xxx, it is a gz file, so I extract it, unfortunately it is a src/, so it overwrite my src/, but the mixture works for everything
 Strange. temporary_key in the DB is changed!
 <example>
@@ -43,7 +43,7 @@ Strange. temporary_key in the DB is changed!
 2. reboot client machine--------------------------no problem
 </example>
 
-** Step4 **
+** Step4 
 auctuallly, you don't need a mixture, xufen@xxx only works perfectly for WT key
 
 the difference between my unchange_src and the xufen one is
