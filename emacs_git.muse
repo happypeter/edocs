@@ -13,7 +13,7 @@ C+x g .
 to invoke ***git-cmd*** , since I already know git commands, so this is easy
 
 
- - now I bring [[GitHub]] in
+ - now I bring [[github]] in
 ~                                
 so I first started here
 http://www.emacswiki.org/emacs/Git
@@ -35,7 +35,7 @@ below is what I learned form http://xtalk.msk.su/~ott/en/writings/emacs-vcs/Emac
 Work with package always starts with execution of git-status command,
 </example>
 
-** git-cmd **
+** git-cmd 
 when ''git-emacs'' is in use, a command named "git-cmd" is available
 
 which runs git command with in emacs, easy for me.

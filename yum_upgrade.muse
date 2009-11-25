@@ -1,0 +1,32 @@
+3.0.1 is the current yum version.
+
+
+they provide yum repo here
+
+http://rpm.pbone.net/index.php3/stat/39
+
+
+** test on f10
+
+<ssss>
+[root@fedora10x86 yum]# yum list
+Loaded plugins: refresh-packagekit
+http://10.1.0.75/auth/asianux2/AXS3-RF/x86_64/UPDATE/repodata/repomd.xml: [Errno 14] HTTP Error 401: Authorization Required
+Trying other mirror.
+Error: Cannot retrieve repository metadata (repomd.xml) for repository: spacewalk. Please verify its path and try again
+</ssss>
+
+root@fedora10x86 yum.repos.d]# yum --version
+3.2.24
+
+works with the ak:tk url
+
+just as hwanii's test result
+
+** test on 3.0sp2
+
+does not work. same thing like sp1
+
+** so
+I think I can do dev under f10
+or install yum new version with  rpm command with =-force=

@@ -1,4 +1,3 @@
-son of LinuxUsage
 
  - [[awk]]
  - [[dir_walk]]

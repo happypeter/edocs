@@ -1,9 +1,45 @@
-see  [[FrontPage]] for table of contents
+*** languages
+ - [[php][php]]
+ - [[bash]]
+
+*** Documentation
+ - [[doc_howto]]  about how I take note and something
+
+*** System Administration
+ - data [[backup][backup]]
+ - [[encryption]]
+ - [[dual_boot]]
+ - [[ssh]]
+
+*** Editors
+ - [[emacs]]
+ - [[vim]]
 
 
-** what is hot ?
- - [[yum]]
- - [[vocabulary]]
- - [[axtu]]
+*** OS
  - [[ubuntu]]
- - [[doc_format]]
+ - [[git]]
+
+*** web tools
+ - [[sf]]
+ - [[github][github]]
+ - [[firefox]]
+ - [[vmware]]
+ - [[virtualbox]]
+ - [[wget]]
+ - [[vnc]]
+*** Embedded
+
+ - [[n810]]
+
+*** work
+ - [[work]]   tips on my daily work
+ - [[yum]]    what I am working on
+ - [[axtu]]
+ - [[gmail]]
+
+*** Non-tech 
+ - [[english_study]] 
+ - [[peter_homepage]]
+ - [[vocabulary]]
+ - [[photo]]

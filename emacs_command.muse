@@ -15,6 +15,7 @@ C-x C-w         ;; save as
 
 <example> 
 view-echo-area-messages  shows all the startup info
+uncomment-region + comment-region
 </example>
 
 <example>
@@ -23,7 +24,7 @@ M-x global-set-key
 
 :-) I can  attach ''Cltr+m'' to "moinmoin-mode"
 
-- [[EmacsMuseSills][Muse Basic Commands]]
+- [[muse_command]]
 
 
 - [[http://www.gnu.org/software/emacs/manual/html_mono/emacs.html.gz#Keymaps][keymaps]]

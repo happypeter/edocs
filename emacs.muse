@@ -1,4 +1,3 @@
- go to [[index]]
  - [[emacs_git]]
  - [[emacs_command]]
  - [[install_theme]]

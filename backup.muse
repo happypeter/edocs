@@ -1,5 +1,3 @@
-FrontPage
-
 
 ** documantation backup
 Now I have [[emacs_muse]] to proform NoteTaking

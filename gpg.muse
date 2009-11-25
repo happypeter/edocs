@@ -3,11 +3,6 @@ what is the realtionship between [[pgp]] and [[gpg]] ?
 GNU Privacy Guard (GnuPG or GPG) is a free software alternative to the PGP suite of cryptographic software. 
 
 
-
-
-
-
-
 man gpg ::
 
  It is a tool to provide digital encryption and signing services 
@@ -19,11 +14,13 @@ Note: check http://en.wikipedia.org/wiki/Asymmetric_key_algorithm to see what is
 http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html
 
 *** test
+<example>
 
 pet@girl:~/xxx$ gpg -e -r peter dd
 pet@girl:~/xxx$ gpg -d dd.gpg>ddddd
 
-
+</example>
+now to a folder
 <example>
 pet@girl:~$ tar cvf xxx.tar xxx
 xxx/
@@ -62,6 +59,7 @@ pet@girl:~/ddddd$
 
 [[seahorse]]
 
+** go with no key
 
 <example>
 pet@girl:~$ ls
@@ -74,5 +72,27 @@ gpg: CAST5 encrypted data
 gpg: encrypted with 1 passphrase
 iii
 gpg: WARNING: message was not integrity protected
-pet@girl:~$ 
+pet@girl:~$ gpg --version
+gpg (GnuPG) 1.4.9
 </example>
+
+below is to decrypt it in asianux with no key
+<example>
+[root@dhcp28 pet]# gpg -d dd.gpg
+gpg: directory `/root/.gnupg' created
+gpg: new configuration file `/root/.gnupg/gpg.conf' created
+gpg: WARNING: options in `/root/.gnupg/gpg.conf' are not yet active during this run
+gpg: keyring `/root/.gnupg/secring.gpg' created
+gpg: keyring `/root/.gnupg/pubring.gpg' created
+gpg: CAST5 encrypted data
+gpg: encrypted with 1 passphrase
+ehlool iii
+gpg: WARNING: message was not integrity protected
+[root@dhcp28 pet]# gpg --version
+gpg (GnuPG) 1.4.5
+</example>
+so it works, haha
+try the same thing to my photoes in a tgz file, works!
+NOte: =WARNING: message was not integrity protected=, does this mean
+if I do encryption with a key, the *integraty* check will be done during decryption?
+if so, it will be nice

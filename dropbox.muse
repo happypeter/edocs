@@ -26,3 +26,10 @@ https://www.dropbox.com/photos/
 ** small tip
 
 I can change the icon of the folder, right =click->properties= 
+
+** backup 
+<example>
+pet@girl:~/.Dropbox-backup$ mkdir Nov_24_2009
+
+pet@girl:~/Desktop$ rsync -r Dropbox/ /home/pet/.Dropbox-backup/Nov_24_2009/
+</example>

@@ -26,3 +26,4 @@ mechanism
 
  - [[conduits]]
 
+[[yum_upgrade]]
