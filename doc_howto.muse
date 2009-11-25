@@ -3,7 +3,7 @@
 
  - [[doc_format]]
           
-** Hot yTopics 
+** Hot Topics 
  - [[moin_or_muse]]
  - [[docbook]]
  - [[port_from_moin]]

@@ -1,5 +1,3 @@
-FrontPage
-
 son of [[doc_howto]]
 
 
@@ -31,7 +29,7 @@ I do not think I need to use CamelCase, [[http://www.linfo.org][linfo]] does ver
 
 
  - Complex things : Do not use CamelCase, to make things clear use:
-[[moin_backup]] rather than =WhatNeedBackup=, then we have on real page this link
+[[moin_backup]] rather than MoinBackup, then we have on real page this link
 [[moin_backup][moin backup]]
 
 NOTE: this is a linfo tradition

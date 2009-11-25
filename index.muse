@@ -2,7 +2,9 @@
 *** languages
  - [[php][php]]
  - [[bash]]
-
+*** gnu
+ - [[gcc]]
+ - [[make]]
 *** Documentation
  - [[doc_howto]]  about how I take note and something
 

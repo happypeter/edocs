@@ -1,6 +1,5 @@
-FrontPage
 
-** HOW  to open ssh ports in ubuntu **
+** HOW  to open ssh ports in ubuntu 
 <example>
 $ sudo apt-get install openssh-server
 
@@ -13,7 +12,7 @@ ON  fedora or asianux
 #vim /etc/ssh/sshd_config
 </example>
 
-** how to login 155 conviniently **
+** how to login 155 conviniently 
 
  1. on ubuntu as root user, issue
  <example>
@@ -36,7 +35,7 @@ ON  fedora or asianux
  without using passwd
  </example>
 
-** starting ssh on Asianux **
+** starting ssh on Asianux 
  1. vim /etc/ssh/sshd_config
    change the correaponding line into
  <example>
@@ -50,7 +49,7 @@ ON  fedora or asianux
  </example>
  1. done
 
-** Problem **
+** Problem 
 when I try to ssh 67, which is the new vmware machine on 73.
 
 I see this
@@ -65,7 +64,3 @@ IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
  1. on my local machine
  1. vim /root/.ssh/known_hosts
  1. delete the key for fomer 67 machine.(it was for former xen machine)-----it just conflicts with the new 67 machine.
- 1. done.
-                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                         
