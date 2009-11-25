@@ -1,11 +1,5 @@
-last change in 10_20_2008
 
-http://ubuntuforums.org/archive/index.php/t-6509.html
-
-
-November 29th, 2004, 09:35 AM
-
-This is very helpful to backup your cd and dvd into iso images:
+** to backup your cd and dvd into iso images:
 
 To make an ISO from your CD/DVD, place the media in your drive but do not mount it. If it automounts, unmount it. 
 

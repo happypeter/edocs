@@ -7,6 +7,12 @@ mkdir ~/Ubuntu\ One
 </example>
 
 
+ - [[tee]]
+
+ - [[sed]]
+
+ - [[small_bash]]
+ - [[bash_command]] 
 *** Error 
 [[fd_syntax_error]]
 

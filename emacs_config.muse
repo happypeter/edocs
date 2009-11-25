@@ -1,14 +1,17 @@
 
 *** Fullscreen 
 http://www.emacswiki.org/emacs/FullScreen#toc1
+
 I actually use this:
- - install windows manager
+
+install windows manager
  <example>
 pet@girl:~$ sudo apt-get install wmctrl
 
 NOTE: wmctrl= Window Manager CTRL
  </example>
- - ''.emacs'' looks
+
+=.emacs= looks
  <example>
  ;; peter--full screen
     (defun switch-full-screen ()

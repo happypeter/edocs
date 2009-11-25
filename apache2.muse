@@ -1,9 +1,13 @@
- ubuntu 9.04 
 
-
+in ubuntu 9.04 
+<example>
 apt-get install apache2
+</example>
+
 /var/www/index.html
+
 http://127.0.0.1/
+
 done
 
 

@@ -1,4 +1,3 @@
-son of FrontPage
 
 Most important topics
 
@@ -6,6 +5,7 @@ Most important topics
  - [[get_method]]
  - [[open_auth_mysql_area]]
  - [[auth_overview]]
+ - [[yum_upgrade]]
 
 Many things to do, here is a list
 
@@ -26,4 +26,4 @@ mechanism
 
  - [[conduits]]
 
-[[yum_upgrade]]
+

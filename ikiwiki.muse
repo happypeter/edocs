@@ -15,7 +15,7 @@ pet@girl:~$ sudo apt-get install ikiwiki
 </example>
 ** setup
 
- - IkiSetup 
+ - [[iki_setup]] 
 
 the search engine here, is sth I want http://ikiwiki.info/examples/softwaresite/
 

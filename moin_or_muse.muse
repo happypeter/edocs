@@ -1,9 +1,8 @@
-FrontPage
 
 ** what to use? 
 
 *** moin defect 
-now i know [[Emacs]], so as note-taking systerm moinmoin seems very defective:
+now i know [[emacs]], so as note-taking systerm moinmoin seems very defective:
 
  - even the ''moin-mode.el'' works perfectly, I still need to use mouse to invoke emacs
  - basic navigation is kind of OK, but if it is all done in text-mode, navigation can be faster

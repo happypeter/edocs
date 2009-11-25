@@ -1,7 +1,3 @@
-FrontPage
-
-*** ubuntu 
-
  - [[small_tricks]] 
  - [[startup_script]]
  - [[video_edit]]

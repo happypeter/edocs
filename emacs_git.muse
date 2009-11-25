@@ -1,5 +1,5 @@
 FrontPage
-for the beginning, I think I can go without IkiWiki, I do not need all my revisions so much
+for the beginning, I think I can go without [[ikiwiki]], I do not need all my revisions so much
 
 * Now
 

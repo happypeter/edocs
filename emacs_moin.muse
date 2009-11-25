@@ -36,4 +36,3 @@ no modification is requied, just put them in to '''load-path '''
  (load "/home/pet/wikipeidia-mode.el")
 </example>
 
-- EmacsCommand
