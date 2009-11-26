@@ -13,6 +13,9 @@ C-x ->          ;;go to next buffer
 C-x C-w         ;; save as
 </example>
 
+undo | C-/
+redo | Space+C-/
+
 <example> 
 view-echo-area-messages  shows all the startup info
 uncomment-region + comment-region

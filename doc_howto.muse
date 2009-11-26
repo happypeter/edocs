@@ -1,6 +1,5 @@
 
 ** rules
-
  - [[doc_format]]
           
 ** Hot Topics 

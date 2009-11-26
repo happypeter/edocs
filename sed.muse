@@ -1,2 +1,3 @@
 sed -e 's/oldstuff/newstuff/g' inputFileName > outputFileName
 
+since sed is Stream ed, and vi is based on ed, so I think all the vi ed command, that is those start with **:**

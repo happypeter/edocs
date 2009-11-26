@@ -32,6 +32,8 @@ then I can put s.py into /usr/lib/cgi-bin/, can call it like this
 <form method=POST action="cgi-bin/s.py">
 </example>
 
+
+
 ** s.py 
 I got lots of errors, which are availbale to check at
 <example>
@@ -54,3 +56,4 @@ html ="""
 
 print html % ("hello, %s"%form['user'].value)
 </example>
+

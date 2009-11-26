@@ -1,0 +1,6 @@
+<example>
+name = os.popen('whoami').read()
+print "the usr of the cgi is :"+name
+</example>
+one ubuntu [[apache2]] the default usr of cgi is **www-data**, therefore it has write permission on no place on this systerm.
+

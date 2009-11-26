@@ -39,6 +39,7 @@ DATA TREE
  - I do not need backup most of the pdf books, they shall be served well as links in my muse file.
  - but maybe it is nice to have a music repo ... well this is not so important anyway
  - my [[photo]] are of course important
+ - one new idea  [[code-backup]]
 ** history
 [[backup_new_idea]]
 
@@ -47,4 +48,5 @@ DATA TREE
  - [[dropbox]]
  - [[rsync]]
 
+ 
 

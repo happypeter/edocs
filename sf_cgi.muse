@@ -11,3 +11,6 @@ if you login this way
 [root@localhost ~]# sftp happypeter,tinylion@web.sourceforge.net
 </example>
 you will find a =cgi-bin/= dir
+
+** test 
+cgi-bin/ here supports python well

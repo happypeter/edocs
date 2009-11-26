@@ -1,4 +1,3 @@
-son of AxtuWeb
 
 <example>
 wget --no-check-certificate https://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm 
@@ -18,4 +17,4 @@ the above still works, but if you remove again the last char
 </example>
 then it will fail
 
-see [[OpenAuthMysqlArea]] for more
+see [[open_auth_mysql_area]] for more
