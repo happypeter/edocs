@@ -45,3 +45,10 @@ Change =VimHacking= into [[vim]], since the =Hacking= there is stupid bring noth
 ** wikipedia rules
 
 they has no rules here, messy, ahah
+
+** font tradition 
+I mean what font should some command or file names use, I think I can follow O'Really printing format
+or gnu.org format
+
+this is nice
+http://www.gnu.org/software/emacs/manual/html_mono/emacs.html

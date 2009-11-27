@@ -1,10 +1,7 @@
-FrontPage
-
-
-** Kill Moin **
+** Kill Moin 
 so I want a sh script to kill moni, since I always failed to kill its process with Ctl+c
 
- 1. so first I get the info and save it in a file
+so first I get the info and save it in a file
 
  <example>
 
@@ -15,7 +12,7 @@ pet       9597  0.0  0.0   3336   792 pts/3    R+   11:24   0:00 grep wiki
 pet@girl:~$
  </example>
 
- 1. then I have
+then I have
 
  <example>
  pet@girl:~$ awk -F" " '{print $0}' orignial.txt
@@ -36,7 +33,7 @@ pet@girl:~$ awk -F" " '{print $4}' orignial.txt
 pet@girl:~$
  </example>
 
- finally I need this
+finally I need this
  <example>
 pet@girl:~$ awk -F" " '{print $2}' orignial.txt >2.txt
 pet@girl:~$ cat 2.txt
@@ -46,11 +43,10 @@ pet@girl:~$
  </example>
 
 
- :-) nice thing here is I use just one space for '''-F''', and everything is fine
+:-) nice thing here is I use just one space for '''-F''', and everything is fine
 
- 1. then all I need is the first line
-
- <example>
+then all I need is the first line
+<example>
 pet@girl:~$ awk '{if(NR**1); print $1; exit;}' 2.txt
 7560
 pet@girl:~$ awk '{print NR; print $1}' 2.txt
@@ -60,17 +56,17 @@ pet@girl:~$ awk '{print NR; print $1}' 2.txt
 9597
 pet@girl:~$
 
- </example>
+</example>
 
- so I use this
- <example>
+so I use this
+<example>
 pet@girl:~$ awk '{if(NR**1); print $1; exit;}' 2.txt >3.txt
 pet@girl:~$ cat 3.txt
 7560
 pet@girl:~$
- </example>
+</example>
 
- 1. now I need to know how to pass it to '''kill -9'''
+now I need to know how to pass it to '''kill -9'''
  <example>
 kill -9  `cat /dev/stdin`
  </example>
@@ -81,7 +77,7 @@ cat 3.txt|sh peter.sh
  </example>
  1. then the job is done.
 
-** real case **
+** real case 
 
 to be handy I acutally have everything in one file
 
