@@ -38,3 +38,5 @@ Q: How to kill a region ?
 A: =C-space= to set a "mark", then go to any point, =C-w= to kill the =region= between current point and the "mark"
 
 nice doc goes here http://www.cs.utah.edu/dept/old/texinfo/emacs18/emacs_13.html
+
+C-h k | show command of given key stroke

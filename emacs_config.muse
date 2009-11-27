@@ -51,4 +51,6 @@ have this script as a command in */usr/bin/eee*
 may be in the future I want emacs run a el file during startup,
 I think I can aslo achieve this by changing  */usr/bin/eee*
 
-
+** open file at startup
+when I add =(find-file "~/edocs/sed.muse" t)= into =.emacs=, it fails to
+work out for me, but when I use =emacs --deamon=, it works, strange.

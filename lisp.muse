@@ -1,0 +1,7 @@
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html
+
+auto file mode is nice, it is really what I should have, now I am in
+auto-fill-mode an doing a test, it turns out beaufilly, the looking of
+the page is no longer messy as before, and it is a minor mode, I can
+simply add =(auto-fill-mode)= in my =.emacs= to achieve this without bad
+effect on other functions.

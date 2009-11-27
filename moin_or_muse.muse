@@ -44,7 +44,7 @@ if I can transfer muse->moin, then I can use moin gui editor to modify my muse f
 
 big problem here is revision control. If I can transfer git diffs to moin revisions, then it is settled
 
-I will tranfer all the revsions into git diffs and save it.
+I will tranfer all the revsions into git diffs and save it. refer to [[ikiwiki]]
 
 so the main idea is based on muse, and use moin as a upper level tool
 

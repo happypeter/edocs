@@ -8,4 +8,5 @@
  - [[emacs_planer]]
  - [[emacs_flyspell]]
  - [[emacs_muse]]
+ - [[lisp]]
 
