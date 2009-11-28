@@ -1,4 +1,8 @@
-FrontPage
+Q: how to open a new buffer and save it?
+
+ =C-x b=
+
+
 
 
 <example>
@@ -31,7 +35,17 @@ M-x global-set-key
 
 
 - [[http://www.gnu.org/software/emacs/manual/html_mono/emacs.html.gz#Keymaps][keymaps]]
-The global keymap is the most important keymap because it is always in effect. The global keymap defines keys for Fundamental mode; most of these definitions are common to most or all major modes. Each major or minor mode can have its own keymap which overrides the global definitions of some keys. 
+
+set a keyboard macro is so esay and yet powerful, I can bind it to a
+command and a keyboard short cut afterwards.
+
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html#Save-Keyboard-Macro
+
+Q :now i need to know how to save these setting permanently? 
+
+A:    M-x insert-kbd-macro <RET> macroname <RET>
+and save the out put to .emacs
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html#Save-Keyboard-Macro
 
 Q: How to kill a region ?
 
