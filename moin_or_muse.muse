@@ -46,7 +46,9 @@ big problem here is revision control. If I can transfer git diffs to moin revisi
 
 I will tranfer all the revsions into git diffs and save it. refer to [[ikiwiki]]
 
-so the main idea is based on muse, and use moin as a upper level tool
+so the main idea is based on muse, and use ikiwiki as a upper level
+tool, I love moin, but it does not use git, ikiwiki itself is a wiki,
+so I think I can go without moin. BTW, muse already support ikiwiki:-)
 
 
 *** anyway, what I can not accept is to do writing in two formats
