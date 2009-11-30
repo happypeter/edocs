@@ -54,3 +54,7 @@ I think I can aslo achieve this by changing  */usr/bin/eee*
 ** open file at startup
 when I add =(find-file "~/edocs/sed.muse" t)= into =.emacs=, it fails to
 work out for me, but when I use =emacs --deamon=, it works, strange.
+
+
+** for good ideas
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html#Emacs-Initialization

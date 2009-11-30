@@ -36,6 +36,10 @@ M-x global-set-key
 
 - [[http://www.gnu.org/software/emacs/manual/html_mono/emacs.html.gz#Keymaps][keymaps]]
 
+<<<<<<< HEAD:emacs_command.muse
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html#Keymaps
+check this link to know how to set globle key and mode-specific keys
+=======
 set a keyboard macro is so esay and yet powerful, I can bind it to a
 command and a keyboard short cut afterwards.
 
@@ -46,6 +50,7 @@ Q :now i need to know how to save these setting permanently?
 A:    M-x insert-kbd-macro <RET> macroname <RET>
 and save the out put to .emacs
 http://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html#Save-Keyboard-Macro
+>>>>>>> 28522ee55c70d5f10a94855a93f9b669991a1838:emacs_command.muse
 
 Q: How to kill a region ?
 

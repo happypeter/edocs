@@ -42,3 +42,33 @@ I can use "sudo -i" to fix this problem, but then I need to creat another machin
  sudo usermod -a -G vboxusers peter
 
 logout and login, now it is done, haha
+
+
+---
+try =apt-get install virtualbox= on 9.04, and ended with this
+
+<example>
+Setting up virtualbox-ose (2.1.4-dfsg-1ubuntu3) ...
+ * Starting VirtualBox kernel module...                                                                                [fail] 
+
+Setting up dkms (2.0.21.1-0ubuntu3) ...
+ * Running DKMS auto installation service for kernel 2.6.28-11-generic                                                 [ OK ] 
+
+Setting up fakeroot (1.12.1ubuntu1) ...
+
+Setting up virtualbox-ose-source (2.1.4-dfsg-1ubuntu3) ...
+ * Reloading kernel event manager...                                                                                   [ OK ] 
+Adding modules to DKMS build system
+Doing initial module builds
+Installing initial modules
+Done.
+ * Stopping VirtualBox kernel module...                                                                                [ OK ] 
+ * Starting VirtualBox kernel module...                                                                                [ OK ] 
+
+Processing triggers for libc6 ...
+ldconfig deferred processing now taking place
+pet@girl:~$ virtualbox &
+
+</example>
+
+but *fedora11* installed successfully
