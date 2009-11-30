@@ -8,7 +8,7 @@ root@peter-laptop:/# find . -name "sp1_64"
 http://www.vmware.com/download/ws/lic_602_lin.html
 http://groups.google.com/group/vmkernelnewbies/files
 
-1.install gccin order to compile VMware modules
+1.install gcc in order to compile VMware modules
 
 $ sudo apt-get install linux-headers-$(uname -r) build-essential gcc-3.4
 
@@ -88,3 +88,5 @@ now how to install vm tools, in VM_winXP
   and you will see it is in //.host/Shared Folders/d
 
   run windows expoler and choose Tools->install network device...then the left is easy.
+
+see [[ax_vmware]]

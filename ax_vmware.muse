@@ -7,3 +7,4 @@ open it I think, but i need to make sure vm on two machines are of same version.
 luckily that are both =VMware Server 1.0.8 build-126538=
 
 
+see [[ax_vmware_v10]] [[ax_vmware_v20]]
