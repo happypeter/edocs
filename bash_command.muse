@@ -1,24 +1,12 @@
-** Ctl+d 
-works for python, and shell as well
 
-if you are connect to a server, you can simply use Ctl+D to log out, no need to type "exit"
-
-
-<example>
-[root@dhcp25 axtu]# time rpm -qa>/dev/null
-
-real    0m0.700s
-user    0m0.616s
-sys     0m0.072s
-[root@dhcp25 axtu]#       
-</example>
-
-CTRL + l |  clears the screen content (equivalent to the command : clear).
+C-l |  clears the screen content (equivalent to the command : clear).
 
 Shift+up  | go up
 
-
-
+C-i | <TAB>
+C-d | delete or logout
+C-a | goto beginning
+C-e | goto end
 ** change user
 
 <example>
@@ -30,3 +18,13 @@ Shift+up  | go up
 /home/peter
 </example>
 
+** time
+
+<example>
+[root@dhcp25 axtu]# time rpm -qa>/dev/null
+
+real    0m0.700s
+user    0m0.616s
+sys     0m0.072s
+[root@dhcp25 axtu]#       
+</example>

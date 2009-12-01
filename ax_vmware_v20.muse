@@ -1,3 +1,5 @@
+<example>
+
 On 73: we have the lastest vmserver installed on sp1
 then we have 
 <>
@@ -149,3 +151,5 @@ I need to cp all isos here
 5. I can not ping vm guest machine, so I change adapeter form "NAT"->"briaged"
    and it works, ssh also works well now.
 
+
+</example>

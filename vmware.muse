@@ -1,9 +1,12 @@
 
 ** vmware-server
+ where is the standard
+<example>
 root@peter-laptop:/# find . -name "sp1_64"
 ./var/lib/vmware/Virtual Machines/sp1_64
-* where is the standard
-~                                 
+
+</example>
+                        
 ** vmware-station
 http://www.vmware.com/download/ws/lic_602_lin.html
 http://groups.google.com/group/vmkernelnewbies/files
