@@ -1,6 +1,5 @@
 
 
-dddd
 
  - [[emacs_git]]
  - [[emacs_command]]
@@ -15,7 +14,9 @@ dddd
  - [[lisp]]
 
 
+this is useful if you want to sciptlize emacs behavior
 
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/elisp.html#Batch-Mode
 
 
 
