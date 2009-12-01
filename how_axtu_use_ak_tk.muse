@@ -1,4 +1,3 @@
-son of AxtuWeb
 
 axtu-auth-client will save ak and tk into two files so that axtu can use them
 <example>

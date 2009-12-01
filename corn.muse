@@ -1,8 +1,8 @@
-Describe CornUsage here.
+
 http://en.wikipedia.org/wiki/Cron
 Cron enables users to schedule jobs (commands or shell scripts) to run automatically at a certain time or date
 >>>basiclly corn is used in axtu to run
- /usr/share/axtu/tui/axtu-cl -d --random*150 -y
+ /usr/share/axtu/tui/axtu-cl -d --random=150 -y
 at a certain interval of time
 >>>
 [root@dhcp17 etc]# rpm -qa|grep cron

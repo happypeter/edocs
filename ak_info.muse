@@ -1,23 +1,23 @@
 
 ** AK.
-1. in *gui/main.cpp*
+1. in =gui/main.cpp= 
 
 <example>
- g_pclsFileCtl * new classFileCtl(g_szAF,g_szTF);
- strAk*g_pclsFileCtl->GetAuthenKey();
+ g_pclsFileCtl - new classFileCtl(g_szAF,g_szTF);
+ strAk=g_pclsFileCtl->GetAuthenKey();
 </example>
 
-2. Now in *GetAuthenKey()*;
+2. Now in =GetAuthenKey()=;
   we know AK is read from :
 
 <example>
- AUTHEN_FILE_PATH    *    "/var/axtu";
- AUTHEN_FILE_NAME    *    "asianux-auth";
+ AUTHEN_FILE_PATH    =    "/var/axtu";
+ AUTHEN_FILE_NAME    =    "asianux-auth";
 </example>
 
 3. so where is the number in asianux-auth from?
 
- A: it is from remote side.
+ A: it is from server side.
 
 4. The following words are from axtu flow chart,
 
@@ -35,12 +35,12 @@ For now I believe the answer is yes, since axtu itslef only sent AK&&TK to the s
 the following code is in the constuctor of " ./gui/axtu/classGui.cpp"
 
 <example>
-        if(m_nMode !* ERASE_MODE)
+        if(m_nMode != ERASE_MODE)
         {
-                int nResult * m_Network->CheckAuthen();
+                int nResult = m_Network->CheckAuthen();
 </example>
 
-*systerm("axtu-auth-client")* is called uncondtionally in *CheckAuthen()*
+=system("axtu-auth-client")= is called uncondtionally in =CheckAuthen()=
 
 so whenever axtu starts, auth-client is always called.
 

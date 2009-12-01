@@ -1,5 +1,3 @@
-son of AxtuWeb
-
 
 if I click axtu -U 
 firrst I see 
@@ -26,7 +24,7 @@ typedef enum{
 
 </example>
 
-*** as a test ***
+*** as a test 
 
 I delete everything in ''/var/cache/axtu/'', 
 then axtu -U again
@@ -48,7 +46,7 @@ so there is no steps you can see in main.cpp, but it has this
         app->setMainWidget(gui);
 </example>}
 so details are in classGui.
-** now let's see classGui.cpp **
+** now let's see classGui.cpp 
 
 /!\ NOTE: when axtu first start it is lancher that get executed, you click one button here
 or issue ''$axtu -u''

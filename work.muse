@@ -12,6 +12,10 @@ Better to comfirm with wtec guys before I do the patch
 
 
 * SDS 
+
+doc go here
+
+http://wiki.asianux.net/doku.php/sds_2.5
 ** tips
  - NOTE:
    SDS will fail to readout package info if you have format error in spec file,

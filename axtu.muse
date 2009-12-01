@@ -1,34 +1,24 @@
-son of FrontPage 
 
-[[axtu]] is the well organized stuff out of AxtuDebug
+<contents>
 
+** Auth related
+
+ - [[how_axtu_use_ak_tk]] 
+ - [[auth_mysql]]
+ - [[ak_info]]
+
+
+** server basics 
+ - [[clone_155_howto]]
+ - [[basic_issue]] 
+ - [[port_in_use]]
+ - [[data_base]] 
+ - [[customer_db_info]]
 
 ** Axtu
- 1. [[success_log]]
- 1. [[axtu_steps]]
- 1. [[blacklist]]
- 1. [[how_axtu_use_ak_tk]] 
-
-** Auth Client 
-
- 1. [[on_yum]]
- 1. [[make_install]] 
-
-** Auth Server 
-*** ApacheTip
- - [[auth_mysql]]
- - [[open_auth_area]]
- - [[data_base]] 
-
-*** mysql 
-
- - [[clone_155_howto]]
- - [[customer_db_info]]
- - [[basic_issue]] 
-
-** General Issues 
-
- -  [[port_in_use]]
- -  [[corn]]
- -  [[ak_info]]
- -  [[i18n_related]] 
+ - [[success_log]]
+ - [[axtu_steps]]
+ - [[blacklist]]
+ - [[i18n_related]] 
+ - [[corn]]
+ - [[auth_client_make_install]] 

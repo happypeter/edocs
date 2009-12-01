@@ -1,5 +1,23 @@
-Describe PortInUse here.
-Hello Xue Hong, I have a questoin about axtu and tsn. Which port are used for the communication with axtu in the TSN server. I think it is using 80(http) and 443(https) for authentication and 20,21(ftp) for transferring the packages.Is this correct? Could you please let me know all numbers of the ports ? best resgads, Miyashita Hi Miyashita san, 443 for authentication is right, I don't think pkg get by ftp, it should use wget by 80port. I am not developer of axtu, maybe Peter could correct me if i am wrong. Anyway, TSN local open 443 and 80 port for the client connect. Peter, how do you think about this issue? regards, ****** so I ssh to 219 and
+<example>
+
+Hello Xue Hong, 
+
+I have a questoin about axtu and tsn. 
+Which port are used for the communication with axtu in the TSN server. 
+I think it is using 80(http) and 443(https) for authentication and 20,21(ftp) for transferring the packages.
+Is this correct? Could you please let me know all numbers of the ports ? 
+best resgads, 
+Miyashita 
+
+Hi Miyashita san, 
+
+443 for authentication is right, I don't think pkg get by ftp, it should use wget by 80port. 
+I am not developer of axtu, maybe Peter could correct me if i am wrong. 
+Anyway, TSN local open 443 and 80 port for the client connect. 
+Peter, how do you think about this issue? regards, 
+
+
+****** so I ssh to 219 and
 
 [root@tsnlocaltest ddd]# netstat -antp
 Active Internet connections (servers and established)
@@ -11,4 +29,12 @@ then I
 [root@tsnlocaltest ddd]# ps aux|grep 4050
 root      4050  0.0  0.9  8676 2320 ?        Ss   10:08   0:01 sshd: root@pts/0
 
-so the 22 port is now open to me, but it is for ssh, nothing about axtu. *** when axtu trying to download hdr files, I run netsat again, and found only 80 is opened for axtu *** then how about auth? SSL is used for auth, and on wikipedia I see <> SSL**TLS ... A prominent use of TLS is for securing World Wide Web traffic carried by HTTP to form HTTPS. For example, by default the TCP port for HTTPS is 443, to distinguish it from HTTP on port 80. so it is reasonalbe to believe 443 is used for auth and 80 is used for downloading. 
+so the 22 port is now open to me, but it is for ssh, nothing about axtu. 
+when axtu trying to download hdr files, I run netsat again, and found only 80 is opened for axtu 
+then how about auth? SSL is used for auth, and on wikipedia I see 
+
+<> SSL**TLS ... A prominent use of TLS is for securing World Wide Web traffic carried by HTTP to form HTTPS.
+For example, by default the TCP port for HTTPS is 443, to distinguish it from HTTP on port 80. 
+so it is reasonalbe to believe 443 is used for auth and 80 is used for downloading. 
+
+</example>

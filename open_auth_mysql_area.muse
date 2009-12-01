@@ -20,7 +20,7 @@ gpgcheck=1
 gpgkey=file:///usr/share/doc/asianux-release/RPM-GPG-KEY
 </example>
 
-NOTE: check [[AuthMysql]] to see how to insert stuff in db
+NOTE: check [[auth_mysql]] to see how to insert stuff in db
 
 ** test 
 now the final test 
@@ -59,4 +59,22 @@ write python code get ak and tk, and modify this way
  </example> 
 yum will work fine with the new url, like the test above goes, to do everything as it can be done with common url
 
-see [[OpenAuthArea]] for more info
+** more
+
+<example>
+wget --no-check-certificate https://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm 
+wget --no-check-certificate ak:tk
+wget --no-check-certificate https://426994C693EA41C2B9D77F1760A75344:4F3F6D92FF544746BF7A4642FFD58AB1@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm 
+</example>
+also works
+
+and actually tk is allowed to cut as short as
+<example>
+wget --no-check-certificate https://426994C693EA41C2B9D77F1760A75344:4F3F6D92@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm   
+</example>
+
+the above still works, but if you remove again the last char
+<example>
+2
+</example>
+then it will fail

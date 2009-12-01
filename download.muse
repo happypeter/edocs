@@ -1,4 +1,3 @@
-son of YumHacking
 
 I want to know how yum download pkgs, I think it is done here:
 

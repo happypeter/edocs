@@ -1,5 +1,4 @@
 
-
 Now I want my own test machine, so first step is to make a clone of 155, on my virtual machine(73)
 
 ** steps
@@ -11,7 +10,7 @@ Now I want my own test machine, so first step is to make a clone of 155, on my v
 //all it takes is httpd and mysqld, phpAdmin works, login as root, no passwd
 
 ** cp db
-1. cp *155 "/var/lib/mysql/asianux_authentication"* to vm
+1. cp =155:/var/lib/mysql/asianux_authentication= to vm
 <example>
 chmod 660 -
 chown -c mysql - 
@@ -27,6 +26,7 @@ then *$ls -l*, we see everything on xen is exactly the same as 155
 4. now I can browse it in phpAdmin
 
 ** reg done
+
 error is "required data not found"
 
 1. this is because I do have repo on xen

@@ -27,9 +27,18 @@ require user peter
 
 ** bring mysql into the game 
 
- 1. I add in *httpd.conf*, this stuff LoadModule mysql_auth_module modules/mod_auth_mysql.so
+ 1. I add in =httpd.conf=, this stuff LoadModule mysql_auth_module modules/mod_auth_mysql.so
  <example>
-AuthName "MySQL group authenticated zone" AuthType Basic AuthMYSQLEnable on AuthMySQLUser authuser AuthMySQLPassword PaSsW0Rd AuthMySQLDB auth AuthMySQLUserTable users AuthMySQLNameField user_name AuthMySQLPasswordField user_passwd require valid-user
+AuthName "MySQL group authenticated zone" 
+AuthType Basic 
+AuthMYSQLEnable on 
+AuthMySQLUser authuser 
+AuthMySQLPassword PaSsW0Rd 
+AuthMySQLDB auth 
+AuthMySQLUserTable users 
+AuthMySQLNameField user_name 
+AuthMySQLPasswordField user_passwd 
+require valid-user
  </example>
  1. do exactly the following stuff
  <example>
@@ -109,12 +118,16 @@ if I do
 
 then I can use  =peter 111111= for test. 
 
-** 3 tips  
+test[2]
 
+** tips  
+
+*** 1
 =firefox= can rember the id&passwd, even you click no when asked whether you want firefox to remember it or not
 
 you still need to resart firefox to make things cleared.
 
+*** 2
  peter 11111
 
  bille 22222 xxxxx xxxxx 
@@ -132,9 +145,19 @@ AuthMySQLNameField user_name
 does not sepicify one line of db filed, anything can be the right thing, which means all the ak&tk in *asianux_authentication*
  can be used as id&passwd, no matter ip, hardware info or any other field matches or not.
 
+*** 3
 tk is always "ENCRYPT"ed, so you can not read the orignal value with phpMyAdime but when you type it into that firefox popup diolog, you just use the orignal value(e.g '111111')
 
+*** 4
+NOTE: one thing worth noting is that you do
+<example>
+mysql>  INSERT INTO authentication_info VALUES ('testtk3', ENCRYPT('9EDEBD84EEBB477693E43D8E185791AB'),'','','','','','','','','','','','');
+
+</example>
+everytime you get differnt output in phpMyAdmin of the encryped filed (tk, to be specific), even though you are inserting the same value.
   
 FootNotes:
 
 [1] formally it is called [[http://www.linfo.org/plaintext.html][plaintext]]  in cryptography 
+
+[2] test

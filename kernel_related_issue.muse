@@ -1,9 +1,5 @@
 
-
-
-
-Hi Its all text
-***
+*** d
 http://yum.baseurl.org/wiki/Faq
 <example>
 Q. 8: Yum is very nice at updating my kernel, but I use the (nvidia | openafs | other module) and yum doesn't seem to handle it well. Could you fix yum to handle this for me?

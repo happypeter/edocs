@@ -1,25 +1,5 @@
-son of YumHacking
 
-now if I run
-<example>
-/usr/share/axtu-authen-client/bin/axtu-authen-client-cui
-</example>
-
-I get this:
-<example>
-  -t, --tk-path=STRING            follow with file path for temporary-key
-  -a, --address-path=STRING       follow with file path for repository
-                                  addresses
-  -i, --id=STRING                 follow with Your member Id
-  -p, --password=STRING           follow with Your password for member ID
-  -n, --product-number=STRING     follow with your product number
-  -s, --system-name=STRING        follow with your system name
-  -d, --disable-collect-info      You may not allow sending the system
-</example>
-
-so the command line program has no UI, I need to add one for yum auth
-
-** d
+** Basic logic
 I can call authen-client in yum plugin init_hook()
 
 so when authen-client obtain or update aktk
@@ -59,10 +39,6 @@ authentification done perfectly, just like gui is in use
 
 one small nice tip here:
 <example>
-[root@dhcp17 ~]# /usr/share/axtu-authen-client/bin/axtu-authen-client-cui -r
-Your authentication key file is removed
-[root@dhcp17 ~]# /usr/share/axtu-authen-client/bin/axtu-authen-client-cui -r
-Your authentication key file is removed
 [root@dhcp17 ~]# /usr/share/axtu-authen-client/bin/axtu-authen-client-cui -r
 Your authentication key file is removed
 </example>

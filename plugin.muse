@@ -1,4 +1,3 @@
-son of YumHacking                                   
                                  
 http://yum.baseurl.org/wiki/WritingYumPlugins
 
@@ -20,3 +19,12 @@ tokeep=2
 NOTE: if you have noting in this conf file, your plugin will be ignored
 
 now it works, haha                 
+
+** conduits
+http://yum.baseurl.org/wiki/WritingYumPlugins
+
+I know Conduits is used for the sake of communication between plugin and yum
+
+Since the auth module I am working on, only need to modify *baseurl* adding aktk to it
+
+so no need to use Conduits

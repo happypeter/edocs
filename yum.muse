@@ -1,30 +1,30 @@
 
-Most important topics
+** auth
+check [[axtu]] auth related stuff for more
 
+ - [[auth_security]]
  - [[add_auth]]
- - [[get_method]]
  - [[open_auth_mysql_area]]
  - [[auth_overview]]
  - [[yum_upgrade]]
+ - [[plugin]]  
 
-Many things to do, here is a list
+ [[future_plan_for_auth]]
+** others
 
  - [[creatrepo]]   my test
  - [[packagekit]]  not much
  - [[unclassified_tips]]
  - [[download]]   how Yum download pkgs
  - [[kernel_related_issue]]
- - [[plugin]]  I need to write one for auth
- - [[ubuntu_joke]] a little naughty right?
+ - [[ubuntu_joke]] 
  - [[obsolete_tag]]
  
 sth not classified
 
  - [[hwanii_ppt]]
 
-mechanism
-
- - [[conduits]]
 
 
-[[auth_security]]
+
+

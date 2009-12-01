@@ -147,13 +147,8 @@ Errno 14] HTTP Error 401: Authorization Required
 </example>
 
 
-NOTE:the **GRANT** issue fooled me again, see here [[AuthMysql]]
+NOTE:the **GRANT** issue fooled me again, see here [[auth_mysql]]
 
-** try wget first
-
-maybe I'd better try wget to download some package to see if the modified *baseurl* is right or not
-
-see [[OpenAuthArea]] for this
 
 ** news
 <example>
@@ -190,7 +185,7 @@ Saving to: `repomd.xml'
 //but even in yum.repo.d, I have this
 
 baseurl=http://426994C693EA41C2B9D77F1760A75344:9EDEBD84EEBB477693E43D8E185791AB@10.1.0.66/auth/asianux2/AXS3-RF/x86_64/UPDATE/
-//and firefox also likes the above url.
+//and firefox also works with the above url.
 
 //but stll this error, when I run $yum list
 
@@ -203,13 +198,4 @@ I even paied specieal care to /var/cache/yum/, but same solution.
 SO if I run mysql command manually to insert aktk into db, I believe it will work out for yum, 
 since peter:111111 already works
  
-it must be that axtu only use the upper 16 bits of tk to update db, which causes this peoblem
-
-so I need to study tk a little more.
-
-NOTE: one thing worth noting is that you do
-<example>
-mysql>  INSERT INTO authentication_info VALUES ('testtk3', ENCRYPT('9EDEBD84EEBB477693E43D8E185791AB'),'','','','','','','','','','','','');
-
-</example>
-everytime you get differnt output in phpMyAdmin of the encryped filed (tk, to be specific), even though you are inserting the same value.
+Answer: now I know its the too old version of python or yum that case this problem, so all I need to do for this is [[yum_upgrade]]

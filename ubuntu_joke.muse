@@ -1,4 +1,3 @@
-son of YumHacking
 
 peter@peter-laptop:~$ sudo apt-get install yum
 

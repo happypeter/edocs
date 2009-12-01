@@ -9,6 +9,8 @@ to cheat auth_mysql this machine is also authorized. That's possible, I think.
 *** that is right
 my new study on auth process tells me, when axtu trying to download packages, only ak&tk is required 
 so leterally any machine has the ak&tk, can download packages.
+
+*** fix it
 To avoid this, the fomer axtu developer actually does this:
 
 
