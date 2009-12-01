@@ -50,3 +50,10 @@ now i see a sdb is added here
  <example> 
  mkfs.vfat -I /dev/sdb
  </example>
+** auto wireless netwrok message
+that day I did some stupid setting about wireless which I forgot imddiately after
+then every time I reboot my machine a msg box realted will show up, anoying
+
+the right way to fix it to to right click the system tray on the top right of the screen
+
+then choose =Edit Connection->Wireless=, delete all the connections there, then msg box is gone

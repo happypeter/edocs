@@ -12,7 +12,6 @@ son of FrontPage
 ** Auth Client 
 
  1. [[on_yum]]
- 1. [[hwanii_auth]]
  1. [[make_install]] 
 
 ** Auth Server 
