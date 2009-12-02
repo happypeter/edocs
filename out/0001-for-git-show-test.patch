@@ -1,0 +1,159 @@
+From 32de845909d54c60bb8a4ccfc6c4af5817096f07 Mon Sep 17 00:00:00 2001
+From: pet <pet@cow.(none)>
+Date: Wed, 2 Dec 2009 11:04:47 +0800
+Subject: for git show test
+
+---
+ css.muse    |  105 ++++++++++++++++++++++++++++++----------------------------
+ git.muse    |    5 +++
+ sf_git.muse |    8 ++---
+ 3 files changed, 62 insertions(+), 56 deletions(-)
+
+diff --git a/css.muse b/css.muse
+index eb43958..748b128 100644
+--- a/css.muse
++++ b/css.muse
+@@ -1,51 +1,54 @@
+-
+-
+-*** gallary
+-http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery
+-
+-will be useful when I want to write my own photo manager
+-
+-
+-http://www.w3schools.com/css/showit.asp?filename=ex1
+-
+-the right place to learn html and css
+-
+-
+-
+-
+-
+-
+-this keep things in a line
+-
+-
+-<html>
+-<head>
+-<style type="text/css">
+-#menu
+-{
+-position: relative;
+-}
+-#menu ul li
+-{
+-display: inline;
+-} 
+-</style>
+-</head>
+-
+-<body>
+-<div id="menu">
+-<ul>
+-<li>peter
+-<li>billie
+-</ul>
+-</div>
+-<ul>
+-<li>peter
+-<li>billie
+-</ul>
+-</body>
+-</html>
+-
+-check here to know why http://www.w3schools.com/css/css_id_class.asp
+-
+-I love CSS
++*** gallery
++http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery
++
++will be useful when I want to write my own photo manager
++
++
++http://www.w3schools.com/css/showit.asp?filename=ex1
++
++the right place to learn html and css
++
++
++** keep things in a line
++<example>
++
++<html>
++<head>
++<style type="text/css">
++#menu
++{
++position: relative;
++}
++#menu ul li
++{
++display: inline;
++} 
++</style>
++</head>
++
++<body>
++<div id="menu">
++<ul>
++<li>peter
++<li>billie
++</ul>
++</div>
++<ul>
++<li>peter
++<li>billie
++</ul>
++</body>
++</html>
++</example>
++check here to know why http://www.w3schools.com/css/css_id_class.asp
++
++I love CSS
++
++
++
++
++
++
++
++
++
+diff --git a/git.muse b/git.muse
+index 7dccb76..f7a56b4 100644
+--- a/git.muse
++++ b/git.muse
+@@ -5,3 +5,8 @@
+ [[emacs_git]]
+ 
+ [[git_command]]
++
++** track rename history
++<example>
++pet@cow:~/edocs$ git log --follow auth_security.muse
++</example>
+diff --git a/sf_git.muse b/sf_git.muse
+index e15ba7f..ff355ff 100644
+--- a/sf_git.muse
++++ b/sf_git.muse
+@@ -1,14 +1,12 @@
+-** NOT in use now
+-I am for now not using sf git repo due to the following error:
++** a former crash now fixed
++error:
+ 
+ whatever I do to any sourceforge git url,
+-if I "git push" or "git clone ssh://happypeter@vivion.git.sourceforge.net/gitroot/vivion"
++if I =git push= or =git clone ssh://happypeter@vivion.git.sourceforge.net/gitroot/vivion=
+ <example>
+ fatal: '/gitroot/tinylion': unable to chdir or not a git archive
+ </example>
+ 
+-Is this because I used "ssh sf" just now and did sth wrong?
+-
+ ** tips
+ =Project Admin->Feather Setting->Enable Git=
+ 
+-- 
+1.6.0.4
+

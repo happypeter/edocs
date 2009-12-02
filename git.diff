@@ -1,0 +1,19 @@
+commit 32de845909d54c60bb8a4ccfc6c4af5817096f07
+Author: pet <pet@cow.(none)>
+Date:   Wed Dec 2 11:04:47 2009 +0800
+
+    for git show test
+
+diff --git a/git.muse b/git.muse
+index 7dccb76..f7a56b4 100644
+--- a/git.muse
++++ b/git.muse
+@@ -5,3 +5,8 @@
+ [[emacs_git]]
+ 
+ [[git_command]]
++
++** track rename history
++<example>
++pet@cow:~/edocs$ git log --follow auth_security.muse
++</example>
