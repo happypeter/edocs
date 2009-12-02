@@ -5,3 +5,8 @@
 [[emacs_git]]
 
 [[git_command]]
+
+** track rename history
+<example>
+pet@cow:~/edocs$ git log --follow auth_security.muse
+</example>

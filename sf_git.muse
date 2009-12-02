@@ -1,13 +1,11 @@
-** NOT in use now
-I am for now not using sf git repo due to the following error:
+** a former crash now fixed
+error:
 
 whatever I do to any sourceforge git url,
-if I "git push" or "git clone ssh://happypeter@vivion.git.sourceforge.net/gitroot/vivion"
+if I =git push= or =git clone ssh://happypeter@vivion.git.sourceforge.net/gitroot/vivion=
 <example>
 fatal: '/gitroot/tinylion': unable to chdir or not a git archive
 </example>
-
-Is this because I used "ssh sf" just now and did sth wrong?
 
 ** tips
 =Project Admin->Feather Setting->Enable Git=
