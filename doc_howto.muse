@@ -14,6 +14,7 @@
  - [[emacs]]
  - [[openoffice]]
  - [[tomboy]]
+ - [[flow_chart]]
 
  
 

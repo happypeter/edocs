@@ -1,0 +1,32 @@
+Problem: Now If you look at axtu flowcharts it is many years old, new
+feathers added, and flow changed a lot, the the flowcharts never
+updated
+
+it is in pdf format so can not be changed
+
+*** what I want
+
+ - somthing can be updated easily
+ - it will be nice I scan save it in git and get diffs
+
+*** test
+
+ - tried openoffice file but git thinks it is binary, therefore no
+   meaningful diff can be generated
+ - well... it seems difficult, because it is not easy to get nice
+   picture diff
+
+*** my idea
+ - so maybe I can try to describe axtu flow as much as possible in
+   test rather than in pictures
+ - if sometimes we do need pictures, make them small, so that the diff
+   can easily be get by human eyes.
+
+so the axtu flow chart will be likely change form big pdf pictures to
+muse file, that is:
+ - long para of word-descroption then a samll pic with a nice name
+   with a revision number
+ - then if I update a pic, I then change the revision number within
+   the file name, so that git can clear report this in the revision
+   history
+
