@@ -14,14 +14,6 @@
  - [[dual_boot]]
  - [[ssh]]
 
-*** Editors
- - [[emacs]]
- - [[vim]]
-
-
-*** OS
- - [[ubuntu]]
- - [[git]]
 
 *** web tools
  - [[sf]]
