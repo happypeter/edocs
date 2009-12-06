@@ -38,6 +38,7 @@
  - [[peter_homepage]]
  - [[vocabulary]]
  - [[photo]]
+ - [[life]]
 
 
 
