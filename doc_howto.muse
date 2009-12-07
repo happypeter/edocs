@@ -6,6 +6,7 @@
  - [[moin_or_muse]]
  - [[docbook]]
  - [[port_from_moin]]
+ - [[private]]
 
 ** tools
 
