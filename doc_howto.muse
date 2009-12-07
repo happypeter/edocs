@@ -8,6 +8,7 @@
  - [[port_from_moin]]
  - [[private]]
 
+ - automation is really important
 ** tools
 
  - [[moinmoin]]
