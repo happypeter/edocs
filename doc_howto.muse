@@ -8,7 +8,8 @@
  - [[port_from_moin]]
  - [[private]]
 
- - automation is really important
+** automation is really important
+ - [[code/bash/edocs-commit]]
 ** tools
 
  - [[moinmoin]]
