@@ -30,3 +30,7 @@ muse file, that is:
    the file name, so that git can clear report this in the revision
    history
 
+*** tools
+
+ - use openoffice drawing, and export is as png file, then the pics
+   are really small and nice
