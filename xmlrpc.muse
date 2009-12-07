@@ -1,6 +1,5 @@
 
 http://en.wikipedia.org/wiki/MoinMoin
-
 MoinMoin also allows synchronization of contents from instance to instance[4] via XML-RPC and therefore allows distributed offline editing.
 
  - wiki format (parser)->(formatter) html/docbook
