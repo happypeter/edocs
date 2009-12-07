@@ -13,6 +13,7 @@
  - [[encryption]]
  - [[dual_boot]]
  - [[ssh]]
+ - [[home_machine_login]]
 
 
 *** web tools
