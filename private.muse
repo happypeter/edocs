@@ -21,3 +21,7 @@ and the problem is:
    changed, the detail history is in the git repo inside gpg file, but
    this is not a git sub repo
  - I think I can try this
+
+[[code/bash/save_private.sh]]
+
+[[code/bash/save_private.sh]]
