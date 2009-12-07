@@ -8,3 +8,7 @@ one to the local one, you need to config your router for this:
  - you need ID and Passwd for this, usually the defualt one is on the
    surface of the router
  - click virtual server to set all kinds of settings for http or ssh
+
+** test on my home machine
+
+ - passwd and id is required, nice
