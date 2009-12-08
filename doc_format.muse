@@ -52,3 +52,6 @@ or gnu.org format
 
 this is nice
 http://www.gnu.org/software/emacs/manual/html_mono/emacs.html
+
+*** Oreilly
+you can see Font Convention in any Oreilly book, it helps

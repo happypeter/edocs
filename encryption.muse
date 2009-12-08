@@ -18,7 +18,7 @@ the letters RSA are the initials of their surnames.
  - [[gpg]]
  - [[pgp]]
 ** what I need 
- - [[private-data]]
+ - [[private]]
 
 
 ** lock a folder to non-root 

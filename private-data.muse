@@ -1,7 +1,0 @@
-https://help.ubuntu.com/community/EncryptedPrivateDirectory
-
-Apple =1password= is nice
-
-
-** current solution
-I simplely encrypt the tar.gz file with [[gpg]], and store it in [[dropbox]]
