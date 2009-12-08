@@ -40,5 +40,6 @@ echo  "---------------done"
 git commit -a -m "${MSG:-defaut-msg-for-private}"
 
 echo "git commit ------------done" 
-
+##restore former .emacs
+mv   /home/pet/abcd/init-muse.emacs /home/pet/.emacs
 rm -rf /home/pet/abcd/

@@ -15,4 +15,7 @@ tar zxvf private.tar.gz
 rm *tar*
 cd private
 
-
+###now change .emacs for private
+mv /home/pet/.emacs  /home/pet/abcd/init-muse.emacs
+cp /home/pet/abcd/private/init-private.emacs /home/pet/.emacs
+eee # start emacs
