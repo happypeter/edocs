@@ -1,0 +1,20 @@
+I have a dream that one day, I do not need to type same commands over and over
+again!
+
+ - I want some gui tool readout my kdocs/
+ - I see a index tree, I can esaily navigate
+ - when I click a file, it is opened in Moinmoin
+ - I mean I can edit the file in GUI or text Mode to do wiki composing
+ - I have then a nice wiki output for all pages
+ - I want my whole tree, transformed into a docbook <book> in one go
+ - maybe I also need to make a subdir of kdocs in to a <book>
+ - I want button for git commit
+ - since I use git, I do not want wiki revisons
+ - it will be nice to add links to another page in a wiki way
+ - but I will first gurantee the kdocs tree strucure
+ - to garantee fastest navigation
+
+so
+ - I will wirte docs in wiki format, since wiki means "quick"
+ - I need the output to be cute to speed up my reading
+ - I want it in pdf or html, so that I can share it with anybody

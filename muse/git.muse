@@ -1,0 +1,45 @@
+[[sf_git]]
+
+[[github]]
+
+[[emacs_git]]
+
+[[git_command]]
+
+http://mirror.yandex.ru/pub/software/scm/git/docs/
+
+** track one flile  history
+<example>
+pet@cow:~/edocs$ git log --follow auth_security.muse
+pet@cow:~/edocs$ git show 9188a9bdba8d5a3f94be6e1a1bc634b58b398b6e git.muse
+</example>
+you can also do this to a dir
+t<example>
+pet@girl:~/github/python$ git log --follow auth_for_yum/
+</example>
+[[http://github.com]] has very nice web interface for this, I think I need
+to study the source code of github it self
+
+** can I get history of a subdir
+this equals:
+Can I get a subdir out of a big git repo and get a small repo for this
+dir only
+
+ - it will also be nice, that I can have a more powerful gitk, that
+   shows not only the globle history, but also that of any subdir
+
+*** may be I should also study how git handle subrepo ?
+A: if you have a sub-repo inside a big-repo, the everytime you make a
+commit to sub-repo, big-repo git will only remeber the sub-repo commit
+hash, which is enough, I think.
+** get pathces to sent to mainstream
+<example>
+pet@cow:~/edocs$ git commit -a -m "out test"
+Created commit bd379fd: out test
+ 1 files changed, 5 insertions(+), 1 deletions(-)
+pet@cow:~/edocs$ git format-patch --keep-subject -o out origin
+out/0001-for-git-show-test.patch
+out/0002-out-test.patch
+pet@cow:~/edocs$ 
+</example>
+

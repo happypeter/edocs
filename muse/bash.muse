@@ -1,0 +1,22 @@
+
+ - [[awk]]
+ - [[dir_walk]]
+
+<example>
+mkdir ~/Ubuntu\ One
+</example>
+
+
+ - [[tee]]
+
+ - [[sed]]
+
+ - [[small_bash]]
+ - [[bash_command]] 
+
+ - [[serach]]
+ - [[check_hardware_info]]
+*** Error 
+[[fd_syntax_error]]
+
+

@@ -1,0 +1,9 @@
+I happily found this
+<example>
+pet@pet-desktop:~/Desktop/python$ file mit-6-00-f08-lec01_300k.mp4 
+mit-6-00-f08-lec01_300k.mp4: ISO Media, MPEG v4 system, version 2
+pet@pet-desktop:~/Desktop/python$ file ../berckly.flv 
+../berckly.flv: ISO Media, MPEG v4 system, version 2
+pet@pet-desktop:~/Desktop/python$ 
+</example>
+they are same format, though the video files downloaded form [[http://webcast.berkeley.edu/course_details_new.php?seriesid=2009-D-26368&semesterid=2009-D][berkeley]] has, defualtly, no extention

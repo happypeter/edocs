@@ -1,0 +1,14 @@
+FrontPage
+
+<example>
+pet@girl:~/lisp-lib/dictionaries-common$ ls
+debian-ispell.el  debian-ispell.elc  done  flyspell.el  flyspell.elc  ispell.el  ispell.elc
+</example>
+
+all you need to do is adding a '''require''' in ''.emacs''
+
+then '''M+x''' to see what is available for it
+
+Nice thing is when I am in '''muse''' mode
+I can still run '''M+x''' to activate flyspell-mode
+then the mode name turns to '''Muse Fly''', hahaha

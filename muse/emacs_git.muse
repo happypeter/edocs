@@ -1,0 +1,41 @@
+FrontPage
+for the beginning, I think I can go without [[ikiwiki]], I do not need all my revisions so much
+
+* Now
+
+ - I think I can just use simple git command in emacs
+ - as long as my data is save, I am OK
+ - now I can run
+<example>
+C+x g .
+</example>
+
+to invoke ***git-cmd*** , since I already know git commands, so this is easy
+
+
+ - now I bring [[github]] in
+~                                
+so I first started here
+http://www.emacswiki.org/emacs/Git
+as I am in ubuntu 9.04 and using emacs22, I alredy has the basic git support. 
+<example>
+
+    - vc-git.el – a VersionControl backend (This is part of Emacs since version 22.2 (released in March 2008); see also [1] for experimental hacks by ttn.)
+
+Clarification here: Git, as in “Git support”, IS included in emacs 22 and 23. Certainly loading the above caused issues with Emacs 23.0. 
+</example>
+and form the above, I got a link to 
+http://github.com/tsgates/git-emacs
+which mostly works, try ''M-x'' to see the new commands provided.
+e.g ''gitk'' ''git-config-init'' and a lot others...
+
+** git-status
+below is what I learned form http://xtalk.msk.su/~ott/en/writings/emacs-vcs/EmacsGit.html
+<example>
+Work with package always starts with execution of git-status command,
+</example>
+
+** git-cmd 
+when ''git-emacs'' is in use, a command named "git-cmd" is available
+
+which runs git command with in emacs, easy for me.

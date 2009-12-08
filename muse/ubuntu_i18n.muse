@@ -1,0 +1,10 @@
+
+on a fresh 9.04 Chinese version ubuntu
+
+click systerm->administration->languange, choose chinese and install everything
+
+required, with some gui click
+
+ then Chinese input is done
+
+

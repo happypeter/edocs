@@ -1,0 +1,42 @@
+
+
+ 1. count line num
+ <example>
+awk 'END {print NR}' infile
+ </example>
+
+ 1. get part of a line
+ <example>
+pet@girl:~$ cat infile 
+5287:6033
+pet@girl:~$ awk -F":" '{ print $1 }' infile 
+5287
+pet@girl:~$ 
+ </example>
+
+check [[kill_moin]] as a real world example
+
+** e.g
+<example>
+<s.sh>
+cat ./dd |awk -F "=" '{ if ($1=="if") print $1 ;print $2}'
+</s.sh>
+
+<dd>
+if=xx
+<dd/>
+<test>
+[root@dhcp25 test]# sh s.sh
+if
+xx
+[root@dhcp25 test]#  
+</test>
+<dd>
+ii=xx
+<dd/>
+<test>
+[root@dhcp25 test]# sh s.sh
+xx
+[root@dhcp25 test]#        
+</test>
+</example>

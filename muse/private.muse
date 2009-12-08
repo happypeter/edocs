@@ -1,0 +1,29 @@
+big headache of mine now is I do not know how to handle my private
+data.
+
+of course, revision history is also required, and git is for sure
+chosen for this. 
+
+** current states
+
+ - as a separate repo independent form [[edocs]]
+ - compressed and encryted with gpg
+ - save the gpg file in [[dropbox]]
+
+and the problem is:
+ - no proper way to get the version of the gpgfile
+
+** can I just commit this gpg file into edocs ?
+
+ - then I need to know how muse handle attached files
+ - actually if the file extention is not =.muse=, muse will ignore it
+   which is just what I want, I only want git knows when it is
+   changed, the detail history is in the git repo inside gpg file, but
+   this is not a git sub repo
+ 
+** automation
+I think I can use this
+
+[[code/handle_private]]
+
+

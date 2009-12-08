@@ -1,0 +1,28 @@
+
+** SSH keys 
+
+ 1. on my laptop as common user peter
+ <example>
+ $ ssh-keygen -t dsa
+ </example>
+ then i shall have in /home/peter/.ssh a pair of keys   (public key: id_dsa and private key: id_dsa.pub)
+
+ 2. now on romi
+ <example>
+ #mkdir peter/.ssh
+ </example>
+ copy my public key here with the name authorized_keys
+
+ I can login romi safer with my ssh keys
+ 
+ //login for the first time I need to type 111111 to active to key
+ 
+ //but if I need to login in other machines I still need the former passwd: peter1983
+
+ when I reinstall my local OS, I need to do the above 3 step again.
+
+ but when I am trying to copy sth form romi to my local machine, I see warning related to romi: ./ssh/knownhost
+
+ the solution is simply deleting this file, it will be created again automatically
+
+see more in [[ubuntu_ssh]]

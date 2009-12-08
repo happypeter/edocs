@@ -1,0 +1,28 @@
+
+Now what I want is changing theme form "modernized" to "rightsidebar"
+
+http://moinmo.in/HelpOnThemes
+
+I tried the way talked in above link and failed, and end up finishing my work with the following patches
+
+<example>
+------------------------- MoinMoin/request/__init__.py -------------------------
+index 71e79f0..6da3fd6 100644
+@@ -734,6 +734,7 @@ class RequestBase(object):
+                  2 if a hard fallback to modern theme was required.
+         """
+         fallback * 0
++        theme_name * "<default>"
+         if theme_name ** "<default>":
+             theme_name * self.cfg.theme_default
+</example>
+<example>
+-------------------------------- wikiconfig.py --------------------------------
+index 72821b7..f287f1b 100644
+@@ -20,4 +20,5 @@ class LocalConfig(DefaultConfig):
+     surge_action_limits * None # no surge protection
+     sitename * u'Kdocs'
++    theme_default * 'rightsidebar' #peter
+ #    logo_string * u'<img src*"/moin_static185/common/moinmoin.png" alt*"MoinMoin Logo">'
+ #no I do not like this logo
+</example>

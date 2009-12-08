@@ -1,0 +1,27 @@
+I can try this ububtu native toy to study.
+
+Check here to see how to do things
+https://wiki.ubuntu.com/Testing/Applications/Seahorse
+
+I tested it, and it works fine. But if the key is lost, I will be in big trouble
+
+ - here I start
+<example>
+pet@girl:~$ seahorse
+</example>
+ - =file->new=
+creat a new =PGP KEY= (used to crypt email and files), I give it a name =peter-pgp= and apasswd =111111=
+
+ - then I right click a file =peter.txt=, right click and choose =encryt=, then I get a output =peter.txt.pgp=
+ - then the encryted file is got, right click if you want to decrypt it.
+
+but I want to know how the reciver can open it, so I 
+ - export =peter-pgp= as =peter-pgp.asc=
+ - right click  =peter-pgp.asc= then gnome showed a message "key imported"
+ - then I went to =seahorse= and deleted =peter-pgp=
+ - but since =peter-pgp.asc= was there, so I was confident to open =peter.txt.pgp=
+ - but I failed, I hated gui!!
+
+the keys are in =~/.gnupg= , it just a front-end of [[gpg]] 
+
+

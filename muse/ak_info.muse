@@ -1,0 +1,72 @@
+
+** AK.
+1. in =gui/main.cpp= 
+
+<example>
+ g_pclsFileCtl - new classFileCtl(g_szAF,g_szTF);
+ strAk=g_pclsFileCtl->GetAuthenKey();
+</example>
+
+2. Now in =GetAuthenKey()=;
+  we know AK is read from :
+
+<example>
+ AUTHEN_FILE_PATH    =    "/var/axtu";
+ AUTHEN_FILE_NAME    =    "asianux-auth";
+</example>
+
+3. so where is the number in asianux-auth from?
+
+ A: it is from server side.
+
+4. The following words are from axtu flow chart,
+
+<example>
+For registration : ID, PassWord, Product Key
+               HW hash value are sent.
+To access for updating : AK, HW Hash value are sent.
+</example>
+Which means AK is read form remote side, form auth server
+
+Q: Does axtu call auth_client again, even the right ak is still there?
+
+For now I believe the answer is yes, since axtu itslef only sent AK&&TK to the sever side
+
+the following code is in the constuctor of " ./gui/axtu/classGui.cpp"
+
+<example>
+        if(m_nMode != ERASE_MODE)
+        {
+                int nResult = m_Network->CheckAuthen();
+</example>
+
+=system("axtu-auth-client")= is called uncondtionally in =CheckAuthen()=
+
+so whenever axtu starts, auth-client is always called.
+
+NOTE: I think the above also means, when axtu use aktk to access repo, it has nothing to do with auth-server. Eagually it means auth-client handles everything, in corperate with auth-server, but when ak and tk are ready axtu will talk to autn_mysql directly, then downing packages, during this process, neither auth_client nor server does anything.
+
+** e
+when authen program start, first it will make clear it is Register mode or access mode,
+
+<example>
+if(auth)
+{
+read AK from local
+}
+else
+{
+creat AK in remote and read
+}
+</example>
+
+** f 
+in v_1_0.php , the server actually the the following things to AK
+
+1.$authen_key = trim($_POST['ak']);
+
+//receive ak from client
+
+2. if( (strlen($authen_key) ** 0) && (strlen($product_number) !* 0)){
+ 
+//if client AK does not esist, go to register

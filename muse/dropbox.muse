@@ -1,0 +1,39 @@
+
+** Dropbox also
+https://www.dropbox.com/
+seen there web, I feel these guys seem to know how things is rightly done
+
+<example>
+Dropbox replaces:
+
+    * Emailing file attachments to yourself and other people
+    * Using USB drives to move files between computers
+    * Renaming files to keep a history of previous versions
+    * Complicated backup software
+    * FTP servers, system-specific sharing methods, Network Attached Storage (NAS)
+
+Not convinced yet? Then take a look at our list of features. Otherwise, go ahead and get started:
+</example>
+
+from wikipeida
+<example>
+and it supports revision history  by use of deltas or delta encoding technology
+</example>
+
+go here to get a web access to you folder
+https://www.dropbox.com/photos/
+
+** small tip
+
+I can change the icon of the folder, right =click->properties= 
+
+** backup 
+<example>
+pet@girl:~/.Dropbox-backup$ mkdir Nov_24_2009
+
+pet@girl:~/Desktop$ rsync -r Dropbox/ /home/pet/.Dropbox-backup/Nov_24_2009/
+</example>
+
+** revision history
+dropbox wedside->recent events actully keeps a nice log for what
+you've done to your file repo

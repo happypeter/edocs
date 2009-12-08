@@ -1,0 +1,20 @@
+<example>
+
+
+
+1.
+<>
+@echo name1 = $(name1)
+</>
+* the @ here simply prevent the command itself showing up 
+* during the execution of Makefile
+2.
+<>
+peter: 
+        @echo $@
+</>
+* this Makefile will print this
+<>
+peter
+</>
+</example>

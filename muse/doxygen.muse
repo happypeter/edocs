@@ -1,0 +1,21 @@
+ubuntu repo has doxygen
+<example>
+$doxygen
+</example>
+then help info will show up, follow it and html file is produced, so easy
+<example>
+$ doxygen -s peter.config
+$ doxygen peter.config
+</example>
+
+there are some format required when you are wirting comment in your code
+
+I can study axtu, and the right format is
+<example>
+@brief Set Operation mode.
+
+axtsn-updater includes 3 mode.(update, install, erase)
+This function can select one mode.
+
+@param nIndex 0: Update, 1:Install, 2:Erase
+</example>

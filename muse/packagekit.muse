@@ -1,0 +1,7 @@
+son of YumHacking
+
+http://docs.fedoraproject.org/yum/en/
+Qpackage kit  using Qt, but in KED they have Kpackage or something
+
+http://en.wikipedia.org/wiki/PackageKit
+I would like to rm axtu-gui and write a packagekit backend for axtu.

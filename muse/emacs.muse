@@ -1,0 +1,35 @@
+
+
+
+ - [[emacs_git]]
+ - [[emacs_command]]
+ - [[install_theme]]
+ - [[emacs_config]]
+** Modes
+ - [[emacs_moin]]
+ - [[emacs_org]]
+ - [[emacs_planer]]
+ - [[emacs_flyspell]]
+ - [[emacs_muse]]
+ - [[lisp]]
+
+
+this is useful if you want to sciptlize emacs behavior
+
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/elisp.html#Batch-Mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

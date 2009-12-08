@@ -1,0 +1,95 @@
+
+** vmware-server
+ where is the standard
+<example>
+root@peter-laptop:/# find . -name "sp1_64"
+./var/lib/vmware/Virtual Machines/sp1_64
+
+</example>
+                        
+** vmware-station
+http://www.vmware.com/download/ws/lic_602_lin.html
+http://groups.google.com/group/vmkernelnewbies/files
+
+1.install gcc in order to compile VMware modules
+
+$ sudo apt-get install linux-headers-$(uname -r) build-essential gcc-3.4
+
+2.
+
+$ tar zxvf VMware-workstation-6.0.2-59824.i386.tar.gz
+
+3. run install script
+
+$ export CC=/usr/bin/gcc-3.4 && cd vmware-distrib && sudo ./vmware-install.pl
+
+peter: soon i see this
+
+Your kernel was built with "gcc" version "4.2.3", while you are trying to use 
+"/usr/bin/gcc" version "4.2.4". This configuration is not recommended and 
+VMware Workstation may crash if you'll continue. Please try to use exactly same
+compiler as one used for building your kernel. Do you want to go with compiler 
+"/usr/bin/gcc" version "4.2.4" anyway? [no] 
+
+peter: but i just type y and skip this, i am not sure it is 3.4 or 4.2.4 that is in use
+maybe it is using $CC------3.4, cause i see "use CC" in the dubug message
+
+
+4. when asked whether you want to run /usr/bin/vmware-config.pl, please selcet no, otherwise you see the following error:
+
+make[2]: *** [/tmp/vmware-config0/vmmon-only/linux/driver.o] Error 1
+
+make[1]: *** [_module_/tmp/vmware-config0/vmmon-only] Error 2
+
+make[1]: Leaving directory `/usr/src/linux-headers-2.6.24-2-generic'
+
+make: *** [vmmon.ko] Error 2
+
+make: Leaving directory `/tmp/vmware-config0/vmmon-only'
+
+Unable to build the vmmon module.
+
+5. donload VMware-any-any-update, this patch is suitable for both VMware Server and VMware Workstation 
+
+then 
+
+shell$ sudo tar zxvf vmware-any-any-update-116.tgz
+
+shell$ sudo cd vmware-any-any-update116/
+
+shell$ sudo ./runme.pl
+
+peter: runme.pl will run vmware-config.pl automatically
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+register NUM：(32、64 bits)
+Without ACE:
+E8XMJ-80A0L-N806Y-4WEZKs
+QT0H1-0RYD7-W24FZ-4MDNL
+QAXU0-TDFA3-Q2HFA-4M8N2
+C1RYD-JDVA5-P014U-4WWQ2
+
+With ACE:
+HVWR1-6UG8G-WA56U-4M8NQ
+9LTUJ-0FUD2-22MFF-4PDQQ
+WJ0KH-VM9F6-M2M4U-4MENP
+3R8A5-TM5AM-UAN6F-4P8NK
+
+
+tar xvzf documentname.tar.gz/tgz -C /directory
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+now how to install vm tools, in VM_winXP 
+
+1. just choose VM->install, and everyting is done
+
+2. now if you choose in ubuntu /peter/ as a shared foder named d in XP
+
+3.then where is d? duoble click the vmtool icon at the bottom right of xp desktop
+
+  and you will see it is in //.host/Shared Folders/d
+
+  run windows expoler and choose Tools->install network device...then the left is easy.
+
+see [[ax_vmware]]

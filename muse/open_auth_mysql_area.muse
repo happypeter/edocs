@@ -1,0 +1,80 @@
+son of YumHacking
+
+** Steps 
+goto
+ <example>
+ 10.1.0.64/auth/asianux2/AXS3-RF/x86_64/
+ </example>
+run 
+<example>
+$createrepo UPDATE
+</example>
+goto */etc/yum.repos.d/*  there is FILE named *asianux.repo*
+
+<example>
+[core]
+name*Asianux Server 3
+baseurl=http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+enabled=1
+gpgcheck=1
+gpgkey=file:///usr/share/doc/asianux-release/RPM-GPG-KEY
+</example>
+
+NOTE: check [[auth_mysql]] to see how to insert stuff in db
+
+** test 
+now the final test 
+ <example>
+ $yum list
+ </example>
+works
+
+if
+ <example>
+   ---baseurl=http://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+   +++baseurl=http://10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/
+ </example>
+ 
+then
+
+ <example>
+ HTTP Error 401: Authorization Required
+ </example>
+
+** note 
+
+careful about the cache, it will ruin your test, so do this, when things go strange
+ <example>
+[root@dhcp08 yum]# rm -rf core/
+[root@dhcp08 yum]# pwd
+/var/cache/yum
+</example>
+
+** solution 
+
+use auth-client get ak file and tk file, see AddAuth
+write python code get ak and tk, and modify this way 
+ <example>
+  baseurl=http://ak:tk@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/ 
+ </example> 
+yum will work fine with the new url, like the test above goes, to do everything as it can be done with common url
+
+** more
+
+<example>
+wget --no-check-certificate https://peter:111111@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm 
+wget --no-check-certificate ak:tk
+wget --no-check-certificate https://426994C693EA41C2B9D77F1760A75344:4F3F6D92FF544746BF7A4642FFD58AB1@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm 
+</example>
+also works
+
+and actually tk is allowed to cut as short as
+<example>
+wget --no-check-certificate https://426994C693EA41C2B9D77F1760A75344:4F3F6D92@10.1.0.64/auth/asianux2/AXS3-RF/x86_64/UPDATE/RPMS/sos-1.7-9.16.2AXS3.noarch.rpm   
+</example>
+
+the above still works, but if you remove again the last char
+<example>
+2
+</example>
+then it will fail

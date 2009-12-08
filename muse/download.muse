@@ -1,0 +1,7 @@
+
+I want to know how yum download pkgs, I think it is done here:
+
+<example>
+yum->yummain.py->cli.py
+problems =  self.downloadPkgs(downloadpkgs)
+</example>

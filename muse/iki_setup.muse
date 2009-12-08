@@ -1,0 +1,43 @@
+<contents>
+
+** try
+
+refer to http://ikiwiki.info/setup/
+<example>
+ikiwiki -setup /etc/ikiwiki/auto.setup
+</example>
+
+actually ended up with a failure
+<example>
+/etc/ikiwiki/auto.setup: ikiwiki --refresh --setup /home/pet/pki.setup failed at /usr/share/perl5/IkiWiki/Setup/Automator.pm line 105.
+</example>
+
+but I do not think it matters.
+
+--- then I modified pki.setup a little(just change the email to a real one)
+<example>
+
+
+
+pet@girl:~$ ikiwiki --setup pki.setup 
+shortcut plugin will not work without shortcuts.mdwn
+shortcut plugin will not work without shortcuts.mdwn
+successfully generated /home/pet/public_html/pki/ikiwiki.cgi
+shortcut plugin will not work without shortcuts.mdwn
+successfully generated /home/pet/pki.git/hooks/post-update
+HTML::Template->new called with multiple (or no) template sources specified!  A valid call to new() has exactly one filename => 'file' OR exactly one scalarref => \$scalar OR exactly one arrayref => \@array OR exactly one filehandle => *FH at /usr/share/perl5/IkiWiki.pm line 1566
+</example>
+
+
+<example>
+git clone  peter-wiki.git/ peter-wiki.src
+</example>
+
+the above works, I can not believe it.
+
+** local transform done
+<example>
+pet@girl:~$ cp git.ikiwiki.info/underlays/ /usr/local/share/ikiwiki/
+ikiwiki --verbose pki public_html/
+</example>
+    * done 

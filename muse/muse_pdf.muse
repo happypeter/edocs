@@ -1,0 +1,44 @@
+When I was trying to pubish a file in pdf format, I see a failure due to the lack of ***pdflatex***
+** In ubuntu forum, sb says:
+<example>
+packages.ubuntu.com tells me it's a part of tetex-bin package.
+
+To install a tex system you should probably install the following packages:
+tetex-base
+tetex-bin
+tetex-extra
+latex-ucs
+</example>
+
+** so I
+<example>
+root@pet-desktop:~# apt-get install tetex-bin
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  dvipdfmx lacheck latex-beamer latex-xcolor lmodern pgf prosper ps2eps
+  tex-common texlive texlive-base texlive-base-bin texlive-base-bin-doc
+  texlive-common texlive-doc-base texlive-extra-utils
+  texlive-fonts-recommended texlive-fonts-recommended-doc
+  texlive-generic-recommended texlive-latex-base texlive-latex-base-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-pstricks
+  texlive-pstricks-doc tipa
+Suggested packages:
+  auctex debhelper texlive-doc-en perl-tk dvi2tty dvidvi
+The following NEW packages will be installed:
+  dvipdfmx lacheck latex-beamer latex-xcolor lmodern pgf prosper ps2eps
+  tetex-bin tex-common texlive texlive-base texlive-base-bin
+  texlive-base-bin-doc texlive-common texlive-doc-base texlive-extra-utils
+  texlive-fonts-recommended texlive-fonts-recommended-doc
+  texlive-generic-recommended texlive-latex-base texlive-latex-base-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-pstricks
+  texlive-pstricks-doc tipa
+0 upgraded, 27 newly installed, 0 to remove and 0 not upgraded.
+Need to get 127MB of archives.
+After this operation, 256MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+</example>
+
+** done
+but the pdfs are really ugly, ahha

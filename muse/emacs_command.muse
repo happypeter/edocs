@@ -1,0 +1,61 @@
+Q: how to open a new buffer and save it?
+
+ =C-x b=
+
+
+
+
+<example>
+C-h v load-path ;;To see which directories are in your load-path, type 
+C-x-o           ;;REMOVE following blank lines
+C-x o           ;; switch between windows
+C-d
+M-d
+M-<del>
+M-5 C-n         ;;go down five lines
+C-x ->          ;;go to next buffer
+C-x C-w         ;; save as
+</example>
+
+undo | C-/
+redo | Space+C-/
+
+<example> 
+view-echo-area-messages  shows all the startup info
+uncomment-region + comment-region
+</example>
+
+<example>
+M-x global-set-key
+</example>
+
+:-) I can  attach ''Cltr+m'' to "moinmoin-mode"
+
+- [[muse_command]]
+
+
+- [[http://www.gnu.org/software/emacs/manual/html_mono/emacs.html.gz#Keymaps][keymaps]]
+
+<<<<<<< HEAD:emacs_command.muse
+http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html#Keymaps
+check this link to know how to set globle key and mode-specific keys
+=======
+set a keyboard macro is so esay and yet powerful, I can bind it to a
+command and a keyboard short cut afterwards.
+
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html#Save-Keyboard-Macro
+
+Q :now i need to know how to save these setting permanently? 
+
+A:    M-x insert-kbd-macro <RET> macroname <RET>
+and save the out put to .emacs
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html#Save-Keyboard-Macro
+>>>>>>> 28522ee55c70d5f10a94855a93f9b669991a1838:emacs_command.muse
+
+Q: How to kill a region ?
+
+A: =C-space= to set a "mark", then go to any point, =C-w= to kill the =region= between current point and the "mark"
+
+nice doc goes here http://www.cs.utah.edu/dept/old/texinfo/emacs18/emacs_13.html
+
+C-h k | show command of given key stroke

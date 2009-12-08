@@ -1,0 +1,18 @@
+edocs is my current documatation systerm, maybe some day it will
+because part of the histoy, just like
+
+ - [[kdocs]]
+
+
+
+
+*edocs* is short For Emacs doc, becase now I have [[emacs_muse]] + [[git]] to do
+my documatation, things is mush better, I have links and I have
+nice-looking output formats
+
+for 1 month I use [[moinmoin]] to do documatation, and soon move back to
+git trough the use of edocs, since I really need git
+
+using edocs, I have nice html output, but I am not satisfied, I want
+the html to be editable, that means, I want to add [[ikiwiki]] support for
+it .

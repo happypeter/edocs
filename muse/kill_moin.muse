@@ -1,0 +1,105 @@
+** Kill Moin 
+
+so I want a sh script to kill moni, since I always failed to kill its process with Ctl+c
+
+so first I get the info and save it in a file
+
+ <example>
+
+pet@girl:~$ ps aux|grep wiki >orignial.txt
+pet@girl:~$ cat orignial.txt
+pet       7560  0.0  0.5  96284 11628 pts/2    Sl+  10:51   0:01 python ./wikiserver.py
+pet       9597  0.0  0.0   3336   792 pts/3    R+   11:24   0:00 grep wiki
+pet@girl:~$
+ </example>
+
+then I have
+
+ <example>
+ pet@girl:~$ awk -F" " '{print $0}' orignial.txt
+pet       7560  0.0  0.5  96284 11628 pts/2    Sl+  10:51   0:01 python ./wikiserver.py
+pet       9597  0.0  0.0   3336   792 pts/3    R+   11:24   0:00 grep wiki
+pet@girl:~$ awk -F" " '{print $1}' orignial.txt
+pet
+pet
+pet@girl:~$ awk -F" " '{print $2}' orignial.txt
+7560
+9597
+pet@girl:~$ awk -F" " '{print $3}' orignial.txt
+0.0
+0.0
+pet@girl:~$ awk -F" " '{print $4}' orignial.txt
+0.5
+0.0
+pet@girl:~$
+ </example>
+
+finally I need this
+ <example>
+pet@girl:~$ awk -F" " '{print $2}' orignial.txt >2.txt
+pet@girl:~$ cat 2.txt
+7560
+9597
+pet@girl:~$
+ </example>
+
+
+:-) nice thing here is I use just one space for '''-F''', and everything is fine
+
+then all I need is the first line
+<example>
+pet@girl:~$ awk '{if(NR**1); print $1; exit;}' 2.txt
+7560
+pet@girl:~$ awk '{print NR; print $1}' 2.txt
+1
+7560
+2
+9597
+pet@girl:~$
+
+</example>
+
+so I use this
+<example>
+pet@girl:~$ awk '{if(NR**1); print $1; exit;}' 2.txt >3.txt
+pet@girl:~$ cat 3.txt
+7560
+pet@girl:~$
+</example>
+
+now I need to know how to pass it to '''kill -9'''
+ <example>
+kill -9  `cat /dev/stdin`
+ </example>
+ let us name the above file "peter.sh"
+ so we just use pipeline to read the file and send it to the stdin of peter.sh
+ <example>
+cat 3.txt|sh peter.sh
+ </example>
+ 1. then the job is done.
+
+** real case 
+
+to be handy I acutally have everything in one file
+
+<example>
+ps aux|grep wiki >orignial.txt
+awk -F" " '{print $2}' orignial.txt>2.txt
+awk '{if(NR**1); print $1; exit;}' 2.txt>3.txt
+kill -9 `cat 3.txt`
+rm -rf -.txt #rm tmp files
+</example>
+
+
+then put in /usr/bin/moin-kill the following content
+<example>
+#!/bin/sh
+sh /home/pet/moin-1.8.5/killmoin.sh
+</example>
+
+check what I used to kill [[virtualbox]] 
+<example>
+$ps aux | grep virtual | awk '{print $2}' | xargs kill -9     //kill virtualbox
+</example>
+
+

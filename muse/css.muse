@@ -1,0 +1,54 @@
+*** gallery
+http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery
+
+will be useful when I want to write my own photo manager
+
+
+http://www.w3schools.com/css/showit.asp?filename=ex1
+
+the right place to learn html and css
+
+
+** keep things in a line
+<example>
+
+<html>
+<head>
+<style type="text/css">
+#menu
+{
+position: relative;
+}
+#menu ul li
+{
+display: inline;
+} 
+</style>
+</head>
+
+<body>
+<div id="menu">
+<ul>
+<li>peter
+<li>billie
+</ul>
+</div>
+<ul>
+<li>peter
+<li>billie
+</ul>
+</body>
+</html>
+</example>
+check here to know why http://www.w3schools.com/css/css_id_class.asp
+
+I love CSS
+
+
+
+
+
+
+
+
+

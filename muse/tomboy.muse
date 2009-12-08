@@ -1,0 +1,12 @@
+All the notes are saved this way
+<example>
+pet@pet-desktop:~$ cd .tomboy/
+pet@pet-desktop:~/.tomboy$ ls
+0c384401-014c-411e-8860-f49f0b496c6f.note  691d6880-da1d-48d6-bf9c-b9325fc610b0.note  a47b905d-dd9a-41d6-be30-1a2ef9a90c5b.note  dea3eac0-0dba-4193-9f05-d356348de577.note
+1aaf7a9f-59c8-428d-928b-f0d9a2a8d556.note  71cf32c5-3afb-48fb-a3c1-7dc7304d3b59.note  addin-db-001                               manifest.xml
+28991fc4-f0b4-4795-b5b1-96c35c7ac6dd.note  826d7602-c693-4473-a148-40d53e096682.note  addins
+43d1a1a2-c089-43e1-9609-a1adbdf9c8e9.note  84fb7a88-a1f5-4903-8141-653574db1e44.note  b80987a7-4fd3-423c-b6d1-5bf71c94fb29.note
+5187d80c-a976-4c81-9934-6b556343de98.note  92158052-32c6-4813-bc2e-4193dde8f1af.note  Backup
+pet@pet-desktop:~/.tomboy$ cd Backup/
+pet@pet-desktop:~/.tomboy/Backup$ ls
+</example>

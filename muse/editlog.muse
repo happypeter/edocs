@@ -1,0 +1,18 @@
+son of MoinHacking
+<example>
+pet@pet-desktop:~/pages/FrontPage$ ls
+cache  current  edit-log  revisions
+pet@pet-desktop:~/pages/FrontPage$ 
+</example>
+we are talking about the ''edit-log'' here
+<example>
+1256780877000000        00000021        SAVE    FrontPage       127.0.0.1       localhost
+</example>
+      
+''1256780877000000'' must be the time of this change, but it is not in readable format
+
+''00000021 '' the rivision num
+
+''SAVE '' can be SAVENEW or RENAME ...
+
+''localhost'' I do not like this name, how to change?

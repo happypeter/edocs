@@ -1,0 +1,7 @@
+son of VideoEdit
+
+audacity
+
+ 1. Effect->Amplify
+ 1. Effect->change speed NOTE:my recorded vioice should be slowed down to its half speed before it can be used in kino.
+ 1. FIle->export 

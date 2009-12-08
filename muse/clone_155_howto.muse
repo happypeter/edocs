@@ -1,0 +1,154 @@
+
+Now I want my own test machine, so first step is to make a clone of 155, on my virtual machine(73)
+
+** steps
+ - cp 10.1.0.155:/var/www/html/auth/src/, to the same location on my vm.
+ - service httpd start
+ - cp /var/www/html/phpAdmin
+ - service mysqld start
+
+//all it takes is httpd and mysqld, phpAdmin works, login as root, no passwd
+
+** cp db
+1. cp =155:/var/lib/mysql/asianux_authentication= to vm
+<example>
+chmod 660 -
+chown -c mysql - 
+chgrp -c mysql -
+</example>
+
+then *$ls -l*, we see everything on xen is exactly the same as 155
+
+2. but using phpMyadmin, I still can not open asianux_authentication
+
+3. cd ..&&chown -c mysql asianux_authentication&&chgrp -c mysql asianux_authentication
+
+4. now I can browse it in phpAdmin
+
+** reg done
+
+error is "required data not found"
+
+1. this is because I do have repo on xen
+2. so I make a "/var/www/html/auth/asianux2/AXS3-RF/x86_64/SELF"
+3. cp hsyum-arch and yum-arch  to vm and chmod +x
+4. now the error is
+<example>
+File "/usr/bin/yum-arch", line 22, in ?
+    import pullheaders
+ImportError: No module named pullheaders
+</example>
+this is solved by *scp -r 10.1.0.155:/usr/share/yum/ /usr/share/*
+
+5. now the "required data not found" remains
+
+6. when I cnstruct SELF anf UPDATE, and error is gone
+
+7. use "127.0.0.1       update.redflag-linux.com" on xen--works
+
+** now hawnii
+installed a vmware-server machine for this
+
+1. https://10.1.0.73:8333/ui/#
+
+10.1.0.65 is the server
+
+2.
+ID:root
+PW: abc123
+
+3. login 65
+<example>
+[root@dhcp16 asianux2]# chkconfig --level 345 mysqld on
+[root@dhcp16 asianux2]# chkconfig --level 345 httpd on
+</example>
+
+4. do the copy like I did to xen
+5. done
+
+NOTE: we need 10.1.0.155:/etc/httpd/conf.d/auth_mysql.conf
+** d
+but when I run *hsyum-arch* I see this
+<example>
+ignoring bad rpm: kudzu-1.2.57.1.15-1.1AXS3.x86_64.rpm
+
+   Total: 1305
+   Used: 0
+   Src: 0
+
+
+import a key, then the error is 
+</example>
+
+ignoring bad rpm: cairo-devel-1.2.4-3.1AX.i386.rpm
+Digesting rpms 99 % complete: cups-libs-1.2.4-11.14.4.1AX.i386.rpmError opening rpm cups-libs-1.2.4-11.14.4.1AX.i386.rpm - error public key not available
+
+ignoring bad rpm: cups-libs-1.2.4-11.14.4.1AX.i386.rpm
+Digesting rpms 100 % complete: kudzu-1.2.57.1.15-1.1AXS3.x86_64.rpm
+   Total: 1305
+   Used: 1026
+   Src: 0
+
+
+
+actually we need another key for ia32 packages
+
+<example>
+[root@dhcp16 x86_64]# cd /usr/share/doc/asianux-release/
+[root@dhcp16 asianux-release]# ls
+EULA  EULA.ja  EULA.ko  EULA.zh_CN  EULA.zh_TW  GPL  INSTALLATION  README  RPM-GPG-KEY  RPM-GPG-KEY.ia32
+[root@dhcp16 asianux-release]# rpm --import RPM-GPG-KEY
+[root@dhcp16 asianux-release]# rpm --import RPM-GPG-KEY.ia32
+[root@dhcp16 asianux-release]# cd
+[root@dhcp16 ~]# cd x86_64/
+[root@dhcp16 x86_64]# ls
+BASE  BASE.header.info  SELF  SELF.header.info  UPDATE  UPDATE.header.info
+[root@dhcp16 x86_64]# hsyum-arch UPDATE
+*** HS Updater Server Inforamtion File Creator *****************
+Found Target Directories : ./RPMS
+Digesting rpms 100 % complete: kudzu-1.2.57.1.15-1.1AXS3.x86_64.rpm             m86_64.rpm.rpm
+   Total: 1305
+   Used: 1305
+   Src: 0
+
+Writing header.info file
+</example>
+
+** when I've done above,
+hsyum-arch works in x86_64 and x86
+so I go to 
+
+romi:Asianux-30-ppc-beta4-disc1-200706221800.iso
+
+$cd Documents/
+
+get the key for ppc
+
+it works.
+
+** however 
+ia64 is not so simple, i use a iso/KEY, but it does not work
+ scp peter@romi:/project/pool/Quartet-sp2/ia64/pool/RPMS/asianux-release-3.0-11AXS3.ia64.rpm .
+
+<example>
+[peter@romi RPMS]$ rpm -qp --changelog asianux-release-3.0-11AXS3.ia64.rpm
+warning: asianux-release-3.0-11AXS3.ia64.rpm: V3 DSA signature: NOKEY, key ID 9efa95c8
+
+- Thu Feb 28 2008 Hua Jie  3.0-7AXS3
+- correct RPM-GPG-KEY-ia64   //pay attention here
+</example>
+
+** a few days later
+someone change the server a little, so we can not connect it right now
+
+ - I am sure mysqld and httpd is running
+ - we can usr phpAdmin to browse the db
+ - we can connect 155 to generate the AK, and use it for 250, and it works
+ - the src/ on 155 and 250 the same
+ - the error is "Cannot connect with authen server"
+
+error happens when axtu-client try to get AK,
+
+I use dhclient eth0 to the server, and the problem is gone
+
+NOTE: zhuyu said it is because using 250 auth-server can not connect with support.reflag.com to get info

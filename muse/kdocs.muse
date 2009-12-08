@@ -1,0 +1,5 @@
+*kdocs* is short for King's doc
+
+I use github so that my data is save.
+
+succeeded by [[edocs]]
