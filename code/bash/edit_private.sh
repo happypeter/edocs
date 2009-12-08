@@ -16,6 +16,10 @@ rm *tar*
 cd private
 
 ###now change .emacs for private
+
+# first backup the normal .emacs
 mv /home/pet/.emacs  /home/pet/abcd/init-muse.emacs
+# then use a specail .emacs for private/
 cp /home/pet/abcd/private/init-private.emacs /home/pet/.emacs
-eee # start emacs
+# start emacs
+eee &

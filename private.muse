@@ -17,10 +17,12 @@ and the problem is:
 
  - then I need to know how muse handle attached files
  - actually if the file extention is not =.muse=, muse will ignore it
-   which is just what I what, I only want git knows when it is
+   which is just what I want, I only want git knows when it is
    changed, the detail history is in the git repo inside gpg file, but
    this is not a git sub repo
- - I think I can try this
+ 
+** automation
+I think I can use this
 
 [[code/bash/save_private.sh]]
 
