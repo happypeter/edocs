@@ -24,4 +24,4 @@ and the problem is:
 
 [[code/bash/save_private.sh]]
 
-[[code/bash/save_private.sh]]
+[[code/bash/edit_private.sh]]
