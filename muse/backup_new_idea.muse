@@ -1,3 +1,5 @@
+<example>
+
 3_2_2008
 
 by and by i find that make backups by date is stupid
@@ -95,3 +97,5 @@ finally all my printed materials are well lined, then how to use them
  
 2. a unique name
 
+
+</example>

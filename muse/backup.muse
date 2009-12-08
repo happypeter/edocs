@@ -1,12 +1,17 @@
+** how to handle old stuff
+
+ - sth historical is out of date
+ - it is great fun to read it,form time to time to know how stupid I was
+ - but it is in the way when I go fast
+   navigating in edocs
+ - I think I can just delete them anyway, git can bring them back to
+   me when I am old and live on my good old days memory
+
+
 
 ** documantation backup
-Now I have [[emacs_muse]] to proform NoteTaking
 
-I shall say I am quite satisfied.
-
-But this is only for documentation, 
-
-kdocs will be kept in github
+use edocs
 
 ** big stuff
 
@@ -40,13 +45,26 @@ DATA TREE
  - but maybe it is nice to have a music repo ... well this is not so important anyway
  - my [[photo]] are of course important
  - one new idea  [[code-backup]]
-** history
-[[backup_new_idea]]
 
 ** tools 
  - [[one]] 
  - [[dropbox]]
  - [[rsync]]
 
+** to make it more secure
+
+now I port my private data to edocs, so I think I need to use sth like
+<example>
+year=`date +%G`
+month=`date +%b`
+day=`date +%d`
+cd ~/.Dropbox-backup/
+mkdir $month"_"$day"_"$year
+
+cd $month"_"$day"_"$year
+rsync -r ~/Desktop/Dropbox/ .
+
+</example>
+to make it more secure
  
 

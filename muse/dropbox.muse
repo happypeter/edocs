@@ -29,9 +29,14 @@ I can change the icon of the folder, right =click->properties=
 
 ** backup 
 <example>
-pet@girl:~/.Dropbox-backup$ mkdir Nov_24_2009
+year=`date +%G`
+month=`date +%b`
+day=`date +%d`
+cd ~/.Dropbox-backup/
+mkdir $month"_"$day"_"$year
 
-pet@girl:~/Desktop$ rsync -r Dropbox/ /home/pet/.Dropbox-backup/Nov_24_2009/
+cd $month"_"$day"_"$year
+rsync -r ~/Desktop/Dropbox/ .
 </example>
 
 ** revision history
