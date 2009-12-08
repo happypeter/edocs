@@ -1,5 +1,4 @@
 [[../pics/muse.png]]
-son of [[emacs]]
 
  - [[emacs_git]] 
  - [[muse_command]]
