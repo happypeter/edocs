@@ -1,4 +1,0 @@
-HP Laserjet P1007
-
-1. install hplip
-2. tear off the yellow part of the inkstick

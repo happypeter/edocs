@@ -1,6 +1,0 @@
-[[http://en.wikipedia.org/wiki/Pretty_Good_Privacy][Pretty Good Privacy]]
-
-
-http://en.wikipedia.org/wiki/Key_server_(cryptographic)
-
-

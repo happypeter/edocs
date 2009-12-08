@@ -1,7 +1,0 @@
-samel told me ipod touch is not very friendly to linux developers
-no Qt or gtk support, you can only run the SDK on mac os x
-
-n810 is quite the opposite. and since n900 is there, 810 is now cheap
-http://maemo.org/development/
-
-[[scratchbox]]

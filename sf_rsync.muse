@@ -1,6 +1,0 @@
-<example>
-[root@dhcp05 ~]# rsync -r peter.html  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
-</example>
-
-it works, so if I add =--delete=, then I can use this method to maintain my homepage, great!
-

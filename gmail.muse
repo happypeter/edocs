@@ -1,9 +1,0 @@
-want to recive work mail in gmail, so I go to 
-
-gmail->settings->import ..->POP3
-
-I firstly tried POP, then failed,
-
-anyway after some easy setting, I can recived asianux mail in gmail
-
-and I can sent or reply as =peter.wang@asianux.com=

@@ -1,2 +1,0 @@
-I can put small pieces of code here, well larger projects will be
-served better by a seprate git repo

@@ -1,8 +1,0 @@
-A knowlege base is ... I mean you can check the defination easily in wikipedia,
-But now for me it means:
- - fast changing
- - easy restrcture
- - happy linking
- - easy formatting
- - mainly on tech
- - based on my emacs muse

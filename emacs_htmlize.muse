@@ -1,9 +1,0 @@
-FrontPage
-
-http://www.emacswiki.org/emacs/Htmlize
-
-Instructed by the above page, I just download and install the below stuff
-
-http://fly.srk.fer.hr/~hniksic/emacs/htmlize.el
-
-then soucecode highlighting is done in EmacsMuse
