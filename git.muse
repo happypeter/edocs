@@ -17,7 +17,8 @@ you can also do this to a dir
 t<example>
 pet@girl:~/github/python$ git log --follow auth_for_yum/
 </example>
-
+[[http://github.com]] has very nice web interface for this, I think I need
+to study the source code of github it self
 
 ** can I get history of a subdir
 this equals:

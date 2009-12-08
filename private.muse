@@ -24,6 +24,6 @@ and the problem is:
 ** automation
 I think I can use this
 
-[[code/bash/save_private.sh]]
+[[code/handle_private]]
 
-[[code/bash/edit_private.sh]]
+

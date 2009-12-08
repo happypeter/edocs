@@ -28,7 +28,9 @@ Switched to branch 'master'
 [root@dhcp03 libs]# git merge test2
 </example>
 
-*** add remote repo----from github.com
+*** add remote repo
+form [[http://www.github.com][github]]
+
 <example>
   git config --global user.name "Your Name"
   git config --global user.email happypeter1983@gmail.com
@@ -44,12 +46,9 @@ Next steps:
   git push origin master
 
 </example>
-*** ssh key 
-I copy the ssh key from host machine to my xen vm, and it works for "git pull"   
-
 
 *** OK
- I am makeing a change on branch test
+I am makeing a change on branch test
 <example>
 git branch test
 git checkout test
@@ -64,6 +63,7 @@ Switched to branch "master"
 peter@peter-laptop:~/kdocs/linux/git$ git apply  my-patch.txt
 linux/git/my-patch.txt:10: trailing whitespace.
 </example>
+
 **  Problems
 Git meets a probelm when I creat sub repo doc-yaxtu/yum-doc, so I remove this dir
 then I find another dir also has .git, so I delete it as well
