@@ -15,34 +15,6 @@ use edocs
 
 ** big stuff
 
-Perhaps I should follow Simon's instruction, and have my home as a separation and back it up all.
-since I will have some conf file that I do not want to lose, like **.emacs** ...
-
-
-Now I  have two computers(my laptop and desktop) and I have md5sum
-so I can do data backup finally.
-
-1. things to backup
-            - music
-            - photo(local+flicker)
-            - project data(vivi arm-linux-gcc ...)
-            - pdf-books
-            - others
-
-2. rules
-        2.1 things shall be backed as tar.gz file
-        2.2 md5sum check is required everytime they are moved
-
-DATA TREE
-
- - bigpeki/md5sum
- - bigpeki/books
- - bigpeki/projects/axtu/
-
-* now I think
-
- - I do not need backup most of the pdf books, they shall be served well as links in my muse file.
- - but maybe it is nice to have a music repo ... well this is not so important anyway
  - my [[photo]] are of course important
  - one new idea  [[code-backup]]
 
