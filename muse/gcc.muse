@@ -31,4 +31,3 @@ $man gcc
 }}}
 
 </example>
-[[ubuntu_gcc]]

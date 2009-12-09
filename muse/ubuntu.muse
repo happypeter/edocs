@@ -1,7 +1,6 @@
  - [[small_tricks]] 
  - [[startup_script]]
  - [[video_edit]]
- - [[ubuntu_ssh]]
  - [[gnome_tip]]
  - [[apache2]]
  - [[one]]
