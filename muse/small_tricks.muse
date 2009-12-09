@@ -9,11 +9,11 @@ edit->preference->color->gray on black
 ** shutdown the machine
  - sudo without pswd
  <example>
- pet@girl:~$ sudo vim /etc/sudoers
+ pet@girl:~$ sudo visudoer  #"vim /etc/sudoers" is dangerous
  </example>
   now add one line
  <example>
- pet ALL*(ALL)NOPASSWD: ALL
+ pet ALL=(ALL)NOPASSWD: ALL
  </example>
  now I can "sudo -i" without typing password
  - so I
