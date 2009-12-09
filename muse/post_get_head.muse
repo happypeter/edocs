@@ -1,0 +1,17 @@
+http://www.w3schools.com/PHP/php_get.asp
+
+easy explaination here
+
+so I do not take notes for basic stuff about php
+
+whenever i foget, I just go to w2school, and finish that doc in 5 mins
+
+http://www.w3schools.com/PHP/php_mysql_intro.asp
+
+what is best here is the stuff is really easy, if you want to study
+cookie or GET POST, you will suffer a  lot if you start with C, the
+learning curve is much tender in PHP
+
+
+[[java]]
+

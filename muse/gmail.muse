@@ -1,4 +1,4 @@
-want to recive work mail in gmail, so I go to 
+want to receive work mail in gmail, so I go to 
 
 gmail->settings->import ..->POP3
 

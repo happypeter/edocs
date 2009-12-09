@@ -15,6 +15,7 @@
  - [[ssh]]
  - [[home_machine_login]]
 
+ - [[post_get_head]]
 
 *** web tools
  - [[sf]]
@@ -30,8 +31,6 @@
 
 *** work
  - [[work]]   tips on my daily work
- - [[yum]]    what I am working on
- - [[axtu]]
  - [[gmail]]
 
 *** Non-tech 

@@ -10,6 +10,5 @@
  - [[ubuntu_repo]]
  - [[upgrade_os]]
  - [[grub]]
- - [[ubuntu_gcc]]
  - [[printer]]
  - [[apt-get]]
