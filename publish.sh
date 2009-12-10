@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo rm /var/www/*.html
 sudo rm -rf /var/www/code
 sudo rm -rf /var/www/pics
 sudo cp -rf code /var/www/
