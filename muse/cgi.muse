@@ -1,11 +1,10 @@
+<contents>
+** permission issue
 <example>
 name = os.popen('whoami').read()
 print "the usr of the cgi is :"+name
 </example>
 one ubuntu [[apache2]] the default usr of cgi is **www-data**
-
-[[c_cgi]]
-[[python_cgi]]
 
 ** cgi-bin 
 <example>
@@ -29,19 +28,18 @@ then I can put s.py into /usr/lib/cgi-bin/, can call it like this
 </example>
 
 
-
-** s.py 
+** error log
 I got lots of errors, which are availbale to check at
 <example>
 /var/log/apache2/error-log
 </example>
 
+** s.py 
 but finally this works
 <example>
 #!/usr/bin/python
 import cgi
 form = cgi.FieldStorage()
-
 
 print "Content-type: text/html"
 html ="""
@@ -49,6 +47,11 @@ html ="""
 <p>%s</p>
 <hr>
 """
-
 print html % ("hello, %s"%form['user'].value)
 </example>
+
+** different languages
+
+[[c_cgi]]
+
+[[python_cgi]]
