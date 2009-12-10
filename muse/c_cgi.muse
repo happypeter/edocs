@@ -1,0 +1,3 @@
+check this
+
+[[../code/c_cgi]]

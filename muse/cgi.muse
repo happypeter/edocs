@@ -4,7 +4,7 @@ print "the usr of the cgi is :"+name
 </example>
 one ubuntu [[apache2]] the default usr of cgi is **www-data**
 
-
+[[c_cgi]]
 [[python_cgi]]
 
 ** cgi-bin 
