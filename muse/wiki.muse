@@ -1,4 +1,4 @@
-[[../pics/HowWikiWorksImage.png]] form http://www.oddmuse.org/cgi-bin/oddmuse/What_Is_A_Wiki
+[[http://www.oddmuse.org/cgi-bin/oddmuse/What_Is_A_Wik][../pics/HowWikiWorksImage.png]]
 
 I love wiki, so I think my edocs will be basiclly follow the evolution
 rules shown in the pic.
@@ -7,3 +7,8 @@ But of course, i can still keep some of the index page for really ofen
 used pages, but it should not be a must for all the pages. Since we
 have search engine, navagating is fast even a page is not listed on a
 index page.
+
+
+This is a big boon when knowledge changes all the time or when it is
+highly interconnected.
+
