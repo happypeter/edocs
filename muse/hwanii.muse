@@ -8,3 +8,12 @@ I need to sell out my appartment and support my research, try to go [[american]]
 
 [[li_kai_fu]] reminds me of my dream again, which makes me feel strong again from this morning's 
 depression.
+
+
+OK, I got fired, this must be the last commit in the office, I am
+afraid.
+
+so I need to 
+ - delete my ssh key
+ - remove dropbox
+ - anything else
