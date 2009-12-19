@@ -4,7 +4,7 @@ Tomorrow I will talk about my requirements with you, you may fire me, no big dea
 
 just a little suprise as a refreshment for my [[mother]] otherwsie dull existence.
 
-I need to sell out my apartment and support my research, try to go to [[american]] 
+I need to [[sell_out_my_apartment]] and support my research, try to go to [[american]] 
 
 [[li_kai_fu]] reminds me of my dream, which makes me feel strong again from this morning's 
 depression.
@@ -19,3 +19,22 @@ so I need to
  - anything else
 
 Back home now, starting to do commits again, ha, great
+
+
+**Words on My Leave**
+
+OK, I got fired! Since I love the job and the people here, so it is strange to others
+and even to myself that why I have to leave. The answer is 
+
+       I am totally against the development model here in Asianux. 
+
+Under this stupid model, kind managers are forced to be bossy, clever developers are forced to
+do silly work. The whole peoject is ruined by dirty politics! It is just in the opposit way a open
+source project shall be.
+
+Well, I am always found myself difficult to control my anger when I think about all the evil rules 
+of the company. Thus I am no longer able to express my idea logically. Anyway, the truth is obvious
+enough out there to anyone, The only thing I want is to encourage everybody to think deeply the meaning of 
+his life and what he really want to achieve in his career, in order to gather enough courage to better the current situation.
+
+May God bless Asianux and all my friends here!
