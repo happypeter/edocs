@@ -1,0 +1,69 @@
+<contents>
+OK, let's get started. Hello, this is Peter Wang from Beijing. 
+
+And today I would like to talk with you about 
+* what is linux.
+if you want
+to be a programmer for linux, or maybe simply as a user of linux
+operating system, you may find what I am talking about here is
+interesting to you.
+
+So first of all, Linux is a OS(which is short for Operating System),
+I want to start by giving you a basic idea of 
+
+** what is a operating system.
+Er..A operating system is sth you must install before you can use your
+personal computer. If you do not have a operating system installed on
+your machine, you won't be able to use any applications, such as
+InternetExplore or PhotoShop or anything.
+
+WindowsXP is a operating system, same is true for win95 win2000,
+I do not really like Windows family of operating systems, but they are
+the OS that most people are familiar with. 
+
+Anyway, today I would like to take you to linux world, by saying this
+I mean, if you have linux installed on your computer, you do not need
+to install windows anymore. And actully 
+
+** Linux is a better operating system
+Well, if you've ever heard of people talking about Linux, that may
+left you a impression that Linux is designed for computer experts and
+it is hard to learn and use for common people. Back to 5 years ago, I
+should say that is the truth. But with the time passing by, Linux are
+getting more and more user-friendly, day-to-day use is now actually as
+easy as windows with a certain knowing of linux basics.
+
+Let me give you some examples. If you want to go surfing the web, then
+first thing you may do is to open IE in windows, but if you use Linux,
+there will be no IE available, now as a linuxer, you need to use
+Firefox, but basiclly the operation is very similar to IE: 
+ - lanuch it by double-click the icon on your desktop
+ - type in the url in the address bar 
+ - type Enter and your page is there
+
+it is just so simple. And as experts put it, firefox is actully more
+technologily advanced than IE, being more secure, powerful and so on. 
+
+Anothor example is Gimp as a substitution of Photoshop, you get all the
+similar fuctions in Gimp and you do not need to buy Photoshop licenses
+anymore. Gimp, like most Linux applicaitions, is free of charge.
+
+And Linux OS itself is free of charge as well, you do not need to pay
+to get it, and there is no need to worry about all these dirty
+licenses anymore. 
+
+If you are considering switch to Linux, I will say
+
+** ubutnu is the best Linux version for beginners
+Because it is easier to use.
+you can go 
+
+http://www.ubuntu.com/ 
+
+to download the iso file, burn it to a CD and get it installed on your
+home machine. 
+
+Maybe Next talk I will give you some clues about how to inatall
+ubuntu.
+
+But that is all for this talk, thanks for listening and Bye.

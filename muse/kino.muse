@@ -1,11 +1,23 @@
-son of VideoEdit
+  1. add sound. see http://www.linuxformat.co.uk/wiki/index.php/Adding_sound_to_videos#Adding_a_soundtrack_with_Kino
+ 
 
-kino
+ - click =FX= 
+ - click  =audio filer=   then choose =mix or dub= 
+ - then you give the output file a name(type the name in the bar right above the tag =overwrite=) 
+ - click =Render= then you get the output file
 
- 1. add sound. see http://www.linuxformat.co.uk/wiki/index.php/Adding_sound_to_videos#Adding_a_soundtrack_with_Kino
-  . FX->over write+audio filer-> mix or dub but only the wav file exported by kino itsef works alright, the wav file obtained from my Mp3 player or gnome-sound-recoreder do not work perfectly, noisy.
- 1. you can always convert your dv file back into flv using kino->export or shell command ffmpeg, but then the trouble is no sound left
+NOTE: if the sound is lagged behind the video, you can modify =audio filter->offset= and click =Render= again,
+then the output file is overwritten
+
  1. luckily
-  . '''ffmpeg -i mac.flv.dv kkkkkkk.avi''' 
-    works, sound still there. and youtube accept .avi file, that's good.
- 1. ffmpeg2theora -p pro --sync ee.flv
+<example>
+ffmpeg -i mac.flv.dv kkkkkkk.avi
+</example>
+  
+works, sound still there. and youtube accept .avi file, that's good.
+
+<example>
+ ffmpeg2theora -p pro --sync ee.flv
+</example>
+
+

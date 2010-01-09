@@ -1,16 +1,18 @@
-son of VideoEdit
+[[youtube]]
 
-see YouTube first
 
 For my mp3 player
 
  1. /tmp/ wait her when you finish downloading a youtube video then use
    then change the name into xxx.flv, and then
-  '''$ffmpeg -i theyoutubevideo.flv myaudio.mp3'''
-  
-  see what is happening when you do this for YouKu videos 
+<example>
+$ffmpeg -i theyoutubevideo.flv myaudio.mp3
+</example>
+
+see what is happening when you do this for YouKu videos 
 
  1. Converting .wav to .mp3 format
+
     install lame:
    <example>
     sudo apt-get install shntool
@@ -20,4 +22,45 @@ For my mp3 player
   <example>
   lame -V2 Track02.wav SpiritOfTheGreatHeart.mp3
   </example>
-  NOTE: no spaces in names
+  NOTE: no blanks in names
+
+
+** NOTE
+the ffmpeg in ubuntu 9.10 is crap, due to legal reason, it basically support no format
+
+so I need to compile it and install it myself
+
+http://ubuntuforums.org/showthread.php?t=786095
+
+but I did not use all these arguments for =configure=
+
+I just run in =/ffmpeg= 
+<example>
+configure
+make 
+make install
+</example>
+
+then I tried
+<example>
+
+pet@cow:~/Desktop/video$ ffmpeg -i ocw-6.033-32123-14feb2005-220k.mp4 m.mp3
+ 
+</example>
+
+but **failed**
+<example>
+pet@cow:~/Desktop/video$ ffmpeg -i ocw-6.033-32123-14feb2005-220k.mp4 m.wav
+</example>
+
+again the output is two big (423M), so I 
+<example>
+pet@cow:~/Desktop/video$ lame m.wav 
+</example>
+
+then I got a	file named m.wav.mp3, small and nice
+
+and I can also do this for [[kino]]
+<example>
+pet@cow:~/Desktop/video$ ffmpeg -i out.flv.dv out.avi
+</example>
