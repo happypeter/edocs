@@ -64,3 +64,9 @@ and I can also do this for [[kino]]
 <example>
 pet@cow:~/Desktop/video$ ffmpeg -i out.flv.dv out.avi
 </example>
+
+** LDD record
+audacity--->record--->export
+<example>
+pet@cow:~/Desktop$ lame  ch1_003_loadable_modules.wav ch1_003_loadable_modules.mp3
+</example>

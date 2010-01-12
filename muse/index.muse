@@ -1,46 +1,9 @@
-
-*** languages
- - [[php][php]]
- - [[bash]]
-*** gnu
- - [[gcc]]
- - [[make]]
-*** Documentation
- - [[doc_howto]]  about how I take note and something
-
-*** System Administration
- - data [[backup][backup]]
- - [[encryption]]
- - [[dual_boot]]
- - [[ssh]]
- - [[home_machine_login]]
-
- - [[post_get_head]]
-
-*** web tools
- - [[sf]]
- - [[github][github]]
- - [[firefox]]
- - [[vmware]]
- - [[virtualbox]]
- - [[wget]]
- - [[vnc]]
-*** Embedded
-
- - [[n810]]
-
-*** work
- - [[work]]   tips on my daily work
- - [[gmail]]
-
-*** Non-tech 
- - [[english_study]] 
- - [[peter_homepage]]
- - [[vocabulary]]
- - [[photo]]
- - [[life]]
+Hello, I am Peter Wang, a free sofware programmer
 
 
+you can get a main index of my webside at [[index_page]]
+
+Please all take a look at [[use_of_this_site]]
 
 
 

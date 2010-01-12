@@ -7,8 +7,7 @@
  - [[docbook]]
  - [[port_from_moin]]
  - [[private]]
-
-[[wiki]]
+ - [[wiki]]
  
 ** tools
 

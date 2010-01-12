@@ -1,4 +1,4 @@
-[[cat]]
+
 C-l |  clears the screen content (equivalent to the command : clear).
 
 Shift+up  | go up

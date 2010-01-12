@@ -6,17 +6,15 @@
 mkdir ~/Ubuntu\ One
 </example>
 
-
  - [[tee]]
-
  - [[sed]]
-
+ - [[cat]]
  - [[small_bash]]
  - [[bash_command]] 
 
  - [[serach]]
  - [[check_hardware_info]]
 *** Error 
-[[fd_syntax_error]]
+ - [[fd_syntax_error]]
 
 

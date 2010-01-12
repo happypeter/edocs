@@ -1,7 +1,5 @@
-FrontPage
 
-son of BashUse
-** Bad fd number **
+** Bad fd number
 in ubuntu
 <example>
 root@girl:/bin# ls -l sh
@@ -10,7 +8,7 @@ root@girl:/bin#
 </example>
 when I run some script started with
 
-''' #!/bin/sh'''
+=#!/bin/sh=
 
 I see this error
 <example>
