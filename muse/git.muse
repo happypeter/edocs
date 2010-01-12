@@ -43,3 +43,10 @@ out/0002-out-test.patch
 pet@cow:~/edocs$ 
 </example>
 
+** Do not forget this
+<example>
+
+  git config --global user.name "Your Name"
+  git config --global user.email happypeter1983@gmail.com
+
+</example>
