@@ -12,3 +12,5 @@ pet@cow:~$
 
 
 </example>
+
+see [[dpkg]]

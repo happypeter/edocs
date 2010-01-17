@@ -1,1 +1,4 @@
 [[kernel_books]]
+
+
+*Yinghai Lu* is a very important kernel guy and he is a Chinese!

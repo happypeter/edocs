@@ -1,9 +1,16 @@
-Hello, I am Peter Wang, a free sofware programmer
+*** Peter Wang
+[[../pics/peter.jpg]] 
 
 
-you can get a main index of my webside at [[index_page]]
 
-Please all take a look at [[use_of_this_site]]
+ - Free sofware programmer
+ - Linux User
+ - Emacs User
+
+
+you can get a main index of this site at [[index_page]]
+
+Please also take a look at [[use_of_this_site]]
 
 
 

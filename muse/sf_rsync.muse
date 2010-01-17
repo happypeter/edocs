@@ -1,6 +1,15 @@
+so first I publish all my muse project into local =var/www=
+
+including css/ pic/ and code/
+
+NOTE: contents within =code/= can not be displayed, because it is used by =peter=, but the user of brower is only =www-root= or sth
+then I run
 <example>
-[root@dhcp05 ~]# rsync -r peter.html  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
+pet@cow:/var$ rsync -r --delete /var/www/  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
 </example>
 
-it works, so if I add =--delete=, then I can use this method to maintain my homepage, great!
+if I delete sth in =/var/www/=
+and run the above again, then the remote site also removes what I've deleted
+
+it works, then I can use this method to maintain my homepage, great!
 

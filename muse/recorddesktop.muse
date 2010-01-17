@@ -1,4 +1,4 @@
-son of VideoEdit
+son of [[video_edit]]
 
 Record desktop
 
@@ -11,3 +11,10 @@ Cltr+C to stop
 <example>
 $ recordmydesktop --no-sound -width 720 -height 576
 </example>
+
+Do:
+<example>
+$ recordmydesktop --no-sound 
+</example>
+
+then I get whole screen recorded

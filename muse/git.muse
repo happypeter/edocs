@@ -50,3 +50,10 @@ pet@cow:~/edocs$
   git config --global user.email happypeter1983@gmail.com
 
 </example>
+
+** maybe I will try to write sth like gitk
+so I need to know the git api
+
+maybe this will help
+
+**gitdm**

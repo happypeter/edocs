@@ -1,0 +1,5 @@
+** which provides
+<example>
+pet@cow:~$ dpkg -S /bin/ls
+coreutils: /bin/ls
+</example>

@@ -1,4 +1,64 @@
 HP Laserjet P1007
 
 1. install hplip
+
 2. tear off the yellow part of the inkstick
+
+** Uninstall 
+<example>
+pet@cow:~$ sudo apt-get purge hplip
+pet@cow:~$ sudo apt-get purge hplip-data
+root@cow:/usr/share# rm -rf hplip/
+
+pet@cow:~$ dpkg -S /bin/ls
+coreutils: /bin/ls
+pet@cow:~$ which hplj1020
+/usr/sbin/hplj1020
+pet@cow:~$ dpkg -S $(which hplj1020)
+foo2zjs: /usr/sbin/hplj1020
+pet@cow:~$ dpkg-query -L foo2zjs|grep hp
+/usr/bin/arm2hpdl
+/usr/bin/foo2hp
+/usr/bin/foo2hp2600-wrapper
+/usr/sbin/hplj1000
+/usr/share/man/man1/foo2hp.1.gz
+/usr/share/man/man1/foo2hp2600-wrapper.1.gz
+/usr/share/man/man1/arm2hpdl.1.gz
+/usr/share/foo2zjs/hplj1020_icon.gif
+/usr/share/foo2zjs/hplj10xx_gui.tcl
+/usr/share/foo2hp
+/usr/share/foo2hp/icm
+/lib/udev/rules.d/85-hplj10xx.rules
+/usr/sbin/hplj1005
+/usr/sbin/hplj1018
+/usr/sbin/hplj1020
+/usr/sbin/hpljP1005
+/usr/sbin/hpljP1006
+/usr/sbin/hpljP1007
+/usr/sbin/hpljP1008
+/usr/sbin/hpljP1505
+/usr/sbin/hpljP1505n
+pet@cow:~$ 
+
+</example>
+then I 
+<example>
+pet@cow:~$ sudo apt-get purge foo2zjs
+</example>
+
+Now I need to reinstall
+<example>
+root@cow:~# apt-get install hplip
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  hpijs hplip-data
+Suggested packages:
+  hpijs-ppds hplip-doc kdeprint gtklp xpp hplip-gui
+The following NEW packages will be installed:
+  hpijs hplip hplip-data
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 7088kB/7782kB of archives.
+After this operation, 13.7MB of additional disk space will be used.
+</example>
