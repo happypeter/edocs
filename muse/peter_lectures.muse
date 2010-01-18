@@ -2,13 +2,12 @@
 
 As a contribution to the open source community, I would like to give some
 
-[[introductary_courses]] for linux newbies
 
-** others
-[[lecture_cinelerra]]
+** introductary lectures for linux newbies
 
 
-[[lecture_rsync]]
 
-
-[[lecture_emacs_diff_fly_fill]]
+ - [[lecture_cinelerra]]
+ - [[lecture_rsync]]
+ - [[lecture_emacs_diff_fly_fill]]
+ - [[lecture_what_is_linux]]

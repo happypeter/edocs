@@ -1,8 +1,9 @@
+AUDIO: http://dl.dropbox.com/u/3037689/lectures/what_is_linux.mp3
+
 <contents>
 OK, let's get started. Hello, this is Peter Wang from Beijing. 
 
-And today I would like to talk with you about 
-* what is linux.
+And today I would like to talk with you about what is linux.
 if you want
 to be a programmer for linux, or maybe simply as a user of linux
 operating system, you may find what I am talking about here is

@@ -1,4 +1,0 @@
-Since I love audio lectures myself, so I will here give the audio file and all its connects in
-a txt file(or maybe a html file is better, since I can instert pics and video files)
-
-** [[What_is_linux]]

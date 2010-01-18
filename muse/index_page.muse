@@ -2,6 +2,8 @@
 *** languages
  - [[php][php]]
  - [[bash]]
+ - [[java]]
+
 *** gnu
  - [[gcc]]
  - [[make]]
@@ -9,15 +11,14 @@
  - [[doc_howto]]  about how I take note and something
 
 *** System Administration
- - data [[backup][backup]]
+ - [[backup][backup]]
  - [[encryption]]
  - [[dual_boot]]
  - [[ssh]]
  - [[home_machine_login]]
-
  - [[post_get_head]]
 
-*** web tools
+*** tools
  - [[sf]]
  - [[github][github]]
  - [[firefox]]
@@ -25,18 +26,13 @@
  - [[virtualbox]]
  - [[wget]]
  - [[vnc]]
+ - [[gmail]]
 *** Embedded
 
  - [[n810]]
 
-*** work
- - [[work]]   tips on my daily work
- - [[gmail]]
-
 *** For Fun 
  - [[english_study]] 
  - [[peter_lectures]]
- - [[vocabulary]]
- - [[photo]]
  - [[life]]
 

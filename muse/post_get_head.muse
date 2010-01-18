@@ -11,7 +11,3 @@ http://www.w3schools.com/PHP/php_mysql_intro.asp
 what is best here is the stuff is really easy, if you want to study
 cookie or GET POST, you will suffer a  lot if you start with C, the
 learning curve is much tender in PHP
-
-
-[[java]]
-
