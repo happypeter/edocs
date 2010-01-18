@@ -1,5 +1,14 @@
-Self Learner
+
 
 As a contribution to the open source community, I would like to give some
 
 [[introductary_courses]] for linux newbies
+
+** others
+[[lecture_cinelerra]]
+
+
+[[lecture_rsync]]
+
+
+[[lecture_emacs_diff_fly_fill]]

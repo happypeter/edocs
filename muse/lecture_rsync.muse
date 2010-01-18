@@ -1,0 +1,129 @@
+VIDEO:http://dl.dropbox.com/u/3037689/lectures/rsync.ogg
+
+** text
+OK, Let's begin. This talk is about [[rsync]], a very useful
+synchronization tool.
+
+So first of all, I want to have a look at what [[http://en.wikipedia.org/wiki/Rsync][wikipeida]]
+tells us.
+
+<example>
+rsync is a software application for Unix systems which synchronizes files and directories from one location to another while minimizing data transfer using delta encoding when appropriate. An important feature of rsync not found in most similar programs/protocols is that the mirroring takes place with only one transmission in each direction.
+</example>
+
+AH...Anyway I do not think it is really important in this
+talk. SO... I just want to say **Delta Encoding** is really a nice
+feather, because every time it only transfer the *diffs*
+the *diffs* between remote side data and local host data, only transfer
+the different part of the two bulk of data, so that saves a lot of
+time. 
+
+(http://en.wikipedia.org/wiki/Delta_encoding)
+<example>
+Delta encoding is a way of storing or transmitting data in the form of differences between sequential data rather than complete files...
+</example>
+Yea, this is what I am talking about. I do not want to talk much here,
+if you like you can check this page yourself.
+
+Anyway, as long as you have Internet connection, Wikipedia is right
+there for everybody of us.
+
+go back...go back ... why you do not go back ...
+
+AH, yeah, this is the page of the creator of rsync. Here they are
+talking about the story about him, about why Linux project move form
+**bitkeeper** to [[git]], it actually had much to do with this guy. 
+
+And Linus Torvards does not like him really. In one of Linus speeches,
+actually it was one of *google talks* ,Torvards said:
+<example>
+However, not everybody agreed with me, they are ugly and stupid, but
+they caused problems...
+</example>
+
+And here is the guy *ugly and stupid* , it actually means this
+guy--Tridgell.
+
+But...he got a Ph.D, doctorate. and 
+
+(http://en.wikipedia.org/wiki/Andrew_Tridgell)
+
+=  October 2003, The Bulletin magazine judged Tridgell to be
+Australia's smartest Information and Communications Technology
+person.= 
+
+He is actually a very smart guy. I means this one(# ^ Torvalds knifes
+Tridgell | The Register) is really interesting, you can have a look at
+this. 
+
+So I actually want to show you Tridgell's
+web-site(http://www.samba.org/~tridge/)
+
+...the picture, I do not like this guy very much..I.. the dog.. the
+dog is so beautiful. Golden hair, look at the eyes... what a dish! 
+
+Of course this is not the most interesting thing here. I want to show
+you the graduate courses.
+
+<example>
+Graduate Courses
+
+    * Free and Open Source Software Development
+
+</example>
+
+this is really something useful. If you click here, it will take you
+to the web age (http://cs.anu.edu.au/students/comp8440/) of a
+university. It is a very formal course, it has course number, or
+lecture number? So it is actully a lecture of Australia National
+University. College of Engineering and Computer Science.
+
+And...if you click here, you get to say the lecture pages, you can
+download the pdf files.  You also get video files available. Most
+stuff here is interesting to us, but problem is the Australian
+pronunciation, the Australian accent. I do not really like it.
+ 
+OK, let's go back, I am kind of off-topic, so back..back..
+
+This talk is mainly about **rsync**, yeah, this is our topic this
+time. And I just want to show you something practical. If you go to my
+web-site and you type ...yes http://happypeter.users.sourceforge.net
+
+And if you search **rsync**, you just type **rsync** here. Here we go. We have
+two links here.
+<example>
+rsync
+sf_rsync
+</example>
+
+**sf** here stands for **Sourceforge**, here we get some useful info about rsync.
+But this is not what I am going to talk about today. 
+
+What I am mainly interested in today is how to use rsync to update my
+SF web-site. Yea, this is the steps I took to update the web-site. SO
+if everything I need is this command
+<example>
+rsync -r --delete /var/www/  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
+</example>
+
+the url of SF, my web-site directory...I can synchronize every thing
+here (=/var/www=) into here (=/htdocs=)
+
+It is not so difficult. But here I would like to give you some
+demonstration about how to use this command properly. So first I want
+to show a demo locally.
+
+Let make =htdocs= as a local directory. On the local machine, the name
+is just htdocs. It just the same thing like this htdocs. But it is on
+local machine. So, what I need to do is to use this command and then
+directory name...try it, see what will happen. So ... check.... OK,
+here we go, we got all the web pages, and not only that, we also got
+directories. Directories inside this directory. Here are some file
+inside the sub-directory. 
+
+So I want to explain **-r** actually means *recursive*, or *recursively*
+(type =man rsync= and =/-r= to see it)
+
+It means you have file in directory or sub-directories, you will get
+everything synchronized, nothing will be lost. So everything in
+=/var/www/=  got synchronized.

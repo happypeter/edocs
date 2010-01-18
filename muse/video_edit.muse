@@ -5,7 +5,7 @@
  - [[audacity]]
  - [[mp3]]
  - [[kino]]
- - [[recorddesktop]]
+ - [[recordmydesktop]]
  - [[cinelerra]]
  - [[ocw]]
  - [[gimp]]

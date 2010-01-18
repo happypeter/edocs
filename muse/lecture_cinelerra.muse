@@ -1,0 +1,37 @@
+VIDEO: http://dl.dropbox.com/u/3037689/lectures/cinelerra_usage.ogv
+
+** Cinelerra
+OK, now [[recordmydesktop]] is running, and we need to start **cinelerra**, I
+am not sure about the pronunciation, but whatever, it works.
+
+So,... it is kind of slow, but I think it is because **recordmydesktop**
+is running on the background, otherwise it will not be so bad. So now
+we first load the file...firstly we load our video file, the name is
+*out-2.ogg*...this one, OK, so it is appended to the former project. I
+think I need to do it again, I just need to press =d d d= , and all the
+tracks-- video and audio tracks are deleted.
+
+So now I do it again, load the same file *out-2.ogg*, then I need to add 
+audio file, the sound. Be sure to append in a new track. It is a
+NUST. Then the audio file is this one, now we can ...annoying... we
+can set the format of the display, this is really important, otherwise
+you get only part of the picture, the display. Then it is not so good.
+
+And...maybe now press **Render**, and give a file name, the format, I
+think **ogg** is the best(it is because it is open format, and you do not
+need to install any other plugin to support it).
+
+Now, Start rendering, take some time...but it works, 40 percent..
+by the way the audio file has been edited by [[audacity]], to adjust the
+time to the video, otherwise it won't match perfectly, so I just cut
+off several seconds... a proper number of seconds at the beginning of
+the audio file, so the audio keeps the pace with the video, it is
+troublesome.
+
+Now we get it, for some reason the video is not full screen, it
+displays everything, but it gets smaller. I do not know why, it is
+kind of OK, I think it is the green line ... OK, now I think it is done.
+
+NOTE: change =setting->format->video->sample rate= , into **1.000**, this helps 
+a lot if you want to make a ouput file smaller. But try not to change the 
+audio setting lower, otherwsie the quality becomes unaccepttable. 

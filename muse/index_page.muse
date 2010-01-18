@@ -33,9 +33,9 @@
  - [[work]]   tips on my daily work
  - [[gmail]]
 
-*** Non-tech 
+*** For Fun 
  - [[english_study]] 
- - [[peter_homepage]]
+ - [[peter_lectures]]
  - [[vocabulary]]
  - [[photo]]
  - [[life]]
