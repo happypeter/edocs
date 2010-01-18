@@ -1,14 +1,20 @@
-here we provide some index page, but this site does not rely on these page
+This site provides some index pages, but does not rely on that.
 
 it is built as [[wiki]] 
 
-And I always feel the serch box is extremely useful, e.g
 
-If I search =kernel=, then I will have all the pages with =kernel= as part of their name
+And I always feel the **search box** is extremely useful
 
-these pages have links to all my kernel related stuff
+ e.g
 
-it is really fast to get what I want and nothing can be lost
+ If I search =kernel=, then I will have all the pages with =kernel= as part of their name
+
+ these pages have links to all my kernel related stuff
+
+it is really fast to obtain what I want, and nothing can be lost
+
+
+Eplog:
 
 Actually I have some rules on how to organize things, which make this possible
 

@@ -2,21 +2,21 @@ VIDEO:  http://dl.dropbox.com/u/3037689/lectures/emacs_diff_fly_fill.ogv
 
 ** Text
 
-OK,here I would like to show you how to use ... some functions of
+OK, here I would like to show you how to use ... some functions of
 [[emacs]]. 
 
 You see this is your letter, I press =Crtl+a=
 and I want to copy it into another file a pure text file, [[http://www.linfo.org/plain_text.html][plain text]]
-file not *pure text file*
- so the name is *diary.txt* , and I paste everything here, maybe I can
-see I *yank* everything here.
+file not *pure text file*, so the name is *diary.txt* , and I paste everything here, maybe I can
+say I *yank* everything here.
 
-Now I want to start my Emacs, 
+Now I want to start my Emacs...
+ 
 TO BE CONTINUED...
 
 
 ** Appendix:
-answer.diff
+*answer.diff*
 <example>
 --- dirary.txt	2010-01-18 15:25:02.000000000 +0800
 +++ dirary.txt.peter	2010-01-18 15:27:42.000000000 +0800

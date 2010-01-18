@@ -8,7 +8,12 @@ So first of all, I want to have a look at what [[http://en.wikipedia.org/wiki/Rs
 tells us.
 
 <example>
-rsync is a software application for Unix systems which synchronizes files and directories from one location to another while minimizing data transfer using delta encoding when appropriate. An important feature of rsync not found in most similar programs/protocols is that the mirroring takes place with only one transmission in each direction.
+rsync is a software application for Unix systems which synchronizes
+files and directories from one location to another while minimizing
+data transfer using delta encoding when appropriate. An important
+feature of rsync not found in most similar programs/protocols is that
+the mirroring takes place with only one transmission in each
+direction. 
 </example>
 
 AH...Anyway I do not think it is really important in this
@@ -20,7 +25,8 @@ time.
 
 (http://en.wikipedia.org/wiki/Delta_encoding)
 <example>
-Delta encoding is a way of storing or transmitting data in the form of differences between sequential data rather than complete files...
+Delta encoding is a way of storing or transmitting data in the form of
+differences between sequential data rather than complete files...
 </example>
 Yea, this is what I am talking about. I do not want to talk much here,
 if you like you can check this page yourself.
@@ -48,12 +54,13 @@ But...he got a Ph.D, doctorate. and
 
 (http://en.wikipedia.org/wiki/Andrew_Tridgell)
 
-=  October 2003, The Bulletin magazine judged Tridgell to be
+<example>
+ October 2003, The Bulletin magazine judged Tridgell to be
 Australia's smartest Information and Communications Technology
-person.= 
-
+person.
+</example>
 He is actually a very smart guy. I means this one(# ^ Torvalds knifes
-Tridgell | The Register) is really interesting, you can have a look at
+Tridgell) is really interesting, you can have a look at
 this. 
 
 So I actually want to show you Tridgell's
@@ -85,18 +92,18 @@ pronunciation, the Australian accent. I do not really like it.
  
 OK, let's go back, I am kind of off-topic, so back..back..
 
-This talk is mainly about **rsync**, yeah, this is our topic this
+This talk is mainly about *rsync*, yeah, this is our topic this
 time. And I just want to show you something practical. If you go to my
 web-site and you type ...yes http://happypeter.users.sourceforge.net
 
-And if you search **rsync**, you just type **rsync** here. Here we go. We have
+And if you search *rsync*, you just type *rsync* here. Here we go. We have
 two links here.
 <example>
 rsync
 sf_rsync
 </example>
 
-**sf** here stands for **Sourceforge**, here we get some useful info about rsync.
+**sf** here stands for *Sourceforge*, here we get some useful info about rsync.
 But this is not what I am going to talk about today. 
 
 What I am mainly interested in today is how to use rsync to update my
@@ -121,9 +128,11 @@ here we go, we got all the web pages, and not only that, we also got
 directories. Directories inside this directory. Here are some file
 inside the sub-directory. 
 
-So I want to explain **-r** actually means *recursive*, or *recursively*
-(type =man rsync= and =/-r= to see it)
+So I want to explain *-r* actually means *recursive*, or *recursively*
+(type =man rsync= and */-r* to see it)
 
 It means you have file in directory or sub-directories, you will get
 everything synchronized, nothing will be lost. So everything in
-=/var/www/=  got synchronized.
+*/var/www/*  got synchronized.
+
+TO BE CONTINUED ...

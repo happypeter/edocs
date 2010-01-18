@@ -8,7 +8,7 @@
  - [[gcc]]
  - [[make]]
 *** Documentation
- - [[doc_howto]]  about how I take note and something
+ - [[doc_howto]] 
 
 *** System Administration
  - [[backup][backup]]
@@ -28,7 +28,6 @@
  - [[vnc]]
  - [[gmail]]
 *** Embedded
-
  - [[n810]]
 
 *** For Fun 
