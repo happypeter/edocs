@@ -33,5 +33,6 @@
 *** For Fun 
  - [[english_study]] 
  - [[peter_lectures]]
- - [[life]]
+ - [[peter_writings]]
+ - [[resources]]
 
