@@ -1,0 +1,9 @@
+** Project Home
+http://tinylion.sourceforge.net/
+
+** Plan
+
+ - I will keep it simple
+ - Keep Qt app
+ - keep driver
+ - Build the project home as another muse project

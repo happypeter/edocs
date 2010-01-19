@@ -11,7 +11,7 @@ pet@girl:~$ sudo apt-get install wmctrl
 NOTE: wmctrl= Window Manager CTRL
  </example>
 
-=.emacs= looks
+*.emacs* looks
  <example>
  ;; peter--full screen
     (defun switch-full-screen ()
@@ -29,10 +29,10 @@ if I add
 <example>
 (tool-bar-mode)
 </example>
-into ''.emacs'', this is done automatically
+into *.emacs*, this is done automatically
 and I can get the tool bar back if I want, by run the command again
 
-I finally have this in my ''.emacs''
+I finally have this in my *.emacs*
 <example>
 ;; run this in order to hide toolbar...
 (tool-bar-mode)
@@ -52,8 +52,8 @@ may be in the future I want emacs run a el file during startup,
 I think I can aslo achieve this by changing  */usr/bin/eee*
 
 ** open file at startup
-when I add =(find-file "~/edocs/sed.muse" t)= into =.emacs=, it fails to
-work out for me, but when I use =emacs --deamon=, it works, strange.
+
+Add =(find-file "~/edocs/sed.muse" t)= into *.emacs*
 
 
 ** for good ideas

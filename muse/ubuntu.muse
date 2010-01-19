@@ -7,7 +7,7 @@
  - [[ubuntu_i18n]]
  - [[iso]]
  - [[ubuntu_repo]]
- - [[upgrade_os]]
+ - [[ubuntu_install]]
  - [[grub]]
  - [[printer]]
  - [[apt-get]]
