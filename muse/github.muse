@@ -13,7 +13,7 @@ https://github.com/
 these projects are done not so much for sth useful, but as hacking of the language itself
 
 I should say it is really a nice way to learn a languages, better way than a knowledge base in wiki
- -  happypeter/docbook
+ -  happypeter/docbook --- deleted, deprecated.
  -  happypeter/python
  -  happypeter/reader ---  the code is not much, but nice hacking of qt new feathers
  -  happypeter/php
