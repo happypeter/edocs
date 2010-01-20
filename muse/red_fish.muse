@@ -1,0 +1,179 @@
+puter Science & Engineering Dept., Fudan Univ.  Hongyu Zhang   Tel: (+86)13795229651   Email: zhy1030@gmail.com
+
+Personal Information
+
+Name：                                           (Harry)
+
+Gender:                                          male
+
+Birth Date:                                      Oct. 30th, 1982
+
+Nationality:                                     CHINA citizen
+
+
+Summary
+
+Deep understanding of Linux kernel and embedded system design
+
+Skilled in use of C/C++ programming languages
+
+Familiar with Linux programming and shell programming
+
+Familiar with embedded operating systems such as WinCE, uClinux, uCOS, and Embedded Linux
+
+Familiar with embedded system design using 51/ARM7/ARM9/Xscale/Freescale chips
+
+Skilled in use of design tools such as ADS, CodeWarrior, Keil, and Protel
+
+Ability of quick learning and strong passion for new and interesting technology
+
+Education
+
+2005.9 ~ 2008.7                               Fudan University (Recommended Student)
+
+Dept. of Computer Science and Engineering  M.S
+
+Major: Embedded systems (Advisor: Prof. Zhanglong Chen)
+
+GPA: 3.72/4.0; Rank top 10%
+
+2001.9 ~ 2005.7                            Tongji University
+
+Dept. of Electronic Information Engineering  B.E
+
+GPA: 4.48/5.0; Rank: 1/188
+
+2002.9 ~ 2004.7:                            Fudan University
+
+                                                                                    International Economics and Trade  Minor
+
+Honors and Awards
+
+2006.10              The 3rd People's Scholarship of Fudan University
+
+2006.3              The 2nd prize of 2006 Embedded System Design Contest in Shanghai
+
+2005.9              Scholarship of Excellent Student by Recommendation of Fudan University
+
+2005.6              Excellent Graduates of Shanghai City
+
+2004.11              The 2nd prize of 2004 National Undergraduate Electronic Design Contest
+
+2002.10 / 2004.10              Straight-A student of Tongji University (2 times)
+
+2003.10              Straight-A student of Shangchai City
+
+2003.10              GuoXie BiRong Scholarship
+
+2002.10 / 2004.10              The 2nd State Scholarship (2 times)
+
+2002.10 ~ 2004.10              The 1st (2 times) and 2nd (1 time) Prize of Tongji Academic Scholarship
+
+Patent
+
+Patent Name:               Home Digital Terminal Unit（              200710171654.0）
+
+Patent Type:              Invention
+
+Application state:              Waiting for authorization
+
+Brief Introduction:               My invention is a kind of terminal
+device which can be used at home as data server, web server, video
+phone and remote-control gateway while waiving some inconveniences
+such as domain name registration. 
+
+Research Experience
+
+2005.9 ~ present:              Work in Embedded System Laboratory of
+the Computer Science and Technology Department of Fudan
+University. Research on wireless sensor networks and RFID application 
+
+2003.3 ~ 2005.6              Worked in Embedded System Laboratory of
+the Electronic Information Engineering Department of Tongji
+University. Mainly worked on electronic and embedded system design 
+
+Internship and Activities
+
+2007.9 ~ present:                            Lecturer of Fullcast Technology Co., Ltd; Part-time; 1000RMB/day
+
+2007.7 ~ 2007.8                            Linux kernel engineering in Voipack Co.,Ltd; Intern; 200RMB/day
+
+2007.3 ~ 2007.7                            IT specialist of ISI(International Study Institute) Shanghai; Part-time
+
+2005.10 ~ present                            Vice monitor and vice party branch secretary of class
+
+2001.9 ~ 2005.6                            Commissioner of study of the student union; Monitor of class
+
+Project Summary
+
+Project Name:               Research on Localization and Storehouse Management Based on Wireless sensor Networks and Active RFID (2007.3 ~ present)
+
+Language:                                           C/C++, C#
+
+Development Tools:               Codewarrior, Keil uVersion2, Protel DXP, Visual Studio 2005, SQLServer
+
+Platform:                                           MC98SC08+MC13192, C8051F+CC1100, Windows DotNet+SQLServer
+
+Responsibility:                            Team leader of 6 people, Hardware and firmware developer
+
+Introduction:                                          This project mainly includes two parts. The first part is RFID tap localization in wireless sensor networks, which is planned to be used in prisoner management in correctional farm. The second part is the application of active RFID in military storehouse management.
+
+Project Name:               Application of Active RFID with Wireless Sensor Networks in Container Stacking Area (2006.6 ~ 2006.12)
+
+Language:                                           C/C++
+
+Development Tools:               Codewarrior, Protel DXP, Delphi, SQLServer
+
+Platform:                                           MC98SC08+MC13192, SMAC, Delphi+SQLServer
+
+Responsibility:                            Hardware and firmware developer
+
+Introduction:                                          Designed a container stacking management system, in which the technique of active RFID and wireless sensor networks are combined together to trace containers.
+
+Project Name:               Eye-Controlled Mouse (2006.1 ~ 2006.5)
+
+Language:                                           C/C++
+
+Development Tools:               ARM Developer Suite, VC++
+
+Platform:                                           uC/OS, EasyARM 2131
+
+Responsibility:                            Hardware and firmware developer
+
+Introduction:                                          Designed a
+mouse which can be controlled by eyes. The device collects EOG
+(electro-oculogram) signals which indicate the movement of eyes, and
+translate the eye movement information to PC to control the movement
+of the cursor. This project won the 2nd prize of 2006 Embedded System
+Design Contest in Shanghai. 
+
+Project Name:               A tiny operating system (2006.3 ~ 2006.6)
+
+Language:                                           C
+
+Development Tools:               ARM Developer Suite
+
+Platform:                                           EasyARM 2104
+
+Responsibility:                            Designed and implemented this tiny operating system
+
+Introduction:                                          Designed and
+implemented a tiny operating system supporting multitasking and
+semaphore (no file system) on ARM platform. 
+
+Project Name:               Terminal Multimedia Device Based on Linux (2004.4 ~ 2004.9)
+
+Language:                                           C/C++
+
+Development Tools:               ARM Linux tool chain, QTEmbedded, QT
+
+Platform:                                           Sitsang(ARM Xscale), QTopia, Linux
+
+Responsibility:                            Low level software development and USB camera driver development.
+
+Introduction:                                          Designed and
+implemented an application of multimedia device based on Linux using
+Sitsang board, which has functions of videophone, address list
+management, camera control and so on. The CPU of Sitsang board is
+PXA255. The project won the 2nd prize of 2004 Intel Cup National
+Undergraduate Electronic Design Contest. 

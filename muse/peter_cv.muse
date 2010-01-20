@@ -1,0 +1,19 @@
+Name: Peter Wang
+
+Hometown: A small village in North China
+
+Birth Date: Jun 2nd 1983
+
+
+
+Writings:
+
+[[peter_writings]]
+
+Contribution to Open Source:
+
+[[tinylion]]
+
+[[peter_lectures]]
+
+
