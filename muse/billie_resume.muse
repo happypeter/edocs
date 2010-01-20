@@ -1,0 +1,95 @@
+Personal Information
+
+Name: Guosong Zhang (Billie)
+
+Gender: female
+
+Birth Date: July. 29th, 1983
+
+Nationality: CHINA citizen
+
+Address: Beijing, P.R.China
+
+Mobile: (+86) 15910662889
+
+Email: billie.jean.zhang@gmail.com
+
+Home Page: http://billie66.users.sourceforge.net/
+
+Sentence Bio
+
+From windows hell to linux heaven, I am deeply attracted by the spirit
+of open source, which is, as Linus Torvalds put it, the only right way
+to do software. Linux world is full of awesome stuff that I did not
+know before and am eager to exploit in the years to come. 
+
+Skill Summary 
+
+   1. Understanding of Linux kernel and embedded system design
+   2. Skilled in use of C programming language
+   3. Qt lover
+   4. Familiar with shell programming(bash user)
+   5. Git user
+   6. Familiar with set of Apache+PHP+MySQL
+   7. Good communicator in both Chinese and English languages
+   8. Ability of quick learning and strong passion for new and interesting technology
+   9. Python, Perl, Ruby, PHP, xml-- basic reading skill. 
+
+Education
+
+2007.9 ~ present: North China Electric Power University
+Until now, I have more than two years R&D experience in NCEPU
+Key Laboratory of Power Plant Equipment Condition Monitoring and Control
+
+2002.9 ~ 2006.7: Hebei University of Science & Technology
+During my undergraduate study, my major was Mechanical Engineering. I
+was the Scholarship winner for all my four years study there. 
+
+Tech experience
+
+NO.1 Kernel Hacking
+
+Being awesomely big and compilcated, Linux kernel is still a
+mysterious galaxy to me, even though I have spent more than one year
+wondering here and there through the guide of Understanding Linux
+Kernel. What I actully achieved a little is device driver writing
+based on 2.6 kernel for Samsung s3c2410 ARM chip. Registers, bitwise
+manipulations, protocals and oops... a bit too heavy for grils quite
+frankly. 
+
+However, the painstaking effort in kernel has taught me the story from
+the very bottom. It was so much fun, when the registers on s3c2410
+Manual were wrapped inside my own ioctl(), and I was able to insmod my
+pluggable module and call my home-brew systerm call inside my own Qt
+GUI program. 
+
+NO.2 Qt Programming
+Strange thing is that I love Qt more than Gtk, even though I prefer
+Gnome over KDE. Qt3 is used when I first learned GUI programming, but
+Qt4 is now prefered because all its nice new feathers and the easier
+portation to embedded platforms. 
+Rumor has it Nokia is switching to Qt as it main framework for maemo OS.
+
+NO.3 Systerm Administration
+I love Ubuntu and use it as my day-to-day desktop
+Synaptic+APT+dpkg works well for me to keep my OS sound.
+When I do development, I use Redhat series including Fedora and
+Packagekit+YUM+RPM is the set of tools used to keep my software well organized.
+
+I would like to develop my own front-end software for system updaters with Qt in the future.
+
+Books I love:
+
+   1. Linux Device Driver 3
+   2. Linux Tutorial
+   3. C++ GUI Programming with Qt4,Second Edition
+   4. C++ Primer,Fourth Edition
+   5. C Programming language by K&R
+   6. How to Think like a Computer Scientist, python Edition
+   7. How to Think like a Computer Scientist, C++ Edition 
+
+Tags
+
+GNU-----Free Software-----Tech Girl-----Linux Fun
+
+>>>create and endorse free software as a contribution to the progress of humanity<<<

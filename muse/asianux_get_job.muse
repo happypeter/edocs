@@ -1,0 +1,493 @@
+<contents>
+** Blug Spam Post
+It was all started by a post in the IRC of http://www.beijinglug.org
+
+<example>
+Me as a guest:
+Hello, everybody! Is there no one need a new apartment to live? 
+I have one
+
+Fred:
+Is it a spam?
+
+Me:
+Yes, but the price is good...
+
+Fred:
+You are not welcomed here!... But do you know Linux?
+
+Me:
+Not much... but I am trying to find a job related
+
+Fred:
+
+You can have a look at our forum, the job_posting session...
+</example>
+
+So I went to
+http://www.beijinglug.org/en/index.php?option=com_kunena&Itemid=136
+
+and checked
+
+** Keith helped
+...and found a post form Keith hiring a kernel developer 
+
+It was still more than half a year before I finish my goddam
+postgraduate study. But I thought why not have a try 
+
+<example>
+10/20/08	
+hello Keith,
+
+I am writing to see whether the job positions are still available in Asianux. My name on BLUG website is happypeter
+and i am currently the manager of Embedded Linux Group there.
+
+So plz allow me to introduce myself first, i am a graduate student now in North China Electrical Power University,
+in my last few month here. I have been working on embedded linux since 2006. Developing device driver for my own made
+hardware is mainly what i do everyday. And when i am coding GUI, QT is my favorite.
+
+Usually i take myself as a kernel developer, for most time i stay in the kernel. But Qt writing is also attractive to me
+and i will be happy to accept jobs in this filed as well.
+
+Phone me anytime you like at 13426083580, it will be my pleasure to be your friend.
+
+Regards
+
+Peter 
+
+
+10/21/08
+Hi Peter,
+
+ I'm happy to know you.  Can you please send us a CV or resume (in English) to careers@asianux.com, and cc: <hwanii.jung@asianux.com>
+
+ Hwanii is the manager looking for the QT dev.  I'm looking for a sys
+ admin.  We had a kernel dev position opened before, but that was
+ filled recently by another BLUG member :)  
+
+ I do need to say we are in a hiring freeze at the moment.  We're
+ still doing interviews, with hopes the freeze will lift before next
+ month (November). 
+
+--
+Best Regards,
+ Keith Hopkins
+ Strategic Alliance Manager
+ Marketing and Business Dept
+ Asianux Corporation Ltd.
+
+</example>
+
+so I sent my resume([[peter_resume]]), this is the letter back form Keith
+
+
+<example>
+10/21/08
+Hi Peter,
+
+  I love this.  It made several of us very happy to read it.  I think we have to find you some position here.
+
+--Keith
+
+
+On 10/21/2008 04:49 PM, Peter King wrote:
+>
+> Life Experience
+>
+> The 2nd day of 1983: My mother gave birth to me in a small village
+not far from the sea, where I spent my whole happy childhood. There
+was a big fruit garden behind our house I should mention. Spring
+flowers there were most beautiful thing in my eyes when I was small
+until several years later I realized girls were even more attractive 
+>
+>
+</example>
+
+To tell the truth I was really happy to stumb across a company as
+open-minded as this.
+
+<example>
+10/21/08 
+Hi Keith,
+
+
+Thank you for saying that, I am quit flattered. It will be great to work for Asianux with people as friendly as you around me. 
+
+i will continue writing to you to make myself better known. I think we can be very good friends!
+
+Regards
+
+Peter
+
+</example>
+
+
+** Hwanii Showed up
+so I sent Hawanii my info, and here comes his first letter
+<example>
+10/21/08	
+Dear Peter King,
+
+I am Hwanii Jung, Software Maintenance Team manager in Asianux.
+
+We are holding our hiring activities at the morment by some reason. However,
+if you think that you are qualified and want the position, please let us know
+so that we can contact you and arrange an interview when we are able to hire
+the possition again.
+
+The person we want to hire is an application developer who has Linux
+Devevelpment experience, familier with RPM and Autoconf and so on.
+
+The software you might develop when you join us is a linux server application
+written in C++ with QT. It will be built as a RPM package using Autoconf.
+
+If you are looking for becoming a kernel developer or mobile application
+developmer, this position can not satisfy you.
+
+Regards,
+Hwanii
+</example>
+My reply was phony:
+<example>
+10/22/08	
+Hello Hwanii,
+
+Thank you for your letter, for the detailed information. I should say
+Asianux seems to be a wonderful place to start my career. 
+
+I will be more than willing to work there as a QT developer. But i
+think i need to say more about myself to make it clearer that whether 
+i am qualified for this position. I love Qt but i am not a quit
+experienced Qt user. I spent most of my time staying in the kernel, so
+i think i know 
+linux well. I stared to learn Qt last year to develop GUI for my
+instrument, but they were  small program for embedded
+platform. Sometimes i wrote small applications for desktop linux OS
+platform and even windowsXP, but that does not means i am ready to
+develop sever applicaions if it is big and compilcated. However, I
+once talked to my Qt developer friends in lenovo and found they knew
+more classes, but i understand the whole OS deeper. So when things
+went wrong, i am more capable to get them right. But when it comes to
+development speed, i am lagged behind^_^ 
+
+But if i am hired as a Qt developer, I do not mind working long hours
+at the beginning to fill this gap. I want this job, cause it is good
+chance to sharpen my C++ skills. I am a good communicator and speaks
+very good English, i love pressure and challenges. 
+
+Regards
+
+Peter     
+
+		
+10/22/08	
+Dear Peter King,
+
+Thank you for the writing. I will let you know when we are able to arrange
+an interview. Hopely see you soon.
+
+Regards,
+Hwanii
+
+</example>
+SO, I waited for a long long time, but finally came 
+** The Interview 
+<example>
+11/13/08	
+Hello Peter,
+
+Now that we can proceed with hiring new staff, I would like to
+arrange an interview with you at 10AM on 17th. If you are still
+interested in the position please contect us.
+- Show quoted text -
+
+
+Regards,
+Hwanii
+
+ 
+11/13/08
+Hello Hwanii,
+
+Thanks for your letter. Working for Asianux is still one of my best choices. I am sure  I will be there on time for the Interview.
+
+Would you plz send me the detailed info? Which place shall i be to meet you?  Thanks
+
+Regards
+
+Peter
+
+ 
+11/14/08
+Hi Peter, 
+
+Shirley's office tel:  XXXXXX
+
+If you have any problems  and and  questions to find our office, please ask  her. 
+
+best regards, 
+
+Rui
+
+
+11/14/08
+Peter,
+
+Our office is
+
+XXXXXXXXXXXXXXXX
+
+See you at 10AM on Monday. If you have any problem with finding the place, please
+contect Shirley( in CC list ).
+
+Regards,
+Hwanii
+
+
+11/14/08
+Hi,	
+Now everything is made clear, I will be there on time i am sure. Many thanks!
+
+Regards
+Peter
+</example>
+
+** Answer the quiz
+So I took a interview, below is a answer for the homework exam that
+they gave me:
+
+<example>
+11/22/08
+Hi Huanii,
+
+I have finished the quiz, it was not easy:)
+
+1. the answer for q1) is right there in my attached file
+
+2. if I need to edit one line to better the performance of sort_list(), I will comment out the following line:
+//last = eol;
+I am not sure if this is the right answer, see more about this in the attached file
+plz teach me by sending me another email if my answer is not correct
+
+3. I hope the makefile I wrote is what you want, if not, plz sent me the better one
+
+The Asianux office is a nice place to work and you people are kind and friendly, I believe
+I will be happy working there. Look forward to seeing you again.
+
+
+Regards
+
+Peter
+asianux_answer.tar.gz
+</example>
+
+** Decision made
+Note the gap between the two letters
+<example>
+2/9/09	
+Hello Peter,
+
+This is Hwanii from Asianux. I am wondering if you have found a job yet.
+Hiring new sfaff has been hold by some reasons. Now that we have started
+the hiring activity again, I would like to know if you are still interested in
+our company.
+
+Best Regards,
+Hwanii
+ 
+
+2/9/09	
+Hi Hwanii,
+
+Thanks for your letter. Truth is that I have been busy with my
+graduate paper since we met in Asianux office last time, and did not
+take any interview since then. Now I do not have any job offer yet. 
+
+Well, I am actually still quite interested in the position in Asianux,
+and would like to do anything to make myself understood better, if
+necessary. Here in the attached file you will find the new version of
+my resume, I hope you find something interesting through these links. 
+
+Bad news is that my grandma left us this morning, I will leave first
+thing tomorrow to attend her funeral, and will be back 3 or 4 days
+later. 
+
+Keep in touch and best wishes!
+
+Regards
+Peter
+ 
+resume-v12.pdf
+</example>
+Then I went back to say the last goodbye to grandma, and when I was
+back in Beijing, I saw:
+<example>
+2/10/09	
+Peter,
+
+I am sorry to hear that news. I hope you and your family will get over it well.
+A question for you. I remember that you would be able to start from March
+or April. Can you tell me when you can star working with us?
+
+Take your time and tell me when you come back.
+
+Regards,
+Hwanii
+
+
+2/14/09
+Hi Hwanii,
+
+>I am sorry to hear that news. I hope you and your family will get
+over it  well. 
+Thanks for your kind words!  Grandma is now forever sleeping in a
+quiet beautiful place outside a fruit garden. It's not far form our
+house which means we will be able to come and say her hello very
+often, so there is no need to be sad. 
+
+
+>A question for you. I remember that you would be able to start from
+>March or April. Can you tell me when you can star working with us? 
+Well, I am not exactly sure about the date when I will be free. But I
+will definitely be available early in April. 
+
+If you consider I am qualified, we can sit down and talk about signing
+the contract anytime. 
+ 
+Regards
+Peter
+
+
+2/16/09	
+Peter,
+
+Actually, I am Happy to be working with you. The date is fine for us.
+So I want to arrange an interview with our HR manager. Before that,
+I would like to confirm the salary you wish to get after tax so that I
+can pass your resume and basic information to our HR.
+
+Regards,
+Hwanii
+</example>
+
+** The money
+<example>
+
+2/16/09	
+Hi Hwanii,
+
+Can not be happier to see your letter! I will always be available for the HR interview.
+
+The money? I will keep it 5000RMB/mth (after tax).  But I do not mind making it negotiable if necessary.
+
+Hope see you soon. Keep in touch and many thanks!
+
+Regards
+Peter		
+ 
+
+2/16/09	
+Peter,
+
+Thank you for your fast reply. You will be connected by our HR soon.
+
+Regards,
+Hwanii
+
+
+2/18/09	
+Hi Huanii,
+
+Shen Rui called just now and we had a happy conversation. She said she
+would let me know the final result soon, probably within this week. 
+
+Regards
+Peter
+
+
+2/25/09
+Peter,
+
+So you will be joining us soon. I am looking forward to working with you.
+
+Regards,
+Hwanii
+ 
+ 
+2/25/09
+Hi Hwanii,
+
+It is so exiting to just think about that:-) Hope see you soon!
+
+Regards
+Peter
+</example>
+** The Laptop
+<example>
+3/4/09
+Peter,
+
+Do you prepare laptop or desktop? I will consider your opinion when
+we prepare your system.
+
+Regards,
+Hwanii
+
+ 
+3/4/09
+Hi Hwanii,
+
+Well, I have my own desktop bought last year, it is 1G RAM plus 2 core
+Intel CPU, and I am quite satisfied with it. 
+
+That means I will prefer a laptop if possible. I do not have my own
+and have been planing to buy one myself. So I will be very happy if
+our company can buy me one. 
+
+Another good news is that I will be free next week. So I would like to
+start my work in Asianux as soon as possible. Shen Rui said it was OK
+for her if only I could get all my materials ready on time. What is
+your opinion? How about I start on 16th March? I hope the change will
+not bring you much trouble. 
+
+Many thanks!
+
+Regards
+Peter
+
+ 
+3/4/09
+Peter,
+
+I have talked about this earlier with Rui. I guess you will be able to start
+working from 16th. please contact Rui for detail. And Thank you for the
+reply.. Talk to you later.
+
+Regards,
+Hwanii
+
+ 	
+3/4/09
+That's great, Hwanii, keep in touch.
+
+</example>
+** Paper Work
+<example>
+3/5/09
+Hi Rui,
+
+I will give Shirley all my materials on next Monday afternoon.
+
+Regards
+Peter
+ 
+	
+3/10/09
+Peter,
+
+I am looking forward to seeing you.
+
+Regards,
+Hwanii
+
+</example>

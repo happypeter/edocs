@@ -1,0 +1,28 @@
+
+I was originally hired as AXTU developer
+
+** AXTU
+http://www.asianux.com/down_list.php download the iso
+
+and find the package named *axtu*, and you will find out my name in the *ChangeLog*y
+
+** YUM
+<example>
+11/13/09
+Dear Managers,
+
+I would like to introduce/use yum as our updater in Asianux Server 4
+instead of AXTU. We keep AXTU on Asianux Server 3 though.
+
+Please find the attached proposal which has details.
+
+DO NOT hesitate to ask me for any question please. This is going to
+be quite big decision for us.
+
+Let's keep talking about it.
+
+Regards,
+Hwanii
+
+updater4AXS4.pdf
+</example>
