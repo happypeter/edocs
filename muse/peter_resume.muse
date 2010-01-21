@@ -1,10 +1,12 @@
-Name: Peter Wang
+** Personal Info
 
-Gender: male
+**Name**: Peter Wang
 
-Birth Date: Jan. 2nd, 1983
+**Gender**: male
 
-Nationality: CHINA citizen
+**Birth Date:** Jan 2nd 1983
+
+Nationality: China
 
 Address: Beijing, P.R.China
 
@@ -14,12 +16,37 @@ Email: happypeter1983@gmail.com
 
 HomePage: http://happypeter.users.sourceforge.net/ 
 
-Sentence Bio
+** Sentence Bio
 
-Peter Wang is a FOSS developer. 
+Peter Wang is a [[http://en.wikipedia.org/wiki/Free_and_open_source_software][FOSS]] developer. 
 
-Skill Summary
+** Skill Summary
 
+*** Packaging
+ - [[http://www.rpm.org/][RPM]]
+ - [[DEB]]
+
+*** Programming Lanages
+
+ - C
+ - C++
+ - Python
+ - PHP
+ - Perl
+*** Toolkit
+ - Qt
+   I am a long time Qt user, PC embedded platforms
+ - Gtk
+   Now much
+*** Operating
+ - Linux
+ - BSD
+ - Soloris
+*** Kernel
+ - driver writer
+ - File system
+ - Sheduler
+ 
    1. Understanding of Linux kernel and embedded system design
    2. Skilled in use of C/C++ programming languages with Qt lib
    3. Phython programming and shell programming
