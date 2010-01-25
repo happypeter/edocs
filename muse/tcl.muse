@@ -1,0 +1,49 @@
+
+9.04 before I do anything
+<example>
+root@cow:/home/peter# dpkg -l|grep tcl
+ii  tcl                                        8.4.16-2                           The Tool Command Language (default version) 
+ii  tcl8.4                                     8.4.19-2                           Tcl (the Tool Command Language) v8.4 - run-t
+root@cow:/home/peter# 
+</example>
+
+maybe this is installed as a dep for git,since gitk require this. 
+
+<example>
+/usr/bin/tclsh8.4
+/usr/lib
+/usr/lib/libtcl8.4.so.0
+root@cow:/home/peter# tclsh8.4
+% 
+</example>
+
+** the helloworld
+<example>
+root@cow:/home/peter# tclsh dd.tcl 
+peter
+root@cow:/home/peter# which  tclxh
+root@cow:/home/peter# which  tclsh
+/usr/bin/tclsh
+root@cow:/home/peter# file /usr/bin/tclsh
+/usr/bin/tclsh: symbolic link to `/etc/alternatives/tclsh'
+root@cow:/home/peter# file /etc/alternatives/tclsh
+/etc/alternatives/tclsh: symbolic link to `/usr/bin/tclsh-default'
+root@cow:/home/peter# file /usr/bin/tclsh-default
+/usr/bin/tclsh-default: symbolic link to `tclsh8.4'
+root@cow:/home/peter# 
+</example>
+
+so I had this run as tt.tcl
+<example>
+puts stdout {peter}
+set var 5
+set b $var
+puts stdout $b
+
+string length foobar
+</example>
+
+** Doc
+http://www.beedub.com/book/
+
+Tcl Introduction

@@ -1,1 +1,3 @@
 [[python_cgi]]
+
+[[python_gui]]

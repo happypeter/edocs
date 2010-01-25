@@ -1,18 +1,52 @@
-*** ssh not working 
+** release
+
+https://sourceforge.net/apps/trac/sourceforge/wiki/Release files for download
+
 <example>
-[root@localhost ~]# ssh  happypeter@frs.sourceforge.net
-happypeter@frs.sourceforge.net's password:
-Last login: Sat Aug 15 08:28:48 2009 from 125.39.34.215
+ssh -t happypeter,tinylion@shell.sourceforge.net create
+</example>
+then I run =sf-help=
+so I go to the frs place
+<example>
+[happypeter@shell-23010 tinylion]$ pwd
+/home/frs/project/t/ti/tinylion
+[happypeter@shell-23010 tinylion]$ ls
+README_peter  tinylion.tar.gz
+[happypeter@shell-23010 tinylion]$
+</example>
+but I can not find anything here
+https://sourceforge.net/projects/tinylion/files/
+ten mins later =tinylion.tar.gz= shows up
 
-Welcome to frs.sourceforge.net
+this means user can download a realatively stable version named a =release=
 
-This is a restricted Shell Account
-You cannot execute anything here.
+here
+<example>
 
-Connection to frs.sourceforge.net closed.
+Links You May Need
+
+    * Download Tata
+    * Get Support for Tata
+    * Send a request to join this project
+
 </example>
 
-Now I find the right way
+** trac backup ---failed
+https://sourceforge.net/apps/trac/tinylion/wiki/TracBackup
+
+but where can I run
+<example>
+ $ trac-admin /path/to/projenv hotcopy /path/to/backupdir
+ </example>
+
+ I login this way
+<example>
+[root@dhcp11 ~]# ssh -t happypeter,tinylion@shell.sourceforge.net create
+[happypeter@shell-23010 tinylion]$ trac-admin
+-bash: trac-admin: command not found
+</example>
+
+** ssh 
 
 https://sourceforge.net/apps/trac/sourceforge/wiki/Shell service
 
@@ -20,12 +54,19 @@ all I need to do is
  <example>
 ssh -t USER,PROJECT@shell.sourceforge.net create
 </example>
+DO:
+<example>
+ ssh -t happypeter,gitbro@shell.sourceforge.net create
+</example>
+You need to above first before you want to use [[sf_rsync]] or ssh
 
-*** scp works well 
+** scp
+rsync is available, I do not see any point to use scp 
 <example>
 scp -r *  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
 </example>
-*** sftp is the way to edit it 
+
+** sftp 
 <example>
 [root@localhost web]# sftp happypeter@frs.sourceforge.net
 Connecting to frs.sourceforge.net...
@@ -34,13 +75,14 @@ sftp> ls
 diary-dump.xml  uploads         userweb
 sftp> cd userweb
 </example>
+ 
 *** Project web access 
 <example>
 [root@localhost ~]# sftp happypeter,tinylion@web.sourceforge.net
 </example>
 
 
-*** useful tips 
+*** Sftp  tips 
 <example>
 [root@localhost html]# sftp happypeter@frs.sourceforge.net
 Connecting to frs.sourceforge.net...
@@ -65,8 +107,13 @@ Uploading tech.html to /home/userweb/h/ha/happypeter/htdocs/tech.html
 tech.html 
 </example>
 
-*** mailing list
-https://sourceforge.net/apps/trac/sourceforge/wiki/Mailing lists
+** mailing list
+https://sourceforge.net/apps/trac/sourceforge/wiki/MailingSPACElists
+
+Q: How to set up?
+
+Admin->feather setting->mailing list
+
 https://lists.sourceforge.net/lists/listinfo/tinylion-develop
 
 Q: How to add subscriber?

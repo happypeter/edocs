@@ -1,0 +1,16 @@
+<example>
+peter@cow:~$ sudo apt-get python-tk
+[sudo] password for peter: 
+E: Invalid operation python-tk
+peter@cow:~$ sudo apt-get install python-tk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  blt tcl8.5 tk8.5
+Suggested packages:
+  blt-demo tix python-tk-dbg tclreadline
+The following NEW packages will be installed:
+  blt python-tk tcl8.5 tk8.5
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+</example>

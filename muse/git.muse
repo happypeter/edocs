@@ -6,6 +6,8 @@
 
 [[git_command]]
 
+[[git_usage]]
+
 http://mirror.yandex.ru/pub/software/scm/git/docs/
 
 ** track one flile  history

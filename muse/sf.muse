@@ -1,13 +1,7 @@
-FrontPage
-
 
 [[sf_tip]]
 
 [[sf_cgi]]
-
-[[sf_policy]]
-
-[[sf_command]]
 
 [[sf_git]]
 

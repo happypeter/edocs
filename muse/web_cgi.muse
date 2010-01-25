@@ -1,0 +1,22 @@
+I want to add commit to my Homepage, but first I need to find out
+
+how to give the user of brower, that is *nobody*, the write access to 
+
+sf:happypeter/../htdocs/commits/ #I add commits/ myself
+
+for example if people leave a commit on page *yum*, then the commit filename
+
+will be *yum.commit.0* *yum.commit.1* *yum.commit.2* ...saved in *commits/*
+
+** try to give access to dirs
+failed
+<example>
+[happypeter@shell-21006 htdocs]$ chmod 777 code
+[happypeter@shell-21006 htdocs]$ chmod 777 code/c_cgi/ 
+[happypeter@shell-21006 htdocs]$ chown nobody code/c_cgi/
+chown: changing ownership of `code/c_cgi/': Operation not permitted
+[happypeter@shell-21006 htdocs]$ 
+</example>
+
+
+can I get the comments as a mail?
