@@ -1,0 +1,17 @@
+I think it is not so good to write pre-mature stuff directly into muse
+file, wasting lots of time tagging and formatting. 
+
+So i create this plaintext/ and in the future, I will first put
+stuff here. one topic one file, a few days later, if I find the
+content in some file is really valuable, I will 
+ 
+ 1. get it formatted  
+ 2. put it into muse 
+ 3. add a link in the related index page
+
+otherwise, I will just delete it.
+
+another idea is even I do not do strict formatting here in this dir,
+but I can still name the file with *.muse*, this way, when some times
+I do want to add some simple format here to avoid confusion, I can use
+muse short cuts. So why not?

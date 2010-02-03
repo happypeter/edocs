@@ -1,0 +1,26 @@
+  507  sudo apt-get install markdown
+  508  dpkg -L markdown 
+  509  markdown 
+  510  ls
+  511  man markdown 
+  512  cd Desktop/en/
+  513  ls
+  514  cd 03-git-branching/
+  515  LS
+  516  ls
+  517  markdown 01-chapter3.markdown 
+  518  markdown 01-chapter3.markdown >ch3.html
+
+I did above for the sake of convert git://github.com/progit/progit.git
+into html, so that I can print it. But the output is not nice enough.
+
+     Letâ€™
+
+I ended up printing stuff with gedit, the font is small and nice, save
+me lots of paper, but problem is all pics are lost.
+
+Markdown merits:
+
+1.	 easier to write than muse
+
+but I do not think I will switch to it now, muse is fine.
