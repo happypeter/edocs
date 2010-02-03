@@ -5,12 +5,145 @@
 # Support for several database platforms is provided, including MySQL (through our Project Database service), DBM, and SQLite. 
 </example>
 
-** d
-if you login this way
+** 
+ssh to sf server, try 
 <example>
-[root@localhost ~]# sftp happypeter,tinylion@web.sourceforge.net
+[happypeter@shell-22008 htdocs]$ php
+php         php-cgi     php-config  phpize      
+[happypeter@shell-22008 htdocs]$ python
+python     python2    python2.4  
+[happypeter@shell-22008 htdocs]$ python
 </example>
-you will find a =cgi-bin/= dir
 
-** test 
-cgi-bin/ here supports python well
+then I can also do anything here.
+
+I can add a blog, I can use muse as a wiki...anything...
+
+as long as my script has the write poermision to all the html files.
+
+
+
+** run cgi to write to htdocs/
+<example>
+Search:: ss
+the usr of the cgi is :apache
+
+basic_issue
+
+css 
+</example>
+
+
+<example>
+[happypeter@shell-22008 userweb]$ cd htdocs/
+[happypeter@shell-22008 htdocs]$ chown apache\: index.html 
+chown: changing ownership of `index.html': Operation not permitted
+[happypeter@shell-22008 htdocs]$ chown apache index.html 
+chown: changing ownership of `index.html': Operation not permitted
+[happypeter@shell-22008 htdocs]$ chgrp apache index.html 
+chgrp: changing group of `index.html': Permission denied
+</example>
+
+
+on SF server I have:
+<example>
+[happypeter@shell-23010 htdocs]$ ls -l index.html 
+-rwxrwxrwx 1 happypeter users 1779 Jan 26 14:33 index.html
+</example>
+but strange thing is I can only read it as browser user **apache**, 
+<example>
+f = open("index.html","r")
+</example>
+
+if I change "r" to "w", then it will fail. Why?
+
+I test it on my machine, try to open file owned by peter but granted writed access to everybody
+
+I tried it as user **lover**, it was done.
+
+I envn try to run the same cgi through my brower (the user is on my machine:www-data)
+then I can write to index.html.
+
+why the SF:apache can not modify a file with mode 777?
+
+A: there are people saying if you do open(filename,"w") to a file,
+that means you want to has the rights to change the file name as well
+so you need to have the write access to the dir to open
+successfully. this is nonsense, since I check on my own machine:
+<example>
+peter@cow:/var$ ls -ld www
+drwxr-xr-x 4 peter peter 12288 2010-01-26 23:11 www
+peter@cow:/var$ 
+</example>
+**other user** and not write the dir. but *index.html* is changed.
+
+But finally this is what I believe:
+<example>
+here's a couple reasons this could fail. Based on the information
+around, it isn't a problem with file permissions. The first, and
+possibly most likely, is that your web server is running in a
+configuration that it has read-only access to the entire
+filesystem. This could be because NFS is mounted read-only, or because
+PHP or the server is configured in such a way as to prevent writing. 
+</example>
+
+even though I can still change index.html, when I am log in through
+ssh, I tend to believe SF just forbid the wrrite access through the
+browser in some way.
+
+** ssh
+<example>
+peter@cow:~$ sf_gitbro_rsync -c
+happypeter,gitbro@shell.sourceforge.net's password: 
+
+You already have a shell created.
+
+This is an interactive shell created for user happypeter,tinylion.
+Use the "timeleft" command to see how much time remains before shutdown.
+Use the "shutdown" command to destroy the shell before the time limit.
+For path information and login help, type "sf-help".
+
+[happypeter@shell-23010 ~]$ cd /home/groups/t/ti/tinylion/
+[happypeter@shell-23010 tinylion]$ ls
+ls: .: Permission denied
+[happypeter@shell-23010 tinylion]$ whoami
+happypeter
+[happypeter@shell-23010 tinylion]$ 
+[happypeter@shell-23010 tinylion]$ cd /home/groups/g/gi/gitbro/
+cgi-bin/    htdocs/     persistent/ 
+[happypeter@shell-23010 tinylion]$ cd /home/groups/g/gi/gitbro/
+[happypeter@shell-23010 gitbro]$ ls
+cgi-bin  htdocs  persistent
+[happypeter@shell-23010 gitbro]$ cd cgi-bin/
+[happypeter@shell-23010 cgi-bin]$ ls
+[happypeter@shell-23010 cgi-bin]$ 
+</example>
+
+<example>
+[happypeter@shell-23010 cgi-bin]$ ls -l
+total 8
+-rwxr-xr-x 1 happypeter gitbro 731 Jan 27 03:58 search.py
+[happypeter@shell-23010 cgi-bin]$ 
+</example>
+search.py won't work for gitbro web
+
+** Billie cgi
+<example>
+peter@cow:~$ mv search.py xx
+peter@cow:~$ rsync -r  xx/ billie66@frs.sourceforge.net:/home/users/b/bi/billie66/userweb/cgi-bin/
+billie66@frs.sourceforge.net's password: 
+</example>
+
+so finally we have:
+<example>
+[billie66@shell-22009 cgi-bin]$ pwd
+/home/users/b/bi/billie66/userweb/cgi-bin
+[billie66@shell-22009 cgi-bin]$ ls -l
+total 8
+-rw-r--r-- 1 billie66 users 1149 Jan 28 11:21 search.py
+[billie66@shell-22009 cgi-bin]$ 
+</example>
+
+the user and group is just the same as the cgi file in happypeter home page
+
+but strange thing is happypeter cgi runs well, but billie's does not!

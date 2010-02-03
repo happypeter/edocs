@@ -1,9 +1,44 @@
 <contents>
+** enter passwd in a script --failed
+<example>
+sleep 10
+read dd
+#exec < $1 
+echo $dd
+
+
+peter@cow:~$ echo "dd"|sh read.sh
+dd
+
+
+echo "111111"|sf_rsync
+
+it failed, since
+
+rsync -r --delete /var/www/  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
+
+does not accept any input actully.
+
+so what I really should to is to
+ - wait for 20 seconds, for sf responds
+ - sent 111111 to stdin
+
+peter@cow:~$ cat /bin/read.sh
+echo "i ma read.sh"
+read dd
+echo $dd
+
+peter@cow:~$
+
+</example>
+
+
 ** get input
 <example>
 echo "you like it [y] or [n]?"
 read rpm
  if [ "$rpm" = "y" ]; then
+#Beaware of the spaces above
 echo "ok you like it"
 else
 echo "you do not like it"

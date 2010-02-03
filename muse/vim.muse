@@ -1,6 +1,8 @@
-son of FrontPage
+** viki
+http://www.vim.org/scripts/script.php?script_id=861
 
 [[vim_command]]
+
 ** gvimtutor 
 run this in ubuntu
 

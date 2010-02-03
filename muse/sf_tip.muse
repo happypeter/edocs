@@ -1,6 +1,11 @@
+** member ship
+I reported one bug and want to find a asignee,  
+ - but when I click **admin** there is only me, on the list.
+ - So I need to *project admin--memeber ship* then add *billie66*(the name must be a SF user accounty) 
+ - then when I go back I find *billie* on the asignee candidate list
 ** release
 
-https://sourceforge.net/apps/trac/sourceforge/wiki/Release files for download
+https://sourceforge.net/apps/trac/sourceforge/wiki/ReleaseSPACEfilesSPACEforSPACEdownload
 
 <example>
 ssh -t happypeter,tinylion@shell.sourceforge.net create
@@ -14,13 +19,13 @@ so I go to the frs place
 README_peter  tinylion.tar.gz
 [happypeter@shell-23010 tinylion]$
 </example>
-but I can not find anything here
+
+ten mins later =tinylion.tar.gz= shows up, here:
+
 https://sourceforge.net/projects/tinylion/files/
-ten mins later =tinylion.tar.gz= shows up
 
-this means user can download a realatively stable version named a =release=
 
-here
+Also available here
 <example>
 
 Links You May Need
@@ -48,63 +53,17 @@ but where can I run
 
 ** ssh 
 
-https://sourceforge.net/apps/trac/sourceforge/wiki/Shell service
+https://sourceforge.net/apps/trac/sourceforge/wiki/ShellSPACEservice
 
-all I need to do is
- <example>
-ssh -t USER,PROJECT@shell.sourceforge.net create
-</example>
 DO:
 <example>
  ssh -t happypeter,gitbro@shell.sourceforge.net create
 </example>
 You need to above first before you want to use [[sf_rsync]] or ssh
 
-** scp
-rsync is available, I do not see any point to use scp 
-<example>
-scp -r *  happypeter@frs.sourceforge.net:/home/userweb/h/ha/happypeter/htdocs
-</example>
-
 ** sftp 
 <example>
 [root@localhost web]# sftp happypeter@frs.sourceforge.net
-Connecting to frs.sourceforge.net...
-happypeter@frs.sourceforge.net's password:
-sftp> ls
-diary-dump.xml  uploads         userweb
-sftp> cd userweb
-</example>
- 
-*** Project web access 
-<example>
-[root@localhost ~]# sftp happypeter,tinylion@web.sourceforge.net
-</example>
-
-
-*** Sftp  tips 
-<example>
-[root@localhost html]# sftp happypeter@frs.sourceforge.net
-Connecting to frs.sourceforge.net...
-happypeter@frs.sourceforge.net's password:
-sftp> ls
-diary-dump.xml  uploads         userweb
-sftp> cd userweb/htdocs
-sftp> ls
-baronchon_giant_panda_1.png      chinesefly.jpg                   default.css
-html                             index.html                       life.html
-repo                             story.html                       tech.html
-sftp> rm chinesefly.jpg
-Removing /home/userweb/h/ha/happypeter/htdocs/chinesefly.jpg
-sftp> put story.html
-Uploading story.html to /home/userweb/h/ha/happypeter/htdocs/story.html
-story.html                                                       100% 1928     1.9KB/s   00:01
-sftp> put life.html
-Uploading life.html to /home/userweb/h/ha/happypeter/htdocs/life.html
-life.html                                                        100% 2071     2.0KB/s   00:00
-sftp> put tech.html
-Uploading tech.html to /home/userweb/h/ha/happypeter/htdocs/tech.html
-tech.html 
 </example>
 
 ** mailing list
@@ -123,3 +82,11 @@ https://lists.sourceforge.net/lists/admin/tinylion-develop/members/add
 
 use =Memebership Management->Mass Subscription=
 and they will be added at once, no further action(like comfirm 23242323...) required
+
+Q: how to reply to the list rather than the poster?
+
+A: go to mailling list admin, change the reply-to: setting.
+
+It is actually done by changing the **reply-to:** filied in email header, see wikipedia e-mail for derail.
+
+see *the great reply-to debate* [Producing Open Source Software, Karl Fogel]

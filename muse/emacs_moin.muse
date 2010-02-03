@@ -1,5 +1,3 @@
-FrontPage
-
 ** 1. try to use moin mode 
 http://moinmo.in/EmacsForMoinMoin
 

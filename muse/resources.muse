@@ -8,3 +8,19 @@ this is really ispiring http://coffeesnobs.com.au/YaBB.pl?num=1263085051
 [[video_download]]
 
 http://www.gnu.org/prep/maintain/maintain.html
+
+
+** xmind
+http://www.xmind.net   
+
+I knid of want it since it can generate nice and sophisticated presentation
+
+it is really sth cool, and you can also get the metadata in xml format, and 
+do future editing if you want.
+
+I installed it successful on ubuntu9.04
+ - download the deb form official web
+ - requires some java deps
+ - use install -f to install the deps
+ - the dkkg -i the deb
+ - done, the the bin file is not in PATH, rather in /usr/local/xmind

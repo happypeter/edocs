@@ -1,3 +1,4 @@
+NOTE: twilight cause serious problems working with terminal. so I do not think I will use it in the future.
 
 *** install twilight 
 http://github.com/crafterm/twilight-emacs
@@ -20,6 +21,22 @@ have =.emacs= like this
 (color-theme-twilight)
  </example>
 
+** other color theme
+one emacs-goodies installed, then you can require color-theme in your .emacs
 
+now you can change the color theme freely by:
+<example>
+M-x color-theme-
+</example>
 
+Now I think I know color-theme does not change your font or size
+if I want to change them I need to change face
 
+so I 
+<example>
+M-x modify-face
+Modify face: default
+Height in 1/10 pt for face `default' (default 193): 145
+</example>
+since I think the font is too wide, so I choose **width** as **condencsed**
+anyway it works.

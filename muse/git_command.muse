@@ -1,3 +1,4 @@
+** TAG
 <example>
 
 git tag v0.1
@@ -21,31 +22,13 @@ what is in master is the last commit number
 
   master
 
-* test2
+** test2
 <example>
 [root@dhcp03 libs]# git checkout master
 Switched to branch 'master'
 [root@dhcp03 libs]# git merge test2
 </example>
 
-*** add remote repo
-form [[http://www.github.com][github]]
-
-<example>
-  git config --global user.name "Your Name"
-  git config --global user.email happypeter1983@gmail.com
-Next steps:
-
-  mkdir axtu
-  cd axtu
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:happypeter/axtu.git
-  git push origin master
-
-</example>
 
 *** OK
 I am makeing a change on branch test
@@ -64,7 +47,7 @@ peter@peter-laptop:~/kdocs/linux/git$ git apply  my-patch.txt
 linux/git/my-patch.txt:10: trailing whitespace.
 </example>
 
-**  Problems
+**  sub repo 
 Git meets a probelm when I creat sub repo doc-yaxtu/yum-doc, so I remove this dir
 then I find another dir also has .git, so I delete it as well
 it seems to me that the newer version has subrepo support, but not perfect.

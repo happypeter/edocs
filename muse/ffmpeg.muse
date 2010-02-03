@@ -10,6 +10,7 @@ but I did not use all these arguments for =configure=
 
 I just run in =/ffmpeg= 
 <example>
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg
 configure
 make 
 make install
@@ -38,3 +39,22 @@ and I can also do this for [[kino]]
 <example>
 pet@cow:~/Desktop/video$ ffmpeg -i out.flv.dv out.avi
 </example>
+
+** 7-zip
+<example>
+peter@cow:~$ sudo apt-get install p7zip
+</example>
+
+** test
+<example>
+ ffmpeg -i rsync.ogg rsync.avi
+</example>
+this works, [[youku]] does not accept ogg, now I have avi, that means I can
+publish all my lectures to youku now.
+
+<example>
+ffmpeg -i twilight-1.flv twilight-1.wav
+lame twilight-1.wav twilight-1.mp3
+</example>
+
+and this means I can get nice mp3 form youku videos

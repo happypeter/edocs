@@ -1,3 +1,7 @@
+http://www.faqs.org/docs/abs/HTML/arithexp.html
+
+** IO
+http://www.faqs.org/docs/abs/HTML/io-redirection.html
 
  - [[awk]]
  - [[dir_walk]]

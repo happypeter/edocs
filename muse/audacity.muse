@@ -27,3 +27,17 @@ pet@cow:~$
 </example>
 
 the output file is small but the quanlity is just as good.
+
+
+** mix voice and music
+http://wiki.audacityteam.org/wiki/Creating_a_simple_voice_and_music_Podcast_with_Audacity
+
+
+it is easy to use *effct->fade in* to add a startup music for my speech
+
+Use Ctr+C Ctr+v and fadeout fadein cut paste, I get things mixed together nicely, and it is so easy.
+** I do not need to foolishly applify my voice everytime!!!
+
+ - find the small icon of a microphone
+ - make a volum higher
+ - that's all

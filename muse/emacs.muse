@@ -1,6 +1,4 @@
 
-
-
  - [[emacs_git]]
  - [[emacs_command]]
  - [[install_theme]]
@@ -9,8 +7,7 @@
  - [[emacs_moin]]
  - [[emacs_org]]
  - [[emacs_planer]]
- - [[emacs_flyspell]]
- - [[emacs_muse]]
+ - [[muse]]
  - [[lisp]]
 
 
@@ -21,15 +18,47 @@ http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/elisp.html#Batch-Mo
 
 
 
+** term
+there are many ways to invoke a shell in emacs, only this one brings a *perfect* shell
+<example>
+M-x  term-mode
+</example>
 
 
+** emacs23
+downloaded form  https://launchpad.net/~ubuntu-elisp/+archive/ppa/+packages
+<example>
+peter@cow:~/Desktop$ sudo dpkg -i
+emacs23_23.1+1-4ubuntu1~jaunty1~ppa2_i386.deb
+emacs23-bin-common_23.1+1-4ubuntu1~jaunty1~ppa2_i386.deb
+emacs23-common_23.1+1-4ubuntu1~jaunty1~ppa2_all.deb
+emacs23-el_23.1+1-4ubuntu1~jaunty1~ppa2_all.deb 
+</example>
 
 
+and this is really what I need:
+<example>
+-t
+--tty
+-nw
+    Create a new Emacs frame on the current text-only terminal,
+instead of using an existing Emacs frame. Emacs 23 can open a
+text-only terminal even if it was started in another text-only
+terminal, or on a graphical display. If you omit a filename argument
+while supplying this option, the new frame displays the ‘*scratch*’
+buffer. See Buffers.  
+</example>
+
+<example>
+emacs --nw
+emacsclicent -t filename
+</example>
 
 
-
-
-
-
-
-
+and we can even go without *emacsclient* this is fast enough
+<example>
+root@cow:~# cat  /bin/eee
+emacs -Q $1   -nw
+</example>
+NOTE: interesting thing here is if you =mv eee ee= then *command line completion* can not be done any more
+strange.

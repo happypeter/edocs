@@ -1,6 +1,5 @@
-son of VideoEdit
 
-Now that YouTube is blocked, I may try http://www.youku.com instead
+Now that [[youtube]] is blocked, I may try http://www.youku.com instead
 
 what I found in ubuntu is all the videos are also cached in /tmp/
 
@@ -9,7 +8,128 @@ which means I may also be able to edit it
 <example>
 $ffmpeg -i theyoukuvideo.flv myaudio.mp3
 </example>
-failed
 
 but ubuntu built-in [[rhythmbox]] player can play it directly, I can really happy with that
 since YouKu also has lots of EnglishStudy resources, I can download these videos can have a repo for them. 
+
+my new account
+<example>
+backuppeter1983@gmail.com
+backuppeter
+xxxxxx
+</example>
+
+** download 
+
+ - strat to play
+ - make it mute, then do your own stuff
+ - go back to drag the progress bar a little forward, when you have time
+ - it you do not do this, youku will own stop at the block playing
+ - and the block is maybe only ten 10mins
+ - anyway, keep it playing, do not press ||
+ - finally cp /tmp ~/Desktop/
+
+
+problem is all the blocks are given random names, so I need to rename them based on timestamp
+
+Do:
+
+<example>
+peter@cow:/tmp$ ls -l
+total 114920
+drwx------ 2 peter peter     4096 2010-01-30 08:23 emacs1000
+-rw------- 1 peter peter   594236 2010-01-30 08:19 Flash152bnu
+-rw------- 1 peter peter 13374709 2010-01-30 08:49 Flash7mZm7e
+-rw------- 1 peter peter 12535283 2010-01-30 08:24 FlashdpDUGp
+-rw------- 1 peter peter 13141459 2010-01-30 08:20 FlashfiG89X
+-rw------- 1 peter peter 13044089 2010-01-30 08:22 FlashhkLvfF
+-rw------- 1 peter peter 13244428 2010-01-30 08:33 FlashNPEs6x
+-rw------- 1 peter peter 11509813 2010-01-30 08:55 FlashNPpvn8
+-rw------- 1 peter peter 13166293 2010-01-30 09:09 Flashrsmq7M
+-rw------- 1 peter peter 13165507 2010-01-30 09:01 FlashvBrejQ
+-rw------- 1 peter peter 13661837 2010-01-30 08:26 FlashxKFxTZ
+drwx------ 2 peter peter     4096 2010-01-30 08:15 keyring-Y07dlY
+drwx------ 2 peter peter     4096 2010-01-30 09:09 orbit-peter
+drwx------ 2 peter peter     4096 2010-01-30 08:18 plugtmp
+drwx------ 2 peter peter     4096 2010-01-30 08:15 pulse-qj3Euqz7A2gO
+drwx------ 2 peter peter     4096 2010-01-30 08:15 seahorse-e9b0Cu
+drwx------ 2 peter peter     4096 2010-01-30 08:15 ssh-QTegVG2931
+drwx------ 2 peter peter     4096 2010-01-30 08:15 virtual-peter.fSNrte
+peter@cow:/tmp$ 
+</example>
+so we need to remove the junk:
+<example>
+peter@cow:/tmp$ ls -l|grep Fla|awk -F" " '{ print $7" "$8}' |sort
+08:19 Flash152bnu
+08:20 FlashfiG89X
+08:22 FlashhkLvfF
+08:24 FlashdpDUGp
+08:26 FlashxKFxTZ
+08:33 FlashNPEs6x
+08:49 Flash7mZm7e
+08:55 FlashNPpvn8
+</example>
+We want the names:
+<example>
+peter@cow:/tmp$ ls -l|grep Fla|awk -F" " '{ print $7" "$8}' |sort|awk -F" " '{ print $2}'
+Flash152bnu
+FlashfiG89X
+FlashhkLvfF
+FlashdpDUGp
+FlashxKFxTZ
+FlashNPEs6x
+Flash7mZm7e
+FlashNPpvn8
+peter@cow:/tmp$ 
+</example>
+then we need a loop to remname them in to "moviename-n.flv"
+<example>
+peter@cow:/tmp$ ls -l|grep Fla|awk -F" " '{ print $7" "$8}' |sort|awk -F" " '{ print $2}'|wc -l
+11
+peter@cow:/tmp$ 
+</example>
+
+
+<example>
+for i in $(seq 1 1 11)
+do
+   echo "Welcome $i times"
+done
+</example>
+
+<example>
+peter@cow:~/Desktop/tmp$ ls
+emacs1000    FlashJaCCA8  FlashzvbVnG     movie-17.flv  movie-8.flv
+Flash152bnu  FlashjJjhbI  keyring-Y07dlY  movie-18.flv  movie-9.flv
+Flash7B9VCs  Flashn0e6qj  movie-10.flv    movie-1.flv   orbit-peter
+Flash7mZm7e  FlashNPEs6x  movie-11.flv    movie-2.flv   peter
+FlashBP00gU  FlashNPpvn8  movie-12.flv    movie-3.flv   plugtmp
+FlashdpDUGp  Flashrsmq7M  movie-13.flv    movie-4.flv   pulse-qj3Euqz7A2gO
+FlashfiG89X  FlashvBrejQ  movie-14.flv    movie-5.flv   seahorse-e9b0Cu
+FlashHaJxdE  FlashxANn52  movie-15.flv    movie-6.flv   ssh-QTegVG2931
+FlashhkLvfF  FlashxKFxTZ  movie-16.flv    movie-7.flv   virtual-peter.fSNrte
+peter@cow:~/Desktop/tmp$ ls -l|grep Fla|awk -F" " '{ print $7" "$8}' |sort|awk -F" " '{ print  $2 }'|./peter
+</example>
+
+*peter* is:
+<example>
+peter@cow:~/Desktop/tmp$ cat peter
+#!/bin/bash
+for n in $(seq 1 1 100)
+do
+read file
+    if [ -z $file ]
+    then
+        echo "OK, no file now"
+        break
+    fi
+echo $n
+echo $file
+cp $file "movie-"$n".flv"
+done
+peter@cow:~/Desktop/tmp$ 
+</example>
+NOTE: you can not =cp /tmp  Desktop/=, that way the timestamp all changed!
+So the job is done. Bash is powerful.
+
+I think *peter* can be simplified a little more.

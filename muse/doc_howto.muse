@@ -1,3 +1,6 @@
+** ideas
+
+ - people use a branch for the doc of a project in the same repo of the source code, I think this is nice
 
 ** rules
  - [[doc_format]]

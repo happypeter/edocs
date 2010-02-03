@@ -1,3 +1,4 @@
+[[./pics/peter.jpg]] 
 ** Personal Info
 
 **Name**: Peter Wang
@@ -6,15 +7,15 @@
 
 **Birth Date:** Jan 2nd 1983
 
-Nationality: China
+**Nationality:** China
 
-Address: Beijing, P.R.China
+**Address:** Beijing, P.R.China
 
-Mobile: (+86) 134-2608-3580
+**Mobile:** (+86) 134-2608-3580
 
-Email: happypeter1983@gmail.com
+**Email**: happypeter1983@gmail.com
 
-HomePage: http://happypeter.users.sourceforge.net/ 
+**HomePage:** http://happypeter.users.sourceforge.net/ 
 
 ** Sentence Bio
 
@@ -26,36 +27,31 @@ Peter Wang is a [[http://en.wikipedia.org/wiki/Free_and_open_source_software][FO
  - [[http://www.rpm.org/][RPM]]
  - [[DEB]]
 
-*** Programming Lanages
+*** Programming Languages
 
  - C
  - C++
  - Python
  - PHP
  - Perl
+ - elisp
+ - bash
 *** Toolkit
  - Qt
+    
    I am a long time Qt user, PC embedded platforms
  - Gtk
+   
    Now much
-*** Operating
- - Linux
- - BSD
- - Soloris
+*** Operating Systems
+ - ubuntu
+ - Asianux
+ - Redhat
 *** Kernel
  - driver writer
- - File system
- - Sheduler
  
-   1. Understanding of Linux kernel and embedded system design
-   2. Skilled in use of C/C++ programming languages with Qt lib
-   3. Phython programming and shell programming
-   4. Git user
-   5. Skillful Linux driver writer
-   6. Skilled in use of PCB design tool Protel
 
-
-Education
+** Education
 
 2006.9~2009.3: North China Electric Power University
 
@@ -67,28 +63,32 @@ embedded Linux development for ARM(s3c24x0) chips.
 During my under graduate study, my major was Electrical Engineering.
 Internship and Activities
 
-2009.3~present: Work for Asianux Ltd.
+** Work experience
 
-System Updaters Based on rpm, (AXTU and YUM)
+2009.3~2009.12: Asianux Ltd.
+
+System Updaters Based on rpm, (AXTU and YUM), chief maintainer of AXTU
+and was responsible for writing a authentication plugin for YUM, in
+order to implement it in Asianux4.0.
 
 2008.7 ~ present: Member of Beijing Linux User Group
 
 I am the manager of the Interest Group named Embedded Linux and
-memeber of Group Quadcopter,but not so quaiified yet. No enough
+member of Group Quadcopter. No enough
 contribution. 
 
-2008.8 ~ 2008.9: worked for Lenovo Co.Ltd
+2008.8 ~ 2008.9: Lenovo Co.Ltd
 
-I participated in the smartphone project Cixtone mainly worked on the
-Officeviewer part developed with Qt 
+I participated in the smart phone project Cixtone mainly worked on the
+Officeviewer part developed with Qt, as a tester. 
 
 2002.10 ~ 2002.12: lecturer of Daishi English training school
 
-My part-time job, the responsibility was giving lectuers to high
+My part-time job, the responsibility was giving lectures to high
 school students, I wish one day I can give lectures on Linux. I really
-love lecturing. 
+love public talking. 
 
-Project Summary
+** Project Summary
 
 2006.12~present: Tinylion
 
@@ -98,7 +98,7 @@ contains driver and user_app.
  
 2008.8 ~ 2008.12: Linux Device Driver (tinylion)
 The driver is designed to control Sensor->ADC->SPI It is finally
-compiled into a kernel module spi.ko, and loaded dynamiclly. 
+compiled into a kernel module spi.ko, and loaded dynamically. 
 
 2008.8 ~ 2008.9: Hardware Design and Implementation (tinylion)
 The hardware platform is based on S3C2410 ARM chip. I bought a 6 layer
@@ -117,9 +117,9 @@ countries.
 
 2008.8 ~ 2008.9: Nokia N810
 
-As a student reseacher in Lenovo, I am urged to estimate the Nokia
+As a student researcher in Lenovo, I  estimated the Nokia
 N810 development platform to figure out whether it is suitable for
-Lenovo's next generation smartphone development. Thus I installed
+Lenovo's next generation smart phone development. Thus I installed
 maemo on my own machine, and tried to run some Helloworld examples. 
 
 2008.12 ~ 2009.1: Porting Qt4.4.3 to S3C2410 Platform

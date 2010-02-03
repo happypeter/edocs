@@ -14,3 +14,12 @@ index page.
 This is a big boon when knowledge changes all the time or when it is
 highly interconnected.
 
+** WikiWikiWeb
+I created apage on http://c2.com/cgi/wiki?PeterWang
+
+and made a little contribution here, I created page named [[http://c2.com/cgi/wiki?EmacsMuse][EmacsMuse]]
+
+** EmacsWiki
+EmacsWiki is automatically linked, nice.
+
+http://www.emacswiki.org/emacs/PeterWang

@@ -1,3 +1,6 @@
 [[python_cgi]]
 
 [[python_gui]]
+
+** code style
+http://www.python.org/dev/peps/pep-0008/
