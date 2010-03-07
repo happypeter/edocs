@@ -17,26 +17,67 @@ Email: billie.jean.zhang@gmail.com
 Home Page: http://billie66.users.sourceforge.net/
 
 ** Sentence Bio
+
 Billie Zhang is a FOSS developer.
 
-** Skill Summary 
 
-   1. Understanding of Linux kernel and embedded system design
-   2. Skilled in use of C programming language
-   3. Qt lover
-   4. Familiar with shell programming(bash user)
-   5. Git user
-   6. Familiar with set of Apache+PHP+MySQL
-   7. Good communicator in both Chinese and English languages
-   8. Python, Perl, Ruby, PHP, xml-- basic reading skill. 
+** SCM (Sourcecode Control Management)
+
+ - Git
+
+   I love git because it is fast and flexible. Being a distributed
+   system makes it easier for me to collaborate with programmers form
+   many places. 
+
+   I am a contributor of a project named **Gitbro**(http://www.gitbro.sf.net), which is a git
+   font-end program.
+
+** Programming Languages
+
+ - C++ & C are my favorite
+ - I also write Bash and Python script 
+ - Emacs Lisp
+ - Html, Css, -- some people won't call them programming languages
+ - Basic reading skills for Perl, PHP, and Ruby. 
+
+** Toolkit
+
+ - Qt
+   I spent most of my time doing Qt programming. 
+   Related Project: **Tata** (http://tinylion.sourceforge.net/)
+
+** Editor
+ - Emacs
+
+   I use it as a IDE to do development, I use Muse mode for
+   documentation.
+
+ - Vim
+
+   Vim is nice when I just try to do some small modification, or when
+   I ssh to other machines where Emacs are not available
+
+** OS
+ - I use ubuntu for my day-to-day work
+
+** Other Tools
+
+ - Familiar with set of Apache+PHP+MySQL
+ - ssh, rsync, vnc, virtualbox 
+
+** Language
+ - Good communicator in both Chinese and English language
 
 ** Education
 
 2007.9 ~ present: North China Electric Power University
+
 Until now, I have more than two years R&D experience in Laboratory of 
-Power Plant Equipment Condition Monitoring and Control
+Power Plant Equipment Condition Monitoring and Control, mainly working
+on Linux+Qt programming for embedded platform.
 
 2002.9 ~ 2006.7: Hebei University of Science & Technology
+
 During my undergraduate study, my major was Mechanical Engineering. I
 was the Scholarship winner for all my four years study there. 
 
@@ -51,26 +92,5 @@ NO.2 Qt Programming
  - Qt3 is used when I first learned GUI programming, but Qt4 is now preferred 
 because all its nice new feathers and the easier port to embedded platforms. 
 
-NO.3 System Administration
 
- - I love Ubuntu and use it as my day-to-day desktop
-Synaptic+APT+dpkg works well for me to keep my OS sound.
-When I do development, I use Redhat series including Fedora and
-Packagekit+YUM+RPM is the set of tools used to keep my software well organized.
-
-
-** Books I love:
-
-   1. Linux Device Driver 3
-   2. Linux Tutorial
-   3. C++ GUI Programming with Qt4,Second Edition
-   4. C++ Primer,Fourth Edition
-   5. C Programming language by K&R
-   6. How to Think like a Computer Scientist, python Edition
-   7. How to Think like a Computer Scientist, C++ Edition 
-
-** Project Summery 
-
- - Gitbro
-
->>>create and endorse free software as a contribution to the progress of humanity<<<
+*** >>>create and endorse free software as a contribution to the progress of humanity<<<
