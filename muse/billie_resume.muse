@@ -34,14 +34,15 @@ Billie Zhang is a FOSS developer.
 
 ** Programming Languages
 
- - C++ & C are my favorite
- - I also write Bash and Python script 
+ - C++ & C 
+ - Bash 
+ - Python 
  - Emacs Lisp
- - Html, Css, -- some people won't call them programming languages
- - Basic reading skills for Perl, PHP, and Ruby. 
+ - Html, Css
+ - Basic reading skills for Perl, PHP, and Ruby, Tcl ... 
 
 ** Toolkit
-
+ 
  - Qt
    I spent most of my time doing Qt programming. 
    Related Project: **Tata** (http://tinylion.sourceforge.net/)
@@ -55,7 +56,7 @@ Billie Zhang is a FOSS developer.
  - Vim
 
    Vim is nice when I just try to do some small modification, or when
-   I ssh to other machines where Emacs are not available
+   I ssh to other machines where Emacs is not available
 
 ** OS
  - I use ubuntu for my day-to-day work
