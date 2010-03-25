@@ -48,6 +48,7 @@ N |	Scan for next search match but opposite direction.
 
 
 *** goto
+number+Up|Down|Left|rigth
 
 gg |	jump to the top
 
