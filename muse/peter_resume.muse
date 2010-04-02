@@ -61,7 +61,6 @@ embedded Linux development for ARM(s3c24x0) chips.
 2001.9~2005.7: Hebei University of Science & Technology
 
 During my under graduate study, my major was Electrical Engineering.
-Internship and Activities
 
 ** Work experience
 
