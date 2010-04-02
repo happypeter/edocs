@@ -70,6 +70,10 @@ System Updaters Based on rpm, (AXTU and YUM), chief maintainer of AXTU
 and was responsible for writing a authentication plugin for YUM, in
 order to implement it in Asianux4.0.
 
+Check this link, some the bugs I fixed go here
+
+https://tsn.miraclelinux.com/tsn_local/index.php?m=rpm&a=changelog&cid=7&rid=18106&rnum=
+
 2008.7 ~ present: Member of Beijing Linux User Group
 
 I am the manager of the Interest Group named Embedded Linux and
