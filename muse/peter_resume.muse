@@ -39,10 +39,10 @@ Peter Wang is a [[http://en.wikipedia.org/wiki/Free_and_open_source_software][FO
 *** Toolkit
  - Qt
     
-   I am a long time Qt user, PC embedded platforms
+   I am a long time Qt user, PC and embedded platforms
  - Gtk
    
-   Now much
+   Not much
 *** Operating Systems
  - ubuntu
  - Asianux
