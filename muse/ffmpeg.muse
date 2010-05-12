@@ -58,3 +58,10 @@ lame twilight-1.wav twilight-1.mp3
 </example>
 
 and this means I can get nice mp3 form youku videos
+
+
+video to video
+http://howto-pages.org/ffmpeg/#basicvideo
+
+ffmpeg -i kitty.flv -target ntsc-dvd -aspect 4:3 kitty.mpg
+
