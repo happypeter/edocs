@@ -22,3 +22,19 @@ anyway it works on my ubuntu910+black dell
 
 but the error "Broken pipe: Overrun occurred." shows up all the time
 some times it does not matter but some times it kills my audio. what to do?
+
+it seems that if you do not type in stuff on the term tap you started recordmydesktop, the audio will be safe.
+
+this might works http://odo.lv/Recipes/RecordmydesktopFix_en
+
+but two cumbersome
+
+so I will use
+
+	billie@billie-laptop:~$ cat /bin/rrr
+	recordmydesktop 2>/dev/null &
+	billie@billie-laptop:~$ cat /bin/rrr-stop 
+	killall recordmydesktop
+	billie@billie-laptop:~$ 
+
+work!
