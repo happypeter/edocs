@@ -1,3 +1,6 @@
+# ubuntu: system->preference->sound->input
+
+amplify it a little, and you will get loud enough audio using audacity recording
  1. Effect->Amplify
  1. Effect->change speed 
  1. Fiyle->export 
