@@ -1,0 +1,11 @@
+my big headache now is that its so painful to make a screencast
+since recordmydesktop fails to record audio for me, it is seems that
+I need to config jack for it first.
+
+the alternative is that I start a audio recorder and recordmydesktop 
+syncly and merge the obtained vedio and audio tracks with ogmtools
+but audacity has no commandline interface, bad bad bad!
+
+http://ubuntustudio.org/
+
+
