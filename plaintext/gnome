@@ -1,0 +1,21 @@
+## startup
+
+	peter@cow:~$ cat /bin/ggg
+	gnome-terminal --full-screen --hide-menubar
+
+## shutcut 
+
+	Alt + F2---Displays the Run Application dialog. 
+	Alt + Print Screen----Takes a screenshot of the window that has focus. 
+
+	Alt + Tab  
+	Alt + Esc  
+	Ctrl + Alt + left arrow  
+
+## sound
+
+system->preference->sound->alert valum-->mute
+
+this seems to be only available start from 9.10
+
+
