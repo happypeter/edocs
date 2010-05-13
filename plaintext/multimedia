@@ -8,4 +8,14 @@ but audacity has no commandline interface, bad bad bad!
 
 http://ubuntustudio.org/
 
+## recordmydesktop
 
+the sound works after I do:
+
+	sudo apt-get install ardour
+
+it make sense, since I see jack shows up several times during the installation
+anyway it works on my ubuntu910+black dell	
+
+but the error "Broken pipe: Overrun occurred." shows up all the time
+some times it does not matter but some times it kills my audio. what to do?
