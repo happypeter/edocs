@@ -1,0 +1,4 @@
+## startup
+
+	peter@cow:~$ cat /bin/ggg
+	gnome-terminal --full-screen --hide-menubar
