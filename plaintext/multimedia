@@ -9,6 +9,9 @@ but audacity has no commandline interface, bad bad bad!
 http://ubuntustudio.org/
 
 ## recordmydesktop
+useful command
+
+	$ recordmydesktop --no-sound -width 720 -height 576
 
 the sound works after I do:
 
