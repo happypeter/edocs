@@ -41,3 +41,18 @@ work!
 
 now on ubuntu10.04, recordmydesktop works only after *ardour* is installed.
 but much slower than on 9.10
+
+but in 9.04, all you need to do is to install recordmydesktop
+and ardour, things are done neatly, you do not need to config jackd yourself.
+
+I can use
+
+	totem out.ogv 
+
+to open the video
+
+and I can config s gnome shortcut to run the command 
+
+	killall recordmydesktop 
+
+to stop and save.
