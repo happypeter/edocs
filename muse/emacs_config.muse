@@ -58,3 +58,43 @@ Add =(find-file "~/edocs/sed.muse" t)= into *.emacs*
 
 ** for good ideas
 http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html#Emacs-Initialization
+
+;; for flyspell helo
+;; key bindings
+(global-set-key (kbd "<f7>") 'ispell-word);; this line works
+(global-set-key (kbd "<S-f7>") 'my-change-dictionary)
+(global-set-key (kbd "<f5>") 'flyspell-mode)
+;; on-the-fly spelling checking
+(autoload 'flyspell-mode "flyspell" "On-the-fly spelling checking" t)
+;; don't consider that a word repeated twice is an error
+(setq flyspell-mark-duplications-flag nil)
+
+;;for auto-fill
+(setq-default auto-fill-function 'do-auto-fill)
+
+
+;; disable toolbar
+(tool-bar-mode -1)
+
+;; disable scrollbar
+(toggle-scroll-bar -1)
+
+;; disable splash screen
+(custom-set-variables '(inhibit-startup-screen t))
+
+;; current buffer name in title bar
+(setq frame-title-format "%b")
+
+;;(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+;;'(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 79 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+
+;;to set background color to black
+(set-background-color "black")
+
+;;to set foreground color to white
+(set-foreground-color "white")
+
