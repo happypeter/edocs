@@ -1,15 +1,9 @@
-  507  sudo apt-get install markdown
-  508  dpkg -L markdown 
-  509  markdown 
-  510  ls
-  511  man markdown 
-  512  cd Desktop/en/
-  513  ls
-  514  cd 03-git-branching/
-  515  LS
-  516  ls
-  517  markdown 01-chapter3.markdown 
-  518  markdown 01-chapter3.markdown >ch3.html
+## 
+http://blogs.msdn.com/noahric/archive/2009/11/12/markdown.aspx
+the author says
+**github** 
+support markdown syntax by default, so this is a test
+
 
 I did above for the sake of convert git://github.com/progit/progit.git
 into html, so that I can print it. But the output is not nice enough.
