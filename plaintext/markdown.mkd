@@ -4,6 +4,8 @@ the author says
 **github** 
 support markdown syntax by default, so this is a test
 
+now it works, so a file extention *.mkd* is a MUST
+
 
 I did above for the sake of convert git://github.com/progit/progit.git
 into html, so that I can print it. But the output is not nice enough.
