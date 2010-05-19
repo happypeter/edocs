@@ -36,3 +36,7 @@ cat $1".1" |sed 's/^\*\* /## /' > $1".2"
 # since links are so easily broken under current doc method
 # so It is not so wise to use links
 ##############################################################################
+
+######### " - stuff"->" * stuff" ##########
+cat $1".2" |sed 's/ \- / \* /' > $1".3"
+###########################################
