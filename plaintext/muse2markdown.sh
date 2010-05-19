@@ -10,4 +10,21 @@
 #######################################
 
 ## <example> to a newline and indent lines go between
+################
+#cat new |sed 's/^<example>/\n/g'|sed 's/^<\/example>/\n/g'
+#
+#the above substitude <example> and </example> with 2 newlines
+################
+but how to indent lines go between?
+
+
+peter@bull:~$ cat inputfile 
+night
+<example>
+ok
+zz
+gg
+</example>
+kk
+peter@bull:~$ cat inputfile|sed '/<example>/,/<\/example>/  s/^/    / '|sed 's/<example>/\n/g'|sed 's/<\/example>/\n/g' >output.mkd
 
