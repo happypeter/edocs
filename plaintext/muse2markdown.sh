@@ -20,7 +20,7 @@ cat $1 |sed '/<example>/,/<\/example>/  s/^/    / '|sed 's/<example>/\n/g'|sed '
 ## so the above handle the <example> block well now
 ###########################################################################
 
-
+#reference:   http://www.grymoire.com/Unix/Sed.html#uh-0
 
 ############################################################################
 # "** header" -> "## header"
@@ -28,3 +28,11 @@ cat $1 |sed '/<example>/,/<\/example>/  s/^/    / '|sed 's/<example>/\n/g'|sed '
 cat $1".1" |sed 's/^\*\* /## /' > $1".2"
 
 # "^\*\*" means "**" leading a line
+#############################################################################
+
+
+#############################################################################
+# handle links
+# since links are so easily broken under current doc method
+# so It is not so wise to use links
+##############################################################################
