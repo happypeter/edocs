@@ -1,4 +1,4 @@
-** Note:
+** Note
 this page is moved to http://gitbro.sourceforge.net/
 
 So there won't be any update here
