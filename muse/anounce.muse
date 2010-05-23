@@ -1,8 +1,8 @@
-** POBLEM:
+** PROBLEM:
 The biggest reality is I write a lot of docs everyday, but when I go back to check them someday, they are ugly and confusing.
 
 ** SOLUTION:
-I wrote a python program that day named html-creator, which can do nothing but creat a simple index.html with links to all pages, this is far form satisfiying.
+I wrote a python program that day named html-creator, which can do nothing but creat a simple index.html with links to all pages, this is far from satisfiying.
 
 ** PROBLEM:
 SO I think maybe I need to process each page as well, so that all pages will be nice-looking and clear, this in turn requires to keep a format when I am writing the docs. In fact I do, but the format I use is lack of constence.
@@ -20,8 +20,8 @@ while other times I use two blank lines around the stuff I refer to.
 ** SOLUTION:
 so I use html tags for axtu doc, but it is simply too complicated thus time-comsuing with the unsatisfying output. I write docbook xml for tinylion, it is really what I need, but it is even eating more of my time.
 I know it long time ago, that wiki is designed for this to be sth really simple.
-I ignore it, because most people do not have wiki engine installed, so it is not good for sharing. And I do not want to install wiki on mysysterm either.
+I ignore it, because most people do not have wiki engine installed, so it is not good for sharing. And I do not want to install wiki on my systerm either.
 
 ** ALL IN ALL:
 
-I need the final format to be docbook, and the initial format to be something eith most simplity. When I was in WC just now, I decide it has to be wiki. Then I go back to start my coding with python, but suddenly found out that fedora has aproject named MoinMoin
+I need the final format to be docbook, and the initial format to be something with most simplity. When I was in WC just now, I decide it has to be wiki. Then I go back to start my coding with python, but suddenly found out that fedora use MoinMoin
