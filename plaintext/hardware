@@ -1,0 +1,7 @@
+cat /proc/meminfo
+
+cat /proc/cpuinfo
+
+## check all
+
+sudo lshw -html >hw.html
