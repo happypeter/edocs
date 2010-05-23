@@ -1,50 +1,12 @@
 ** current solution
 I am currently using a clean yet not so powerful approach for code:
  - save the source code in =edocs/code/handle_private/=
- - then put the dir path into a muse file
- - then I can get these files easily in firefox
- - if I want the detailed history of =handle_private/=, I can use github interface
- - anyway the history of the small projects is safe
+only edocs related code shall be here, edocs is mainly for misc docs. *hen/* is the place for small projects
 
-** Gist 
- - if I use gist, only one file is shown, that is not what I want
- - I want to show a whole project, though it might be very smally
- - having deps is always bad, lots of addtional works are required.
+if I originally has a piece of shell script for git manipulation, and later it gets more and more sophysticated
+and thus I set up a project named *gitbro* for it, then all the git related docs in edocs, and the code in hen/
+shall be ported to gitbro.
 
 there are always some small piece of code that do not belong to any big project, yet I do not want to lose
-
-so now I fancy if I can have a code/ dir inside my edoc/, so that I can have link to them in these .muse file
-
-and of course I want them look pretty, so if I click these link, and the code is popup in a, for example, gvim window
-
-then I have higlighting, I can edit it easliy, so maybe i can have this
-
-<example>
-ls -a  code/html-maker/
-
-.git html-maker.py
-
-</example>
-
-one thing for this is I can only have one file here
-
-and when I do some modification can close the popup window, git commit is down automatically.
-
-what a nice dream !
-
-** problem
-
-so I need to do it with cgi, and then the server and client are two differnt machine, I can not guarentee the client machine
-has the specified editor installed, so maybe in the cgi, I need to do  a switch
-
-<example>
-if editot_is_available
-    call it
-else
-    open the code in a html popup
-</example>
-
-
-** d
-and it will be nice if my html pages can be like moin pages, I mean I can edit it in a wyiwyg way. maybe I can write myown wiki engine for muse format, and I want to see what  [[emacs_httpd]] can do about this.
+so I should put them into *hen/*
 
