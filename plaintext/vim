@@ -1,0 +1,66 @@
+## I still
+
+have the strong idea that, my gitbro/wiki pages, like "vim" or "lynx" shall be moved to 
+edocs, since it is not part of the project.
+
+if, for instance, some vim tips are  related to the project, like (Qt-doc), we shall keep it here.
+#till
+`dtA` delete till the next `A` 
+
+## http://github.com/c9s/hypergit.vim
+
+##vi Complete Key Binding List
+
+http://hea-www.harvard.edu/~fine/Tech/vi.html
+
+## indent
+
+`set autoindent` is nice, and I added it to my .vimrc
+`set noautoindent` is needed, when paste stuff
+
+## function folding
+
+1.	use `z+f+%` to fold all the functions in a big file
+2.	then `z+x` only eXtract the one you want to view, others will be folded again
+3.	it is nice.
+4.	use `zj` or `zk` to move among folds, and then `zx` to view, quit good.
+
+## move a text block to another file
+
+1.	move cursor to the beginning of this block and press `v`
+2.	`j` to move upwards, or `k` the other way
+// can also use `yn` or `yG`, `y$`... much faster
+3.	`d` to kill the selected block(or `y` to copy)
+4.	`vnew filename` to open a new window
+5.	`^Wv` to do the same but no filename for the new buffer
+6.	 I can `ma` to set mark and `d'a` to kill
+## buffer
+
+1.	`:ls` to list out all bufffers
+2.	`:buffer 1` to go to buffer NO.1
+
+## find usage
+move cursor to the word, do `[I`
+## compile-run-debug
+use `:make` not `:!make`
+## tag 
+http://www.moolenaar.net/habits.html
+
+	creating a tags file is the first thing I do when browsing a program.
+##incsearch
+
+	peter@cow:~$ cat .vimrc 
+	set incsearch
+
+## more form http://www.moolenaar.net/habits.html
+
+1.	`gd`---- find declaration of a virable, works for QT variable as well
+2.	`%`---- find curly braces pair 
+3.	`* + cw + n + .`---- powerful substitution command //# is the reverse of *
+4.	`qa + ... + q + @a`---- recording
+5.	`C+n` ---- auto-complete a complex word that has prototype in file or `#include`s
+
+## on ubuntu, vi == vim
+
+## for Markdown
+`3>>` to indent the following 3 lines

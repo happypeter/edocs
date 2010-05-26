@@ -1,0 +1,18 @@
+
+`g` to open url
+
+## change style
+
+  503  dpkg -L lynx
+  504  man dpkg
+  505  dpkg --get-selections |grep lynx
+  506  dpkg -L lynx-cur
+  507  vim /etc/lynx-cur/lynx.cfg
+  508  vim /etc/lynx-cur/lynx.lss
+  509  sudo vim /etc/lynx-cur/lynx.lss
+  510  lynx www.google.com
+  511  history 
+  512  dpkg -L lynx
+  513  dpkg -L lynx-cur
+  514  vim /etc/lynx-cur/lynx.lss
+

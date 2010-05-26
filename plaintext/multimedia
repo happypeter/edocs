@@ -64,4 +64,4 @@ I tried http://manpages.ubuntu.com/manpages/intrepid/man1/recordmydesktop.1.html
 
 	peter@bull:~$ recordmydesktop  -freq 4 -fps 1 -o sim.ogv
 
-but didnot make it much smaller.
+but did not make it much smaller.

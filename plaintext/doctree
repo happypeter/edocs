@@ -1,0 +1,16 @@
+I think my day-to-day doc can grow this way:
+
+1.	first we have one file named wiki
+2.	when we have too many topics in wiki, we make it a dir
+3.	and divide some big topics in to echo own file
+4.	when the same happens to one of these files, we make it a dir as well
+5.	just keep going this way, my doc actually grow like a tree.
+
+so we can 
+
+1.	use markdown format, because muse is too complex, and we must have a format
+2.	so we have folders and subfolders, we will generate them into index pages
+3.	anyway just let things grow organically.
+4.	so we can covert all the markdown files into htmls, though they are not interconnected, but things are clear in a TREE way
+
+wow, this is really cool, as natural as nature.

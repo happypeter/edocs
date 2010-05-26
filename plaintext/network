@@ -6,7 +6,7 @@ then my laptop shows me the connection is active, but this only means it connect
 
 
 ## yantai
-in ubuntu 10.04:
+in ubuntu 10.04 and 9.10 :
 
 basiclly all I did was to follow the instruction of the `pppoeconf` command
 
