@@ -1,0 +1,31 @@
+I am trying to use my black dell camera, I see on a video that people is using
+
+peter@bull:~$ sudo apt-get install camorama
+
+to record her own image
+
+but when I start my own camorama, the error is :
+
+	could not connect to video device (/dev/video0)
+
+## check info
+
+	2010  sudo apt-get install v4l-conf
+	v4l-info
+
+and I see all seems alright, like
+
+	name                    : "Integrated_Webcam_2M"
+
+besides, people say if the /dev/video0 is there, that means the device is plugged in.
+and I believe the driver must be installed already.
+
+## solution
+
+https://bugs.launchpad.net/ubuntu/+source/camorama/+bug/81838
+
+the link told me now I need to use *cheese*, camorama is deprecated.
+
+and cheese just works, no futher configration is required.
+
+sound recored too.
