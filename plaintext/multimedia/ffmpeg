@@ -1,5 +1,6 @@
 
-## NOTE
+## Get the software
+
 the ffmpeg in ubuntu 9.04 is crap, due to legal reason, it basically support no format
 
 so I need to compile it and install it myself
@@ -12,6 +13,7 @@ I just run in =/ffmpeg=
     
 
     svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg
+    # or  git clone git://git.ffmpeg.org/ffmpeg/
     configure
     make 
     make install
@@ -80,4 +82,7 @@ video to video
 http://howto-pages.org/ffmpeg/#basicvideo
 
 ffmpeg -i kitty.flv -target ntsc-dvd -aspect 4:3 kitty.mpg
+ 2004  ffmpeg -i out.ogv out.avi
+ 2007  ffmpeg -i out.ogv out.flv
+
 
