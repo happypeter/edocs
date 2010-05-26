@@ -8,3 +8,8 @@ every time. so I need to change grub.
 +++timeout         1
 5. mv the AX3 entry to the beginning
 7. done
+
+## note:
+
+in ubuntu 9.10, there is no /boot/grub/menu.lst
+try /boot/grub/grub.cfg
