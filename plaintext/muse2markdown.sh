@@ -42,4 +42,6 @@ cat $1".2" |sed 's/ \- / \* /' > $1".3"
 ###########################################
 
 ## remove temp files
-rm *.[123]
+rm *.[12]
+
+echo the *.3 file is the final output, plz rename it
