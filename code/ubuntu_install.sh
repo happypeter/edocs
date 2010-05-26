@@ -1,40 +1,31 @@
-echo "you are running on UBUNTU: " `lsb_release  -c -r`
+## you need to know what version of ubuntu you are in
+## since some of the following operation maybe depreracated over time.
+echo 
+echo "HI, You are running on UBUNTU: " `lsb_release  -c -r`
 
+echo """
+ this script helps you install your essential softwares
 
-** Mistake 
-today I upgraded form 8.04 to 9.04, I chose
-<example>
-use entire disk
-</example>
-all my data gone, haha
+ Do you want to continue [Y|n]?
+"""
 
-** Simon Suggestion
+#peter@cow:~$ sudo apt-get install emacs
 
- - have seperate partitions for /var and /home
- - use ext4, cause it is really faster
-
-** from ubuntu.com
- - Update manager has a option to upgrade to higher version of the os, here is 8.10->9.04
- - ubuntu only support update form one version to its next one, no skip is allowed for security
- - I did a 9.04->9.10, and the sys became buggy
-
-** *reinstallation.sh*
-<example>
-peter@cow:~$ sudo apt-get install emacs
-
-peter@cow:~$ sudo apt-get install emacs-goodies-el
+#peter@cow:~$ sudo apt-get install emacs-goodies-el
 # I install goodies only for the twilight theme
 # now cp edocs/ .emacs.d/  and .emacs here to ~/
 # emacs is done, muse owrks
 
-peter@cow:~$ sudo apt-get install git
-peter@cow:~$ sudo apt-get install git-core
-peter@cow:~$ sudo apt-get install gitk
-##
+sudo apt-get install tig
+
+# "git-core" and  "git" will be installed as deps
+# I do not love gitk anymore
+# sudo apt-get install gitk
+
+# we suppose your HOME is still ok, so no need to worry about .ssh/
 #peter@cow:~$ cp /home/pet/.ssh/ .
-#then git works perfectly now
-##
-peter@cow:~$ sudo apt-get install apache2
+
+## sudo apt-get install apache2
 #we need to chown and chgrp /var/www to get the wirite access for muse
 
 #Now I try
@@ -59,4 +50,3 @@ peter@cow:~$ sudo apt-get install apache2
 # then popup shows up want me to install properatery driver
 # so I did, and reboot, printer is alive.
 
-</example>
