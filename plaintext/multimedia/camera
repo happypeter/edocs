@@ -29,3 +29,8 @@ the link told me now I need to use *cheese*, camorama is deprecated.
 and cheese just works, no futher configration is required.
 
 sound recored too.
+
+## problem
+
+when you start recording video, it is unacceptablely slow. better to start cheese and recordmydesktop together
+and use the output of recordmydesktop
