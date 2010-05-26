@@ -1,3 +1,6 @@
+echo "you are running on UBUNTU: " `lsb_release  -c -r`
+
+
 ** Mistake 
 today I upgraded form 8.04 to 9.04, I chose
 <example>
