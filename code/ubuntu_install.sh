@@ -1,4 +1,4 @@
-## you need to know what version of ubuntu you are in
+
 ## since some of the following operation maybe depreracated over time.
 echo 
 echo "HI, You are running on UBUNTU: " `lsb_release  -c -r`
@@ -47,12 +47,12 @@ echo "git config ... done!"
 
 # "git-core" and  "git" will be installed as deps
 # I do not love gitk anymore
-sudo apt-get install gitk
+# sudo apt-get install gitk
 
 # we suppose your HOME is still ok, so no need to worry about .ssh/
 #peter@cow:~$ cp /home/pet/.ssh/ .
 cd # go to $HOME
-rm -rf Music  Templates  Videos Public Document Download # rm folders I do not love
+rm -rf Music  Templates  Videos Public Pictures Documents  Downloads  examples.desktop # rm folders I do not love
 
 ## sudo apt-get install apache2
 #we need to chown and chgrp /var/www to get the wirite access for muse
