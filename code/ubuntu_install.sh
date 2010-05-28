@@ -15,15 +15,44 @@ echo """
 # I install goodies only for the twilight theme
 # now cp edocs/ .emacs.d/  and .emacs here to ~/
 # emacs is done, muse owrks
-
+sudo apt-get update # on a fresh system, this is a MUST
 sudo apt-get install tig
+
+echo "configuring git ..."
+echo """
+
+[user]
+	name = Peter Wang
+	email = happypeter1983@gmail.com
+[core]
+	editor = vim
+[alias]
+        ci = commit -a -v
+        co = checkout
+        st = status
+        br = branch
+        throw = reset --hard HEAD
+	throwh = reset --hard HEAD^
+[color]
+        ui = true
+
+[commit]
+	template = ./.commit-template
+[push]
+	default = current
+
+""" >~/.gitconfig
+
+echo "git config ... done!"
 
 # "git-core" and  "git" will be installed as deps
 # I do not love gitk anymore
-# sudo apt-get install gitk
+sudo apt-get install gitk
 
 # we suppose your HOME is still ok, so no need to worry about .ssh/
 #peter@cow:~$ cp /home/pet/.ssh/ .
+cd # go to $HOME
+rm -rf Music  Templates  Videos Public Document Download # rm folders I do not love
 
 ## sudo apt-get install apache2
 #we need to chown and chgrp /var/www to get the wirite access for muse
