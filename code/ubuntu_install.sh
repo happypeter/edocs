@@ -1,7 +1,7 @@
 
 ## since some of the following operation maybe depreracated over time.
 echo 
-echo "HI, You are running on UBUNTU: " `lsb_release  -c -r`
+echo "HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
 
 echo """
  this script helps you install your essential softwares
@@ -79,3 +79,6 @@ rm -rf Music  Templates  Videos Public Pictures Documents  Downloads  examples.d
 # then popup shows up want me to install properatery driver
 # so I did, and reboot, printer is alive.
 
+sudo echo gnome-terminal >~/ggg
+sudo mv ~/ggg /bin/
+sudo chmod +x /bin/ggg
