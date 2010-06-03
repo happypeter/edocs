@@ -18,3 +18,8 @@ but strange thing is I login to a strange kde desktop rather then the normal asi
 but anyway X is available, I can run axtu gui here
 
 when I use 250 sever machine, everything is fine                                                  
+## on ubuntu 9.10
+
+	 sudo apt-get install vncviewer
+
+and then `vncviewer xxx.xxx.xxx.xxx`, the serverside just go system->remote desktop->allow 
