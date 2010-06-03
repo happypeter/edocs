@@ -1,9 +1,3 @@
-## I still
-
-have the strong idea that, my gitbro/wiki pages, like "vim" or "lynx" shall be moved to 
-edocs, since it is not part of the project.
-
-if, for instance, some vim tips are  related to the project, like (Qt-doc), we shall keep it here.
 #till
 `dtA` delete till the next `A` 
 
@@ -16,7 +10,7 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 ## indent
 
 `set autoindent` is nice, and I added it to my .vimrc
-`set noautoindent` is needed, when paste stuff
+`set noautoindent|paste` is needed, when paste stuff
 
 ## function folding
 
@@ -47,10 +41,6 @@ use `:make` not `:!make`
 http://www.moolenaar.net/habits.html
 
 	creating a tags file is the first thing I do when browsing a program.
-##incsearch
-
-	peter@cow:~$ cat .vimrc 
-	set incsearch
 
 ## more form http://www.moolenaar.net/habits.html
 

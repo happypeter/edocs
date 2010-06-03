@@ -42,7 +42,10 @@ echo """
 	default = current
 
 """ >~/.gitconfig
+echo """
+set incsearch
 
+""">~/.vimrc
 echo "git config ... done!"
 
 # "git-core" and  "git" will be installed as deps
