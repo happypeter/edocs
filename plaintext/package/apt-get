@@ -1,0 +1,38 @@
+## download deb
+
+	sudo apt-get source network-manager --compile
+
+try to download deb with this, but failed for build dependency check. intalled `dpkg-dev`
+but not all deps are satisfied. 
+
+    
+
+    apt-get purge
+    
+    apt-get rm
+    
+    pet@cow:~$ dpkg-query -l|grep emacs
+    
+    pet@cow:~$ dpkg-query -L emacs-goodies-el|grep colo
+    /usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el
+    pet@cow:~$ 
+    
+    
+    
+
+
+see [[dpkg]]
+
+## build deb
+http://en.wikipedia.org/wiki/Debian_Package_Maker
+
+http://www.linuxfordevices.com/c/a/Linux-For-Devices-Articles/How-to-make-deb-packages/
+
+use =dpkg -b dir/= 
+
+use a *control*
+just follow the error message and everything is done. haha
+
+this is the **best doc**
+
+https://wiki.ubuntu.com/PackagingGuide/Basic?action=show&redirect=HowToBuildDebianPackagesFromScratch/

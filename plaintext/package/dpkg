@@ -1,8 +1,10 @@
-** which provides
-<example>
-pet@cow:~$ dpkg -S /bin/ls
-coreutils: /bin/ls
-</example>
+## which provides
+    
+
+    pet@cow:~$ dpkg -S /bin/ls
+    coreutils: /bin/ls
+    
+
 
   503  dpkg -L lynx
   504  man dpkg
