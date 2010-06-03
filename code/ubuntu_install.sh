@@ -18,6 +18,8 @@ echo """
 sudo apt-get update # on a fresh system, this is a MUST
 sudo apt-get install tig
 
+config_git()
+{
 echo "configuring git ..."
 echo """
 
@@ -42,12 +44,23 @@ echo """
 	default = current
 
 """ >~/.gitconfig
+echo "git config ... done!"
+}
+if test -f ~/.gitconfig ;then
+	echo -n ".gitconfig exsits, overwrite? (Y/n): "
+	read AAA
+#be sure to have a blank between "[" and "$AAA"
+	if [ "${AAA:-y}" = "y" ];then
+
+	config_git
+
+	fi
+fi##FIXME: still not logically right
+
 echo """
 set incsearch
 
 """>~/.vimrc
-echo "git config ... done!"
-
 # "git-core" and  "git" will be installed as deps
 # I do not love gitk anymore
 # sudo apt-get install gitk
