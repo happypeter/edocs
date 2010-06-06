@@ -4,3 +4,9 @@ http://vimeo.com/7133419
 
 these videos are well orgnized here:
 http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/#Welcome
+## display keystroks
+
+Go to http://screencasters.heathenx.org/bl...tatus-monitor/ and download the archive.
+
+Run it with sudo python key-status-hx
+
