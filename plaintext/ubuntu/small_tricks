@@ -1,0 +1,58 @@
+## package info
+go here to check packages
+http://packages.ubuntu.com/jaunty/editors/
+
+## term
+edit->preference->color->gray on black
+
+
+## sudo without pswd
+     
+
+     pet@girl:~$ sudo visudoer  #"vim /etc/sudoers" is dangerous
+     
+
+  now add one line
+     
+
+     pet ALL=(ALL)NOPASSWD: ALL
+     
+
+ now I can "sudo -i" without typing password
+
+## Format disk 
+ * check dev/
+     
+
+    $cd /dev
+    $ls s-
+     
+
+
+ * plug mp3
+     
+
+    $ls s-
+     
+
+now i see a sdb is added here
+ * umount
+     
+ 
+     umount /media/disk-1         //not always disk-1
+     
+
+
+ * then
+     
+ 
+     mkfs.vfat -I /dev/sdb
+     
+
+## auto wireless netwrok message
+that day I did some stupid setting about wireless which I forgot imddiately after
+then every time I reboot my machine a msg box realted will show up, annoying
+
+the right way to fix it to to right click the system tray on the top right of the screen
+
+then choose =Edit Connection->Wireless=, delete all the connections there, then msg box is gone

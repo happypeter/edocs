@@ -44,4 +44,10 @@ cat $1".2" |sed 's/ \- / \* /' > $1".3"
 ## remove temp files
 rm *.[12]
 
-echo the *.3 file is the final output, plz rename it
+basename=$(echo $1|awk -F"." '{print $1}')
+
+echo $basename 
+
+mv $1".3" $basename 
+
+echo "...done"

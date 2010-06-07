@@ -1,5 +1,5 @@
 <example>
-sudo sysv-rc-conf------to say bootup settings
+sudo sysv-rc-conf------to see bootup settings
 </example>
 go to =/etc/apt=
 change  =sources.list=
