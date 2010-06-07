@@ -20,3 +20,6 @@ And you can also do the follows to youtube
 
  ssh -N -D 1080 test009@ss9.he9.org
 
+http://whatismyip.com/ to check if the ip of he9.org is in use for localhost
+
+firefox->edit->preference->advanced->network->settings
