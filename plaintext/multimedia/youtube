@@ -16,3 +16,7 @@ And you can also do the follows to youtube
  * www.savevid.com   save youtube videos in mp4 format
  * /tmp/   wait her when you finish downloading a youtube video then use
       then change the name into xxx.flv 
+## ssh
+
+ ssh -N -D 1080 test009@ss9.he9.org
+
