@@ -15,6 +15,7 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 
 `set autoindent` is nice, and I added it to my .vimrc
 `set noautoindent|paste` is needed, when paste stuff
+`3>>` to indent the following 3 lines
 
 ## function folding
 
@@ -54,7 +55,3 @@ http://www.moolenaar.net/habits.html
 4.	`qa + ... + q + @a`---- recording
 5.	`C+n` ---- auto-complete a complex word that has prototype in file or `#include`s
 
-## on ubuntu, vi == vim
-
-## for Markdown
-`3>>` to indent the following 3 lines
