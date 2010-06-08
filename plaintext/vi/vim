@@ -1,3 +1,7 @@
+## coment a block
+
+	:82,99s/^/#/g
+
 #till
 `dtA` delete till the next `A` 
 
