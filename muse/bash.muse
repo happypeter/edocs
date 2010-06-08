@@ -17,7 +17,6 @@ mkdir ~/Ubuntu\ One
  - [[bash_command]] 
 
  - [[serach]]
- - [[check_hardware_info]]
 *** Error 
  - [[fd_syntax_error]]
 

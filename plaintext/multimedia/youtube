@@ -20,6 +20,17 @@ And you can also do the follows to youtube
 
  ssh -N -D 1080 test009@ss9.he9.org
 
-http://whatismyip.com/ to check if the ip of he9.org is in use for localhost
+NOTE: when I typed in the passwd: test009, there was no prompted info telling me connection established or sth
+but I know I've been doing right, since I am now using the serverIP(check by http://whatismyip.com/), besides, if
+the right passwd is not given, there will be a error msg anyway. 
 
 firefox->edit->preference->advanced->network->settings
+
+socks: 127.0.0.1 PORT: 1080
+socks v5
+
+NOW> set parser, go firefox, and type in the adress bar: about:config
+
+set `network.proxy.socks_remote_dns` to `true`
+NOTE: if this is false(as it was defaulted), I can open youtube page and even login
+but I get "connection timeout" whenever I an trying to view the video/

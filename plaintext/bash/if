@@ -1,0 +1,6 @@
+if true; false; then echo hello; fi
+
+if ls;cat ddd/; then echo hello; fi
+
+bash if sees 0 as a case to execute `then` block, very different from C lanaguage.
+this is simple because if a command run without error, the exit status is 0, as `echo #?` shows
