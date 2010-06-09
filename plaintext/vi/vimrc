@@ -1,0 +1,14 @@
+"input abrevation 
+iab frm from 
+
+" from	usr_05.txt 
+autocmd FileType text setlocal textwidth=78
+
+set cpoptions+=$
+
+" tab
+
+
+set shiftwidth=4
+set tabstop=4
+
