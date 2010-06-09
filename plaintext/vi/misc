@@ -1,3 +1,12 @@
+## install colortheme
+try `:h rtp` and I know, if I want to intall a color theme, all I need to do
+is download it and put it into ~/.vim/colors
+then invoke it by `colo themeName`
+
+	peter@peter-laptop:~/.vim/colors$ cp blue.vim peter.vim
+
+the above works
+
 ## delete a colum
 
 C-v
