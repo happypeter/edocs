@@ -1,0 +1,9 @@
+
+`g` to open url
+
+## change style
+
+  505  dpkg --get-selections |grep lynx
+  506  dpkg -L lynx-cur
+  508  vim /etc/lynx-cur/lynx.lss
+
