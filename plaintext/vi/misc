@@ -1,3 +1,8 @@
+## delete a colum
+
+C-v
+select the text block 
+`d` to delete
 ## see man
 
 use `K` to view the manpage for the <cword>
