@@ -2,6 +2,15 @@ I have my theroy that the less u switch to mouse, the more effiently you will ge
 
 ##vimperator
 
-o:	to open a like
+o:	to open a link
 
 `:h`	to see help page
+
+t	open link in new tab
+
+gu	go up
+gU	go top
+f	show hint
+gt	get tab
+C+[	Esc
+o xxx	search xxx in google
