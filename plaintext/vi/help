@@ -1,2 +1,13 @@
 :help i_CTRL-[
 :help insert.txt
+
+## helptags
+
+
+	$ cat /home/peter/.vim/doc/peter.txt 
+	*vim-peter*
+
+	hello
+
+then run `helptags .vim/doc/`, now you have your own doc integrated into vim
+help system and can be viewed by `help vim-peter`
