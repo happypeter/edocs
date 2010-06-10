@@ -35,6 +35,7 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 `set noautoindent|paste` is needed, when paste stuff
 `3>>` to indent the following 3 lines
 `set expandtab`
+    CTRL+T; TRL+D
 `:%retab`
 
 ## function folding

@@ -7,8 +7,7 @@ autocmd FileType text setlocal textwidth=78
 set cpoptions+=$
 
 " tab
-
-
+set expandtab
 set shiftwidth=4
 set tabstop=4
 
