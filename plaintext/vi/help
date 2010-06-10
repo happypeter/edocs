@@ -1,6 +1,6 @@
 :help i_CTRL-[
 :help insert.txt
-
+:h c_<TAB>  to see how to edit vim cmd
 ## helptags
 
 
