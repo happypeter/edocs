@@ -7,11 +7,13 @@ then invoke it by `colo themeName`
 
 the above works
 
-## delete a colum
+## VISUAL mode
 
-C-v
-select the text block 
+V   visual block (can be used to delete a colum)
+v   visual 
+CTRL-v  select the text block 
 `d` to delete
+`J` to join lines selected
 ## see man
 
 use `K` to view the manpage for the <cword>
