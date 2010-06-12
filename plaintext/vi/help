@@ -11,3 +11,7 @@
 
 then run `helptags .vim/doc/`, now you have your own doc integrated into vim
 help system and can be viewed by `help vim-peter`
+
+## invoke quickfix window
+:helpgrep win
+:cwin

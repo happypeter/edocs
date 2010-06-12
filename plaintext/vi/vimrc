@@ -1,13 +1,21 @@
 "input abrevation 
 iab frm from 
+" prefer to use the wildmode same as bash
+set wim=list
 
-" from	usr_05.txt 
-autocmd FileType text setlocal textwidth=78
 
-set cpoptions+=$
-
-" tab
+" perfect solution to do tabing
 set expandtab
 set shiftwidth=4
 set tabstop=4
+set et
 
+" have nice $ sign when you use `cw`
+set cpoptions+=$
+
+"autocmd FileType text setlocal textwidth=78
+set textwidth=78
+"use i_CTRL_X_K for dict
+set dictionary+=~/.vim/dict/simple
+
+set wildmenu
