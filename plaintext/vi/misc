@@ -1,6 +1,7 @@
 ## dict
  sudo apt-get install dictd dictzip dict-wn dict-foldoc dict-jargon dict-gcide 
 `dict` bring command line out put
+`h K` to know how to invoke `dict` in vim
 ## install colortheme
 try `:h rtp` and I know, if I want to intall a color theme, all I need to do
 is download it and put it into ~/.vim/colors
