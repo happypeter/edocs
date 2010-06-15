@@ -1,5 +1,6 @@
 
 ## since some of the following operation maybe depreracated over time.
+clear 
 echo 
 echo "HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
 
@@ -55,7 +56,8 @@ if test -f ~/.gitconfig ;then
 	config_git
 
 	fi
-fi##FIXME: still not logically right
+fi
+##FIXME: still not logically right
 
 echo """
 set incsearch

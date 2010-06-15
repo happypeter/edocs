@@ -1,3 +1,5 @@
+## modes
+insert Normal Mode is cool, see `h intro` for the detail
 ## dict
  sudo apt-get install dictd dictzip dict-wn dict-foldoc dict-jargon dict-gcide 
 `dict` bring command line out put
