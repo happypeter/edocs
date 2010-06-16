@@ -1,3 +1,7 @@
+##ssh
+Can not open dispaly
+soloved by:
+ totem --display=:0.0 git_nice/
 ## package info
 go here to check packages
 http://packages.ubuntu.com/jaunty/editors/
