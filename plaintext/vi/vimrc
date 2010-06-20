@@ -1,3 +1,7 @@
+
+"set quick escape from insert mode
+imap jj <esc>
+imap JJ <esc>
 "input abrevation 
 iab frm from 
 " prefer to use the wildmode same as bash

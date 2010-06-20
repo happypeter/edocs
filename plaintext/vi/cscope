@@ -1,2 +1,5 @@
-on ubuntu 
+## on ubuntu 
 apt-get install cscope
+
+## should I use cscope
+http://www.fsl.cs.sunysb.edu/~rick/cscope.html
