@@ -1,0 +1,3 @@
+chown peter: file
+chown :peter file #this makes chgrp dated
+
