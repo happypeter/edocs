@@ -1,7 +1,10 @@
 
-"set quick escape from insert mode
-imap jj <esc>
+"set quick escape from insert mode, and now I can go without arrow keys and
+" use j and k to move around in insert mode
 imap JJ <esc>
+imap jj <esc>
+imap kk <esc>
+imap KK <esc>
 "input abrevation 
 iab frm from 
 " prefer to use the wildmode same as bash

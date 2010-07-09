@@ -16,3 +16,5 @@ I can move to a call of the tag.???
 
 3. now I move the cursor to a tag name, CTRL-] will bring me to the defination
 of the tag, and CTRL-T will take me back
+
+4. *gd* and *CTRL-O* can be very useful here.
