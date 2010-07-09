@@ -24,9 +24,12 @@ CTRL-v  select the text block
 
 use `K` to view the manpage for the <cword>
 
-## coment a block
+## comment a block
 
     :82,99s/^/#/g
+    and you can also use 
+    "V" to enter VISUAL LINE mode  and selesct the block you want to comment
+    and then ":s/^/#/g"
 
 #till
 `dtA` delete till the next `A` 
@@ -50,8 +53,7 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 
 1.  use `z+f+%` to fold all the functions in a big file
 2.  then `z+x` only eXtract the one you want to view, others will be folded again
-3.  it is nice.
-4.  use `zj` or `zk` to move among folds, and then `zx` to view, quit good.
+3.  use `zj` or `zk` to move among folds, and then `zx` to view, quit good.
 
 ## move a text block to another file
 
