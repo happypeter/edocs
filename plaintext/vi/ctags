@@ -1,1 +1,18 @@
 :h ctags
+
+## basic usage
+1. creat a tags file
+
+    ctags *
+
+2. open the tags file and i see the format is basiclly
+
+    tagName <which file it belongs> <the line of the defination in this file>
+<the type of this tag: f--function m--memner... see "$ ctags
+--list-kinds|less" for more> <the class it belongs>
+
+since the tags file only mark the position of the *defination*, so I doubt if
+I can move to a call of the tag.???
+
+3. now I move the cursor to a tag name, CTRL-] will bring me to the defination
+of the tag, and CTRL-T will take me back
