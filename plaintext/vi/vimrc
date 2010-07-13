@@ -24,5 +24,7 @@ set cpoptions+=$
 set textwidth=78
 "use i_CTRL_X_K for dict
 set dictionary+=~/.vim/dict/simple
+set ic
+set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 
 set wildmenu
