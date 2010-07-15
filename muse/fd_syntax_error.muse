@@ -20,10 +20,5 @@ FIX: change
 +++#!/bin/bash
 ---#!/bin/sh
 </example>
-or
-<example>
-rm /bin/sh
-ln -s sh bash
-</example>
 
 ~                                           
