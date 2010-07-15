@@ -1,22 +1,11 @@
-http://www.faqs.org/docs/abs/HTML/arithexp.html
-
-** IO
-http://www.faqs.org/docs/abs/HTML/io-redirection.html
 
  - [[awk]]
  - [[dir_walk]]
-
-<example>
-mkdir ~/Ubuntu\ One
-</example>
-
  - [[tee]]
  - [[sed]]
- - [[cat]]
  - [[small_bash]]
  - [[bash_command]] 
 
- - [[serach]]
 *** Error 
  - [[fd_syntax_error]]
 
