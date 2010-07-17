@@ -1,3 +1,7 @@
+
+"" highlight the doxygen comments
+" nice to use this with DoxygenToolkit.vim
+let g:load_doxygen_syntax=1
 " why I use *,* to do mapping?
 " inspired by Derek, the reasons:
 " 1. <LEADER> is too long to type
