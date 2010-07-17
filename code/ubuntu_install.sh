@@ -59,10 +59,6 @@ if test -f ~/.gitconfig ;then
 fi
 ##FIXME: still not logically right
 
-echo """
-set incsearch
-
-""">~/.vimrc
 # "git-core" and  "git" will be installed as deps
 # I do not love gitk anymore
 # sudo apt-get install gitk
@@ -105,3 +101,5 @@ sudo chmod +x /bin/ggg
 # cd ~/.vim/plugin/
 # wget http://cscope.sourceforge.net/cscope_maps.vim
 # and we also need DoxygenToolkit.vim&comments.vim...
+# NERDtree.vim
+# cp edocs/plaintext/vi/vimrc ~/.vimrc
