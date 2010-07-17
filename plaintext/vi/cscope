@@ -7,3 +7,9 @@ http://www.fsl.cs.sunysb.edu/~rick/cscope.html
 ## vim 
 
 http://cscope.sourceforge.net/cscope_vim_tutorial.html
+
+## setting 
+cd .vim/plugin
+wget http://cscope.sourceforge.net/cscope_maps.vim
+
+and it just works, ZERO modification
