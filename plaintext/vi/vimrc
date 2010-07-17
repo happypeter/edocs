@@ -1,3 +1,10 @@
+" why I use *,* to do mapping?
+" inspired by Derek, the reasons:
+" <LEADER> is too long to type
+" *,* is easier to reach than *\*
+" derek also do a nomap for *,*
+"   nnomap <c-e> ,
+" I do not do it, since I do not use *,* as a command a lot
 "edit vimrc
 map ,v :vnew ~/.vimrc<CR>
 "set quick escape from insert mode, and now I can go without arrow keys and
