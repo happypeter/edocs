@@ -20,10 +20,10 @@ set wim=list
 
 
 " perfect solution to do tabing
+
 set expandtab
 set shiftwidth=4
 set tabstop=4
-set et
 
 " have nice $ sign when you use `cw`
 set cpoptions+=$
@@ -32,7 +32,8 @@ set cpoptions+=$
 set textwidth=78
 "use i_CTRL_X_K for dict
 set dictionary+=~/.vim/dict/simple
-set ic
+" the ic for dict somethings works something sucks
+set ic 
 set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 
 set wildmenu
