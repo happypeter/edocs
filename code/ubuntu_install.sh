@@ -100,3 +100,8 @@ rm -rf Music  Templates  Videos Public Pictures Documents  Downloads  examples.d
 sudo echo gnome-terminal >~/ggg
 sudo mv ~/ggg /bin/
 sudo chmod +x /bin/ggg
+
+##for vim
+# cd ~/.vim/plugin/
+# wget http://cscope.sourceforge.net/cscope_maps.vim
+# and we also need DoxygenToolkit.vim&comments.vim...
