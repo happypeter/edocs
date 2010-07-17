@@ -1,11 +1,12 @@
 " why I use *,* to do mapping?
 " inspired by Derek, the reasons:
-" <LEADER> is too long to type
-" *,* is easier to reach than *\*
-" derek also do a nomap for *,*
+" 1. <LEADER> is too long to type
+" 2. *,* is easier to reach than *\*
+" 3. in practice you nerver type in *,v*, but *, v*
+" Derek also do a nomap for *,*
 "   nnomap <c-e> ,
 " I do not do it, since I do not use *,* as a command a lot
-"edit vimrc
+"""""edit vimrc
 map ,v :vnew ~/.vimrc<CR>
 "set quick escape from insert mode, and now I can go without arrow keys and
 " use j and k to move around in insert mode
@@ -28,8 +29,11 @@ set tabstop=4
 " have nice $ sign when you use `cw`
 set cpoptions+=$
 
-"autocmd FileType text setlocal textwidth=78
+" Do not know how to use autocmd yet, so the following line not working
+"   autocmd FileType text setlocal textwidth=78
 set textwidth=78
+
+""""""""""DICT""""""""""""
 "use i_CTRL_X_K for dict
 set dictionary+=~/.vim/dict/simple
 " the ic for dict somethings works something sucks
