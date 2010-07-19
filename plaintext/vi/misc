@@ -1,6 +1,8 @@
 # Save a file you edited in vim without the needed permissions
 
 :w !sudo tee %
+
+it is useful when I try to modify /etc/hosts or /boot/grup
 ## modes
 insert Normal Mode is cool, see `h intro` for the detail
 ## dict
