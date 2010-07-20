@@ -27,3 +27,6 @@ I think I can use this
 [[code/handle_private]]
 
 
+** vim.org has a plugin for gpg file editing
+
+gnupg.vim
