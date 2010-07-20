@@ -34,3 +34,7 @@ muse file, that is:
 
  - use openoffice drawing, and export is as png file, then the pics
    are really small and nice
+ 
+** solution
+
+ - vim plugin drawit.vim is really what I want
