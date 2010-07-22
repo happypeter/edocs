@@ -1,4 +1,6 @@
 
+""" taglist
+map ,t :Tlist<CR>
 "" highlight the doxygen comments
 " nice to use this with DoxygenToolkit.vim
 let g:load_doxygen_syntax=1
@@ -20,7 +22,8 @@ map ,n :NERDTree<CR>
 " save some garbage editing, so I have a safer way now as below
 map ,, :q<CR>
 """""edit vimrc
-map ,v :vnew ~/.vimrc<CR>
+map ,v :vnew ~/edocs/plaintext/vi/vimrc<CR>
+
 "set quick escape from insert mode, and now I can go without arrow keys and
 " use j and k to move around in insert mode
 imap JJ <esc>
