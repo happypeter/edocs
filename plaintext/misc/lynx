@@ -7,3 +7,9 @@
   506  dpkg -L lynx-cur
   508  vim /etc/lynx-cur/lynx.lss
 
+## scrolling
+
+CTRL-P
+CTRL-N
+
+type "h" for more info
