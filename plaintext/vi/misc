@@ -1,3 +1,9 @@
+##
+zb, zt, and zz scroll the screen to make the current line at the top,
+bottom, or middle.
+
+I can use *zz* to help me find where is my cursor, easy and safe.
+
 # Save a file you edited in vim without the needed permissions
 
 :w !sudo tee %
