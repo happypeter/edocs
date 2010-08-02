@@ -1,0 +1,13 @@
+every time I want to do a git commit, I always run git diff to check what I've
+done to the current repo first, that is nice, since you get a last minuite
+check of the current repo, and makes you feel safe to do the commit.
+
+and everytime I modify and file, I change the buffer, but when I try to write
+my modification to the original file, I do not know how to have the
+last-minuite check of what I am going to save, that is bad. Now  I know all I
+need to do is to make a vimdiff between the buffer and the file on the disk,
+this is not so hard I think.
+http://vim.wikia.com/wiki/Diff_current_buffer_and_the_original_file
+
+since the output of vimdiff is much nice than that of gitdiff, so I will try
+to integrate git into vim 
