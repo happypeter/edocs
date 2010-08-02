@@ -64,15 +64,6 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 2.  then `z+x` only eXtract the one you want to view, others will be folded again
 3.  use `zj` or `zk` to move among folds, and then `zx` to view, quit good.
 
-## move a text block to another file
-
-1.  move cursor to the beginning of this block and press `v`
-2.  `j` to move upwards, or `k` the other way
-// can also use `yn` or `yG`, `y$`... much faster
-3.  `d` to kill the selected block(or `y` to copy)
-4.  `vnew filename` to open a new window
-5.  `^Wv` to do the same but no filename for the new buffer
-6.   I can `ma` to set mark and `d'a` to kill
 ## buffer
 
 1.  `:ls` to list out all bufffers
