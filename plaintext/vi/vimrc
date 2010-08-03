@@ -1,17 +1,8 @@
 """"""""""""""""""""""""""""""""""""""""
 "
-"             taglist
+"             general
 "
 """"""""""""""""""""""""""""""""""""""""
-map ,t :Tlist<CR>
-"" highlight the doxygen comments
-" nice to use this with DoxygenToolkit.vim
-""""""""""""""""""""""""""""""""""""""""
-"
-"             Doxgen
-"
-""""""""""""""""""""""""""""""""""""""""
-let g:load_doxygen_syntax=1
 " why I use *,* to do mapping?
 " inspired by Derek, the reasons:
 " 1. <LEADER> is too long to type
@@ -20,6 +11,23 @@ let g:load_doxygen_syntax=1
 " Derek also do a nomap for *,*
 "   nnomap <c-e> ,
 " I do not do it, since I do not use *,* as a command a lot
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             taglist
+"
+""""""""""""""""""""""""""""""""""""""""
+map ,t :Tlist<CR>
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             Doxgen
+"
+""""""""""""""""""""""""""""""""""""""""
+" highlight the doxygen comments
+" used with DoxygenToolkit.vim
+let g:load_doxygen_syntax=1
+
 """"""""""""""""""""""""""""""""""""""""
 "
 "             QT-doc
@@ -27,55 +35,87 @@ let g:load_doxygen_syntax=1
 """"""""""""""""""""""""""""""""""""""""
 map ,k :!qref <cword><ENTER>
 
-""" NERDtree 
+""""""""""""""""""""""""""""""""""""""""
+"
+"             NERDtree
+"
+""""""""""""""""""""""""""""""""""""""""
 map ,n :NERDTreeToggle<CR>
-""""" safe quit & force quit
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             quit quickly
+"
+""""""""""""""""""""""""""""""""""""""""
 " before I use <S-ZZ> to quit, this has the danger of unexpectedly
 " save some garbage editing, so I have a safer way now as below
 map ,, :q<CR>
+" force quit
 map ,f :q!<CR>
-"""""edit vimrc
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             vimrc editing 
+"
+""""""""""""""""""""""""""""""""""""""""
 map ,v :vnew ~/edocs/plaintext/vi/vimrc<CR>
 FIXME
 fun vimrc-update()
   "!cp edocs/plaintext/vi/vimrc .vimrc<CR>
 endf
 com! updateVimrc call vimrc-update()
-"set quick escape from insert mode, and now I can go without arrow keys and
+""""""""""""""""""""""""""""""""""""""""
+"
+"            quick escape  
+"
+""""""""""""""""""""""""""""""""""""""""
+" set quick escape from insert mode, and now I can go without arrow keys and
 " use j and k to move around in insert mode
 imap JJ <esc>
 imap jj <esc>
 imap kk <esc>
 imap KK <esc>
-"input abrevation 
-iab frm from 
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             wildmode
+"
+""""""""""""""""""""""""""""""""""""""""
 " prefer to use the wildmode same as bash
 set wim=list
+set wildmenu
 
-
-" perfect solution to do tabing
-
+""""""""""""""""""""""""""""""""""""""""
+"
+"             tabbing 
+"
+""""""""""""""""""""""""""""""""""""""""
 set expandtab
 set shiftwidth=4
 set tabstop=4
-
-" have nice $ sign when you use `cw`
-set cpoptions+=$
-
-" Do not know how to use autocmd yet, so the following line not working
-"   autocmd FileType text setlocal textwidth=78
-set textwidth=78
 
 """"""""""""""""""""""""""""""""""""""""
 "
 "             dictionary
 "
-""""""""""""""""""""""""""""""""""""""""
-
-"""""" i_CTRL_X_K 
+""""""""""""""""""""""""""""""""""""""
+" i_CTRL_X_K 
 set dictionary+=~/.vim/dict/simple
 " the ic for dict somethings works something sucks
 set ic 
 set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 
-set wildmenu
+""""""""""""""""""""""""""""""""""""""""
+"
+"             misc
+"
+""""""""""""""""""""""""""""""""""""""""
+" have nice $ sign when you use `cw`
+set cpoptions+=$
+
+" Do not know how to use autocmd yet, so the following line not working
+" autocmd FileType text setlocal textwidth=78
+set textwidth=78
+
+" input abrevation 
+iab frm from 
