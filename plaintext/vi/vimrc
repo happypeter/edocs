@@ -83,8 +83,6 @@ imap KK <esc>
 "             wildmode
 "
 """"""""""""""""""""""""""""""""""""""""
-" prefer to use the wildmode same as bash
-set wim=list
 set wildmenu
 
 """"""""""""""""""""""""""""""""""""""""
