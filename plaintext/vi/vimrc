@@ -14,13 +14,14 @@ let g:load_doxygen_syntax=1
 " I do not do it, since I do not use *,* as a command a lot
 """ QT-doc
 map ,k :!qref <cword><ENTER>
-""" NERDtree
-" nice
-map ,n :NERDTree<CR>
+
+""" NERDtree 
+map ,n :NERDTreeToggle<CR>
 """"" safe quit
 " before I use <S-ZZ> to quit, this has the danger of unexpectedly
 " save some garbage editing, so I have a safer way now as below
 map ,, :q<CR>
+map ,f :q!<CR>
 """""edit vimrc
 map ,v :vnew ~/edocs/plaintext/vi/vimrc<CR>
 
