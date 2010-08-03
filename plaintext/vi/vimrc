@@ -59,11 +59,13 @@ map ,f :q!<CR>
 "
 """"""""""""""""""""""""""""""""""""""""
 map ,v :vnew ~/edocs/plaintext/vi/vimrc<CR>
-FIXME
-fun vimrc-update()
-  "!cp edocs/plaintext/vi/vimrc .vimrc<CR>
-endf
-com! updateVimrc call vimrc-update()
+" see :h script 
+" it seems stupid to run VimrcUpdate everytime vimrc is modified
+" there must be a better way
+function! s:VimrcUpdate()
+  exe "!cp /home/peter/edocs/plaintext/vi/vimrc .vimrc"
+endfunction
+com! UpdateVimrc call s:VimrcUpdate()
 """"""""""""""""""""""""""""""""""""""""
 "
 "            quick escape  
