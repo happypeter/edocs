@@ -17,7 +17,7 @@ map ,k :!qref <cword><ENTER>
 
 """ NERDtree 
 map ,n :NERDTreeToggle<CR>
-""""" safe quit
+""""" safe quit & force quit
 " before I use <S-ZZ> to quit, this has the danger of unexpectedly
 " save some garbage editing, so I have a safer way now as below
 map ,, :q<CR>
