@@ -1,0 +1,15 @@
+if you want want know how vim formatting works, check
+    :h gq
+and it is basically to do the *fo* setting with
+
+	:set fo=croq
+
+the above seting is mainly for c Comments.
+
+I use VISUAL LINE to select the text, and then run gq, simple
+
+if I want to edit wikiwikiweb with vim. I need to 
+
+    :set paste
+
+this will skip whatever you set in *fo* and paste stuff with its format unchanged
