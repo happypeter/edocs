@@ -82,8 +82,6 @@ com! UpdateVimrc call s:VimrcUpdate()
 " use j and k to move around in insert mode
 imap JJ <esc>
 imap jj <esc>
-imap kk <esc>
-imap KK <esc>
 
 """"""""""""""""""""""""""""""""""""""""
 "
