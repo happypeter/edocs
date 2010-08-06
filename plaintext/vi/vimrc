@@ -124,3 +124,5 @@ set textwidth=78
 
 " input abrevation 
 iab frm from 
+" set number for doing diffs and folding
+set nu
