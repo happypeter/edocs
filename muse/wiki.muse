@@ -16,9 +16,20 @@ highly interconnected.
 ** WikiWikiWeb
 I created apage on http://c2.com/cgi/wiki?PeterWang
 
-and made a little contribution here, I created page named [[http://c2.com/cgi/wiki?EmacsMuse][EmacsMuse]]
+WikiWikiWeb as my blog
 
-** EmacsWiki
-EmacsWiki is automatically linked, nice.
+these days I've trying to find a site to do blogging, and failed to find a decent and free one, so I decide to use WikiWikiWeb as my blog. if you search "blog" there, you can find people using wiki as blogs, and theyeven love it over a real blog, see http://c2.com/cgi/wiki?WhyIamNotaBlogger
 
-http://www.emacswiki.org/emacs/PeterWang
+what I want out of my blogging is:
+
+ * I post my idea and I will get feedbacks soon, WikiWikiWeb is packed with
+ * good programmers, that makes the feedbacks fast and valuable
+ * 
+
+so I will:
+
+ * keep a list of pages I open, or Heavily maintain, I will consider these
+ * pages as my private post, so I do not mind spending time on fixing other
+ * people typos. This way I not only got a decent place that I can show people
+ * as my blog(hi, this is what I know, what do you think of this), but I also
+ * helped to produce higher Quality for WikiWikiWeb pages.
