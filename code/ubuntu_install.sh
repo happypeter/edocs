@@ -102,4 +102,17 @@ sudo chmod +x /bin/ggg
 # wget http://cscope.sourceforge.net/cscope_maps.vim
 # and we also need DoxygenToolkit.vim&comments.vim...
 # NERDtree.vim
+# Planning to push my $HOME/.vim/ to github...
 # cp edocs/plaintext/vi/vimrc ~/.vimrc
+
+######################################
+#
+#to enable bash vi mode, we need to add the following to $HOME/.bashrc
+#    
+#    set -o vi
+#    bind -m vi-insert "\C-l":clear-screen
+#
+#and we may need to add this for vim launcing as well
+#
+#    alias e='vim'
+#

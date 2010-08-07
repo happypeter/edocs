@@ -6,7 +6,8 @@ http://www.jukie.net/bart/blog/20040326082602
 add this to .bashrc
 
 	 set -o vi
-         # ^l clear screen
-         bind -m vi-insert "\C-l":clear-screen
+     # ^l clear screen
+     bind -m vi-insert "\C-l":clear-screen
+
 #Working Productively in Bash's Vi Command Line Editing Mode (with Cheat Sheet)
 http://www.catonmat.net/blog/bash-vi-editing-mode-cheat-sheet/ [+]
