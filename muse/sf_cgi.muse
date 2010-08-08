@@ -19,7 +19,11 @@ then I can also do anything here.
 
 I can add a blog, I can use muse as a wiki...anything...
 
+No, you can not get write access in browers.
+
 as long as my script has the write poermision to all the html files.
+
+
 
 
 
