@@ -33,7 +33,6 @@ Peter Wang is a [[http://en.wikipedia.org/wiki/Free_and_open_source_software][FO
  - C++
  - Python
  - PHP
- - Perl
  - elisp
  - bash
 *** Toolkit
@@ -70,10 +69,6 @@ System Updaters Based on rpm, (AXTU and YUM), chief maintainer of AXTU
 and was responsible for writing a authentication plugin for YUM, in
 order to implement it in Asianux4.0.
 
-Check this link, some the bugs I fixed go here
-
-https://tsn.miraclelinux.com/tsn_local/index.php?m=rpm&a=changelog&cid=7&rid=18106&rnum=
-
 2008.7 ~ present: Member of Beijing Linux User Group
 
 I am the manager of the Interest Group named Embedded Linux and
@@ -84,12 +79,6 @@ contribution.
 
 I participated in the smart phone project Cixtone mainly worked on the
 Officeviewer part developed with Qt, as a tester. 
-
-2002.10 ~ 2002.12: lecturer of Daishi English training school
-
-My part-time job, the responsibility was giving lectures to high
-school students, I wish one day I can give lectures on Linux. I really
-love public talking. 
 
 ** Project Summary
 
@@ -131,6 +120,3 @@ Formerly Tinylion user app part was written under a older version of
 Qt/embedded, but now I am able to port the latest version of
 Qt/embedded to my own hardware platform.  
 
-
-
-If you want to know more about me, check my CV ([[peter_cv]])
