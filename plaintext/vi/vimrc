@@ -134,6 +134,18 @@ set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 
 """"""""""""""""""""""""""""""""""""""""
 "
+"             status line
+"
+""""""""""""""""""""""""""""""""""""""""
+" Set the status line the way i like it
+set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ [%b][0x%B]
+
+" tell VIM to always put a status line in, even if there is only one window
+" this means I can also see what is the filename I am in, finally!
+set laststatus=2
+
+""""""""""""""""""""""""""""""""""""""""
+"
 "             misc
 "
 """"""""""""""""""""""""""""""""""""""""
@@ -148,3 +160,6 @@ set textwidth=78
 iab frm from 
 " set number for doing diffs and folding
 set nu
+" Show the current command in the lower right corner
+set showcmd
+
