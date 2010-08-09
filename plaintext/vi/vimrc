@@ -90,17 +90,9 @@ map ,f :q!<CR>
 "             vimrc editing 
 "
 """"""""""""""""""""""""""""""""""""""""
-map ,v :vnew ~/edocs/plaintext/vi/vimrc<CR>
-" see :h script 
-" it seems stupid to run VimrcUpdate everytime vimrc is modified
-" there must be a better way
-function! s:VimrcUpdate()
-  exe "!cp /home/peter/edocs/plaintext/vi/vimrc .vimrc&&echo vimrc updated"
-  " so ~/.vimrc
-  " the above line cause error: can not update VimrcUpdate, it is in use
-  " I can run ==so %== to avoid restart vim
-endfunction
-com! UpdateVimrc call s:VimrcUpdate()
+" I need a fake ~/.vimrc: runtime vimrc
+map ,v :vnew ~/.vim/vimrc<CR>
+
 """"""""""""""""""""""""""""""""""""""""
 "
 "            quick escape  
