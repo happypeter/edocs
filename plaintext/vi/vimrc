@@ -1,5 +1,27 @@
 """"""""""""""""""""""""""""""""""""""""
 "
+"             brower
+"
+""""""""""""""""""""""""""""""""""""""""
+" NOW Browser() only works for lines containing nothing but the link
+" refer to http://vim.wikia.com/wiki/VimTip306 
+function! Browser ()
+  let line = getline (".")
+"  let line = matchstr (line, "\%(http://\|www\.\)[^ ,;\t]*")
+  exec "!firefox ".line
+endfunction
+map ,w :call Browser ()<CR>
+
+""""""""""""""""""""""""""""""""""""""""
+"
+"             buffers
+"
+""""""""""""""""""""""""""""""""""""""""
+" in order to switch between buffers
+" with unsaved change 
+set hidden
+""""""""""""""""""""""""""""""""""""""""
+"
 "             formatting 
 "
 """"""""""""""""""""""""""""""""""""""""
