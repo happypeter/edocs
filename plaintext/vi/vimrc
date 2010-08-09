@@ -20,6 +20,9 @@ map ,w :call Browser ()<CR>
 " in order to switch between buffers
 " with unsaved change 
 set hidden
+" I just use <Tab> to do buffernext, but need to make sure I am in Normal Mode
+" and I do use <Tab> for any other purposes in Normal Mode 
+map <Tab> :bn<CR>
 """"""""""""""""""""""""""""""""""""""""
 "
 "             formatting 
