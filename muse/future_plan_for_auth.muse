@@ -1,8 +1,0 @@
-due to  - [[auth_security]]
-
-we need to modify auth_server and auth_client
-
-since I do not know the what qt version will be used in 4.0 so I will
-now hold the modification  of auth_clent
-
-maybe I can study php now and hack into auth_server
