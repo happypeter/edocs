@@ -14,7 +14,11 @@ the udev rule:
     SUBSYSTEM=="usb", ATTRS{idVendor}=="22b8", MODE="0666"
     peter@peter-laptop:/etc/udev/rules.d$ 
 
-NOTE: it seems the *idVendor* here does not really matter.
+I get the above idVendor with this:
+
+    peter@peter-laptop:~$ lsusb |grep -i moto|awk  '{print $6}'|awk -F":" '{print $1}'
+    22b8
+
 
 Enabling USB debugging mode on your phone
 
@@ -29,3 +33,9 @@ NOTE: what did fuck me was that I plug usb, then I chose "usb drive", while
 infact I should say "charge only"
 
 OK, now connection established.
+
+## adb shell
+
+    peter@peter-laptop:~/Desktop/android-sdk-linux_86/tools$ ./adb shell
+
+done
