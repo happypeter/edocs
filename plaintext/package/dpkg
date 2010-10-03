@@ -4,6 +4,10 @@
     pet@cow:~$ dpkg -S /bin/ls
     coreutils: /bin/ls
     #this is like rpm "which provides"
+
+## search package
+
+    aptitude search tig
     
 
 
