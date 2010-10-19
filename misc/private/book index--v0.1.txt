@@ -1,0 +1,71 @@
+1. FPGA 智能仪表
+ 
+2. 振动 ARM
+ 
+3. TOEFL
+ 
+4. YC-2410-linux D.G
+ 
+5. LDD3 part1
+ 
+6. Make
+ 
+7. Development Guide
+   
+   a)
+ 
+8. Cplusplus.com
+ 
+   a)
+ 
+9. GPIO
+ 
+10. GUI Programming with QT3
+ 
+11. linux Kernel Module Programming Guide 2.4
+ 
+12. Driver Tips
+ 
+    P27-30             spi protocal
+ 
+    P32-42             uaccess.h
+ 
+    P43-45             hardware.h         
+   
+    P46-52             io.h       
+ 
+    P71-77             调理电路
+ 
+    P78-86             electronic tips 
+
+    P87-89             ARM  ioremap
+ 
+    P90-99             Nios spi driver
+ 
+    P100-107           arm interrupt
+ 
+    P135-141           vivi explanation
+ 
+    P183-192           ads1278 UM
+ 
+    P200-210           s3c2410UM-iic+iis
+ 
+    P211-214           调理电路.sch+ chip UM
+ 
+13. C language Part 1
+ 
+14. C Language Part 2
+ 
+15. Protel99 se
+ 
+16. LPC2000 part 1
+ 
+17. LPC2000 part 2
+ 
+18. 2410 UM
+ 
+19. DataSheet
+ 
+20. QT 
+ 
+ 
