@@ -107,7 +107,6 @@ Disk content
 
     j) vivi.tgz
 
-12. openSUSE-10.2-GM-i386
 
 13. FedoraCore6
     
@@ -208,11 +207,11 @@ Disk content
 
     n) ÀÏÂÞÓïÂ¼_ÂÞÓÀºÆºÍ¸ç¸ç
 
-19. open solaris
+19. 
 
-20. redflag4
+20. 
 
-21. suse93 (for Cixphone)
+21. 
 
 22.
  a) office2k   
