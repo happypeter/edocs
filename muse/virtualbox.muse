@@ -6,6 +6,11 @@ InStallation:
 
 2. $apt-get install virtualbox (in 10.4 the pkg name is virtualbox-ose)
 
+and in 10.04, things are here
+
+    peter@peter-work:~/.VirtualBox$ ls
+    compreg.dat  HardDisks  Machines  VirtualBox.xml  xpti.dat
+
 USAGE:
 
 right Ctl to release to mouse
