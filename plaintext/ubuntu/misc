@@ -81,3 +81,10 @@ when I run parted -l, and a sda7 inside /dev/
     root@peter-work:~# mount /dev/sda7 /home/peter/sda7/ -t ext4
 
 now I just need to figure out how root give this partition to peter ?
+
+## the real solution
+
+just insert 10.04 disk reboot and enter installation process, do manual
+partition and resize your home partion to whatever size you want, do not
+`format` it, mount it again on `/home`, then quit the installation, done! No
+data is corruptd after reboot.
