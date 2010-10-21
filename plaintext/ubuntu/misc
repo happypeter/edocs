@@ -80,3 +80,4 @@ when I run parted -l, and a sda7 inside /dev/
     root@peter-work:~# mkfs.ext4 /dev/sda7
     root@peter-work:~# mount /dev/sda7 /home/peter/sda7/ -t ext4
 
+now I just need to figure out how root give this partition to peter ?
