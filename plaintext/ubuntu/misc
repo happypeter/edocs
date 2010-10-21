@@ -53,3 +53,18 @@ now i see a sdb is added here
      mkfs.vfat -I /dev/sdb
      
 
+## partitions
+
+now I want to enlarge my /home(mounted /dev/sda6), 
+
+    parted -l
+
+then 
+
+    parted -m
+
+and within its prompt
+
+    resize 6 50GB   100GB
+
+it seems that it will work, but I do not know how to unmount /home
