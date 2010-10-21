@@ -93,6 +93,10 @@ but *fedora11* installed successfully
 
 then go to virtualbox->device->install addon
 
+there are lots of .exe files in the popped CD, but it runs in ununtu (as guest
+OS) by clicking autorun.xxx. anyway, things works beaultifully well after you
+reset virtualbox once
+
 ## add a new image
 
     peter@peter-work:~/VirtualBox.bak/HardDisks$ cp XP.vdi  /home/peter/.VirtualBox/HardDisks/
