@@ -1,5 +1,4 @@
 ## which provides
-    
 
     pet@cow:~$ dpkg -S /bin/ls
     coreutils: /bin/ls
@@ -9,9 +8,6 @@
 
     aptitude search tig
     
-
-
-  503  dpkg -L lynx
   504  man dpkg
   505  dpkg --get-selections |grep lynx
   506  dpkg -L lynx-cur
