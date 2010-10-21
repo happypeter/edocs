@@ -24,3 +24,7 @@
   513  dpkg -L lynx-cur
   514  vim /etc/lynx-cur/lynx.lss
 
+## dry-run
+
+ sudo dpkg -i --dry-run php5-ffmpeg_0.6.0-1build2_amd64.deb
+
