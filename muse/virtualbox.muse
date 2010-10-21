@@ -92,3 +92,11 @@ but *fedora11* installed successfully
     apt-get install virtualbox-guest-additions
 
 then go to virtualbox->device->install addon
+
+## add a new image
+
+    peter@peter-work:~/VirtualBox.bak/HardDisks$ cp XP.vdi  /home/peter/.VirtualBox/HardDisks/
+
+only this is needed as a command,
+
+then goto virtualbox->add new machine->use exsiting disk--------done!
