@@ -86,3 +86,9 @@ pet@girl:~$ virtualbox &
 </example>
 
 but *fedora11* installed successfully
+
+## install addon in 10.04
+
+    apt-get install virtualbox-guest-additions
+
+then go to virtualbox->device->install addon

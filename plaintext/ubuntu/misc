@@ -68,3 +68,15 @@ and within its prompt
     resize 6 50GB   100GB
 
 it seems that it will work, but I do not know how to unmount /home
+
+    (parted) mkpart logical ext4 100.5GB 150GB
+
+it worked and I get this
+
+     7      100GB   150GB   49.5GB  logical
+
+when I run parted -l, and a sda7 inside /dev/
+
+    root@peter-work:~# mkfs.ext4 /dev/sda7
+    root@peter-work:~# mount /dev/sda7 /home/peter/sda7/ -t ext4
+
