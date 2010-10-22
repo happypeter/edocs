@@ -42,3 +42,9 @@ reset virtualbox once
 only this is needed as a command,
 
 then goto virtualbox->add new machine->use exsiting disk--------done!
+
+## add shared folder
+
+in windows(as guest OS)
+
+http://www.giannistsakiris.com/index.php/2007/09/28/virtualbox-access-shared-folders-from-windows-xp-guest-os/
