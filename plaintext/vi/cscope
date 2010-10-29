@@ -13,3 +13,14 @@ cd .vim/plugin
 wget http://cscope.sourceforge.net/cscope_maps.vim
 
 and it just works, ZERO modification
+
+## python support
+
+find . -name "*.py" >cscope.files
+cscope -R
+
+then go to vim and try:
+
+cscope find s sth
+
+worked.
