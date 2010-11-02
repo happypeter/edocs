@@ -48,3 +48,20 @@ nuch nicer looking, but how to do it?
 
     :TlistAddFiles *
 
+
+## python 
+billie@billie-desktop:~/ddd$ tree
+.
+|-- hello.py
+|-- main.py
+|-- tags
+`-- xx
+    |-- __init__.py
+    `-- sub.py
+
+1 directory, 5 files
+billie@billie-desktop:~/ddd$ history |grep xargs
+  338  find . -name "*.py"|xargs ctags
+
+use above and then "Ctr+]" to find definition of a fuction, and use it the same time will cscope
+
