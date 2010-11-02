@@ -92,3 +92,11 @@ http://www.moolenaar.net/habits.html
 4.  `qa + ... + q + @a`---- recording
 5.  `C+n` ---- auto-complete a complex word that has prototype in file or `#include`s
 
+## vim-server now works
+
+apt-get install vim-full
+vim --servername VIM
+
+then go to another term
+
+vim --remote filename
