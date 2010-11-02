@@ -16,11 +16,8 @@ and it just works, ZERO modification
 
 ## python support
 
-find . -name "*.py" >cscope.files
-cscope -R
-
-then go to vim and try:
-
-cscope find s sth
-
-worked.
+billie@billie-desktop:~/Desktop/Django-1.2.3$ find ~/Desktop/Django-1.2.3 -name '*.py' >  ~/Desktop/Django1.2.3/cscope.files # do NOT use ".", if you do not want to see "no cscope connection" when you are in sudirs
+billie@billie-desktop:~/Desktop/Django-1.2.3$ cscope -b
+billie@billie-desktop:~/Desktop/Django-1.2.3$ vim cscope.files 
+billie@billie-desktop:~/Desktop/Django-1.2.3$ CSCOPE_DB=~/Desktop/Django-1.2.3/cscope.out 
+billie@billie-desktop:~/Desktop/Django-1.2.3$ export CSCOPE_DB
