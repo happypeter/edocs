@@ -1,6 +1,10 @@
 chown peter: file
 chown :peter file #this makes chgrp dated
 
-# Run the last command as root
-
+# stuff from
+http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained
+## Run the last command as root
 $ sudo !!
+
+$ ^foo^bar^
+$ !whatever:p
