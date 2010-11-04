@@ -7,4 +7,4 @@ http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained
 $ sudo !!
 
 $ ^foo^bar^
-$ !whatever:p
+$ !whatever:p # Ctr-r is a better way then this
