@@ -1,31 +1,7 @@
-son of VideoEdit
 
  1. how to save what you've done file->render
  1. Import image Settings->Preferences->recording->images-5Second
  1. drag and drop very usefu, see manual for details 
-
-
-## install 
-follow http://cinelerra.org/getting_cinelerra.php#jaunty
-
-ADD =deb http://akirad.cinelerra.org akirad-jaunty main= TO  
-
-=/etc/apt/sources.list=
-
-DO:
-    
-
-    wget -q http://akirad.cinelerra.org/pool/addakirad.deb && sudo dpkg -i addakirad.deb && rm addakirad.deb && sudo apt-get update
-    
-
-THEN:
-    
-
-    
-    pet@cow:~/Desktop$ sudo apt-get install cinelerracv
-    
-
-
 
 ## video lecture available
 [[lecture_cinelerra]]
