@@ -36,3 +36,16 @@ just follow the error message and everything is done. haha
 this is the **best doc**
 
 https://wiki.ubuntu.com/PackagingGuide/Basic?action=show&redirect=HowToBuildDebianPackagesFromScratch/
+
+## dep error
+
+some times:
+
+    failed deps: bar1.1 is reuiquied by bar1.2 is to be installed
+
+this is simplely because you are now have a higher version than what is depended on.
+the fix:
+    
+    aptitude purge bar
+
+then things shall work.
