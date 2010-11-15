@@ -94,7 +94,7 @@ http://www.moolenaar.net/habits.html
 
 ## vim-server now works
 
-apt-get install vim-full
+apt-get install vim-gtk
 vim --servername VIM
 
 then go to another term
