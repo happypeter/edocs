@@ -65,3 +65,17 @@ I tried http://manpages.ubuntu.com/manpages/intrepid/man1/recordmydesktop.1.html
 	peter@bull:~$ recordmydesktop  -freq 4 -fps 1 -o sim.ogv
 
 but did not make it much smaller.
+
+## voice gone on 9.10
+
+and I see this
+
+    peter@vostro:~$ audacity 
+    bt_audio_service_open: connect() failed: Connection refused (111)
+
+
+the fix is simply this:
+
+    peter@vostro:~$ sudo dpkg --purge bluez-alsa
+
+
