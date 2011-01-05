@@ -1,3 +1,12 @@
+## taiyuan
+
+just open the gui config window, and type everything as you do in windows
+and then reboot your machine, done
+and this does not matter:
+
+    peter@vostro:~/repo-farm/hen$ ifup eth0
+    ifup: couldn't read interfaces file "/etc/network/interfaces"
+
 ## beijing router
 there is a port named *WAN*
 you nust plug the *input* cable into this port.
