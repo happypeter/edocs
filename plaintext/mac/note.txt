@@ -3,6 +3,7 @@
 I finally installed xcode through the osx CD, and then
 
     sudo brew install wget
+    # also works for tig markdown
 
 
 ## keycastr
