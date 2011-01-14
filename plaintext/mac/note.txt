@@ -3,7 +3,7 @@
 I finally installed xcode through the osx CD, and then
 
     sudo brew install wget
-    # also works for tig markdown
+    # also works for tig markdown mplayer
 
 
 ## keycastr
@@ -13,6 +13,10 @@ I've heard good things about KeyCastr, but since there's no documentation I stru
 ### termial
 
 uncheck `secure keyboard entry`
+
+to hide the menu bar:
+
+http://www.mactricksandtips.com/2009/07/hide-the-menubar-or-dock-in-specific-apps.html
 
 ## screenflow
 
