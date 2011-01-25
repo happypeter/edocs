@@ -1,0 +1,67 @@
+""""""""""
+"  Taiyan
+""""""""""
+Fu Lingzhi:
+<lexuszhi1990@gmail.com>
+
+Xu Weidong:
+<3xwd@163.com>
+
+Shishan:
+<wenjiashe@126.com>
+
+Shen Guangyao:
+<szkbsgy@sina.com>
+
+Liu Mingyu:
+<lmymingyu@163.com>
+
+Chang Yuxin:
+<cyx1743@163.com>
+
+Jiang Ronghua:
+<jiangronghua0312@qq.com>
+
+
+""""""""
+" Qinhuangdao
+""""""""
+
+Zhang Li:
+<zhangli200408@163.com>
+
+Zhou Haijun:
+<woshizhouhaijun@163.com>
+
+Li xiaolong:
+<jiesse@126.com>
+
+Xing Meng:
+<xingmeng1228@163.com>
+
+Li Zhenwei:
+<171576916@qq.com>
+
+Hu Longchuan:
+<894905810@qq.com>
+
+Fan Zhenping:
+<xiaopei0905@126.com>
+
+Zhang Zhengshan:
+<zzs407052378@126.com>
+
+Gao Jinlong:
+<ymqqqqdx@163.com>
+
+
+sent to all with:
+<lexuszhi1990@gmail.com>,<3xwd@163.com>,<wenjiashe@126.com>,<szkbsgy@sina.com>,<lmymingyu@163.com>,<cyx1743@163.com>,<jiangronghua0312@qq.com>,<zhangli200408@163.com>,<woshizhouhaijun@163.com>,<jiesse@126.com>,<xingmeng1228@163.com>,<171576916@qq.com>,<894905810@qq.com>,<xiaopei0905@126.com>,<zzs407052378@126.com>,<ymqqqqdx@163.com>,<happypeter1983@gmail.com>
+
+get the above by:
+
+:%g/.com/p
+
+copy the output to another file, then
+
+:%s/\n/,/g
