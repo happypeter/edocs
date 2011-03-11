@@ -1,3 +1,16 @@
+## hosting provider
+#
 http://www.netnic.com.cn/
 
 ShanRui R520
+
+## set up git 
+
+http://progit.org/book/ch4-1.html
+
+the server side must be a bare repo
+
+add  some code in `.git/hook/post-recive`
+
+so that jekyll will do a updated on the site
+
