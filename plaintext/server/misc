@@ -1,5 +1,5 @@
 ## hosting provider
-#
+
 http://www.netnic.com.cn/
 
 ShanRui R520
@@ -10,7 +10,15 @@ http://progit.org/book/ch4-1.html
 
 the server side must be a bare repo
 
-add  some code in `.git/hook/post-recive`
+add  some code in `.git/hook/post-receive`
 
 so that jekyll will do a updated on the site
 
+
+## ssh 
+
+    git clone peter@happypeter.org:repo.git
+
+be sure to have `repo.git` in /home/peter/ rather than /var/www
+
+anyway http is port80 while ssh is 22
