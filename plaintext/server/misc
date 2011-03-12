@@ -4,14 +4,12 @@ http://www.netnic.com.cn/
 
 ShanRui R520
 
-## set up git 
-
-
-
 
 ## ssh 
 
 http://progit.org/book/ch4-1.html
+
+install openssh-server
 
 the server side must be a bare repo
 
