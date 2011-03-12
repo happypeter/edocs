@@ -6,19 +6,36 @@ ShanRui R520
 
 ## set up git 
 
-http://progit.org/book/ch4-1.html
 
-the server side must be a bare repo
-
-add  some code in `.git/hook/post-receive`
-
-so that jekyll will do a updated on the site
 
 
 ## ssh 
+
+http://progit.org/book/ch4-1.html
+
+the server side must be a bare repo
 
     git clone peter@happypeter.org:repo.git
 
 be sure to have `repo.git` in /home/peter/ rather than /var/www
 
 anyway http is port80 while ssh is 22
+
+## jekyll
+
+
+add  some code in `.git/hook/post-receive`
+
+so that jekyll will do a updated on the site
+
+
+    echo "hi jekyll"
+    echo $PWD
+    cd ..
+    git clone happypeter.github.com.git
+    cd happypeter.github.com
+    rm -rf /var/www/site
+    jekyll && mv _site /var/www/site # chown peter /var/www
+    cd ..
+    rm -rf  happypeter.github.com
+
