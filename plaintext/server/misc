@@ -25,6 +25,12 @@ be sure to have `repo.git` in /home/peter/ rather than /var/www
 
 anyway http is port80 while ssh is 22
 
+add public key to happypeter.org is easy:
+
+    ssh-copy-id peter@happypeter.org
+
+check this for more <https://help.ubuntu.com/10.04/serverguide/C/openssh-server.html>
+
 ## jekyll
 
 
