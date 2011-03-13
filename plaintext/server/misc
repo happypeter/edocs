@@ -52,3 +52,5 @@ so that jekyll will do a updated on the site
 ## how many visitors
 
 I can get it by checking `/var/log/apache2/accesslog`
+
+I want a HackerNews more than wikiWiki
