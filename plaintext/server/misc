@@ -49,3 +49,6 @@ so that jekyll will do a updated on the site
     cd ..
     rm -rf  happypeter.github.com
 
+## how many visitors
+
+I can get it by checking `/var/log/apache2/accesslog`
