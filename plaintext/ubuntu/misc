@@ -1,3 +1,11 @@
+## set IP 
+
+In taiyuan, Linux machine had some problem to get DNS server address, 
+what I did was:
+
+    system->preference->network connection
+
+and then copy everything  you see in windows connection into the popup here.
 ## keyring problem in ubuntu 10.10
 
     system->preference->passwds and encrpt keyrings
