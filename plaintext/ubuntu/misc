@@ -1,3 +1,11 @@
+## keyring problem in ubuntu 10.10
+
+    system->preference->passwds and encrpt keyrings
+
+delete `defualt` by right clicking on it
+reboot the system, and try to connect to wireless network
+then you'll be asked for new passwd for the keyring, leave it empty
+and you're done
 ## check disk use
 
     df -h
