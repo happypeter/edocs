@@ -1,3 +1,9 @@
+## add a user
+
+    adduser billie # this is the front-end to useradd, who won't care about passwd and homedir, so adduser is preferred 
+    usermod -g admin billie # add billie to admin group, so sudo granted
+
+
 ## set IP 
 
 In taiyuan, Linux machine had some problem to get DNS server address, 
