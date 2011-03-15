@@ -93,3 +93,9 @@ http://www.ubuntugeek.com/ubuntu-networking-configuration-using-command-line.htm
     $ cat /etc/resolv.conf 
     nameserver 211.161.46.85
     nameserver 211.161.46.84
+
+## now connected without my router
+
+this time dhcp failed,(since my home net use pppoe), but nice thing is if pompmted for a ip address(which is the case I should use in Qishang server room). But now I gave only a junk address and everything, but even though eth0 was there when the install was finished and I just copied what I should give to /etc/network/interfaces and /etc/resolv.conf
+
+reboot, and ping baidu.com worked
