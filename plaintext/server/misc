@@ -56,3 +56,40 @@ I can get it by checking `/var/log/apache2/accesslog`
 I want a HackerNews more than wikiWiki
 
 and it's search with google, nice
+
+# install server 10.10
+
+you need to install the os with your eth net cable plugged in, otherwise when you reboot the os, you see no 'eth0' in the output of `ifconfig`
+
+## now config ip
+
+have this in /etc/network/interfaces:
+
+
+    #loopback network interface
+    auto lo
+    iface lo inet loopback
+
+    # The primary network interface
+    auto eth0
+    #iface eth0 inet dhcp (peter commented out this line)
+    iface eth0 inet static
+
+    address 192.168.1.108
+    netmask 255.255.255.0
+    # use `route` to get gateway as 'defaut' in the output
+    gateway 192.168.1.1
+    broadcast 192.168.1.255
+
+ping www.baidu.com worked after os reboot(if u use `sudo
+/etc/init.d/networking restart` here, u end up with a error, so just do a os reboot), eventhough I did not config DNS.
+
+## DNS
+
+nice post:
+http://www.ubuntugeek.com/ubuntu-networking-configuration-using-command-line.html
+
+
+    $ cat /etc/resolv.conf 
+    nameserver 211.161.46.85
+    nameserver 211.161.46.84
