@@ -103,3 +103,7 @@ reboot, and ping baidu.com worked
 ## now without cable at all
 
 you will still have eth0 as long as you do not choose `Do not config network this time`, that's my lastest two installations showed.
+
+## install on server
+
+everything went well, except that, there are three plug on the box, note the lefe most one is eth0. Wong plug won't work.
