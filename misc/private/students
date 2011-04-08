@@ -1,3 +1,6 @@
+GET_LIST: cat students |grep .com|grep -v GET_LIST|awk '{print "<"$1">"}'|tr  '\n' ','>dd.txt
+
+
 
 """"""""""
 "  Changchun
