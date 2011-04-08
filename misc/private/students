@@ -1,25 +1,68 @@
+
+""""""""""
+"  Changchun
+""""""""""
+Dong Fangliang:
+charlesdong1989@gmail.com
+
+Feng Tianlong:
+fengtianlong9@gmail.com
+
+Lv Yanglong:    
+longlong080729@gmail.com
+
+    
+Zhang Xu:
+gracezhangxun@gmail.com
+
+Liu Tao:
+liutao_344@163.com
+
+Jiang Zhiwei:
+499517692@qq.com
+
+Wang Guodong:
+530963561@qq.com
+
+Xu Haidong:
+haha917079957@qq.com
+
+Wang Chao:
+charlwng@gmail.com
+
+Cheng Fuxin:
+834436617@qq.com
+
+Ren Yingbo:
+renbo4113@126.com
+
+Jiang Yuwei:
+jyw_2011@126.com
+
+
+
 """"""""""
 "  Taiyan
 """"""""""
-Fu Lingzhi:
+fu Lingzhi:
 <lexuszhi1990@gmail.com>
 
-Xu Weidong:
+xu Weidong:
 <3xwd@163.com>
 
-Shishan:
+shishan:
 <wenjiashe@126.com>
 
-Shen Guangyao:
+shen Guangyao:
 <szkbsgy@sina.com>
 
-Liu Mingyu:
+liu Mingyu:
 <lmymingyu@163.com>
 
-Chang Yuxin:
+chang Yuxin:
 <cyx1743@163.com>
 
-Jiang Ronghua:
+jiang Ronghua:
 <jiangronghua0312@qq.com>
 
 
@@ -27,41 +70,30 @@ Jiang Ronghua:
 " Qinhuangdao
 """"""""
 
-Zhang Li:
+zhang Li:
 <zhangli200408@163.com>
 
-Zhou Haijun:
+zhou Haijun:
 <woshizhouhaijun@163.com>
 
-Li xiaolong:
+li xiaolong:
 <jiesse@126.com>
 
-Xing Meng:
+xing Meng:
 <xingmeng1228@163.com>
 
-Li Zhenwei:
+li Zhenwei:
 <171576916@qq.com>
 
-Hu Longchuan:
+hu Longchuan:
 <894905810@qq.com>
 
-Fan Zhenping:
+fan Zhenping:
 <xiaopei0905@126.com>
 
-Zhang Zhengshan:
+zhang Zhengshan:
 <zzs407052378@126.com>
 
-Gao Jinlong:
+gao Jinlong:
 <ymqqqqdx@163.com>
 
-
-sent to all with:
-<lexuszhi1990@gmail.com>,<3xwd@163.com>,<wenjiashe@126.com>,<szkbsgy@sina.com>,<lmymingyu@163.com>,<cyx1743@163.com>,<jiangronghua0312@qq.com>,<zhangli200408@163.com>,<woshizhouhaijun@163.com>,<jiesse@126.com>,<xingmeng1228@163.com>,<171576916@qq.com>,<894905810@qq.com>,<xiaopei0905@126.com>,<zzs407052378@126.com>,<ymqqqqdx@163.com>,<happypeter1983@gmail.com>
-
-get the above by:
-
-:%g/.com/p
-
-copy the output to another file, then
-
-:%s/\n/,/g
