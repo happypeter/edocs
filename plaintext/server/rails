@@ -7,3 +7,15 @@
 
 now point firefox at http://localhost:3000/
 it worked
+
+## docs
+#
+you actually get a README in `myapp/`
+and you run:
+
+    rake doc:guides
+
+you get nice html docs in `doc/`
+
+These docs surely match the exe running.
+This is important
