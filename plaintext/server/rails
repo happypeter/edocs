@@ -1,0 +1,9 @@
+## get it running on ubuntu 9.10
+
+    sudo apt-get install rails # sqlite irb and anything installed as deps
+    rails new myapp
+    cd myapp
+    rails script/server # not `rails server`
+
+now point firefox at http://localhost:3000/
+it worked
