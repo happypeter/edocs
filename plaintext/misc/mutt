@@ -1,1 +1,45 @@
 http://www.andrews-corner.org/mutt.html#procmail
+
+PROBLEM: Recently accessing to Gmail become a nightmare, so I want a fetchmail to get the mails for me when the network is OK, and I do not want to send mail by gmail, but by  msmtp on my own machine. And of cuourse a textual mail reader is nicer than GUI, so mutt!
+
+## use mutt as a simple gmail client
+
+cat ~/.muttrc
+
+    set imap_user = "happypeter1983@gmail.com"
+    set imap_pass = "03175987345"
+
+    set smtp_url = "smtp://happypeter1983@smtp.gmail.com:587/"
+    set smtp_pass = "03175987345"
+    set from = "happypeter1983@gmail.com"
+    set realname = "peter wang"
+
+    set folder = "imaps://imap.gmail.com:993"
+    set spoolfile = "+INBOX"
+    set postponed="+[Gmail]/Drafts"
+
+    set header_cache=~/.mutt/cache/headers
+    set message_cachedir=~/.mutt/cache/bodies
+    set certificate_file=~/.mutt/certificates
+
+    set move = no
+
+http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-minimal-way/
+
+
+## the real monster
+
+Q: what happened when I see `fetchmail -v` worked well, while in mutt I saw `no mailbox`?
+
+A: there is this in .muttrc
+
+        # If not set in ~/.bashrc:
+        set spoolfile = /var/spool/mail/peter
+
+   but for some reason fetchmail save all mail in /var/mail/peter(peter is a file not dir)
+
+        peter@vostro:/var/spool$ sudo ln -s ../mail/
+
+problem solved
+
+
