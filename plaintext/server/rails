@@ -33,6 +33,11 @@ in turn is needed to:
 
     rake db:migrate 
 
+then maybe a error:
+
+    xxx_development does not exists
+
+all I needed to fix this is manully create this db in mysql.
 
 ## get rails running on ubuntu 9.10
 
