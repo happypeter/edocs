@@ -1,3 +1,26 @@
+## db on 10.10-server and 10.04-desktop
+
+    sudo apt-get install mysql-server # client and things are installed as deps
+    sudo apt-get install phpmyadmin # php-cli and things are installed as deps
+
+### finally 
+
+    root@lover:/etc/phpmyadmin# vim config.inc.php 
+
+uncomment this line:
+
+    $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+
+and add a link:
+
+    peter@lover:/var/www$ ln -s /usr/share/phpmyadmin/
+
+now point firefox at:
+
+    http://happypeter.org/phpmyadmin/
+
+you can login as root with no passwd
+
 ## get it running on ubuntu 9.10
 
     sudo apt-get install rails # sqlite irb and anything installed as deps
