@@ -3,7 +3,7 @@
     sudo apt-get install mysql-server # client and things are installed as deps
     sudo apt-get install phpmyadmin # php-cli and things are installed as deps
 
-### finally 
+and now:
 
     root@lover:/etc/phpmyadmin# vim config.inc.php 
 
@@ -21,7 +21,20 @@ now point firefox at:
 
 you can login as root with no passwd
 
-## get it running on ubuntu 9.10
+### connect mysql to rails
+
+    sudo apt-get install libmysqlclient16 libmysqlclient16-dev
+
+is needed for:
+
+    sudo gem install mysql
+
+in turn is needed to:
+
+    rake db:migrate 
+
+
+## get rails running on ubuntu 9.10
 
     sudo apt-get install rails # sqlite irb and anything installed as deps
     rails new myapp
