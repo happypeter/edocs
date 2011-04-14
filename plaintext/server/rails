@@ -23,6 +23,8 @@ above is how I installed rails3 on ubuntu10.04
     rails new blog -d mysql
     rake doc:guides # need a burdle install here
 
+then I followed the doc, and everything works well.
+
 ## db on 10.10-server and 10.04-desktop
 
     sudo apt-get install mysql-server # client and things are installed as deps
