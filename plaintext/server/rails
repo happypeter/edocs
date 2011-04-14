@@ -58,24 +58,8 @@ is needed for:
 
 in turn is needed to:
 
+    rake db:create
     rake db:migrate 
-
-then maybe a error:
-
-    xxx_development does not exists
-
-all I needed to fix this is manully create this db in mysql.
-
-## get rails running on ubuntu 9.10
-
-    sudo apt-get install rails # sqlite irb and anything installed as deps
-    rails new myapp
-    cd myapp
-    rails script/server # not `rails server`
-
-now point firefox at http://localhost:3000/
-it worked
-
 ## docs
 #
 you actually get a README in `myapp/`
@@ -87,3 +71,17 @@ you get nice html docs in `doc/`
 
 These docs surely match the exe running.
 This is important
+
+## apache
+
+    sudo gem install passenger
+    sudo passenger-install-apache2-module 
+    sudo vim /etc/apache2/httpd.conf
+
+and you difinitely need:
+
+    peter@peter-Vostro:~/xxx/blog$ rake RAILS_ENV=production db:create
+    (in /home/peter/xxx/blog)
+    peter@peter-Vostro:~/xxx/blog$ rake RAILS_ENV=production db:migrate
+
+now firefox www.whatever_in_etchosts_for_localhost.com works, but phpmyadmin no longer works
