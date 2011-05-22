@@ -1,20 +1,3 @@
-HP Laserjet P1007
+on 10.10
 
-** now on a fresh ubuntu 9.04
-type "hp+<tab>", then I see all hp printer commands already installed
-
-so there is  no need to do 
-
-apt-get install hplip
-
-but you do need to install the driver, and due to the absence of pyQt or sth
-
-the GUI installer will crash, afeter you type in the root passwd
-
-but do not worry, there is text based installer available
-
-all it takes is 
-
-#hp-plugin -i
-
-that is all, only one command, and everything is settled.
+all you need is plug in the printer and power it on, and you will get a popup  that guides through some easily steps, things work without reboot os.
