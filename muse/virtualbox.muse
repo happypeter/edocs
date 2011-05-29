@@ -1,17 +1,15 @@
-virtualbox
-
-InStallation:
+# Installation:
 
 1. you have to issue $apt-get update   on a newly installed ubuntu 8.04/8.10
 
-2. $apt-get install virtualbox (in 10.4 the pkg name is virtualbox-ose)
+2. $apt-get install virtualbox (in 10.4 the pkg name is virtualbox-ose, `aptitude search box`)
 
 # and in 10.04, things are here
-
     peter@peter-work:~/.VirtualBox$ ls
     compreg.dat  HardDisks  Machines  VirtualBox.xml  xpti.dat
 
-to use scp, u need to device->network device and choose `bridged`, then reboot vm, now
+# scp
+u need to device->network device and choose `bridged`, then reboot vm, now
 the ip of vm and real machince are on same net seg, so that scp is possiable
 
 USAGE:
