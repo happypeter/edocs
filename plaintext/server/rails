@@ -1,24 +1,21 @@
-# gem install
+# install
+http://ivanbernat.com/guides/install-rails-3-with-sqlite3-mysql-ubuntu-10/
 
-     2016  sudo gem install rails
-     2017  sudo gem install activesupport
-     2018  sudo gem install rails
-     2019  sudo gem install actionpack
-     2020  sudo gem install activemodel
-     2021  sudo gem install actionpack
-     2022  sudo gem install rails
-     2023  sudo gem install activerecord
-     2024  sudo gem install rails
-     2025  sudo gem install activeresource
-     2027  sudo gem install rails
-     2028  sudo gem install actionmailer
-     2029  sudo gem install rails
-     2030  sudo gem install railties
-     2031  sudo gem install rails
-     2032  sudo gem install rdoc-data
-     2034  sudo gem rdoc --all --overwrite
+ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
 
-above is how I installed rails3 on ubuntu10.04
+    sudo apt-get install zlib1g zlib1g-dev 
+
+    cd .rvm/src/ruby-1.9.2-p180/ext/zlib
+
+    ruby extconf.rb
+
+    make
+
+    sudo make install
+
+everything else works perfectly well.
+
+# new app
 
     rails new blog -d mysql
     rake doc:guides # need a burdle install here
