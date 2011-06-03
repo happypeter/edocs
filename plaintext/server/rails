@@ -45,7 +45,18 @@ and this link is useful when you have to use 0.9:
 http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
 
 
+## reboot
 
+after reboot `ruby` and `bundle` are both not found, the fix is easy:
+
+    rvm use 1.9.2 # rvm 1.9.2 --default
+
+and rake is now 0.9 again, fix:
+    
+    gem uninstall rake -v 0.9
+    gem install rake -v 0.8.7
+
+    
 
 
 # new app
