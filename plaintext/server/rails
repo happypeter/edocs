@@ -1,6 +1,8 @@
 # install
 http://ivanbernat.com/guides/install-rails-3-with-sqlite3-mysql-ubuntu-10/
 
+## gem issue
+
 ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
 
     sudo apt-get install zlib1g zlib1g-dev 
@@ -15,7 +17,36 @@ ERROR: when running `gem install rails`, the error was 'no file to load -- zlib'
 
 everything else works perfectly well.
 
+NOTE: similar problem also happens to __openssl__ and __libreadline__, but till now I see none, fixes go here: 
+http://intertwingly.net/blog/2009/09/13/RVM-for-Ubuntu-Tip
+## change .bashrc for rvm
 NOTE: rvm hates the `&&return` in .bashrc
+
+## rake issue 
+Error looks:
+
+    'task' undefined
+
+or:
+
+    rails rake problems: uninitialized constant Rake::DSL 
+
+
+this is a reported bug for rake 0.9, I fix this by downgrade it to 0.8.7
+
+add this in to Gemfile:
+
+    gem 'rake', '0.8.7'
+
+and then `bundle update`, like suggested here:
+http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0/5290331#5290331
+
+and this link is useful when you have to use 0.9:
+http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
+
+
+
+
 
 # new app
 
