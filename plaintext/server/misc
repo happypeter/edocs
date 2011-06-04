@@ -1,3 +1,12 @@
+## forced reboot
+
+so my whole system went readonly days ago, no one can figure out what is happening, The fix was a forced reboot:
+
+    echo 1 > /proc/sys/kernel/sysrq
+    echo b > /proc/sysrq-trigger
+
+http://www.linuxquestions.org/questions/linux-newbie-8/input-output-error-222152/
+    
 ## doc ubuntu
 
 ubuntu has nice docs on server admin: 
