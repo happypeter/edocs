@@ -1,3 +1,7 @@
+## disable touch pad while typing:
+
+    gpointing-device-settings
+
 ## add a user
 
     adduser billie # this is the front-end to useradd, who won't care about passwd and homedir, so adduser is preferred 
