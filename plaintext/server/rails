@@ -1,6 +1,8 @@
 # install
 http://ivanbernat.com/guides/install-rails-3-with-sqlite3-mysql-ubuntu-10/
 
+NOTE: when running `rvm install 1.9.2`, now ruby is installed of course, but also rubygems, which is great.
+
 ## gem issue
 
 ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
