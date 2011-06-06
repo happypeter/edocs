@@ -43,6 +43,11 @@ add this in to Gemfile:
 and then `bundle update`, like suggested here:
 http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0/5290331#5290331
 
+and then run this:
+
+    gem uninstall rake -v 0.9.0
+
+
 and this link is useful when you have to use 0.9:
 http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
 
