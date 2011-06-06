@@ -1,3 +1,8 @@
+## install all updates in CLI
+
+    apt-get update
+    apt-get upgrade
+
 ## which provides
 
     pet@cow:~$ dpkg -S /bin/ls

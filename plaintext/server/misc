@@ -1,3 +1,12 @@
+## VPS
+
+
+yellowbug:  http://www.hi-pda.com/forum/viewthread.php?tid=761054&extra=page%3D1
+
+# firewall
+
+http://denyhosts.sourceforge.net/
+
 ## forced reboot
 
 so my whole system went readonly days ago, no one can figure out what is happening, The fix was a forced reboot:
