@@ -21,6 +21,17 @@ everything else works perfectly well.
 
 NOTE: similar problem also happens to __openssl__ and __libreadline__, but till now I see none, fixes go here: 
 http://intertwingly.net/blog/2009/09/13/RVM-for-Ubuntu-Tip
+http://cjohansen.no/en/ruby/ruby_version_manager_ubuntu_and_openssl
+
+ERROR:
+
+    in `block in replace_bin_path': can't find executable rails 
+
+FIX:
+
+    gem install rails
+
+just do this again, and things back to normal
 ## change .bashrc for rvm
 NOTE: rvm hates the `&&return` in .bashrc
 
