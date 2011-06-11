@@ -12,18 +12,14 @@
 ## search package
 
     aptitude search tig
-    
-  504  man dpkg
-  505  dpkg --get-selections |grep lynx
-  506  dpkg -L lynx-cur
-  507  vim /etc/lynx-cur/lynx.cfg
-  508  vim /etc/lynx-cur/lynx.lss
-  509  sudo vim /etc/lynx-cur/lynx.lss
-  510  lynx www.google.com
-  511  history
-  512  dpkg -L lynx
-  513  dpkg -L lynx-cur
-  514  vim /etc/lynx-cur/lynx.lss
+## check which file to edit if you want a new theme    
+
+    dpkg -l |grep lynx
+    dpkg -L lynx-cur
+    vim /etc/lynx-cur/lynx.cfg
+    vim /etc/lynx-cur/lynx.lss
+    sudo vim /etc/lynx-cur/lynx.lss
+    lynx www.google.com
 
 ## dry-run
 
