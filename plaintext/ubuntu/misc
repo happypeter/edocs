@@ -1,3 +1,11 @@
+## revover MBR (mbr) with liveCD
+this is useful when you install windows after your ubuntu installation, or simply your mbr is messed up for any reason:
+
+    1. boot from liveCD
+    2. mount your partition where your earlier /boot/grub is
+    3. sudo grub-install --root-directroy=/media/uuid-of-the partition /dev/sda( do not use sda6, even your /boot is on sda6)
+    4. that's all.
+
 ## full text search
 
 tracker : full text search
