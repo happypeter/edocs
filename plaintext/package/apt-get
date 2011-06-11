@@ -10,10 +10,11 @@ but I can find url in /etc/apt/sources.list, and get it by
     firefox http://cn.archive.ubuntu.com/ubuntu/pool/universe/x/xorg/
 
     
+## uninstall packages
 
-    apt-get purge
-    
-    apt-get rm
+    apt-get purge vim-core
+ 
+## get exact package name
     
     pet@cow:~$ dpkg-query -l|grep emacs
     
@@ -21,11 +22,6 @@ but I can find url in /etc/apt/sources.list, and get it by
     /usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el
     pet@cow:~$ 
     
-    
-    
-
-
-see [[dpkg]]
 
 ## build deb
 http://en.wikipedia.org/wiki/Debian_Package_Maker
