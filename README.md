@@ -1,1 +1,1 @@
-## Peter's notes and docs
+## Peter's docs
