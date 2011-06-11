@@ -144,3 +144,19 @@ and you difinitely need:
     peter@peter-Vostro:~/xxx/blog$ rake RAILS_ENV=production db:migrate
 
 now firefox www.whatever_in_etchosts_for_localhost.com works, but phpmyadmin no longer works
+## Railscasts deployment
+
+ERROR: Could not find eventmachine-0.12.10 in any of the sources
+
+
+FIX:
+sudo apt-get install libxml2-dev libxslt-dev g++ mysql-server  libmysqlclient-dev
+
+ERROR: rake db:migrate failed
+
+FIX: 
+
+    iii sphinxsearch
+
+    https://github.com/ryanb/railscasts/wiki/Deployment
+
