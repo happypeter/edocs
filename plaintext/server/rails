@@ -19,7 +19,7 @@ ERROR: when running `gem install rails`, the error was 'no file to load -- zlib'
 
 everything else works perfectly well.
 
-NOTE: similar problem also happens to __openssl__ and __libreadline__, but till now I see none, fixes go here: 
+NOTE: similar problem also happens to __openssl__ and __libreadline__,fixes go here: 
 http://intertwingly.net/blog/2009/09/13/RVM-for-Ubuntu-Tip
 http://cjohansen.no/en/ruby/ruby_version_manager_ubuntu_and_openssl
 
@@ -199,3 +199,5 @@ now:
     sudo apachectl graceful
 
 and now point firefox at 192.168.1.103(the ip of the very VM), works.
+
+and now I go to add a feedback msg in the brower, and the msg goes to mysql without any error.
