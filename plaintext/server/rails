@@ -160,3 +160,42 @@ FIX:
 
     https://github.com/ryanb/railscasts/wiki/Deployment
 
+now I check condif/database.yml, and now I know if u use development environment, mysql sock will be in /tmp/, but now in my mysql database, I have railscasts_production, so I know this will do:
+
+    rake RAILS_ENV=production db:migrate
+
+now all the tables in database: railscasts_production are successfully created.
+
+but when I start rails server with:
+
+    rails s
+
+still in the browser I see the same error: can not connect .../tmp/sock.sql
+
+and now I know I need to passenger and try to set all my env to: production.
+
+    gem install passenger
+    passenger-install-apache2-module # no sudo for both, but `cd railscasts/` is a must
+
+    sudo vim /etc/apache2/http.conf
+
+and add:
+
+    LoadModule passenger_module /home/peter/.rvm/gems/ruby-1.9.2-p180@railscasts/gems/passenger-3.0.7/ext/apache2/mod_passenger.so
+    PassengerRoot /home/peter/.rvm/gems/ruby-1.9.2-p180@railscasts/gems/passenger-3.0.7
+    PassengerRuby /home/peter/.rvm/wrappers/ruby-1.9.2-p180@railscasts/ruby
+    <VirtualHost *:80>
+        ServerName www.lll.com
+        DocumentRoot /home/peter/railscasts/public/
+        <Directory /home/peter/railscasts/public>
+           AllowOverride all
+           Options -MultiViews
+        </Directory>
+    </VirtualHost>
+
+
+now:
+
+    sudo apachectl graceful
+
+and now point firefox at 192.168.1.103(the ip of the very VM), works.
