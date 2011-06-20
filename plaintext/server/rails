@@ -1,3 +1,7 @@
+# sqlite:
+
+    sqlite> delete from posts where id=27;
+
 # reading:
 http://www.neilkearney.net/welcome/2011/04/essential-ruby-rails-3-reading/
 # auth with test 
