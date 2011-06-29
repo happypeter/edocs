@@ -145,6 +145,8 @@ This is important
 ## apache
 
     sudo gem install passenger
+    # when dploying on lover, this step failed, so I add passenger to Gemfile,
+    # and bundle update passenger, did the job, nice
     sudo passenger-install-apache2-module 
     sudo vim /etc/apache2/httpd.conf
 
