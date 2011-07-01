@@ -29,9 +29,17 @@ ShanRui R520
 
 my IP:122.115.61.189
 ## domain name provider
-www.maiwangzhang.com
+www.maiwangzhang.com.cn 
+(must have .cn now)
 ID: my gmail address
 PW: my simplest
+
+go to 会员中心 -》 我的域名
+and if you are redirect to 
+http://122.115.36.185/apps/phpSubDNS/
+then you can start adding new sub domain
+
+
 
 
 ## ssh 
