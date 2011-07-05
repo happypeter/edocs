@@ -1,3 +1,15 @@
+# evolution
+is just like outlook
+
+the nice thing to  have it is that I can bind my gmail account to it
+, using it as a email client
+
+configed according to https://help.ubuntu.com/community/UsingGmailWithEvolution
+now I can click on a email-address on webpages and send email directly
+
+##
+
+but maybe light weight command line tools like fetchmail and sendmail are better for me
 http://www.andrews-corner.org/mutt.html#procmail
 
 PROBLEM: Recently accessing to Gmail become a nightmare, so I want a fetchmail to get the mails for me when the network is OK, and I do not want to send mail by gmail, but by  msmtp on my own machine. And of cuourse a textual mail reader is nicer than GUI, so mutt!
@@ -43,3 +55,5 @@ A: there is this in .muttrc
 problem solved
 
 
+#sendmail
+http://seanbehan.com/linux/using-sendmail-to-send-mail-on-ubuntu-box/
