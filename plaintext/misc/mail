@@ -1,44 +1,31 @@
-# evolution
-is just like outlook
-
-the nice thing to  have it is that I can bind my gmail account to it
-, using it as a email client
-
-configed according to https://help.ubuntu.com/community/UsingGmailWithEvolution
-now I can click on a email-address on webpages and send email directly
-
-##
-
-but maybe light weight command line tools like fetchmail and sendmail are better for me
-http://www.andrews-corner.org/mutt.html#procmail
-
 PROBLEM: Recently accessing to Gmail become a nightmare, so I want a fetchmail to get the mails for me when the network is OK, and I do not want to send mail by gmail, but by  msmtp on my own machine. And of cuourse a textual mail reader is nicer than GUI, so mutt!
 
-## use mutt as a simple gmail client
+# this is everything you need to work with gmail
+procmail fetchmail and mutt, but not sendmail info here:
 
-cat ~/.muttrc
+    http://www.andrews-corner.org/mutt.html
 
-    set imap_user = "happypeter1983@gmail.com"
-    set imap_pass = "03175987345"
+# fetchmail
 
-    set smtp_url = "smtp://happypeter1983@smtp.gmail.com:587/"
-    set smtp_pass = "03175987345"
-    set from = "happypeter1983@gmail.com"
-    set realname = "peter wang"
+.fetchmailrc
 
-    set folder = "imaps://imap.gmail.com:993"
-    set spoolfile = "+INBOX"
-    set postponed="+[Gmail]/Drafts"
+    poll pop.gmail.com
+    with proto POP3
+    user 'happypeter1983'
+    there with password '03175987345'
+    is 'peter' here
+    mda "/usr/bin/procmail -d %T"
+    options
+    no keep
+    ssl
+    sslcertck
+    sslcertpath /home/peter/.certs/
 
-    set header_cache=~/.mutt/cache/headers
-    set message_cachedir=~/.mutt/cache/bodies
-    set certificate_file=~/.mutt/certificates
 
-    set move = no
-
-http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-minimal-way/
 ## really good mutt tutorial
+#
 http://mutt.blackfish.org.uk/sending/
+
 ## mutt works perfectly
 if you don't have :
 
@@ -49,6 +36,7 @@ in your .muttrc
 mutt willl by default use sendmail, [mutt does not talk smtp](http://mutt.blackfish.org.uk/sending/)
 
 now my .muttrc is just these lines, and things works perfectly for me:
+
     # set from 
     set realname = "Peter Wang" 
     set from = "happypeter1983@gmail.com"
@@ -59,6 +47,9 @@ now my .muttrc is just these lines, and things works perfectly for me:
     # vim of course!
     set editor="vim -c 'set tw=70 et' '+/^$' "
     set edit_headers=yes      # See the headers when editing
+
+so now I have my fetchmail to get all mails for me throw POP, and then I sendmail with my local machine,  but pretend 
+to be happypeter1983@gmail.com by the settings in .muttrc, everything works really fast.
 
 ## the real monster
 
@@ -88,3 +79,40 @@ http://rimuhosting.com/support/settingupemail.jsp?mta=sendmail&t=dns#dns
 nmap happypeter.org
 
 now how to open port 25 for smtp?
+
+# other stuff
+## evolution
+is just like outlook
+
+the nice thing to  have it is that I can bind my gmail account to it
+, using it as a email client
+
+configed according to https://help.ubuntu.com/community/UsingGmailWithEvolution
+now I can click on a email-address on webpages and send email directly
+
+## use mutt as a simple gmail client 
+
+
+cat ~/.muttrc
+
+    set imap_user = "happypeter1983@gmail.com"
+    set imap_pass = "03175987345"
+
+    set smtp_url = "smtp://happypeter1983@smtp.gmail.com:587/"
+    set smtp_pass = "03175987345"
+    set from = "happypeter1983@gmail.com"
+    set realname = "peter wang"
+
+    set folder = "imaps://imap.gmail.com:993"
+    set spoolfile = "+INBOX"
+    set postponed="+[Gmail]/Drafts"
+
+    set header_cache=~/.mutt/cache/headers
+    set message_cachedir=~/.mutt/cache/bodies
+    set certificate_file=~/.mutt/certificates
+
+    set move = no
+
+http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-minimal-way/
+
+I don't really love this approch, tooo slow
