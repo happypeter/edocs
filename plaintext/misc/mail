@@ -57,3 +57,13 @@ problem solved
 
 #sendmail
 http://seanbehan.com/linux/using-sendmail-to-send-mail-on-ubuntu-box/
+
+check which port is available:
+
+    http://www.mxtoolbox.com/
+
+http://rimuhosting.com/support/settingupemail.jsp?mta=sendmail&t=dns#dns
+
+nmap happypeter.org
+
+now how to open port 25 for smtp?
