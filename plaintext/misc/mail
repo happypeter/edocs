@@ -37,7 +37,28 @@ cat ~/.muttrc
     set move = no
 
 http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-minimal-way/
+## really good mutt tutorial
+http://mutt.blackfish.org.uk/sending/
+## mutt works perfectly
+if you don't have :
 
+set sendmail="/usr/bin/msmtp"
+
+in your .muttrc
+
+mutt willl by default use sendmail, [mutt does not talk smtp](http://mutt.blackfish.org.uk/sending/)
+
+now my .muttrc is just these lines, and things works perfectly for me:
+    # set from 
+    set realname = "Peter Wang" 
+    set from = "happypeter1983@gmail.com"
+    set use_from = yes
+    set envelope_from ="yes"
+
+
+    # vim of course!
+    set editor="vim -c 'set tw=70 et' '+/^$' "
+    set edit_headers=yes      # See the headers when editing
 
 ## the real monster
 
