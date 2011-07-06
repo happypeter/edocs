@@ -115,4 +115,14 @@ cat ~/.muttrc
 
 http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-minimal-way/
 
-I don't really love this approch, tooo slow
+I don't really love this approach, tooo slow
+
+# FAQ
+Q: now the problem is I mistakenly deleted some of the mail, now I want to retrieve them again, but I could not.
+try to set option from "no keep"=>"keep", and use `fetchmail -a` simply won't work, why?
+
+A: enable gmail POP setting:
+
+    Enable POP for all mail (even mail that's already been downloaded)
+
+
