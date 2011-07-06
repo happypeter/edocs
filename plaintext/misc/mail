@@ -80,6 +80,8 @@ nmap happypeter.org
 
 now how to open port 25 for smtp?
 
+Q: on ubuntu, sendmail does work-out-of box, but if I sendmail on cow or server-me, my  mail will end up putting in spam box, because of the "domain name is not qualitfied". on lover, no such problem, but when I try to use mutt to pretend to be happypeter1983@gmail.com, the resiver gmail will think I am a cheater, and report a error, so what to do? 
+
 # other stuff
 ## evolution
 is just like outlook
