@@ -6,9 +6,9 @@ I finally installed xcode through the osx CD, and then
     # also works for tig markdown mplayer
 
 
-## keycastr
+## KeyCastr
 
-I've heard good things about KeyCastr, but since there's no documentation I struggled a bit to get the keys to display onscreen. If you're having this issue be sure to enable access for assistive devices in the Universal Access pane of System Preferences.
+Be sure to enable access for assistive devices in the Universal Access pane of System Preferences.
 
 ### termial
 
