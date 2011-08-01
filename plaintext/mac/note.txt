@@ -19,12 +19,7 @@ to hide the menu bar:
 http://www.mactricksandtips.com/2009/07/hide-the-menubar-or-dock-in-specific-apps.html
 
 ## screenflow
-
-http://www.mediafire.com/?distr2yxgjd
-
-pw: Codez4mac.com
-
-it works, just can not show key stroks
+macx.cn
 
 ## misc
 ### hide dock
