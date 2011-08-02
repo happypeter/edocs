@@ -39,6 +39,8 @@ to enable this, use Ctrl-F7, OR:
 
 and then select `all controls`
 
+you need to use SPACE rather than ENter to click the button
+
 ### firefox
 Cmd+arrowleft
 Cmd+R
