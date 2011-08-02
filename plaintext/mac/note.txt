@@ -31,6 +31,12 @@ and add the following shit after `<dict>` near the top
 macx.cn
 
 ## misc
+### zoom in and out
+
+OPtion+Cmd+8    on or off
+OPtion+Cmd+-    zoom in
+option+Cmd+=    zoom out
+
 ### switch among buttons
 by defualt, you can not do this using <tab>, which seems really buggy
 to enable this, use Ctrl-F7, OR:
