@@ -22,6 +22,10 @@ http://www.mactricksandtips.com/2009/07/hide-the-menubar-or-dock-in-specific-app
 macx.cn
 
 ## misc
+### firefox
+Cmd+arrowleft
+Cmd+R
+
 ### sogou
 1、如何启动搜狗输入法 for Mac？
 请打开系统偏好设置，选择“语言与文本”，点击“输入源”标签，在输入法列表中找到并勾选“搜狗输入法”。
