@@ -1,3 +1,7 @@
+# rails
+
+the Xcode on Lepord CD is buggy, so must be installed on line
+
 ## wget 
 
 I finally installed xcode through the osx CD, and then
