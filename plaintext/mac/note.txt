@@ -16,7 +16,16 @@ uncheck `secure keyboard entry`
 
 to hide the menu bar:
 
-http://www.mactricksandtips.com/2009/07/hide-the-menubar-or-dock-in-specific-apps.html
+http://www.mactrickosandtips.com/2009/07/hide-the-menubar-or-dock-in-specific-apps.html
+
+steps:
+
+    sudo vim ~/Desktop/Terminal.app/Contents/Info.plist
+
+and add the following shit after `<dict>` near the top
+
+	<key>LSUIPresentationMode</key>
+	<integer>4</integer>
 
 ## screenflow
 macx.cn
