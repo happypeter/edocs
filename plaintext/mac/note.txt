@@ -48,7 +48,8 @@ Cmd+tab to get it back
 apple ID: happypeter1983    PW:111111
 
 
-ctrl+space  run app
+Cmd+space  run app
+Cmd+q      to kill app
 
 F11     show desktop
 
