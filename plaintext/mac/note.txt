@@ -45,8 +45,11 @@ Cmd+R
 
 command+option+d
 
-Cmd+h to hide the current window
-Cmd+tab to get it back
+### windows
+Cmd+h       hide the current window
+Cmd+tab     get it back
+Cmd+m       minimize windows 
+Ctrl+F3     foucs on docs and get the minimized windows back.
 
 
 apple ID: happypeter1983    PW:111111
