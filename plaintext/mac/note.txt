@@ -25,6 +25,11 @@ macx.cn
 ### hide dock
 
 command+option+d
+
+Cmd+h to hide the current window
+Cmd+tab to get it back
+
+
 apple ID: happypeter1983    PW:111111
 
 
