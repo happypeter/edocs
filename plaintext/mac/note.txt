@@ -2,11 +2,14 @@
 
 the Xcode on Lepord CD is buggy, so must be installed on line
 
+(just download the 4.1G xcode from developer.apple.com, then everything is OK)
+
 ## wget 
 
 I finally installed xcode through the osx CD, and then
 
-    sudo brew install wget
+    # https://github.com/mxcl/homebrew/wiki/installation
+    brew install wget # no sudo
     # also works for tig markdown mplayer
 
 
