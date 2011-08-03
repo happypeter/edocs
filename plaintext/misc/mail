@@ -33,7 +33,7 @@ set sendmail="/usr/bin/msmtp"
 
 in your .muttrc
 
-mutt willl by default use sendmail, [mutt does not talk smtp](http://mutt.blackfish.org.uk/sending/)
+mutt will by default use sendmail, [mutt does not talk smtp](http://mutt.blackfish.org.uk/sending/)
 
 now my .muttrc is just these lines, and things works perfectly for me:
 
@@ -81,6 +81,10 @@ nmap happypeter.org
 now how to open port 25 for smtp?
 
 Q: on ubuntu, sendmail does work-out-of box, but if I sendmail on cow or server-me, my  mail will end up putting in spam box, because of the "domain name is not qualitfied". on lover, no such problem, but when I try to use mutt to pretend to be happypeter1983@gmail.com, the resiver gmail will think I am a cheater, and report a error, so what to do? 
+
+## sendmail on mac
+
+it works out of box, but I do not have a real IP and HOST Name for imac, so the mail will be put in Spambox. That's but natural.
 
 # other stuff
 ## evolution
