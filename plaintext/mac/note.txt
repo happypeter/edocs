@@ -6,7 +6,7 @@ the Xcode on Lepord CD is buggy, so must be installed on line
 
 ## wget 
 
-I finally installed xcode through the osx CD, and then
+prereqest is to install xcode
 
     # https://github.com/mxcl/homebrew/wiki/installation
     brew install wget # no sudo
@@ -38,11 +38,12 @@ and add the following shit after `<dict>` near the top
 macx.cn
 
 ## misc
-### zoom in and out
+### zoom in and out the screen
 
 OPtion+Cmd+8    on or off
 OPtion+Cmd+-    zoom in
 option+Cmd+=    zoom out
+Ctrl+two_fingers_on_trackpad   expand part of the screen
 
 ### switch among buttons
 by defualt, you can not do this using <tab>, which seems really buggy
@@ -92,4 +93,3 @@ Cmd+q      to kill app
 
 F11     show desktop
 
-Ctrl+two_fingers_on_trackpad   expand part of the screen
