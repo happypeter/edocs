@@ -86,6 +86,53 @@ Q: on ubuntu, sendmail does work-out-of box, but if I sendmail on cow or server-
 
 it works out of box, but I do not have a real IP and HOST Name for imac, so the mail will be put in Spambox. That's but natural.
 
+## open stmp to the internet (from vbird book)
+
+backup first
+
+    root@lover:/etc/mail# cp sendmail.mc sendmail.mc.peter.bak
+
+now edit sendmail.mc:
+
+        +DAEMON_OPTIONS(`Family=inet,  Name=MTA-v4, Port=smtp, Addr=0.0.0.0')dnl
+        -DAEMON_OPTIONS(`Family=inet,  Name=MTA-v4, Port=smtp, Addr=127.0.0.1')dnl
+
+regenerate sendmail.cf, the error does not matter:
+
+    root@lover:/etc/mail# mv sendmail.cf sendmail.cf.peter.bak
+    root@lover:/etc/mail# m4 sendmail.mc >sendmail.cf
+    *** ERROR: FEATURE() should be before MAILER()
+    *** MAILER(`local') must appear after FEATURE(`always_add_domain')*** ERROR: FEATURE() should be before MAILER()
+    *** MAILER(`local') must appear after FEATURE(`allmasquerade')*** ERROR: FEATURE() should be before MAILER()
+
+restart:
+
+    root@lover:/etc/mail# /etc/init.d/sendmail restart
+
+now check it port 25 is opened to all:
+
+    root@lover:/etc/mail# netstat -tlunp
+
+go to another machine and check:
+
+    nmap happypeter.org
+
+and now I see port 25 is opened, done!
+
+now in local-host-names:
+change
+    
+    lover.happypeter.org
+into
+    happypeter.org
+
+resart sendmail again.
+
+now I can send from gmail to peter@happypeter.org, the mail will be stored in /var/mail/peter
+
+but want I try to send mail, the resiver still see <peter@lover.happypeter.com>, which is bad.
+
+
 # other stuff
 ## evolution
 is just like outlook
