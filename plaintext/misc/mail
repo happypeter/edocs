@@ -132,6 +132,13 @@ now I can send from gmail to peter@happypeter.org, the mail will be stored in /v
 
 but want I try to send mail, the resiver still see <peter@lover.happypeter.com>, which is bad.
 
+so I change /etc/mail/sendmail.mc again:
+
+-MASQUERADE_AS(`lover.happypeter.org')dnl
++MASQUERADE_AS(`happypeter.org')dnl
+
+now fixed
+
 
 # other stuff
 ## evolution
