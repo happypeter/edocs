@@ -137,7 +137,8 @@ so I change /etc/mail/sendmail.mc again:
 -MASQUERADE_AS(`lover.happypeter.org')dnl
 +MASQUERADE_AS(`happypeter.org')dnl
 
-now fixed
+now fixed, I can send on lover to my sina and gmail mailbox, the sender adress is now <peter@happypeter.org>
+great.
 
 
 # other stuff
