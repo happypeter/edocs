@@ -34,3 +34,23 @@ NOW> set parser, go firefox, and type in the adress bar: about:config
 set `network.proxy.socks_remote_dns` to `true`
 NOTE: if this is false(as it was defaulted), I can open youtube page and even login
 but I get "connection timeout" whenever I an trying to view the video/
+
+A BETTER WAY:
+
+use a firefox addon named Autoproxy
+
+Proxy rules -> Add rule subscription -> check "gfwList" then subscribe ->done
+
+and now:
+
+Proxy server -> Edit Proxyserver -> "ssh -D 127.0.0.1 7070  socks5"( this is usually the default, so nothing to do here)
+
+and now:
+
+ ssh -N -D 7070 test009@ss9.he9.org
+
+finally:
+
+Proxy server -> choose Proxyserver -> change whaterver to "ssh -D"
+
+now it works for both Mac and ubuntu
