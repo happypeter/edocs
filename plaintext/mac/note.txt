@@ -1,3 +1,18 @@
+## bash completion for git, ssh ...
+snowleopard has bash completion, but NOT for git, ssh ...
+so I :
+
+    $ sudo port install bash-completion
+
+And then modify your ~/.profile as directed, e.g., by adding:
+
+    if [ -f /opt/local/etc/bash_completion ]; then
+        . /opt/local/etc/bash_completion
+    fi
+
+finally copy `lover:/etc/bash_completion.d/git` to `mac:/opt/local/etc/bash_completion.d/`
+start a new shell, and it JUST works.
+
 # ldd not avaiable
 
    otool -L 
