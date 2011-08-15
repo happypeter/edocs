@@ -1,3 +1,8 @@
+# ldd not avaiable
+
+   otool -L 
+
+
 # rails
 
 the Xcode on Lepord CD is buggy, so must be installed on line
