@@ -31,6 +31,12 @@ the Xcode on Lepord CD is buggy, so must be installed on line
 
 (just download the 4.1G xcode from developer.apple.com, then everything is OK)
 
+follow the installation on official site, still I need to Ctrl-C once runing
+
+    rvm install 1.9.2
+
+like I did on Linux, now done.
+
 ## wget 
 
 prereqest is to install xcode
