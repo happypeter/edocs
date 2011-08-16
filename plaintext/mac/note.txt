@@ -37,6 +37,20 @@ follow the installation on official site, still I need to Ctrl-C once runing
 
 like I did on Linux, now done.
 
+now
+    cd auth-love
+    bundle install
+
+error:
+
+    checking for mysql_query() in -lmysqlclient... no
+
+I try:
+    
+    sudo port install mysql5 # readline openssl ... installed as deps
+
+now  `bundle install` done.
+
 ## wget 
 
 prereqest is to install xcode
