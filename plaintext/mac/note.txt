@@ -51,6 +51,17 @@ I try:
 
 now  `bundle install` done.
 
+but I failed to config this mysql to work, so I:
+
+    sudo port uninstall mysql5 ‑‑follow‑dependencies
+
+now try to install the dmg file:
+http://dancewithnet.com/2010/05/09/run-apache-php-mysql-in-mac-os-x/
+http://dev.mysql.com/doc/refman/5.1/en/macosx-installation-pkg.html
+
+well it's far more well documented, nice. Though I failed to start mysql with
+`mysqld_safe`, but it came alive after reboot.
+
 ## wget 
 
 prereqest is to install xcode
