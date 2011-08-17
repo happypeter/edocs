@@ -39,7 +39,7 @@ when I try to `bundle install` mysql2 failed:
 
     /Users/peter/.rvm/rubies/ruby-1.9.2-p290/include/ruby-1.9.1/ruby/st.h:69: error: size of array ‘st_check_for_sizeof_st_index_t’ is negative
 
-Fuck, it is simply because I installed the x86 dmg file rather then x86_64.
+Fuck, it is simply because I installed the x86 dmg file rather then `x86_64`.
 
 rake problem:
 
@@ -51,5 +51,14 @@ SO I use
 
 it worked well.
 
+### passenger
 
+    cd auth-love
+    bundle install # passenger in Gemfile alreadey
+    passenger-install-apache2-module # NO sudo
 
+now I setup a virtualhost with Passenger.prefpane, from
+
+http://www.fngtps.com/passenger-preference-pane
+
+and install for  `single user`, everything worked as shown in railscasts.com.
