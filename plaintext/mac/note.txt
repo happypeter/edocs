@@ -62,6 +62,14 @@ http://dev.mysql.com/doc/refman/5.1/en/macosx-installation-pkg.html
 well it's far more well documented, nice. Though I failed to start mysql with
 `mysqld_safe`, but it came alive after reboot.
 
+when I try to `bundle install` mysql2 failed:
+
+    /Users/peter/.rvm/rubies/ruby-1.9.2-p290/include/ruby-1.9.1/ruby/st.h:69: error: size of array ‘st_check_for_sizeof_st_index_t’ is negative
+
+Fuck, it is simply because I installed the x86 dmg file rather then x86_64.
+
+
+
 ## wget 
 
 prereqest is to install xcode
