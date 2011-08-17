@@ -62,3 +62,13 @@ now I setup a virtualhost with Passenger.prefpane, from
 http://www.fngtps.com/passenger-preference-pane
 
 and install for  `single user`, everything worked as shown in railscasts.com.
+
+
+### mysql.sock
+
+now the only issue is on Mac, I have /tmp/mysql.sock
+
+while in Linux, it is in /var/run/
+
+so I need to have different database.yml, if I want to run happypeter.org
+on mac, it is annoying.
