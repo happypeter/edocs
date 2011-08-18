@@ -1,3 +1,11 @@
+# Airport
+I can not find hello-peter, I can not connect
+the fix:
+
+    rm Library/Preferences/com.apple.systempreferences.plist 
+
+and reboot.
+
 # name change
 
 in system preference -> accuont
