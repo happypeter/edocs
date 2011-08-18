@@ -9,12 +9,17 @@ after reboot, I can not find my wifi connection: happpeter.
 change the name right back fix this.
 
 # text mate
+## install
 down load the zip file (1.5.10) from official file
 unzip it and drap the thing to Application
 cp /Application/Textmate.app/content/MacOS/textmate ~
 vim textmate # change 2009 to 2099
 the go to Textmate-> register -> paste the fucking name and SN
 done
+## use
+
+    mate auth-love/
+
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
