@@ -6,6 +6,15 @@ the fix:
 
 and reboot.
 
+when things are back to normal, I did a test
+
+system preference -> networking 
+
+and now I see Airport on top of ethernet and firewire with a green light, but when I click a
+"connect" button after "wap:hello-peter", I see Airport went to the bottom a light turned yellow.
+Now I can not find hello-peter, and I can not connect again. Lucily it was the same issue, and the fix 
+is the same too.
+
 # name change
 
 in system preference -> accuont
