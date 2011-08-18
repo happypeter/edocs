@@ -1,3 +1,13 @@
+# name change
+
+in system preference -> accuont
+
+I change: wang peter -> Peter
+
+after reboot, I can not find my wifi connection: happpeter.
+
+change the name right back fix this.
+
 # text mate
 down load the zip file (1.5.10) from official file
 unzip it and drap the thing to Application
