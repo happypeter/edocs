@@ -37,6 +37,8 @@ done
 
     mate auth-love/
 
+    <esc> is like vim Ctrl-n
+
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
