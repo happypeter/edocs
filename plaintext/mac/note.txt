@@ -41,6 +41,11 @@ done
 
     Cmd+T  open a fire in a Project( mate project/ )
 
+    Optn+Cmd+ left arrow    Previous file tab 
+
+    Ctrl+Optn+Cmd+D Show project drawer 
+
+    Shft+Cmd+Z  Redo 
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
