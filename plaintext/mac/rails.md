@@ -72,3 +72,21 @@ while in Linux, it is in /var/run/
 
 so I need to have different database.yml, if I want to run happypeter.org
 on mac, it is annoying.
+
+## phpmyadmin
+
+go to http.conf , enable php module first!!
+
+mv config.sample.inc.php config.inc.php
+vim config.inc.php
+
+当phpMyAdmin中出现“#2002 无法登录 MySQL 服务器”时，
+请把localhost改成127.0.0.1就ok了，
+这是因为MySQL守护程序做了IP绑定（bind-address =127.0.0.1）造成的
+$cfg['Servers'][$i]['host'] = 'localhost';
+
+把false改成true，这样就可以访问无密码的MySQL了，
+即使MySQL设置了密码也可以这样设置，然后在登录phpMyAdmin时输入密码
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+
+NO need to install mcrypt.
