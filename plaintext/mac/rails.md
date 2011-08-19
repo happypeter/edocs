@@ -80,6 +80,10 @@ go to http.conf , enable php module first!!
 mv config.sample.inc.php config.inc.php
 vim config.inc.php
 
+
+    --- $cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH!*/
+    +++ $cfg['blowfish_secret'] = '111111'; /* YOU MUST FILL IN THIS FOR COOKIE AUTH!*/
+
 当phpMyAdmin中出现“#2002 无法登录 MySQL 服务器”时，
 请把localhost改成127.0.0.1就ok了，
 这是因为MySQL守护程序做了IP绑定（bind-address =127.0.0.1）造成的

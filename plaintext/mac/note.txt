@@ -39,6 +39,8 @@ done
 
     <esc> is like vim Ctrl-n
 
+    Cmd+T  open a fire in a Project( mate project/ )
+
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
