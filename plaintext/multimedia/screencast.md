@@ -31,3 +31,4 @@ DONOT: add episode title and author at the beginning, like "Vim Basics ep1--with
 DO: at the end we add "happypeter.org", and before the text, right-click and
 add a transaction "Dip to black"
 
+Export at 75%
