@@ -32,3 +32,9 @@ DO: at the end we add "happypeter.org", and before the text, right-click and
 add a transaction "Dip to black"
 
 Export at 75%
+
+screenflow cut:
+
+click on the time bar to set the point, now `i` to make it a IN point, than
+click another point, and `o` to make it as OUT. Now, `ctrl+delete` works like
+charm
