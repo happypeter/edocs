@@ -12,3 +12,20 @@ now I can record video on ubuntu as ogv files, then cp them to mac,
 VLC to play them and screenflow to record them into mov. 
 Sounds dirty, but works really nice
 
+
+## screencast spec
+
+Keycastr font and color: same as dereck vim
+
+Terminal font: Menlio Regular 36pt
+
+Terminal: hide dock and menubar of course
+
+Terminal Color: Use Black on White, since it is more presentation and print
+friendly.
+
+
+Software: use Screenflow to do the editing, add episode title and author at
+the beginning, like "Vim Basics ep1--with happypeter". And at the end we add 
+"see more at happypete.org"
+
