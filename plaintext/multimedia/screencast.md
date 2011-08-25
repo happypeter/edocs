@@ -25,7 +25,9 @@ Terminal Color: Use Black on White, since it is more presentation and print
 friendly.
 
 
-Software: use Screenflow to do the editing, add episode title and author at
-the beginning, like "Vim Basics ep1--with happypeter". And at the end we add 
-"see more at happypete.org"
+Software: use Screenflow to do the editing, 
+DONOT: add episode title and author at the beginning, like "Vim Basics ep1--with happypeter". 
+
+DO: at the end we add "happypeter.org", and before the text, right-click and
+add a transaction "Dip to black"
 
