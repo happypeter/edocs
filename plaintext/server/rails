@@ -12,6 +12,11 @@ http://ivanbernat.com/guides/install-rails-3-with-sqlite3-mysql-ubuntu-10/
 
 NOTE: when running `rvm install 1.9.2`, now ruby is installed of course, but also rubygems, which is great. Strange here is this, you often need to Ctrl-C, when the installation starts, then it won't exit and it will use another protocal to install so that things go really fast.
 
+use:
+
+    gem install rails -v 3.0.7
+
+since 3.0.7 is the verion in use on lover
 
 
 ## gem issue
