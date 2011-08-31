@@ -12,6 +12,7 @@
 ## search package
 
     aptitude search tig
+
 ## check which file to edit if you want a new theme    
 
     dpkg -l |grep lynx

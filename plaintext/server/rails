@@ -48,6 +48,19 @@ FIX:
     gem install rails
 
 just do this again, and things back to normal
+
+ERROR:
+
+    ler::ExtensionBuildError)
+
+            /home/peter/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb 
+            checking for rb_thread_blocking_region()... yes
+            checking for mysql_query() in -lmysqlclient... no
+
+FIX:
+
+    sudo apt-get install libmysqlclient-dev
+
 ## change .bashrc for rvm
 NOTE: rvm hates the `&&return` in .bashrc
 
