@@ -218,13 +218,14 @@ and add:
     <VirtualHost *:80>
         ServerName www.lll.com
         DocumentRoot /home/peter/railscasts/public/
+        RackEnv development
         <Directory /home/peter/railscasts/public>
            AllowOverride all
            Options -MultiViews
         </Directory>
     </VirtualHost>
 
-
+the line "  RackEnv development" is necessary
 now:
 
     sudo apachectl graceful
