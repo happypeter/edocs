@@ -1,3 +1,28 @@
+# Virtualbox
+the guest OS works just fine, last time I boot it up, but now I can not boot it any more
+ERROR:
+
+    VM Inaccessible: has 1 differencing child hard disks.
+
+FIX:
+
+    create a new virtual machine, use this same .vdi file as harddisk, delete the original virtual machine(do not delete its harddisk of course)
+
+it was easy, and when the OS boot up again, `ifconfig` showed me only loopback.
+REASON:
+
+/etc/udev/rules.d/70-persistent-net.rules has the original MAC address, which is different from the new one generated while the new VM is created.
+
+FIX: 
+
+copy the one in `/etc/udev/rules.d/70-persistent-net.rules` (12 bit hex) to VM->settings->network->advanced->Mac address
+
+then reboot the VM, everything is a OK now.
+they also say you can also delete the `/etc/udev/rules.d/70-persistent-net.rules` file to avoid the confilct, it makes sense, but I never tried.
+
+this linked helped a lot: http://forums.virtualbox.org/viewtopic.php?f=6&t=24383
+
+
 # Airport
 I can not find hello-peter, I can not connect
 the fix:
