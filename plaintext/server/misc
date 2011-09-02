@@ -1,4 +1,4 @@
-
+# September Crash
 Actual Steps:
 
 1. check the bios, found out the first boot device is network, this is bullshit
@@ -143,7 +143,7 @@ and it's search with google, nice
 
 # install server 10.10
 
-you need to install the os with your eth net cable plugged in, otherwise when you reboot the os, you see no 'eth0' in the output of `ifconfig`
+you NEED to install the os with your eth net cable plugged in, otherwise when you reboot the os, you see no 'eth0' in the output of `ifconfig`
 
 ## now config ip
 
@@ -221,3 +221,10 @@ There are three plugs on the box, note the LEFTMOST(leftmost) one is eth0. Wong 
     nameserver 219.141.136.10
     nameserver 219.141.140.10
 
+
+## tips
+Plug mouse and keyboard in, before you try to boot from CD. otherwise you may endup with a 
+ERROR: input output error
+
+to reboot the lover box, hold down Power button for 5 seconds, when the box is down press Power button again.
+The reboot button simply won't work, when os is not installed well.
