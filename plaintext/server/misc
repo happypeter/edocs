@@ -192,3 +192,32 @@ you will still have eth0 as long as you do not choose `Do not config network thi
 
 There are three plugs on the box, note the LEFTMOST(leftmost) one is eth0. Wong plug won't work.
 
+
+## Lover condigs(when it is up and running)
+
+/etc/network/interfaces
+
+    # This file describes the network interfaces available on your system
+    # and how to activate them. For more information, see interfaces(5).
+
+    # The loopback network interface
+    auto lo
+    iface lo inet loopback
+
+    # The primary network interface
+    auto eth0
+    iface eth0 inet static
+        address 122.115.61.189
+        netmask 255.255.255.192
+        network 122.115.61.128
+        broadcast 122.115.61.191
+        gateway 122.115.61.129
+        # dns-* options are implemented by the resolvconf package, if installed
+        dns-nameservers 202.106.0.20
+        #petercommented dns-search happypeter.org
+
+/etc/resov.conf
+
+    nameserver 219.141.136.10
+    nameserver 219.141.140.10
+
