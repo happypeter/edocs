@@ -1,4 +1,3 @@
-# when my lover is down
 
 Actual Steps:
 
@@ -36,6 +35,8 @@ Press F to attempt to fix the errors, I to ignore, S to skip moounting, or M for
 reboot, lover is back.
 
 9. That is all.
+
+when my lover is down
 
 point firefox at happypeter.org, 
 
@@ -189,4 +190,5 @@ you will still have eth0 as long as you do not choose `Do not config network thi
 
 ## install on server
 
-everything went well, except that, there are three plug on the box, note the lefe most one is eth0. Wong plug won't work.
+There are three plugs on the box, note the LEFTMOST(leftmost) one is eth0. Wong plug won't work.
+
