@@ -1,5 +1,42 @@
 # when my lover is down
 
+Actual Steps:
+
+1. check the bios, found out the first boot device is network, this is bullshit
+
+2. so I change it to hard disk
+ERROR: boot up stop at:
+
+~~~bash 
+(initramfs)
+~~~
+
+3. I asked for a USB CD drive
+ERROR: bios could not find this device
+
+4. got another CD drive, and change `first boot device` to it
+ERROR: failed to read my 11.04 Desktop into RAM, io error
+
+5. reboot and try it again, 11.04 showed up, and I need to connect the mouse to click and check if the harddisk can be mounted.
+RESULT: I could open all my partitions, nothing strange, everything is a OK.
+
+6. try to get my network config back, I need to write the content in `/etc/networking/interfaces/` and `/etc/resov.conf` down on to a piece of paper, for later use if I need the reinstall 10.10 server.
+RESULT: it turned up this step was not useful, since I did not need to reinstall the system.
+
+7. now try to boot from 10.10 server CD.
+However I did not select `install ubuntu`, rather, I tried `boot from harddisk`.
+ERROR: this showed up
+
+~~~bash
+Errors were found while checking the disk drive for /
+Press F to attempt to fix the errors, I to ignore, S to skip moounting, or M for manual recorvery.
+~~~
+
+8. I typed `F` to try my luck. The after a series of `OK`s and `wrong`s.
+reboot, lover is back.
+
+9. That is all.
+
 point firefox at happypeter.org, 
 
 ERROR:
