@@ -29,7 +29,7 @@ the fix:
 
     rm ~/Library/Preferences/com.apple.systempreferences.plist 
 
-and reboot.
+and reboot Airport.
 
 when things are back to normal, I did a test
 
