@@ -1,3 +1,14 @@
+# gem
+
+    cd gitbro
+    gem server # then I get really nice api docs for all my gems
+# pry
+railscasts,
+
+I actually use `gem install pry pry-doc --force`
+
+because  I have to use force. but things worked out ok
+
 # rails
 
 the Xcode on Lepord CD is buggy, so must be installed on line

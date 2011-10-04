@@ -59,18 +59,30 @@ vim textmate # change 2009 to 2099
 the go to Textmate-> register -> paste the fucking name and SN
 done
 ## use
-
+    Cmd + F, Cmd +G, Cmd+Shit+G 
+    
     mate auth-love/
 
     <esc> is like vim Ctrl-n
 
-    Cmd+T  open a fire in a Project( mate project/ )
+    Cmd+T  open a fire in a Project( mate project/ ), now really easy to css and route.rb files
 
     Optn+Cmd+ left arrow    Previous file tab 
 
     Ctrl+Optn+Cmd+D Show project drawer 
 
     Shft+Cmd+Z  Redo 
+
+    Ctrl + <  html tag
+
+    Ctrl + > <%= %> <%# %> <% %>
+
+    Cmd + [ or ]  indent
+
+    shift + arrowkeys to select, then use option if you want a block
+
+    Alt-Cmd     from controller to view and vice verse 
+
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
