@@ -1,4 +1,3 @@
-VIDEO:http://dl.dropbox.com/u/3037689/lectures/rsync.ogg
 
 ** text
 OK, Let's begin. This talk is about [[rsync]], a very useful

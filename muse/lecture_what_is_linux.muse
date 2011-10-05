@@ -1,5 +1,3 @@
-AUDIO: http://dl.dropbox.com/u/3037689/lectures/what_is_linux.mp3
-
 <contents>
 OK, let's get started. Hello, this is Peter Wang from Beijing. 
 
