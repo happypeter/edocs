@@ -192,5 +192,5 @@ apple ID: happypeter1983    PW:111111
 Cmd+space  run app
 Cmd+q      to kill app
 
-F11     show desktop
+F11     show desktop( better alternative is Ctrl-Arrow or mouse to lower right corner to show desktop of another work space.)
 

@@ -1,5 +1,5 @@
 chown peter: file
-chown :peter file #this makes chgrp dated
+chown :peter file #this makes chgrp no longer useful 
 
 # stuff from
 http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained
@@ -8,3 +8,6 @@ $ sudo !!
 
 $ ^foo^bar^
 $ !whatever:p # Ctr-r is a better way then this
+<example>
+
+
