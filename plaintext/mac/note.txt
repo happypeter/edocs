@@ -168,6 +168,8 @@ Selection: use color between grey and white(mercury: with %60 opacity)
 
 Visor: use Ctrl-Ctrl to tangle the window
 
+also the same theme for vim here: http://blog.toddwerth.com/entries/8
+
 ##screenflow
 macx.cn
 
