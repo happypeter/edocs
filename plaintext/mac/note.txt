@@ -170,6 +170,11 @@ Visor: use Ctrl-Ctrl to tangle the window
 
 also the same theme for vim here: http://blog.toddwerth.com/entries/8
 
+go to text->more, if you think your green color is still less then textmate's green
+
+export the theme if you want
+
+
 ##screenflow
 macx.cn
 
