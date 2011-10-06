@@ -118,7 +118,7 @@ prereqest is to install xcode
 
 Be sure to enable access for assistive devices in the Universal Access pane of System Preferences.
 
-### termial
+# termial
 
 uncheck `secure keyboard entry`
 
@@ -134,8 +134,41 @@ and add the following shit after `<dict>` near the top
 
 	<key>LSUIPresentationMode</key>
 	<integer>4</integer>
+## theme
 
-## screenflow
+Snow Leopard Terminal Colors
+ref: http://www.emersonlackey.com/article/terminal-colors-snow-leopard
+Step 1. Install SIMBL 
+need to create `~/Library/Application Support/SIMBL/Plugins/` by hand
+
+Step 2. Install the Visor Bundle
+ref: http://visor.binaryage.com/#source
+
+    git clone git://github.com/darwin/visor.git
+    cd visor
+    rake
+    rake install
+
+
+Step 3. Install the TerminalColors-SL Bundle
+
+just put it into the `~/Library/Application Support/SIMBL/Plugins/`, like visor
+
+Step 4. Install the IR_Blank.terminal Theme
+
+double click to install, them you can find the theme in Terminal->Preference
+
+Step 5. set it as default and custom
+
+everything can be done with GUI
+
+Text: grey on not so black
+Cursor: block, use some color between black and grey(iron)
+Selection: use color between grey and white(mercury: with %60 opacity)
+
+Visor: use Ctrl-Ctrl to tangle the window
+
+##screenflow
 macx.cn
 
 ## misc
