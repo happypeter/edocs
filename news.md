@@ -1,3 +1,5 @@
+2. A scripting language is a lightweight programming language
+----------
 1. KISS, KISS, KISS !!!
 
 I won't change my happypeter.org structure easily. 
