@@ -1,3 +1,12 @@
+# gvim for it's all text
+
+serach "mac gvim" in google and download vim7.0.224.tar.bz2
+
+unpack it and follow the readme in it. and have a .gvimrc like:
+
+    set encoding=utf-8
+    set guifont=Monaco:h24
+
 # Virtualbox
 the guest OS works just fine, last time I boot it up, but now I can not boot it any more
 ERROR:
