@@ -1,3 +1,6 @@
+3. nice background for web pages
+http://subtlepatterns.com/
+----------
 2. A scripting language is a lightweight programming language
 ----------
 1. KISS, KISS, KISS !!!
