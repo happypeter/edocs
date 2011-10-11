@@ -1,3 +1,16 @@
+# omnigraffle
+## get schcon like slide, 
+
+I first need a fixed sized backgroud, then I will
+drow everything on it.
+
+1. show ruler
+2. background 6cm:4.5cm
+3. draw everything on this backgroud
+4. make backgroud tranparent
+5. export scale: 200%
+6. the png size then just perfect for showoff
+
 ## heroku
 to install:
     
