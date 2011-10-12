@@ -5,10 +5,10 @@ I first need a fixed sized backgroud, then I will
 drow everything on it.
 
 1. show ruler
-2. background 6cm:4.5cm
+2. background 12cm:9cm(14pt for font-size)
 3. draw everything on this backgroud
 4. make backgroud tranparent
-5. export scale: 200%
+5. export scale: 100%
 6. the png size then just perfect for showoff
 
 ## heroku
