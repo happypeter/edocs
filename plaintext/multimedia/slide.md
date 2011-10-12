@@ -6,10 +6,12 @@ drow everything on it.
 
 1. show ruler
 2. background 12cm:9cm(14pt for font-size)
-3. draw everything on this backgroud
+3. draw everything on this backgroud(draw the whole picture first, leave
+   enough space for comming things )
 4. make backgroud tranparent
 5. export scale: 100%
 6. the png size then just perfect for showoff
+7. no shallow
 
 ## heroku
 to install:
