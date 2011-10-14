@@ -1,3 +1,8 @@
+# print screen
+
+Hold down Apple key ⌘ + Shift + 3 and release all
+Hold down Apple key ⌘ + Shift + 4 and release all
+
 # gvim for it's all text
 
 serach "mac gvim" in google and download vim7.0.224.tar.bz2
