@@ -1,11 +1,12 @@
 # omnigraffle
-## get schcon like slide, 
+## get schcon like slide 
 
 I first need a fixed sized backgroud, then I will
 drow everything on it.
 
-1. show ruler
-2. background 12cm:9cm(14pt for font-size)
+1. show ruler, save favrite style and colors
+2. background 12cm:9cm(14pt for font-size, put it on a unique layer and then
+   lock the layer)
 3. draw everything on this backgroud(draw the whole picture first, leave
    enough space for comming things )
 4. make backgroud tranparent
