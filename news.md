@@ -1,3 +1,10 @@
+5. should not lecture this way
+I tend to mix things, that is really confusing.
+like
+http://media.happypeter.org/happycasts/happycity/changchun-casts/ctags.mp4
+I try to explain how to cut one file into three, while I am talking about
+ctags, that is really bad style.
+----------
 4. github clone
 http://gitlabhq.com/
 ----------
