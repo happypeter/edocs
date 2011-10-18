@@ -1,3 +1,7 @@
+6. why HN does not display points?
+http://news.ycombinator.com/item?id=3122233
+http://hckrnews.com/
+----------
 5. should not lecture this way
 I tend to mix things, that is really confusing.
 like
