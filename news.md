@@ -1,3 +1,6 @@
+7. online courses
+http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=PracticalUnix
+----------
 6. why HN does not display points?
 http://news.ycombinator.com/item?id=3122233
 http://hckrnews.com/
