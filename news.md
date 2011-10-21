@@ -1,3 +1,6 @@
+8. why blogging?
+http://rs.io/2011/10/14/why-you-should-start-blogging-again.html
+----------
 7. online courses
 http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=PracticalUnix
 ----------
@@ -26,7 +29,6 @@ I won't change my happypeter.org structure easily.
 
 I won't do this just because I see so many beautiful feathers in
 Railscasts.com. Simplicity is the best policy.
-
 ----------
 0. This is a private happyNews here
 
