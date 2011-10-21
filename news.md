@@ -1,3 +1,14 @@
+### opensource magzine
+http://linux.chinaunix.net/ebook/
+
+### youtube for docs
+http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2341
+http://www.scribd.com/
+
+there is no rules, just be brave and keep going. 
+Anyone can be a publishing author.
+you have to give up lots of opportunities to foucs on one thing
+
 ### why blogging?
 http://rs.io/2011/10/14/why-you-should-start-blogging-again.html
 
