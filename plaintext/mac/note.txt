@@ -68,7 +68,7 @@ after reboot, I can not find my wifi connection: happpeter.
 
 change the name right back fix this.
 
-# text mate
+# textmate
 ## install
 down load the zip file (1.5.10) from official file
 unzip it and drap the thing to Application
@@ -101,6 +101,8 @@ done
 
     Alt-Cmd     from controller to view and vice verse 
 
+	Cmd+enter  like vim `o`
+	Cmd+left/righ arrow  `I` `A`
 ## bash completion for git, ssh ...
 snowleopard has bash completion, but NOT for git, ssh ...
 so I :
