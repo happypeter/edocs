@@ -1,3 +1,6 @@
+### Khan Academy
+reinvent edu
+
 ### opensource magzine
 http://linux.chinaunix.net/ebook/
 
