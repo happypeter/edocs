@@ -1,3 +1,16 @@
+### Will Dropouts Save America? 
+http://news.ycombinator.com/item?id=3144628
+
+I TYPED these words on a computer designed by Apple, co-founded by the college
+dropout Steve Jobs. The program I used to write it was created by Microsoft,
+started by the college dropouts Bill Gates and Paul Allen.
+
+And as soon as it is published, I will share it with my friends via Twitter,
+co-founded by the college dropouts Jack Dorsey and Evan Williams and Biz
+Stone, and Facebook — invented, among others, by the college dropouts Mark
+Zuckerberg and Dustin Moskovitz, and nurtured by the degreeless Sean Parker. 
+
+
 ### Khan Academy
 reinvent edu
 
