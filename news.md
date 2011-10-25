@@ -1,3 +1,6 @@
+### http://software.hebtu.edu.cn/
+Hebei Normal University
+
 ### http://tigaoyingyu.com/
 a railscasts for English learning
 
