@@ -1,8 +1,8 @@
 ### Freedom is good
 Just now, when I read _How to become a Hacer_, The part "4. Freedom is good.
-Hackers are naturally anti-authoritarian..." made me smiled. Here is  a
+Hackers are naturally anti-authoritarian..." made me smile. Here is  a
 story about Microsoft and me. My means to protect my own freedom may seem
-stupid to you, but hopefully what I will give here can be informative.
+stupid, but hopefully what I give here can be informative.
 
 >Anyone who can give you orders can stop you from solving whatever problem you
 >are being fascinated by.
@@ -13,13 +13,13 @@ sitting in the interviewee chair again.
 
 My interviewers were the product manager and dev manager(A guy I respected and
 I knew him by his books) from the company named MiniMicrosoft( fake name,
-later became my employer). I was in the room first, and I deliberately chose
+stream media service provider powered by Linux). I was in the room first, and I deliberately chose
 the chair for the chairman. So why? It was my smoke test to check out if
 developers are considered equally as managers here, I did not want to find
 another beruecratic crap to work for. 
-they were really kind to me, but I kept a big mouth on things( again, I am not
-normally that jerky, but a test is a test).It turned out they did not mind at all,
-so one week later, I started my job there with 8000RMB/Month and a nice table
+It turned out that they were kind to me, while I kept a big mouth on things( again, I am not
+normally that jerky, but a test is a test). 
+So one week later, I started my work there with 8000RMB/Month and a nice table
 beside the dev manager.
 
 There was nothing to complain during the first two weeks, everything was quite
@@ -52,7 +52,7 @@ this.  That was the real flow of the story started:
 Boss by Email: "Peter, such a report is not qualified..."
 
 After the whole day of work, I was really tired, "Time should be spent on real
-works, not this bullshit" I spoke to myself, but added sth.
+works, not this bullshit" I spoke to myself, but finally added sth.
 
 Boss again: "Peter, ask guys to see how a report should be done, you are not
 allowed to leave until you finish this, cause it is today's work"
@@ -68,12 +68,12 @@ I could imagine how the boss looked when he saw this.
 >censorship, secrecy, and the use of force or deception to compel responsible
 >adults. And you have to be willing to act on that belief.
  
-Morning of the next day, the meeting room had nobody but the boss(in the
-Chairman chair chewing his gum passionate. Fuck, he was there first) and me.
+Next morning, the meeting room had nobody but the boss(in the
+Chairman chair chewing his gum passionately. Fuck, he was there first) and me.
 
-When the talk started, I can clear sense that this was not between peers, but
+When the talk started, I can clearly  feel that this was not between peers, but
 a clear boss and employee thing, the very feeling just made me sick. But I
-actually tried to smile and be easy-going. He was a bit more experienced anyway.
+actually tried to smile and be easy-going. He was a bit more experienced anyway, maybe I can learn sth from him.
 
 Me: "The report is kind of insult to me, my moral standard is the quality of
 my code."
@@ -81,14 +81,14 @@ my code."
 This is something from gun.org I think. And I can see the boss totally did not
 know what I was talking about. 
 
-Boss: "The report is the only thing I can get to track people's progress to
-make things truly transparent here, you do not report to me, you report to
-everybody"
+Boss: "The report is the only thing I can get to track people's progress.
+Things are made truly transparent here, you do not report to me, you report to
+everybody."
 
 What I know about this is that this is how almost all big companies in Beijing
-works, what I do not know is how can this possibly work in software
+are running, what I do not know is how can this possibly work in software
 development. We are not a  Macdonals', where you can easily write down how many
-Bergers you sell today, and thus the boss will know how many you need
+Bargers you sell today, and thus the boss will know how many you need
 tomorrow. I know there is heavy management theory backing this kind of
 report-based management, but I do not think I can be persuaded by something so
 obviously brain-damaged. But anyway, I should be polite and I should stay
@@ -100,32 +100,35 @@ happy, but I am alway ready to change myself"
 Boss: " I want zero cost on management"
 
 Me:" Sure, the reports make your job a lot easier, and lower the management
-consumption, on your side only. Have you ever think about, how much time the
+consumption, on your side. Have you ever think about, how much time the
 developers spend for the reports..."
 
 I did not made my point clear though, it was not only the 5 mins you wasted, it is
 about the reports actually forced you to do dev in a total different manner.
-More "deverable" means less
-time for thinking about good ideas for a issue, people start to foucs on how
+More "deliverable" means less
+time for thinking about the best solution for a problem, people start to focus on how
 many lines of code you produce each day, not the quality of it.
-More control on everybody to keep everybody busy, sure nobody is lazy means
+More control on everybody helps to keep everybody busy, sure nobody is lazy means
 less cost for the company on Human Resource. But this is sheer folly too. If
 more freedom is given to the developer, and make the developer love their
 work, they will(mostly likely) behave like a "responsible adults", and
-try to do good code, how much time can be saved on refactoring and debuging in
+try to do good code, how much time can be saved on refactoring and debugging in
 the later phase of development. For me, if I am happy with the job, I will
 prefer to work long hours and take less money, I think this is but human
 nature, if you make the job boring, people get tired and not learning
 anything, their "cost" to work here is huge, so they will either want a lot
 more money or just leave.
 
+You can not put more water into a full cup. You can tell, but they won't
+listen.
+
 Boss:" When I joined Microsoft, the dev leader of Ms Office told me something
-that happened when he joined MS 25 years ago. He said when he was young and
+that happened when he joined MS 25 years ago. He 
 had lot of ideas for the software being done, but what he got from his boss
-was ' Just do the job, do not ask any fucking questions!'. He was not happy at
+was this: 'Just do the job, do not ask any fucking questions!'. He was not happy at
 that time, but 20 years later, he finally understood..."
 
-What a real man he is bearing all the 20 years of pain. All I got from the
+What a real man he was bearing all the 20 years of pain. All I got from the
 story was that Dictatorship really works, if people are all nice and obedient,
 the company will work greatly like a mighty machine. I am not a machine, I am
 a human. And humans can talk, and when the talk get long enough without going
