@@ -97,6 +97,28 @@ hungry and foolish.
 Me: "I do not think good software can be done, when the programmers are not
 happy, but I am alway ready to change myself"
 
+Boss: " I want zero cost on management"
+
+Me:" Sure, the reports make your job a lot easier, and lower the management
+consumption, on your side only. Have you ever think about, how much time the
+developers spend for the reports..."
+
+I did not made my point clear though, it was not only the 5 mins you wasted, it is
+about the reports actually forced you to do dev in a total different manner.
+More "deverable" means less
+time for thinking about good ideas for a issue, people start to foucs on how
+many lines of code you produce each day, not the quality of it.
+More control on everybody to keep everybody busy, sure nobody is lazy means
+less cost for the company on Human Resource. But this is sheer folly too. If
+more freedom is given to the developer, and make the developer love their
+work, they will(mostly likely) behave like a "responsible adults", and
+try to do good code, how much time can be saved on refactoring and debuging in
+the later phase of development. For me, if I am happy with the job, I will
+prefer to work long hours and take less money, I think this is but human
+nature, if you make the job boring, people get tired and not learning
+anything, their "cost" to work here is huge, so they will either want a lot
+more money or just leave.
+
 Boss:" When I joined Microsoft, the dev leader of Ms Office told me something
 that happened when he joined MS 25 years ago. He said when he was young and
 had lot of ideas for the software being done, but what he got from his boss
