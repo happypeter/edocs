@@ -1,3 +1,24 @@
+### slogan for happypeter.org
+
+A lot people has been asking that what is happypeter.org for. To answer this,
+I think it is now about the time to choose a slogan for it, and I have these
+in mind now:
+
+1. Learn Programming With English 用英语学编程 This is a specific one. And
+this is truly what I am willing to do. Being a programmer means you won't go
+hungery in this world. Learn it with English textbooks, screencasts, and open
+lectures is the only right way to do it.
+
+Happypeter.org Products: vocabulary books, screencasts, forums(where you can learn to describe tech problems in English, as a stepstone before you join real enlgish-speaking communities)...well organized basic learning meritals(links and tranlations).
+
+BUT, if the site is for learning with English, why you provide for many screencasts in Chinese. So maybe "Learn by doing" is really what I want. So maybe I justuse learn by doing, as use English, programming, Dream, money as tags.
+
+2. Make dream making money 理想和吃饭 A bit romatic powder on this one. What
+happypeter.org is providing is not just some training that helps while you are
+hunting for a job. It is serious eduction here, helping you with writing,
+coding, learning.So it is not about a code monkey job that makes the bread, it
+is about a career that fills our life a meaning.
+
 ### Freedom is good
 Just now, when I read _How to become a Hacer_, The part "4. Freedom is good.
 Hackers are naturally anti-authoritarian..." made me smile. Here is  a
