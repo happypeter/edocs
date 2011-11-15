@@ -1,3 +1,6 @@
+### happypeter.org flag
+I like that toastmaster flag, some nice air for the otherwise dull room. So
+have one for my website, make it simple and pretty with a logo and the url.
 ### Be a dustman
 Just back from the playground, I was there running. Garbage everywhere, kind
 of messy. So I think I can be the junk collector.
