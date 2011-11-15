@@ -1,3 +1,13 @@
+### Be a dustman
+Just back from the playground, I was there running. Garbage everywhere, kind
+of messy. So I think I can be the junk collector.
+
+I'll buy nice equipments, get my logo on it, and I need to dress well to be
+noticed.  When asked, I will say, 
+
+    I only do this for myself, since I only clean the place I 
+    go. And you see I even have ad on the dustbin.
+
 ### slogan for happypeter.org
 
 A lot people has been asking that what is happypeter.org for. To answer this,
