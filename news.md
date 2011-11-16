@@ -1,3 +1,5 @@
+### setup a site for JingMao English Corner
+if I have time
 ### happypeter.org flag
 I like that toastmaster flag, some nice air for the otherwise dull room. So
 have one for my website, make it simple and pretty with a logo and the url.
