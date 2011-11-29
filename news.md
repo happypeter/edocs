@@ -1,3 +1,18 @@
+### Wuhan jorney
+HongFeng think it might be better for me to follow Paul Gramham, first build a
+startup, and teach people how to build a startup. However my focus is educate
+stduents to be a good learner, building a startup is surely the NEXT-step
+thing, which I am neither good at nor passionate about.
+
+Great joy to meet a Fine Art and a KongFu teacher(yiquan168.com) on my way back, I am so much
+surprised to so how open-minded they are, they are very good teachers. 
+
+### http://cdeledu.com/
+chinese tel edu company
+
+### Tom from ruby hacker to entrepreneur
+
+
 ### setup a site for JingMao English Corner
 if I have time
 ### happypeter.org flag
