@@ -1,3 +1,10 @@
+### Paul G interview: http://mixergy.com/y-combinator-paul-graham/
+Not having a co-founder will kill you, try to find one.
+HackerNews was initially named StartupNews, with a bunch of founders as its
+readers.
+
+http://wufoo.com/ is much like my happywords
+
 ### encourage people to join me
 whatever you do for happypeter.org can be on your resume, like
 stackoverflow.com, you don't get a lot of money, but you get fame here! By
