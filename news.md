@@ -8,6 +8,9 @@ happypeter.org need to grow large, people will be pround of being part of it,
 and therefore would like to contribute more to grow their fame here, just like
 me.
 
+when I give talks in that bookcoffee bar, I will have orange light, to make YC
+style, cozy feeling videos.
+
 ### Wuhan jorney
 HongFeng think it might be better for me to follow Paul Gramham, first build a
 startup, and teach people how to build a startup. However my focus is educate
