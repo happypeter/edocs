@@ -1,3 +1,13 @@
+### encourage people to join me
+whatever you do for happypeter.org can be on your resume, like
+stackoverflow.com, you don't get a lot of money, but you get fame here! By
+doing opensource code, you show your talent, by doing some work for
+happypeter.org, you show your golden heart. 
+
+happypeter.org need to grow large, people will be pround of being part of it,
+and therefore would like to contribute more to grow their fame here, just like
+me.
+
 ### Wuhan jorney
 HongFeng think it might be better for me to follow Paul Gramham, first build a
 startup, and teach people how to build a startup. However my focus is educate
