@@ -1,3 +1,10 @@
+### wikipedia's jame wales
+inspired by opensourse movement
+he actully failed for the first version Newpedia, but he tried again becasue
+he so passionated about the concept: a ecopidia that everybody can use.
+
+they do not work for free here, they are having fun for free.
+
 ### 文质彬彬学英语
 我们先从我们如何轻松的学会我们的母语，同时又是如何痛苦并且恶心的学不会英语这两个事实做一个对比，来讨论一下目前的大学英语教育有哪些问题。
 
