@@ -1,3 +1,5 @@
+### 非你莫属 111017
+潘石屹：为什么不做网络呢？有学过计算机，我觉得网络会改变这个时代的。
 ### wikipedia's jame wales
 inspired by opensourse movement
 he actully failed for the first version Newpedia, but he tried again becasue
