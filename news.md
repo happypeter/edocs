@@ -1,3 +1,22 @@
+### How to organize a talk?
+
+Do not try to stress too many points, but try to give 3 points, not too many,
+even when you are trying to tell other people about your whole life, like
+steve jobs.
+
+Like if I need to tell the students about my last 10 years life. I can
+organize everything around 3 lessons I learned during the years.
+1. If u love English, make sure ur major will take u a job in which English
+   does matter
+
+2. Whatever u do, first thing to concern is which kind of people u want to
+   work with.
+
+3. Not just find a day job, find out ur true love, and make it a career
+   for ur whole life. Like I like hacking, but hated my day job, all I
+   really love is actually creating things for the people I love, that't
+   whyni am here in SJZ.
+
 ### 非你莫属 111017
 潘石屹：为什么不做网络呢？有学过计算机，我觉得网络会改变这个时代的。
 ### wikipedia's jame wales
