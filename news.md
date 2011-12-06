@@ -40,9 +40,43 @@ they do not work for free here, they are having fun for free.
 现在我来说说文质彬彬的典故。论语中说“文胜质则野，质胜文则史，文质彬彬，然后君子。”我这里稍微曲解一下，来阐述一下英语学习的正确方法。“文”是指的细节的东西，例如单词量，基础知识，这些东西不宜多学。那何为“多”？就是你的单词量，大大超越了你的实际英文运用水平，就是你的“质”，这时，学英语的时候你就会感觉痛苦，说或是写出来的英语就会让别人痛苦。
 
 ### Paul G interview: http://mixergy.com/y-combinator-paul-graham/
-Not having a co-founder will kill you, try to find one.
+Mixergy
+
+Paul.G
+
+Tagline
+
+Essays are the start.
+
+Ycombinator grew out of the talk how to do a startup, pg gave at harward.
+
+Everybody takes summer job a throw away thing, so if we screw up, no one will
+blame us.
+
+Weekly dinner
+
+What works for startups?
+
+    1. launching fast
+    2. Be highly engaged with ur customers.
+
+
+Why the name ycombinator?
+
+It is a programming trick, We want the hackers to notice us, while keep people
+we do not like afar.
+
+Designing a good UI is just writing a essay, u just need to figure out the
+essential things.
+
+Hacker news?
+Try arc, not having enough patience for a sub reddit for startups, the two
+reasons lead to hn.
+
 HackerNews was initially named StartupNews, with a bunch of founders as its
 readers.
+
+Not having a co-founder will kill you, try to find one.
 
 http://wufoo.com/ is much like my happywords
 
