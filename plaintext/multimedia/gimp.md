@@ -7,10 +7,16 @@
 
 open it and __save as__ in a lower Quality
 
-## how to make a pic smaller (less pixels)
+## how to make a pic smaller or bigger (less pixels)
 
     Image -> scale image
+
+    layer -> scale layer
 
 ## how to get a black-and-white
 
     colors -> desaturate
+
+## make transparent background
+
+    layer ->transparency -> alpha
