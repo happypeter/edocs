@@ -1,3 +1,15 @@
+### ideas for EC (english corner)
+We shall have prepared speeches, and the topics shall be choosed by the
+speakers themselves, althogh we can give our suggestions. You will need to:
+
+ 1. write down what you are going to talk, at least some main points.
+ 2. it  must be something useful or beautiful, or make good fun, we do not
+    want copied work(sure, you can steal stories somewhere, but you still need
+    to give your ideas about these stroies, anyway, we need to make friends
+    with you, so plz show yourself, and be yourself)
+ 3. we do not want non-sense, we do not want waste our time by listening to
+    something we don't give a damn to. Let's add real value to our EC.
+
 ### 新文学青年
 
 我这里所谓的文学青年指的是大学时代读书多，有思想，毕业以后想贡献社会，不想让自己的才华在平庸中凋零的人。
@@ -11,7 +23,9 @@
 如果你认为高级程序员＝数学家+电子工程师，我可以说你是对的，但是在几十年前。新的定义是程序员=
 诗人+画家。旧时代的技术条件，决定了程序员需要对机器付出足够的感情，才会得到它的青睐，随着技术的发展，很多强大的技术都渐趋成熟，程序设计也自然重在人性的方面了。
 
-象我本人是作互联网应用的。要做出好的用户体验，
+象我本人是作互联网应用的。要做出好的用户体验，不仅需要扎实的技术，更需要的是taste（just
+like Steve Jobs stressed all these years)
+
 
 ### How to organize a talk?
 
