@@ -43,9 +43,15 @@ charm
 1. take the video with my sony DV.
 2. record on my mac again with ScreenFlow
 3. when trying to export the file, I do neet to set the quality from high(by
-   default) to medium. The final looks are the same, but the size:
+   default) to medium. The final quality are almost the same(the 'least' one
+   is not for 1024x768, but the 'low' one is still good enough), but the size(a 1024x768
+   02:20 mov)
 
     $ du -sh su*
-    114M su-high.mov
-    29M su.mov
+    114M    su-high.mov
+    12M     su-least.mov
+    14M     su-low.mov
+    29M     su-medium.mov
+
+
 
