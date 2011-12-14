@@ -31,10 +31,21 @@ DONOT: add episode title and author at the beginning, like "Vim Basics ep1--with
 DO: at the end we add "happypeter.org", and before the text, right-click and
 add a transaction "Dip to black"
 
-Export at 75%
+Export at 75% 
 
 screenflow cut:
 
 click on the time bar to set the point, now `i` to make it a IN point, than
 click another point, and `o` to make it as OUT. Now, `ctrl+delete` works like
 charm
+
+## how do I produce interviews?
+1. take the video with my sony DV.
+2. record on my mac again with ScreenFlow
+3. when trying to export the file, I do neet to set the quality from high(by
+   default) to medium. The final looks are the same, but the size:
+
+    $ du -sh su*
+    114M su-high.mov
+    29M su.mov
+
