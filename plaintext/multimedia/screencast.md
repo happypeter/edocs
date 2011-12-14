@@ -39,6 +39,8 @@ click on the time bar to set the point, now `i` to make it a IN point, than
 click another point, and `o` to make it as OUT. Now, `ctrl+delete` works like
 charm
 
+you can also export part of the video by selecting this way
+
 ## how do I produce interviews?
 1. take the video with my sony DV.
 2. record on my mac again with ScreenFlow
@@ -52,6 +54,7 @@ charm
     12M     su-least.mov
     14M     su-low.mov
     29M     su-medium.mov
+
 
 
 
