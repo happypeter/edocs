@@ -58,6 +58,8 @@ and now I see Airport on top of ethernet and firewire with a green light, but wh
 Now I can not find hello-peter, and I can not connect again. Lucily it was the same issue, and the fix 
 is the same too.
 
+Edit: move the "Airport" on top of ethernet and firefire works for me(sys preference->network).
+
 # name change
 
 in system preference -> accuont
