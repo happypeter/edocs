@@ -58,7 +58,7 @@ and now I see Airport on top of ethernet and firewire with a green light, but wh
 Now I can not find hello-peter, and I can not connect again. Lucily it was the same issue, and the fix 
 is the same too.
 
-Edit: move the "Airport" on top of ethernet and firefire works for me(sys preference->network).
+Edit: move the "Airport" on top of ethernet and firewire works for me(sys preference->network). I actully deleted "ethernet" and "firewire" here, since I don't need them. Now I still lose connection, but it is easy to reconnect.
 
 # name change
 
