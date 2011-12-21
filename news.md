@@ -1,3 +1,17 @@
+### happycasts
+Good branding is very improtant. When asked what I am doing here at
+happypeter.org, I have no short answer. Happynews is just a forum, it is not a
+product. So now I need a product, something can be described in one short
+sentence.
+
+I want a railscast.com for Linux. So the product is "Linux Screencasts for
+Chinese Beginners"(LSCB). 
+
+- I will make it beautiful 
+- I will not mix things up( If I want to talk about rails, I can open another
+  site for it). 
+- this will be at least one release every monday(like railscasts)
+
 ### ideas for EC (english corner)
 We shall have prepared speeches, and the topics shall be choosed by the
 speakers themselves, althogh we can give our suggestions. You will need to:
@@ -138,7 +152,7 @@ chinese tel edu company
 
 
 ### setup a site for JingMao English Corner
-if I have time
+done
 ### happypeter.org flag
 I like that toastmaster flag, some nice air for the otherwise dull room. So
 have one for my website, make it simple and pretty with a logo and the url.
