@@ -1,4 +1,4 @@
-### twitter founder
+### Jack Dorsey-- co-founder  twitter 
 make every detail perfect, and limit the number of details
 
 expect the unexpected, whenever possiable be the unexpected.
