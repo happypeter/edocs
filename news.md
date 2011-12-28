@@ -1,3 +1,15 @@
+### twitter founder
+make every detail perfect, and limit the number of details
+
+expect the unexpected, whenever possiable be the unexpected.
+
+What the story is, how can the people join, when I show my friend this, how
+will they react.
+
+apple runs like a theater company, they have great sense of pacing, great
+sense of story. It is all event driven, it all stage driven.
+
+
 ### happycasts
 Good branding is very improtant. When asked what I am doing here at
 happypeter.org, I have no short answer. Happynews is just a forum, it is not a
