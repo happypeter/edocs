@@ -1,1 +1,9 @@
 % works for finding html matching tags
+
+fuzzfinder :FufCoverageFile
+
+ctags 
+
+Ctrl-x-u by rails.vim
+
+http://joshuaborn.info/blog/9d0b/plain
