@@ -4,6 +4,16 @@ fuzzfinder :FufCoverageFile
 
 ctags 
 
-Ctrl-x-u by rails.vim
+Ctrl-x-u by rails.vim 
+K       works
 
 http://joshuaborn.info/blog/9d0b/plain
+
+## ack
+
+sudo apt-get install ack-grep
+sudo ln -s /usr/bin/ack-grep /usr/bin/ack
+
+then in vim
+
+    :Ack xxx
