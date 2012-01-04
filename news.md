@@ -20,6 +20,9 @@ beginners.
 I hope my happycasts be railscasts, never try to explain too much, just show people
 how to do it.
 
+Railsforzombies also nice, but it is something dfferent, I won't mix is into
+my happycasts. It is nice to have this kind of videos for my LGCB.
+
 Good branding is very improtant. When asked what I am doing here at
 happypeter.org, I have no short answer. Happynews is just a forum, it is not a
 product. So now I need a product, something can be described in one short
