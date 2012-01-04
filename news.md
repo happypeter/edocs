@@ -1,3 +1,5 @@
+### DHH basecamp to rails
+PHP does not have layers(MVC), it does everything in one scripting Lanague
 ### Jack Dorsey-- co-founder  twitter 
 make every detail perfect, and limit the number of details
 
