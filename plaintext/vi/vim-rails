@@ -9,7 +9,10 @@ K       works
 
 http://joshuaborn.info/blog/9d0b/plain
 
-gf works great with route.rb "user#index"
+## gf 
+
+ - works great with route.rb "user#index"
+ - works great in controllers as well, you do not need Rview, Rmodel here! 
 
 ## ack
 
