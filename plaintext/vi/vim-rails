@@ -9,6 +9,8 @@ K       works
 
 http://joshuaborn.info/blog/9d0b/plain
 
+gf works great with route.rb "user#index"
+
 ## ack
 
 sudo apt-get install ack-grep
