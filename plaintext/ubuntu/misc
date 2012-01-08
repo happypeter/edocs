@@ -46,6 +46,8 @@ delete `defualt` by right clicking on it
 reboot the system, and try to connect to wireless network
 then you'll be asked for new passwd for the keyring, leave it empty
 and you're done
+
+once i remove the deb package "ssh-askpass-gnome", the the wireless stop working
 ## check disk use
 
     df -h
