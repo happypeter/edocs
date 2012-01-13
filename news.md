@@ -1,3 +1,18 @@
+### happycasts
+
+Guide line:
+
+ 1. Linux centered, if I want do casts on rails, put it elsewhere
+ 2. "get the job done" centered, fix one problem, do one task in each episode, 
+    if I want to explain logics, do it elsewhere
+ 3. so no slides here
+ 4. vim, git, bash, apache, and how to setup php, how to config ROR on Linux, how to
+    use vim to develop ROR, how to use github... are on topic
+ 5. how to implement qq-auth in Ruby, how to write html, are currently off
+    topic, but I may add these into happycasts in the future
+ 6. Good branding = one style(get the job done) + one scope(Linux tips for
+    developers)
+
 ### DHH basecamp to rails
 PHP does not have layers(MVC), it does everything in one scripting Lanague
 ### Jack Dorsey-- co-founder  twitter 
