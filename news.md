@@ -1,3 +1,5 @@
+### textmate -> vim
+http://blog.danielfischer.com/2010/11/19/a-starting-guide-to-vim-from-textmate/
 ### ruby regexp
 http://rubular.com/
 ### I am deleting my blog.chinaunix.net
