@@ -1,3 +1,40 @@
+### I am deleting my blog.chinaunix.net
+I see tag like "last change in 10_17_2008" on many posts, Thx God, now I have
+git.
+
+All the posts are in English, this is the place where I start my
+all-in-english plan. 
+
+    My Plan--v0.1
+    (2007-12-14 19:43:34)
+
+    My plan
+
+    From now on I will try to do things listed below;
+
+    1. All my reading material shall be in English only
+
+    2. I will take notes in English too
+
+    3. I know it is almost impossiable to do so, but “almost” is not “definately”,
+       I will have a  try even though I face the difficulties of today and
+       tomorrow.
+
+    4. Life is but a mountain of despair if....
+
+Many posts are on hardware, bad, bad, bad.
+
+I posted some ESR articles on it, I posted my code, my debug log, I still
+backup all these with buring CD. How stupid I was. 
+
+I did Qt, qtopia, protel, usb, ethernet, I read cpu UM, I learn bash, c, c++
+all together, all kinds of shit, why I was so mad,
+it was all because I wanted get that fucking degree.
+
+
+
+SO sorry for keeping my pullution for so long, guys. Now everything is gone.
+
 ### happycasts
 
 Guide line:
