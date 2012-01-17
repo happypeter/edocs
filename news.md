@@ -1,3 +1,5 @@
+### ruby regexp
+http://rubular.com/
 ### I am deleting my blog.chinaunix.net
 I see tag like "last change in 10_17_2008" on many posts, Thx God, now I have
 git.
