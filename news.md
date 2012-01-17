@@ -1,3 +1,7 @@
+### known to the world
+I did a google search for "happypeter.org", no one link to me, fuck! I will
+try to change this by providing sth really nice for the world.
+
 ### DHH basecamp to rails
 PHP does not have layers(MVC), it does everything in one scripting Lanague
 ### Jack Dorsey-- co-founder  twitter 
