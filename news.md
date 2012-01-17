@@ -36,7 +36,7 @@ it was all because I wanted get that fucking degree.
 SO sorry for keeping my pullution for so long, guys. Now everything is gone.
 
 EDIT: not quite. I still have shit at
-http://happypeter.ycool.com/(ID:happypeter, PW:111111), can not find a delete
+http://happypeter.ycool.com/(ID:happypeter, PW:111111), now deleted
 link their.
 
 
