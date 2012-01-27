@@ -1,3 +1,10 @@
+### Be a techer again
+
+try to update LGCB, try to think I am a teacher again. So I need:
+
+    1. a book(LGCB + akaeText + TLCL)
+    2. some tutorail videos( with nice slides )
+
 ### textmate -> vim
 http://blog.danielfischer.com/2010/11/19/a-starting-guide-to-vim-from-textmate/
 ### ruby regexp
