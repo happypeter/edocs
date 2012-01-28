@@ -1,3 +1,6 @@
+### be famous rails developer
+http://www.youtube.com/watch?v=JUUvq48Gb3w
+
 ### Be a techer again
 
 try to update LGCB, try to think I am a teacher again. So I need:
