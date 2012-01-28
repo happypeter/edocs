@@ -35,6 +35,10 @@ set `network.proxy.socks_remote_dns` to `true`
 NOTE: if this is false(as it was defaulted), I can open youtube page and even login
 but I get "connection timeout" whenever I an trying to view the video/
 
+Edit: when I did a firefox upgrade, things stop working, it is finally solved by changing
+
+    network.proxy.socks_port    (change the "value" from 1080 to 7070, as given in the "ssh -D..." command)
+
 A BETTER WAY:
 
 use a firefox addon named Autoproxy
