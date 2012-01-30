@@ -1,5 +1,6 @@
-# omnigraffle
-## get schcon like slide 
+# omnigraffle (in its own file)
+
+## get schcon like slide( depreacated)
 
 I first need a fixed sized backgroud, then I will
 drow everything on it.
