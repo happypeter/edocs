@@ -1,3 +1,7 @@
+### html tutotials
+http://htmldog.com/guides/cssbeginner/applyingcss/
+
+https://developer.mozilla.org/zh-CN/
 ### 再谈我来干什么
 1. 解决河北高校学生的就业问题
 2. 让大家告别应试教育，通过做实际项目来培养，英文，写作，编程，等各方面能力
