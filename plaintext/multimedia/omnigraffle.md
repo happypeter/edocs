@@ -1,3 +1,5 @@
+## make tables
+toolbar -> customize -> add maketable
 ## insert pics
 
 file -> Plave image
