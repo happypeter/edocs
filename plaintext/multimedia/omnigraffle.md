@@ -1,3 +1,6 @@
+## when trying to fake a console 
+user fond :"courier regular", cause it's mono-width, nice to display things
+like "rw-r--r--"
 ## make tables
 toolbar -> customize -> add maketable
 ## insert pics
