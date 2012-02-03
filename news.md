@@ -1,3 +1,25 @@
+### Happycasts VS Lgcb
+Both are "show don't tell", serve the beginners. teach Linux basics, platforms
+change fast, but look at TLCL, most stuff has not changed for half a century,
+yet it is still so useful for anybody.
+
+L: understanding basics -> people from zero
+H: getting the job done -> people has a bit background knoeledge
+
+L: all slides(charts, diagrams, tables ..)
+H: only screen
+
+L: for absolute beginners, but it is not about something that people can
+easily find out by books, if so, why bother to make a cast. So "fix
+difficulies" for beginners. Like students can easily find out what "ls" or
+"cd .." means in books, so no need to cover all the details in LGCB(give it in
+"further reading"), instead try to help students understand the whole picture
+of filesystem tree.
+H: even it requires some background understanding of the basics, I will still
+make all happycasts for BEGINERS. Just think about how railscasts helped me
+when I am a by-all-means beginner.
+
+
 ### html tutotials
 http://htmldog.com/guides/cssbeginner/applyingcss/
 
