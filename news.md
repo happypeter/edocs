@@ -1,3 +1,14 @@
+### happycasts
+When I was making a happycasts on github basic usage, I am tempted to make it
+a showoff talk, showing people the wiki, graph, fork... and everything. no,
+don't do this. happycasts is "getting the job done", not "strip-tease"
+
+trying to cover all the feathers is kind of the "draw whole strucure" task, so
+more suitable for LGCB. But even LGCB is not about "strip-teasing". It is
+about making people understand.
+
+maybe I will build another site: Linux-strip-teasing.com :) joking.
+
 ### Happycasts VS Lgcb
 Both are "show don't tell", serve the beginners. teach Linux basics, platforms
 change fast, but look at TLCL, most stuff has not changed for half a century,
