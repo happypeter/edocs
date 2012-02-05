@@ -1,3 +1,6 @@
+# kdenlive opensourse video editing
+    http://v.youku.com/v_playlist/f5326484o1p0.html
+
 Download youtube inside great firewall
 <http://deturl.com/>
 
