@@ -1,3 +1,5 @@
+### sth like happycasts
+http://www.danscourses.com/Linux-Fundamentals/
 ### happycasts
 When I was making a happycasts on github basic usage, I am tempted to make it
 a showoff talk, showing people the wiki, graph, fork... and everything. no,
