@@ -233,3 +233,58 @@ now:
 and now point firefox at 192.168.1.103(the ip of the very VM), works.
 
 and now I go to add a feedback msg in the brower, and the msg goes to mysql without any error.
+
+# linode
+
+#DNS
+nice doc: http://library.linode.com/dns-guides/introduction-to-dns
+
+gotoz:
+https://secure.domain.com/account/am/mydomains.php
+click "happycasts.net" -> name servers -> click "update name server" -> now
+
+http://library.linode.com/dns-guides/configuring-dns-with-the-linode-manager
+
+add 
+
+    ns1.linode.com
+    ns2.linode.com
+    ns3.linode.com
+ 
+as the name server used by domain.com, so now when I visit "happycasts.net" it will go to domain.com, then domain.com will use the linode.com name server, thus all the records about DNS records are done on linode.com
+
+
+# rvm command
+
+follow the output
+
+    adduser root rvm
+
+then I need to install gcc:
+
+    apt-get install gcc make
+    
+now install ruby
+
+    rvm install 1.9.3
+    rvm use 1.9.3 # without this, `ruby --version` shows me  ruby is not installed
+
+now this error:
+
+    root@li400-112:~# gem install rails
+    ERROR:  Loading command: install (LoadError)
+    cannot load such file -- zlib
+    ERROR:  While executing gem ... (NameError)
+    uninitialized constant Gem::Commands::InstallCommand
+
+the fix is a old method( but that the ~/.rvm is now /usr/local/rvm, since the user is now root)
+
+    sudo apt-get install zlib1g zlib1g-dev
+    cd .rvm/src/ruby-1.9.2-p180/ext/zlib
+    ruby extconf.rb
+    make
+    sudo make install
+
+now
+
+    gem isntall rails # I got 3.2.1 installed
