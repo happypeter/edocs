@@ -1,3 +1,5 @@
+### nice videos
+http://chris.pirillo.com/live/
 ### sth like happycasts
 http://www.danscourses.com/Linux-Fundamentals/
 ### happycasts
