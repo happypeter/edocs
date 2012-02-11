@@ -81,19 +81,34 @@ ShanRui R520
 my IP:122.115.61.189
 ## domain name provider
 www.maiwangzhan.com.cn 
-(must have .cn now)
-ID: my gmail address (must have @gmail.com)
-PW: my simplest
 
-go to 会员中心 -》 我的域名
-and if you are redirect to 
-http://122.115.36.185/apps/phpSubDNS/
-then you can start adding new sub domain
+    (must have .cn now)
+    ID: my gmail address (must have @gmail.com)
+    PW: my simplest
 
-lover:
- gateway 122.115.61.129
+    go to 会员中心 -》 我的域名
+    and if you are redirect to 
+    http://122.115.36.185/apps/phpSubDNS/
+    then you can start adding new sub domain
 
+    lover:
+     gateway 122.115.61.129
 
+www.domain.com
+
+    ID: happypeter1983
+    PW: Happypeter1983
+    Account ID: 3358942
+
+    HAPPYCASTS.NET
+    If you have any questions about this order, please contact our customer support.  Please mention Order ID: 7508481. 
+
+    Secret Question:
+        what's the name of your first pet?
+        tomboy
+
+    to setup DNS, I just update the nameSever used by domain.com with linode
+    nameservers, and did all the DNS setting at linode.com 
 
 ## ssh 
 
