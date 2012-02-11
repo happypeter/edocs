@@ -268,6 +268,7 @@ now install ruby
 
     rvm install 1.9.3
     rvm use 1.9.3 # without this, `ruby --version` shows me  ruby is not installed
+    rvm --default use 1.9.3
 
 now this error:
 
@@ -287,4 +288,23 @@ the fix is a old method( but that the ~/.rvm is now /usr/local/rvm, since the us
 
 now
 
-    gem isntall rails # I got 3.2.1 installed
+    gem install rails # I got 3.2.1 installed
+    gem unintall rails
+    gem install rails -v 3.0.7 # on lover verion
+
+when Installing passenger
+
+    openssl problem can not be fixed by the hint of passenger output only, need to plus this
+
+        cd /usr/local/rvm/ruby-1.9.3/src/ext/openssl/
+        ruby extconf.rb
+        make
+        sudo make install
+
+when I run
+        
+    bundle
+
+then I found I need to
+
+    apt-get install libxml2-dev libxslt-dev
