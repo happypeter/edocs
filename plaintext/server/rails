@@ -308,3 +308,6 @@ when I run
 then I found I need to
 
     apt-get install libxml2-dev libxslt-dev
+
+when passenger is ready, and I put happycasts/ in /root/
+then I see "permission denied" in the brower, which is fixed when I `mv happycasts /var/www`
