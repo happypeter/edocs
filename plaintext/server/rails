@@ -311,3 +311,23 @@ then I found I need to
 
 when passenger is ready, and I put happycasts/ in /root/
 then I see "permission denied" in the brower, which is fixed when I `mv happycasts /var/www`
+
+linode server login as root, but I want to login as peter as before, so I
+
+    useradd peter #create a peter
+    usermod -a -G admin peter # add peter as a sudoer
+
+ now passenger again
+
+    gem install passenger
+    passenger-install-apache2-module 
+    # no sudo above!!1
+    sudo vim /etc/apache2/httpd.conf
+
+and in http.conf
+
+    Railenv production 
+
+cause a "we are sorry..." error page, when changed to development, it is ok then.
+now everthing works as before. So all the "cancan can not checkout " problem is gone when I no longer login with root
+
