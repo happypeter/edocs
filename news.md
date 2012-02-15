@@ -1,3 +1,10 @@
+### nice blog in China
+happyNews will eventual become this
+http://www.vimer.cn/留言
+it should not occupy the main part of frontpage
+vimer.cn has nice vim things, I want to post sth there, but my happypeter.org
+and happcasts.net are still messy, so I am too shamed to do so.
+
 ### nice videos
 http://chris.pirillo.com/live/
 ### sth like happycasts
