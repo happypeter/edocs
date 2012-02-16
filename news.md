@@ -1,3 +1,7 @@
+### youku still ok
+it still has big toys like
+TechMessager
+
 ### nice blog in China
 happyNews will eventual become this
 http://www.vimer.cn/留言
