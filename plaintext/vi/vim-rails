@@ -1,3 +1,6 @@
+# fuzzfinder 
+
+# tips
 % works for finding html matching tags
 
 fuzzfinder :FufCoverageFile
