@@ -253,6 +253,8 @@ add
  
 as the name server used by domain.com, so now when I visit "happycasts.net" it will go to domain.com, then domain.com will use the linode.com name server, thus all the records about DNS records are done on linode.com
 
+add media.happycasts.net as a new A record, then I go for it in firefox at once, when firefox showed me a "address not found" page, I need to wait for some time obvious. but even a quarter hour passed, and the media.happycasts.net already works in safari, firefox still gives me the "not found" page.
+
 
 # rvm command
 
