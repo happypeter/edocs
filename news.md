@@ -1,3 +1,9 @@
+### google
+http://www.lixiaolai.com/archives/9444.html
+http://www.eduise.com/our-customers # they help people trying to go to US
+http://www.casparant.com/
+
+their sites are also abroad, why google fancy them over me?
 ### youku still ok
 it still has big toys like
 TechMessager
