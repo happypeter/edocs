@@ -1,3 +1,6 @@
+### LGCB
+I will link LGCB within my happycasts, so still happycasts.net will be my
+public face.
 ### google
 http://www.lixiaolai.com/archives/9444.html
 http://www.eduise.com/our-customers # they help people trying to go to US
