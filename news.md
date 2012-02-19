@@ -1,3 +1,5 @@
+### http://www.codecademy.com
+nice javascript in-brower learning
 ### LGCB
 I will link LGCB within my happycasts, so still happycasts.net will be my
 public face.
