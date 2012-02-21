@@ -1,3 +1,11 @@
+# Virtualbox 4.0 or higher
+resize harddisk
+
+ VBoxManage modifyhd ubuntu11.04.vdi --resize 40000
+
+http://www.virtualbox.org/manual/ch08.html
+
+The --resize option allows you to change the capacity of an existing image; this adjusts the logical size of a virtual disk without affecting the physical size much.[37] This currently works only for expanding the capacity of VDI and VHD formats, and only for the dynamically allocated variants. For example, if you originally created a 10G disk which is now full, you can use the --resize 15360 command to add 5 GByte more space to the virtual disk without having to create a new image and copy all data from within a virtual machine.
 # Installation:
 
 1. you have to issue $apt-get update   on a newly installed ubuntu 8.04/8.10
