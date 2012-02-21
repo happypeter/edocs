@@ -40,4 +40,4 @@ finally:
 
 Proxy server -> choose Proxyserver -> change whaterver to "ssh -D"
 
-now it works for both Mac and ubuntu
+now it works for both Mac and ubuntu (ubuntu has a broken sshpass package, so need to get the source from sf.net)
