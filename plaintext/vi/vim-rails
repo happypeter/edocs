@@ -1,3 +1,6 @@
+# remove the annoying underline in html.erb 
+just put something like "highlight link htmlLink text" in: ~/.vim/after/syntax/html.vim 
+this actully overwrite the html.vim in production area: /usr/share/vim/vim73/syntax/html.vim 
 # fuzzfinder 
 very useful
 
