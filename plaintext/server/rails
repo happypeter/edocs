@@ -1,4 +1,49 @@
+# setup rails on 1104ubuntu
 
+do the rvm thing first.
+
+Before you do `bundle` in happycasts/
+
+do this for the gem "rails"
+
+    sudo apt-get install zlib1g zlib1g-dev
+    # not sure about if the follow 4 commands are necessary
+    cd .rvm/src/ruby-1.9.2-p180/ext/zlib
+    ruby extconf.rb
+    make
+    sudo make install
+
+and this for mysql
+
+    sudo apt-get install libmysqlclient-dev
+    
+
+and this for nokogiri
+
+    apt-get install libxml2-dev libxslt1-dev
+
+now done with the bundler.
+
+    cd ~/ # we don't need to stay in happycasts/
+    gem install passenger
+
+now:
+    passenger-install-apache2-module
+
+still I need to install sevel pkgs suggested by passenger, all works for me except that openssl header still not found
+and I see " libruby is installed instead of libopenssl-ruby" when I installing the suggested pkg, but it ended up that this is not a problem, the following fixed everything
+
+    cd ~/.rvm/src/ruby-1.9.2-p290/ext/openssl/
+    ruby extconf.rb 
+    make
+    make install
+
+
+now setup the http.conf and /etc/hosts, I see
+
+mysql2 error
+    
+    
 
 
 
