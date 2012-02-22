@@ -15,7 +15,7 @@ and now:
 
 finally:
 
-Proxy server -> choose Proxyserver -> change whaterver to "ssh -D"
+Proxy server -> choose Proxyserver -> change whaterver to "ssh -D" (when not matching "no proxy" is MUST)
 
 now it works for both Mac and ubuntu (ubuntu has a BROKEN sshpass package, so need to get the source from sf.net)
 
