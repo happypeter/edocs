@@ -1,3 +1,5 @@
+# Linux training
+https://training.linuxfoundation.org/linux-tutorials/how-to-contribute-to-the-linux-community
 ### python in-brower tutor
 http://people.csail.mit.edu/pgbovine/python/tutor.html#mode=edit
 ### http://www.codecademy.com
