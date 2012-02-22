@@ -1,95 +1,5 @@
-# sqlite:
-
-    sqlite> delete from posts where id=27;
-    sqlite>.tables;
-
-# reading:
-http://www.neilkearney.net/welcome/2011/04/essential-ruby-rails-3-reading/
-http://www.aidanf.net/rails_user_authentication_tutorial
-
-# install
-http://ivanbernat.com/guides/install-rails-3-with-sqlite3-mysql-ubuntu-10/
-
-NOTE: when running `rvm install 1.9.2`, now ruby is installed of course, but also rubygems, which is great. Strange here is this, you often need to Ctrl-C, when the installation starts, then it won't exit and it will use another protocal to install so that things go really fast.
-
-use:
-
-    gem install rails -v 3.0.7
-
-since 3.0.7 is the verion in use on lover
 
 
-## gem issue
-
-ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
-
-    sudo apt-get install zlib1g zlib1g-dev 
-
-    cd .rvm/src/ruby-1.9.2-p180/ext/zlib
-
-    ruby extconf.rb
-
-    make
-
-    sudo make install
-
-everything else works perfectly well.
-
-NOTE: similar problem also happens to __openssl__ and __libreadline__,fixes go here: 
-http://intertwingly.net/blog/2009/09/13/RVM-for-Ubuntu-Tip
-http://cjohansen.no/en/ruby/ruby_version_manager_ubuntu_and_openssl
-
-ERROR:
-
-    in `block in replace_bin_path': can't find executable rails 
-
-FIX:
-
-    gem install rails
-
-just do this again, and things back to normal
-
-ERROR:
-
-    ler::ExtensionBuildError)
-
-            /home/peter/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb 
-            checking for rb_thread_blocking_region()... yes
-            checking for mysql_query() in -lmysqlclient... no
-
-FIX:
-
-    sudo apt-get install libmysqlclient-dev
-
-## change .bashrc for rvm
-NOTE: rvm hates the `&&return` in .bashrc
-
-## rake issue 
-Error looks:
-
-    'task' undefined
-
-or:
-
-    rails rake problems: uninitialized constant Rake::DSL 
-
-
-this is a reported bug for rake 0.9, I fix this by downgrade it to 0.8.7
-
-add this in to Gemfile:
-
-    gem 'rake', '0.8.7'
-
-and then `bundle update`, like suggested here:
-http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0/5290331#5290331
-
-and then run this:
-
-    gem uninstall rake -v 0.9.0
-
-
-and this link is useful when you have to use 0.9:
-http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
 
 
 ## reboot
@@ -234,9 +144,9 @@ and now point firefox at 192.168.1.103(the ip of the very VM), works.
 
 and now I go to add a feedback msg in the brower, and the msg goes to mysql without any error.
 
-# linode
+# setup rails onlinode( only a root user as default)
 
-#DNS
+##DNS
 nice doc: http://library.linode.com/dns-guides/introduction-to-dns
 
 gotoz:
@@ -257,6 +167,8 @@ add media.happycasts.net as a new A record, then I go for it in firefox at once,
 
 
 # rvm command
+
+NOTE: rvm was really nauty when I run it as root
 
 follow the output
 
@@ -323,7 +235,7 @@ linode server login as root, but I want to login as peter as before, so I
 
     gem install passenger
     passenger-install-apache2-module 
-    # no sudo above!!1
+    # no sudo above!!
     sudo vim /etc/apache2/httpd.conf
 
 and in http.conf
@@ -333,3 +245,69 @@ and in http.conf
 cause a "we are sorry..." error page, when changed to development, it is ok then.
 now everthing works as before. So all the "cancan can not checkout " problem is gone when I no longer login with root
 
+# sqlite:
+
+    sqlite> delete from posts where id=27;
+    sqlite>.tables;
+
+# reading:
+http://www.neilkearney.net/welcome/2011/04/essential-ruby-rails-3-reading/
+http://www.aidanf.net/rails_user_authentication_tutorial
+
+## gem issue
+
+ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
+
+    sudo apt-get install zlib1g zlib1g-dev 
+
+    cd .rvm/src/ruby-1.9.2-p180/ext/zlib
+
+    ruby extconf.rb
+
+    make
+
+    sudo make install
+
+everything else works perfectly well.
+
+NOTE: similar problem also happens to __openssl__ and __libreadline__,fixes go here: 
+http://intertwingly.net/blog/2009/09/13/RVM-for-Ubuntu-Tip
+http://cjohansen.no/en/ruby/ruby_version_manager_ubuntu_and_openssl
+
+ERROR:
+
+    ler::ExtensionBuildError)
+
+            /home/peter/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb 
+            checking for rb_thread_blocking_region()... yes
+            checking for mysql_query() in -lmysqlclient... no
+
+FIX:
+
+    sudo apt-get install libmysqlclient-dev
+## rake issue ( obsolete )
+Error looks:
+
+    'task' undefined
+
+or:
+
+    rails rake problems: uninitialized constant Rake::DSL 
+
+
+this is a reported bug for rake 0.9, I fix this by downgrade it to 0.8.7
+
+add this in to Gemfile:
+
+    gem 'rake', '0.8.7'
+
+and then `bundle update`, like suggested here:
+http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0/5290331#5290331
+
+and then run this:
+
+    gem uninstall rake -v 0.9.0
+
+
+and this link is useful when you have to use 0.9:
+http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
