@@ -1,6 +1,6 @@
 # about akaedu
 my product now is happycasts.net(LGCB will serve it), so I need to foucs on
-this, and this only.
+this, and this only. Change the world by a product.
 
 so maybe I will 
 
@@ -9,7 +9,9 @@ so maybe I will
   shall fit the boundries of HC perfectly.
 
 Definitely I won't make student friends in Beijing, all my offline effort
-shall be in SJZ.
+shall be in SJZ. so
+
+- try to pursuade LiMing do sth in SJZ.
 
 # Linux training
 https://training.linuxfoundation.org/linux-tutorials/how-to-contribute-to-the-linux-community
