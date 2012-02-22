@@ -1,3 +1,16 @@
+# about akaedu
+my product now is happycasts.net(LGCB will serve it), so I need to foucs on
+this, and this only.
+
+so maybe I will 
+
+- give presentations from time to time for the PR of my product.
+- get request from LiMing, and do some casts for akaedu, BUT, the content
+  shall fit the boundries of HC perfectly.
+
+Definitely I won't make student friends in Beijing, all my offline effort
+shall be in SJZ.
+
 # Linux training
 https://training.linuxfoundation.org/linux-tutorials/how-to-contribute-to-the-linux-community
 ### python in-brower tutor
