@@ -41,24 +41,23 @@ and I see " libruby is installed instead of libopenssl-ruby" when I installing t
 
 now setup the http.conf and /etc/hosts, I see
 
-mysql2 error
-    
-    
+   can not connect to mysql  
+
+so
+    apt-get install mysql-server
+
+now the error is:
+
+    Unknown database 'happycasts_development'
+
+and the final fix is
+
+    rake db:create
+    rake db:migrate
+
+everything works
 
 
-
-## reboot
-
-after reboot `ruby` and `bundle` are both not found, the fix is easy:
-
-    rvm use 1.9.2 # rvm 1.9.2 --default
-
-and rake is now 0.9 again, fix:
-    
-    gem uninstall rake -v 0.9
-    gem install rake -v 0.8.7
-
-    
 
 
 # new app
