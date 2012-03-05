@@ -1,5 +1,7 @@
 # really nice UI
 mailchimp.com
+a good alternative if I do not want to config sendmail myself
+
 # about akaedu
 my product now is happycasts.net(LGCB will serve it), so I need to foucs on
 this, and this only. Change the world by a product.
