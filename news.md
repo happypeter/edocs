@@ -1,3 +1,6 @@
+# UX&UI
+http://fortawesome.github.com/Font-Awesome/#
+twitter bootstrap
 # wiredcrafts.com
 they offer nice positions
 http://wiredcraft.com/about/jobs/web-engineer
