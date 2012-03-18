@@ -243,3 +243,55 @@ ERROR: input output error
 
 to reboot the lover box, hold down Power button for 5 seconds, when the box is down press Power button again.
 The reboot button simply won't work, when os is not installed well.
+
+## domain transfer failed
+
+first go to 
+http://kf.maiwangzhan.com.cn/Main/default/Contents.php?cid=10&id=14
+
+and submit a service ticket, the response is fast
+
+
+
+    您好！帮您开通了域名转移功能，您可以登录域名管理平台自行操作。
+
+    http://mgt.dns.com.cn
+
+    密码：xGzZQ1isDs
+
+so i login to mgt.dns.com.cn, and I change the domain state:
+
+uncheck " tranfer prohibated"
+
+
+
+then go to domain.com
+
+-> transfer your domain to us
+
+now I just go to test the domain "happypeter.org"
+
+and the report was "this may be transfered"
+
+then I pay,( I do not need to type the passwd get from maiwangzhan.com.cn)
+now:
+
+    Congratulations! We are processing your order. We will notify you by email when it is complete.
+    Item
+        
+    Message
+        
+     
+    HAPPYPETER.ORG
+        
+    This item is being processed. We will notify you when processing is complete.
+         
+    If you have any questions about this order, please contact our customer support.  Please mention Order ID: 7672984.
+
+I recive a email, and I follow a link to type xGzZQ1isDs in the form.
+
+now I get a email saying:
+
+       - This process can take up to seven (7) days as we work with your prior
+         Registrar to transfer your domain.
+
