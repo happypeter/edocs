@@ -10,7 +10,7 @@ http://wiredcraft.github.com/hnshanghai/
 
 I will go and talk to them when my shedule allows me.
 # really nice UI
-mailchimp.com
+milchimp.com
 a good alternative if I do not want to config sendmail myself
 
 # about akaedu
