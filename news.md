@@ -1,4 +1,9 @@
- UX&UI
+#Tom startup school
+you produtive needs to be viral, so that people will tell their friends
+when people come, you need to keep them, by having social interaction
+they won't leave here, because their friends are there.
+building a startup by yourself is insane.
+#UX&UI
 http://fortawesome.github.com/Font-Awesome/#
 twitter bootstrap
 # wiredcrafts.com
