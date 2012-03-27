@@ -295,6 +295,8 @@ now everthing works as before. So all the "cancan can not checkout " problem is 
  first install passenger in rvm-ruby=1.9.3(the new version), now paste the tree lines into /etc/apache2/http.conf( yes, replace the lines for 1.9.2, there is no way to use passenger for more than one version of ruby)
 
 now I still need to run "rvm 1.9.3 --default", otherwise my websites will still try to use 2.9.2, and no one can go alive.
+
+when I done with happyec.org, which is using 1.9.3 ruby, all my other sites using 1.9.2 will be started with this error: (Bundler::GemNotFound). I know the fix is simple go to the root of each project and run "bundle install" to install all the gems to 1.9.3, but then I mix all gems together, maybe nicer to use gemset.
 # sqlite:
 
     sqlite> delete from posts where id=27;
