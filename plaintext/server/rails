@@ -289,6 +289,12 @@ and in http.conf
 cause a "we are sorry..." error page, when changed to development, it is ok then.
 now everthing works as before. So all the "cancan can not checkout " problem is gone when I no longer login with root
 
+
+### use passenger in a higher verion of ruby
+
+ first install passenger in rvm-ruby=1.9.3(the new version), now paste the tree lines into /etc/apache2/http.conf( yes, replace the lines for 1.9.2, there is no way to use passenger for more than one version of ruby)
+
+now I still need to run "rvm 1.9.3 --default", otherwise my websites will still try to use 2.9.2, and no one can go alive.
 # sqlite:
 
     sqlite> delete from posts where id=27;
