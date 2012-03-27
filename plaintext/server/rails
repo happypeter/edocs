@@ -363,3 +363,7 @@ and then run this:
 
 and this link is useful when you have to use 0.9:
 http://stackoverflow.com/questions/6085610/rails-rake-problems-uninitialized-constant-rakedsl
+
+# When I need a gemset
+1.9.2@happyec
+I think gemset is only needed when your gems have conflicts, say if two of your projects are all using 1.9.2 ruby, but in one project you want to use Redcarpet1.0, while in another you want Redcarpet2.0.
