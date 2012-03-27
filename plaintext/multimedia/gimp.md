@@ -20,3 +20,8 @@ open it and __save as__ in a lower Quality
 ## make transparent background
 
     layer ->transparency -> alpha
+
+## happyec photo handle
+
+scale image, make width(or height, the bigger one) to 500px
+then __save as__ to lower Quality, say 80
