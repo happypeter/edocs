@@ -210,6 +210,8 @@ as the name server used by domain.com, so now when I visit "happycasts.net" it w
 add media.happycasts.net as a new A record, then I go for it in firefox at once, when firefox showed me a "address not found" page, I need to wait for some time obvious. but even a quarter hour passed, and the media.happycasts.net already works in safari, firefox still gives me the "not found" page.
 
 
+now I have problem using "happyec.org" in IE, while I have no issue using "happycasts.net", so I go to linode, and add a empty AAAA record and try again, waiting .............????????????
+
 # rvm command
 
 NOTE: rvm was really nauty when I run it as root
