@@ -210,7 +210,9 @@ as the name server used by domain.com, so now when I visit "happycasts.net" it w
 add media.happycasts.net as a new A record, then I go for it in firefox at once, when firefox showed me a "address not found" page, I need to wait for some time obvious. but even a quarter hour passed, and the media.happycasts.net already works in safari, firefox still gives me the "not found" page.
 
 
-now I have problem using "happyec.org" in IE, while I have no issue using "happycasts.net", so I go to linode, and add a empty AAAA record and try again, waiting .............???????????? while linode will update its own DNS server in 15 mins, but IE still can not access "happyec.org", it seems it will wait for 2 days until the "empty-hostname.happyec.org"(AKA, happyec.org) will be updated by main DNS servers.
+now I have problem using "happyec.org" in IE, while I have no issue using "happycasts.net", so I go to linode, and add a empty AAAA record and try again, waiting .............???????????? while linode will update its own DNS server in 15 mins, but IE still can not access "happyec.org", it seems it will wait for 2 days until the "empty-hostname.happyec.org"(AKA, happyec.org) will be updated by main DNS servers. NO, it works, just three hours later, huriii!
+
+
 
 
 
