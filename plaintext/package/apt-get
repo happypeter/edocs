@@ -23,19 +23,6 @@ but I can find url in /etc/apt/sources.list, and get it by
     pet@cow:~$ 
     
 
-## build deb
-
-http://www.linuxfordevices.com/c/a/Linux-For-Devices-Articles/How-to-make-deb-packages/
-
-use =dpkg -b dir/= 
-
-use a *control*
-just follow the error message and everything is done. haha
-
-this is the **best doc**
-
-https://wiki.ubuntu.com/PackagingGuide/Basic?action=show&redirect=HowToBuildDebianPackagesFromScratch/
-
 ## dep error
 
 some times:
