@@ -1,3 +1,6 @@
+# Li Fulei happycasts advice
+need to bind it with weibo.com
+
 #Tom startup school
 you produtive needs to be viral, so that people will tell their friends
 when people come, you need to keep them, by having social interaction
