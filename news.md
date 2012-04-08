@@ -1,3 +1,21 @@
+# Linux Expert
+When introduced to Nadar, I was given, by Daniel, the name "Linux Expert".
+Hey, this is cool.
+
+No matter you are a ROR, JAVA, Andriod developer, you need to use vim git ssh
+sendmail mysql netstat things are so important to you, and yet it takes more
+time than you have to investigate by yourself, so you need a Expert like me to
+come and help.
+
+So happycasts is done by a Expert( me spending 1 month to read into the
+sendmail docs) for a developer(you, I know how should the casts be done, casue
+I am a developer, I know we don't need bullshit book theroy, we love "get the
+job done").
+
+LGCB is also my sword as LE
+
+10 most used sql commands(happycasts), what is database, sql(LGCB)
+
 # Li Fulei happycasts advice
 need to bind it with weibo.com
 
