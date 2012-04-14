@@ -1,3 +1,5 @@
+# ubuntu vim-rails pkg has more then rails.vim
+need to check
 http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/
 # remove the annoying underline in html.erb 
 just put something like "highlight link htmlLink text" in: ~/.vim/after/syntax/html.vim 
