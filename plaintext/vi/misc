@@ -1,3 +1,5 @@
+#insert stuff in clipboard
+:h i_ctrl-r
 ##
 zb, zt, and zz scroll the screen to make the current line at the top,
 bottom, or middle.
