@@ -317,13 +317,9 @@ http://www.aidanf.net/rails_user_authentication_tutorial
 ERROR: when running `gem install rails`, the error was 'no file to load -- zlib', the fix is:
 
     sudo apt-get install zlib1g zlib1g-dev 
-
     cd .rvm/src/ruby-1.9.2-p180/ext/zlib
-
     ruby extconf.rb
-
     make
-
     sudo make install
 
 everything else works perfectly well.

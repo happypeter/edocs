@@ -110,26 +110,6 @@ www.domain.com
     to setup DNS, I just update the nameSever used by domain.com with linode
     nameservers, and did all the DNS setting at linode.com 
 
-## ssh 
-
-http://progit.org/book/ch4-1.html
-
-install openssh-server
-
-the server side must be a bare repo
-
-    git clone peter@happypeter.org:repo.git
-
-be sure to have `repo.git` in /home/peter/ rather than /var/www
-
-anyway http is port80 while ssh is 22
-
-add public key to happypeter.org is easy:
-
-    ssh-copy-id peter@happypeter.org
-
-check this for more <https://help.ubuntu.com/10.04/serverguide/C/openssh-server.html>
-
 ## jekyll
 
 
