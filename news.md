@@ -5,6 +5,10 @@ infront of my foerign friends, this is NOT the goal.
 all the episodes are designed for young developers, whose English is not so
 good. So be a teacher, peter, make it simple and clear to them.
 
+So, I don't need a English version of happycasts, because I want to limit the
+number of details, and thus I can make all the details perfect, for JUST my
+students!!!
+
 # Linux Expert
 When introduced to Nadar, I was given, by Daniel, the name "Linux Expert".
 Hey, this is cool.
