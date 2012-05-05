@@ -1,3 +1,10 @@
+# happycasts is for chinese beginners
+maybe some of the episodes can be used to please my peers, and showing off
+infront of my foerign friends, this is NOT the goal.
+
+all the episodes are designed for young developers, whose English is not so
+good. So be a teacher, peter, make it simple and clear to them.
+
 # Linux Expert
 When introduced to Nadar, I was given, by Daniel, the name "Linux Expert".
 Hey, this is cool.
