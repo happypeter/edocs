@@ -48,6 +48,12 @@ then you'll be asked for new passwd for the keyring, leave it empty
 and you're done
 
 once i remove the deb package "ssh-askpass-gnome", the the wireless stop working
+
+### chrome keyring prompt is annoying
+in 11.04 the fix is 
+
+    rm ~/.gnome2/keyrings/*
+
 ## check disk use
 
     df -h
