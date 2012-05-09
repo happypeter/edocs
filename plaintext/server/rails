@@ -88,7 +88,7 @@ now point firefox at:
 
     http://happypeter.org/phpmyadmin/
 
-you can login as root with no passwd
+you can login as root with no passwd, and if the software is not running, while you get a file downloaded, then you need to install mod-php for apache.
 
 ### connect mysql to rails
 
