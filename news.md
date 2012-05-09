@@ -1,3 +1,5 @@
+# http://swiftype.com/
+site search 
 # happycasts is for chinese beginners
 maybe some of the episodes can be used to please my peers, and showing off
 infront of my foerign friends, this is NOT the goal.
