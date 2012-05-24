@@ -35,3 +35,12 @@ the fix:
     aptitude purge bar
 
 then things shall work.
+
+but sometimes this will lead to crazy situation like
+
+    After this operation, 1,485 MB disk space will be freed.
+    You are about to do something potentially harmful.
+    To continue type in the phrase 'Yes, do as I say!'
+     ?] 
+
+then what to do?
