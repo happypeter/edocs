@@ -44,3 +44,7 @@ but sometimes this will lead to crazy situation like
      ?] 
 
 then what to do?
+
+so I download the .deb file from http://packages.ubuntu.com/natty/i386/libgraphicsmagick1-dev/download
+
+    dpkg -x somepackage.deb ./temp
