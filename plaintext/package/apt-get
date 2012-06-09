@@ -1,3 +1,4 @@
+People say aptitude has better dependency tracking than apt-get, can not believe it!!
 ## download deb
 
 	sudo apt-get source network-manager --compile
