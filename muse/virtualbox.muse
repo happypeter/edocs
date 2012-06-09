@@ -1,3 +1,17 @@
+# start a vm on boot (Macos)
+cat ~/bin/start_ubuntu1104
+
+    #!/usr/bin/env bash
+    VBoxManage startvm "ubuntu1104" --type gui
+
+    Log in as the user who wishes to have a login item or as an admin user.
+    Choose System Preferences from the Apple menu.
+    Choose Accounts from the View menu.
+    Click the name of the user.
+    Mac OS X 10.3.x: Click the Startup Items button.
+    Mac OS X 10.4 or later: Click the Login Items button.
+    Click the "Add {+}" button.
+
 # Virtualbox 4.0 or higher
 resize harddisk
 
