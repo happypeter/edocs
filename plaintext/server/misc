@@ -110,6 +110,11 @@ www.domain.com
     to setup DNS, I just update the nameSever used by domain.com with linode
     nameservers, and did all the DNS setting at linode.com 
 
+# linode
+
+after upgrade my plan form 19$/mo to 29$/mo, I did not go to https://manager.linode.com/linodes/resize/linode171551
+and resize my machine, so I was charged for the 29$ plan, but still using the 19$ machine, for many months.
+
 ## jekyll
 
 

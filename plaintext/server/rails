@@ -193,7 +193,7 @@ and now I go to add a feedback msg in the brower, and the msg goes to mysql with
 ##DNS
 nice doc: http://library.linode.com/dns-guides/introduction-to-dns
 
-gotoz:
+goto:
 https://secure.domain.com/account/am/mydomains.php
 click "happycasts.net" -> name servers -> click "update name server" -> now
 
