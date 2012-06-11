@@ -21,9 +21,16 @@ now it works for both Mac and ubuntu (ubuntu has a BROKEN sshpass package, so ne
 
 you want to use twitter: change the server from s2  to s3, dirty!!!
 
+## add new site to gfwList
 
-## OBSOLETED (since autoproxy does everything for me, every setting below
-#does not matter at all)
+firefox -> preference -> advanced -> network settings -> Add proxy rule( if you have Autoproxy installed by now)
+   Add New Rule -> press Enter(do not use Esc or anything) -> click "apply" -> click "OK"
+then we are good.
+
+
+
+# OBSOLETED (since autoproxy does everything for me, every setting below
+# does not matter at all)
 
  ssh -N -D 1080 test009@ss9.he9.org
 
