@@ -27,6 +27,11 @@ firefox -> preference -> advanced -> network settings -> Add proxy rule( if you 
    Add New Rule -> press Enter(do not use Esc or anything) -> click "apply" -> click "OK"
 then we are good.
 
+## trap
+
+networking->setting->proxy server-> choose proxy server
+when the rule is not matched(say, you visit baidu.com), set it "Don't use proxy", otherwise, sites like baidu or youku is blocked when u are using autoproxy
+
 
 
 # OBSOLETED (since autoproxy does everything for me, every setting below
