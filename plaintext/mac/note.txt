@@ -3,6 +3,7 @@
 the full-screen button actually works
 then install http://ethanschoonover.com/solarized 
 now Cmd+, to bring out preference -> window -> style(full screen)
+in full screen mode, default behavior is press Cmd for 1 second bring out the tab, right+left arrow to switch among them
 
 
 #Divvy
