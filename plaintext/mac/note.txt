@@ -1,6 +1,9 @@
 # http://www.iterm2.com/#/section/documentation
 
 the full-screen button actually works
+then install http://ethanschoonover.com/solarized 
+now Cmd+, to bring out preference -> window -> style(full screen)
+
 
 #Divvy
 a must have
