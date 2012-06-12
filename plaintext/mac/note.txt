@@ -1,3 +1,10 @@
+# http://www.iterm2.com/#/section/documentation
+
+the full-screen button actually works
+
+#Divvy
+a must have
+
 # print screen
 
 Hold down Apple key ⌘ + Shift + 3 and release all
