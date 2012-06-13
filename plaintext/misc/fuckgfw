@@ -1,3 +1,7 @@
+# global proxy for all broesers in one go
+go to apple -> system preference -> networking -> advanced -> proxy -> set "socket proxy 127.0.0.1:7070"
+then I can use chrome and safari to view youtube and all...
+
 # use Autoproxy
 
 https://addons.mozilla.org
