@@ -1,3 +1,5 @@
+# http://topicsimple.com/why-video/
+nice videos to show ideas
 # http://swiftype.com/
 site search 
 # happycasts is for chinese beginners
