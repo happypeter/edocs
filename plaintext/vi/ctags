@@ -1,35 +1,9 @@
-:h ctags
-
-## basic usage
-1. creat a tags file
-
-    ctags *
-
-2. open the tags file and i see the format is basiclly
+ open the tags file and i see the format is basiclly
 
     tagName <which file it belongs> <the line of the defination in this file>
 <the type of this tag: f--function m--memner... see "$ ctags
 --list-kinds|less" for more> <the class it belongs>
 
-since the tags file only mark the position of the *defination*, so I doubt if
-I can move to a call of the tag???
-
-3. now I move the cursor to a tag name, CTRL-] will bring me to the defination
-of the tag, and CTRL-T will take me back
-
-4. *gd* and *CTRL-O* can be very useful here.
-    NOTE: I accidently found *gd* works for Makefile as well, great!
-
-## no enough feathers so I need cscope
-according to http://ctags.sourceforge.net/ctags.html
-
-    vi −t tag
-    :ta tag
-    Ctrl-]
-    Ctrl-T
-
-the above seems to be all I can do with ctags
-then obviously cscope brings a lot more
 
 ## how to start my work in a whole new way
 

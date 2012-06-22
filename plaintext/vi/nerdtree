@@ -1,14 +1,3 @@
-nerdtree helps me do navigation inside vim 
-
-   1. when bash starts, the current dir is /home/peter
-we just need to start vim here
-
-   2. now start NerdTree, move cursor to *edocs*, and press *O*to open dirs
-recursively.
-
-   3. then I can */vim* to jump to my vim related files, it is much faster
-then manually navigate to *edocs/plaintext/vim/*  
-
 Now what if I want to add a new file?
 
    1. goto nerdtree window, move cursor to *edocs/plaintext/vi*(or any files
