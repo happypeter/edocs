@@ -1,3 +1,4 @@
+
 #insert stuff in clipboard
 :h i_ctrl-r
 ##
@@ -65,12 +66,6 @@ http://hea-www.harvard.edu/~fine/Tech/vi.html
 `set expandtab`
     CTRL+T; TRL+D
 `:%retab`
-
-## function folding
-
-1.  use `z+f+%` to fold all the functions in a big file
-2.  then `z+x` only eXtract the one you want to view, others will be folded again
-3.  use `zj` or `zk` to move among folds, and then `zx` to view, quit good.
 
 ## buffer
 
