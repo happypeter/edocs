@@ -7,39 +7,10 @@ http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/
 # remove the annoying underline in html.erb 
 just put something like "highlight link htmlLink text" in: ~/.vim/after/syntax/html.vim 
 this actully overwrite the html.vim in production area: /usr/share/vim/vim73/syntax/html.vim 
-# fuzzfinder 
-very useful
 
 http://lucapette.com/vim/codepath-plugin-for-vim/
 Hello, I am Luca Pette and this is my personal website. I write Ruby code with Vim and develop Rails apps on Linux. 
 
 # tips
-% works for finding html matching tags
-
-fuzzfinder :FufCoverageFile
-
-ctags 
-
-Ctrl-x-u by rails.vim 
-K       works
-Ctrl-x-p 
-
 http://joshuaborn.info/blog/9d0b/plain
 
-## gf 
-
- - works great with route.rb "user#index"
- - works great in controllers as well, you do not need Rview, Rmodel here! 
-
-## ack
-
-sudo apt-get install ack-grep
-sudo ln -s /usr/bin/ack-grep /usr/bin/ack
-
-then in vim
-
-    :Ack xxx
-
-or maybe have this in .vimrc
-
-    map ,k :Ack <cword><ENTER>
