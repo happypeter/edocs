@@ -3,7 +3,6 @@
 :h c_<TAB>  to see how to edit vim cmd
 ## helptags
 
-
 	$ cat /home/peter/.vim/doc/peter.txt 
 	*vim-peter*
 
