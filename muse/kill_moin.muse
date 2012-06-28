@@ -1,14 +1,13 @@
-** Kill Moin 
+* Kill Moin 
 
-so I want a sh script to kill moni, since I always failed to kill its process with Ctl+c
+Q: so I want a sh script to kill moni, since I always failed to kill its process with Ctl+c
 A: that is because sent a signal(same as kill PID), which requires the process to handle it by itself. Well `kill -9` is "force quit"
 
-now I need to know how to pass it to '''kill -9'''
-A: use `xargs`
+Q: now I need to know how to pass it to '''kill -9'''
+A: `xargs`
 
 check what I used to kill [[virtualbox]] 
-<example>
-$ps aux | grep virtual | awk '{print $2}' | xargs kill -9     //kill virtualbox
-</example>
+
+    ps aux | grep virtual | awk '{print $2}' | xargs kill -9     //kill virtualbox
 
 
