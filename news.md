@@ -1,3 +1,5 @@
+# gnu screen 
+http://www.youtube.com/watch?v=b2nZdChQvAs&feature=topics
 # http://topicsimple.com/why-video/
 nice videos to show ideas
 # http://swiftype.com/
