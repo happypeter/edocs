@@ -1,0 +1,10 @@
+# Step ssh freezing
+
+    KeepAlive yes
+    ClientAliveInterval 60
+
+add above to sever's `/etc/ssh/sshd_config`
+
+   sudo service ssh restart
+
+It's nice to use "gnu screen" to keep the session alive on server
