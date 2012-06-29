@@ -1,0 +1,28 @@
+# nil? blank? empty?
+
+from http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
+
+    .nil?
+
+    can be used on any object and is true if the object is nil
+
+    .empty?
+
+    can be used on strings, arrays and hashes and returns true if:
+
+    String length == 0
+    Array length == 0
+    Hash length == 0
+    running .empty? on something that is nil will throw a NoMethodError
+
+    That is where .blank? comes in. It is implemented by Rails and will operate on any object as well as work like .empty? on strings, arrays and hashes.
+
+    nil.blank? == true
+    [].blank? == true
+    {}.blank? == true
+    "".blank? == true
+    5.blank? == false
+
+so .nil? is for object
+   .empty? is for s, a, h
+   .blank? is a rails extention not part of ruby
