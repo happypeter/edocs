@@ -2,3 +2,6 @@ now I see why I have to put my scripts at the bottom of the page, cause load seq
 but I can fix this with
 
     doucument.ready()
+
+## chrome debug
+    https://developers.google.com/chrome-developer-tools/docs/overview
