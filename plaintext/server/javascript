@@ -1,0 +1,4 @@
+now I see why I have to put my scripts at the bottom of the page, cause load sequence matters
+but I can fix this with
+
+    doucument.ready()
