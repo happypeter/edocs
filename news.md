@@ -1,3 +1,11 @@
+# songJinshan info
+wacom, drawing pad
+imikr.com
+ucomment for python docs
+viavoice
+kedaxunfei, voice recognation
+songjinshan.com
+ued.taobao.com
 # gnu screen 
 http://www.youtube.com/watch?v=b2nZdChQvAs&feature=topics
 # http://topicsimple.com/why-video/
