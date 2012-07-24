@@ -8,3 +8,23 @@ add above to sever's `/etc/ssh/sshd_config`
    sudo service ssh restart
 
 It's nice to use "gnu screen" to keep the session alive on server
+
+
+# add a new user on linode machine
+by default the new linode machine only has a root user ( with a password )
+so how can I add a user ( e.g peter ), and add it as suders
+
+1. create the user
+
+    useradd peter
+
+2. check `/ect/sudoers` then I know all users in `admin` group has the right to `sudo`
+   so create the group
+
+    $ addgroup admin
+
+3. finally add the user ( peter ) to the group ( admin )
+   
+    $ usermod -g admin peter
+
+4. done
