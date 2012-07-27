@@ -1,3 +1,6 @@
+# something like gist, for tech docs
+http://notepag.es/4u5qay
+
 # songJinshan info
 wacom, drawing pad
 imikr.com
