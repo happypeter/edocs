@@ -1,3 +1,10 @@
+# ruby learning roadmap
+http://techiferous.com/2010/07/roadmap-for-learning-rails/
+The author said to the ruby learning, they should learn the right things the
+right time with right depth.
+
+How much I wish I know how to do this when I was trying to learn Linux, keep
+this in mind for happycasts.net
 # something like gist, for tech docs
 http://notepag.es/4u5qay
 
