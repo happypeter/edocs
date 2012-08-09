@@ -26,5 +26,6 @@ so how can I add a user ( e.g peter ), and add it as suders
 3. finally add the user ( peter ) to the group ( admin )
    
     $ usermod -g admin peter
+    CHECK ALSO: $useradd peter --ingroup admin
 
 4. done

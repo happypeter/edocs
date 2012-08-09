@@ -37,3 +37,13 @@ bundler will always think the gem is still their, and just does nothing, for any
 
 now in `application.css`
 I have to put `@import "bootstrap"` below `@import "peter"`, otherwise it does not work, why?
+
+now to bundle install nokogiri
+I need `sudo apt-get install libxml2 libxml2-dev libxslt1.1 libxslt1-dev` on ubuntu 1204
+
+run
+
+    RAILS_ENV=production rake db:create
+    RAILS_ENV=production rake db:migrate
+    RAILS_ENV=production rake assets:precompile
+
