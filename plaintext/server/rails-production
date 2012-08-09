@@ -1,0 +1,39 @@
+# put things into production
+
+## db
+first error: no db: happycasts_developement
+fix: 
+
+    RAILS_ENV=production rake db:create
+    mysql -uroot happycasts_production<happycasts_development.sql
+
+## rake assets:precompile
+
+now I did a rails update to 3.2.6
+
+the error:
+
+    Sass::SyntaxError in Episodes#index
+
+    Showing /home/peter/sites/happycasts/app/views/layouts/application.html.erb where line #6 raised:
+
+    Invalid CSS after "...me-webfont.eot": expected ")", was "?#iefix) format..."
+      (in /home/peter/sites/happycasts/app/assets/stylesheets/application.css.scss)"
+
+
+this is becasue I have "bootstrap_and_overrides.css.less"
+remove this line in `application.css.scss`
+
+now `rake assets:precompile` done
+
+go on following railscasts#pipelineInProduction
+
+## get rid of less
+
+### funny thing about bundler
+so I delete a Gem in .rvm/, but when I try to go back to do `bundle install ` `bundle update` stuff
+bundler will always think the gem is still their, and just does nothing, for anything to work
+`gem uninstall the_gem` first
+
+now in `application.css`
+I have to put `@import "bootstrap"` below `@import "peter"`, otherwise it does not work, why?
