@@ -4,6 +4,14 @@
 
 now go to `sys->preference->input method switcher`, then reboot your box
 
+### another method
+http://erylei.com/?p=53
+
+    sudo apt-get install im-switch scim-pinyin
+    该命令 是安装 SCIM的拼音输入法。
+    再执行命令
+    im-switch -s scim
+
 ## gtkpod
 
 shuff 4gen->pink
