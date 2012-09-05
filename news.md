@@ -1,3 +1,7 @@
+# Javascript the new overlord
+http://v.youku.com/v_show/id_XNDM3NTk4MTg0.html
+It's not that the browser saved javascipt, it's javascript that saved the web
+and broswer.
 # ruby learning roadmap
 http://techiferous.com/2010/07/roadmap-for-learning-rails/
 The author said to the ruby learning, they should learn the right things the

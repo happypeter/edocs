@@ -1,3 +1,6 @@
+# on my Dell 
+
+the machine is old, virtualbox4 doesn't work for "briadged" nertwork, use the package "virtualbox-3.2" everything is ok now
 # start a vm on boot (Macos)
 cat ~/bin/start_ubuntu1104
 
