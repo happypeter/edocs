@@ -1,4 +1,3 @@
-## since some of the following operation maybe depreracated over time.
 clear 
 echo 
 echo "HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
@@ -8,7 +7,27 @@ echo """
 """
 
 sudo apt-get update # on a fresh system, this is a MUST
-sudo apt-get install tig git curl tree vim 
+sudo apt-get install tig xclip git curl tree vim  openssh-server
+
+config_ssh()
+{
+    ssh-keygen -t dsa
+    echo -n "copying public key to clipboard..."
+    cat ~/.ssh/id_dsa.pub|xclip
+    echo "done"
+    echo "now paste your public key to github->account->sshkey "
+    echo "and press Enter to continue"
+    read AAA
+}
+
+echo "now config ssh..."
+if [ -f ~/.ssh/id_dsa ]
+then
+    echo old keys found
+    echo "do nothing..."
+else
+    config_ssh
+fi
 
 config_git()
 {
@@ -36,20 +55,52 @@ echo """
 """ >~/.gitconfig
 echo "git config ... done!"
 }
-if test -f ~/.gitconfig ;then
-	echo -n ".gitconfig exsits, overwrite? (Y/n): "
-	read AAA
-	if [ "${AAA:-y}" = "y" ];then
-
-	config_git
-
-	fi
+if [ -f ~/.gitconfig ] ;then
+    echo -n ".gitconfig exsits, overwrite? (Y/n): "
+    read AAA
+    if [ "${AAA:-y}" = "y" ];then
+        config_git
+    fi
+else
+    echo -n "~/.gitconfig not found, create it? (Y/n): "
+    read AAA
+    if [ "${AAA:-y}" = "y" ];then
+        config_git
+    fi
 fi
 
-cd # go to $HOME
+cd ~
 rm -rf Music  Templates  Videos Public Pictures Documents  Downloads  examples.desktop # rm folders I do not love
 
+config_vim()
+{
+    cd ~
+    if [ -d peter-vim ]
+    then
+        rm -rf peter-vim
+    fi
+    git clone git@github.com:happypeter/peter-vim.git && mv peter-vim .vim \
+    && cd .vim && git checkout peter-private 
+    cd ~
+    rm -rf ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
+    sudo apt-get install ctags
+}
 
+if [ -d ~/.vim ] ;then
+    echo -n ".vim exsits, replace? (Y/n): "
+    read AAA
+    if [ "${AAA:-y}" = "y" ];then
+        rm -rf ~/.vim 
+        config_vim
+    fi
+else
+    echo -n "~/.vim not found, create it? (Y/n): "
+    read AAA
+    if [ "${AAA:-y}" = "y" ];then
+        config_vim
+    fi
+fi
 
 echo "gnome-terminal --full-screen" >~/ggg
 mv ~/ggg ~/bin/
