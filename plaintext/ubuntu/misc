@@ -1,3 +1,27 @@
+## 1204 (unity) tips
+1. create Desktop icon
+
+    ln -s /usr/share/applications/your-app-name  ~/Desktop 
+    sudo chmod +x ~/Desktop/*.desktop
+
+1. hide unity dashboard
+
+    settings->apperence -> behavior
+
+1. show setting pannel
+
+   cp /usr/share/applications/onboard-settings.desktop ~/Desktop/
+   chmod +x ~/Desktop/onboard-settings.desktop
+   click it and goto "universal access"
+
+   or you can just "ALt-F2" to show the run command prompt and the unity will go along
+
+1. keyboard shortcuts ("universal access -> keyboard")
+
+   Alt-Ctrl-D to hide/show all windows
+   Alt-F4 to close window
+   Alt-Print to print a area
+
 ## chinese input
 
    iii fcitx
