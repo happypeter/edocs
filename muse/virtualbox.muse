@@ -1,3 +1,10 @@
+# full-screen does not work after guest os update
+
+so the fix is to install VM addition again, but when I try to do ot with device->install addtions
+failed with the error:"can not mount the iso"
+
+the fix: go to the lower right corner of VM, click the litter disc icon and unount the iso there first.
+
 # on my Dell 
 
 the machine is old, virtualbox4 doesn't work for "briadged" nertwork, use the package "virtualbox-3.2" everything is ok now

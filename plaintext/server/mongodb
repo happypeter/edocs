@@ -1,2 +1,23 @@
 http://webpulp.tv/episodes/deep-dive-into-mongo-and-mongomapper
 mongo is awesome, I hate  old rails db things now
+
+## Install Mongodb
+
+http://railscasts.com/episodes/238-mongoid-revised?autoplay=true
+
+Append the below line to the end of the file /etc/apt/sources.list
+
+deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen
+
+Add GPG key
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+
+Update package
+
+sudo apt-get update
+
+Install Mongodb
+
+sudo apt-get install mongodb-10gen
+
