@@ -7,7 +7,7 @@ echo """
 """
 
 sudo apt-get update # on a fresh system, this is a MUST
-sudo apt-get install tig xclip git curl tree vim  openssh-server
+sudo apt-get -y install tig xclip git curl tree vim  openssh-server
 
 config_ssh()
 {
@@ -33,25 +33,22 @@ config_git()
 {
 echo "configuring git ..."
 echo """
-
 [user]
 	name = Peter Wang
 	email = happypeter1983@gmail.com
 [core]
 	editor = vim
 [alias]
-        ci = commit -a -v
-        co = checkout
-        st = status
-        br = branch
-        throw = reset --hard HEAD
-	throwh = reset --hard HEAD^
+    ci = commit -a -v
+    co = checkout
+    st = status
+    br = branch
+    throw = reset --hard HEAD
+    throwh = reset --hard HEAD^
 [color]
-        ui = true
-
+    ui = true
 [push]
-	default = current
-
+    default = current
 """ >~/.gitconfig
 echo "git config ... done!"
 }
@@ -84,7 +81,7 @@ config_vim()
     cd ~
     rm -rf ~/.vimrc
     ln -s ~/.vim/vimrc ~/.vimrc
-    sudo apt-get install ctags
+    sudo apt-get -y install ctags
 }
 
 if [ -d ~/.vim ] ;then
@@ -103,8 +100,8 @@ else
 fi
 
 echo "gnome-terminal --full-screen" >~/ggg
-mv ~/ggg ~/bin/
-chmod +x ~/bin/ggg
+sudo mv ~/ggg /bin/ # this may not work if you put it into ~/bin
+chmod +x /bin/ggg
 
 
 ######################################
