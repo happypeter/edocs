@@ -104,6 +104,14 @@ sudo mv ~/ggg /bin/ # this may not work if you put it into ~/bin
 chmod +x /bin/ggg
 
 
+
+clone_github_repo()
+{
+    echo "git clone git@github.com:happypeter/'$1'" >~/bin/git_my_repo
+    chmod +x ~/bin/git_my_repo
+}
+
+clone_github_repo
 ######################################
 #
 #to enable bash vi mode, we need to add the following to $HOME/.bashrc
