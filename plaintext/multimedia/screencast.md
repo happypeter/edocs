@@ -68,3 +68,12 @@ you can also export part of the video by selecting this way
    first set the croparea to 1024x768, then select the video, and drap it to
    fit into the 1024x768 area.
    Stop finding each four boundary by hand !
+
+1. join two pieces of video into one
+   if two video pieces are both exactly 1024x768, then join them into one is
+   very easy, just import them into screenflow, then each of them is placed at
+   exactly the center of the whole area, they take the same square area, and
+   share the same blank area.
+   Now get ride of the blank area is easy like hell, just click the "resize
+   canvas area" button, set the size to 1024x768, click "apply", and it's
+   done!
