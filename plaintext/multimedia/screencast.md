@@ -58,3 +58,13 @@ you can also export part of the video by selecting this way
 
 
 
+## screenflow tips
+
+1. make volume higher
+   select the audio media on timeline, then go to the leftside control pannel,
+   choose "audio" icon, then set the "volume" from 100% -> 170%
+
+1. crop the virtualbox screen
+   first set the croparea to 1024x768, then select the video, and drap it to
+   fit into the 1024x768 area.
+   Stop finding each four boundary by hand !
