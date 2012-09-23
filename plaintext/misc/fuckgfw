@@ -1,3 +1,7 @@
+# fff error
+  "channel 37: open failed: administratively prohibited: open failed"
+  this is simply because you visit somesite that is not there, you can simply ignore this.
+
 # global proxy for all broesers in one go
 go to apple -> system preference -> networking -> advanced -> proxy -> set "socket proxy 127.0.0.1:7070"
 then I can use chrome and safari to view youtube and all...
