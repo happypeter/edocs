@@ -61,6 +61,14 @@ tracker : full text search
     adduser billie # this is the front-end to useradd, who won't care about passwd and homedir, so adduser is preferred 
     usermod -g admin billie # add billie to admin group, so sudo granted
 
+all in one step:
+
+    adduser billie --ingroup admin 
+
+if you get the error "no such group admin", try
+
+   sudo adduser billie sudo # this works on my ubuntu 1204
+
 
 ## set IP 
 
