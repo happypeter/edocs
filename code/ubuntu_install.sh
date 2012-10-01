@@ -115,11 +115,16 @@ clone_github_repo
 ######################################
 #
 #to enable bash vi mode, we need to add the following to $HOME/.bashrc
-#    
+#
 #    set -o vi
 #    bind -m vi-insert "\C-l":clear-screen
 #
 #and we may need to add this for vim launcing as well
 #
 #    alias e='vim'
+#
+# have this for .inputrc
+#
+#    set completion-ignore-case on
+#    set completion-prefix-display-length 2
 #
