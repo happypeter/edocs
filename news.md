@@ -1,3 +1,48 @@
+# kevin Campfire talk
+### APIs
+railsapi.com, best place for apis ( rails and ruby )
+
+Kevin W.    We were talking about Ruby APIs and Rails APIs
+those are the interfaces that Ruby and Rails expose that you can build on top of
+Tom C.  So they're gems?
+Kevin W.    for example, you can say [1,2,3].size
+the fact that Arrays have a "size" method is defined in Ruby Array's API
+You can think them as Ruby / Rails standard libraries
+You could think Ruby / Rails APIs to mean documentations
+In fact people do use them interchangably
+I don't think a library of APIs make sense
+a gem will have APIs that you can use
+happypeter  Yes
+Kevin W.    APIs are basically interfaces to a software component
+so a Gem is more than just APIs
+like C programs are more than just the header files ;)
+but APIs tell you how to interact with the program
+Gideon  Kevin -- I'm trying to understand the submission conventions for Rails, like POST is used for creates, PUT is used for updates
+Kevin W.    yup
+Gideon  I see from the source that the delete link uses data-method="delete"
+happypeter  great, I considered
+Gideon  which I see from the JS gets converted to a form posting that passes that on
+happypeter  My api = your api + binary
+Kevin W.    Peter, know you'll get the C analogy
+happypeter  I was a bit wrong, thx
+
+### delete => destroy
+Kevin W. yeah Gideon, what's your question?
+Gideon  but in the controller,it uses "def destroy" -- where does the "delete" get translated to "destroy" exactly?
+Kevin W.   Right, Rails use "destroy" instead of delete
+as a convention
+HTTP uses DELETE
+It's all magic
+Gideon  so when an HTTP DELETE comes through, it sends it to the "def destroy" in the controller then?
+Kevin W.    Gideon, yes
+If you use resourceful routes
+we'll talk about them in the videos coming up
+
+Gideon  alright, I guess that makes as much sense as PUT meaning update anyway... just the convention
+thanks
+Kevin W.    yes
+convention over configueration
+
 # Javascript the new overlord
 http://v.youku.com/v_show/id_XNDM3NTk4MTg0.html
 It's not that the browser saved javascipt, it's javascript that saved the web
