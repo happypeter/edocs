@@ -19,12 +19,6 @@ chgrp -c mysql -
 
 then *$ls -l*, we see everything on xen is exactly the same as 155
 
-2. but using phpMyadmin, I still can not open asianux_authentication
-
-3. cd ..&&chown -c mysql asianux_authentication&&chgrp -c mysql asianux_authentication
-
-4. now I can browse it in phpAdmin
-
 ** reg done
 
 error is "required data not found"
