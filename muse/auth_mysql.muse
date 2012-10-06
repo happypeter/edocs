@@ -12,7 +12,6 @@ we can go without mysql
 <example>
  htpasswd -c /usr/local/apache/passwd/passwords peter 
 </example>
- 
 
 Now added the below stuff in *conf.d/auth_mysql.conf* 
 
