@@ -18,6 +18,13 @@ So when I do a web course, I will do a bit differently.
 1. so I go to route.rb
 1. no controller -> no action -> no template -> create view...
 1. yea, that's it!
+
+here comes Kevin's words:
+
+    Peter, I typically start from the outside and let errors drive me to go inside. On the product layer, it's the UX, translating to user stories; then the UI; then the view or API; then the various components (Routes, Controller, etc); then models and database (optionally further refinement of business rules) that capture the core business logic.
+
+    It's a big topics and I am not sure I can articulate it well yet.. Also, this is definitely not dogmatic, I am guilty of breaking this pattern to cowboy a bit if I'm confident in the task at hand and know what I'm doing - I think that's typically @Chris' angle.
+
 # gem server
 run `gem server` if you want to see api docs for all your gems
 # rubygems mirror in China
