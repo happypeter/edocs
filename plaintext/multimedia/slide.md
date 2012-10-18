@@ -54,6 +54,12 @@ the fix:
     peter@cow:~/vim-showoff-peter$ heroku keys:add
     Uploading ssh public key /home/peter/.ssh/id_rsa.pub
 
+## heroku for rails
+    https://devcenter.heroku.com/articles/rails3
+easy like hell:
+
+    heroku run rake db:migrate
+    heroku open
 
 ## my requirement
 
