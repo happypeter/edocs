@@ -1,3 +1,14 @@
+# how to start coding, by Chris and Kevin
+
+1. first you have a user story
+1. this is called BDD, or outside in development
+1. then you split in to several tasks
+1. pick one task and then you start to think what kind of data I need
+1. that is you start to a model first, say post.body post.name
+1. now I need to think how I expose these data, or maybe also logic in the model to the user
+1. so I go to route.rb
+1. no controller -> no action -> no template -> create view...
+1. yea, that's it!
 # gem server
 run `gem server` if you want to see api docs for all your gems
 # rubygems mirror in China
