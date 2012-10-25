@@ -102,8 +102,9 @@ www.domain.com
         what's the name of your first pet?
         tomboy
 
-    to setup DNS, I just update the nameSever used by domain.com with linode
-    nameservers, and did all the DNS setting at linode.com
+1. to setup DNS, I just update the nameSever used by domain.com with linode
+   nameservers, and did all the DNS setting at linode.com
+   1. to add a sub domain, like peter.happyec.org, go to linode.com->DNS manager->"point peter.h.org to any IP" ->wait for 15 mins
 
 # linode
 
