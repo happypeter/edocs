@@ -61,6 +61,9 @@ easy like hell:
     heroku run rake db:migrate
     heroku open
 
+    1. handle sensitive data in xxx.yml:
+       https://devcenter.heroku.com/articles/config-vars
+
 ## my requirement
 
 I want to creat slides from text rather than within a WYSIWYG environment. so
