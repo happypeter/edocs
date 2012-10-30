@@ -1,3 +1,5 @@
+# students in Shangdong need Peter!!!
+http://sdutlinux.org/
 # kevin Campfire talk
 ### APIs
 railsapi.com, best place for apis ( rails and ruby )
