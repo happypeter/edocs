@@ -1,3 +1,7 @@
+# delete linode_us
+the ping result( 90ms -> 430ms), my linode_us is much slower(5 times) then linode_tokyo
+So i deleted it(IP: 50.116.39.108)
+and now have a new linode_tyko vps( ssh root@106.186.19.191)
 # Step ssh freezing
 
     KeepAlive yes
