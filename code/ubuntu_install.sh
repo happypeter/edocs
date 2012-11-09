@@ -1,6 +1,6 @@
 clear 
 echo 
-echo "HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
+echo "=== HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
 
 echo """
  this script helps you install your essential tools, let's go
@@ -12,32 +12,31 @@ sudo apt-get -y install tig xclip git curl tree vim  openssh-server
 config_ssh()
 {
     ssh-keygen -t dsa
-    echo -n "copying public key to clipboard..."
-    cat ~/.ssh/id_dsa.pub|xclip
-    echo "done"
-    echo "now paste your public key to github->account->sshkey "
-    echo "and press Enter to continue"
+    echo -n "=== copying public key to clipboard..."
+    echo "=== done"
+    echo "=== now paste your public key to github->account->sshkey "
+    echo "=== and press Enter to continue"
     read AAA
 }
 
-echo "now config ssh..."
-if [ -f ~/.ssh/id_dsa ]
+echo "=== now config ssh..."
+if [ -f ~/.ssh/id_dsa ] || [ -f ~/.ssh/id_rsa]
 then
-    echo old keys found
-    echo "do nothing..."
+    echo === old keys found
+    echo "=== do nothing..."
 else
     config_ssh
 fi
 
 config_git()
 {
-echo "configuring git ..."
+echo "=== configuring git ..."
 echo """
 [user]
-	name = Peter Wang
-	email = happypeter1983@gmail.com
+    name = Peter Wang
+    email = happypeter1983@gmail.com
 [core]
-	editor = vim
+    editor = vim
 [alias]
     ci = commit -a -v
     co = checkout
@@ -85,14 +84,14 @@ config_vim()
 }
 
 if [ -d ~/.vim ] ;then
-    echo -n ".vim exsits, replace? (Y/n): "
+    echo -n "=== .vim exsits, replace? (Y/n): "
     read AAA
     if [ "${AAA:-y}" = "y" ];then
         rm -rf ~/.vim 
         config_vim
     fi
 else
-    echo -n "~/.vim not found, create it? (Y/n): "
+    echo -n "=== ~/.vim not found, create it? (Y/n): "
     read AAA
     if [ "${AAA:-y}" = "y" ];then
         config_vim
@@ -107,6 +106,7 @@ chmod +x /bin/ggg
 
 clone_github_repo()
 {
+    mkdir  ~/bin 2>/dev/null
     echo "git clone git@github.com:happypeter/'$1'" >~/bin/git_my_repo
     chmod +x ~/bin/git_my_repo
 }
