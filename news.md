@@ -1,3 +1,32 @@
+# build a brand
+http://www.lynda.com/Business-Skills-tutorials/Building-Your-Brand/101957-2.html
+1. brand promise
+   1. you build your brand by continuely deliver your promise to the customers
+      1. my training hpcasts has no promising, should have one: Saving your
+         time.
+1. design a logo
+  1. design should not highlight the negative words, like "NO", we are all
+     about communnitcating positivity.
+
+1. A saying in Marketing:
+   "tell them, tell them what you told them, and tell them one more time"
+# online marketing
+http://www.lynda.com/Business-Business-Skills-tutorials/Insights-from-Online-Marketer/
+- Create content, good content is king
+- build personal brand
+  - you need a business brand
+  - But as CEO or Chief scientist of the company, you can also build your own
+  personal fame, by sharing your expertise, people will love your
+  youtubevideo, blog, twitter account, and everything, soon your name will be
+  very valuable for your company, cause costumers want real human face more
+  than a cold brand logo.
+    This works for small companys, but also for large ones, see Bill Gates,
+    Steve Jobs, and in China Pan Shiyi, Ren Zhiqiang. 
+
+  - have personality, be wild, it helps the customers to choose you, it also
+  helps you to choose the customers # This is very IMPORTANT
+- Having stories.
+- Build a viral video,# I will say build several viral pics
 # students in Shangdong need Peter!!!
 http://sdutlinux.org/
 # kevin Campfire talk
