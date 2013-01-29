@@ -1,3 +1,7 @@
+# khanacademy
+https://www.khanacademy.org/talks-and-interviews/v/21st-century-challenges--royal-geographic-society
+get me so excited, want to take online edu as a life-long career.
+
 # build a brand
 http://www.lynda.com/Business-Skills-tutorials/Building-Your-Brand/101957-2.html
 1. brand promise
