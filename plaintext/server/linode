@@ -33,3 +33,5 @@ so how can I add a user ( e.g peter ), and add it as suders
     CHECK ALSO: $useradd peter --ingroup admin
 
 4. done
+
+1. port 22/ssh is blocked by GFW, but http is ok
