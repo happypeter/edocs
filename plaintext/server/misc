@@ -104,7 +104,8 @@ www.domain.com
 
 1. to setup DNS, I just update the nameSever used by domain.com with linode
    nameservers:
-     1. http://www.domain.com/controlpanel/domaincentral/ change DNS->NS, then
+     1. http://www.domain.com/controlpanel/domaincentral/ change
+"Nameservers"(not "DNS"), then
 set ns1.linode.com, ns2....
 
    and did all the DNS setting at linode.com
