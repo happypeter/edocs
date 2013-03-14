@@ -27,7 +27,7 @@ now creat a new presentation with showoff
 setup heroku:
 
     peter@cow:~/ddd/test-pres$ showoff heroku test-pres # again the NAME
-    # if you don't give a name, operation failed but no error msg, so careful
+    # if you dont give a name, operation failed but no error msg, so careful
     image sizing disabled - install rmagick
     pdf generation disabled - install pdfkit
     herokuized. run something like this to launch your heroku presentation:

@@ -37,29 +37,8 @@ the fix:
 
 then things shall work.
 
-#### my gem install rmagick horror
+#### gem install rmagick
+on ubuntu 1204: https://github.com/happypeter/onestep/issues/41
 
-so first I see this error:
-
-    checking for Magick-config... no
-
-obviously I need the header-files, the what google tells me:
-
-   sudo apt-get install libmagick9-dev
-
-so I did, then I found this really require me to do a lot of `purge bar`, casue it rely on many old packages,
-but this lead to crazy situation like
-
-    After this operation, 1,485 MB disk space will be freed.
-    You are about to do something potentially harmful.
-    To continue type in the phrase 'Yes, do as I say!'
-     ?] 
-
-then what to do?
-
-so I download the .deb file from 
-http://packages.ubuntu.com/natty/i386/libmagickwand-dev/download
-
-    dpkg -x somepackage.deb ./temp
-
-and then build myself another deb file with all the files I get and no dependences.
+  sudo apt-get install graphicsmagick-libmagick-dev-compat
+  sudo apt-get install  libmagickwand-dev
