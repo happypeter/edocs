@@ -103,7 +103,11 @@ www.domain.com
         tomboy
 
 1. to setup DNS, I just update the nameSever used by domain.com with linode
-   nameservers, and did all the DNS setting at linode.com
+   nameservers:
+     1. http://www.domain.com/controlpanel/domaincentral/ change DNS->NS, then
+set ns1.linode.com, ns2....
+
+   and did all the DNS setting at linode.com
    1. to add a sub domain, like peter.happyec.org, go to linode.com->DNS manager->"point peter.h.org to any IP" ->wait for 15 mins
 
 # linode
