@@ -106,7 +106,7 @@ www.domain.com
    nameservers:
      1. http://www.domain.com/controlpanel/domaincentral/ change
 "Nameservers"(not "DNS"), then
-set ns1.linode.com, ns2....
+set ns1.linode.com, ns2.... it may take 24hours for changes to take effect
 
    and did all the DNS setting at linode.com
    1. to add a sub domain, like peter.happyec.org, go to linode.com->DNS manager->"point peter.h.org to any IP" ->wait for 15 mins
