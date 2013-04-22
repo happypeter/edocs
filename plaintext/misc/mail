@@ -23,7 +23,7 @@ procmail fetchmail and mutt, but not sendmail info here:
 
 
 ## really good mutt tutorial
-#
+
 http://mutt.blackfish.org.uk/sending/
 
 ## mutt works perfectly
@@ -129,16 +129,6 @@ into
 resart sendmail again.
 
 now I can send from gmail to peter@happypeter.org, the mail will be stored in /var/mail/peter
-
-but want I try to send mail, the resiver still see <peter@lover.happypeter.com>, which is bad.
-
-so I change /etc/mail/sendmail.mc again:
-
--MASQUERADE_AS(`lover.happypeter.org')dnl
-+MASQUERADE_AS(`happypeter.org')dnl
-
-now fixed, I can send on lover to my sina and gmail mailbox, the sender adress is now <peter@happypeter.org>
-great.
 
 
 # other stuff
