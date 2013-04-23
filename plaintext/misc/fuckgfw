@@ -68,3 +68,7 @@ Edit: when I did a firefox upgrade, things stop working, it is finally solved by
 
     network.proxy.socks_port    (change the "value" from 1080 to 7070, as given in the "ssh -D..." command)
 
+1. linux + chrome
+   chrome --proxy-server="socks5://127.0.0.1:7070"
+   # change proxy at settings-> proxy won't work
+   ssh -N -D 7070 peter@happyec.org
