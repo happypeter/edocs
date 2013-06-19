@@ -1,27 +1,12 @@
 ## ubuntu key display
+
 tested on ubuntu 1204
 
     sudo apt-get install screenkey
 
 ## screencast spec
 
-Keycastr font and color: same as dereck vim
-
-Terminal font: Menlio Regular 36pt
-
 Terminal: hide dock and menubar of course
-
-Terminal Color: Use Black on White, since it is more presentation and print
-friendly.
-
-
-Software: use Screenflow to do the editing, 
-DONOT: add episode title and author at the beginning, like "Vim Basics ep1--with happypeter". 
-
-DO: at the end we add "happypeter.org", and before the text, right-click and
-add a transaction "Dip to black"
-
-Export at 75% 
 
 screenflow cut:
 
@@ -39,20 +24,16 @@ you can also export part of the video by selecting this way
    is not for 1024x768, but the 'low' one is still good enough), but the size(a 1024x768
    02:20 mov)
 
-    $ du -sh su*
-    114M    su-high.mov
-    12M     su-least.mov
-    14M     su-low.mov
-    29M     su-medium.mov
+      $ du -sh su*
+      114M    su-high.mov
+      12M     su-least.mov
+      14M     su-low.mov
+      29M     su-medium.mov
 
 
 
 
 ## screenflow tips
-
-1. make volume higher
-   select the audio media on timeline, then go to the leftside control pannel,
-   choose "audio" icon, then set the "volume" from 100% -> 170%
 
 1. crop the virtualbox screen
    first set the croparea to 1024x768, then select the video, and drap it to
