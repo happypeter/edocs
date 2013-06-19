@@ -12,7 +12,7 @@ now you get a `big.mpg`, then
 
 works nice, size 29M -> 1.1M
 
-but 
+but
 
     ffmpeg -i big.mpg  -s 720x576 big.mp4
 

@@ -19,5 +19,5 @@
 
 ## dry-run
 
- sudo dpkg -i --dry-run php5-ffmpeg_0.6.0-1build2_amd64.deb
+ sudo dpkg -i --dry-run xxx.deb
 
