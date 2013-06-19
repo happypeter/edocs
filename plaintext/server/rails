@@ -1,35 +1,3 @@
-# what I learned from Kevin's course
-
-Let's try very hard to remove rails magic, casue it's very confusing to newbies.
-
-From my own experience, I should say I should not start out to learn web, with just rails, it is now a obvious a mistake
-I can learn much faster, if some one can guide me through the web basics first.
-But there is nothing to regret, casue if I did not do rails, I could get access to the community!!!
-
-So when I do a web course, I will do a bit differently.
-# how to start coding, by Chris and Kevin
-
-1. first you have a user story
-1. this is called BDD, or outside in development
-1. then you split in to several tasks
-1. pick one task and then you start to think what kind of data I need
-1. that is you start to a model first, say post.body post.name
-1. now I need to think how I expose these data, or maybe also logic in the model to the user
-1. so I go to route.rb
-1. no controller -> no action -> no template -> create view...
-1. yea, that's it!
-
-here comes Kevin's words:
-
-    Peter, I typically start from the outside and let errors drive me to go inside. On the product layer, it's the UX, translating to user stories; then the UI; then the view or API; then the various components (Routes, Controller, etc); then models and database (optionally further refinement of business rules) that capture the core business logic.
-
-    It's a big topics and I am not sure I can articulate it well yet.. Also, this is definitely not dogmatic, I am guilty of breaking this pattern to cowboy a bit if I'm confident in the task at hand and know what I'm doing - I think that's typically @Chris' angle.
-
-# gem server
-run `gem server` if you want to see api docs for all your gems
-# rubygems mirror in China
-http://ruby.taobao.org/
-
 ##DNS
 nice doc: http://library.linode.com/dns-guides/introduction-to-dns
 
@@ -39,7 +7,7 @@ click "happycasts.net" -> name servers -> click "update name server" -> now
 
 http://library.linode.com/dns-guides/configuring-dns-with-the-linode-manager
 
-add 
+add,
 
     ns1.linode.com
     ns2.linode.com
@@ -52,13 +20,6 @@ add media.happycasts.net as a new A record, then I go for it in firefox at once,
 
 now I have problem using "happyec.org" in IE, while I have no issue using "happycasts.net", so I go to linode, and add a empty AAAA record and try again, waiting .............???????????? while linode will update its own DNS server in 15 mins, but IE still can not access "happyec.org", it seems it will wait for 2 days until the "empty-hostname.happyec.org"(AKA, happyec.org) will be updated by main DNS servers. NO, it works, just three hours later, huriii!
 
-### use passenger in a higher verion of ruby
-
- first install passenger in rvm-ruby=1.9.3(the new version), now paste the tree lines into /etc/apache2/http.conf( yes, replace the lines for 1.9.2, there is no way to use passenger for more than one version of ruby)
-
-now I still need to run "rvm 1.9.3 --default", otherwise my websites will still try to use 2.9.2, and no one can go alive.
-
-when I done with happyec.org, which is using 1.9.3 ruby, all my other sites using 1.9.2 will be started with this error: (Bundler::GemNotFound). I know the fix is simple go to the root of each project and run "bundle install" to install all the gems to 1.9.3, but then I mix all gems together, maybe nicer to use gemset.
 # reading:
 http://www.neilkearney.net/welcome/2011/04/essential-ruby-rails-3-reading/
 http://www.aidanf.net/rails_user_authentication_tutorial
