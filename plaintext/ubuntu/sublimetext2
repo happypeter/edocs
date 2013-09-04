@@ -1,0 +1,17 @@
+http://www.youtube.com/watch?v=05x1Jk4rT1A
+
+Alt-Shift-2 to open second pane(Alt-Shift-1 go back to one pane mode)
+Ctrl-1 Ctrl-2 to switch among the panes
+Ctrl-/ to comment things
+Ctrl-]/[ indent the line
+Ctrl-L select the whole line(to delete or sth)
+Ctrl-enter
+
+close a tag: Option-Cmd-.
+https://github.com/mhartl/rails_tutorial_sublime_text
+
+sublimeerb is useful, get it at github
+
+* install theme on ubuntu
+  /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
+tmTheme files, then you can get it at Preference->Color Theme -> User
