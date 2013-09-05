@@ -1,25 +1,31 @@
-http://www.youtube.com/watch?v=05x1Jk4rT1A
+* railstotutial sublime video
+  http://www.youtube.com/watch?v=05x1Jk4rT1A
 
-Alt-Shift-2 to open second pane(Alt-Shift-1 go back to one pane mode)
-Ctrl-1 Ctrl-2 to switch among the panes
-Ctrl-/ to comment things
-Ctrl-]/[ indent the line
-Ctrl-L select the whole line(to delete or sth)
-Ctrl-enter
+  Alt-Shift-2 to open second pane(Alt-Shift-1 go back to one pane mode)
+  Ctrl-1 Ctrl-2 to switch among the panes
+  Ctrl-/ to comment things
+  Ctrl-]/[ indent the line
+  Ctrl-L select the whole line(to delete or sth)
+  Ctrl-enter
 
-close a tag: Option-Cmd-.
-https://github.com/mhartl/rails_tutorial_sublime_text
 
-sublimeerb is useful, get it at github
+  https://github.com/mhartl/rails_tutorial_sublime_text
 
-* install theme on ubuntu
-  /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
-tmTheme files, then you can get it at Preference->Color Theme -> User
+  * sublimeerb is useful, get it at github
+    now ctrl-shift-. to get erb block
 
-* join lines
-  Just hit Ctrl-j, the line after will be joined, no need to pre select the
-two lines.
+  * install theme on ubuntu
+    /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
+  tmTheme files, then you can get it at Preference->Color Theme -> User
 
+  * join lines
+    Just hit Ctrl-j, the line after will be joined, no need to pre select the
+  two lines.
+
+* tags
+  close a tag: Alt-.
+  add parent tag: Alt-shift-w
+  select everything inside a tag
 * auto format code
 
     peter@goodcat:~/.config/sublime-text-2$ cat Packages/User/Default\
@@ -28,9 +34,6 @@ two lines.
     { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line":
       false } }
     ]
-
-* https://gist.github.com/lucasfais/1207002
-
 
 * tuts plus
   http://www.youtube.com/watch?v=TZ-bgcJ6fQo
@@ -68,3 +71,7 @@ two lines.
   https://gist.github.com/Belgand/2856947
   * Ctrl+Shift+K   delete line
   * Ctrl+Shift+Backspace   delete from cursor to start of line
+
+* add sublime to quick launcher ubuntu:
+  vim ~/.local/share/applications/application_name.desktop
+  chmod +x
