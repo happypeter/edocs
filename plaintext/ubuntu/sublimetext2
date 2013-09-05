@@ -15,3 +15,56 @@ sublimeerb is useful, get it at github
 * install theme on ubuntu
   /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
 tmTheme files, then you can get it at Preference->Color Theme -> User
+
+* join lines
+  Just hit Ctrl-j, the line after will be joined, no need to pre select the
+two lines.
+
+* auto format code
+
+    peter@goodcat:~/.config/sublime-text-2$ cat Packages/User/Default\
+    \(Linux\).sublime-keymap 
+    [
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line":
+      false } }
+    ]
+
+* https://gist.github.com/lucasfais/1207002
+
+
+* tuts plus
+  http://www.youtube.com/watch?v=TZ-bgcJ6fQo
+
+  * multi cursor : Ctrl-D, a replacement for my vim: /keyword -> cw ->n->.
+    if you only want to select one word, you don't need to, just mv the cursor
+  in the word, and hit C-D
+
+  * search, Ctrl-I is a bit better than Ctrl-F cause you don't need to hide
+    the search box by hiting esc, you can just hit Enter with Ctrl-I
+
+  * Command Pannel, really cool, cause it's very hard to remember all these
+    shortcuts, with fuzzy search the commands, you can run much more commands.
+
+  * Go to symbols: C-p -> ordc@crt (Then I am in orders#create)
+
+  * sublime package control: 35:00
+  * snippnets: tools->snippnets :43:00
+  * quote sth with () "" ...
+    select the whole string, and hit "
+    if you just want to selct one word, you can use C-D
+  * advanced open file: you can create parent dir along the way: 1:13:00
+    *  super+Alt+n is used by default to create new files, but super(on ubuntu
+       is Cmd key on my mac keyboard) is block by vertualbox, so I remap it to
+       `Alt-Ctrl-n`
+  * sidebar enhancement: open the current file in browser 1:17:00
+  * Lint: error checking on save for css, js, ... 1:19:00
+  * LiveReload: a chrome extention is needed 1:38:00
+  * replacement for `di'` click into the last word in side '' then C-d-del to
+    delete the last word, now C-del to delete the others
+  * change settings: copy things from `default settings/vendor setting` to
+    `user setttings/my own settings` and do the customization here.
+
+* Sublime Text 2 – Useful Shortcuts (Ubuntu)
+  https://gist.github.com/Belgand/2856947
+  * Ctrl+Shift+K   delete line
+  * Ctrl+Shift+Backspace   delete from cursor to start of line
