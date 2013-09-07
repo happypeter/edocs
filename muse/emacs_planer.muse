@@ -1,3 +1,0 @@
-FrontPage
-
-http://www.emacswiki.org/emacs/PlannerModeQuickStart

@@ -22,6 +22,14 @@
     Just hit Ctrl-j, the line after will be joined, no need to pre select the
   two lines.
 
+
+* line
+  C-x delete the whole line
+  C-Shift-Enter insert line before
+  C-Shift-arrow move current line up/down
+   { "keys": ["ctrl+alt+a"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  check edit-> line
+
 * tags
   close a tag: Alt-.
   add parent tag: Alt-shift-w
