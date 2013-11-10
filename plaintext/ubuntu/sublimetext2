@@ -122,3 +122,13 @@
 * column select
 
     shift+rightmouse
+
+* package controrl
+  https://sublime.wbond.net/
+  shift-control-p->"install" ->"package name"
+
+* emmet
+
+   div.peter<tab>
+   html:5<tab>
+   a{item}
