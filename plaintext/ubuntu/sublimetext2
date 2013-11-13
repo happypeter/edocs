@@ -1,27 +1,14 @@
-* railstotutial sublime video
-  http://www.youtube.com/watch?v=05x1Jk4rT1A
-
-  Alt-Shift-2 to open second pane(Alt-Shift-1 go back to one pane mode)
+* multipane
+  Alt-Shift-2  open second pane(Alt-Shift-1 go back to one pane mode)
   Ctrl-1 Ctrl-2 to switch among the panes
-  Ctrl-/ to comment things
+* edit misc
+  Ctrl-/  comment things
   Ctrl-]/[ indent the line
   Ctrl-L select the whole line(to delete or sth)
   Ctrl-enter
-
-
-  https://github.com/mhartl/rails_tutorial_sublime_text
-
-  * sublimeerb is useful, get it at github
-    now ctrl-shift-. to get erb block
-
-  * install theme on ubuntu
-    /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
-  tmTheme files, then you can get it at Preference->Color Theme -> User
-
-  * join lines
-    Just hit Ctrl-j, the line after will be joined, no need to pre select the
-  two lines.
-
+  ctrl-shift-. to get erb block, need to install sublimeerb first
+* join lines
+  Ctrl-j the line after will be joined, no need to pre select the two lines.
 
 * line
   C-x delete the whole line
@@ -39,20 +26,17 @@
 * auto format code
 
     peter@goodcat:~/.config/sublime-text-2$ cat Packages/User/Default\
-    \(Linux\).sublime-keymap 
+    \(Linux\).sublime-keymap
     [
-    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line":
-      false } }
+    { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } }
     ]
 
-* tuts plus
-  http://www.youtube.com/watch?v=TZ-bgcJ6fQo
+* multi cursor : 
+  Ctrl-D  a replacement for my vim: /keyword -> cw ->n->.
 
-  * multi cursor : Ctrl-D, a replacement for my vim: /keyword -> cw ->n->.
-    if you only want to select one word, you don't need to, just mv the cursor
-  in the word, and hit C-D
-
-  * search, Ctrl-I is a bit better than Ctrl-F cause you don't need to hide
+* search
+  Ctrl-I is a bit better than
+  Ctrl-F cause you don't need to hide
     the search box by hiting esc, you can just hit Enter with Ctrl-I
 
   * Command Pannel, really cool, cause it's very hard to remember all these
@@ -134,3 +118,7 @@
    div.peter<tab>
    html:5<tab>
    a{item}
+
+* install theme on ubuntu
+    /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
+  tmTheme files, then you can get it at Preference->Color Theme -> User
