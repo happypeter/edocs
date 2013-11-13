@@ -33,7 +33,9 @@
 * tags
   close a tag: Alt-.
   add parent tag: Alt-shift-w
+  add parent tag with line break: Ctrl-Shit-g
   select everything inside a tag: Ctrl-,
+
 * auto format code
 
     peter@goodcat:~/.config/sublime-text-2$ cat Packages/User/Default\
