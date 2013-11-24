@@ -17,6 +17,14 @@
    { "keys": ["ctrl+alt+a"], "command": "move_to", "args": {"to": "eol", "extend": false} },
   check edit-> line
 
+* select everything inside () [] ""
+  Ctrl-Shift-M   
+
+* find
+  Ctrl-F: find
+  Enter: find next
+  FLOW（for ubuntu): double-click a word -> Ctrl-F -> Enter to find next
+   
 * tags
   close a tag: Alt-.
   add parent tag: Alt-shift-w
@@ -114,10 +122,11 @@
   shift-control-p->"install" ->"package name"
 
 * emmet
-
+   http://css-tricks.com/video-screencasts/129-emmet-awesome/?play=true
    div.peter<tab>
    html:5<tab>
    a{item}
+   lorem35
 
 * install theme on ubuntu
     /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
