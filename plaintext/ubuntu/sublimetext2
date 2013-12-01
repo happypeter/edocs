@@ -28,8 +28,9 @@
 * tags
   close a tag: Alt-.
   add parent tag: Alt-shift-w
-  add parent tag with line break: Ctrl-Shit-g
+  add parent tag with line break: Ctrl+Shift+g
   select everything inside a tag: Ctrl-,
+  remove a tag: Emmet: remove tag, Ctrl+Shift+;
 
 * auto format code
 
