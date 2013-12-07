@@ -7,7 +7,6 @@
   Ctrl-L select the whole line(to delete or sth)
   Ctrl-enter
   ctrl-shift-. to get erb block, need to install sublimeerb first
-* join lines
   Ctrl-j the line after will be joined, no need to pre select the two lines.
 
 * line
@@ -24,7 +23,6 @@
   Ctrl-F: find
   Enter: find next
   FLOW（for ubuntu): double-click a word -> Ctrl-F -> Enter to find next
-   
 * tags
   close a tag: Alt-.
   add parent tag: Alt-shift-w
@@ -74,15 +72,15 @@
   https://gist.github.com/Belgand/2856947
   * Ctrl+Shift+K   delete line
   * Ctrl+Shift+Backspace   delete from cursor to start of line
-
+  * Ctrl+KK 从光标处删除至行尾
+  
 * add sublime to quick launcher ubuntu:
   vim ~/.local/share/applications/application_name.desktop
   chmod +x
 
 
 *     Ctrl+L 选择整行（按住-继续选择下行）
-    Ctrl+KK 从光标处删除至行尾
-    Ctrl+Shift+K 删除整行
+    
     Ctrl+Shift+D 复制光标所在整行，插入在该行之前
     Ctrl+J 合并行（已选择需要合并的多行时）
     Ctrl+KU 改为大写
@@ -128,7 +126,11 @@
    html:5<tab>
    a{item}
    lorem35
+   css vendor prefix: -box-shandow<tab>, -transition<tab>
+   ctrl+shift+; : remove tags
 
 * install theme on ubuntu
     /home/peter/.config/sublime-text-2/Packages/User/ is the place to put your
   tmTheme files, then you can get it at Preference->Color Theme -> User
+  railscasts theme download: http://railscasts.com/about
+  you can also install with package management, search: railscasts
