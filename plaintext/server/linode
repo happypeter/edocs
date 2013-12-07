@@ -1,8 +1,4 @@
-# delete linode_us
-the ping result( 90ms -> 430ms), my linode_us is much slower(5 times) then linode_tokyo
-So i deleted it(IP: 50.116.39.108)
-and now have a new linode_tyko vps( ssh root@106.186.19.191)
-# Step ssh freezing
+# Stop ssh freezing
 
     KeepAlive yes
     ClientAliveInterval 60
@@ -10,26 +6,3 @@ and now have a new linode_tyko vps( ssh root@106.186.19.191)
 add above to sever's `/etc/ssh/sshd_config`
 
    sudo service ssh restart
-
-It's nice to use "gnu screen" to keep the session alive on server
-
-
-# add a new user on linode machine( tested on 1204)
-by default the new linode machine only has a root user ( with a password )
-so how can I add a user ( e.g peter ), and add it as suders
-
-1. create the user
-
-    adduser peter
-
-2. check `/ect/sudoers` then I know all users in `admin` group has the right to `sudo`
-   so create the group
-
-    $ addgroup admin
-
-3. finally add the user ( peter ) to the group ( admin )
-    $ usermod -g admin peter
-
-4. done
-
-1. port 22/ssh is blocked by GFW, but http is ok
