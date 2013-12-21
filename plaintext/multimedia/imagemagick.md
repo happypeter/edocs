@@ -23,5 +23,7 @@
 
 # random
 
-      convert -size 32x32 xc:red xc:green xc:blue +append stripes.gif
+    convert -size 32x32 xc:red xc:green xc:blue +append stripes.gif
+    convert -size 32x32 xc:red xc:#abc xc:teal xc:#27ae60 +append stripes.gif
+    convert  color.png  -quantize GRAY -colors 256  grey.png
 
