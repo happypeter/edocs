@@ -5,7 +5,7 @@
 
 ## how to make a pic take lesser disk space
 
-open it and __save as__ in a lower Quality
+open it and __save as a jpg__ in a lower Quality
 
 ## how to make a pic smaller or bigger (less pixels)
 
