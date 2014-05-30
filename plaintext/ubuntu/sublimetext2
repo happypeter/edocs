@@ -21,6 +21,8 @@
 
 * find
   Ctrl-F: find
+  Ctrl-Alt-F: find and replace in current file
+  Ctrl-Shift-F: in a whole folder
   Enter: find next
   FLOW（for ubuntu): double-click a word -> Ctrl-F -> Enter to find next
 * tags

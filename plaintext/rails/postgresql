@@ -4,6 +4,8 @@ http://railscasts.com/episodes/342-migrating-to-postgresql
 * how to use it with rails
   * install on ubuntu 1204
     apt-get install -y postgresql-9.1 postgresql-client-9.1 postgresql-contrib-9.1 postgresql-server-dev-9.1
+  * install on ubuntu 1404
+    it's just 9.1 -> 9.3, everything works
   * login
     sudo -u postgres psql
     postgres=# ALTER USER postgres WITH PASSWORD 'postgres';
@@ -19,3 +21,5 @@ http://railscasts.com/episodes/342-migrating-to-postgresql
 
   * 现在我在去一个使用 postgresql 的 rails 项目之中，运行 `rake db:create;rake ;db:migreate`
     就不会报错说 'no role peter' 了。
+    * 但是可能还会出现 “PG：permission denied"
+      * 还没找到好的方法解决
