@@ -1,0 +1,12 @@
+_ I am using Mountain Lion now
+
+http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-2
+
+跟踪这里的步骤，发现我目前根本就没有装 gcc，所以 wget 报错可能也不奇怪了：
+
+  ~  wget
+dyld: Library not loaded: @@HOMEBREW_CELLAR@@/openssl/1.0.1f/lib/libcrypto.1.0.0.dylib
+  Referenced from: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Reason: image not found
+[1]    4499 trace trap  wget
+
