@@ -38,3 +38,9 @@ http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac
      - Errno::EINVAL in UsersController#create Invalid argument - connect(2)
      - 数据居然还是存好了
      - 看来这是 resque 造成的错误，删掉一个 Mailer.deliver 错误就没有了
+   - brew install redis
+     - 现在如果我进入 ppweb 运行 restart_resque.sh 就会看到 Invalid argument -
+       connect(2) 这个错误，看来这是 redis 报错
+     - brew services restart redis
+       brew services list
+     - 这样报错就没有了
