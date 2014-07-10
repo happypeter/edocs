@@ -35,3 +35,19 @@
   OS) by clicking autorun.xxx. anyway, things works beaultifully well after you
   reset virtualbox once
 
+
+- install nodejs on ubuntu 1404
+  http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10
+
+- 一定要把 vm->settings->display->video memory 调高一些，一定一定
+  - http://www.omgubuntu.co.uk/2014/04/ubuntu-14-04-classic-gnome-flashback-session
+  - 还是需要干掉 unity，浏览网页的时候才会滚动自然
+  - gnome-flashback 有问题，还是用 unity 吧，不是太慢。
+
+- sougou
+  http://askubuntu.com/questions/450255/installing-sogou
+
+- 1404 remove login keyring, otherwise if bump up everytime you open chrome
+  and asking "type in password to unlock your keyring"
+  application->system tools->preferences->password and keys -> right click the
+"login" -> set password to blank
