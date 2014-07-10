@@ -1,5 +1,3 @@
-[[lecture_rsync]]
-
 ** Grsync
 
 <example>
@@ -33,7 +31,7 @@ A: the **option** =--delete= will do the job, for other options, check =man= or 
 =grsync=
 
 Note: =-c= has nothing to do with *verify integrity*, since **integrity** is forever guranteed, see this 
-<example>
+
               Note that rsync always verifies that each transferred  file  was
               correctly  reconstructed  on  the  receiving  side by checking a
               whole-file checksum that is generated  as  the  file  is  trans-
@@ -41,4 +39,3 @@ Note: =-c= has nothing to do with *verify integrity*, since **integrity** is for
               nothing to do with this option's before-the-transfer "Does  this
               file need to be updated?" check.
 
-</example>
