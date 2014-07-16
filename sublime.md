@@ -26,7 +26,8 @@ reindent use tab( rather than two spaces ), how to fix?
 
 Settings User:
 
-``
+
+```
 {
   "color_scheme": "Packages/RailsCasts Colour
 Scheme/RailsCastsColorScheme.tmTheme",
