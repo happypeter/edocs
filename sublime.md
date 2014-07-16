@@ -32,7 +32,7 @@ Settings User:
 Scheme/RailsCastsColorScheme.tmTheme",
   "font_face": "Courier New",
   "font_size": 17.0,
-  "line_padding_bottom": 1,
+  "line_padding_bottom": 1, # 适当调节一下，有助于中文显示效果
   "line_padding_top": 1,
 
   "ignored_packages":
