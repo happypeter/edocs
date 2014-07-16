@@ -22,3 +22,24 @@ reindent use tab( rather than two spaces ), how to fix?
 
 
 - http://happycasts.net/episodes/85
+
+
+Settings User:
+
+``
+{
+  "color_scheme": "Packages/RailsCasts Colour
+Scheme/RailsCastsColorScheme.tmTheme",
+  "font_face": "Courier New",
+  "font_size": 17.0,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+```
