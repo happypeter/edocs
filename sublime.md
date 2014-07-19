@@ -44,3 +44,6 @@ Scheme/RailsCastsColorScheme.tmTheme",
   "translate_tabs_to_spaces": true
 }
 ```
+
+- wrap text in html tag
+  - ctrl-w(macx)
