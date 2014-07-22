@@ -47,3 +47,4 @@ Scheme/RailsCastsColorScheme.tmTheme",
 
 - wrap text in html tag
   - ctrl-w(macx)
+  - delete parent tag: Cmd + '
