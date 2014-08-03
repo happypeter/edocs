@@ -1,4 +1,10 @@
 ### For MacOS
+
+- snippet
+  http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/quickly-insert-text-and-code-with-sublime-text-snippets/
+  - Tools -> New snippet
+  - save as xxx..sublime-snippet
+  - in /Users/billie/Library/Application Support/Sublime Text 2/Packages/User
  
 emmet : html&css snippets
         Settting User may have this package ignored, so uncomment that line
