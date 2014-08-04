@@ -1,0 +1,10 @@
+
+https://github.com/happypeter/happycasts/issues/188
+
+每个 virtualhost 里面千万别用 PassengerDefaultRuby ！！！
+
+PassengerDefaultRuby 这个会覆盖最开头的 PassengerDefaultRuby
+的设置，从而全局的改变默认的 ruby 版本。最终全局的 ruby 版本会是最后一个
+<virtualhost> 中给出的 PassengerDefaultRuby
+
+各个 <virtualhost> 应该用 PassengerRuby
