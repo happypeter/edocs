@@ -28,6 +28,10 @@ if things are not valid, try above command to restart the service.
 
 I know *pppoe* is in use by checking the configrations in Windows.
 
-## 秦皇岛
+## 秦皇岛 qinhuangdao
 
 今天又上不去网了，给人家打电话（张永健，这边的维修经理：18603367758）说先让我看灯，我说光纤盒子上：power pon lan 三个灯都亮，那人家说线路肯定没问题。让我不用路由器直接连 windows 拨一下号，如果报 691 错误，就是欠费了，试了一下，果然。
+
+去营业厅续费，说我们这个月签他们 10 块钱，也不知是怎么欠下的。 billie 前几天叫得钱是 2014.8.1 到 2015.8.1 号的，可昨天断网的，都 8.29 号了。
+
+现在续费了，还是连不上，重启了路由器，还是不行，光纤盒路由器都同时断电又连上，过了几分钟，无线网可以用了，yahh
