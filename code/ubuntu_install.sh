@@ -1,5 +1,5 @@
-clear 
-echo 
+clear
+echo
 echo "=== HI $USER, You are running on UBUNTU: " `lsb_release  -c -r`
 
 echo """

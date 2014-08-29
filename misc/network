@@ -27,3 +27,7 @@ $pon dsl-provider
 if things are not valid, try above command to restart the service.
 
 I know *pppoe* is in use by checking the configrations in Windows.
+
+## 秦皇岛
+
+今天又上不去网了，给人家打电话（张永健，这边的维修经理：18603367758）说先让我看灯，我说光纤盒子上：power pon lan 三个灯都亮，那人家说线路肯定没问题。让我不用路由器直接连 windows 拨一下号，如果报 691 错误，就是欠费了，试了一下，果然。
