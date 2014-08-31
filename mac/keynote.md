@@ -16,3 +16,7 @@
 
   - show text char by char
     - build inspector -> build in -> typewriter
+
+- 保持箭头水平
+  - 按住 shift 键，再拽就不变向了
+  - shift-cmd 旋转，单位45度
