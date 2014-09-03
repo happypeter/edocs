@@ -1,3 +1,18 @@
+- add license
+  help -> add license
+
+- change sidebar font
+
+  - install "theme soda" via package control
+  - on linux, go to ~/.config/sublime.../Theme../Soda/
+  - change "Soda Light theme"
+    add to class: sidebar_lable
+
+       "font-size": 18,
+
+   - but now I have to change the sidebar line-height as well
+   - but I failed to change the line-height for sidebar labels
+
 ### For MacOS
 
 - snippet
