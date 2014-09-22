@@ -35,7 +35,7 @@ always set __STD__ for the DV, and then
 
 so I need to change my screencasts taken on my labtop (`.ogv`) files into
 mp4 format as well:
-    
+
     ffmpeg -i big.ogv big.mp4 # don't use `-s 320x240`
 
 tested the output with IE and firefox, all works. though the MP4s are not as
