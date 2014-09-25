@@ -1,6 +1,15 @@
 keynote
+- image bg color to alpha
+  check top menubar for the icon "alpha"
+
+- 移动效果联播
+  - 有多个 object 都有 inspector -> action -> move
+  - 可以让他们的动作自动联播的
+  - 点击 more options 设置时间间隔就好了
+
 - 插入音频很简单
   media->audio
+
 - 如何调整 slide 的尺寸？
   - 右上角的 inspector -> 最左上角的小 icon :document -> 这样就可以看到 slide
     size 的设置了
