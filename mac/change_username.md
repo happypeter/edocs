@@ -38,3 +38,4 @@
 - Mac 10.8.5 我的 macbook 上操作成功。使用了一下，没有太大问题。
   - VirtualBox 的 VM 都找不着了，重新 Add 一下就好了。
   - Sougo 拼音，也有了问题，卸载，清空一下配置，重装就好了。
+  - time-machine 也不行了，我干脆把他 turn off 了
