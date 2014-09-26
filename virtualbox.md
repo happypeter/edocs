@@ -1,3 +1,9 @@
+- 安装 oracle VM extention pack
+
+  重装了 virtualbox，add 以前的镜像进来，报错 USB 不支持，需要安装 
+  http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html#extpack
+
+
 * virtualbox here
 
 * full-screen does not work after guest os update
