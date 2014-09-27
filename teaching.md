@@ -16,10 +16,14 @@
     <https://laracasts.com/series/how-to-be-awesome-in-phpstorm/episodes/2>
     就用我自己 macbook 的默认显示 1280x800，将来如果有明显的问题再切换到 1024x640
 
-  - 终端字体，颜色主题
+  - iterm 终端字体，颜色主题
     - Misterioso
   - sublime 字体，颜色主题
     - 字体：
+      - sidebar 字体实在是太小了，一定要想办法调大
+    - sublime theme
+      - 使用默认就行
+      - Flatland Dark.sublime-theme 也挺好看，不过跟 railscasts color 不太搭配
     - 颜色：致敬 Railscasts
 - 视频托管
   https://happypeter1983.wistia.com/medias/th051maola
