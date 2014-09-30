@@ -8,3 +8,4 @@
 
 - digitalocean
   - 只有新加坡节点，速度比 linode 东京稍微慢一些。
+  - https://github.com/happypeter/happycasts/issues/210
