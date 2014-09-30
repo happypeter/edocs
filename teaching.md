@@ -20,9 +20,12 @@
 
   - iterm 终端字体，颜色主题
     - Misterioso
+    - 平常我用 menlo 14px 字体，但是录出来实在太小了，比 laracasts
+      还小，所以还是改成 16px 吧
   - sublime 字体，颜色主题
     - 字体：
       - sidebar 字体实在是太小了，一定要想办法调大
+        - 说是太小其实也不比，chrome 标签的字体小
       - sublime3 中把字体设置为 13 看起来不错
     - sublime theme
       - 使用默认就行
