@@ -20,6 +20,11 @@
      - but I failed to change the line-height for sidebar labels
      - 要想让边栏和标签字体都变大，可以把屏幕显示调低：1024x640
        这个会比本来的 1280x800
+
+     - update: sublime3 中，参考
+       http://stackoverflow.com/questions/18288870/sublime-text-3-how-to-change-the-font-size-of-the-file-sidebar
+       效果是完美的
+
 录出来的效果要好，因为系统上各个部分的字体也都相应的变大了一些。并且整个视频的
 size 也变小了，更有利于放到网上。
 
