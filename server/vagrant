@@ -1,0 +1,10 @@
+vagrant
+
+- 我在上面安装了 apache2，如何访问里面的网站？
+  -   config.vm.network "forwarded_port", guest: 80, host: 8080
+- 安装了 elasticsearch 如何访问 9000 端口？
+  - http://railscasts.com/episodes/292-virtual-machines-with-vagrant 08:50
+- 新建了一个用户 peter，如何用 ssh 登陆？
+  - ssh -p 2222 peter@localhost
+- 共享文件夹
+   - 本地创建 Vagrantfile 的文件夹-> /vagrant
