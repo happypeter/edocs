@@ -8,3 +8,9 @@ vagrant
   - ssh -p 2222 peter@localhost
 - 共享文件夹
    - 本地创建 Vagrantfile 的文件夹-> /vagrant
+   - 如果移动了 Vagrantfile 的位置，共享文件夹会失效，但是 `vagrant reload`
+     一下就好了
+   - 在 Vagrantfile 里面也可以随意设置 shared folder 很方便啊
+
+- 不知道那个 vm 正在运行？
+  - 启动一下 virtualbox 的 GUI 就看到了
