@@ -1,8 +1,0 @@
-
-[[sf_tip]]
-
-[[sf_cgi]]
-
-[[sf_git]]
-
-[[sf_rsync]]

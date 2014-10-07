@@ -25,11 +25,13 @@
        http://stackoverflow.com/questions/18288870/sublime-text-3-how-to-change-the-font-size-of-the-file-sidebar
        效果是完美的
 
-录出来的效果要好，因为系统上各个部分的字体也都相应的变大了一些。并且整个视频的
-size 也变小了，更有利于放到网上。
+
 
 - add license
   help -> add license
+
+
+
 
 ### For MacOS
 
@@ -38,7 +40,7 @@ size 也变小了，更有利于放到网上。
   - Tools -> New snippet
   - save as xxx..sublime-snippet
   - in /Users/billie/Library/Application Support/Sublime Text 2/Packages/User
- 
+
 emmet : html&css snippets
         Settting User may have this package ignored, so uncomment that line
 sass  : .scss file format support
@@ -106,7 +108,7 @@ Scheme/RailsCastsColorScheme.tmTheme",
   check edit-> line
 
 * select everything inside () [] ""
-  Ctrl-Shift-M   
+  Ctrl-Shift-M
 
 * find
   Ctrl-F: find
@@ -129,7 +131,7 @@ Scheme/RailsCastsColorScheme.tmTheme",
     { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } }
     ]
 
-* multi cursor : 
+* multi cursor :
   Ctrl-D  a replacement for my vim: /keyword -> cw ->n->.
 
 * search
@@ -164,7 +166,7 @@ Scheme/RailsCastsColorScheme.tmTheme",
   * Ctrl+Shift+K   delete line
   * Ctrl+Shift+Backspace   delete from cursor to start of line
   * Ctrl+KK 从光标处删除至行尾
-  
+
 * add sublime to quick launcher ubuntu:
   vim ~/.local/share/applications/application_name.desktop
   chmod +x
