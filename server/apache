@@ -9,3 +9,4 @@
         AllowOverride all # for .htacess file , needed for laravel and rails
     </Directory>
 
+  - a2ensite is useful
