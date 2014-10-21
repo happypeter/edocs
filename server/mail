@@ -1,0 +1,11 @@
+ ActionMailer::Base.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    # https://www.digitalocean.com/community/tutorials/how-to-use-google-s-smtp-server
+    # maybe port should be 465
+    :domain               => "anythingworks",
+    :user_name            => "mygmailaddress@gmail.com",
+    :password             => "somePW",
+    :authentication       => "plain",
+    :enable_starttls_auto => true
+    }
