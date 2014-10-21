@@ -1,16 +1,5 @@
 vagrant
 
-- 我在上面安装了 apache2，如何访问里面的网站？
-  -   config.vm.network "forwarded_port", guest: 80, host: 8080
-- 安装了 elasticsearch 如何访问 9000 端口？
-  - http://railscasts.com/episodes/292-virtual-machines-with-vagrant 08:50
-- 新建了一个用户 peter，如何用 ssh 登陆？
-  - ssh -p 2222 peter@localhost
-- 共享文件夹
-   - 本地创建 Vagrantfile 的文件夹-> /vagrant
-   - 如果移动了 Vagrantfile 的位置，共享文件夹会失效，但是 `vagrant reload`
-     一下就好了
-   - 在 Vagrantfile 里面也可以随意设置 shared folder 很方便啊
-
-- 不知道那个 vm 正在运行？
-  - 启动一下 virtualbox 的 GUI 就看到了
+- https://gist.github.com/rrosiek/8190550
+  - sudo -u vagrant -H sh -c "npm install" > /dev/null 2>&1
+  - 默认就用 root 执行脚本就行了，需要专门用普通用户的命令可以专门指定
