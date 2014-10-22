@@ -9,3 +9,21 @@
     :authentication       => "plain",
     :enable_starttls_auto => true
     }
+ ActionMailer::Base.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 465,
+    :domain               => "anythingworks",
+    :user_name            => "happypeter1983@gmail.com",
+    :password             => "p11111111",
+    :authentication       => "plain",
+    :enable_starttls_auto => true
+    }
+
+### mailgun
+
+注册账户之后，需要 'Your account is currently disabled. Business verification
+is required Please contact support to resolve.'
+
+billie 说她没有遇到这种情况，所以我改用了它已经弄好的账户。
+
+https://github.com/happypeter/onestep/issues/561
