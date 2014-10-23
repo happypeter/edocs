@@ -40,3 +40,8 @@ the below works:
       :user_name => "postmaster@sandbox591c991b6ae54699941132d085beb2ed.mailgun.org",
       :password => "131wrongstuff1ad1e80322d9c742016ea77e0"
     }
+
+如何来 verify 一个域名等：https://github.com/happypeter/onestep/issues/561
+在 linode 上操作了 haoqicat/happycasts 都成功了
+又在 digitalocean 上操作 peterandbillie.com 了。第二个 txt record 的名字和 haoqicat
+不太一样，但是就是按 mailgun 页面上的走吧。
