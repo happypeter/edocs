@@ -327,13 +327,7 @@ Guide line:
 I did a google search for "happypeter.org", no one link to me, fuck! I will
 try to change this by providing sth really nice for the world.
 
-### DHH basecamp to rails
-PHP does not have layers(MVC), it does everything in one scripting Lanague
 ### Jack Dorsey-- co-founder  twitter 
-make every detail perfect, and limit the number of details
-
-expect the unexpected, whenever possiable be the unexpected.
-
 What the story is, how can the people join, when I show my friend this, how
 will they react.
 
@@ -376,51 +370,6 @@ speakers themselves, althogh we can give our suggestions. You will need to:
     with you, so plz show yourself, and be yourself)
  3. we do not want non-sense, we do not want waste our time by listening to
     something we don't give a damn to. Let's add real value to our EC.
-
-### 新文学青年
-
-我这里所谓的文学青年指的是大学时代读书多，有思想，毕业以后想贡献社会，不想让自己的才华在平庸中凋零的人。
-
-先说说＂旧＂文学青年的苦恼。以两类人为例，第一类是文字作者，例如诗人，另一类是美学工作者，例如画家。诗人很苦恼，因为诗稿发不出去，大家都在上网，享受网上的文学快餐。画家也不快乐，因为他们找不着工作，几百年来他们的一份很赚钱的工作：给有钱人画像。现在已经被数码相机所取代。总之，对他们而言，理想和吃饭问题的矛盾很尖锐。
-
-再聊聊，高科技，互联网的今天，我们如何＂新＂起来。文学青年一定会很穷吗？我们来举一个反例，苹果公司的乔布斯。我并不赞同他的所有观点，我只是觉得他符合我的新文学青年的定义，他喜欢文字，喜欢审美，他的成功来自于他把这些东西用高科技的手段来表达，这是＂新＂。
-
-程序员是新文学青年的一种，程序员最基本的素质是用机器语言和人类语言来表达自己的思想，目前全球最成功的一批程序员其实本质上都是一些作家，和社会活动家。再就是随着苹果公司的兴起，程序设计界对于美工设计也渐渐给予了应有的重视。
-
-如果你认为高级程序员＝数学家+电子工程师，我可以说你是对的，但是在几十年前。新的定义是程序员=
-诗人+画家。旧时代的技术条件，决定了程序员需要对机器付出足够的感情，才会得到它的青睐，随着技术的发展，很多强大的技术都渐趋成熟，程序设计也自然重在人性的方面了。
-
-象我本人是作互联网应用的。要做出好的用户体验，不仅需要扎实的技术，更需要的是taste（just
-like Steve Jobs stressed all these years)
-
-
-### How to organize a talk?
-
-Do not try to stress too many points, but try to give 3 points, not too many,
-even when you are trying to tell other people about your whole life, like
-steve jobs.
-
-Like if I need to tell the students about my last 10 years life. I can
-organize everything around 3 lessons I learned during the years.
-1. If u love English, make sure ur major will take u a job in which English
-   does matter
-
-2. Whatever u do, first thing to concern is which kind of people u want to
-   work with.
-
-3. Not just find a day job, find out ur true love, and make it a career
-   for ur whole life. Like I like hacking, but hated my day job, all I
-   really love is actually creating things for the people I love, that't
-   whyni am here in SJZ.
-
-### 非你莫属 111017
-潘石屹：为什么不做网络呢？有学过计算机，我觉得网络会改变这个时代的。
-### wikipedia's jame wales
-inspired by opensourse movement
-he actully failed for the first version Newpedia, but he tried again becasue
-he so passionated about the concept: a ecopidia that everybody can use.
-
-they do not work for free here, they are having fun for free.
 
 ### 文质彬彬学英语
 我们先从我们如何轻松的学会我们的母语，同时又是如何痛苦并且恶心的学不会英语这两个事实做一个对比，来讨论一下目前的大学英语教育有哪些问题。
