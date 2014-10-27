@@ -1,74 +1,8 @@
-# fff error
-  "channel 37: open failed: administratively prohibited: open failed"
-  this is simply because you visit somesite that is not there, you can simply ignore this.
+- mac
+  -  global proxy for all broesers in one go
+  - system preference -> networking ->select Wifi or whatever in use -> advanced -> proxy -> set "socket proxy 127.0.0.1:7070"
+  then I can use chrome and safari to view youtube and all...
 
-# global proxy for all broesers in one go
-go to apple -> system preference -> networking -> advanced -> proxy -> set "socket proxy 127.0.0.1:7070"
-then I can use chrome and safari to view youtube and all...
-
-# use Autoproxy
-
-https://addons.mozilla.org
-add  Autoproxy
-
-Proxy rules -> Add rule subscription -> check "gfwList" then subscribe ->done
-
-and now:
-
-    Proxy server -> Edit Proxyserver -> "ssh -D 127.0.0.1 7070  socks5"( this is usually the default, so nothing to do here)
-
-and now:
-
- ssh -N -D 7070 test009@s2.he9.org
-
-finally:
-
-Proxy server -> choose Proxyserver -> change whaterver to "ssh -D" (when not matching "no proxy" is MUST)
-
-now it works for both Mac and ubuntu (ubuntu has a BROKEN sshpass package, so need to get the source from sf.net)
-
-you want to use twitter: change the server from s2  to s3, dirty!!!
-
-## add new site to gfwList
-
-firefox -> preference -> advanced -> network settings -> Add proxy rule( if you have Autoproxy installed by now)
-   Add New Rule -> press Enter(do not use Esc or anything) -> click "apply" -> click "OK"
-then we are good.
-
-## trap
-
-networking->setting->proxy server-> choose proxy server
-when the rule is not matched(say, you visit baidu.com), set it "Don't use proxy", otherwise, sites like baidu or youku is blocked when u are using autoproxy
-
-
-
-# OBSOLETED (since autoproxy does everything for me, every setting below
-# does not matter at all)
-
- ssh -N -D 1080 test009@ss9.he9.org
-
-NOTE: when I typed in the passwd: test009, there was no prompted info telling me connection established or sth
-but I know I've been doing right, since I am now using the serverIP(check by http://whatismyip.com/), besides, if
-the right passwd is not given, there will be a error msg anyway. 
-
-firefox->edit->preference->advanced->network->settings-> manually proxy conf
-
-
-socks: 127.0.0.1 PORT: 1080  #these can also be set in about:config
-socks v5
-
-NOW> set parser, go firefox, and type in the adress bar: about:config
-
-set `network.proxy.socks_remote_dns` to `true`
-
-NOTE: if this is false(as it was defaulted), I can open youtube page and even login
-but I get "connection timeout" whenever I an trying to view the video/
-
-Edit: when I did a firefox upgrade, things stop working, it is finally solved by changing
-
-    network.proxy.socks_port    (change the "value" from 1080 to 7070, as given in the "ssh -D..." command)
-
-1. linux + chrome
+- linux + chrome
    chrome --proxy-server="socks5://127.0.0.1:7070"
-   # change proxy at settings-> proxy won't work
    ssh -N -D 7070 peter@happyec.org
