@@ -1,3 +1,15 @@
 sudo nginx -t
 
 太好用了
+
+- autoindex
+  - list the content of a dir
+  - if your server root is `/home/peter/media` use
+
+        location / {
+               autoindex on;
+        }
+
+    NOT `location /home/peter/media`
+
+  - no need to `chown -R www-data:www-data /home/peter/media`
