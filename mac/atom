@@ -7,3 +7,10 @@
 
 - atom-terminal
   - 有了它，git 相关的 npm 包就不用装了
+
+- open project
+  - 命令行下操作，不会像 subl 一样，需要跟傻子一样敲两次 `subl .`
+
+- new file
+  - click on tree view, type `a`
+  - see Settings -> Keybindings
