@@ -1,0 +1,6 @@
+下载之后直接 mv 到 /Applications 目录中，似乎下面这一步是自动完成的
+
+    ln -s /Applications/Atom.app/Contents/MacOS/Atom /usr/local/bin/atom
+
+
+大部分操作跟 sublime 有一样的快捷键，另外的一些跟 chrome 一样，Shift+cmd+t 打开刚刚关闭的标签，Alt-Cmd-I 打开 dev tools
