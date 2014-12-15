@@ -4,3 +4,6 @@
 
 
 大部分操作跟 sublime 有一样的快捷键，另外的一些跟 chrome 一样，Shift+cmd+t 打开刚刚关闭的标签，Alt-Cmd-I 打开 dev tools...
+
+- atom-terminal
+  - 有了它，git 相关的 npm 包就不用装了
