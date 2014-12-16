@@ -1,6 +1,4 @@
 I am using Mountain Lion now
-
-
 ### run mysql on startup
 
 /Users/billie/Library/LaunchAgents 如果有 homebrew.mxcl.mysql.plist
@@ -15,14 +13,11 @@ load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist`
 
    socket: /tmp/mysql.sock
 
-
 ### 如果项目使用了 elasticsrarch
 
 https://github.com/billie66/esdemo/issues/4
 
-
 http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-2
-
 跟踪这里的步骤，发现我目前根本就没有装 gcc，所以 wget 报错可能也不奇怪了：
 
 
