@@ -6,26 +6,8 @@ now Cmd+, to bring out preference -> window -> style(full screen)
 in full screen mode, default behavior is press Cmd for 1 second bring out the tab, right+left arrow to switch among them
 
 
-#Divvy
-a must have
 
-# print screen
 
-Hold down Apple key ⌘ + Shift + 3 and release all
-Hold down Apple key ⌘ + Shift + 4 and release all
-
-# gvim for it's all text
-
-serach "mac gvim" in google and download vim7.0.224.tar.bz2
-
-unpack it and follow the readme in it. and have a .gvimrc like:
-
-    set encoding=utf-8
-    set guifont=Monaco:h24
-
-see also
-
-chrome://itsalltext/locale/readme.xhtml "A note to Mac OS X users"
 # Airport
 I can not find hello-peter, I can not connect
 the fix:
@@ -45,7 +27,7 @@ is the same too.
 
 Edit: move the "Airport" on top of ethernet and firewire works for me(sys preference->network). I actully deleted "ethernet" and "firewire" here, since I don't need them. Now I still lose connection, but it is easy to reconnect.
 
-# name change
+### name change
 
 in system preference -> accuont
 
@@ -54,62 +36,6 @@ I change: wang peter -> Peter
 after reboot, I can not find my wifi connection: happpeter.
 
 change the name right back fix this.
-
-# textmate
-## install
-down load the zip file (1.5.10) from official file
-unzip it and drap the thing to Application
-cp /Application/Textmate.app/content/MacOS/textmate ~
-vim textmate # change 2009 to 2099
-the go to Textmate-> register -> paste the fucking name and SN
-done
-## use
-    Cmd + F, Cmd +G, Cmd+Shit+G 
-    
-    mate auth-love/
-
-    <esc> is like vim Ctrl-n
-
-    Cmd+T  open a fire in a Project( mate project/ ), now really easy to css and route.rb files
-
-    Optn+Cmd+ left arrow    Previous file tab 
-
-    Ctrl+Optn+Cmd+D Show project drawer 
-
-    Shft+Cmd+Z  Redo 
-
-    Ctrl + <  html tag
-
-    Ctrl + > <%= %> <%# %> <% %>
-
-    Cmd + [ or ]  indent
-
-    shift + arrowkeys to select, then use option if you want a block
-
-    Alt-Cmd     from controller to view and vice verse 
-
-	Cmd+enter  like vim `o`
-	Cmd+left/righ arrow  `I` `A`
-## bash completion for git, ssh ...
-snowleopard has bash completion, but NOT for git, ssh ...
-so I :
-
-    $ sudo port install bash-completion
-
-And then modify your ~/.profile as directed, e.g., by adding:
-
-    if [ -f /opt/local/etc/bash_completion ]; then
-        . /opt/local/etc/bash_completion
-    fi
-
-finally copy `lover:/etc/bash_completion.d/git` to `mac:/opt/local/etc/bash_completion.d/`
-start a new shell, and it JUST works.
-
-# ldd not avaiable
-
-   otool -L 
-
-
 
 
 ## wget 
@@ -222,24 +148,12 @@ Cmd+R
 4、如何切换中英文标点？
 在使用搜狗输入法进行输入时，可以通过快捷键“Control+.”进行中英文标点切换。
 
-5、如何直接输入英文？
-在中文模式下，输入一串字母后，按回车键，即可直接上屏字母串。
 ### hide dock
 
 command+option+d
 
-### windows
-Cmd+h       hide the current window
-Cmd+tab     get it back
-Cmd+m       minimize windows 
-Ctrl+F3     foucs on docs and get the minimized windows back.
 
 
 apple ID: happypeter1983    PW:111111
 
-
-Cmd+space  run app
-Cmd+q      to kill app
-
-F11     show desktop( better alternative is Ctrl-Arrow or mouse to lower right corner to show desktop of another work space.)
 
