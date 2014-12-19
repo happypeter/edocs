@@ -14,3 +14,7 @@
 - new file
   - click on tree view, type `a`
   - see Settings -> Keybindings
+
+- spell checking
+  - installed by default
+  - red dotted underline for misspelled words and Cmd-: to show candidates
