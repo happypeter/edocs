@@ -27,3 +27,6 @@
 
   - within the language-gfm package, this is also a snippet file :
     https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+- tabs to spaces
+  - https://atom.io/packages/tabs-to-spaces
