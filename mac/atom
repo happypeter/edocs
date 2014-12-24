@@ -18,3 +18,7 @@
 - spell checking
   - installed by default
   - red dotted underline for misspelled words and Cmd-: to show candidates
+
+- snippet
+  - Cmd+Shift+P -> "snippet", then the snippet will be save in ~/.atom/ , just
+    love the location
