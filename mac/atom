@@ -22,3 +22,8 @@
 - snippet
   - Cmd+Shift+P -> "snippet", then the snippet will be save in ~/.atom/ , just
     love the location
+  - had to disable package 'autocomplete-plus', otherwise in gfm file emoji
+    autocomplete will stand in the way
+
+  - within the language-gfm package, this is also a snippet file :
+    https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
