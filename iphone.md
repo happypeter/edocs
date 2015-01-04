@@ -1,4 +1,9 @@
 - sync epub book to ibook
   - update my itunes on Macbook to a newer version so that it recognize my iphone
-  - than the cable connect iphone and sync with itunes
+  - make sure you login itunes with same appleID used on your iphone
+  - open itunes on your macbook, click the phone icon
+  - choose "books", Cmd+O to import the epub file
+  - cable connect iphone
+  - click the "sync" button at the bottom or itunes -> file -> devices-> sync to "peter's iphone"
   - done
+  - you can delete books on your phone by syncing here
