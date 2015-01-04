@@ -1,0 +1,4 @@
+- sync epub book to ibook
+  - update my itunes on Macbook to a newer version so that it recognize my iphone
+  - than the cable connect iphone and sync with itunes
+  - done
