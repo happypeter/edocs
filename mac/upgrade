@@ -1,0 +1,4 @@
+- upgrading to 10.10 Yosemide
+  - when done, pop up "You need Java RunTime Environment to run this web
+    content"
+  - but you should not install jre-xxx but rather jdk-xxx
