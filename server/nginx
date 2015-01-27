@@ -6,9 +6,9 @@ sudo nginx -t
   - list the content of a dir
   - if your server root is `/home/peter/media` use
 
-        location / {
-               autoindex on;
-        }
+      location / {
+        autoindex on;
+      }
 
     NOT `location /home/peter/media`
 
