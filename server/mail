@@ -44,4 +44,5 @@ the below works:
 如何来 verify 一个域名等：https://github.com/happypeter/onestep/issues/561
 在 linode 上操作了 haoqicat/happycasts 都成功了
 又在 digitalocean 上操作 peterandbillie.com 了。第二个 txt record 的名字和 haoqicat
-不太一样，但是就是按 mailgun 页面上的走吧。
+不太一样，但是就是按 mailgun
+页面上的走吧。可以参考这里的图示：https://help.mailgun.com/hc/en-us/articles/202850080-What-does-business-verification-is-required-mean-
