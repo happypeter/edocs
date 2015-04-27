@@ -13,3 +13,8 @@ sudo nginx -t
     NOT `location /home/peter/media`
 
   - no need to `chown -R www-data:www-data /home/peter/media`
+
+-  403 Forbidden
+
+  - 
+

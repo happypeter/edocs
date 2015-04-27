@@ -2,6 +2,11 @@ keynote
 - image bg color to alpha
   check top menubar for the icon "alpha"
 
+- lock 搜定一个图形，作为背景
+  - 这样上面的元素就好用鼠标选了
+  - You can lock objects to avoid inadvertently moving them as you work.
+  - Arrange > Lock.
+
 - 移动效果联播
   - 有多个 object 都有 inspector -> action -> move
   - 可以让他们的动作自动联播的
