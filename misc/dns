@@ -1,0 +1,25 @@
+dns
+
+# happycasts.net 改名为 haoduoshipin.com
+
+现在我想要 happycasts.net/xxx 自动重定向到  haoduoshipin.com/xxx 可以这样做
+
+nginx.conf 中这样写
+
+```
+server {
+        listen 80;
+        index index.html index.htm;
+        server_name happycasts.net;
+        return 301 $scheme://haoduoshipin.com$request_uri;
+}
+
+server {
+        listen 80;
+        index index.html index.htm;
+        server_name www.happycasts.net;
+        return 301 $scheme://haoduoshipin.com$request_uri;
+}
+```
+
+详细信息：https://github.com/happypeter/haoduoshipin/issues/325
