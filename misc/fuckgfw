@@ -6,3 +6,22 @@
 - linux + chrome
    chrome --proxy-server="socks5://127.0.0.1:7070"
    ssh -N -D 7070 peter@happyec.org
+
+
+psd to html is dead
+- http://blog.teamtreehouse.com/psd-to-html-is-dead
+- https://news.ycombinator.com/item?id=7058121
+  -  It wasn't your paper anymore; it was their screens.
+  - I want to work not just with designers, but with Web designers, who intimately understand the workings of HTML, CSS, some JavaScript, and the implications for different browser sizes and versions. Web designers speak HTML/CSS natively,
+  -  css 的书写也已经从单页面，一部分一部分的完成，变成了一种系统的，器件式，高复用度的组织形式，而由设计师来主导页面设计，很多时候注意不到这一点。
+- https://designschool.canva.com/ 的 figure 标签，提供各种分辨率下的图片
+- svg/web font to get retina icons
+  - 更好设置过度效果，改变颜色
+- 最早大家都是直接用切图的方式来实现阴影，圆角，过度效果，现在 css 的新属性都支持了
+
+
+- 图形化设计工具并没有死，只是切图这种工作流死掉了
+  - 单纯的 视觉设计 比一边写代码，一边设计要轻松很多，而且客户一般先要看看这个大致的设计原型，单纯的设计图，改起来也方便很多
+  - 依然可以用 photoshop 来开发图形
+  - sketch 来给出 css 属性等更适合 web 开发流程的功能。
+  -
