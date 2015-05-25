@@ -12,3 +12,6 @@ highlighter: rouge
 
 
 就可以了，但是必须用 liquid 的语法包裹代码才行，用到引号的不行。
+
+
+如果不用 kramdown 而用 redcarpt 那么三个到引号的方式就直接不能用了。
