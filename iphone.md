@@ -3,6 +3,8 @@
   - make sure you login itunes with same appleID used on your iphone
   - open itunes on your macbook, click the phone icon
   - choose "books", Cmd+O to import the epub file
+    - 这一招 yosemite 上有点行不通了，不过直接双击 .epub
+      文件，就可以自动添加到 ibook 中了，然后就可以同步到 iphone
   - cable connect iphone
   - click the "sync" button at the bottom or itunes -> file -> devices-> sync to "peter's iphone"
   - done
