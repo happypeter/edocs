@@ -12,5 +12,4 @@
 
 ### 导出 vcf 格式的 iphone 电话号码
 
-链接 iphone 的 usb 到 macbook
-到macbook 上打开 contects 应用，就可以看到最新 iphone 上的电话本了。
+链接 iphone 的 usb 到 macbook 到macbook 上打开 contects 应用，就可以看到最新 iphone 上的电话本了。file -> export ...
