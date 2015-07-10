@@ -9,3 +9,8 @@
   - click the "sync" button at the bottom or itunes -> file -> devices-> sync to "peter's iphone"
   - done
   - you can delete books on your phone by syncing here
+
+### 导出 vcf 格式的 iphone 电话号码
+
+链接 iphone 的 usb 到 macbook
+到macbook 上打开 contects 应用，就可以看到最新 iphone 上的电话本了。
