@@ -1,3 +1,1 @@
-ffmepeg -i mac.mov -r 10 mac.gif
-
-`-r` is used to set frame rate, but it does not matter so much
+licecap
