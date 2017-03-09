@@ -1,7 +1,18 @@
-what is the realtionship between [[pgp]] and [[gpg]] ?
+### vim 注意
 
-GNU Privacy Guard (GnuPG or GPG) is a free software alternative to the PGP suite of cryptographic software.
+vim 中有 gpg.vim 插件，但是插件能使用的前题是系统上已经安装了 gpg ，也就是先要
 
+```
+brew install gpg
+```
+
+然后再
+
+```
+vim xxx.gpg
+```
+
+### 基础知识
 
 man gpg ::
 
