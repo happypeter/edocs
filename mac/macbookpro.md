@@ -25,3 +25,15 @@ https://support.apple.com/zh-cn/HT201178
 在 Mac 的菜单栏中，选取蓝牙图标，然后选取“打开蓝牙偏好设置”。
 Mac 会扫描可用的蓝牙设备。
 当设备出现在“蓝牙偏好设置”面板中时，点按“配对”。
+
+
+### 安装盗版 sketch
+
+http://www.zhinin.com/sketch-mac.html
+下载后，解决“打不开”的问题。
+
+```
+sudo spctl --master-disable
+``
+
+http://www.macappstore.net/tips/os-1012-any-source/
