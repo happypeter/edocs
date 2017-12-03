@@ -1,3 +1,6 @@
+- sketch runner
+  - sketch 的命令面板
+
 - 黏住顶部 stick to top
   - 创建了一个 symbol ，顶部的一个窄窄的 header 如何随着整个组件 resize 的过程中
   - 保持顶部位置
@@ -24,4 +27,5 @@
 
 - 选中一个画板
   - 画板上没有任何 layer 的时候，点一下画板即可
-  - 有了东西，必须点 artboard 的名字
+  - 有了东西，可以点 artboard 的顶部的名字名字
+  - 更实用的就是，右击 pick layer 选中画板名
