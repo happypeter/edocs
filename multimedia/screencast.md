@@ -1,12 +1,14 @@
-## ubuntu key display
 
-tested on ubuntu 1204
 
-    sudo apt-get install screenkey
+## screenflow
 
-## screencast spec
-
-Terminal: hide dock and menubar of course
+- 插入当前 frame
+  - 选中 clip
+  - shift+cmd+f
+- split 当前 clip
+  - 鼠标点一下，选中当前 clip
+  - scrubber 放到需要 split 的位置
+  - T 即可
 
 screenflow cut:
 
