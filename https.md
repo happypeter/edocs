@@ -96,3 +96,30 @@ server {
     root   /home/peter/sites/book/;
 }
 ```
+
+一个 create-react-app 编译输出的静态项目
+
+```
+server {
+    listen         80;
+    server_name    arclight.us;
+    return         301 https://$server_name$request_uri;
+}
+
+server {
+    listen       443 ssl;
+    server_name  arclight.us;
+    ssl on;
+    ssl_certificate   /etc/nginx/cert/1_arclight.us_bundle.crt;
+    ssl_certificate_key  /etc/nginx/cert/2_arclight.us.key;
+    ssl_session_timeout 5m;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;
+    ssl_prefer_server_ciphers on;
+
+    root /home/ubuntu/express-alipay-stripe/build/;
+    location / {
+      try_files $uri /index.html;
+    }
+}
+```
