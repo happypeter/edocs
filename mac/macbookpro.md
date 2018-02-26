@@ -34,7 +34,7 @@ http://www.zhinin.com/sketch-mac.html
 
 ```
 sudo spctl --master-disable
-``
+```
 
 就上面这一句就够了，对于 sierra 这样的新系统，老系统参考
 

@@ -30,3 +30,8 @@
   - 画板上没有任何 layer 的时候，点一下画板即可
   - 有了东西，可以点 artboard 的顶部的名字名字
   - 更实用的就是，右击 pick layer 选中画板名
+
+- 安装 icons
+  - https://github.com/keremciu/sketch-iconfont
+    - 按照 readme 安装即可
+    - 装完之后要是总不出现 Plugins-> Abstract -> Load 试试
