@@ -102,16 +102,16 @@ server {
 ```
 server {
     listen         80;
-    server_name    arclight.us;
+    server_name    example.us;
     return         301 https://$server_name$request_uri;
 }
 
 server {
     listen       443 ssl;
-    server_name  arclight.us;
+    server_name  example.us;
     ssl on;
-    ssl_certificate   /etc/nginx/cert/1_arclight.us_bundle.crt;
-    ssl_certificate_key  /etc/nginx/cert/2_arclight.us.key;
+    ssl_certificate   /etc/nginx/cert/1_example.us_bundle.crt;
+    ssl_certificate_key  /etc/nginx/cert/2_example.us.key;
     ssl_session_timeout 5m;
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
     ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;
