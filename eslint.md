@@ -32,3 +32,5 @@ module.exports = {
 ```
 
 只开启这一项。这样的原理是，prettier 自己的想法要完全从属与 eslint 配置。perfect 。
+
+当然，未来我自己项目的默认首选还是：https://www.npmjs.com/package/eslint-config-react-app
