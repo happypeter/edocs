@@ -48,3 +48,9 @@ You would need to install an ESLint plugin for your editor first. Then, add a fi
 ```
 
 https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor
+
+
+### markdown file
+
+一旦 markdown 文件中有 js 代码块，eslint 就不管了，还是需要 prettier
+加一些设置的.
