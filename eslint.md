@@ -1,0 +1,34 @@
+前言：react-static create 出来的项目，采用的 eslint 配置时 react-tools ，我自己非常的喜欢。但是用 vscode 打开后，跟我的 prettier 默认配置有冲突，所以一旦每次保存，运行了 prettier ，那么编辑器界面上就会看到很多 eslint 报错。所以才有了下面的解决方案。
+
+先选一套合适的 lint 规则，
+
+例如选择：
+
+package.json
+
+```
+  "eslint-config-react-tools": "1.1.2",
+```
+
+然后配置
+
+/.eslintrc.js
+
+```js
+module.exports = {
+  extends: "react-tools"
+};
+```
+
+这样，安装了 eslint 插件的 vscode 中就会报出各种错误了。
+
+但是这里差错的规则可能跟 prettier 有冲突。现在我肯定希望 prettier 做出让步，跟 eslintrc 中规定的方式一致的啦。
+
+所以就得 vscode 中，到 settings ，删除所有 pettier 相关的自定义设置（注意及时这样，prettier 也依然保留了大量的自己的 Idea ），
+
+```
+ // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "prettier.eslintIntegration": false
+```
+
+只开启这一项。这样的原理是，prettier 自己的想法要完全从属与 eslint 配置。perfect 。
