@@ -1,9 +1,31 @@
 # vscode tips
 
+## prettier
+
+JSX indentation
+
+```
+<div />
+<div />
+```
+
+两个自闭和标签连续，就会出现缩进错误。
+
+解决方法，
+
+https://github.com/prettier/prettier/issues/3734
+
+就是在 .eslintrc.js 中添加两项
+
+```
+module.exports = {
+  extends: ['react-tools', 'prettier', 'prettier/react']
+}
+```
+
 ## nav
 
 cmd-1 cmd-2 .... 在各个打开的文件中切换
-
 
 ### debug
 
@@ -26,4 +48,5 @@ cmd-1 cmd-2 .... 在各个打开的文件中切换
   ]
 }
 ```
+
 就是默认生成的，改了一下端口号。
