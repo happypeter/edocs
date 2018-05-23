@@ -24,14 +24,16 @@ module.exports = {
 
 但是这里差错的规则可能跟 prettier 有冲突。现在我肯定希望 prettier 做出让步，跟 eslintrc 中规定的方式一致的啦。
 
-所以就得 vscode 中，到 settings ，删除所有 pettier 相关的自定义设置（注意及时这样，prettier 也依然保留了大量的自己的 Idea ），
+具体步骤是：
+
+所以就得到 vscode 中，到 settings ，删除所有 pettier 相关的自定义设置（注意即使这样，prettier 也依然保留了大量的自己的默认配置 ），
 
 ```
  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
   "prettier.eslintIntegration": false
 ```
 
-只开启这一项。这样的原理是，prettier 自己的想法要完全从属与 eslint 配置。perfect 。
+只开启这一项，把 false 改为 true 。这样，prettier 自己的想法要完全从属与 eslint 配置 。
 
 当然，未来我自己项目的默认首选还是：https://www.npmjs.com/package/eslint-config-react-app
 
@@ -48,7 +50,6 @@ You would need to install an ESLint plugin for your editor first. Then, add a fi
 ```
 
 https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor
-
 
 ### markdown file
 
