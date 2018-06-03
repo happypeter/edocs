@@ -1,27 +1,10 @@
 # vscode tips
 
-## prettier
+### jump to defination
 
-JSX indentation
+按下 Option 键，用鼠标点一下
 
-```
-<div />
-<div />
-```
-
-两个自闭和标签连续，就会出现缩进错误。
-
-解决方法，
-
-https://github.com/prettier/prettier/issues/3734
-
-就是在 .eslintrc.js 中添加两项
-
-```
-module.exports = {
-  extends: ['react-tools', 'prettier', 'prettier/react']
-}
-```
+Ctrl-minus 就可以返回了。Ctrl-shift-minus
 
 ## nav
 

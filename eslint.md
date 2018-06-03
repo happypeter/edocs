@@ -16,7 +16,7 @@ package.json
 
 ```js
 module.exports = {
-  extends: "react-tools"
+  extends: 'react-tools'
 };
 ```
 
@@ -55,3 +55,18 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 一旦 markdown 文件中有 js 代码块，eslint 就不管了，还是需要 prettier
 加一些设置的.
+
+### react-static 项目
+
+react-static 项目中 JSX 出现缩进错误。
+
+现在我的 prettier 是从属于 eslint 的。并且如果删除了 eslintrc 中的内容，保存时候的错误缩进就没有了。所以这个是一个 eslint 的错误。
+
+```
+ <div />
+    <div>
+      <Routes />
+    </div>
+```
+
+现在 eslint 的 jsx 规则认为这样才是对的。测试了一下，在老版本的 react-static 中就没有这个问题。换回新版本再次 react-static create 一下，发现又好了。
