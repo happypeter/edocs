@@ -69,4 +69,4 @@ react-static 项目中 JSX 出现缩进错误。
     </div>
 ```
 
-现在 eslint 的 jsx 规则认为这样才是对的。测试了一下，在老版本的 react-static 中就没有这个问题。换回新版本再次 react-static create 一下，发现又好了。
+我把 .eslintrc 中，删除 react-tools 直接使用 airbnb ，然后从https://github.com/react-tools/eslint-config-react-tools/blob/master/index.js 拷贝了一些必要点的 rules 过来。一切正常了。
