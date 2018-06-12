@@ -93,3 +93,44 @@ react-static 项目中 JSX 出现缩进错误。
 vscode 中的这一项设置为 false ，prettier 就可以正确的保留 .babelrc 的双引号了。看来还是 eslint 有问题。
 
 eslint 的确是不能正确处理 .babelrc 文件的内容，但是默认 eslint 的命令行是会忽略 .babelrc 文件的。但是不知道为何 vscode-eslint 没有忽略。暂时没有找到好的方法处理，直接用 vim 来修改这个文件吧。(也会看到 vscode 打开 .babelrc 后有一个 load schema 的失败错误，所以可能也是相关的)
+
+
+
+## 支持 jest
+
+
+```
+npm i  eslint-plugin-jest
+```
+
+.eslintrc.js
+
+```js
+module.exports = {
+  parser: 'babel-eslint', // 没有这句，class 组件内， state = {xxx:xxx} 就会报错了
+  extends: 'airbnb',
+  plugins: ['jest'],
+  rules: {
+    semi: ['error', 'never'],
+
+    'import/no-extraneous-dependencies': 0,
+    'import/prefer-default-export': 0,
+    'react/forbid-prop-types': 0,
+    'jsx-a11y/anchor-is-valid': 0,
+    'jest/no-disabled-tests': 'warn',
+    'jest/no-focused-tests': 'error',
+    'jest/no-identical-title': 'error',
+    'jest/prefer-to-have-length': 'warn',
+    'jest/valid-expect': 'error',
+    'react/prefer-stateless-function': 0,
+    'react/jsx-filename-extension': 0,
+  },
+  env: {
+    'jest/globals': true,
+  },
+}
+
+```
+
+
+以上的内容抽取自 https://github.com/react-tools/eslint-config-react-tools/blob/master/index.js
