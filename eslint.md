@@ -92,4 +92,4 @@ react-static 项目中 JSX 出现缩进错误。
 
 vscode 中的这一项设置为 false ，prettier 就可以正确的保留 .babelrc 的双引号了。看来还是 eslint 有问题。
 
-eslint 的确是不能正确处理 .babelrc 文件的内容，但是默认 eslint 的命令行是会忽略 .babelrc 文件的。但是不知道为何 vscode-eslint 没有忽略。暂时没有找到好的方法处理，直接用 vim 来修改这个文件吧。
+eslint 的确是不能正确处理 .babelrc 文件的内容，但是默认 eslint 的命令行是会忽略 .babelrc 文件的。但是不知道为何 vscode-eslint 没有忽略。暂时没有找到好的方法处理，直接用 vim 来修改这个文件吧。(也会看到 vscode 打开 .babelrc 后有一个 load schema 的失败错误，所以可能也是相关的)
