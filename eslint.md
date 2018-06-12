@@ -70,3 +70,26 @@ react-static 项目中 JSX 出现缩进错误。
 ```
 
 我把 .eslintrc 中，删除 react-tools 直接使用 airbnb ，然后从https://github.com/react-tools/eslint-config-react-tools/blob/master/index.js 拷贝了一些必要点的 rules 过来。一切正常了。
+
+
+## babelrc 文件
+
+.babelrc 文件打开后，vscode 会自动识别格式为 json 。但是当保存这个文件的时候，prettier 会把原来的 json 格式的内容，变成普通 JS 对象
+
+```
+{
+  extends: 'react-static/.babelrc',
+  plugins: ['react-hot-loader/babel']
+}
+```
+
+但是同时 eslint 优惠把上面的内容都加上红线，说 json 内容应该是双引号等等。
+
+
+```
+    "prettier.eslintIntegration": false,
+```
+
+vscode 中的这一项设置为 false ，prettier 就可以正确的保留 .babelrc 的双引号了。看来还是 eslint 有问题。
+
+eslint 的确是不能正确处理 .babelrc 文件的内容，但是默认 eslint 的命令行是会忽略 .babelrc 文件的。但是不知道为何 vscode-eslint 没有忽略。暂时没有找到好的方法处理，直接用 vim 来修改这个文件吧。
