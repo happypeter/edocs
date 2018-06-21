@@ -44,3 +44,20 @@ server {
 }
 
 
+### gzip
+
+```
+server {
+        listen 80 default;
+        server_name saplingeye029a.maodou.io;
+        gzip on;
+        gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+        gzip_proxied any;
+        gzip_buffers 16 8k;
+        gzip_types    text/plain application/javascript application/x-javascript text/javascript text/xml text/css;
+        gzip_vary on;
+        root /home/peter/sites/saplingeye029a/;
+}
+```
+
+只有 `gzip on` 不行。
