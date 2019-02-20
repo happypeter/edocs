@@ -39,3 +39,29 @@ convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% step1.jpg step2
 convert step2.jpg -resize '428x283' step3.jpg
 # 把尺寸从 2140x1416 变成 428x283 的，464k 就变成 37K 了
 ```
+
+
+## 压缩 png
+
+可以考虑直接用 convert 命令压缩，效果很不错，也可以考虑用下面的脚本压缩。
+
+gulpfile.js
+
+```js
+const gulp = require('gulp')
+const imagemin = require('gulp-imagemin')
+const pngquant = require('imagemin-pngquant')
+
+gulp.task('imagemin', function() {
+  return gulp
+    .src('src/img/*')
+    .pipe(
+      imagemin({
+        use: [pngquant()]
+      })
+    )
+    .pipe(gulp.dest('dist/img'))
+})
+
+gulp.task('default', ['imagemin'])
+```
