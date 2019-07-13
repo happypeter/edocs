@@ -1,3 +1,6 @@
+- free images
+  https://www.yuque.com/ruanyf/weekly/free-photos
+
 Today I was asked by a Wechat friend that How I do KM, here goes my answer. As a typical Unix hacker I tend to stay in plaintext as much as possible. cause I believe the content are just most refactorable, searchable and exportable this way. Now let me elaborate the ideas a bit and show you some of my pragmatic tricks.
 
 ## Be Highly Refactorable
