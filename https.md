@@ -126,3 +126,4 @@ server {
 
 https 步骤及常见问题 
 https://github.com/happypeter/onestep/issues/714
+证书过期, 重新申请然后修改 DNS 的时候, 到 https://console.cloud.tencent.com/cns/detail/haoqicat.com/records/0
