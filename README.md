@@ -1,4 +1,4 @@
-我的一些临时笔记。只记录一写临时的点，如果能成文的内容就会放到 [binfo](https://happypeter.github.io/binfo/) 。
+我的笔记仓库，只记录零散的要点，如果能成文的内容就会放到 [binfo](https://happypeter.github.io/binfo/) 。
 
 - 投资
   - [我的投资 Portfolio](portfolio.md)
