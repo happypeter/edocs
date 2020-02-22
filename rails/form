@@ -1,6 +1,0 @@
-rails can use one _form partial for both "new"(creat) and "edit"(update)
-that's becasue `form_for(@item)`, can actually detect if the @item is empty or not, then set method to POST or PUT depending on that when rendering the form html for us
-Very smart!
-
-PUT the form -> update
-POST the form -> create

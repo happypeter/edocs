@@ -1,5 +1,0 @@
-* add cron job on Mac
-  EDITOR=nano crontab -e # do not use vim
-  add `00 09-18 * * 1-5 /home/ramesh/bin/check-db-status`
-  Ctrl-O to save, Enter to confirm the filename, Ctrl-x to quit nano
-  then you check with `crontab -l`
