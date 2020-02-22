@@ -1,9 +1,0 @@
-Now what if I want to add a new file?
-
-   1. goto nerdtree window, move cursor to *edocs/plaintext/vi*(or any files
-underneath), then *cd* to set CWD to *vi/*
-
-   2. now I can use *vnew filename* to add a new file in the current dir *vi/*
- 
-   3. you can use *A* to maximize the nerdtree window
-   4. and ":!git ci" works nice here

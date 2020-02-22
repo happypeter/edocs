@@ -1,3 +1,34 @@
+## vim.org rating list
+http://vim.sourceforge.net/scripts/script_search_results.php?order_by=rating
+try them all!
+## Derek Wyatt
+nice vim video  
+http://vimeo.com/7133419
+
+these videos are well orgnized here:
+http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/#Welcome
+stuff for vim+cpp settings go here
+http://www.derekwyatt.org/vim/working-with-vim-and-cpp/ 
+
+    I also develop in C++ with Vim. Some tips:
+    - cscope & exuberant ctags are your friends
+    - plugins I find most useful (among others): OmniCppComplete, a.vim,
+      taglist.vim
+    - put “let g:load_doxygen_syntax=1″ in ~/.vimrc to have doxygen syntax
+      highlighting (see screenshot example at
+    http://dominique.pelle.free.fr/rastafari.vim.png)
+
+## display keystroks
+
+Go to http://screencasters.heathenx.org/bl...tatus-monitor/ and download the archive.
+
+Run it with sudo python key-status-hx
+
+
+
+my ~/.vimrc 
+
+```
 """"""""""""""""""""""""""""""""""""""""
 "
 "             brower
@@ -174,5 +205,4 @@ set scrolloff=8
 
 " Allow the cursor to go in to "invalid" places
 set virtualedit=all
-
-
+```
