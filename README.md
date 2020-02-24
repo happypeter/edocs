@@ -2,6 +2,7 @@
 
 - 投资
   - [我的投资 Portfolio](portfolio.md)
+  - [投资方向](invest-targets.md)
 
 - 工具
   - [vim](vim.md)
