@@ -8,6 +8,7 @@
   - [vim](vim.md)
   - [rsync](rsync.md)
   - [sketch](sketch.md)
+  - [virtualbox](virtualbox.md)
 
 - 写作和视频
   - [如何制作视频课程](teaching.md)
