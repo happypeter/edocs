@@ -10,4 +10,5 @@ $ ^foo^bar^
 $ !whatever:p # Ctr-r is a better way then this
 <example>
 
-
+- curl
+  - ref: https://www.youtube.com/watch?v=APtOavXTv5M&t=177s
