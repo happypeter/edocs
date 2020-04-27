@@ -5,7 +5,7 @@
     - 2020 年 2月21日 小米生态链企业石头科技上市，成为科创板股王，在整个 A 股，市值目前也仅次于茅台和卓胜微 
   - 所以有机会还是要仔细挖掘一下有潜力的 A 股企业
 
-- 特斯拉为啥会成为10万亿巨头？
+- [特斯拉](tesla)为啥会成为10万亿巨头？
   - 今天有朋友说 NIO 会和 Tesla 共存
     - https://www.youtube.com/watch?v=BAHSoYcVJWQ&lc=z22sgzdj5p3hudyuqacdp435meylb445gydlhttwbm1w03c010c.1582703850354688
     - 我不觉得 Tesla 会和其他厂商并驾齐驱，主要有下面几个原因：
