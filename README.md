@@ -2,8 +2,8 @@
 
 - 投资
   - [我的投资 Portfolio](invest-portfolio.md)
-  - [投资方向](invest-targets.md)
-  - [定投策略](invest-mindset.md)
+  - [投资标的](invest-targets.md)
+  - [策略](invest-mindset.md)
 
 - 工具
   - [vim](vim.md)
