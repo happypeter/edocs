@@ -13,6 +13,7 @@ title: 我的电子文档
   - [rsync](rsync.md)
   - [sketch](sketch.md)
   - [virtualbox](virtualbox.md)
+  - [bash](bash.md)
 
 - 写作和视频
   - [如何制作视频课程](teaching.md)
