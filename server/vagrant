@@ -1,5 +1,0 @@
-vagrant
-
-- https://gist.github.com/rrosiek/8190550
-  - sudo -u vagrant -H sh -c "npm install" > /dev/null 2>&1
-  - 默认就用 root 执行脚本就行了，需要专门用普通用户的命令可以专门指定

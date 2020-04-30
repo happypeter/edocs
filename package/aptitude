@@ -1,4 +1,0 @@
-# download a package
-
-    aptitude download libmagickcore-dev
-

@@ -7,7 +7,6 @@
    chrome --proxy-server="socks5://127.0.0.1:7070"
    ssh -N -D 7070 peter@happyec.org
 
-
 psd to html is dead
 - http://blog.teamtreehouse.com/psd-to-html-is-dead
 - https://news.ycombinator.com/item?id=7058121

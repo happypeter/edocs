@@ -16,6 +16,10 @@ title: 我的电子文档
   - [bash](bash.md)
   - [keynote](keynote.md)
   - [macbook](macbook.md)
+  - [jekyll](jekyll.md)
+  - [photoshop PS](photoshop.md)
+  - [图片处理 imageMagick](imagemagick.md)
+  - [录屏 screenflow](screenflow.md)
 
 - 其他
   - [ckb 区块链](ckb.md)
