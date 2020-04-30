@@ -17,5 +17,9 @@ title: 我的电子文档
   - [keynote](keynote.md)
   - [macbook](macbook.md)
 
+- 其他
+  - [ckb 区块链](ckb.md)
+  - [ubuntu 上配置 nodejs 环境](ubuntu_nodejs_setup.md)
+
 - 写作和视频
   - [如何制作视频课程](teaching.md)
