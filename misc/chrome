@@ -1,7 +1,0 @@
-now if you want to steal some css from other site, instead of "Ctrl-u", now you have "right click- inspect element"
-
-- /etc/hosts not working in browsers (not only chrome but safri as well)
-  - say I have set `192.168.33.22 myproject.dev`, but when I tyep
-    'myproject.dev' in chrome addressbar, it does not work
-
-  - fix I have to do `myprject.dev/#` for the first time
