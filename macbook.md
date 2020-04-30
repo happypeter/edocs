@@ -1,31 +1,27 @@
-# http://www.iterm2.com/#/section/documentation
-
-the full-screen button actually works
-then install http://ethanschoonover.com/solarized 
-now Cmd+, to bring out preference -> window -> style(full screen)
-in full screen mode, default behavior is press Cmd for 1 second bring out the tab, right+left arrow to switch among them
 
 
-# Airport
+
+## Airport
+
 I can not find hello-peter, I can not connect
+
 the fix:
 
-    rm ~/Library/Preferences/com.apple.systempreferences.plist 
+      rm ~/Library/Preferences/com.apple.systempreferences.plist 
 
 and reboot Airport.
 
 when things are back to normal, I did a test
 
+```
 system preference -> networking 
+```
 
-and now I see Airport on top of ethernet and firewire with a green light, but when I click a
-"connect" button after "wap:hello-peter", I see Airport went to the bottom a light turned yellow.
-Now I can not find hello-peter, and I can not connect again. Lucily it was the same issue, and the fix 
-is the same too.
+and now I see Airport on top of ethernet and firewire with a green light, but when I click a "connect" button after "wap:hello-peter", I see Airport went to the bottom a light turned yellow. Now I can not find hello-peter, and I can not connect again. Lucily it was the same issue, and the fix is the same too.
 
 Edit: move the "Airport" on top of ethernet and firewire works for me(sys preference->network). I actully deleted "ethernet" and "firewire" here, since I don't need them. Now I still lose connection, but it is easy to reconnect.
 
-### name change
+## name change
 
 in system preference -> accuont
 
@@ -43,7 +39,6 @@ prereqest is to install xcode
     # https://github.com/mxcl/homebrew/wiki/installation
     brew install wget # no sudo
     # also works for tig markdown mplayer
-
 
 ## KeyCastr
 
@@ -65,6 +60,7 @@ and add the following shit after `<dict>` near the top
 
 	<key>LSUIPresentationMode</key>
 	<integer>4</integer>
+
 ## theme
 
 Snow Leopard Terminal Colors
@@ -107,30 +103,8 @@ need to choose a nice green, since tig and my xxx use it a lot
 
 export the theme if you want
 
+## sogou
 
-## misc
-### zoom in and out the screen
-
-OPtion+Cmd+8    on or off
-OPtion+Cmd+-    zoom in
-option+Cmd+=    zoom out
-Ctrl+two_fingers_on_trackpad   expand part of the screen
-
-### switch among buttons
-by defualt, you can not do this using <tab>, which seems really buggy
-to enable this, use Ctrl-F7, OR:
-
-    system preference->keyboard
-
-and then select `all controls`
-
-you need to use SPACE rather than ENter to click the button
-
-### firefox
-Cmd+arrowleft
-Cmd+R
-
-### sogou
 1、如何启动搜狗输入法 for Mac？
 请打开系统偏好设置，选择“语言与文本”，点击“输入源”标签，在输入法列表中找到并勾选“搜狗输入法”。
 
@@ -146,33 +120,47 @@ Cmd+R
 ### hide dock
 
 command+option+d
-- upgrading to 10.10 Yosemide
-  - when done, pop up "You need Java RunTime Environment to run this web
-    content"
-  - but you should not install jre-xxx but rather jdk-xxx
--  http://www.macworld.com/article/2107780/change-your-short-username-in-os-x-10-9-mavericks.html
+
+## upgrading to 10.10 Yosemide
+
+when done, pop up "You need Java RunTime Environment to run this web content"
+
+but you should not install jre-xxx but rather jdk-xxx
+
+http://www.macworld.com/article/2107780/change-your-short-username-in-os-x-10-9-mavericks.html
 
   If Automatic Login is enabled (in Users & Groups preferences) for the account
   you’re modifying, disable it. You can re-enable Automatic Login, if desired,
   after completing the procedure. (Note that in older versions of OS X, it was
   also necessary to disable FileVault. However, that's no longer necessary in OS
   X 10.7 Lion or later.)
+
+
   Log in as a different user than the one you want to modify; also, make sure
   the account you want to modify is not logged in.
   Open the Users & Groups pane of System Preferences.
+
   If the lock icon in the lower-left corner of the Users & Groups window is
   “locked,” click it and provide an administrative username and password when
   prompted. This allows you to make changes.
+  
   In the list of accounts on the left, right-click (or Control-click) on the
   name of the account you want to modify, and then choose Advanced Options from
   the resulting menu.
+
+
   On the Advanced screen, delete your current short username in the Account Name
   field, and then type your desired new short username.
+  
+  
   In the Home Directory field, change /Users/oldusername to /Users/newusername,
   where oldusername is your original short username and newusername is your new
   short username. Make note of the original and new paths.
+  
   Click OK, and then close System Preferences.
+  
   Open Terminal (in /Applications/Utilities).
+  
   Type the following command, all on one line, and then press Return; when
   prompted, provide the password of the admin-level account you’re currently
   using, and then press Return again: sudo mv /Users/oldusername
@@ -184,47 +172,37 @@ command+option+d
 - 需要把这个临时用户 billie66 添加为 sudoer 才行
   http://osxdaily.com/2014/02/06/add-user-sudoers-file-mac/
 
-
 - Mac 10.8.5 我的 macbook 上操作成功。使用了一下，没有太大问题。
   - VirtualBox 的 VM 都找不着了，重新 Add 一下就好了。
   - Sougo 拼音，也有了问题，卸载，清空一下配置，重装就好了。
   - time-machine 也不行了，我干脆把他 turn off 了
-### 通过 HDMI 连上 LG 显示器之后
+
+## LG 显示器之后
+
+通过 HDMI 连上 
 
 没有声音，解决方法 https://discussions.apple.com/thread/6608078?start=0&tstart=0
 System Preferences> Sound>Output(Tab)> and selected the "internal speakers" as it was defaulted to my external HDMI.
 
+## iMac 链接另一个显示器
 
-### iMac 链接另一个显示器
 https://www.youtube.com/watch?v=MXDbvXhBpJg
 How to Make a Dual Monitor Setup on a Mac
 
-### 合上盖子，外置屏幕休眠
+## 合上盖子，外置屏幕休眠
 
-解决方案：笔记本外置电源。
+解决方案：笔记本连上外置电源就不休眠了。
 
 ### 匹配无线键盘
 
 https://support.apple.com/zh-cn/HT201178
 
-
 如果您使用的是 Mac 笔记本电脑，请使用有线鼠标或触控板，或使用内建触控板，然后按照以下步骤设置早期的 Apple 无线设备（如 Apple Wireless Keyboard 键盘、Magic Mouse 鼠标和 Magic Trackpad 触控板）：
 确保设备已开启。
+
 如果 LED 指示灯不停闪烁，则表示设备处于可被发现模式。如果 LED 指示灯持续点亮，则表示设备已与其他物件配对。请取消设备配对，将其关闭，然后再重新启动。
+
 在 Mac 的菜单栏中，选取蓝牙图标，然后选取“打开蓝牙偏好设置”。
 Mac 会扫描可用的蓝牙设备。
+
 当设备出现在“蓝牙偏好设置”面板中时，点按“配对”。
-
-
-### 安装盗版 sketch
-
-http://www.zhinin.com/sketch-mac.html
-下载后，解决“打不开”的问题。
-
-```
-sudo spctl --master-disable
-```
-
-就上面这一句就够了，对于 sierra 这样的新系统，老系统参考
-
-http://www.macappstore.net/tips/os-1012-any-source/

@@ -15,7 +15,7 @@ title: 我的电子文档
   - [virtualbox](virtualbox.md)
   - [bash](bash.md)
   - [keynote](keynote.md)
-  - [macbook](mackbook.md)
+  - [macbook](macbook.md)
 
 - 写作和视频
   - [如何制作视频课程](teaching.md)
