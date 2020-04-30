@@ -1,151 +1,4 @@
-# khanacademy
-https://www.khanacademy.org/talks-and-interviews/v/21st-century-challenges--royal-geographic-society
-get me so excited, want to take online edu as a life-long career.
 
-# build a brand
-http://www.lynda.com/Business-Skills-tutorials/Building-Your-Brand/101957-2.html
-1. brand promise
-   1. you build your brand by continuely deliver your promise to the customers
-      1. my training hpcasts has no promising, should have one: Saving your
-         time.
-1. design a logo
-  1. design should not highlight the negative words, like "NO", we are all
-     about communnitcating positivity.
-
-1. A saying in Marketing:
-   "tell them, tell them what you told them, and tell them one more time"
-# online marketing
-http://www.lynda.com/Business-Business-Skills-tutorials/Insights-from-Online-Marketer/
-- Create content, good content is king
-- build personal brand
-  - you need a business brand
-  - But as CEO or Chief scientist of the company, you can also build your own
-  personal fame, by sharing your expertise, people will love your
-  youtubevideo, blog, twitter account, and everything, soon your name will be
-  very valuable for your company, cause costumers want real human face more
-  than a cold brand logo.
-    This works for small companys, but also for large ones, see Bill Gates,
-    Steve Jobs, and in China Pan Shiyi, Ren Zhiqiang. 
-
-  - have personality, be wild, it helps the customers to choose you, it also
-  helps you to choose the customers # This is very IMPORTANT
-- Having stories.
-- Build a viral video,# I will say build several viral pics
-# students in Shangdong need Peter!!!
-http://sdutlinux.org/
-# kevin Campfire talk
-### APIs
-railsapi.com, best place for apis ( rails and ruby )
-
-Kevin W.    We were talking about Ruby APIs and Rails APIs
-those are the interfaces that Ruby and Rails expose that you can build on top of
-Tom C.  So they're gems?
-Kevin W.    for example, you can say [1,2,3].size
-the fact that Arrays have a "size" method is defined in Ruby Array's API
-You can think them as Ruby / Rails standard libraries
-You could think Ruby / Rails APIs to mean documentations
-In fact people do use them interchangably
-I don't think a library of APIs make sense
-a gem will have APIs that you can use
-happypeter  Yes
-Kevin W.    APIs are basically interfaces to a software component
-so a Gem is more than just APIs
-like C programs are more than just the header files ;)
-but APIs tell you how to interact with the program
-Gideon  Kevin -- I'm trying to understand the submission conventions for Rails, like POST is used for creates, PUT is used for updates
-Kevin W.    yup
-Gideon  I see from the source that the delete link uses data-method="delete"
-happypeter  great, I considered
-Gideon  which I see from the JS gets converted to a form posting that passes that on
-happypeter  My api = your api + binary
-Kevin W.    Peter, know you'll get the C analogy
-happypeter  I was a bit wrong, thx
-
-### delete => destroy
-Kevin W. yeah Gideon, what's your question?
-Gideon  but in the controller,it uses "def destroy" -- where does the "delete" get translated to "destroy" exactly?
-Kevin W.   Right, Rails use "destroy" instead of delete
-as a convention
-HTTP uses DELETE
-It's all magic
-Gideon  so when an HTTP DELETE comes through, it sends it to the "def destroy" in the controller then?
-Kevin W.    Gideon, yes
-If you use resourceful routes
-we'll talk about them in the videos coming up
-
-Gideon  alright, I guess that makes as much sense as PUT meaning update anyway... just the convention
-thanks
-Kevin W.    yes
-convention over configueration
-
-# Javascript the new overlord
-http://v.youku.com/v_show/id_XNDM3NTk4MTg0.html
-It's not that the browser saved javascipt, it's javascript that saved the web
-and broswer.
-# ruby learning roadmap
-http://techiferous.com/2010/07/roadmap-for-learning-rails/
-The author said to the ruby learning, they should learn the right things the
-right time with right depth.
-
-How much I wish I know how to do this when I was trying to learn Linux, keep
-this in mind for happycasts.net
-# something like gist, for tech docs
-http://notepag.es/4u5qay
-
-# songJinshan info
-wacom, drawing pad
-imikr.com
-ucomment for python docs
-viavoice
-kedaxunfei, voice recognation
-songjinshan.com
-ued.taobao.com
-# gnu screen 
-http://www.youtube.com/watch?v=b2nZdChQvAs&feature=topics
-# http://topicsimple.com/why-video/
-nice videos to show ideas
-# http://swiftype.com/
-site search 
-# happycasts is for chinese beginners
-maybe some of the episodes can be used to please my peers, and showing off
-infront of my foerign friends, this is NOT the goal.
-
-all the episodes are designed for young developers, whose English is not so
-good. So be a teacher, peter, make it simple and clear to them.
-
-So, I don't need a English version of happycasts, because I want to limit the
-number of details, and thus I can make all the details perfect, for JUST my
-students!!!
-
-# Linux Expert
-When introduced to Nadar, I was given, by Daniel, the name "Linux Expert".
-Hey, this is cool.
-
-No matter you are a ROR, JAVA, Andriod developer, you need to use vim git ssh
-sendmail mysql netstat things are so important to you, and yet it takes more
-time than you have to investigate by yourself, so you need a Expert like me to
-come and help.
-
-So happycasts is done by a Expert( me spending 1 month to read into the
-sendmail docs) for a developer(you, I know how should the casts be done, casue
-I am a developer, I know we don't need bullshit book theroy, we love "get the
-job done").
-
-LGCB is also my sword as LE
-
-10 most used sql commands(happycasts), what is database, sql(LGCB)
-
-# Li Fulei happycasts advice
-need to bind it with weibo.com
-
-#Tom startup school
-you produtive needs to be viral, so that people will tell their friends
-when people come, you need to keep them, by having social interaction
-they won't leave here, because their friends are there.
-building a startup by yourself is insane.
-#UX&UI
-http://fortawesome.github.com/Font-Awesome/#
-twitter bootstrap
 # wiredcrafts.com
 they offer nice positions
 http://wiredcraft.com/about/jobs/web-engineer
@@ -240,28 +93,6 @@ H: even it requires some background understanding of the basics, I will still
 make all happycasts for BEGINERS. Just think about how railscasts helped me
 when I am a by-all-means beginner.
 
-
-### html tutotials
-http://htmldog.com/guides/cssbeginner/applyingcss/
-
-https://developer.mozilla.org/zh-CN/
-### 再谈我来干什么
-1. 解决河北高校学生的就业问题
-2. 让大家告别应试教育，通过做实际项目来培养，英文，写作，编程，等各方面能力
-
-手段：
-1. 参与英语及计算机考级培训
-2. 人近30，不要再追cool， 要侧重“管用”
-
-### be famous rails developer
-http://www.youtube.com/watch?v=JUUvq48Gb3w
-
-### Be a techer again
-
-try to update LGCB, try to think I am a teacher again. So I need:
-
-    1. a book(LGCB + akaeText + TLCL)
-    2. some tutorail videos( with nice slides )
 
 ### textmate -> vim
 http://blog.danielfischer.com/2010/11/19/a-starting-guide-to-vim-from-textmate/
@@ -359,18 +190,6 @@ Chinese Beginners"(LSCB).
   site for it). 
 - this will be at least one release every monday(like railscasts)
 
-### ideas for EC (english corner)
-We shall have prepared speeches, and the topics shall be choosed by the
-speakers themselves, althogh we can give our suggestions. You will need to:
-
- 1. write down what you are going to talk, at least some main points.
- 2. it  must be something useful or beautiful, or make good fun, we do not
-    want copied work(sure, you can steal stories somewhere, but you still need
-    to give your ideas about these stroies, anyway, we need to make friends
-    with you, so plz show yourself, and be yourself)
- 3. we do not want non-sense, we do not want waste our time by listening to
-    something we don't give a damn to. Let's add real value to our EC.
-
 ### 文质彬彬学英语
 我们先从我们如何轻松的学会我们的母语，同时又是如何痛苦并且恶心的学不会英语这两个事实做一个对比，来讨论一下目前的大学英语教育有哪些问题。
 
@@ -383,47 +202,6 @@ speakers themselves, althogh we can give our suggestions. You will need to:
 所以，忘记语法学习，忘记考试，像我们学母语一样学习。
 
 现在我来说说文质彬彬的典故。论语中说“文胜质则野，质胜文则史，文质彬彬，然后君子。”我这里稍微曲解一下，来阐述一下英语学习的正确方法。“文”是指的细节的东西，例如单词量，基础知识，这些东西不宜多学。那何为“多”？就是你的单词量，大大超越了你的实际英文运用水平，就是你的“质”，这时，学英语的时候你就会感觉痛苦，说或是写出来的英语就会让别人痛苦。
-
-### Paul G interview: http://mixergy.com/y-combinator-paul-graham/
-Mixergy
-
-Paul.G
-
-Tagline
-
-Essays are the start.
-
-Ycombinator grew out of the talk how to do a startup, pg gave at harward.
-
-Everybody takes summer job a throw away thing, so if we screw up, no one will
-blame us.
-
-Weekly dinner
-
-What works for startups?
-
-    1. launching fast
-    2. Be highly engaged with ur customers.
-
-
-Why the name ycombinator?
-
-It is a programming trick, We want the hackers to notice us, while keep people
-we do not like afar.
-
-Designing a good UI is just writing a essay, u just need to figure out the
-essential things.
-
-Hacker news?
-Try arc, not having enough patience for a sub reddit for startups, the two
-reasons lead to hn.
-
-HackerNews was initially named StartupNews, with a bunch of founders as its
-readers.
-
-Not having a co-founder will kill you, try to find one.
-
-http://wufoo.com/ is much like my happywords
 
 ### encourage people to join me
 whatever you do for happypeter.org can be on your resume, like
@@ -696,28 +474,3 @@ ctags, that is really bad style.
 
 ### github clone
 http://gitlabhq.com/
-
-### nice background for web pages
-http://subtlepatterns.com/
-
-### A scripting language 
-is a lightweight programming language
-
-### KISS, KISS, KISS !!!
-I won't change my happypeter.org structure easily. 
-
-I won't do this just because I see so many beautiful feathers in
-Railscasts.com. Simplicity is the best policy.
-
-### This is a private happyNews here
-Look at all my  years of edocs notes-taking, things are scattered here and
-there. So for sure it is not wise to mix things up too much, it is also
-foolish to separate them to much. 
-
-So these days, I have been using my own happyNews and fail in love with it,
-things are mixed, but do not get messy, I think this is simply by having a
-name and a NO. for each post.
-
-So this is nice, I will do the same here in edocs. If I have something for vim
-or bash in the future, OK, just put them in their own dirs and files. But if I
-have something that is hard to categorize. Just post it here, for myself!!!

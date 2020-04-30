@@ -24,6 +24,7 @@ title: 我的电子文档
 - 其他
   - [ckb 区块链](ckb.md)
   - [ubuntu 上配置 nodejs 环境](ubuntu_nodejs_setup.md)
+  - [给 haoqicat.com 添加腾讯的 https 证书](https.md)
 
 - 写作和视频
   - [如何制作视频课程](teaching.md)
