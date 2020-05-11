@@ -26,6 +26,7 @@ title: Peter 的电子文档
   - [ubuntu 上配置 nodejs 环境](ubuntu_nodejs_setup.md)
   - [给 haoqicat.com 添加腾讯的 https 证书](https.md)
   - [dns gfw 等网络设置](network_setup.md)
+  - [运动饮食](food.md)
 
 - 写作和视频
   - [如何制作视频课程](teaching.md)
