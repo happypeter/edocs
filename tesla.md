@@ -39,12 +39,14 @@
     - 郑州：“智慧岛5G智能公交项目”，宇通L4级别智能巴士
     - 雄安 5G-V2X ，可以人来控制20公里以外的车，远程驾驶，当然未来也可能是 AI 驾驶，但是 AI 在云端，不再车上。
   - v2x is basically regulatiing the whole world . 整个过程绝对不是，划定专用线，然后关键位置装一些信号发生器那么简单。如果车自己的视觉能力不够，突然窜出一个小朋友，怎么应付？而谷歌机器视觉很厉害，那么要专门的信号发生器干嘛？
+  - https://www.youtube.com/post/UgxsIYI66FTSELkCXSd4AaABCQ?lc=UgwFDltJ-90smpLYVbV4AaABAg
+    - 赞同。我的思考角度是这样，5G 可以提供很多 nice to have 的东西，但是自动驾驶的挑战是各种突发和极端的情况，例如，突然窜出的行人，突然加塞的汽车，前车突然坠落的物体，地面丢失的井盖，地下车库路面上的钉子... 所有这些似乎 5G  都帮不上什么忙。如果极端情况，车子自己都可以应对，一些常见场景下，车子当然也能安全驾驶不依赖 5G 了。
 ## Energy
 - megapack 和 autobidder
   - 水能太阳能天然是去中心化的，就近拍卖，可以避免传输损耗，挺棒的做法
 
 
-- [特斯拉](tesla.md)为啥会成为10万亿巨头？
+- 特斯拉为啥会成为10万亿巨头？
   - 今天有朋友说 NIO 会和 Tesla 共存
     - https://www.youtube.com/watch?v=BAHSoYcVJWQ&lc=z22sgzdj5p3hudyuqacdp435meylb445gydlhttwbm1w03c010c.1582703850354688
     - 我不觉得 Tesla 会和其他厂商并驾齐驱，主要有下面几个原因：
