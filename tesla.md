@@ -24,7 +24,6 @@
   - 神经网络要想正常工作有三大需求：large/real/varied dataset https://youtu.be/WGm5Yc4JWug?t=337
   - 如果没有海量的图片进行训练，即使 lane lines 都识别不了，想象一下 lane lines 可能转弯，可能被阴影笼罩，雪夜，逆光等各种情况：https://youtu.be/Ucp0TTmvqOE?t=7323
 
-
 - Lidar 似乎不靠谱
   - 整个的交通系统都是为 vision-based ，人们主要是用眼睛开车
   - Lidar 基本上是用激光做导盲杖，导盲杖怎么看路标呢？Stop Sign ，限速牌都看不见，要自动驾驶干嘛？
@@ -51,6 +50,16 @@
   - v2x is basically regulatiing the whole world . 整个过程绝对不是，划定专用线，然后关键位置装一些信号发生器那么简单。如果车自己的视觉能力不够，突然窜出一个小朋友，怎么应付？而谷歌机器视觉很厉害，那么要专门的信号发生器干嘛？
   - https://www.youtube.com/post/UgxsIYI66FTSELkCXSd4AaABCQ?lc=UgwFDltJ-90smpLYVbV4AaABAg
     - 赞同。我的思考角度是这样，5G 可以提供很多 nice to have 的东西，但是自动驾驶的挑战是各种突发和极端的情况，例如，突然窜出的行人，突然加塞的汽车，前车突然坠落的物体，地面丢失的井盖，地下车库路面上的钉子... 所有这些似乎 5G  都帮不上什么忙。如果极端情况，车子自己都可以应对，一些常见场景下，车子当然也能安全驾驶不依赖 5G 了。
+
+## 垂直整合
+
+- 软硬件整合
+  - 软件吃世界，但是硬件是软件的载体。Tesla Robotaxi fleet ，新能源智能电网，starlink 卫星网，未来都是软件的载体。Interl/Microsoft 主导的软硬分离的思路会成为过去，专用硬件搭载专用软件形成全球唯一网络，会是未来的主流。
+  
+  - Solving The Money Problem 节目上说，Tesla 很可能生产自己的空调。未来，如果特斯拉建房子，我一点都不会意外。一切皆网络，房子如果仅仅是一个独立的房子，本身是不值钱的，北上广深的房子之所以贵，是因为房子是网络上的一个节点。目前房子的网络性，主要由空间位置决定，我的房子和商城医院学校离得近，这个房子的网络效应就比较强。未来，房子智能能力，跟 starlink ，Robottaxi ，smartGrid ，boring 隧道的互动能力会形成它的网络价值。
+
+  - 苹果的教训。为了保证一个繁荣的生态，苹果放纵了微信和 Netflix 的发展，结果自己的相应业务就很难发展了。Tesla 作为下一个苹果，达成网络效应的软件要牢牢把握在自己手里。
+
 
 ## Energy
 - megapack 和 autobidder
