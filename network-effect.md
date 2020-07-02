@@ -2,7 +2,6 @@
 title: 我投资的最核心标准：网络效应
 ---
 
-
 - [binfo 网络效应文章](https://happypeter.github.io/binfo/network-effect)
 
 - 网络效应的三大定理
