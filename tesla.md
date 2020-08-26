@@ -24,6 +24,10 @@ title: Tesla 何以征服世界?
   - 貌似很多公司都是让跟钱贴的比较近的人当大老板，Tim Cook 是做供应链的，蔚来的李斌也不懂技术，比尔盖茨虽然是技术出身，但是后来也是变成了 businessman 。
   - tesla 非常特别，是 engineering-oriented 的公司。大老板是一线工程师。我觉得这个代表着未来。扎克伯克说，管理公司就跟管理一个软件工程一样，合理分工，模块化组织就好。这个说法我非常喜欢，但是这个还是说的管人。而 Tesla 的思路真的不是管“人”，而是管机械设备，管软件。人，只是生产线上的临时组件，未来是要被机器人取代的。马斯洛说，一个工厂就是一个 CPU ，把线路缩短，时钟调快，就能提高效率，这个就是典型的第一性的，物理的和工程的世界观。https://www.youtube.com/watch?v=dYiNfg9riWc&pp=wgIECgIIAQ==
 
+- the moat is deep enough
+  - I considered Tesla did not have deep moat like Wechat or Amazon does, but now I changed my mind.
+  - Consider Amazon, the more commodities it offers, the faster it ships, the customers will love it more, and buy more, this is a no-stop process. Same is true for Tesla, the bigger the charging network, the lower price batteries are produced, the more people will love tesla. Tesla is building a EV production stack, thousands of details could be optimized, and it makes perfect sense to have one monoply to do all them at once, rather than have many small companies to do them.
+
 ## 自动驾驶
 
 - 用“眼睛”开车：跟人类开车的思路类似
@@ -54,6 +58,10 @@ title: Tesla 何以征服世界?
   
 - 得工程师者得天下
   - 根据美国business insider相关调研数据，马斯克旗下两个核心企业SpaceX、特斯拉分别位居美国工程类院校学生最向往榜单前二，力压NASA、苹果、谷歌、波音。
+- tesla 可以打败能源巨头
+  - 以前觉得巨头都很有实力的，不能挑战
+  - 但是，看看 SpaceX 对波音和洛马，就知道这些传统恐龙其实不堪一击的
+  - 所以，Tesla 下一步会挑战一些能源公司（甚至金融公司），我觉得都有戏。
 
 - 蔚来汽车没有核心竞争力
   - 李斌是文科生。在智能化研发和用户服务的权衡之间，蔚来显然偏向了后者，其对北美团队多轮减员，自动驾驶部门成为重灾区。2019年12月，蔚来与自动驾驶技术公司 Mobileye 合作后不久，即宣告对北美自动驾驶团队裁员141人，仅保留硬件和底层系统人员。
@@ -78,6 +86,8 @@ title: Tesla 何以征服世界?
   - 成本高，意味者升级的成本也高。如果要兼容一个新车型，新的电池型号是比较难的
   - 如果我是电动车主，主要的焦虑是找不着充电的地方，而不是充电速度。
 
+- 电力供应方面可以很好的跟政府合作
+  - 国家要解决电力问题，国家出大头的钱，Tesla 提供解决方案，澳洲的这个合作，很有启发性。https://www.youtube.com/watch?v=PZz2r9j1Lfo
 - v2x 方案不靠谱
   - 中国联通有《5G 远程驾驶白皮书》，所以远程驾驶倒是5G的一个比较实在的应用场景。自动驾驶还是要靠”车子自己的眼睛“来完成，其他方式，耳朵（毫米波雷达），导盲杖（激光雷达）v2x ，高精度地图，都只是辅助，不是核心。
   - 中国在做了
@@ -99,7 +109,7 @@ title: Tesla 何以征服世界?
   - 但是，空气污染没有了。万里之外的污染，跟我可以直接吸到肺里的尾气，哪个方案更优秀，一目了然。
   - tesla 给了每个人减少碳排放的机会，那就是不要用 grid 的电，而去自己安装 solar roof 。感觉很好玩，很有诱惑力。
 
-## 垂直整合
+## 垂直整合 vertical integration
 
 - 软硬件整合
   - 软件吃世界，但是硬件是软件的载体。Tesla Robotaxi fleet ，新能源智能电网，starlink 卫星网，未来都是软件的载体。Interl/Microsoft 主导的软硬分离的思路会成为过去，专用硬件搭载专用软件形成全球唯一网络，会是未来的主流。
@@ -107,9 +117,12 @@ title: Tesla 何以征服世界?
   - Solving The Money Problem 节目上说，Tesla 很可能生产自己的空调。未来，如果特斯拉建房子，我一点都不会意外。一切皆网络，房子如果仅仅是一个独立的房子，本身是不值钱的，北上广深的房子之所以贵，是因为房子是网络上的一个节点。目前房子的网络性，主要由空间位置决定，我的房子和商城医院学校离得近，这个房子的网络效应就比较强。未来，房子智能能力，跟 starlink ，Robottaxi ，smartGrid ，boring 隧道的互动能力会形成它的网络价值。
 
   - 苹果的教训。为了保证一个繁荣的生态，苹果放纵了微信和 Netflix 的发展，结果自己的相应业务就很难发展了。Tesla 作为下一个苹果，达成网络效应的软件要牢牢把握在自己手里。
+
 - 垂直整合带来工程上的各种美
   - Sandy Munro 发现特斯拉在工程上的各种美观。一百个零部件被一个铸件替代，电子部分被 IC 化，链接线于是变的超级简练，如果跟传统汽车厂商一样，各个组件都是外包的，这个是不可能做到的。https://www.youtube.com/watch?v=l4MVvttOEAQ
   - 工程的美的本质就是简单。简单带来低成本和更高的安全性。
+- vertical integration does not always work
+  - Former facebook exec Chamath said in 2017 that Nvidia would not be able to make a lot of money since, when AI gets really large, each tech gaint will build its own AI chip, but the reality today obviously does not match. TSMC's rise is another counterexample of vertical integration.
 
 ## 规模优势
 

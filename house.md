@@ -1,5 +1,5 @@
 ---
-title: 房地产和城市发展
+title: 房地产和城市发展 House and Urbanization
 ---
 
 我目前的基本观点是[《50亿人口世界城》](https://happypeter.github.io/one-city.html)。下面的内容是这个观点的支撑和补充。
@@ -64,3 +64,7 @@ title: 房地产和城市发展
     - 试想，央行发行壹万亿的新货币，不能直接发给每一个人，这样只能单纯造成通胀而已。钱要通过贷款的形式，形成债务，让财富创造者最终还款，这样才能给新增货币找到背后的财富支撑。目前，最主要的贷款人就是购房者。政府拿到购房者的钱，可以去建设基础设置，增加土地价值。而购房者会心甘情愿的去用30年还房贷。于是这壹万亿，就被几亿财富创造者的还款意愿支撑起来了。这样给新增货币提供了非常强的共识支撑。从国家层面上看，金融的安全度是比较高的。总之，土地财政有相当的合理性，甚至可以说是优雅。
   - 所谓地段优势，靠租一样可以获取的，但是实际上类似潘石屹的 SOHO 那么好的地段，业主靠租金，几乎连银行利息都还不上。
   - 等到国家找到下一个蓄水池和征税机制，房地产也就凉凉了
+
+- House price won't be too high in general
+  - the rising of population is slowing down, but people are buidling more houses than ever.
+  - hard to imagine house price goes up very quickly.

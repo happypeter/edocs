@@ -60,3 +60,6 @@ title: 有哪些投资标的
 - starlink 星链
   - 5G的本质是一个城市大 wifi ，5G 即使本身无延迟，长距离通信还是要靠光纤的。
   - 而 starlink 如果跨城市甚至跨大洲通信，一定是比光纤块的，所以要达成远距离的低延时，starlink 是有独特生态位的。想象中美连线，进行魔兽比赛。
+- 苹果
+  - 硬件降价，软件服务变得越来越重要，hard to believe Huawei and Sumsung are capable to complete.
+  - Matthew effect is more important now than ever.

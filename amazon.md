@@ -1,2 +1,7 @@
 - amazon 是依赖模式的公司，而 Facebook 只是依赖用户行为的公司，所以亚马逊更加坚不可摧。
   - xaas ，x 是任何可以和其他公司共享的资源，可以是物流，云，甚至是客服。
+- bigger means cheaper
+  - FedEx and UPS offers big discount for Amazon, to the extend that user find it's cheaper to use Amazon deliver sevice than use FedEx directly. How Amazing!
+- nagtive profit is allowed
+  - Bezos said, we want all our price competitive, if that means we lose some money, it's OK.
+  - 'Keep the customers to the Amazon plaform' is the goal, not making money.

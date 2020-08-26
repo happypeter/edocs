@@ -42,6 +42,9 @@ title: 宏观经济
 - 竞争是非常有害的
   - 小区有一家超市，这就是小区的财富，小区同时出现5家超市，其他四家竞争者带来的纯粹是资源浪费。
   - 市场价格来源于同质化竞争，而同质化竞争本身就是愚蠢的，所以也可以说，通过市场价格来调节资源配置的思路是完全错误的。亚当斯密的”看不见的手”指的是市场的激励作用，而非优化资源配置作用。
+- 竞争也会带来一些好处。
+  - 例如，NASA 本来依靠 Russia 送宇航员上太空，9000万美刀一个座位。
+  - 现在，NASA 让 SpaceX 和波音洛马这些公司进行商业竞争，来降低每个座位的价格。虽然真实的故事是，只有 SpaceX 出了力。但是这种利用竞争，来拉低价格的模式，听起来很有道理。NASA 的前局长说：We know competion drives innovation. 这话说的不是没有道理。
 - 垄断推进产业
   - 分裂绝对不是办法。自由不能靠小国寡民达成，而是需要王道。中国从战国到一统江山。美国从各州独立，到汉密尔顿，到老罗斯福，到小罗斯福，到这次美联储放水，中央权力日益扩大。
   - 系统的健康取决于是否有人”治未病“，去治疗没有症状的病，不会拿到奖励，反而可能被抱怨，所以也只有垄断组织，才有意愿去做。
@@ -56,6 +59,9 @@ title: 宏观经济
     - 统一的标准，统一的通信协议，既有经验就可以最大化的传播。如果我自己开一家烤鸡电，自己总结经验要多年，但是加盟肯德基一下子就能继承人家多年的经验了，包括，选址装修菜品和品控等等。
     - 统一的标准。就可以依附大的底层基础设施平台，来提供原材料和物流等服务了。想象，美团送饼条给各个饭店。
     - 统一标准最快的方式是通过垄断组织。未来理想的方式是归于一个开源项目，一个 DApp 。
+- no need for two monoplies to co-exist
+  - unlike KFC & Macdonalds, in high tech world, there is no need to waste resouces on two competitors at the same time. Nobody is going to use the second best search engine or music store or app store.
+  - If the one and only monoply turns evil or too inefficient, the society can easliy invest a new one. As in the case to Taobao and Pinduoduo.
 - 负债就是财富
   - 只要借贷利率比较低，那么贷款就可以用于理财，很多企业就是这么干的
   - 普通人获得低息贷款的唯一机会就是房贷了
