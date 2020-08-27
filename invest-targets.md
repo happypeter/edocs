@@ -65,4 +65,6 @@ title: 有哪些投资标的
   - Matthew effect is more important now than ever.
 - [B 站](bilibili.md)
   - B 站是“中文 UGC 长视频平台”赛道的暂时第一名。Youtube 虽然强，单仅就中文而言，还是 B 站最强。我会密切关注其他平台，例如，西瓜，Youtube 上的中文社区，微信视频号等等。如果有一天 B 站被超越了，那么我的投资也可能切换过去。
-  - 27th Aug 2020 UPDATE: Sold all at 46usd/share, made a 60% profit. Bilibili is no longer the NO.1 in Soical UGC Educational content anymore. Wechat 视频号 is now offering a lot of great educational content. Tencent see it as a video game platform, that's what I am passionate about.
+  - 27th Aug 2020 UPDATE: Sold all at 46usd/share, made a 60% profit. Bilibili is no longer the NO.1 in Soical UGC Educational content anymore. Wechat 视频号 is now offering a lot of great educational content. Tencent see bilibili as a video game platform, that's what I am passionate about.
+    - Youtube is still the best youtube, Chinese well educated people all know how to use VPN.
+    - Bilibili does not provide enough incentive for uploaders, that's wby 李永乐老师，袁腾飞 and a lot people are using Youtube as main platform.
