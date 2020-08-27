@@ -27,3 +27,8 @@ title: Bilibili
   - 所以 Youtube 进入中国不是完全不可能
   - 内容比 B 站更硬， up 主收入有保证，袁腾飞，李永乐都被吸引过去了
   - Youtube 才是终极竞争者
+- Why I sold all Bilibili stock?
+  - Youtube is still the best youtube, Chinese well educated people all know how to use VPN.
+  - Bilibili does not provide enough incentive for uploaders, that's wby 李永乐老师，袁腾飞 and a lot people are using Youtube as main platform.
+  - Tencent's 视频号 is the best social networked video platform nowadays. 
+  - Tencent considers Bilibili as a video game and cartoon video platform.

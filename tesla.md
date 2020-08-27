@@ -28,6 +28,12 @@ title: Tesla 何以征服世界?
   - I considered Tesla did not have deep moat like Wechat or Amazon does, but now I changed my mind.
   - Consider Amazon, the more commodities it offers, the faster it ships, the customers will love it more, and buy more, this is a no-stop process. Same is true for Tesla, the bigger the charging network, the lower price batteries are produced, the more people will love tesla. Tesla is building a EV production stack, thousands of details could be optimized, and it makes perfect sense to have one monoply to do all them at once, rather than have many small companies to do them.
 
+- the new era of monopoly is here
+  - people won't use the second best search Engine or e-commerce platform
+  - likewise people won't use the second best mobility service, which tesla will become.
+  - the digital tech bring mathrew effect to a whole new level
+  - If Nio or Lixiang try to compete with Tesla, they have to bring revolutionary innovation in the system level, small imporvement in the details won't make any difference.
+
 ## 自动驾驶
 
 - 用“眼睛”开车：跟人类开车的思路类似

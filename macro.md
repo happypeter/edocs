@@ -37,31 +37,8 @@ title: 宏观经济
   - 从 Buffet 最近十年的盈利，也充分证明了这一点，市场很反感传统行业，喜欢高科技。而钱姐也说，低利率绝对是对成长型股票偏袒的。https://www.youtube.com/watch?v=g37qvW3HKo4
   - 放水让世界变得有活力。现有规则不变，我永远没有巴菲特有钱，放水增加了不确定性，巴菲特的传统资产会隐性贬值，房地产更可能隐性贬值。支持创新的年轻人，有了更多翻身的可能。至于那些没头脑的年轻人，一定会变成穷人，但是没有关系的，到时候按照通胀率，给他们提高公司就行了。浑水的创始人说因为疯狂印美元，未来世界是个火药桶，我不这么觉得，放水挺好。
 
-- 数字化会加速全球化垄断
-  - 所有的文化隔阂，语言不通，都不重要了，人们只需要相信数据就可以了。
-- 竞争是非常有害的
-  - 小区有一家超市，这就是小区的财富，小区同时出现5家超市，其他四家竞争者带来的纯粹是资源浪费。
-  - 市场价格来源于同质化竞争，而同质化竞争本身就是愚蠢的，所以也可以说，通过市场价格来调节资源配置的思路是完全错误的。亚当斯密的”看不见的手”指的是市场的激励作用，而非优化资源配置作用。
-- 竞争也会带来一些好处。
-  - 例如，NASA 本来依靠 Russia 送宇航员上太空，9000万美刀一个座位。
-  - 现在，NASA 让 SpaceX 和波音洛马这些公司进行商业竞争，来降低每个座位的价格。虽然真实的故事是，只有 SpaceX 出了力。但是这种利用竞争，来拉低价格的模式，听起来很有道理。NASA 的前局长说：We know competion drives innovation. 这话说的不是没有道理。
-- 垄断推进产业
-  - 分裂绝对不是办法。自由不能靠小国寡民达成，而是需要王道。中国从战国到一统江山。美国从各州独立，到汉密尔顿，到老罗斯福，到小罗斯福，到这次美联储放水，中央权力日益扩大。
-  - 系统的健康取决于是否有人”治未病“，去治疗没有症状的病，不会拿到奖励，反而可能被抱怨，所以也只有垄断组织，才有意愿去做。
-  - 很多家光伏企业竞争，大家都赚不到钱，于是也没人研发新技术，做 Lobby ，整合上下游，没有一家企业可以站在全社会的角度，去做事情。而如果整合各家，形成定价权，这样，对整个产业的进步有巨大的好处。
-  - 每个厂商都希望在停车场安装充电桩。但是最初的总线谁来拉呢？耗资巨大，但是却不能独占的事情，只有垄断组织才会有动力去做。
-  - 当然，如果一个垄断企业作恶太多，自然会被大家看不顺眼，就像 Taobao 太嚣张，拼多多就出来了。打破垄断靠的是大家用投资去投票，投出一家新的巨头，而不是去进行千团大站的那种恶性竞争。
-  - J.P. Morgan
-    - 摩根的思路就是，竞争一般都是恶性的，垄断可以带来产业的最大发展
-    - 摩根甚至都不只是垄断一个行业，而是全行业垄断，然后让，自己的铁路托拉斯去自己的钢铁托拉斯那里订购钢材，然后去通用电气订购电气设备。
-  - 一个公司值钱，是因为它的生态位，Whatsapp 值一百九十亿美元，但是它其实从来没有考虑过把自己的流量变现。
-  - 垄断带来标准的统一
-    - 统一的标准，统一的通信协议，既有经验就可以最大化的传播。如果我自己开一家烤鸡电，自己总结经验要多年，但是加盟肯德基一下子就能继承人家多年的经验了，包括，选址装修菜品和品控等等。
-    - 统一的标准。就可以依附大的底层基础设施平台，来提供原材料和物流等服务了。想象，美团送饼条给各个饭店。
-    - 统一标准最快的方式是通过垄断组织。未来理想的方式是归于一个开源项目，一个 DApp 。
-- no need for two monoplies to co-exist
-  - unlike KFC & Macdonalds, in high tech world, there is no need to waste resouces on two competitors at the same time. Nobody is going to use the second best search engine or music store or app store.
-  - If the one and only monoply turns evil or too inefficient, the society can easliy invest a new one. As in the case to Taobao and Pinduoduo.
+- [The new era of monopoly is here](monopoly.md)
+
 - 负债就是财富
   - 只要借贷利率比较低，那么贷款就可以用于理财，很多企业就是这么干的
   - 普通人获得低息贷款的唯一机会就是房贷了
@@ -92,19 +69,15 @@ title: 宏观经济
 - 放水之下无萧条
   - 通胀之下无债务，放水之下无萧条。大萧条之后，只见到闪崩和快速恢复，没有真正的萧条了。
   - 前美联储主席伯男克认为大萧条很大一部分原因就是金本位，导致市场流动性不足。罗斯福取消了金本位，难怪以后再也没有大萧条了。
-- 传统产业无第一，互联网无第二
-  - 传统本地生活，零售，根本不会形成垄断，但是今天的美团和亚马逊，垄断性是非常强的
-  - 传统车厂，手机厂，很难垄断，今天的苹果，明日的特斯拉很容易一家独大
-  - 当然，安卓的蓬勃发展，是我这个理论的反例。最近几个月苹果在华销量也大涨了，国有安卓机型相对下滑。如果我的理论正确，未来可能苹果的市场份额会变得更大，或者安卓阵营中杀出一个王者来。总之，目前手机市场的这种多品牌的状态，也是临时的。全社会同时维护多个 App Store ，多个音乐库，多套系统平台，完全是不合理的，统一才能给用户带来最多实惠，给厂家带来最多的利润。
-  - 五年前，人们都想去找第二个谷歌亚马逊，实际上，不需要找第二个，持续投资本尊就是最佳选择。今天，人们去找第二个特斯拉，也是没有必要。特斯拉是“比特带原子”互联网企业，不是传统车厂，不会有第二的。就像，没有人会用第二好的谷歌一样。当然，民族国家的概念可能会影响这个过程（想想百度为何存在多年）。
+
 - Inovation is the key to growth.
   - 借用一下 Ark Invest 的 tagline.
   - 美元，房地产各个领域都面临不确定性，动荡是好事，因为它能引发人们的思考。
   - 大家会最终明白，财富不是炒出来的，是创造出来的。
   - 我坚信，钱会最终流向科技，尤其是流向智能制造。
-- 用去中心化技术拆分权力猛兽
-  - 垄断是未来，垄断形成的过程中，可以允许有善意独裁者
-    - 垄断形成之后，我之前提到需要有公权力介入，但是我这里的”公权力“也不一定是当下的人为核心的政府权力，而是以数据和机器为核心的”算法公权力“。
-  - 行业的垄断格局稳定之后，绝对不允许有独裁和食利阶层形成，所以权力需要被制度肢解
-  - 权力的本质是信息
-  - 去中心化技术就是数字时代的民主制度，把数据所有权归还给每一个用户，就可以实现真正的民主
+
+- Money flows with consensus
+  - stock market will play a bigger role in our life, because it enables people to vote for their beloved companies.
+  - Profile is not important, PE is shit. The only thing a company needs to do is providing best service to people.
+  - Take Amazon as a example, the more people feel the pain of traditional shopping, the more peopel fall in love with Amazon. So people start to buy its stock to support the company. Therefore stock price rises and investors are happy. There is no need to make money, as long as you solve real systematic problems for the world.
+  - Consensus is the king, that also means the second best thing(say, search engine, e-commerce platform) is of no value. If some monoply does evil, consensus can ealiy destroy it.

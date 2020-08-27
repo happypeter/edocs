@@ -11,3 +11,5 @@
 
 - 大范围整合资源的能力
   - 自建未来城
+- 视频号 offers lots of educational content
+  - it inherits great network effect from wechat
