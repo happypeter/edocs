@@ -4,11 +4,12 @@ title: Tesla 何以征服世界?
 
 ## 综合
 
+- narrative is more important than sales numbers
 - 得力的愿景管理
   - 马云说不要为老板工作，而要为共同的伟大目标工作。这句话其实没有可执行性。因为目标是需要不断调整的。
-  - Elon 的秘诀是始终给大家勾勒出激动人心的目标。其实目标不需要真正实现，只需要让大家方向统一起来，产生合理去创造就够了。
+  - Elon 的秘诀是始终给大家勾勒出激动人心的目标。其实目标不需要真正实现，as long as that makes people join forces to create.
 - release early and release often
-  - 特斯拉的硬件迭代速度是普通车厂的十倍以上
+  - Telsa iterates like mad even on hardware
 - 巨大的市场
   - 如果未来十五年，有一半的汽车都变成电车，这个规模是很恐怖的。特斯拉如果还能保证目前的份额，那么市场规模也是恐怖的。
 - 马斯克是称职的善意独裁者
