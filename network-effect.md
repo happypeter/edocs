@@ -15,7 +15,6 @@ title: 我投资的最核心标准：网络效应
 - 网络效应会被开源或者下一代技术颠覆
   - 维基百科的页面上说，网络效应的公司会败在两个东西面前，一个是 disruptive tech ，另一个是 open standard 。对应微信来说，可能会败在 VR 或者 自主 ID 标准上。
 
-
 - 相对间接的网络效应
   - 例如，Office 软件。MS Office 用的人越多，就会有越多的人用，为啥？
   - 直接的答案是，大家都用 MS word ，那么分享文档就容易了。
@@ -48,3 +47,13 @@ title: 我投资的最核心标准：网络效应
   - 拼多多能起飞，很大程度上是依托了腾讯的 ID ，也就是微信 ID ，注意是绑定了资产的 ID （微信支付）
     - 用了几天拼多多了，发现拼小圈等等社交功能本身没有多大网络粘性。但是似乎这不重要，我觉得拼多多不可怕，可怕的还是微信。微信的“得 ID ”，微信的网络效应，外延到拼多多，整死淘宝没啥问题。
     - [得 ID 者得天下](network-effect)
+- didi only has weak network-effects
+  - at the beginning, more drivers join the network, less time people have to wait
+  - when there is enough driver, users won't tell the difference from 30 senconds waiting or 1 min.
+    - then new competors will come
+  - not every network effect is created equal, some will fade over time as mentioned here: https://a16z.com/2018/12/13/network-effects-dynamics-in-practice/
+    - this reminds me of what elon once side: the only moat is constant innovation and be fast.
+  - nost network effects are just like didi I believe, since they will be lost sooner or later without further innovation.
+- big eats small
+  - Instagram Stories ate Snap
+  - that's also a indacator than monolies will have a strong future

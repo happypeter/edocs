@@ -128,6 +128,12 @@ title: Tesla 何以征服世界?
 - 垂直整合带来工程上的各种美
   - Sandy Munro 发现特斯拉在工程上的各种美观。一百个零部件被一个铸件替代，电子部分被 IC 化，链接线于是变的超级简练，如果跟传统汽车厂商一样，各个组件都是外包的，这个是不可能做到的。https://www.youtube.com/watch?v=l4MVvttOEAQ
   - 工程的美的本质就是简单。简单带来低成本和更高的安全性。
+- Peter Thiel: virtical integration companies had their time
+  - Ford and Standard Oil were good example
+  - they are vertically integrated complex companies
+  - they are best for cases where complex collaboration, lots of pieces need to be put together in right way
+  - when you assemble everything, you get tremendous advantages
+  - they are very capital intensive
 - vertical integration does not always work
   - Former facebook exec Chamath said in 2017 that Nvidia would not be able to make a lot of money since, when AI gets really large, each tech gaint will build its own AI chip, but the reality today obviously does not match. TSMC's rise is another counterexample of vertical integration.
 

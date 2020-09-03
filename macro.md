@@ -39,8 +39,12 @@ title: 宏观经济
 
 - [The new era of monopoly is here](monopoly.md)
 
-- 负债就是财富
+- 负债就是财富 Debt makes you richer
   - 只要借贷利率比较低，那么贷款就可以用于理财，很多企业就是这么干的
+  - Rich Dad loves to borrow money, borrow money to buy assets, it's so easy to get rich.
+    - they are printing money everyday anyway.
+    - Banks nowdays are charging you interest to save money, why? because they don't want your money.
+    - The world has changed since 1971 when Nixon took us off the gold standard.
   - 普通人获得低息贷款的唯一机会就是房贷了
   - 越是富人，越是能拿到低息贷款。而穷人，由于风险高，就不得不像富人借钱，因为银行不会直接借给你，所以可以说，穷人需要给富人钱，用来转嫁一些自己的风险。
 - 投资本身就是价值创造

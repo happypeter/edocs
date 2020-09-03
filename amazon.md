@@ -5,3 +5,4 @@
 - nagtive profit is allowed
   - Bezos said, we want all our price competitive, if that means we lose some money, it's OK.
   - 'Keep the customers to the Amazon plaform' is the goal, not making money.
+- flywheel effects
