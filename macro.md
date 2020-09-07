@@ -73,6 +73,7 @@ title: 宏观经济
 - 放水之下无萧条
   - 通胀之下无债务，放水之下无萧条。大萧条之后，只见到闪崩和快速恢复，没有真正的萧条了。
   - 前美联储主席伯男克认为大萧条很大一部分原因就是金本位，导致市场流动性不足。罗斯福取消了金本位，难怪以后再也没有大萧条了。
+  - MMP(mondern monetary policy) is not so bad, the whole purpose is to get everybody to work. Wealth is ceated by working people. As long as the govments are strong enough, and able to do a good redistribution of the wealth, MMP works.
 
 - Inovation is the key to growth.
   - 借用一下 Ark Invest 的 tagline.
@@ -85,3 +86,7 @@ title: 宏观经济
   - Profile is not important, PE is shit. The only thing a company needs to do is providing best service to people.
   - Take Amazon as a example, the more people feel the pain of traditional shopping, the more peopel fall in love with Amazon. So people start to buy its stock to support the company. Therefore stock price rises and investors are happy. There is no need to make money, as long as you solve real systematic problems for the world.
   - Consensus is the king, that also means the second best thing(say, search engine, e-commerce platform) is of no value. If some monoply does evil, consensus can ealiy destroy it.
+- It's impossible to tax the rich
+  - NO.1 they have no job, NO.2 they have no money/income
+  - they are rich because they own bussiness, but bussiness often means debt
+  - how can you tax sb without job/money
