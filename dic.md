@@ -48,3 +48,18 @@ campus /kam-puh s/
 plenty /plen-tee/
 chef /shef/
 pal /pal/
+baffle /baf-uh l/
+confuse /kuh n-fyooz/
+metrics /me-triks/
+data /dey-tuh , dat-uh , dah-tuh /
+vehicle /vee-i-kuh l/
+entrench /en-trench/
+twilight /twahy-lahyt/
+integrity /en-teg-ri-tee/
+spiteful /spahyt-fuh l/
+malicious /muh -li-sh-uh s/
+warm /wawrm/
+talk /tawk/
+paw /paw/
+odd /od/
+hot /hot/
