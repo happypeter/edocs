@@ -63,3 +63,6 @@ talk /tawk/
 paw /paw/
 odd /od/
 hot /hot/
+instagram /in-suh -gram/
+awkward /awk-werd/
+advanced /ad-vanst/

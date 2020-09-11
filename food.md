@@ -1,3 +1,8 @@
+## Take pic of every meal
+
+Snacks included so that I know how much and what I eat.
+Photo with Instagram's built-in filters, and post the photos there.
+
 ## 发心
 
 奶奶的，正常的马拉松训练量三个月了，肚子上依然有厚厚的一层肥肉。原因很简单，外卖油太重。所以我想买几件自动化一些的烹饪设备，然后配合一个营养食谱，自己烹饪，以便精确控制每天摄入的卡路里，蛋白质，脂肪，膳食纤维，维生素。当然，烹饪的简洁性和口感也要尽量优化。
@@ -40,11 +45,6 @@
 - 京酱肉丝
   - 用蛋清裹住肉丝
   - 油不能太少，可以把剩油留到第二天炒菜
-
-
-- 拌黄瓜
-  - 蒜末葱花浇热油，然后加白糖，一勺料酒，三勺生抽，胡椒粉。
-  - 拍黄瓜，用盐腌五分钟，然后倒入调料
   
 ## 健康饮食
 
