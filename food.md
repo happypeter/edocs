@@ -2,6 +2,7 @@
 
 Snacks included so that I know how much and what I eat.
 Photo with Instagram's built-in filters, and post the photos there.
+Make sure always shoot from the top so that all the details are exposed.
 
 ## 发心
 

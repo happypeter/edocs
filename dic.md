@@ -66,3 +66,14 @@ hot /hot/
 instagram /in-suh -gram/
 awkward /awk-werd/
 advanced /ad-vanst/
+volume /vol-yoom/
+pitch /pich/
+tone /tohn/
+logically /loj-i-kuh li/
+typical /ti-pi-kuh l/
+typically /ti-pi-kuh li/
+radical /ra-di-kuh l/
+radically /ra-di-kuh li/
+legally /li-guh li/
+sandwich /san-wich/
+matrix /mey-triks/

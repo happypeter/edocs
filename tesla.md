@@ -150,8 +150,18 @@ title: Tesla 何以征服世界?
   - 是传输原子的互联网，是跟当年的铁路网一样重要的基础设施。
   - 所以，特斯拉的市值想象空间是无限的。
   - 当然，公权力肯定会对它进行限制，但是特斯拉毕竟比铁路要复杂一万倍，在技术标准迅速迭代阶段，大家是不会想要拆分特斯拉的。
+- solution not a product
+  - Tesla is now the only guy who can provide a EV solution
+    - that is parts, charging network, and the cars combined.
 
+## autopilot
 
+- 2 main tasks
+  - https://youtu.be/ymcOLL2qEg8?t=303
+    - Jim Keller made some great points here
+  - recognize things
+  - understanding the mental models of pedestrains or drivers, and predict their trajectories
+  
 ## Energy
 
 - megapack 和 autobidder
