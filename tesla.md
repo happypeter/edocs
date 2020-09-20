@@ -2,6 +2,22 @@
 title: Tesla 何以征服世界?
 ---
 
+- Mission One
+  - prove EV is a better sulution than ICE cars
+    - a sulution needs to be a ecosystem
+    - General Public now can not see EV is better, and actually EV is not as good as ICE systems right now
+    - this is a much narrow but clear version of the officail mission 'accelerate the world's transition to sustainable energy'
+  - SO Tesla's top priority is to setup the largest charging network(with the help of Chinese govs), do vertical integration to make really cheap cars, and probably needs to work on smart grid and power generation.
+  - Misssion complete when EV is obviously better in most people's eyes,  from both economical or environmental point of view.
+  - FSD should be Mission Two. But Mission One is exicting enough.
+
+- Mission X
+  - A fully automatated world, where no one need to work
+  - Think about everyone one a room that covered with solar pannels and with machines inside
+    - the room can run itself and generate endless wealth, right?
+  - Tesla sustainable energy plus AI, result will be Perpetual motion Machines.
+
+
 ## 综合
 
 - narrative is more important than sales numbers

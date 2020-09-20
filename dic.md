@@ -77,3 +77,14 @@ radically /ra-di-kuh li/
 legally /li-guh li/
 sandwich /san-wich/
 matrix /mey-triks/
+hug /huhg/
+subway /suhb-wey/
+subvert /suh b-vurt/
+propaganda /prop-uh -gan-duh /
+revolt /ri-vohlt/
+vital /vahyt-l/
+presumably /pre-zoo-muh -blee/
+ingenuity /in-juh -noo-i-tee/
+elite /ey-leet/
+esthetical /es-thet-i-kuh l/
+psychological /sahy-kuh -loj-i-kuh l/

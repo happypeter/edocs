@@ -66,3 +66,7 @@ title: 有哪些投资标的
   - 27th Aug 2020 UPDATE: Sold all at 46usd/share, made a 60% profit. Bilibili is no longer the NO.1 in Soical UGC Educational content anymore. Wechat 视频号 is now offering a lot of great educational content. Tencent see bilibili as a video game platform, that's what I am passionate about.
     - Youtube is still the best youtube, Chinese well educated people all know how to use VPN.
     - Bilibili does not provide enough incentive for uploaders, that's wby 李永乐老师，袁腾飞 and a lot people are using Youtube as main platform.
+- NYSE: BEKE
+  - Make real estate trading easy as PDD
+  - a nation wide unique market
+  - Charmath is betting on Opendoor

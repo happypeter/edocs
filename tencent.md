@@ -1,3 +1,14 @@
+---
+title: Tencent
+---
+
+- Mission One
+  - Connect everybody, text, videos and money
+  - done with Wechat
+- Mission Two
+  - A lot can be done based on Mission One success
+  - the official 'assist the digital upgrade of enterprises' is great
+
  - 恐怖的“得 ID 者得天下”领域的王者，Facebook 相比都会逊色，因为 Libra 还没起来。
   - 内核：“实时视频”（跟我聊天）+“朋友圈展示”（展示我的肉身和精神面貌）+“支付”（我的钱包），加到一起，就是一个“虚拟的我”，社交网络的王者。
   - 内核逐渐强大之后，微信还可以进行外延。微信账号打通拼多多，联通卖家买家，打通 B 站，让粉丝更容易向 Up 主支付。

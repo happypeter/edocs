@@ -2,6 +2,15 @@
 title: 美团
 ---
 
+- Misson One
+  - deliver all the food
+  - become the ranking and recomendation system for restaurants.
+  - mostly completed
+- Mission Two
+  - set standards for all the restaurants.
+  - distribute vegetables, oil and things to all restaurants.
+  - become the backend of all restaurants.
+
 美团目前是本地生活之王，这方面未来有巨大的想象空间。think gojack.
 
 - 美团可以在食品安全方面发力

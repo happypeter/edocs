@@ -43,6 +43,7 @@ title: 投资思路
 
 - NO.1 #清晰共识
   - 知乎上有人说，最高明的营销是点燃人类共同体心中的梦想
+  - Without a exciting mission or missions, you are worthless.
   - 好的产品可能是几个”大势“的综合，最好形成全球共识
     - 例如，看一个快手视频
       - 社交网络+云计算+视频流媒体+移动设备 这四大趋势的叠加
