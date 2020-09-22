@@ -8,4 +8,4 @@ NOTE: Daily journaling of my workouts. The goal is to have a blanced muscle buil
 ## Sep 22th 2020
 
 - 3km cycling, carring Elon.
-- 20 push-ups
+- Keep App stuff
