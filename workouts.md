@@ -9,3 +9,8 @@ NOTE: Daily journaling of my workouts. The goal is to have a blanced muscle buil
 
 - 3km cycling, carring Elon.
 - Keep App stuff
+
+## Sep 23th 2020
+
+- 3km cycling, carring Elon.
+- Abs workout following Keep App 20min

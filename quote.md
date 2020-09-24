@@ -4,14 +4,25 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
+## Sep 24th 2020
+- https://www.youtube.com/watch?v=Szn-sgOHqxo
+  Elon Musk: Hardcore Engineering, that's what we do.
+
+## Sep 23th 2020
+- https://www.youtube.com/watch?v=Szn-sgOHqxo
+  Elon Musk: Coverting the global fleet to electric has barely begun.
+
+## Sep 22th 2020
+- 
+
+## Sep 21th 2020
+- 
 
 ## Sep 20th 2020
-
 - https://www.youtube.com/watch?v=BwCm-pxq8PQ
   It took me about 1.5-2 years to get to a very good level of English...I don't live in a English speaking country, even never been to one...My journey started when I had my son...I want to show my child that following your passions and dreams it the way to live...even everybody doubts you and wants to talk you out of it.
 
 ## Sep 19th 2020
-
 - https://www.youtube.com/watch?v=BwCm-pxq8PQ
 
   1. "I started with my listening skills" - 2:52
@@ -31,6 +42,5 @@ NOTE: words with wisdom.
   15. "I started teaching. I'm an American accent coach" - 11:11
 
 ## Sep 18th 2020
-
  - https://www.theatlantic.com/magazine/archive/2018/10/yuval-noah-harari-technology-tyranny/568330/
    We tend to think about the conflict between democracy and dictatorship as a conflict between two different ethical systems, but it is actually a conflict between two different data-processing systems.
