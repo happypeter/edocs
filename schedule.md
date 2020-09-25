@@ -50,3 +50,19 @@ title: How my Time Is Used Daily
 19:00-20:00 Shopping for my marathon
 20:00-21:00 Tesla Battary Day Video
 21:00-22:00 Tesla Battary Day Video
+22:00-24:00 Sleep
+
+## Sep 25 2020
+
+00:00-06:00 Sleep
+00:00-07:00 Tesla Battary Day Video
+07:00-08:00 Washing
+08:00-09:00 Eating
+09:00-10:00 Web3.0 Book Writing
+10:00-11:00 Bike ride with Elon
+11:00-12:00 Bike ride with Elon
+12:00-13:00 Meal
+13:00-14:00 Meditation
+14:00-15:00 Web3.0 Book Writing
+15:00-16:00 Tesla Battary Day Video
+16:00-17:00 [workouts](workouts)
