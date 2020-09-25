@@ -4,6 +4,9 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
+## Sep 25th 2020
+- https://www.youtube.com/watch?v=ovmp-xsRPGs
+  Chiken: Tesla is going to mining their own lithium, I told you.
 ## Sep 24th 2020
 - https://www.youtube.com/watch?v=Szn-sgOHqxo
   Elon Musk: Hardcore Engineering, that's what we do.
@@ -13,10 +16,12 @@ NOTE: words with wisdom.
   Elon Musk: Coverting the global fleet to electric has barely begun.
 
 ## Sep 22th 2020
-- 
+- https://www.youtube.com/watch?v=Ojuhr0I4A-g
+  - Gali: I am here talking about hyper changes, but there is no hyperchange expect Tesla Boring SpaceX Neurallink. Maybe Amazon brings sth, but...
 
 ## Sep 21th 2020
-- 
+- https://www.youtube.com/watch?v=_hSlLskpttA
+  - Elon Musk's Slide: To achieve the transition to sustainable energy, we must produce more affordable EVs and Energy Storage, while building factories faster and with far less investment.
 
 ## Sep 20th 2020
 - https://www.youtube.com/watch?v=BwCm-pxq8PQ
