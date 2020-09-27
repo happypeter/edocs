@@ -17,6 +17,11 @@ title: Tesla 何以征服世界?
     - the room can run itself and generate endless wealth, right?
   - Tesla sustainable energy plus AI, result will be Perpetual motion Machines.
 
+- Battary
+  - Battary today is like petro when Rockefeller was a young man
+    - People knew it would be useful, but not at this level
+  - Pretty excited about battaries after Tesla Battary Day
+  - Megapack + Autobidder = Unlimited imagination
 
 ## 综合
 

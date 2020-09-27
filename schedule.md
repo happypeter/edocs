@@ -5,7 +5,6 @@ title: How my Time Is Used Daily
 
 
 ## Sep 22 2020
-
 08:00-11:00 Vaccine For Elon
 11:00-15:00 Random Youtube Videos and Google Assitant stuff
 15:00-16:00 [workouts](workouts)
@@ -18,7 +17,6 @@ title: How my Time Is Used Daily
 22:00-24:00 sleep
 
 ## Sep 23 2020
-
 05:00-06:00 Sal Khan Video On Rethinking Education
 06:00-07:00 Washing, cooking, eating.
 08:00-09:00 Web3.0 Book Writing
@@ -35,7 +33,6 @@ title: How my Time Is Used Daily
 21:00-24:00 Sleep
 
 ## Sep 24 2020
-
 00:00-07:00 Sleep
 07:00-09:00 Washing, cooking, eating.
 09:00-10:00 Web3.0 Book Writing
@@ -53,7 +50,6 @@ title: How my Time Is Used Daily
 22:00-24:00 Sleep
 
 ## Sep 25 2020
-
 00:00-06:00 Sleep
 00:00-07:00 Tesla Battary Day Video
 07:00-08:00 Washing
@@ -70,3 +66,33 @@ title: How my Time Is Used Daily
 18:00-19:00 Tesla Battary Day Video
 19:00-20:00 Tesla Battary Day Video
 20:00-21:00 Sports and Food Videos
+21:00-24:00 Sleep
+
+## Sep 26 2020
+00:00-04:00 Sleep
+04:00-05:00 Washing and having breakfast
+05:00-00:00 Got to the starting point
+06:00-07:00 Ran at 5min/km
+07:00-08:00 Finshed the first half
+08:00-09:00 Ran
+09:00-10:00 Ran
+10:00-11:00 Recovery
+11:00-12:00 Enjoying the comfortable env in the forrest
+12:00-13:00 Home eating
+13:00-14:00 Tesla Battary Day Video
+14:00-15:00 Sleep
+15:00-16:00 Tesla Battary Day Video
+16:00-17:00 Tesla Battary Day Video
+17:00-18:00 Tesla Battary Day Video
+18:00-19:00 Tesla Battary Day Video
+19:00-20:00 Tesla Battary Day Video
+20:00-21:00 Food Video
+21:00-24:00 Sleep
+
+## Sep 27 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Battary Day Video
+08:00-09:00 Meal
+09:00-10:00 Tesla Battary Day Video
+10:00-11:00 Being With Elon
+11:00-12:00 Tesla Battary Day Video
