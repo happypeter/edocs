@@ -90,3 +90,8 @@ title: 宏观经济
   - NO.1 they have no job, NO.2 they have no money/income
   - they are rich because they own bussiness, but bussiness often means debt
   - how can you tax sb without job/money
+- How Democacy is broken in a fundamental way
+  - A Good Example: High-Speed Railway
+    - Anybody knows it's great for America, but funny is that govs do not have enough money to build it
+    - Why? Cars are big money, they can lobby, so simple
+    - The money based politics, simply don't work, even you make the money free in whatever way.

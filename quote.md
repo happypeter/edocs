@@ -4,9 +4,18 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
+## Sep 27th 2020
+- https://www.youtube.com/watch?v=YTnixd2ryTw
+  Sandy: "I don't know who these [short-sellers] are, but they're not engineers"
+
+## Sep 26 2020
+- https://www.youtube.com/watch?v=A1IQgZVPgeY&lc=UgzV_XWcoY2bi7Ivh414AaABAg.9E1j2rAS8fO9E5dNj3T4SE
+  Drew214: Tesla could clearly offer software tools to eliminate the need for ring but I think it's a great opportunity to develop app store model to monetize with an established security company with solid user base and subscription model. Less work for Tesla with passive income stream opportunity.
+
 ## Sep 25th 2020
 - https://www.youtube.com/watch?v=ovmp-xsRPGs
   Chiken: Tesla is going to mining their own lithium, I told you.
+
 ## Sep 24th 2020
 - https://www.youtube.com/watch?v=Szn-sgOHqxo
   Elon Musk: Hardcore Engineering, that's what we do.

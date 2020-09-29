@@ -68,3 +68,13 @@ title: 房地产和城市发展 House and Urbanization
 - House price won't be too high in general
   - the rising of population is slowing down, but people are buidling more houses than ever.
   - hard to imagine house price goes up very quickly.
+- Farming in the city
+  - https://www.youtube.com/watch?v=LiNI-JUFtsA
+  - No shipping cost
+  - more pargarmmable
+  - Plants in rooms
+    - no pests, no pesticider
+    - save 90% water, cause no exposure to too much sunshine
+    - use fertilizer much more efficiently
+    - controlled temperature, grow infinite rounds of things
+    - many plants can use artificial lights, and they grow better

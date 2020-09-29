@@ -96,3 +96,44 @@ title: How my Time Is Used Daily
 09:00-10:00 Tesla Battary Day Video
 10:00-11:00 Being With Elon
 11:00-12:00 Tesla Battary Day Video
+12:00-13:00 Lunch
+13:00-14:00 Tesla Battary Day Video
+14:00-15:00 Sleep
+15:00-16:00 Sleep
+16:00-17:00 Tesla Battary Day Video
+17:00-18:00 Understanding Hype Curve
+18:00-19:00 Cooking
+19:00-20:00 Eating
+20:00-21:00 Tesla Videos
+21:00-22:00 Iron Man 2
+22:00-24:00 Iron Man 2
+
+## Sep 28 2020
+
+00:00-09:00 Sleep
+09:00-10:00 Meal
+10:00-11:00 Tesla Videos
+12:00-13:00 Meal
+13:00-14:00 Sleep
+14:00-15:00 Sleep
+15:00-16:00 Haircut
+16:00-17:00 Cooking
+17:00-18:00 Meal
+18:00-19:00 USA Capitalism & Socialism Debate Videos
+19:00-20:00 Tesla Videos
+20:00-21:00 Food Videos
+21:00-24:00 Sleep
+
+## Sep 29 2020
+
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Tesla Vidoes
+10:00-11:00 Tesla Videos
+11:00-12:00 Being with Elon
+12:00-13:00 Meal
+13:00-14:00 Tesla Videos
+14:00-15:00 Sleep
+15:00-16:00 Battary Videos
+16:00-17:00 Web3.0 Book Writing
