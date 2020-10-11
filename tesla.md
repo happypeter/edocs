@@ -25,6 +25,9 @@ title: Tesla 何以征服世界?
 
 ## 综合
 
+- NOT JUST A COMPANY
+  - Looking at the first  Presidential debate between donald trump and joe biden. I start to realize how fucked up the current system is.I guessed in the future, the consensus need to be rich in different way. Definitely not through the the house the senate, the white house, the current system is fucked The solution should be consensus based on math or first principles. So I'm thinking about Tesla or blockchain and will play a much, much more important role than a traditional high tech monopoly.
+
 - narrative is more important than sales numbers
 - 得力的愿景管理
   - 马云说不要为老板工作，而要为共同的伟大目标工作。这句话其实没有可执行性。因为目标是需要不断调整的。
@@ -33,13 +36,13 @@ title: Tesla 何以征服世界?
   - Telsa iterates like mad even on hardware
 - 巨大的市场
   - 如果未来十五年，有一半的汽车都变成电车，这个规模是很恐怖的。特斯拉如果还能保证目前的份额，那么市场规模也是恐怖的。
-- 马斯克是称职的善意独裁者
+- Musk is a tech superstar, arguably the star.
   - 在各类新闻媒体采访你还见过比马斯克专业工程知识更丰富的企业老总吗？
   - 一个理解开源的人领导的公司，开源是人和人组织起来的最佳形式
 
 - 全力推动自动化生产线
-  - 最大化的自动化，哪怕暂时多花点钱
-  - 制造机器的机器
+  - Manufacturing is nothing but rearrenging atoms as efficiently as you possibly can.
+  - A machine that builds machines
 - 我国政府会大力扶持电动车
   - 最大的目的不是环保，而是摆脱对 petro 的绝对依赖，想想一旦国际局势有变，我国经济要受多大影响。
 - 面向工程的公司才有未来
@@ -49,6 +52,9 @@ title: Tesla 何以征服世界?
 - the moat is deep enough
   - I considered Tesla did not have deep moat like Wechat or Amazon does, but now I changed my mind.
   - Consider Amazon, the more commodities it offers, the faster it ships, the customers will love it more, and buy more, this is a no-stop process. Same is true for Tesla, the bigger the charging network, the lower price batteries are produced, the more people will love tesla. Tesla is building a EV production stack, thousands of details could be optimized, and it makes perfect sense to have one monoply to do all them at once, rather than have many small companies to do them.
+
+ - Cheap Is King
+   - By using vertical integration, Musk already made rocket 100 times cheaper. He will do to cars the same, it doesn't need to be 100 times, five times cheaper will be changing the world.  I want to put the software side aside. Just consider smart cars are simply much more sophisticated cars. Musk want to build it with much much lower cost. There are two ways you can make it really cheap to produce. Number one, use AI to automate the manufacturing. Number two, use the global collaboration power that the Internet has brought, think Amazon, Linux, Wikipedia. Why vertical integration is possible in car making industry today? It's because Internet brings the possibility of global collaboration with much, much higher efficiency. So to conclude, too swords Musk has in hand, AI and the Internet. Because I strongly believe the power of aI and th Internet. I know any industry will be changed  completely. Mask obviously  It's right now the Top in entrepreneur who can make most out of aI and internet. At the same time, people who don't trust Tesla have no faith in AI and internet.
 
 - the new era of monopoly is here
   - people won't use the second best search Engine or e-commerce platform

@@ -20,3 +20,6 @@ title: 美团
   - “一切业务数据化”，食材质量也应该数据化。
 - using high frequency low margin bussiness to attack low frequcey high margin bussiness
   - food delivery is low margin, meituan use this to attract more users, therefore get high margin bussiness customers at no extra cost
+- Meituan is a super App
+  - With mobile payment, it is a killer, supper apps have everything in, save lots of user's time
+  - “e-commerce platform for services", "daily lifestyle services"

@@ -46,6 +46,30 @@ Make sure always shoot from the top so that all the details are exposed.
 - 京酱肉丝
   - 用蛋清裹住肉丝
   - 油不能太少，可以把剩油留到第二天炒菜
+- Braised pork
+  - suger with oil
+  - medium heat fry the pork to gloden color first, and then put in soy, wine
+  - star anise
+  - add green onion and galic before boiling
+  - 40min boiling
+  - don't let too much juice left
+- peanuts
+  - stir fry 
+  - 20% above minmum fire for 6 mins
+  - off fire and wait 5 mins before putting in salt
+  - another 10min wait
+- seafood
+  - clams
+    - https://www.youtube.com/watch?v=ekXyoUX-yrY
+  - shrimp
+    - stir fry with butter
+    - with lemon
+- Pumpkin
+  - stir fry with butter
+- green beans
+  - https://www.youtube.com/watch?v=hoRv_40VUfg
+    - "the process of blanching only takes 2 or 3 mins"
+  - better with galic or onion or pork
   
 ## 健康饮食
 
