@@ -335,3 +335,21 @@ title: How my Time Is Used Daily
 08:00-09:00 Meal
 09:00-11:00 Tesla Videos
 11:00-12:00 The Good Place Show
+12:00-13:00 Meal
+13:00-14:00 Solar Power Videos
+14:00-15:00 Sleep
+15:00-17:00 Solar Power Videos
+17:00-20:00 10km Walk and Meal
+20:00-22:00 Biohazard 4 Movie
+22:00-24:00 Sleep
+
+## Oct 12 2020
+00:00-08:00 Sleep
+08:00-09:00 Meal
+09:00-10:00 Stock Investment
+10:00-12:00 Being With Elon
+12:00-13:00 Fix Noodle Maachine for Mum
+13:00-14:00 Meal
+14:00-15:00 Sleep
+15:00-16:00 Tesla Video
+16:00-17:00 Economist--Home ownership Video
