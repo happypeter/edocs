@@ -4,6 +4,10 @@ title: 房地产和城市发展 House and Urbanization
 
 我目前的基本观点是[《50亿人口世界城》](https://happypeter.github.io/one-city.html)。下面的内容是这个观点的支撑和补充。
 
+- How the  obsession of home ownership can ruin the nation's economy？
+  - https://www.youtube.com/watch?v=kkVEt5tC2xU
+  - if the whole housing market worth a large portion of the nation's economy. And remember, houses are owned by common people who may not care about public good. So this makes the whole economy very volatile, when people are egering buying or selling houses together. We all saw 2008, and we all blame the banks because the people is too holy to blame.
+
 - 城市越大越好
   - 东京是世界上最大的城市。
   - 但是我去过的城市中最交通井然有序，环境也很棒的一个。
