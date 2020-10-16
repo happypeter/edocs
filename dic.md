@@ -88,3 +88,7 @@ ingenuity /in-juh -noo-i-tee/
 elite /ey-leet/
 esthetical /es-thet-i-kuh l/
 psychological /sahy-kuh -loj-i-kuh l/
+soup /soop/
+poor /poor/
+sun /suhn/
+son /suhn/

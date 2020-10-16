@@ -353,3 +353,59 @@ title: How my Time Is Used Daily
 14:00-15:00 Sleep
 15:00-16:00 Tesla Video
 16:00-17:00 Economist--Home ownership Video
+17:00-18:00 Economics Videos
+18:00-19:00 Meal
+19:00-21:00 5km Walk
+21:00-22:00 Web3 Book
+22:00-23:00 The Good Place Show
+23:00-24:00 Sleep
+
+## Oct 13 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-11:00 Fix Noodle Machine
+11:00-12:00 Take Elon Out
+12:00-13:00 Meal
+13:00-14:00 Economics Videos
+14:00-15:00 Sleep
+15:00-16:00 Economics Videos
+16:00-19:00 Running
+19:00-20:00 Economics Videos
+20:00-22:00 The Good Place
+22:00-24:00 Sleep
+
+## Oct 14 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-11:00 Take Elon Out
+11:00-12:00 Meal
+12:00-13:00 Tesla Videos
+13:00-14:00 Economics Videos
+14:00-15:00 Sleep
+15:00-16:00 Economics Videos
+16:00-18:00 Walk and Din with Billie
+18:00-22:00 With Elon
+22:00-24:00 Transformers Movie
+
+## Oct 15 2020
+00:00-05:00 Sleep
+05:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Tesla Videos
+10:00-12:00 Sleep
+12:00-13:00 Meal
+13:00-14:00 Connect David
+14:00-15:00 Sleep
+15:00-16:00 Politics Video
+16:00-21:00 Dinning with David
+21:00-22:00 KingKong Movie
+22:00-24:00 Sleep
+
+## Oct 16 2020
+00:00-07:00 Sleep
+07:00-08:00 Stock Market News
+08:00-09:00 Meal
+09:00-10:00 Be With Elon
+10:00-11:00 Tesla Videos
