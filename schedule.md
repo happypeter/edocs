@@ -409,3 +409,53 @@ title: How my Time Is Used Daily
 08:00-09:00 Meal
 09:00-10:00 Be With Elon
 10:00-11:00 Tesla Videos
+11:00-12:00 Leaving California Video
+12:00-13:00 Meal
+13:00-14:00 Leaving California Video
+14:00-15:00 Sleep
+15:00-16:00 Tesla Videos
+16:00-17:00 Global Politics Video
+17:00-18:00 Meal
+18:00-20:00 Discussion With Billie About Elon
+20:00-21:00 Self-Driving cars Video
+21:00-24:00 Sleep
+
+## Oct 17 2020
+00:00-06:00 Sleep
+06:00-07:00 On My Way to Where David Lived
+07:00-08:00 Visit Bird Bazzar
+08:00-09:00 Meal with David, Jason and Sisi
+09:00-10:00 Way to Dongjiakou
+10:00-15:00 On the Greatwall
+15:00-16:00 Meal
+16:00-17:00 Visited Jiumenkou Greatwall
+17:00-19:00 Back to Qinhuangdao
+19:00-20:00 Way home on a E-bike
+20:00-22:00 Food Videos
+22:00-24:00 Sleep
+
+## Oct 18 2020
+00:00-06:00 Sleep
+06:00-07:00 Tesla Videos
+07:00-08:00 Meal
+08:00-10:00 English Lessions: Pronoucing th
+10:00-11:00 English Debating Contest
+11:00-12:00 Economics Video
+12:00-13:00 Meal
+13:00-14:00 Take David To English Corner
+14:00-17:00 Meetup
+17:00-19:00 Dinner with David and guys
+19:00-20:00 Way Back Home
+20:00-24:00 Sleep
+
+## Oct 19 2020
+00:00-06:00 Sleep
+06:00-07:00 English learning Videos
+07:00-08:00 Meal
+08:00-12:00 Catch up 'quote of the day' of edocs
+12:00-13:00 Meal
+13:00-14:00 Catch up 'quote of the day' of edocs
+14:00-15:00 Sleep
+15:00-17:00 Catch up 'quote of the day' of edocs
+17:00-20:00 Walk and Meal
+20:00-21:00 

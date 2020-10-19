@@ -1,6 +1,6 @@
-
-
-
+- ipad
+  - ipad2, intall compatible versions 
+    - https://www.youtube.com/watch?v=033Ck_N9WF8
 ## Airport
 
 I can not find hello-peter, I can not connect
