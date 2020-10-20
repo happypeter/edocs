@@ -4,13 +4,17 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
+## Otc 20th 2020
+- https://www.youtube.com/watch?v=_nmwC_NjzqQ
+  - A Commenter: When Elon wins, we all win!! Can’t say that about Bozo or other billionaires.
+
 ## Oct 19th 2020
 - https://twitter.com/CathieDWood/status/1317856210138419200
-  Cathie Wood: If we are correct, exponential growth in the digital world will “Amazon” industries and sectors during the next 10 years.
+  - Cathie Wood: If we are correct, exponential growth in the digital world will “Amazon” industries and sectors during the next 10 years.
 
 ## Oct 18th 2020
 - English Corner
-  David Perkins(My Friend): Pay It Forward.
+  - David Perkins(My Friend): Pay It Forward.
 
 ## Oct 17th 2020
 - Elon Musk: When something is important enough, you do it even if the odds are not in your favor.
@@ -20,7 +24,7 @@ NOTE: words with wisdom.
 
 ## Oct 16th 2020
 - https://www.youtube.com/watch?v=myjdpOrnX4k
-  - Ana: I really wanted to read in English, but that was in a time when almost nobody here had internet.
+  - Anna: I really wanted to read in English, but that was in a time when almost nobody here had internet.
 
 ## Oct 15th 2020
 - https://www.youtube.com/watch?v=1c1P7xg25po&t=536s

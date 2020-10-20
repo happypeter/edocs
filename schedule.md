@@ -458,4 +458,14 @@ title: How my Time Is Used Daily
 14:00-15:00 Sleep
 15:00-17:00 Catch up 'quote of the day' of edocs
 17:00-20:00 Walk and Meal
-20:00-21:00 
+20:00-22:00 Catch up 'quote of the day' of edocs
+22:00-23:00 The Good Place Show
+23:00-24:00 Sleep
+
+## Oct 20th 2020
+00:00-06:00 Sleep
+06:00-07:00 Tesla Videos
+07:00-08:00 Cold shower & Meal
+08:00-09:00 Reading Aloud
+09:00-11:00 Writing: Why Confucius Is My Role Model
+11:00-12:00 Tesla Videos
