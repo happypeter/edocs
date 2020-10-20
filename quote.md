@@ -4,7 +4,11 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
-## Otc 20th 2020
+## Oct 20th 2020
+- https://www.youtube.com/watch?v=vFJj4E1G2Qc
+  - The Stock Market Is Ignoring the Economy: If there is a index for small private business, It would have been down for 50%, whereas at the same time big techs, like Apple or Amazon are up quite a lot.
+
+## Oct 20th 2020
 - https://www.youtube.com/watch?v=_nmwC_NjzqQ
   - A Commenter: When Elon wins, we all win!! Can’t say that about Bozo or other billionaires.
 
