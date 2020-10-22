@@ -2,6 +2,9 @@
 title: Home Schooling, Education
 ---
 
+- First Principles Teaching
+  - Train the kid to be a maker
+
 - Skill or Porject Oriented Learning
   - With Google at hand, there is no point to do knowledage-oriented learning
   - If Elon learns to calculate 1+1, that is a skill

@@ -469,3 +469,39 @@ title: How my Time Is Used Daily
 08:00-09:00 Reading Aloud
 09:00-11:00 Writing: Why Confucius Is My Role Model
 11:00-12:00 Tesla Videos
+12:00-13:00 Meal
+13:00-14:00 Meditation
+14:00-19:00 25km running
+19:00-20:00 Meal
+20:00-21:00 The Good Place Show
+21:00-23:00 Scent of A Woman movie
+23:00-24:00 Sleep
+
+## Oct 20th 2020
+00:00-06:00 Sleep
+06:00-08:00 Tesla Video
+08:00-09:00 Meal
+00:00-10:00 Reading Aloud
+10:00-12:00 With Elon
+12:00-13:00 Meal
+13:00-14:00 Make flashcards
+14:00-18:00 Take Mon To Dentist
+18:00-19:00 Meal
+19:00-21:00 Writing: Discuss Confucius with David
+21:00-23:00 Talk with Billie
+23:00-24:00 Tesla Videos
+
+## Oct 21th 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal 
+09:00-11:00 Tesla Videos
+11:00-12:00 Read Aloud
+12:00-13:00 Meal
+13:00-14:00 Car Dealership Videos
+14:00-15:00 Writing: Catch up with my diary
+15:00-16:00 Tesla Videos
+16:00-17:00 Relax
+17:00-18:00 English learning Videos
+18:00-19:00 Meal
+19:00-20:00 Writing: Discuss Home schooling with David
