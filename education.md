@@ -2,6 +2,9 @@
 title: Home Schooling, Education
 ---
 
+- The Goal of the courses
+  - To teach the kid to be Confucius-like gentleman who is willing to make a difference, and let him learn science and technology so that he is able to do it, like Elon Musk.
+  
 - First Principles Teaching
   - Train the kid to be a maker
 
