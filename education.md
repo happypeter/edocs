@@ -8,6 +8,23 @@ title: Home Schooling, Education
 - First Principles Teaching
   - Train the kid to be a maker
 
+- 6 Arts(aka subjects)
+  - Music
+    - Playing Some Instrument
+    - Singing/Dancing
+  - Painting
+    - digital 3D Modeling
+    - Digital Drawing
+    - PS skills
+    - photography
+  - Writing
+    - Keep Dairy
+    - Keep things well documented
+    - Good Tech Doc writing
+  - Public Speaking
+    - Be a good youtuber
+  - ...
+
 - Skill or Porject Oriented Learning
   - With Google at hand, there is no point to do knowledage-oriented learning
   - If Elon learns to calculate 1+1, that is a skill
