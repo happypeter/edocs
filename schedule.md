@@ -462,7 +462,7 @@ title: How my Time Is Used Daily
 22:00-23:00 The Good Place Show
 23:00-24:00 Sleep
 
-## Oct 20th 2020
+## Oct 20 2020
 00:00-06:00 Sleep
 06:00-07:00 Tesla Videos
 07:00-08:00 Cold shower & Meal
@@ -477,7 +477,7 @@ title: How my Time Is Used Daily
 21:00-23:00 Scent of A Woman movie
 23:00-24:00 Sleep
 
-## Oct 20th 2020
+## Oct 21 2020
 00:00-06:00 Sleep
 06:00-08:00 Tesla Video
 08:00-09:00 Meal
@@ -485,13 +485,13 @@ title: How my Time Is Used Daily
 10:00-12:00 With Elon
 12:00-13:00 Meal
 13:00-14:00 Make flashcards
-14:00-18:00 Take Mon To Dentist
+14:00-18:00 Take Mom To Dentist
 18:00-19:00 Meal
 19:00-21:00 Writing: Discuss Confucius with David
 21:00-23:00 Talk with Billie
 23:00-24:00 Tesla Videos
 
-## Oct 21th 2020
+## Oct 22 2020
 00:00-07:00 Sleep
 07:00-08:00 Tesla Videos
 08:00-09:00 Meal 
@@ -505,3 +505,37 @@ title: How my Time Is Used Daily
 17:00-18:00 English learning Videos
 18:00-19:00 Meal
 19:00-20:00 Writing: Discuss Home schooling with David
+20:00-21:00 Life Style Videos
+21:00-23:00 Tesla Videos
+23:00-24:00 Sleep
+
+## Oct 23 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Read Aloud
+10:00-12:00 Fix Toys and buy a new desk for Elon
+12:00-13:00 Meal
+13:00-14:00 Tesla Videos
+14:00-15:00 Meditaion
+15:00-18:00 House finishing Videos
+18:00-21:00 Meal and discuss new apartment rent with Billie
+21:00-22:00 Tesla Videos
+22:00-24:00 Amazon Videos
+
+## Oct 24 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Search Apartments Online
+10:00-18:00 100km trip to New Beidaihe district
+18:00-19:00 Being with Elon
+19:00-23:00 Search Apartments Online
+23:00-24:00 Tesla Videos
+
+## Oct 24 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Reading Aloud
+10:00-11:00 Writing

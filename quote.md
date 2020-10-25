@@ -4,90 +4,105 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
-## Oct 20th 2020
+## Oct 25 2020
+- http://www.bdhxq.gov.cn/
+  - Site: PPP model. (Public-Private Partnership)
+
+## Oct 24 2020
+- Peter Wang: Beidaihe New District is for young people.
+
+## Oct 23 2020
+- https://www.youtube.com/watch?v=-OlhRSdcsVo&t=561s
+  - The Life of an Artist in the Nordic Wilderness: There are some many magical moments.
+
+## Oct 22 2020
+- https://www.youtube.com/watch?v=7nhBTSg4zWQ
+  - Tesla Daily: Tesla FSD beta is game changing.
+
+## Oct 21 2020
 - https://www.youtube.com/watch?v=vFJj4E1G2Qc
   - The Stock Market Is Ignoring the Economy: If there is a index for small private business, It would have been down for 50%, whereas at the same time big techs, like Apple or Amazon are up quite a lot.
 
-## Oct 20th 2020
+## Oct 20 2020
 - https://www.youtube.com/watch?v=_nmwC_NjzqQ
   - A Commenter: When Elon wins, we all win!! Can’t say that about Bozo or other billionaires.
 
-## Oct 19th 2020
+## Oct 19 2020
 - https://twitter.com/CathieDWood/status/1317856210138419200
   - Cathie Wood: If we are correct, exponential growth in the digital world will “Amazon” industries and sectors during the next 10 years.
 
-## Oct 18th 2020
+## Oct 18 2020
 - English Corner
   - David Perkins(My Friend): Pay It Forward.
 
-## Oct 17th 2020
+## Oct 17 2020
 - Elon Musk: When something is important enough, you do it even if the odds are not in your favor.
 
-## Oct 16th 2020
+## Oct 16 2020
 - Confucius: The commander of the forces of a large state may be carried off, but the will of even a common man cannot be taken from him.
 
-## Oct 16th 2020
+## Oct 16 2020
 - https://www.youtube.com/watch?v=myjdpOrnX4k
   - Anna: I really wanted to read in English, but that was in a time when almost nobody here had internet.
 
-## Oct 15th 2020
+## Oct 15 2020
 - https://www.youtube.com/watch?v=1c1P7xg25po&t=536s
   - Aristotle: You are what you repeatly do.
 
-## Oct 14th 2020
+## Oct 14 2020
 - https://www.youtube.com/watch?v=th3KE_H27bs
   - Ted speaker: It's not capital that create wealth, it's people. It isn't self-interest that promotes the public good, reciprocity. It isn't competetion that produce our prosperity, it's cooperation.
 
-## Oct 13th 2020
-- https://www.youtube.com/watch?v=th3KE_H27bs
+## Oct 13 2020
+- https://www.youtube.com/watch?v3KE_H27bs
   - Ted speaker: Raising wages does not kill jobs, it creates them. When restaurant workers are paid well, they can afford to eat in restaurants, and will therefore create more jobs.
 
-## Oct 12th 2020
+## Oct 12 2020
 - https://www.youtube.com/watch?v=th3KE_H27bs
   - Ted speaker: And by pretending that the gaint imbalance in power between capital and labor doesn't exist, neoliberal economic theroy became essentially a protection racket for the rich.
 
-## Oct 11th 2020
+## Oct 11 2020
 - https://www.youtube.com/watch?v=th3KE_H27bs
   - Ted speaker: The economy is people. Including more poeple in more ways is what causes economic growth in market economies.
 
-## Oct 10th 2020
+## Oct 10 2020
 - https://www.youtube.com/watch?v=0S_-Ck-0Y2M
   - The Debater from Singapore: In today's context, with Briexit and Donald Trump presidency, nationalism and all its problems that come with it, make us very proud to stand in the side of globalism.
 
 
-## Oct 9th 2020
+## Oct 9 2020
 - https://www.youtube.com/watch?v=slo7W6lxmtw
   - Speaker: AI is improving at double-exponential rates, anyone who tell me we need to wait another ten years for L4 autonomy, I am not sure if they get this double-exponential.
 
-## Oct 8th 2020
+## Oct 8 2020
 - https://www.youtube.com/watch?v=slo7W6lxmtw
   - Seba: You only need 1 operating system, and autonomy is a operating system. You only need one company to develop it, then you can depoly it to all vehicles.
 
-## Oct 7th 2020
+## Oct 7 2020
 - https://www.youtube.com/watch?v=slo7W6lxmtw
   - Seba: Both software and hardware are improved exponentially, so it is double-exponential.
 
-## Oct 6th 2020
+## Oct 6 2020
 - https://www.youtube.com/watch?v=9RK_HDwXz9Q
   - Anna: Practice a pronucation for 1000 times.
 
-## Oct 5th 2020
+## Oct 5 2020
 - https://www.youtube.com/watch?v=9RK_HDwXz9Q
   - Anna: When you are practicing, exaggerate
 
-## Oct 4th 2020
+## Oct 4 2020
 - https://www.youtube.com/watch?v=h5LO0hHGfQg
   - Hoge: Soft th vs Buzzy th
 
-## Oct 3rd 2020
+## Oct 3 2020
 - https://www.youtube.com/watch?v=1Pql2nNR80k&t=21s
   - Elon Musk: AI need to be built in union with humanity.
 
-## Oct 2nd 2020
+## Oct 2 2020
 - https://www.youtube.com/watch?v=qUHPfHqbVLk
   - Leaving California: Nearly every public spaces has become a repository of needles and trash.
 
-## Oct 1st 2020
+## Oct 1 2020
 - https://www.youtube.com/watch?v=_rk2hPrEnk8&t=548s
   - Economics of Scale: Why Chicken Sandwiches Don't Cost $1500
 
