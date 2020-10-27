@@ -533,9 +533,37 @@ title: How my Time Is Used Daily
 19:00-23:00 Search Apartments Online
 23:00-24:00 Tesla Videos
 
-## Oct 24 2020
+## Oct 25 2020
 00:00-07:00 Sleep
 07:00-08:00 Tesla Videos
 08:00-09:00 Meal
 09:00-10:00 Reading Aloud
 10:00-11:00 Writing
+11:00-12:00 Tesla Video
+12:00-13:00 Meal
+13:00-18:00 English Corner
+18:00-19:00 Meal
+19:00-20:00 investigate Beidaihe new districk online
+20:00-22:00 Relax
+22:00-23:00 Tesla Videos
+23:00-24:00 Tesla Videos
+
+## Oct 26 2020
+00:00-07:00 Sleep
+07:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-10:00 Finish Wood Table Video
+10:00-11:00 China vs US relationship videos
+11:00-12:00 Read Aloud
+12:00-13:00 China vs US relationship videos
+13:00-14:00 Meditation
+14:00-15:00 Writing: The Web3.0 Book
+15:00-18:00 investigate Beidaihe new districk online
+18:00-19:00 Meal
+19:00-20:00 Read Aloud
+
+## Oct 27 2020
+00:00-07:00 Sleep
+07:00-08:00 Carmera Selection Videos
+08:00-09:00 Meal
+09:00-10:00 Washing

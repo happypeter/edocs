@@ -4,6 +4,10 @@ title: quote of the day
 
 NOTE: words with wisdom.
 
+## Oct 26 2020
+- https://www.youtube.com/watch?v=oUY8JR-5qO4
+  - Youtuber: You nanny's just token your job.
+  
 ## Oct 25 2020
 - http://www.bdhxq.gov.cn/
   - Site: PPP model. (Public-Private Partnership)
