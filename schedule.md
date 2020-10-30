@@ -3,6 +3,8 @@ title: How my Time Is Used Daily
 ---
 
 
+=== TODO ===
+mv this diary.md
 
 ## Sep 22 2020
 08:00-11:00 Vaccine For Elon
@@ -567,3 +569,47 @@ title: How my Time Is Used Daily
 07:00-08:00 Carmera Selection Videos
 08:00-09:00 Meal
 09:00-10:00 Washing
+10:00-12:00 With Elon
+12:00-13:00 Meal
+13:00-14:00 haoqicat.com work
+14:00-15:00 Meditation
+15:00-16:00 haoqicat.com work
+16:00-17:00 Reading Aloud
+17:00-18:00 Cook
+18:00-20:00 China & US relationship videos
+20:00-21:00 English Pronunciation Practice
+21:00-23:00 Tesla Videos
+23:00-24:00 Sleep
+
+## Oct 28 2020
+00:00-07:00 Sleep
+07:00-08:00 Belt&Road Videos
+08:00-09:00 Meal
+09:00-11:00 New Apartment Design
+11:00-12:00 Meditation
+12:00-16:00 Go to Dentist with Mom and Elon
+16:00-17:00 Read Aloud
+17:00-18:00 New Apartment Design  
+18:00-19:00 Meal
+19:00-23:00 Plan the second trip to Beidaihe New District
+23:00-24:00 Sleep
+
+## Oct 29 2020
+00:00-07:00 Sleep
+07:00-08:00 Meal
+08:00-17:00 110km bike trip to Beidaihe New District
+17:00-19:00 Wash&Meal
+19:00-20:00 Read Aloud
+20:00-21:00 Writing
+21:00-24:00 Sleep
+
+## Oct 30 2020
+00:00-06:00 Sleep
+06:00-08:00 Tesla Videos
+08:00-09:00 Meal
+09:00-12:00 Calendar 2021 Design
+12:00-13:00 Meal
+13:00-14:00 Clean rooms
+14:00-15:00 Meditation
+15:00-16:00 Read Aloud: New Concept English
+16:00-17:00 reorg diary

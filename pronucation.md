@@ -24,3 +24,8 @@ title: English Pronoucations
   - v as in very
   - w as in well
   - 'very well' is the tongue twister here
+- tips
+  - don't read a book aloud, cause you will always repeat your own mistakes and accent, listen&repeat
+
+- /i/ sound
+  - https://www.youtube.com/watch?v=Oqgpxz4fXEI&t=35s

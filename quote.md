@@ -2,8 +2,17 @@
 title: quote of the day
 ---
 
+=== TODO ===
+mv this diary.md
+
 NOTE: words with wisdom.
 
+## Oct 28 2020
+
+## Oct 27 2020
+- https://www.youtube.com/watch?v=9rwYNgkhXoA
+  - Tesla Just Changed Everything: 3.2M miles battery can be used to make money buy supply power for grid.
+  
 ## Oct 26 2020
 - https://www.youtube.com/watch?v=oUY8JR-5qO4
   - Youtuber: You nanny's just token your job.
