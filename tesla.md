@@ -43,6 +43,10 @@ title: Tesla 何以征服世界?
 - 全力推动自动化生产线
   - Manufacturing is nothing but rearrenging atoms as efficiently as you possibly can.
   - A machine that builds machines
+  - https://www.youtube.com/watch?v=sOxYOia9Fas The reason why other companies are hard to catch Tesla, because we can build a machine to build a machine to build machine. You can not buy these machine from catalog. Tesla is 10x more vertically integrated company than anybody else. 
+
+- Tech Favors Big.
+  - When you are small, you can not afford a machine to do what you do. Only if you are big enough, like Tesla, then can you afford to build a machine to build a machine to build the parts for you.
 - 我国政府会大力扶持电动车
   - 最大的目的不是环保，而是摆脱对 petro 的绝对依赖，想想一旦国际局势有变，我国经济要受多大影响。
 - 面向工程的公司才有未来
