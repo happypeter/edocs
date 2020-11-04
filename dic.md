@@ -92,3 +92,5 @@ soup /soop/
 poor /poor/
 sun /suhn/
 son /suhn/
+pine /pahyn/
+pants /pants/

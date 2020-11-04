@@ -149,6 +149,8 @@ title: Tesla 何以征服世界?
 
 ## 垂直整合 vertical integration
 
+-  Tesla is special in that they don't focus on one thing and do it well.  That they focus on a lot of things to build batteries, the build machine to make cars and they also do solar. At the same time they do autonomy. Think about how much resources it required to do all these things at this same time.  This reminds me of 贾跃亭  Ecosystem  Integration, Musk call it Vertical integration or A chain of startups。I saw a comment somewhere saying Tesla is the most vertically integrated company in human history, that's so ture.
+
 - 软硬件整合
   - 软件吃世界，但是硬件是软件的载体。Tesla Robotaxi fleet ，新能源智能电网，starlink 卫星网，未来都是软件的载体。Interl/Microsoft 主导的软硬分离的思路会成为过去，专用硬件搭载专用软件形成全球唯一网络，会是未来的主流。
   - 特斯拉也正在制作跟自己骑车配套的智能手表。如果特斯拉真的变得超级流行，这种表也可能因为硬件和软件上跟车深度整合而变得非常流行。然后，这块表就有可能去争夺 Apple Watch 的市场。我有一种很强的感觉，未来的软件和硬件一定是不分家的，而硬件和硬件之间也是耦合度越高越好用的。单一的软件或者硬件公司很难生存，“生态化反”会变得非常重要，套装全家桶会非常重要，所以垂直整合很重要。

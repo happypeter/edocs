@@ -32,6 +32,7 @@ title: Home Schooling, Education
   - Learn from these Youtubers, can upload a video once Elon master the skill
 
 - Elon Musk's School
+  - "Education is but downloading data and algorithm to your brain. If you want to teach a student about something, you'd better first explain why you need to teach them these things. I believe it helps a lot with students' motivation."
   - "I created a little school"
   - The regular schools do not follow 2 principles
     - "One principle: Different kids, differnt interests"

@@ -94,4 +94,4 @@ title: 宏观经济
   - A Good Example: High-Speed Railway
     - Anybody knows it's great for America, but funny is that govs do not have enough money to build it
     - Why? Cars are big money, they can lobby, so simple
-    - The money based politics, simply don't work, even you make the money free in whatever way.
+    - The money based politics, simply don't work, even you make the money free in whatever way.  

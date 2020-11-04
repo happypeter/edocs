@@ -6,18 +6,60 @@ title: My new home office setup
   - follow 董买买's strategy
 - Table
   - I don't like the iron leg sharp edge desks now
+  - round corner is nice
+    - safe for 2 yo
+    - comfortable when you touch it
   - I want wood workbench like my dinning table now
     - round corner, light, legs removable, so very portable
-
+  - I don't want screws exposed outside, you can hide them easily
+  - I want it to be versatile, so no drawers
+    - Want shirt not strechers, so that people fill comfortable sitting on the side
+    - that's maybe why most dinner tables don't need have strechers like desks
+  - I want to use a dinner table as my desk
+    - It's not uncommon to use dinner table as desk
+      - https://www.apartmenttherapy.com/ikeas-melltorp-dining-table-is-120843
+    - Cable organizers for USB cables.
+      - If your desk is not too big, no need to worry about drilling a hole
+  - my own table material: Scots pine
+  - size
+    - If u want to put on a big iMac 110x75cm is the minimum space
+      - I already have two desks for iMac, so I don't need to worry about this
+      - so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
+  
+- sofa
+  - modular and portable https://youtu.be/hgcTbLfChV4?t=680
+- mirror
+  - Nordic Style
+- rent
+  - can I rent a old apartment?
+    - yes, the interior look does not matter, search '出租屋 改造‘ on youtube
+      - https://www.youtube.com/watch?v=hgcTbLfChV4
+    - but, some requirements
+      - soundproof windows/wall/door
+      - proper heating
+      - no furniture
+      - sunshine
+      - DIY tolerant landlord
+      - you get the idea
+    
+  - repair the wall and lay the floor
+    - https://youtu.be/hgcTbLfChV4?t=397
 - Add a bit Unix Wisdom to the rooms
   - say consider each container as a folder, and tag names to it. e.g misc/ clothes/underwear/...
 
-- color
-  - all big items will be default to black/white/gray and a theme color
+- colors
+  - I will allow: black+gray+white+natrual wood color(from light brown to dark brown, then the doors maybe naturlly merged in)
+    - If you ever hesitate, then the color should be white, cause it's should be as invisable as possible, other colors may look like a stain
+  - all big items will be default to white/gray or a theme color
+    - if I have to live in a brown-door apartment, maybe I show just use brown as theme color
+      - https://youtu.be/a0mK0lXMMIc?t=794
     - by gray, I mean really black mixed with white color, no other colors
       - e.g https://youtu.be/Y9_ETrAR6BA?t=319 the sofa
     - I will be very picky with the colorwhen I have to buy somethings that is not black or white
   - every thing will be default to simple IKEA style design
+  - all the tables/shelves should be white, cause the walls are white this could make them more invisible
+    - therefore whatever you have on top of them become outstanding
+    - photoframes then need to have darker color, this also obey the rules, cause a photo/poster is a item, not a background
   - theme color
     - use whatever color the roomdoors/closets of the apartment aleady have as theme color
     - people use some gray color as theme which looks really elegent 
@@ -27,11 +69,60 @@ title: My new home office setup
   - need to train myself to be a pro house painter
   - it does not hurt to have brown color(as what most apartments tend to use for doors in Qinhuangdao)
     - as shown here https://www.youtube.com/watch?v=Y9_ETrAR6BA
-
-- rooms
+  
+- living room
+  - clock is nice, but be sure to make it nose-less
+- rooms by functions
   - I want a study room for myself
     - a single bed is enough for me.  
     - II want a small desk and chair in my room in case I need to work in my own room
   - a double bed in master bedroom for Elon and Billie
   - living room will be the main office
     - a bookshelf between my bench and Billie's to give a little privacy
+  - dealing with heating radiator and the ugly half wooden walls?
+    - P.S: the simple solution would be getting rid of the wood and paint the radiator white
+
+- Kitchen
+  - hide things to give a clean look from living room
+    - build a tmp wall with my big white boxes, and hide things behind it
+    - save thing behind the really wall
+      - hang things on the wall
+        - glue on the china tile wall: https://youtu.be/hcxro4ZTTmo?t=547
+        - all I want is a flat board, wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
+          - having a fence for the board is not a good idea, redundant and limiting the use case
+  - Bowls and plates
+    - maybe I need a plate rack like this https://youtu.be/a0mK0lXMMIc
+    - The kitche looks really cluster and messy
+      - Too many dark colors
+      - bowls should be white to make it merge in the white wall, so that it can be invisable
+    - I want a set of things
+    - blowls should be easy to stack up
+    - every thing should be as simple as possible
+    - I think I shoud use white+silver for all small kitchen items
+      - tissue paper container, bowls, plates, knife shelves, trash
+      - If I have a big kitchen in the future, I can have some dark color items, but not now
+ - If I am going to get spice rack: https://youtu.be/2_VDqSmVncI?t=653
+
+- bedrooms
+  - clothing organization
+    - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
+    - do the same to socks P.S I bought really special sock hangers
+    - keep all socks same color same size, keep them in a special box once they are dry.
+  - I do need a portable closet
+    - for shoes and suits
+    - and big luggage
+
+- have shelf on wall without drilling: use 'hole panel'
+  - https://youtu.be/a0mK0lXMMIc?t=310
+
+- cable management
+  - use 'hole panel' https://youtu.be/a0mK0lXMMIc?t=343
+- cat 
+  - cat's toliet https://youtu.be/S4et2vt2Ccg?t=921
+- change Door color
+  - use sth thick to cover the door with textures: https://youtu.be/ZIeLvU8FhbA?t=389
+- if I need to seperate spaces
+  - use '铁艺隔断’ iron room divider: https://youtu.be/Ou0Lp7UfNVw?t=129
+
+- quilt
+  - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
