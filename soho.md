@@ -1,7 +1,258 @@
 ---
-title: My new home office setup
+title: My new home office design and implementation
 ---
 
+
+## Design Guidelines
+- LSRUD process for rental apartment
+  - Layout: based on functionality
+  - Style: choose the theme style
+  - Renovation: walls and floors
+  - Upcycle: make old item fit more in to the new design 
+  - Deco: buy more little items
+- being very minmum
+  - for design
+    - think IKEA
+  - for functionailty
+    - don't by things you don't need
+    - things with least details, you will thank yourself when you try to clean them in the future
+  - simpler means more versatile, you will upgrade your home over time 
+    - a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home.
+- everything portable
+  - no damage to the walls
+- be very modular
+  - my big white boxes were great
+    - remodel to a wall or closet or nightstand
+    - good color fits into anyplace
+  - I want a stronger version boxes
+    - being strong to be the bottom of bed or sofa
+    - I can use it as entryway stool
+    - I want a new bed or sofa, all I need is a mat
+    - maybe I can div with wood
+      - Pingduoduo also have really nice PP boxes
+      - heavy wood boxes with sharp coners are dangerour to put together, squeeze your fingers
+      - without proper handle, wood boxes are not so portable
+      - PP boxes are strong, light, and safe(pp also used for food packages)
+    - a single bed is usually 120x200cm
+      - I want four boxes a single bed, so one box is 60x100cm
+    
+- slightly different design for different rooms
+  - the bedrooms should be more homey
+  - the living room more open and colorful, like a google office
+- Add a bit Unix Wisdom to the rooms
+  - say consider each container as a folder, and tag names to it. e.g misc/ clothes/underwear/...
+- have posters of github/google/code/editors , the theme is Coder's Home.
+- Julie teches you How to design your dream space
+  - https://www.youtube.com/watch?v=nYrAuXS5RPQ
+  - Goals: functional, stylish, cohesive, inspirational, suits your life style and personality
+  - STEP1：Determine How you want the space to function
+    - 'form follows function'
+  - STEP2: find inspiration
+    - search on instagram of pinterest
+      - try to collection many pictures you love and find there common charators
+      - you can use a mixture of styles, but you do need a main thread
+  - STEP3: color palette
+    - what's your vibe, are you dark or moody
+    - the vibe will determine everything in your room
+  - STEP4: Measure the room
+    - do this before planning the spaces
+  - STEP5: plan your space
+    - select and lay things based on room sizes
+      - decide the size of your nightstand/bed/rug/table/...
+  - STEP6: shop the room
+    - shop everything based on your plan
+  - STEP7: create a mood board
+  - STEP8: Start purchasing
+  - STEP9(last step): Style and Accessorize
+
+## DIY Tricks
+- Painting
+  - https://youtu.be/tA7B0lN4vWY?t=82
+  - cover surface around paiting area with 美纹纸
+  - paint paper with 丙烯 https://www.youtube.com/watch?v=08rmUPh9DtA
+  - for broken white wall, use spray paint
+- mounting
+  - 热熔胶 for things
+
+## Rent consideration
+  - can I rent a old apartment?
+    - yes, the interior look does not matter, search '出租屋 改造‘ on youtube
+      - https://www.youtube.com/watch?v=hgcTbLfChV4
+    - but, some requirements
+      - soundproof windows/wall/door
+      - proper heating
+      - no furniture
+      - sunshine
+      - DIY tolerant landlord
+      - you get the idea
+  - repair the wall and lay the floor
+    - https://youtu.be/hgcTbLfChV4?t=397
+
+## Style
+- palette
+  - black + white + pure-gray + light-wooden + bright-google-office-colors
+    - this palette should be very tolerant to any other colors too I believe, especially when it's light
+    - sliver and brown door color are toleranted
+    - netrual color or cartoon-ish bright saturated color?
+      - quick answer: I will strive for bright ones.
+      - large items with bright color tend to look cheap, so do I need some more neutral colors for chairs and things? EC life's demo of black-white-gray theme  https://www.youtube.com/watch?v=7LxU5AaCl-M , see the chair here, a netrual color. However, I don't beleive I am professional enough to control netural colors
+        - It's really hard to get the combination right, even using different tones of grays
+        - besides, I am a engineer, I love simplicity
+
+- EC life's 3-color rule trick https://youtu.be/O7sx0dZv7To?t=163
+    - no more than 3 colors, 60%-30%-10%
+- shopping guideline
+  - if I ever need to buy something, make it NO.1 white or NO.2 bright colors, NO.3 black NO.4 gray(pure black + white)
+    - If you ever hesitate, then the color should be white, cause it's should be as invisable as possible, other colors may look like a stain
+    - really small item, really doesn't matter, sometime bright colors looks cheap, 
+    - big things like a kettle, use bright color, or white or sliver.
+  - many things go well with black+white theme
+    - https://youtu.be/NMsDFycKvIw?t=8 wooden things, flowers, leaves
+  - all the tables/shelves should be white, cause the walls are white this could make them more invisible
+    - therefore whatever you have on top of them become outstanding
+    - photoframes then need to have darker color, this also obey the rules, cause a photo/poster is a item, not a background
+  - simple shape
+    - also, I want to keep things really cartoon-ish, try to aviod things with too much details
+- why I don't have a theme color
+  - having a theme color have two benefits
+    - NO.1 set the tone for the home
+    - NO.2 unify different rooms
+  - but for now I prefer not to have a theme color
+    - since I have the door-brown in everyroom to unify all rooms
+      - there is a way to fix the color easily https://youtu.be/D5Dr3qrDDtA?t=610
+    - but I don't design for the door-brown color, it is not my theme color
+
+## Rooms 
+- living room
+  - clock is nice, but be sure to make it nose-less
+- my bed room
+  - will be my work room too
+- kitchen
+- bathroom
+
+## Kitchen
+- a framed poster for power switch panel
+  - panel size: 44x28cm
+  - DIY the poster with markers
+    - featuring Github or Google, wikipedia
+- bowl rack
+  - https://youtu.be/0WIipdQNipQ?t=716
+  - maybe I need a plate rack like this https://youtu.be/a0mK0lXMMIc
+  - the table top is precious, try to hang things on the wall
+    - wall lid stand
+- hide things to give a clean look from living room
+  - build a tmp wall with my big white boxes, and hide things behind it
+  - save thing behind the really wall
+      - hang things on the wall
+      - glue on the china tile wall: https://youtu.be/hcxro4ZTTmo?t=547
+      - all I want is a board wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
+- layout
+  - cutting board and oil should be placed as near to the stoves as reasonably practicable
+  - ladle and spatula shall be hung next to wok, not the other side of the stove
+    - sometimes they are drippling, I don't want to carry it a long way to somewhere
+    - during the process of cooking, they should be hung there and I don't need to worry about the drippling, the table top is waterproof anyway.
+- The kitche looks really clustered and dirty
+  - how to look clean
+    - white items on darkbackground, black items on white backgroud, see EC life's bathroom: https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+      - the kitchen window and closet are both dark, so items should be white
+        - white bowels plates and things
+      - will use black shelf on white tile wall
+  - how to look more organized
+    - I want a set of things(bottles tupperwares bowls and plates)
+
+## Living Room
+- four boxes = a sofa or bed
+  - if I need more boxes, pick a set
+- plants
+  - https://youtu.be/0owW3UgDX0I?t=308
+  - To have Nordic style https://youtu.be/tA7B0lN4vWY?t=166
+- big desk size 110x220cm
+- billie's desk 160x80cm
+- main area size 358x458cm
+- most wall 28cm
+- window 195cm
+
+## My Bedroom
+- rug
+  - color
+    - dark, really dark, as a backgroud of my light color items
+    - round shape on it, since I have too much rectangular thing
+    - tolerant of dirt or cat's fur
+    - dark floor and rug will make your room look even brighter
+  - size: enough for yoga
+  - has to be easy to clean with washing machine
+  - a rug will make a room more homey
+- sizes
+ - floor to ceiling height 267cm
+ - floor width: 272cm floor length: 420cm
+ - balcony entrency width: 172cm height: 233cm
+- a curtain:
+  - tip: curtain width usually is 2 times the window width, because of the folds
+  - given my hanger style, curtain max hright is 257cm(then it will reach the floor)
+  - when I move the window size could be different, so not wise to buy a expensive curtain
+    - besides, I don't want a blackout for my small room
+    - and cat might ruin the sheers as well
+  - what about a short curtain with height 180cm
+    - table height: 75cm, this meanings the bottom of the curtain is a bit lower than my table top
+    - my floor is really reflective, but since I am siting really close to the curtain, so I won't see the direct reflection of the winter sunshine
+    - being short is being cat-safe
+  - what about white thicken voile sheers for my bedroom?
+    - the balcony has roof, so the sunshine won't be as strong as living room
+    - this is nordic style, love the demo videos on Pingduoduo
+- quilt
+  - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
+- nightstand TODO
+  - my bed takes all the room, so I need a hole board between bed and wall
+    - I need to be able to put cellphone
+  - If it's just my phone, can I simply use a soft-box instead?
+- table side cabinet
+  - use a small hole board instead maybe: https://youtu.be/O7sx0dZv7To?t=525
+- bed 
+  - a large white cloth to cover all my bed
+  - bed skirt, mattress, back
+    - maybe same color?
+    - grey is a good color
+      - https://southshorefinelinens.com/blogs/southshoreblog/does-my-bed-need-a-bed-skirt
+- clothing organization
+  - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
+  - do the same to socks P.S I bought really special sock hangers
+  - keep all socks same color same size, keep them in a special box once they are dry.
+- I do need a portable closet TODO
+  - currently not enough place to hang clothes
+  - for shoes and suits
+  - and big luggage
+
+## Cat's Home
+  - does not have to be ugly https://www.midwesthomes4pets.com/
+  - cat litter box (if I ever need one)
+    - https://youtu.be/BBU4xkklIg4?t=241
+
+## Bathroom
+  - Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+  - towel management
+    - requirements:
+      - one of my towels will be completely wet daily, so I do need a place on balcony
+      - I don't want to hang them all the day on the master hanger
+    - Plan Discussions
+      - PlanA: a freestand for the towels
+        - I can put my nail cutter in the stand
+        - Benifits
+          - I can keep my nail cutter and foot towel all under the sunshine
+        - problems:
+          - one more permenant(and not relly pleasant) thing within my daily sight
+      - PlanB: change my hanbit, don't make it wet everyday
+        - keep towels in use in the bathroom
+      - problem
+        - no seperation between toliet and washing bowl, so no way to stop the smell
+     - Solution:
+       - go PlanB
+       - only have one or two landary days per week, so that we enjoy a clean balcony for most time
+       - buy more towels, save the dirty ones, wash them and hang them with other clothes
+       - all towels purchursed in the future will be white
+       - levelup the cleanliness standard for my bathroom
+       - fragrance for bathroom
+
+## Furnitures
 - camera
   - follow 董买买's strategy
 - Table
@@ -25,96 +276,14 @@ title: My new home office setup
     - If u want to put on a big iMac 110x75cm is the minimum space
       - I already have two desks for iMac, so I don't need to worry about this
       - so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
-  
 - sofa
-  - modular and portable https://youtu.be/hgcTbLfChV4?t=680
+  - modular and portable, four boxs a big sofa
 - mirror
   - Nordic Style
-- rent
-  - can I rent a old apartment?
-    - yes, the interior look does not matter, search '出租屋 改造‘ on youtube
-      - https://www.youtube.com/watch?v=hgcTbLfChV4
-    - but, some requirements
-      - soundproof windows/wall/door
-      - proper heating
-      - no furniture
-      - sunshine
-      - DIY tolerant landlord
-      - you get the idea
-    
-  - repair the wall and lay the floor
-    - https://youtu.be/hgcTbLfChV4?t=397
-- Add a bit Unix Wisdom to the rooms
-  - say consider each container as a folder, and tag names to it. e.g misc/ clothes/underwear/...
 
-- colors
-  - I will allow: black+gray+white+natrual wood color(from light brown to dark brown, then the doors maybe naturlly merged in)
-    - If you ever hesitate, then the color should be white, cause it's should be as invisable as possible, other colors may look like a stain
-  - all big items will be default to white/gray or a theme color
-    - if I have to live in a brown-door apartment, maybe I show just use brown as theme color
-      - https://youtu.be/a0mK0lXMMIc?t=794
-    - by gray, I mean really black mixed with white color, no other colors
-      - e.g https://youtu.be/Y9_ETrAR6BA?t=319 the sofa
-    - I will be very picky with the colorwhen I have to buy somethings that is not black or white
-  - every thing will be default to simple IKEA style design
-  - all the tables/shelves should be white, cause the walls are white this could make them more invisible
-    - therefore whatever you have on top of them become outstanding
-    - photoframes then need to have darker color, this also obey the rules, cause a photo/poster is a item, not a background
-  - theme color
-    - use whatever color the roomdoors/closets of the apartment aleady have as theme color
-    - people use some gray color as theme which looks really elegent 
-      - http://www.crismatec.com/1533274213/mnc/b9da5ac137f27e50/
-  - should I use theme color for a curtain, or can can I use black? Need to check some videos of house design
-    - dark gray curtain looks great http://qinhuangdao.jiwu.com/info/6416306.html
-  - need to train myself to be a pro house painter
-  - it does not hurt to have brown color(as what most apartments tend to use for doors in Qinhuangdao)
-    - as shown here https://www.youtube.com/watch?v=Y9_ETrAR6BA
-  
-- living room
-  - clock is nice, but be sure to make it nose-less
-- rooms by functions
-  - I want a study room for myself
-    - a single bed is enough for me.  
-    - II want a small desk and chair in my room in case I need to work in my own room
-  - a double bed in master bedroom for Elon and Billie
-  - living room will be the main office
-    - a bookshelf between my bench and Billie's to give a little privacy
-  - dealing with heating radiator and the ugly half wooden walls?
-    - P.S: the simple solution would be getting rid of the wood and paint the radiator white
-
-- Kitchen
-  - hide things to give a clean look from living room
-    - build a tmp wall with my big white boxes, and hide things behind it
-    - save thing behind the really wall
-      - hang things on the wall
-        - glue on the china tile wall: https://youtu.be/hcxro4ZTTmo?t=547
-        - all I want is a flat board, wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
-          - having a fence for the board is not a good idea, redundant and limiting the use case
-  - Bowls and plates
-    - maybe I need a plate rack like this https://youtu.be/a0mK0lXMMIc
-    - The kitche looks really cluster and messy
-      - Too many dark colors
-      - bowls should be white to make it merge in the white wall, so that it can be invisable
-    - I want a set of things
-    - blowls should be easy to stack up
-    - every thing should be as simple as possible
-    - I think I shoud use white+silver for all small kitchen items
-      - tissue paper container, bowls, plates, knife shelves, trash
-      - If I have a big kitchen in the future, I can have some dark color items, but not now
- - If I am going to get spice rack: https://youtu.be/2_VDqSmVncI?t=653
-
-- bedrooms
-  - clothing organization
-    - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
-    - do the same to socks P.S I bought really special sock hangers
-    - keep all socks same color same size, keep them in a special box once they are dry.
-  - I do need a portable closet
-    - for shoes and suits
-    - and big luggage
-
+## Misc
 - have shelf on wall without drilling: use 'hole panel'
   - https://youtu.be/a0mK0lXMMIc?t=310
-
 - cable management
   - use 'hole panel' https://youtu.be/a0mK0lXMMIc?t=343
 - cat 
@@ -123,6 +292,3 @@ title: My new home office setup
   - use sth thick to cover the door with textures: https://youtu.be/ZIeLvU8FhbA?t=389
 - if I need to seperate spaces
   - use '铁艺隔断’ iron room divider: https://youtu.be/Ou0Lp7UfNVw?t=129
-
-- quilt
-  - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
