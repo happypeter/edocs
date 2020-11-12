@@ -2,25 +2,130 @@
 title: My new home office design and implementation
 ---
 
-
 ## Design Guidelines
-- LSRUD process for rental apartment
-  - Layout: based on functionality
-  - Style: choose the theme style
-  - Renovation: walls and floors
-  - Upcycle: make old item fit more in to the new design 
-  - Deco: buy more little items
-- being very minmum
-  - for design
-    - think IKEA
-  - for functionailty
-    - don't by things you don't need
-    - things with least details, you will thank yourself when you try to clean them in the future
-  - simpler means more versatile, you will upgrade your home over time 
-    - a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home.
-- everything portable
-  - no damage to the walls
-- be very modular
+- goal: beautiful and easy to use soho
+  - minmum
+    - things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value
+      - prefer single color items like chairs, plates etc.
+    - for design
+      - a chuppy nordic style
+    - for functionailty
+      - don't by things you don't need
+      - things with least details, you will thank yourself when you try to clean them in the future
+    - simpler things are often more versatile, you will upgrade your home over time 
+      - a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home.
+  - portable
+    - no damage to the walls
+    - all the furniture parts should be easily to carry by myself
+  - modular
+    - furnatures should be very modular and extensible, easy to be replaced and upgraded on part each time
+  - slightly different design for different rooms
+    - the bedrooms should be more homey
+    - the living room more open and colorful, like a google office
+  - Unix Filesystem like org
+    - say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/...
+    - have a beautiful filesystem hirachey so that things are easy to find
+      - everything should have its home
+    - every is a box 
+      - folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
+  - Coder's Home
+    - have posters of github/google/code/editors , the theme is Coder's Home.
+- design and implemention process
+  - EC Life's approach
+    - LSRUD process for rental apartment
+    - Layout: based on functionality
+    - Style: choose the theme style
+    - Renovation: walls and floors
+    - Upcycle: make old item fit more in to the new design 
+    - Deco: buy more little items
+  - Julie's approach
+    - How to design your dream space: https://www.youtube.com/watch?v=nYrAuXS5RPQ
+    - Goals: functional, stylish, cohesive, inspirational, suits your life style and personality
+    - STEP1：Determine How you want the space to function
+      - 'form follows function'
+    - STEP2: find inspiration
+      - search on instagram of pinterest
+        - try to collection many pictures you love and find there common charators
+        - you can use a mixture of styles, but you do need a main thread
+    - STEP3: color palette
+      - what's your vibe, are you dark or moody
+      - the vibe will determine everything in your room
+    - STEP4: Measure the room
+      - do this before planning the spaces
+    - STEP5: plan your space
+      - select and lay things based on room sizes
+        - decide the size of your nightstand/bed/rug/table/...
+    - STEP6: shop the room
+      - shop everything based on your plan
+    - STEP7: create a mood board
+    - STEP8: Start purchasing
+    - STEP9(last step): Style and Accessorize
+
+## Everything is a box(as in HTML)
+
+- elastic box philosophy
+  - everything should has it's own home, the home is a cubic space, a box
+  - think before shopping, how many walls do I need for a box
+    - closet shoud be extensible mount pipes, with 0~6 walls
+      - does a wall provide value
+  - flexiable pipes and joints before fixed sized boxes
+- pipe accessories
+  - you get everything you can imagine on Pingduoduo
+    - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头
+- aesthetic rules
+  - each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set
+  - each item should take up as much as it's cuboid space, and try to make the cubiod smaller
+  - boxes should be algined well
+- why I choose alumnium pipe for the backbone of my storage system?
+  - I rent so I don't want to demage the walls, I may not have good built-in closets
+  - if I want to make use of vertical space, I need something free-standable and strong
+  - many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find alumnium pipes are more approchable and versatile
+- metal pipes
+  - It's stupid to use big and heavy wood closet, it's overdo
+    - it's not portable, how about I want to use it as a hanger to air dry my quilts
+  - it's just a big box
+  - all I need is some pipe assembled together
+  - this is extensible
+  - if I want cover, use fabric
+  - I can use one wall for holdboard or any other purpose
+  - bad example: plug thin pipe in to holes of backbone pipe
+    - this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe
+    - right way to do this is keeping both the thin and thick pipes intact, use joints
+  - bad example: things outside of the box cuboid
+    - most pipes should be the edges of the box, nothing should be outside the box
+    - take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy.
+    - the right way to do it
+      - use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes
+      - install a thin pipe in the middle as hanger bar
+  - bad example: my bamboo triangle clothes shelf
+    - have to add walls to cover things
+    - not extensible(I can not change some bars to get a bigger shelf)
+  - the closet need to be easy to install more boards, and just the right size for a set of boxes
+    - so make sure the boards/boxes/pipes fit with each other
+    - pipe diameter: 2.5cm
+      - hard metal pipe(and joints) of any diameter is esay to get
+    - joint solutions
+      - No welding
+      - metal joints will be stronger of course, but I think PPV is fine
+        - I don't want to depend on screw thread
+      - https://youtu.be/yfHGFw5RDac?t=104
+    - feet solution
+      - https://youtu.be/qOTRKZpHOOM?t=5
+    - can I install
+      - wire mesh
+      - wood drawers
+      - wood board for book shelf
+    - can I use it as 
+      - a book shelf
+      - kitchen shelf
+      - closet
+- metal pipe closet implementation
+  - deep: 55cm(my big closet is 52cm ), width: 125cm(not decided yet), height: 125cm(enough for most clothes excecpt long dresses )
+  - how to mount board to the structure https://www.youtube.com/watch?v=BwkKYqWFA5g + https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
+  - pipe other than backbones: use PP pipe
+    - or use thiner metal pipe, 
+
+- storage box
   - my big white boxes were great
     - remodel to a wall or closet or nightstand
     - good color fits into anyplace
@@ -28,51 +133,42 @@ title: My new home office design and implementation
     - being strong to be the bottom of bed or sofa
     - I can use it as entryway stool
     - I want a new bed or sofa, all I need is a mat
-    - maybe I can div with wood
+    - maybe I can diy with wood
       - Pingduoduo also have really nice PP boxes
       - heavy wood boxes with sharp coners are dangerour to put together, squeeze your fingers
       - without proper handle, wood boxes are not so portable
       - PP boxes are strong, light, and safe(pp also used for food packages)
     - a single bed is usually 120x200cm
       - I want four boxes a single bed, so one box is 60x100cm
-    
-- slightly different design for different rooms
-  - the bedrooms should be more homey
-  - the living room more open and colorful, like a google office
-- Add a bit Unix Wisdom to the rooms
-  - say consider each container as a folder, and tag names to it. e.g misc/ clothes/underwear/...
-- have posters of github/google/code/editors , the theme is Coder's Home.
-- Julie teches you How to design your dream space
-  - https://www.youtube.com/watch?v=nYrAuXS5RPQ
-  - Goals: functional, stylish, cohesive, inspirational, suits your life style and personality
-  - STEP1：Determine How you want the space to function
-    - 'form follows function'
-  - STEP2: find inspiration
-    - search on instagram of pinterest
-      - try to collection many pictures you love and find there common charators
-      - you can use a mixture of styles, but you do need a main thread
-  - STEP3: color palette
-    - what's your vibe, are you dark or moody
-    - the vibe will determine everything in your room
-  - STEP4: Measure the room
-    - do this before planning the spaces
-  - STEP5: plan your space
-    - select and lay things based on room sizes
-      - decide the size of your nightstand/bed/rug/table/...
-  - STEP6: shop the room
-    - shop everything based on your plan
-  - STEP7: create a mood board
-  - STEP8: Start purchasing
-  - STEP9(last step): Style and Accessorize
 
 ## DIY Tricks
 - Painting
   - https://youtu.be/tA7B0lN4vWY?t=82
-  - cover surface around paiting area with 美纹纸
+  - cover surface around painting area with masking tape 美纹纸
   - paint paper with 丙烯 https://www.youtube.com/watch?v=08rmUPh9DtA
   - for broken white wall, use spray paint
-- mounting
-  - 热熔胶 for things
+  - cardpaper? use acrylic colors.
+- removing glue stains
+  - use sharp knife, it works but takes a bit patience
+  - people also say, use oil
+- cardboar paper
+  - Hot-melt adhesive 
+  - do a picture frame https://www.youtube.com/watch?v=sYmELumpRvk
+- how to fix a big hole on the wall
+  - step1: cover the hole with paper, glue it with mask tape
+  - step2: apply spray wall paint
+- a simple carboard frame and stand for frameless mirror glass
+  - frame, I will do it the super simple, use tape
+  - stand, TODO: waiting for the glass clip and wood
+    - will make a simple frame with two 60cm and a 35cm connection
+
+- carpenter
+  - wood boards can be assmebled in whatever way I want
+  - cutting
+    - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
+    - so a small hand saw will do
+- a curtain with hard paper and rope
+  - https://www.pinterest.jp/pin/550987335632706463/
 
 ## Rent consideration
   - can I rent a old apartment?
@@ -88,58 +184,88 @@ title: My new home office design and implementation
   - repair the wall and lay the floor
     - https://youtu.be/hgcTbLfChV4?t=397
 
-## Style
-- palette
+## Set the Style 
+- color
   - black + white + pure-gray + light-wooden + bright-google-office-colors
+    - get inspirations: search 'black and white room design' on pinterest
     - this palette should be very tolerant to any other colors too I believe, especially when it's light
     - sliver and brown door color are toleranted
+      - white and black theme are very tolerant of other colors, especially when this is only one color so the brown-red of doors and cabinets is not a problem, the problem is something else, maybe because the they not modern enough by itself, so the idea is not to fix the color, but to fix the style
+        - adding a bright color modern looking handle may help a lot https://youtu.be/SZzJhZ_TrfY?list=PLdgMcYYc0hOtRxQA9pHsY5WtaLxLKfYTf&t=25
+        - my kitech cabinet's problem is having a dark color body and darker top
     - netrual color or cartoon-ish bright saturated color?
       - quick answer: I will strive for bright ones.
       - large items with bright color tend to look cheap, so do I need some more neutral colors for chairs and things? EC life's demo of black-white-gray theme  https://www.youtube.com/watch?v=7LxU5AaCl-M , see the chair here, a netrual color. However, I don't beleive I am professional enough to control netural colors
         - It's really hard to get the combination right, even using different tones of grays
         - besides, I am a engineer, I love simplicity
-
-- EC life's 3-color rule trick https://youtu.be/O7sx0dZv7To?t=163
-    - no more than 3 colors, 60%-30%-10%
+  - why I don't have a theme color
+    - having a theme color have two benefits
+      - NO.1 set the tone for the home
+      - NO.2 unify different rooms
+    - but for now I prefer not to have a theme color
+      - since I have the door-brown in everyroom to unify all rooms
+        - there is a way to fix the color easily https://youtu.be/D5Dr3qrDDtA?t=610
+      - but I don't design for the door-brown color, it is not my theme color
+ - shape
+    - also, I want to keep things really cartoon-ish, try to aviod things with too much details, chubby, round corners, you watched Dragon Balls, so you get the idea.
 - shopping guideline
+  - the general rule is to buy white or bright color with chubby shape and round corners
+    - even for wood things, I also want the color light.
+    - I have lots of black frames and sharp corners, so there is a backbone and balance.
   - if I ever need to buy something, make it NO.1 white or NO.2 bright colors, NO.3 black NO.4 gray(pure black + white)
     - If you ever hesitate, then the color should be white, cause it's should be as invisable as possible, other colors may look like a stain
-    - really small item, really doesn't matter, sometime bright colors looks cheap, 
-    - big things like a kettle, use bright color, or white or sliver.
   - many things go well with black+white theme
     - https://youtu.be/NMsDFycKvIw?t=8 wooden things, flowers, leaves
   - all the tables/shelves should be white, cause the walls are white this could make them more invisible
     - therefore whatever you have on top of them become outstanding
     - photoframes then need to have darker color, this also obey the rules, cause a photo/poster is a item, not a background
-  - simple shape
-    - also, I want to keep things really cartoon-ish, try to aviod things with too much details
-- why I don't have a theme color
-  - having a theme color have two benefits
-    - NO.1 set the tone for the home
-    - NO.2 unify different rooms
-  - but for now I prefer not to have a theme color
-    - since I have the door-brown in everyroom to unify all rooms
-      - there is a way to fix the color easily https://youtu.be/D5Dr3qrDDtA?t=610
-    - but I don't design for the door-brown color, it is not my theme color
 
-## Rooms 
-- living room
-  - clock is nice, but be sure to make it nose-less
-- my bed room
-  - will be my work room too
-- kitchen
-- bathroom
+## The Filesystem
+
+Folder division based on phiscal locations. e.g the whole clothes storage system could be located in different rooms, then you have living_room/fabric_box and peter_room/closet, rathen then a big folder for all the device for clothes storage.
+
+- living_room/
+  - billie_office/
+    - desk
+    - chair
+  - makeup_deskp/
+    - dressing_mirror
+    - tableside_cabinet
+  - snacks/
+  - yoga_area/
+  - storage_boxs/
+    - peter_box/
+    - billie_box/
+- peter_room/
+  - desk
+  - snacks/
+  - tools/
+- billie_room/
+- kitchen/
+  - tools/
+  - snacks/
+  - washed_vege
+  - unwashed_vege
+- bathroom/
+  - bowl
+  - sink
+  - basins/
+    - peter_socks_basin
+- garage
 
 ## Kitchen
-- a framed poster for power switch panel
-  - panel size: 44x28cm
+- a framed poster for power switch panel, TODO: waiting for Hot melt gun and acrylic
+  - panel size: 44x28cmx1cm
   - DIY the poster with markers
     - featuring Github or Google, wikipedia
-- bowl rack
-  - https://youtu.be/0WIipdQNipQ?t=716
+  - DIY the frame with cardboard
+- dish rack: TODO
+  - wall mount dish drainer rack 
   - maybe I need a plate rack like this https://youtu.be/a0mK0lXMMIc
   - the table top is precious, try to hang things on the wall
     - wall lid stand
+- dishes/plates
+  - TODO: buy white ones: no textures, beautiful simple curve
 - hide things to give a clean look from living room
   - build a tmp wall with my big white boxes, and hide things behind it
   - save thing behind the really wall
@@ -157,10 +283,16 @@ title: My new home office design and implementation
       - the kitchen window and closet are both dark, so items should be white
         - white bowels plates and things
       - will use black shelf on white tile wall
+    - things dirty in peope'e mind shall be white to show they are very clean
+      - toliet, bowl brush, or dishes
   - how to look more organized
     - I want a set of things(bottles tupperwares bowls and plates)
 
-## Living Room
+## living_room
+- cat house
+  - does not have to be ugly https://www.midwesthomes4pets.com/
+  - cat litter box (if I ever need one)
+    - https://youtu.be/BBU4xkklIg4?t=241
 - four boxes = a sofa or bed
   - if I need more boxes, pick a set
 - plants
@@ -171,17 +303,35 @@ title: My new home office design and implementation
 - main area size 358x458cm
 - most wall 28cm
 - window 195cm
+- pitfalls
+  - clock is nice, but be sure to make it nose-less
 
-## My Bedroom
+## peter_room
+- home cinema
+  - a monitor arm stands on my pipe shelf
+  - TODO: waiting for my pipes
+- socks hanger
+  - same logic for socks as for clothes, when they gets dry, I can leave socks attached to the hanger, and put everything together in the socks storage box
+  - MUST HAVES
+    - be white, follow my design guideline
+    - one clip for one sock
+    - I don't want to hang each clip to the hanger one by one, that means the clips are tied to the hanger, but if it is really easy, that is OK.
+    - the hanger will be small and light
+    - not noisy, (metal hanger with 40 clips will be noisy)
+    - small hook, or foldable, does take up lots of storage space
+    - it's nice if the hanger itself is up in the air, when I clip the socks
+      - if it is a big hanger with lots of clips, it's nice feature to be able to turn 
 - rug
   - color
-    - dark, really dark, as a backgroud of my light color items
-    - round shape on it, since I have too much rectangular thing
-    - tolerant of dirt or cat's fur
-    - dark floor and rug will make your room look even brighter
-  - size: enough for yoga
   - has to be easy to clean with washing machine
   - a rug will make a room more homey
+  - a failure
+    - the rug delivered today was really beautil, dark and with beautiful curves
+    - but it did it merge in my setting well, since my floor color is light, the rug really stood out
+    - in comparison, my shelf and all the toys, looked so small and unimportant
+    - so I returned the rug. 
+    - if I really want a rug in the future, make it light wooden color.
+    - the lesson: the living room is genral white background, and all the items are darker colors, so they stand out well, the logic is clear. so never buy big and outstanding things with unnessary deco-only curves or textures.
 - sizes
  - floor to ceiling height 267cm
  - floor width: 272cm floor length: 420cm
@@ -205,8 +355,11 @@ title: My new home office design and implementation
   - my bed takes all the room, so I need a hole board between bed and wall
     - I need to be able to put cellphone
   - If it's just my phone, can I simply use a soft-box instead?
-- table side cabinet
-  - use a small hole board instead maybe: https://youtu.be/O7sx0dZv7To?t=525
+- table 
+  - side cabinet
+    - use a small hole board instead maybe: https://youtu.be/O7sx0dZv7To?t=525
+  - for holeboard, search 'kingjim peggy', for a free stand, small one
+
 - bed 
   - a large white cloth to cover all my bed
   - bed skirt, mattress, back
@@ -221,11 +374,6 @@ title: My new home office design and implementation
   - currently not enough place to hang clothes
   - for shoes and suits
   - and big luggage
-
-## Cat's Home
-  - does not have to be ugly https://www.midwesthomes4pets.com/
-  - cat litter box (if I ever need one)
-    - https://youtu.be/BBU4xkklIg4?t=241
 
 ## Bathroom
   - Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
@@ -279,15 +427,18 @@ title: My new home office design and implementation
 - sofa
   - modular and portable, four boxs a big sofa
 - mirror
-  - Nordic Style
+  - Nordic Style 
 
-## Misc
+## Garage
+
+- TODO: make a two layer workbench with 2 big wood board down stairs and pipes
+  - need to wait and see if the 25mm is strong enough
+
+## MISC
 - have shelf on wall without drilling: use 'hole panel'
   - https://youtu.be/a0mK0lXMMIc?t=310
 - cable management
   - use 'hole panel' https://youtu.be/a0mK0lXMMIc?t=343
-- cat 
-  - cat's toliet https://youtu.be/S4et2vt2Ccg?t=921
 - change Door color
   - use sth thick to cover the door with textures: https://youtu.be/ZIeLvU8FhbA?t=389
 - if I need to seperate spaces
