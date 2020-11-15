@@ -3,7 +3,7 @@ title: My new home office design and implementation
 ---
 
 ## Design Guidelines
-- goal: beautiful and easy to use soho
+- goal: beautiful and useful soho
   - minmum
     - things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value
       - prefer single color items like chairs, plates etc.
@@ -61,93 +61,108 @@ title: My new home office design and implementation
     - STEP8: Start purchasing
     - STEP9(last step): Style and Accessorize
 
-## Everything is a box(as in HTML)
+## Global Variables
 
-- elastic box philosophy
+- white_box =  40cm*50cm*20cm
+- doors
+  - TODO: white door with black handle is beautiful
+- windows
+  - TODO: white frame + white curtain = bright room + good background for my plants
+
+## Elastic Box Philosophy (as in HTML)
+- everything is a box
   - everything should has it's own home, the home is a cubic space, a box
   - think before shopping, how many walls do I need for a box
-    - closet shoud be extensible mount pipes, with 0~6 walls
-      - does a wall provide value
-  - flexiable pipes and joints before fixed sized boxes
-- pipe accessories
-  - you get everything you can imagine on Pingduoduo
-    - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头
+  - prefer flexiable structures(with pipes) over fixed sized boxes
 - aesthetic rules
   - each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set
   - each item should take up as much as it's cuboid space, and try to make the cubiod smaller
   - boxes should be algined well
-- why I choose alumnium pipe for the backbone of my storage system?
+- pipes 
+  - why I choose pipes for the backbone of my storage system?
   - I rent so I don't want to demage the walls, I may not have good built-in closets
   - if I want to make use of vertical space, I need something free-standable and strong
-  - many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find alumnium pipes are more approchable and versatile
-- metal pipes
+  - many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile
   - It's stupid to use big and heavy wood closet, it's overdo
     - it's not portable, how about I want to use it as a hanger to air dry my quilts
-  - it's just a big box
-  - all I need is some pipe assembled together
-  - this is extensible
-  - if I want cover, use fabric
-  - I can use one wall for holdboard or any other purpose
-  - bad example: plug thin pipe in to holes of backbone pipe
-    - this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe
-    - right way to do this is keeping both the thin and thick pipes intact, use joints
-  - bad example: things outside of the box cuboid
-    - most pipes should be the edges of the box, nothing should be outside the box
-    - take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy.
-    - the right way to do it
-      - use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes
+  - all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls
+  - I want the pipes to be really resuable
+    - bad example: plug thin pipe in to holes of backbone pipe
+      - this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe
+      - right way to do this is keeping both the thin and thick pipes intact, use joints
+  - things should be well contained inside the cubiod
+    - bad example: things outside of the box cuboid
+      - most pipes should be the edges of the box, nothing should be outside the box
+      - take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy.
+      - the right way to do it
+        - use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes
       - install a thin pipe in the middle as hanger bar
-  - bad example: my bamboo triangle clothes shelf
-    - have to add walls to cover things
-    - not extensible(I can not change some bars to get a bigger shelf)
-  - the closet need to be easy to install more boards, and just the right size for a set of boxes
-    - so make sure the boards/boxes/pipes fit with each other
-    - pipe diameter: 2.5cm
+    - pipe diameter: 25mm
+      - 25mm with 1mm walls, very heavy and strong, for interior use, it is strong enough for anything I believe
       - hard metal pipe(and joints) of any diameter is esay to get
-    - joint solutions
+      - try to stay constant with this diameter, based on the price you can get very thin and very thick walls for different purpose
+        - if all pipes are of the same diameter, that will make the pipes easy to reuse for other container models
+    - joint
       - No welding
-      - metal joints will be stronger of course, but I think PPV is fine
-        - I don't want to depend on screw thread
+      - metal joints 
+        - PPV is fine for same cases
+        - No screw thread
       - https://youtu.be/yfHGFw5RDac?t=104
-    - feet solution
+      - the joint works extremely well, two pipes connected with joint are as strong as one, so it is easy to extend the structure, say connect two boxes together.
+    - legs
       - https://youtu.be/qOTRKZpHOOM?t=5
-    - can I install
+    - accessories
       - wire mesh
       - wood drawers
       - wood board for book shelf
-    - can I use it as 
-      - a book shelf
-      - kitchen shelf
-      - closet
-- metal pipe closet implementation
-  - deep: 55cm(my big closet is 52cm ), width: 125cm(not decided yet), height: 125cm(enough for most clothes excecpt long dresses )
-  - how to mount board to the structure https://www.youtube.com/watch?v=BwkKYqWFA5g + https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
-  - pipe other than backbones: use PP pipe
-    - or use thiner metal pipe, 
+      - you get everything you can imagine on Pingduoduo
+        - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头
+        
+## project_closet
+- Intro
+  - this is a example project to use metal pipes
+- Dimentions
+  - deep: 55cm(my big closet is 52cm ), width: 125cm(3x40+5, 40 is white_box width), height: 140cm = 130cm(enough for long dresses like coat, or jackets + white_box)+10cm(legs), Side Note: the sizes are for the pipes, plus joins, the final demensions will be bigger, and that is intended.
+- how to mount board to the structure https://www.youtube.com/watch?v=BwkKYqWFA5g + https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
+- frames other than backbones: consider PP pipes, or thiner pipes
 
-- storage box
-  - my big white boxes were great
-    - remodel to a wall or closet or nightstand
-    - good color fits into anyplace
-  - I want a stronger version boxes
-    - being strong to be the bottom of bed or sofa
-    - I can use it as entryway stool
-    - I want a new bed or sofa, all I need is a mat
-    - maybe I can diy with wood
-      - Pingduoduo also have really nice PP boxes
-      - heavy wood boxes with sharp coners are dangerour to put together, squeeze your fingers
-      - without proper handle, wood boxes are not so portable
-      - PP boxes are strong, light, and safe(pp also used for food packages)
-    - a single bed is usually 120x200cm
-      - I want four boxes a single bed, so one box is 60x100cm
+## project_storage_box_system
+- material: cardboard and maybe wood
+- dimentions
+  - based on my big white box size 50x40cm, the boxes I build will be half or one fourth of this size
+  - exterior dementions: biggest box(grandpa): 50x40x20cm
+  - second biggest(papa): pick one dimension, divid by 2, then all three dimentions minus 2cm(1cm for wall and 1cm for extra room), e.g the size could be (50-2)x(40/2-2)x(20-2) = 48x18x18 or 23x38x18 or 48x38x8(this one is not so practical)
+  - son: you get the idea, this time 0.5cm for wall, and 0.5 for extra room
+  - make it easier to stack upon each other, make smaller boxes fit inside bigger boxes
+  - wall thickness: given different usage, each box can have different wall matrial/thickness
+- cover 
+  - with fabric, hemp rope, wall paper, or special paper, keep it cat resistant
+  - kraft paper
+  - how to cover with fabric https://www.youtube.com/watch?v=-m4LU5EvXSs
+  - white glue is good to stick cloth to cardpaper
+  - Polyvinyl acetate is also called wood glue or school glue, it's the same chemical we use for chewing gum
+- handles
+  - cut holes on walls https://youtu.be/wJakpURTxhM?t=271
+  - use rope
+- cap, simple is good https://youtu.be/wJakpURTxhM?t=1050
+  - diy https://youtu.be/UwgQ8nHMZm4?t=77
+- stronger version boxes
+  - dimentions: white_box
+  - being strong to a bed or sofa or stool
+  - mateiral wood
+    - Pingduoduo also have really nice PP boxes
+    - heavy wood boxes with sharp coners are dangerour to put together, squeeze your fingers
+    - without proper handle, wood boxes are not so portable
+    - PP boxes are strong, light, and safe(pp also used for food packages)
 
 ## DIY Tricks
 - Painting
   - https://youtu.be/tA7B0lN4vWY?t=82
+  - when painting wood, a second coat is recommended. Professional people even do 2 primer + 2 paint
   - cover surface around painting area with masking tape 美纹纸
-  - paint paper with 丙烯 https://www.youtube.com/watch?v=08rmUPh9DtA
   - for broken white wall, use spray paint
   - cardpaper? use acrylic colors.
+    - EC life, hot melt gun and cardpaper craft https://www.youtube.com/watch?v=08rmUPh9DtA
 - removing glue stains
   - use sharp knife, it works but takes a bit patience
   - people also say, use oil
@@ -161,6 +176,9 @@ title: My new home office design and implementation
   - frame, I will do it the super simple, use tape
   - stand, TODO: waiting for the glass clip and wood
     - will make a simple frame with two 60cm and a 35cm connection
+- wallpaper
+  - EC life 
+    - heat the paper when removing it with hair dryer
 
 - carpenter
   - wood boards can be assmebled in whatever way I want
@@ -186,13 +204,18 @@ title: My new home office design and implementation
 
 ## Set the Style 
 - color
-  - black + white + pure-gray + light-wooden + bright-google-office-colors
+  -  Palette: white(60%) + light-wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
+    - https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/
+      - Balancing warm & cool tones
+      - wood is warm/natural, black is cold/industrial, it's very classic mixture.
     - get inspirations: search 'black and white room design' on pinterest
+    - professionals does allow different tones of white and gray in same room, but I would like to stay cautious, use milk white and a limited number of gray, and try to stay constant.
     - this palette should be very tolerant to any other colors too I believe, especially when it's light
     - sliver and brown door color are toleranted
       - white and black theme are very tolerant of other colors, especially when this is only one color so the brown-red of doors and cabinets is not a problem, the problem is something else, maybe because the they not modern enough by itself, so the idea is not to fix the color, but to fix the style
-        - adding a bright color modern looking handle may help a lot https://youtu.be/SZzJhZ_TrfY?list=PLdgMcYYc0hOtRxQA9pHsY5WtaLxLKfYTf&t=25
-        - my kitech cabinet's problem is having a dark color body and darker top
+        - adding bright color modern looking handles may help a lot https://youtu.be/SZzJhZ_TrfY?list=PLdgMcYYc0hOtRxQA9pHsY5WtaLxLKfYTf&t=25
+        - my kitchen cabinet's problem is having a dark color body and darker top
+      - light color floor plays well with my palette: https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/ check 'Add texture to bring neutral tones to life'
     - netrual color or cartoon-ish bright saturated color?
       - quick answer: I will strive for bright ones.
       - large items with bright color tend to look cheap, so do I need some more neutral colors for chairs and things? EC life's demo of black-white-gray theme  https://www.youtube.com/watch?v=7LxU5AaCl-M , see the chair here, a netrual color. However, I don't beleive I am professional enough to control netural colors
@@ -206,8 +229,11 @@ title: My new home office design and implementation
       - since I have the door-brown in everyroom to unify all rooms
         - there is a way to fix the color easily https://youtu.be/D5Dr3qrDDtA?t=610
       - but I don't design for the door-brown color, it is not my theme color
- - shape
-    - also, I want to keep things really cartoon-ish, try to aviod things with too much details, chubby, round corners, you watched Dragon Balls, so you get the idea.
+- shape
+  - also, I want to keep things really cartoon-ish, try to aviod things with too much details, chubby, round corners, you watched Dragon Balls, so you get the idea.
+- tricks
+  - https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/ 'Incorporating cohesive finishes and elements throughout a home.'
+    - this is easy for my case, black lines in everyroom.
 - shopping guideline
   - the general rule is to buy white or bright color with chubby shape and round corners
     - even for wood things, I also want the color light.
@@ -246,6 +272,16 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - snacks/
   - washed_vege
   - unwashed_vege
+
+  - pantry(closet for food)
+    - dry_goods/
+    - main_foods/
+      - bread
+      - noodles
+    - spices/
+    - kitchen_tools/
+  - sink_cabinet/
+    - cleaning rags
 - bathroom/
   - bowl
   - sink
@@ -254,16 +290,24 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - garage
 
 ## Kitchen
+
+- a kitchen shelf
+  - style, black pipe + wood board, there is a img in sketch file
+  - ground storey: for trash bin
+  - first storey: for my three big plastic vege box
+  - second floor: extended countertop, plate rack here
+  - third floor, a less deep cabinet for mason jars
+  - inspirations
+    - search 老式碗柜 (Chinese old school pantry)
+    - STOREY Shelf System https://www.hoppekids.com/en/products/91197-2/
 - a framed poster for power switch panel, TODO: waiting for Hot melt gun and acrylic
   - panel size: 44x28cmx1cm
   - DIY the poster with markers
     - featuring Github or Google, wikipedia
   - DIY the frame with cardboard
-- dish rack: TODO
-  - wall mount dish drainer rack 
-  - maybe I need a plate rack like this https://youtu.be/a0mK0lXMMIc
-  - the table top is precious, try to hang things on the wall
-    - wall lid stand
+- wall mount dish drainer rack: TODO
+  - capacity: 5 dishes + 5 bowls + big container for chopped vagetables
+
 - dishes/plates
   - TODO: buy white ones: no textures, beautiful simple curve
 - hide things to give a clean look from living room
@@ -286,7 +330,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - things dirty in peope'e mind shall be white to show they are very clean
       - toliet, bowl brush, or dishes
   - how to look more organized
-    - I want a set of things(bottles tupperwares bowls and plates)
+    - I want a set of things(bottles, mason jars, bowls, and plates)
 
 ## living_room
 - cat house
@@ -443,3 +487,19 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - use sth thick to cover the door with textures: https://youtu.be/ZIeLvU8FhbA?t=389
 - if I need to seperate spaces
   - use '铁艺隔断’ iron room divider: https://youtu.be/Ou0Lp7UfNVw?t=129
+- use cardboard to build prototypes
+  -  DIY How to make a Cardboard Shelf  https://www.youtube.com/watch?v=QDvn--mlHU0&t=40s
+  - https://www.youtube.com/watch?v=OPX6Vmhn6JI
+- make a destop shelf and pen stand
+  - https://www.youtube.com/watch?v=L65pzh0eN9U
+  - finish with fabric, hemp rope or rattan
+  - I can mix wood and cardboard https://youtu.be/yfDWShtRom4?t=318
+- a tissue box for tissue and trash bags
+  - https://lovelyindeed.com/diy-gold-leaf-tissue-holder/
+  - https://youtu.be/LgviuiQqeWk?t=56
+- shoe stool with cardboard and unused books
+  - cover a book with wallpaper, you get a strong board
+  - assemble four such boards, you get a cross
+- https://www.youtube.com/watch?v=x26n64E2P7Q  TOP 5 DESIGN TIPS 
+for SMALL SPACES:  The floor the walls, the ceiling, you want to paint them all
+the same color. Then there is no lines to break anything up.
