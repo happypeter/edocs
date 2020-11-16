@@ -117,14 +117,33 @@ title: My new home office design and implementation
       - wood board for book shelf
       - you get everything you can imagine on Pingduoduo
         - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头
-        
+        - in English 'T joints' 'elbow joints'
+
 ## project_closet
 - Intro
   - this is a example project to use metal pipes
-- Dimentions
-  - deep: 55cm(my big closet is 52cm ), width: 125cm(3x40+5, 40 is white_box width), height: 140cm = 130cm(enough for long dresses like coat, or jackets + white_box)+10cm(legs), Side Note: the sizes are for the pipes, plus joins, the final demensions will be bigger, and that is intended.
-- how to mount board to the structure https://www.youtube.com/watch?v=BwkKYqWFA5g + https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
-- frames other than backbones: consider PP pipes, or thiner pipes
+- the space we have
+  - 60cm deep, 280cm height, 180cm width.
+- Dimensions
+  - deep: 55cm(my big closet is 52cm )
+  - width: 125cm(3x40+5, 40 is white_box width)
+  - height: 160cm = 130cm(enough for long dresses like coat, or jackets + white_box)+30cm(legs+space for a wheel board and shoeboxes)
+  - Side Note: the sizes are for the pipes, plus joins, the final demensions will be bigger, and that is intended.
+- A light version, WHYNOT
+  - sth like this https://youtu.be/DvzWx2tHZ18?t=125
+  - it's hard put some on top
+  - no way to cover it to form a box shape
+  - no walls, so no where to hang my peg boards or things on the side
+  - it's really not stable and strong enough
+- purchasing
+  - pipe pp plugs: 7.1RMB in total
+  - pipe 160x4 55x2(have 2 already) 125x4 130RMB in total
+  - k joint 7(have 1 already) 6.5RMB/unit 
+  - TOTAL COST: 202RMB
+
+- how to mount board to the structure
+  - https://www.youtube.com/watch?v=BwkKYqWFA5g 
+  - https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
 
 ## project_storage_box_system
 - material: cardboard and maybe wood
@@ -148,6 +167,7 @@ title: My new home office design and implementation
   - diy https://youtu.be/UwgQ8nHMZm4?t=77
 - stronger version boxes
   - dimentions: white_box
+  - How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
   - being strong to a bed or sofa or stool
   - mateiral wood
     - Pingduoduo also have really nice PP boxes
@@ -185,6 +205,8 @@ title: My new home office design and implementation
   - cutting
     - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
     - so a small hand saw will do
+- DIY a wood table
+  - Wooden plank table  https://www.youtube.com/watch?v=BnH_Udwisw8
 - a curtain with hard paper and rope
   - https://www.pinterest.jp/pin/550987335632706463/
 
@@ -291,12 +313,15 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 
 ## Kitchen
 
-- a kitchen shelf
+- project_kitchen_shelf
   - style, black pipe + wood board, there is a img in sketch file
+  - board should be wide enough to fit in mi microwave https://www.mi.com/buy/detail?product_id=10330
+    - 40cm will be enough
   - ground storey: for trash bin
   - first storey: for my three big plastic vege box
   - second floor: extended countertop, plate rack here
   - third floor, a less deep cabinet for mason jars
+  - have to install two drawers, how can I live a life without wood drawers
   - inspirations
     - search 老式碗柜 (Chinese old school pantry)
     - STOREY Shelf System https://www.hoppekids.com/en/products/91197-2/
@@ -305,9 +330,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - DIY the poster with markers
     - featuring Github or Google, wikipedia
   - DIY the frame with cardboard
-- wall mount dish drainer rack: TODO
+- dish rack: TODO
+  - consider this style https://www.mi.com/buy/detail?product_id=10330
   - capacity: 5 dishes + 5 bowls + big container for chopped vagetables
-
 - dishes/plates
   - TODO: buy white ones: no textures, beautiful simple curve
 - hide things to give a clean look from living room
@@ -445,7 +470,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
        - fragrance for bathroom
 
 ## Furnitures
-- camera
+- camera stand
   - follow 董买买's strategy
 - Table
   - I don't like the iron leg sharp edge desks now
@@ -468,15 +493,12 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - If u want to put on a big iMac 110x75cm is the minimum space
       - I already have two desks for iMac, so I don't need to worry about this
       - so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
-- sofa
-  - modular and portable, four boxs a big sofa
-- mirror
-  - Nordic Style 
 
 ## Garage
 
 - TODO: make a two layer workbench with 2 big wood board down stairs and pipes
   - need to wait and see if the 25mm is strong enough
+  - this is how the table should look https://youtu.be/DvzWx2tHZ18?t=121
 
 ## MISC
 - have shelf on wall without drilling: use 'hole panel'
@@ -493,6 +515,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - make a destop shelf and pen stand
   - https://www.youtube.com/watch?v=L65pzh0eN9U
   - finish with fabric, hemp rope or rattan
+    - DIY - How to make a cord basket https://www.youtube.com/watch?v=frVTZaii3U4
   - I can mix wood and cardboard https://youtu.be/yfDWShtRom4?t=318
 - a tissue box for tissue and trash bags
   - https://lovelyindeed.com/diy-gold-leaf-tissue-holder/
@@ -503,3 +526,13 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - https://www.youtube.com/watch?v=x26n64E2P7Q  TOP 5 DESIGN TIPS 
 for SMALL SPACES:  The floor the walls, the ceiling, you want to paint them all
 the same color. Then there is no lines to break anything up.
+- TODO a hamper
+- TODO a memo board
+  - DIY - Wooden memo board https://www.youtube.com/watch?v=voKcdweqqR4
+- TODO a stool with books
+  - https://www.youtube.com/watch?v=qxOMpXrCKeI
+- TODO: small wood table or chair https://www.youtube.com/watch?v=1kDK2WkJ8xg
+- TODO: a drill
+  - how to choose the right one https://www.youtube.com/watch?v=e_UxGlAv2H8
+  - a screw driver
+  - a bit

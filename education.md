@@ -66,7 +66,8 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Refs:
 - https://us.corwin.com/en-us/nam/book/teaching-target
-
+- Inside Singapore’s world-class education system https://www.youtube.com/watch?v=_aB9Tg6SRA0
+  - learning Robotics, speaking English, seems a heaven for Elon's Education
 - https://www.youtube.com/watch?v=g1KySh8abBs Elon Musk's School
   - "Education is but downloading data and algorithm to your brain. If you want to teach a student about something, you'd better first explain why you need to teach them these things. I believe it helps a lot with students' motivation."
   - "I created a little school"
