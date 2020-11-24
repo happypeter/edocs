@@ -3,8 +3,32 @@ title: My new home office design and implementation
 ---
 
 ## Design Guidelines
-- goal: beautiful and useful soho
-  - minmum
+- goal: My own flavor of Nordic Style
+  - Nordic/Sandinavian Style Explained
+    - because of the long winter in nordic countries, this style opts for bright and open space.
+  - Nordic style Howto
+    - https://www.youtube.com/watch?v=lyjC_QYZdx4
+    - NO.1 color palette
+      - walls are typically paint in white colors
+      - use wood/fur/texture to add more demensions to the space
+      - use darker colors and thin lines
+      - the minimumist commonly just use black+white+wood+plants as the palette.
+    - NO.2 Lighting
+      - big windows white curtain
+      - open spaces
+    - NO.3 Furniture
+      - thin legs to avoid shade
+      - always create spacious and airy feelings
+    - NO.4 Nature
+      - lots of green
+    - NO.5 Natural Materials
+      - sheep skin/wool
+    - NO.6 Decor
+      - simple designs
+      - 
+  - minimum
+    - limit the details https://youtu.be/2A7kjGzICA8?t=107
+      - 'when you have just 5 colors in your home, that feels more peaceful'
     - things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value
       - prefer single color items like chairs, plates etc.
     - for design
@@ -14,6 +38,22 @@ title: My new home office design and implementation
       - things with least details, you will thank yourself when you try to clean them in the future
     - simpler things are often more versatile, you will upgrade your home over time 
       - a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home.
+  - functional
+    - the design should make things easy to find and use
+    - bauhaus shool believe, houses should be just cubiod box(this changed the world), suitable for mass production, form follows functionality, no unfunctional decor details. Less is more.
+      - https://www.bilibili.com/video/BV1Af4y197Ep
+        - the core value of Nodic Design is go extreme on pragmatic functionality.
+          - Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by nordic people to have Nordic style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style.
+          - Rule2:  Push progmatic usefulness to the extreme.
+            - Design everything from it's functionality.
+            - e.g reuse ladders/stackofbooks/cart as nightstand
+            - open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter
+            - expose power cord and everything
+          - Rule3: Follow your heart, as long as it is not ugly.
+            - you are allowed to combine anything together as you want
+            - you are free to mix in some classic furniture in your space
+            - being creative show your own personality is encouraged. 'as long as you type in Nordic Style in taobao, you are betraying Nordic style'
+        
   - portable
     - no damage to the walls
     - all the furniture parts should be easily to carry by myself
@@ -31,6 +71,14 @@ title: My new home office design and implementation
   - Coder's Home
     - have posters of github/google/code/editors , the theme is Coder's Home.
 - design and implemention process
+  - My Approach
+    - clear everything in your room, paint all the walls white
+    - measure your space
+    - floor plan
+    - choose a color palette
+      - ref: https://youtu.be/crjZBwbtlXQ?t=187
+    - plan the vertial space
+    - shopping time
   - EC Life's approach
     - LSRUD process for rental apartment
     - Layout: based on functionality
@@ -60,10 +108,16 @@ title: My new home office design and implementation
     - STEP7: create a mood board
     - STEP8: Start purchasing
     - STEP9(last step): Style and Accessorize
+- posters/memoboard
+  - as the lady inspired https://youtu.be/1K4Fb6ENFBM?t=243
+  - careful when use words as posters, visual clutter tends to happen
+    - if you really loved it, limit it to one word poster for one room.
+- add natural textures
+  - https://www.youtube.com/watch?v=FFSWd0PS2ek : No matter what color sheme you choose, it is important to add some natural texture
+or metals to add dimension to the space. 
 
 ## Global Variables
-
-- white_box =  40cm*50cm*20cm
+- white_box_size =  40cm*50cm*20cm
 - doors
   - TODO: white door with black handle is beautiful
 - windows
@@ -74,6 +128,26 @@ title: My new home office design and implementation
   - everything should has it's own home, the home is a cubic space, a box
   - think before shopping, how many walls do I need for a box
   - prefer flexiable structures(with pipes) over fixed sized boxes
+- general idea
+  - I can not change room size, so the larget box unit I can costomize is 'shelf space', based on stuctures I build by pipes
+    - shelves are all about make use of vertical spaces, one idea on the big picture here is try to do things 'up in the air', so I can get more floor space for sports or sth.
+  - shelf_box_system
+    - then, everything left is generally put boxes on the shelf
+    - of course, by 'boxes', I mean very large varity of boxes. 
+      - I can lay things directly on the shelf, that means the boxes is made of air.
+      - I can put another smaller thin-pipe shelf(with its own boxes) on a shelf
+      - can be wood drawers, shallow boxes(to group other random containers), deep boxes, boxes with/without lids, box with hangers and one side covered by fabric(a closet unit)...
+    - this does mean that I don't need specially structured containers like wardrobes, cabinets, closet, cupboards... yeah, my shelf-box model unify them all.
+      - I don't even want seperator walls on my shelf boards, they are simple flat open space, just a board, not a box.
+    - to go a bit far, I think, tables/stools/chairs/nightstands, anythings try to use the vertical spaces can be abstracted into my shelf-box model. E.g a table is a one layer shelf. See things this way will help me a lot when I stress on resue of pipes and wood boards.
+    - shelf board 
+      - I will stay will white boards, natrual wood color is beautiful, but you need to be careful about the things on it or the well behind it, since shelves may be placed anywhere, so I will stay with white for now
+      - all shelf board needs to be wood, right now I don't accept metal net or anything
+      - how to mount the boards on pipes?
+        - a pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one.
+        - it is easier to mount anything on wood board, say a curtain, or a sub-shelf.
+      - board edges will become the edge of boxes, pipes are bones
+
 - aesthetic rules
   - each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set
   - each item should take up as much as it's cuboid space, and try to make the cubiod smaller
@@ -122,14 +196,28 @@ title: My new home office design and implementation
 ## project_closet
 - Intro
   - this is a example project to use metal pipes
+- make it big but cute
+  - use open area https://youtu.be/8zmkPhH4cms?t=76
 - the space we have
   - 60cm deep, 280cm height, 180cm width.
 - Dimensions
   - deep: 55cm(my big closet is 52cm )
-  - width: 125cm(3x40+5, 40 is white_box width)
-  - height: 160cm = 130cm(enough for long dresses like coat, or jackets + white_box)+30cm(legs+space for a wheel board and shoeboxes)
+  - width: 125cm(3x40+5, 40 is $white_box_size width)
+  - height: 160cm = 130cm(enough for long dresses like coat, or jackets + $white_box_size)+30cm(legs+space for a wheel board and shoeboxes)
+  - a lamp with warm light https://youtu.be/eMvn7VOGrxQ?t=432
   - Side Note: the sizes are for the pipes, plus joins, the final demensions will be bigger, and that is intended.
-- A light version, WHYNOT
+- What do I have for the closet?
+  - easily approachable
+    - 1 sock box: 10widthx10hightx50deep 1 8th of the $white_box_size enough for 30-40 pairs(folded the MarinKondo way)
+    - 2 underwear/t-shirt box: each is 20widthx10hightx50deep, 1/4 $white_box_size
+    - 2 shoe boxes: together share a $white_box_size
+    - 1 outwear box: each is $white_box_size
+    - ideally a 3 layer dresser is good for all of the above
+    - 1 hanging rod: 80cm long for 10-15 clothes
+  - top of the roof
+    - 3 $white_box_size for other clothes or stuff
+  - don't block the light
+- A light version, WHYNOTs
   - sth like this https://youtu.be/DvzWx2tHZ18?t=125
   - it's hard put some on top
   - no way to cover it to form a box shape
@@ -140,20 +228,37 @@ title: My new home office design and implementation
   - pipe 160x4 55x2(have 2 already) 125x4 130RMB in total
   - k joint 7(have 1 already) 6.5RMB/unit 
   - TOTAL COST: 202RMB
+- use vertical space without taking up floor space
+  - sth like https://youtu.be/WCyhIVKnOF8?t=63 but no nails in the walls
 
 - how to mount board to the structure
   - https://www.youtube.com/watch?v=BwkKYqWFA5g 
+    - this is tricky, you need big&small joints work together to achieve this
   - https://powtech.en.made-in-china.com/product/UKlJmRuVRYpW/China-Best-Price-Stainless-Steel-Casing-Clamp.html
 
-## project_storage_box_system
+## project_box_system
+- style: https://youtu.be/ZEunyhWD_9c?t=152
+  - paste names on each box https://youtu.be/7Ud2N1sssyw?t=23
 - material: cardboard and maybe wood
+- usecases
+  - clothes storage box
+  - shoebox
+  - bed/sofa/stool
+  - drawer
+  - shallow container to group things
+    - https://youtu.be/7Ud2N1sssyw?t=16
+    - say I have a set of Masion jars, I can put all in a shallow box, so that I can still see most part of the jars.
 - dimentions
+  - ikea also has the storage unit concepts, I think I am doing something similar
+    - https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/
   - based on my big white box size 50x40cm, the boxes I build will be half or one fourth of this size
-  - exterior dementions: biggest box(grandpa): 50x40x20cm
-  - second biggest(papa): pick one dimension, divid by 2, then all three dimentions minus 2cm(1cm for wall and 1cm for extra room), e.g the size could be (50-2)x(40/2-2)x(20-2) = 48x18x18 or 23x38x18 or 48x38x8(this one is not so practical)
-  - son: you get the idea, this time 0.5cm for wall, and 0.5 for extra room
-  - make it easier to stack upon each other, make smaller boxes fit inside bigger boxes
-  - wall thickness: given different usage, each box can have different wall matrial/thickness
+  - exterior dementions
+    - first generation(biggest box): 50x40x20cm $white_box_size
+      - or some variation of the size, (50/2)*40x(20x2)=25x40x40
+    - second generation: pick one or more dimension, divid by 2
+      - my shoe box: 40lenghtx25widthx20height (considering my biggest pair of boots size: 29length*23width*15height, but standard over perfect fit for each use case)
+    - third generation: pick one or more dimension, divid by 4 or 2, you get the idea, tightly control the exterior size, so that two small box may share one big box height or width, so things will look nice stacked together
+      - 25x20x10 (lengthxwidthxheight in cm)
 - cover 
   - with fabric, hemp rope, wall paper, or special paper, keep it cat resistant
   - kraft paper
@@ -165,15 +270,8 @@ title: My new home office design and implementation
   - use rope
 - cap, simple is good https://youtu.be/wJakpURTxhM?t=1050
   - diy https://youtu.be/UwgQ8nHMZm4?t=77
-- stronger version boxes
-  - dimentions: white_box
+- ref:
   - How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
-  - being strong to a bed or sofa or stool
-  - mateiral wood
-    - Pingduoduo also have really nice PP boxes
-    - heavy wood boxes with sharp coners are dangerour to put together, squeeze your fingers
-    - without proper handle, wood boxes are not so portable
-    - PP boxes are strong, light, and safe(pp also used for food packages)
 
 ## DIY Tricks
 - Painting
@@ -186,9 +284,18 @@ title: My new home office design and implementation
 - removing glue stains
   - use sharp knife, it works but takes a bit patience
   - people also say, use oil
-- cardboar paper
-  - Hot-melt adhesive 
-  - do a picture frame https://www.youtube.com/watch?v=sYmELumpRvk
+- cardboard_box_diy
+  - in case I need simple drawers https://youtu.be/kbL6N46pI5k?t=170
+  - Hot-melt adhesive or white glue
+  - try to use old boxes papers, glue them into big pieces
+  - then do the box like everyone do it
+  - use long rule to fold the paper https://youtu.be/131IIllYxD8?t=162
+  - make it one piece then glue it https://youtu.be/JfGmu-06rM0?t=205
+  - a lid like this https://www.youtube.com/watch?v=BLHjYo04jKQ
+    - use fabric for the joints
+
+- picture frame with cardpaper
+  -  https://www.youtube.com/watch?v=sYmELumpRvk
 - how to fix a big hole on the wall
   - step1: cover the hole with paper, glue it with mask tape
   - step2: apply spray wall paint
@@ -226,7 +333,17 @@ title: My new home office design and implementation
 
 ## Set the Style 
 - color
-  -  Palette: white(60%) + light-wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
+  - really love this, want to  copy everything from this one https://www.youtube.com/watch?v=OWtCGXtdpQw
+    - neutral colors really elegent, I will buy some neutral color shirts and expose them in my room
+      - https://youtu.be/DZ5dqPbOXOw?t=35
+  -  Palette: white(60%) + wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
+    - wood color 
+      - should not be too light, dark color helps the shape of furniture more visable again the white walls
+      - no need to have same color for all wood items
+      - you can also use woodish color for blankets/pillows and things
+    - what is a color palette?
+      - as this lady took it https://youtu.be/1K4Fb6ENFBM?t=199
+      - it is a netural plus one or two popup colors
     - https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/
       - Balancing warm & cool tones
       - wood is warm/natural, black is cold/industrial, it's very classic mixture.
@@ -311,8 +428,23 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - peter_socks_basin
 - garage
 
+## Garage aka Crafts Room
+- shadeless light https://youtu.be/3rdtuuFbcqM?t=61
+- dream room https://youtu.be/DSMggdkO0a0?t=1200
+
 ## Kitchen
 
+- the drainer is really nice https://youtu.be/pw5RnGW2vYQ?t=28
+  - a drainer basket over your sink https://www.bilibili.com/video/BV1E7411f73D?from=search&seid=9967977688875518656
+    - see also the lid hanger here
+- remove the cabinet doors
+  - https://youtu.be/SxI2nQDC-C0?t=251
+- a farbic bag for shopping
+  - big shoulder bag, with nordic style
+  - esay to wash, vage are able to stay in it for short time
+  - sew myself https://www.youtube.com/watch?v=b7pH_DJwnkE
+- trash bin
+  - this is really nice to have https://youtu.be/3Gn6W5DP5U0?t=230
 - project_kitchen_shelf
   - style, black pipe + wood board, there is a img in sketch file
   - board should be wide enough to fit in mi microwave https://www.mi.com/buy/detail?product_id=10330
@@ -324,6 +456,8 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - have to install two drawers, how can I live a life without wood drawers
   - inspirations
     - search 老式碗柜 (Chinese old school pantry)
+      - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
+      - this is how you organize bags https://youtu.be/BMb7stGiJsM?t=386
     - STOREY Shelf System https://www.hoppekids.com/en/products/91197-2/
 - a framed poster for power switch panel, TODO: waiting for Hot melt gun and acrylic
   - panel size: 44x28cmx1cm
@@ -335,6 +469,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - capacity: 5 dishes + 5 bowls + big container for chopped vagetables
 - dishes/plates
   - TODO: buy white ones: no textures, beautiful simple curve
+  - bowls: buy big and shllow https://youtu.be/OaU6_qndCQg?t=262
 - hide things to give a clean look from living room
   - build a tmp wall with my big white boxes, and hide things behind it
   - save thing behind the really wall
@@ -376,9 +511,36 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - clock is nice, but be sure to make it nose-less
 
 ## peter_room
+- How to dress
+  - The Key to a Minimalist Wardrobe https://youtu.be/4Mb9s6jZNug?t=80
+    - 'my workhorses are ten T-shirts, my general rule is that these are are all in pastel or muted colors so that they can generally go with anything'
+    - be modular with wears too https://youtu.be/4Mb9s6jZNug?t=129
+      - no need to buy thick down jacket
+  - what is neutral color?
+    - https://www.youtube.com/watch?v=9BDCJ7y50ew
+  - what is muted color?
+    - 'dirty color', pure color plus gray or its complimentary color
+  - wear no more than one color
+    - one color plug neutrals https://youtu.be/4Rc71BT2jbw?t=191
+      - wear no more than one pattern, this meaning most of your clothes should be just have no pattern, just solid color
+  - https://youtu.be/DZ5dqPbOXOw?t=109
+    - 'the benefits of using neutral colors is all your clothes work well together'
+- how to may my cold/industrial room more homy?
+  - add texture https://youtu.be/eMvn7VOGrxQ?t=147
+  - non-refletive surfaces https://youtu.be/eMvn7VOGrxQ?t=153
+  - use wood and curves https://youtu.be/eMvn7VOGrxQ?t=170
+  - a lamp with warm light https://youtu.be/eMvn7VOGrxQ?t=432
+- how to make small rooms look bigger?
+  - add legs to your bed https://youtu.be/eMvn7VOGrxQ?t=206
+- a second storey
+  - room small? no worry, why not get yourself a second floor https://youtu.be/ZEunyhWD_9c?t=135
+  - still need to hang clothes in the first floor? make most outof the two corners I have
 - home cinema
   - a monitor arm stands on my pipe shelf
+    - I need this https://youtu.be/crjZBwbtlXQ?t=354
+    - https://youtu.be/crjZBwbtlXQ?t=918
   - TODO: waiting for my pipes
+  - speaker https://youtu.be/crjZBwbtlXQ?t=922
 - socks hanger
   - same logic for socks as for clothes, when they gets dry, I can leave socks attached to the hanger, and put everything together in the socks storage box
   - MUST HAVES
@@ -401,11 +563,11 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - so I returned the rug. 
     - if I really want a rug in the future, make it light wooden color.
     - the lesson: the living room is genral white background, and all the items are darker colors, so they stand out well, the logic is clear. so never buy big and outstanding things with unnessary deco-only curves or textures.
-- sizes
+- dimensions
  - floor to ceiling height 267cm
  - floor width: 272cm floor length: 420cm
  - balcony entrency width: 172cm height: 233cm
-- a curtain:
+- curtain
   - tip: curtain width usually is 2 times the window width, because of the folds
   - given my hanger style, curtain max hright is 257cm(then it will reach the floor)
   - when I move the window size could be different, so not wise to buy a expensive curtain
@@ -421,35 +583,44 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - quilt
   - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
 - nightstand TODO
-  - my bed takes all the room, so I need a hole board between bed and wall
-    - I need to be able to put cellphone
-  - If it's just my phone, can I simply use a soft-box instead?
-- table 
-  - side cabinet
-    - use a small hole board instead maybe: https://youtu.be/O7sx0dZv7To?t=525
-  - for holeboard, search 'kingjim peggy', for a free stand, small one
-
+  - I need to be able to put cellphone
+  - go my shelf+box concept
+- desk
+  - need a shelf_box_system with it
+    - https://www.youtube.com/watch?v=o4msSjIJDUU
+- chair
+  - https://youtu.be/crjZBwbtlXQ?t=562
+  - cat fur proof
 - bed 
-  - a large white cloth to cover all my bed
-  - bed skirt, mattress, back
-    - maybe same color?
-    - grey is a good color
-      - https://southshorefinelinens.com/blogs/southshoreblog/does-my-bed-need-a-bed-skirt
-- clothing organization
-  - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
-  - do the same to socks P.S I bought really special sock hangers
-  - keep all socks same color same size, keep them in a special box once they are dry.
-- I do need a portable closet TODO
+  - camel color blankets plays well with Nordic style, it's woody and warm.
+  - grey sheet/quiltcover/headboard + white pillows
+    -  https://youtu.be/-CuBpoUhRuM?t=379
+    - my headboard color is flax dark grey 亚麻深灰
+    - quiltcover is elegant 典雅灰 plus beige 米黄 。I don't like the beige here but it is a 189RMB pure cotton, I can not just drop it.
+  - will paint my bed body white
+  - fun fact: 'make the bed' means cover the bed with your quilt, not folding it.
+  - washed cutton sheet
+  
+
+- closet TODO
+  - this will be done my shelf_box_system way
   - currently not enough place to hang clothes
-  - for shoes and suits
-  - and big luggage
+  - for shoes/suitcases
+  - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
+  - most underwears can be put in smaller carboard box, as Marie Kondo suggested, group things by size. Don't use one same box for underware and jackets
+  - keep all socks same color same size, keep them in a special box once they are dry.
+- plant corner
+  - https://youtu.be/crjZBwbtlXQ?t=860
+  - https://youtu.be/gL4EqivLUWY?t=321
+  - https://www.youtube.com/watch?v=0JYC7T-9bE8
+  - I can put a coner shelf in the balcony
 
 ## Bathroom
   - Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+  - how to remove yellow stain
+    - trying vinegar
+      - https://youtu.be/b6Pu7jKBKvM?t=55
   - towel management
-    - requirements:
-      - one of my towels will be completely wet daily, so I do need a place on balcony
-      - I don't want to hang them all the day on the master hanger
     - Plan Discussions
       - PlanA: a freestand for the towels
         - I can put my nail cutter in the stand
@@ -536,3 +707,10 @@ the same color. Then there is no lines to break anything up.
   - how to choose the right one https://www.youtube.com/watch?v=e_UxGlAv2H8
   - a screw driver
   - a bit
+- Have a Focal Point
+  - https://youtu.be/-CuBpoUhRuM?t=225
+- use mirror
+  - to introduce light and view to your small room https://youtu.be/8zmkPhH4cms?t=229
+- aviod visual clutter
+  - the chair https://youtu.be/OaU6_qndCQg?t=210
+  - the lesson: simple is always safe choice
