@@ -2,136 +2,45 @@
 title: My new home office design and implementation
 ---
 
+NOTE: limit the indentation to 3 levels.
+
 ## Design Guidelines
-- goal: My own flavor of Nordic Style
-  - Nordic/Sandinavian Style Explained
-    - because of the long winter in nordic countries, this style opts for bright and open space.
-  - Nordic style Howto
-    - https://www.youtube.com/watch?v=lyjC_QYZdx4
-    - NO.1 color palette
-      - walls are typically paint in white colors
-      - use wood/fur/texture to add more demensions to the space
-      - use darker colors and thin lines
-      - the minimumist commonly just use black+white+wood+plants as the palette.
-    - NO.2 Lighting
-      - big windows white curtain
-      - open spaces
-    - NO.3 Furniture
-      - thin legs to avoid shade
-      - always create spacious and airy feelings
-    - NO.4 Nature
-      - lots of green
-    - NO.5 Natural Materials
-      - sheep skin/wool
-    - NO.6 Decor
-      - simple designs
-      - 
-  - minimum
-    - limit the details https://youtu.be/2A7kjGzICA8?t=107
-      - 'when you have just 5 colors in your home, that feels more peaceful'
-    - things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value
-      - prefer single color items like chairs, plates etc.
-    - for design
-      - a chuppy nordic style
-    - for functionailty
-      - don't by things you don't need
-      - things with least details, you will thank yourself when you try to clean them in the future
-    - simpler things are often more versatile, you will upgrade your home over time 
-      - a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home.
-  - functional
-    - the design should make things easy to find and use
-    - bauhaus shool believe, houses should be just cubiod box(this changed the world), suitable for mass production, form follows functionality, no unfunctional decor details. Less is more.
-      - https://www.bilibili.com/video/BV1Af4y197Ep
-        - the core value of Nodic Design is go extreme on pragmatic functionality.
-          - Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by nordic people to have Nordic style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style.
-          - Rule2:  Push progmatic usefulness to the extreme.
-            - Design everything from it's functionality.
-            - e.g reuse ladders/stackofbooks/cart as nightstand
-            - open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter
-            - expose power cord and everything
-          - Rule3: Follow your heart, as long as it is not ugly.
-            - you are allowed to combine anything together as you want
-            - you are free to mix in some classic furniture in your space
-            - being creative show your own personality is encouraged. 'as long as you type in Nordic Style in taobao, you are betraying Nordic style'
-        
+- goal: My own flavor of Nordic/Scandi Style: Minimun+Simplicity+Functionality(from Nordic)+Portable+Modular+Techy(from Myself)
+  - minimum. Things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value. Prefer single color items like chairs, plates etc.
+  - Simplicity. Limit the details https://youtu.be/2A7kjGzICA8?t=107 'when you have just 5 colors in your home, that feels more peaceful'.
+  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter.
   - portable
     - no damage to the walls
     - all the furniture parts should be easily to carry by myself
   - modular
     - furnatures should be very modular and extensible, easy to be replaced and upgraded on part each time
-  - slightly different design for different rooms
-    - the bedrooms should be more homey
-    - the living room more open and colorful, like a google office
-  - Unix Filesystem like org
-    - say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/...
-    - have a beautiful filesystem hirachey so that things are easy to find
-      - everything should have its home
-    - every is a box 
-      - folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
-  - Coder's Home
+  - techy
     - have posters of github/google/code/editors , the theme is Coder's Home.
-- design and implemention process
-  - My Approach
-    - clear everything in your room, paint all the walls white
-    - measure your space
-    - floor plan
-    - choose a color palette
-      - ref: https://youtu.be/crjZBwbtlXQ?t=187
-    - plan the vertial space
-    - shopping time
-  - EC Life's approach
-    - LSRUD process for rental apartment
-    - Layout: based on functionality
-    - Style: choose the theme style
-    - Renovation: walls and floors
-    - Upcycle: make old item fit more in to the new design 
-    - Deco: buy more little items
-  - Julie's approach
-    - How to design your dream space: https://www.youtube.com/watch?v=nYrAuXS5RPQ
-    - Goals: functional, stylish, cohesive, inspirational, suits your life style and personality
-    - STEP1：Determine How you want the space to function
-      - 'form follows function'
-    - STEP2: find inspiration
-      - search on instagram of pinterest
-        - try to collection many pictures you love and find there common charators
-        - you can use a mixture of styles, but you do need a main thread
-    - STEP3: color palette
-      - what's your vibe, are you dark or moody
-      - the vibe will determine everything in your room
-    - STEP4: Measure the room
-      - do this before planning the spaces
-    - STEP5: plan your space
-      - select and lay things based on room sizes
-        - decide the size of your nightstand/bed/rug/table/...
-    - STEP6: shop the room
-      - shop everything based on your plan
-    - STEP7: create a mood board
-    - STEP8: Start purchasing
-    - STEP9(last step): Style and Accessorize
-- posters/memoboard
-  - as the lady inspired https://youtu.be/1K4Fb6ENFBM?t=243
-  - careful when use words as posters, visual clutter tends to happen
-    - if you really loved it, limit it to one word poster for one room.
-- add natural textures
-  - https://www.youtube.com/watch?v=FFSWd0PS2ek : No matter what color sheme you choose, it is important to add some natural texture
-or metals to add dimension to the space. 
+    - Unix Filesystem like org. say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/... have a beautiful filesystem hirachey so that things are easy to find. everything should have its home. everything is a box. folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
+- What is Nordic Style?
+  - Why so white? because of the long winter in nordic countries, this style opts for bright open space, and the love of nature.
+  - What Define Nordic style? https://www.youtube.com/watch?v=lyjC_QYZdx4 NO.1 color palette - walls are typically paint in white colors - use wood/fur/texture to add more demensions to the space - use darker colors and thin lines - the minimumist commonly just use black+white+wood+plants as the palette. NO.2 Lighting - big windows white curtain - open spaces NO.3 Furniture - thin legs to avoid shade - always create spacious and airy feelings NO.4 Nature - lots of green - NO.5 Natural Materials - sheep skin/wool
+  - Core value: of Nodic Design is go extreme on pragmatic functionality. https://www.bilibili.com/video/BV1Af4y197Ep Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by nordic people to have Nordic style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style. Rule2:  Push progmatic usefulness to the extreme. Design everything from it's functionality. e.g reuse ladders/stackofbooks/cart as nightstand. open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter. Expose power cord and everything Rule3: Follow your heart, as long as it is not ugly. You are allowed to combine anything together as you want, free to mix in some classic furniture in your space, be creative show your own personality is encouraged. 'as long as you type in Nordic Style in taobao, you are betraying Nordic style'
+- Globals
+  - white_box_size =  40cm*50cm*20cm
+  - eveything white except there is a reason not to do so. For windows, white frame + white curtain = bright room + good background for my plants
+  - Table
+    - I don't like the iron leg sharp edge desks now
+    - round corner is nice. safe for 2 yo. comfortable when you touch it
+    - I want wood workbench like my dinning table now. round corner, light, legs removable, so very portable
+    - I don't want screws exposed outside, you can hide them easily
+    - I want it to be versatile, so no drawers. Want shirt not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
+    - my own desk table material: Scots pine
+    - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
 
-## Global Variables
-- white_box_size =  40cm*50cm*20cm
-- doors
-  - TODO: white door with black handle is beautiful
-- windows
-  - TODO: white frame + white curtain = bright room + good background for my plants
-
-## Elastic Box Philosophy (as in HTML)
-- everything is a box
-  - everything should has it's own home, the home is a cubic space, a box
+## shelf_box_system
+- elastic_box_philosophy everything is a box
+  - everything should has it's own home, the home is a cuboid
   - think before shopping, how many walls do I need for a box
   - prefer flexiable structures(with pipes) over fixed sized boxes
 - general idea
   - I can not change room size, so the larget box unit I can costomize is 'shelf space', based on stuctures I build by pipes
     - shelves are all about make use of vertical spaces, one idea on the big picture here is try to do things 'up in the air', so I can get more floor space for sports or sth.
-  - shelf_box_system
     - then, everything left is generally put boxes on the shelf
     - of course, by 'boxes', I mean very large varity of boxes. 
       - I can lay things directly on the shelf, that means the boxes is made of air.
@@ -147,7 +56,6 @@ or metals to add dimension to the space.
         - a pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one.
         - it is easier to mount anything on wood board, say a curtain, or a sub-shelf.
       - board edges will become the edge of boxes, pipes are bones
-
 - aesthetic rules
   - each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set
   - each item should take up as much as it's cuboid space, and try to make the cubiod smaller
@@ -230,7 +138,6 @@ or metals to add dimension to the space.
   - TOTAL COST: 202RMB
 - use vertical space without taking up floor space
   - sth like https://youtu.be/WCyhIVKnOF8?t=63 but no nails in the walls
-
 - how to mount board to the structure
   - https://www.youtube.com/watch?v=BwkKYqWFA5g 
     - this is tricky, you need big&small joints work together to achieve this
@@ -275,49 +182,6 @@ or metals to add dimension to the space.
 - ref:
   - How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
 
-## DIY Tricks
-- Painting
-  - https://youtu.be/tA7B0lN4vWY?t=82
-  - when painting wood, a second coat is recommended. Professional people even do 2 primer + 2 paint
-  - cover surface around painting area with masking tape 美纹纸
-  - for broken white wall, use spray paint
-  - cardpaper? use acrylic colors.
-    - EC life, hot melt gun and cardpaper craft https://www.youtube.com/watch?v=08rmUPh9DtA
-- removing glue stains
-  - use sharp knife, it works but takes a bit patience
-  - people also say, use oil
-- cardboard_box_diy
-  - in case I need simple drawers https://youtu.be/kbL6N46pI5k?t=170
-  - Hot-melt adhesive or white glue
-  - try to use old boxes papers, glue them into big pieces
-  - then do the box like everyone do it
-  - use long rule to fold the paper https://youtu.be/131IIllYxD8?t=162
-  - make it one piece then glue it https://youtu.be/JfGmu-06rM0?t=205
-  - a lid like this https://www.youtube.com/watch?v=BLHjYo04jKQ
-    - use fabric for the joints
-
-- picture frame with cardpaper
-  -  https://www.youtube.com/watch?v=sYmELumpRvk
-- how to fix a big hole on the wall
-  - step1: cover the hole with paper, glue it with mask tape
-  - step2: apply spray wall paint
-- a simple carboard frame and stand for frameless mirror glass
-  - frame, I will do it the super simple, use tape
-  - stand, TODO: waiting for the glass clip and wood
-    - will make a simple frame with two 60cm and a 35cm connection
-- wallpaper
-  - EC life 
-    - heat the paper when removing it with hair dryer
-
-- carpenter
-  - wood boards can be assmebled in whatever way I want
-  - cutting
-    - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
-    - so a small hand saw will do
-- DIY a wood table
-  - Wooden plank table  https://www.youtube.com/watch?v=BnH_Udwisw8
-- a curtain with hard paper and rope
-  - https://www.pinterest.jp/pin/550987335632706463/
 
 ## Rent consideration
   - can I rent a old apartment?
@@ -334,22 +198,19 @@ or metals to add dimension to the space.
     - https://youtu.be/hgcTbLfChV4?t=397
 
 ## Set the Style 
-- color
-  - really love this, want to  copy everything from this one https://www.youtube.com/watch?v=OWtCGXtdpQw
-    - neutral colors really elegent, I will buy some neutral color shirts and expose them in my room
-      - https://youtu.be/DZ5dqPbOXOw?t=35
+- wood_plant_palette
+  - what is a color palette? as this lady put it https://youtu.be/1K4Fb6ENFBM?t=199 'it is a netural plus one or two popup colors', in my case, wood is my netural color and green is my popup color.
+  - love the plants here, Small Apartment Makeover: 350 Square Feet Filled With DIYs
+ https://www.youtube.com/watch?v=OWtCGXtdpQw
   -  Palette: white(60%) + wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
-    - wood color 
-      - keep it light
-        - https://www.youtube.com/watch?v=HnNt76b818A
-        - https://youtu.be/zN_3OxrhL8Q?t=9
-        - this one has similar floor color https://youtu.be/T2tl4cJJWLg?t=449 
-        - you don't even need black lines to be beautiful https://youtu.be/fWdKxkzAokA?t=58
+    - light_wood_color 
+      - https://www.youtube.com/watch?v=HnNt76b818A
+      - https://youtu.be/zN_3OxrhL8Q?t=9
+      - https://www.youtube.com/watch?v=7ZNwFAA4fE8
+      - this one has similar floor color https://youtu.be/T2tl4cJJWLg?t=449 
+      - you don't even need black lines to be beautiful https://youtu.be/fWdKxkzAokA?t=58
       - no need to have same color for all wood items
       - you can also use woodish color for blankets/pillows and things
-    - what is a color palette?
-      - as this lady took it https://youtu.be/1K4Fb6ENFBM?t=199
-      - it is a netural plus one or two popup colors
     - https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/
       - Balancing warm & cool tones
       - wood is warm/natural, black is cold/industrial, it's very classic mixture.
@@ -443,9 +304,10 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - dish washing
   - 4 steps:
     - S1. cooking broom
-    - S2. use sth harder like Loofah Sponge, use soap if needed
+    - S2. use sth harder like Loofah Sponge, use soap if needed then rinse 
     - S3. Dish Towel 
     - S4. Clean Tools/CounterTop/Table.
+  - NOTE: these steps only works for 2-7 dishes case, if you have a lot of dish, add hot soapy water and drainage steps.
   - Tips: wash the cleanest first, like cups, then to plates, and wok/pan last.
 - the drainer is really nice https://youtu.be/pw5RnGW2vYQ?t=28
   - a drainer basket over your sink https://www.bilibili.com/video/BV1E7411f73D?from=search&seid=9967977688875518656
@@ -528,6 +390,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 
 ## peter_room
 - How to dress
+  - neutral colors really elegent, https://youtu.be/DZ5dqPbOXOw?t=35
   - The Key to a Minimalist Wardrobe https://youtu.be/4Mb9s6jZNug?t=80
     - 'my workhorses are ten T-shirts, my general rule is that these are are all in pastel or muted colors so that they can generally go with anything'
     - be modular with wears too https://youtu.be/4Mb9s6jZNug?t=129
@@ -618,7 +481,6 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - will paint my bed body white
   - fun fact: 'make the bed' means cover the bed with your quilt, not folding it.
   - washed cutton sheet
-  
 - balcony 
   - https://youtu.be/wPjI0mBWezg?t=53
 - closet TODO
@@ -659,33 +521,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
        - levelup the cleanliness standard for my bathroom
        - fragrance for bathroom
 
-## Furnitures
-- camera stand
-  - follow 董买买's strategy
-- Table
-  - I don't like the iron leg sharp edge desks now
-  - round corner is nice
-    - safe for 2 yo
-    - comfortable when you touch it
-  - I want wood workbench like my dinning table now
-    - round corner, light, legs removable, so very portable
-  - I don't want screws exposed outside, you can hide them easily
-  - I want it to be versatile, so no drawers
-    - Want shirt not strechers, so that people fill comfortable sitting on the side
-    - that's maybe why most dinner tables don't need have strechers like desks
-  - I want to use a dinner table as my desk
-    - It's not uncommon to use dinner table as desk
-      - https://www.apartmenttherapy.com/ikeas-melltorp-dining-table-is-120843
-    - Cable organizers for USB cables.
-      - If your desk is not too big, no need to worry about drilling a hole
-  - my own table material: Scots pine
-  - size
-    - If u want to put on a big iMac 110x75cm is the minimum space
-      - I already have two desks for iMac, so I don't need to worry about this
-      - so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
-
 ## Garage
-
 - TODO: make a two layer workbench with 2 big wood board down stairs and pipes
   - need to wait and see if the 25mm is strong enough
   - this is how the table should look https://youtu.be/DvzWx2tHZ18?t=121
@@ -734,3 +570,46 @@ the same color. Then there is no lines to break anything up.
 - aviod visual clutter
   - the chair https://youtu.be/OaU6_qndCQg?t=210
   - the lesson: simple is always safe choice
+- posters/memoboard
+  - as the lady inspired https://youtu.be/1K4Fb6ENFBM?t=243
+  - careful when use words as posters, visual clutter tends to happen
+    - if you really loved it, limit it to one word poster for one room.
+- add natural textures
+  - https://www.youtube.com/watch?v=FFSWd0PS2ek : No matter what color sheme you choose, it is important to add some natural texture
+or metals to add dimension to the space. 
+- Painting
+  - https://youtu.be/tA7B0lN4vWY?t=82
+  - when painting wood, a second coat is recommended. Professional people even do 2 primer + 2 paint
+  - cover surface around painting area with masking tape 美纹纸
+  - for broken white wall, use spray paint
+  - cardpaper? use acrylic colors.
+    - EC life, hot melt gun and cardpaper craft https://www.youtube.com/watch?v=08rmUPh9DtA
+- removing glue stains
+  - use sharp knife, it works but takes a bit patience
+  - people also say, use oil
+- cardboard_box_diy
+  - in case I need simple drawers https://youtu.be/kbL6N46pI5k?t=170
+  - Hot-melt adhesive or white glue
+  - try to use old boxes papers, glue them into big pieces
+  - then do the box like everyone do it
+  - use long rule to fold the paper https://youtu.be/131IIllYxD8?t=162
+  - make it one piece then glue it https://youtu.be/JfGmu-06rM0?t=205
+  - a lid like this https://www.youtube.com/watch?v=BLHjYo04jKQ
+    - use fabric for the joints
+- picture frame with cardpaper
+  -  https://www.youtube.com/watch?v=sYmELumpRvk
+- how to fix a big hole on the wall
+  - use wall color wall papar
+- a simple carboard frame and stand for frameless mirror glass
+  - frame, I will do it the super simple, use tape
+  - stand, TODO: waiting for the glass clip and wood
+    - will make a simple frame with two 60cm and a 35cm connection
+- wallpaper
+  - EC life's trick. heat the paper when removing it with hair dryer
+- carpenter
+  - wood boards can be assmebled in whatever way I want
+  - cutting
+    - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
+    - so a small hand saw will do
+- DIY a wood table
+  - Wooden plank table  https://www.youtube.com/watch?v=BnH_Udwisw8
