@@ -253,12 +253,14 @@ or metals to add dimension to the space.
     - https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/
   - based on my big white box size 50x40cm, the boxes I build will be half or one fourth of this size
   - exterior dementions
-    - first generation(biggest box): 50x40x20cm $white_box_size
+    - first generation(biggest box): 50x40x20 m $white_box_size
       - or some variation of the size, (50/2)*40x(20x2)=25x40x40
     - second generation: pick one or more dimension, divid by 2
-      - my shoe box: 40lenghtx25widthx20height (considering my biggest pair of boots size: 29length*23width*15height, but standard over perfect fit for each use case)
+      - shoe box: 40lenghtx25widthx20height (considering my biggest pair of boots size: 29length*23width*15height, but standard over perfect fit for each use case)
     - third generation: pick one or more dimension, divid by 4 or 2, you get the idea, tightly control the exterior size, so that two small box may share one big box height or width, so things will look nice stacked together
       - 25x20x10 (lengthxwidthxheight in cm)
+    - fourth gen
+      - 10x10x10cm
 - cover 
   - with fabric, hemp rope, wall paper, or special paper, keep it cat resistant
   - kraft paper
@@ -338,7 +340,11 @@ or metals to add dimension to the space.
       - https://youtu.be/DZ5dqPbOXOw?t=35
   -  Palette: white(60%) + wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
     - wood color 
-      - should not be too light, dark color helps the shape of furniture more visable again the white walls
+      - keep it light
+        - https://www.youtube.com/watch?v=HnNt76b818A
+        - https://youtu.be/zN_3OxrhL8Q?t=9
+        - this one has similar floor color https://youtu.be/T2tl4cJJWLg?t=449 
+        - you don't even need black lines to be beautiful https://youtu.be/fWdKxkzAokA?t=58
       - no need to have same color for all wood items
       - you can also use woodish color for blankets/pillows and things
     - what is a color palette?
@@ -434,6 +440,13 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 
 ## Kitchen
 
+- dish washing
+  - 4 steps:
+    - S1. cooking broom
+    - S2. use sth harder like Loofah Sponge, use soap if needed
+    - S3. Dish Towel 
+    - S4. Clean Tools/CounterTop/Table.
+  - Tips: wash the cleanest first, like cups, then to plates, and wok/pan last.
 - the drainer is really nice https://youtu.be/pw5RnGW2vYQ?t=28
   - a drainer basket over your sink https://www.bilibili.com/video/BV1E7411f73D?from=search&seid=9967977688875518656
     - see also the lid hanger here
@@ -502,6 +515,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - plants
   - https://youtu.be/0owW3UgDX0I?t=308
   - To have Nordic style https://youtu.be/tA7B0lN4vWY?t=166
+- TODO: a shelf from the wardrobe doors
+  - put the shelf next to the shoe cabinet to form an entryway
+  - build some shoe box for boots
 - big desk size 110x220cm
 - billie's desk 160x80cm
 - main area size 358x458cm
@@ -554,6 +570,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
       - if it is a big hanger with lots of clips, it's nice feature to be able to turn 
 - rug
   - color
+    - I need light gray https://youtu.be/T2tl4cJJWLg?t=449
   - has to be easy to clean with washing machine
   - a rug will make a room more homey
   - a failure
@@ -567,6 +584,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
  - floor to ceiling height 267cm
  - floor width: 272cm floor length: 420cm
  - balcony entrency width: 172cm height: 233cm
+ - balcony big window: 193heightx198width
 - curtain
   - tip: curtain width usually is 2 times the window width, because of the folds
   - given my hanger style, curtain max hright is 257cm(then it will reach the floor)
@@ -601,7 +619,8 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - fun fact: 'make the bed' means cover the bed with your quilt, not folding it.
   - washed cutton sheet
   
-
+- balcony 
+  - https://youtu.be/wPjI0mBWezg?t=53
 - closet TODO
   - this will be done my shelf_box_system way
   - currently not enough place to hang clothes
@@ -670,6 +689,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - TODO: make a two layer workbench with 2 big wood board down stairs and pipes
   - need to wait and see if the 25mm is strong enough
   - this is how the table should look https://youtu.be/DvzWx2tHZ18?t=121
+- DIY lamp https://youtu.be/6P8qWP5SsbM?t=423
 
 ## MISC
 - have shelf on wall without drilling: use 'hole panel'
