@@ -8,7 +8,7 @@ NOTE: limit the indentation to 3 levels.
 - goal: My own flavor of Nordic/Scandi Style: Minimun+Simplicity+Functionality(from Nordic)+Portable+Modular+Techy(from Myself)
   - minimum. Things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value. Prefer single color items like chairs, plates etc.
   - Simplicity. Limit the details https://youtu.be/2A7kjGzICA8?t=107 'when you have just 5 colors in your home, that feels more peaceful'.
-  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter.
+  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details won't fit in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Nordic people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration.
   - portable
     - no damage to the walls
     - all the furniture parts should be easily to carry by myself
@@ -19,6 +19,7 @@ NOTE: limit the indentation to 3 levels.
     - Unix Filesystem like org. say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/... have a beautiful filesystem hirachey so that things are easy to find. everything should have its home. everything is a box. folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
 - What is Nordic Style?
   - Why so white? because of the long winter in nordic countries, this style opts for bright open space, and the love of nature.
+  - blend Modern with Rustic https://youtu.be/XxgwI_OCAOU?t=223
   - What Define Nordic style? https://www.youtube.com/watch?v=lyjC_QYZdx4 NO.1 color palette - walls are typically paint in white colors - use wood/fur/texture to add more demensions to the space - use darker colors and thin lines - the minimumist commonly just use black+white+wood+plants as the palette. NO.2 Lighting - big windows white curtain - open spaces NO.3 Furniture - thin legs to avoid shade - always create spacious and airy feelings NO.4 Nature - lots of green - NO.5 Natural Materials - sheep skin/wool
   - Core value: of Nodic Design is go extreme on pragmatic functionality. https://www.bilibili.com/video/BV1Af4y197Ep Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by nordic people to have Nordic style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style. Rule2:  Push progmatic usefulness to the extreme. Design everything from it's functionality. e.g reuse ladders/stackofbooks/cart as nightstand. open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter. Expose power cord and everything Rule3: Follow your heart, as long as it is not ugly. You are allowed to combine anything together as you want, free to mix in some classic furniture in your space, be creative show your own personality is encouraged. 'as long as you type in Nordic Style in taobao, you are betraying Nordic style'
 - Globals
@@ -33,9 +34,97 @@ NOTE: limit the indentation to 3 levels.
     - my own desk table material: Scots pine
     - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
 
+## lighting_system
+- goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
+- follow  https://www.bilibili.com/video/BV1W7411G7Z1?t=328
+- bed room ceiling center lamp
+  - follow the cool guy here  https://www.bilibili.com/video/BV1pD4y1R7RQ/?
+    - have a soft center lamp to provide ambient light, no need to design task lights in advance, add them later, add as many as you want
+  - you need to spend some money on the projection light
+  - it only takes two screw to install https://www.bilibili.com/video/BV1pD4y1R7RQ/?t=108
+  - he said projection light is clear and beautiful
+        - 30-45 degree angle
+- ketchen lighting
+  - https://www.bilibili.com/video/BV1FA41147sS?t=5m
+- and https://www.bilibili.com/video/BV1pD4y1R7RQ?t=83
+- creat layers https://youtu.be/ENc-0dufe_c?t=304
+- I want a KFC favor warm light for my room 'Ambient lighting'
+  - current solution is a 3w warm light led, I wonder how many lumens is needed for one squaremeter
+    - https://www.alconlighting.com/blog/residential-led-lighting/how-do-i-determine-how-many-led-lumens-i-need-for-a-space/
+      - 6w LED provides 450 lumens
+      - 9squaremeter bedroom needs 1000-2000lumens  
+- at least have three lights in one room
+  - https://www.bilibili.com/video/BV1pD4y1R7RQ?t=83
+  - my xiaomi table lamp serves my my 'task lighting'
+  - the idea is ambiient lighting should be 1/3 of the level of task lighting
+  - use one project light, targeting something beautiful.
+- it is not wise to have dark floor and bright ceiling
+  - it is wasteful
+  - so make the ceiling lamp lower with long cord
+- lumens
+  - 60w old style light bulbs only have 550 lumens
+  - best led can reach 6000lumen
+  - 15m2 room 12w/960lm light as Ambient
+    - the Chinese coolboy https://www.bilibili.com/video/BV1pD4y1R7RQ?t=83
+      - lots of good content here
+    - to my surprice, the cool boy use projection light as ambient light
+    - usually led 0.8w/m2 is good, or 80lm/m2 
+    - add as many task light as you want
+  - don't worry about wasting energy
+    - a very bright free stand lamp takes 41 days and nights to use 1kwh https://www.bilibili.com/video/BV1pD4y1R7RQ?t=83
+      - that is 0.1rmb per 24hr
+  - light temperature
+    - use same temperature for all rooms
+    - do not any light with temperature higher than 4000k
+    - CRI > 90
+
+  - https://www.bilibili.com/video/BV1W7411G7Z1?t=112
+    - kitchen lighting
+
+
+### bottle_system
+
+- will use bottles for kitchen and bathroom
+- labeling
+  - for anything used in wet area, use transparent tape to stick, otherwise just use white glue
+  - love the font https://youtu.be/8rKltrQ45ao?t=9
+    - In my sketch, I have 'hannotate TC', which is quite close to it, clear and a little chubby, like it
+
+## cleaning_tool_system
+
+- use short handle broom/dustpan for the rooms, use rag and mop more
+  - easy curves to clean, able to hang or free stand
+  - at least 30cm long handle for the broom frequent under table cleaning
+    - https://youtu.be/MKFagXLY3Ro?t=111
+  - no color out of my palette, DIY wooden broom? 
+  - small pan, so that I can dump the dust into the duskbin without making it dirty
+- expose those towels
+  - colors
+    - white, light gray, https://youtu.be/8rKltrQ45ao?t=245, or maybe camel
+  - rags: choose postel or grey
+  - dish towel: white
+  - face towel: white
+  - what is the best material for dish towels? 
+    - Flour Sack(linen) is thin and dry quickly, that's great to aviod any smell IMO
+    - microfiber
+      - https://www.youtube.com/watch?v=2oNPXa-pJwc
+      - the strand is so fine, so that it can pick up anything
+      - it's also very absorbent
+      - good for cleaning screens
+- how to clean hair on the floor? mop actually works
+- use long handle broom and dustpan for garage
+- 【意思生活】1000元改造老破小厕所 https://www.bilibili.com/video/BV1HJ411M7n8/?spm_id_from=trigger_reload
+- laundry
+  - use differnt lauandry basket for different clothes https://youtu.be/UxXf8SZbtt8?t=193
+  - do white wash
+    - bleach: use hot water
+    - water first, then bleach, lastly fabric
+    - not for wool
+
 ## shelf_box_system
 - Goal: Try to put eveythings in a box, and put boxes on shelves. Things should be, or be put in a box, unless there is a reason not to do so. For example, try to make cathome, flower pots and everything part of my box set. And maybe I don't need specially structured containers like wardrobes, cabinets, closet, cupboards... yeah, this system may unify them all.
-- elastic_box_philosophy: everything is a box
+- I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
+- elastic_box_philosophy: everything is a box https://youtu.be/4xLdisAvjx8?t=30
   - everything should has it's own home, the home is a cuboid
 - general idea
   - I can not change room size, so the larget box unit I can costomize is 'shelf space', based on stuctures I build by pipes
@@ -45,17 +134,34 @@ NOTE: limit the indentation to 3 levels.
     - to go a bit far, I think, tables/stools/chairs/nightstands, anythings try to use the vertical spaces can be abstracted into my shelf_box_system. E.g a table is a one layer shelf. See things this way will help me a lot when I stress on resue of pipes and wood boards.
     - shelf board. all shelf board needs to be wood, right now I don't accept metal net or anything. how to mount the boards on pipes? A pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one. it is easier to mount anything on wood board, say a curtain, or a sub-shelf. board edges will become the edge of boxes, pipes are bones
 - no_invasion_rule. each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well.
-- why I choose pipes for the backbone of my storage system? I rent so I don't want to demage the walls, I may not have good built-in closets. if I want to make use of vertical space, I need something free-standable and strong. Many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile. It's stupid to use big and heavy wood closet, it's a overdo mostly. it's not portable, how about I want to use it as a hanger to air dry my quilts. all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls. I want the pipes to be really resuable, 
-
+- why I choose pipes_as_backbone of my storage system? I rent so I don't want to demage the walls, I may not have good built-in closets. if I want to make use of vertical space, I need something free-standable and strong. Many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile. It's stupid to use big and heavy wood closet, it's a overdo mostly. it's not portable, how about I want to use it as a hanger to air dry my quilts. all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls. I want the pipes to be really resuable. I will use sticky paper to give the pipes warm and clean finishes.
 - one bad example would be: plug thin pipe in to holes of backbone pipe. this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe, right way to do this is keeping both the thin and thick pipes intact, use joints.
 - bad example: things outside of the box cuboid. most pipes should be the edges of the box, nothing should be outside the box. take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy. the right way to do it is to use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes. install a thin pipe in the middle as hanger bar
 - pipe diameter: 25mm. 25mm with 1mm walls, very heavy and strong, for interior use, it is strong enough for anything. hard metal pipe(and joints) of any diameter is esay to get. try to stay constant with this diameter, based on the price you can get very thin and very thick walls for different purpose. if all pipes are of the same diameter, that will make the pipes easy to reuse for other container models
 - joint? No welding use metal joints. PPV is fine for same cases. No screw thread https://youtu.be/yfHGFw5RDac?t=104 . the joint works extremely well, two pipes connected with joint are as strong as one, so it is easy to extend the structure, say connect two boxes together.
-- Accessories? - you get everything you can imagine on Pingduoduo - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头 - in English 'T joints' 'elbow joints'
+- Accessories? - you get everything you can imagine on Pingduoduo - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头 - in English 'T joints' 'elbow joints' 'pipe clips'
+- shelf design principles
+  - I don't use large piece of wood board, smaller than 60x50cm
+    - so that eaay a very portable, and modular, perfectly safe to stay with 1.5cm thickness
+    - but don't mount boards next to each other, gaps get dirty easily
+  - wood does not perform the structure backbone duty
+    - so that I can use thin boards
+    - I don't use flange, use pipe clips
+  - shelf depth is 40cm
+    - at 75cm high, ussually we have a countertop, that will be 60cm deep
+      - a chubbies bottom gives the shelf more stability
+    - both 40cm and 60cm are for board size
+    - pipe box depth would be 30cm(need 25cm pipe to do the job)
+
+## project_peg_boards
+
+- https://youtu.be/kfRbTQrqY5M?t=33
 
 ## project_closet
 - Intro
   - this is part of my shelf_box_system.
+  - essentially, this is what I want https://youtu.be/kfRbTQrqY5M?t=137
+- this is how a modern closet/wardrobe shoube be like https://youtu.be/XWpdDXKeCtA?t=3
 - make it big but cute. use open area https://youtu.be/8zmkPhH4cms?t=76
 - the space we have
   - 60cm deep, 280cm height, 180cm width.
@@ -76,7 +182,7 @@ NOTE: limit the indentation to 3 levels.
   - top of the roof
     - 3 $white_box_size for other clothes or stuff
   - don't block the light
-- A light version, WHYNOTs
+- why I don't like A freestanding hanging rod
   - sth like this https://youtu.be/DvzWx2tHZ18?t=125
   - it's hard put some on top
   - no way to cover it to form a box shape
@@ -104,7 +210,7 @@ NOTE: limit the indentation to 3 levels.
   - shoebox
   - bed/sofa/stool
   - drawer
-  - shallow container to group things https://youtu.be/7Ud2N1sssyw?t=16 , say I have a set of Masion jars, I can put all in a shallow box, so that I can still see most part of the jars.
+  - shallow container to group things https://youtu.be/7Ud2N1sssyw?t=16 , say I have a set of Mason jars, I can put all in a shallow box, so that I can still see most part of the jars.
   - anything.
 - box_system_sizes
   - based on my white_box_size , the box sizes I build will be divided by a integer. all the sizes here are exterior.
@@ -142,12 +248,14 @@ NOTE: limit the indentation to 3 levels.
   - you get the idea
 
 ## Style
-- wood_plant_palette
+- wood_plant_palette: A minimumist palette https://youtu.be/lyjC_QYZdx4?t=171
   - what is a color palette? as this lady put it https://youtu.be/1K4Fb6ENFBM?t=199 'it is a netural plus one or two popup colors', in my case, wood is my netural color and green is my popup color.
   - love the plants here, Small Apartment Makeover: 350 Square Feet Filled With DIYs
  https://www.youtube.com/watch?v=OWtCGXtdpQw
-  -  white(60%) + wooden(from wood/fabric/rattan/sth 20%) + black(with pure-gray 10%) + bright-google-office-colors(my decor style, for small items)
+  - white(60%) + wooden(from wood/fabric/rattan/sth 20%) + green(10%)
+  - Decor: bright-google-office-colors(e.g my dragon ball toys) and black lines(photo frames and things)
   - light_wood_color: wood is warm/natural, black is cold/industrial, it's very classic mixture.
+      - https://youtu.be/Ax8fNpglBSY?t=14
       - https://www.youtube.com/watch?v=HnNt76b818A
       - https://youtu.be/zN_3OxrhL8Q?t=9
       - https://www.youtube.com/watch?v=7ZNwFAA4fE8
@@ -157,6 +265,7 @@ NOTE: limit the indentation to 3 levels.
       - you can also use woodish color for blankets/pillows and things
       - https://studio-mcgee.com/8-design-tricks-we-used-in-dream-home-makeover/
       - get inspirations: search 'black and white room design' on pinterest
+      - beautiful wood stick here https://youtu.be/D9oLsPoJ7w0?t=21 https://youtu.be/D9oLsPoJ7w0?t=45
     - professionals does allow different tones of white and gray in same room, but I would like to stay cautious, use milk white and a limited number of gray, and try to stay constant.
     - sliver and brown door color are toleranted
       - white and black theme are very tolerant of other colors, especially when this is only one color so the brown-red of doors and cabinets is not a problem, the problem is something else, maybe because the they not modern enough by itself, so the idea is not to fix the color, but to fix the style
@@ -210,19 +319,56 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - dream room https://youtu.be/DSMggdkO0a0?t=1200
 
 ## Kitchen
+- pots and pans
+  - https://youtu.be/cRs5z-pmozE?t=409
+  - even you try to be very minimum, use same pots and woks for everything is not wise, it's wasteful to cook one egg with a large wok, right? more pots does not mean more work, you only need to wash one per meal.
+  - current pot diameter: 22cm
+- fruit basket: my current one is nice looking, but I am thinking, maybe I should switch to a big white bowl, when the current one is broken. Just like I may use a big bowl and not a vege drainer, just because, white bowl are simple and thus more versatile. I can use the bowl for noodles someday. And white bowls for everything also meaning less visual complexity for the rooms. Sometimes it's wise to stay simple and stupid.
+- plates and bowls
+  - go IKEA Oftast bowl
+    - https://detail.tmall.com/item.htm?id=611541742257&skuId=4513478477967&pid=mm_25282911_3455987_122436732
+    - they are flat bottom, that's meaning less curve, easy to clean but maybe not for sth really hot in it
+    - anti-slip?
+
+  - big bowls for fruit/vege
+  - everything in beautiful white and least curves
+- vege drainer
+  - Ikea has a good one https://www.bilibili.com/video/BV1bD4y1Q7BN?t=55
+  - BUT right now for me, a big bowl is good enough, it's more verstile.
+- clean hood mesh https://youtu.be/WYyTHyvcypI?t=234
+  - use the cock https://youtu.be/JlguvC6ddYg?t=309
+- rice cooker
+- rice buckets
+  - with glass jars https://youtu.be/wUd42f4vYso?t=115
+  - https://youtu.be/jX-73OMBX0w?t=573
+  - for rice/flour/catfood, and sth
+  - packeged bread/cookies/instantnoddles will be kept in a box
+  - https://youtu.be/jX-73OMBX0w?t=607
+- I do need a big shelf https://youtu.be/zGFRyN9aZhM?t=341
+  - transparent jars/boxes/bottles on more approachable places
+  - big boxes to hide plasitic bags
+  - it will look great
 - dish washing
-  - 4 steps:
+  - 5 steps:
+    - S0: Spary some diluted soap
     - S1. cooking broom
     - S2. use sth harder like Loofah Sponge, use soap if needed then rinse 
     - S3. Dish Towel 
     - S4. Clean Tools/CounterTop/Table.
+  - cooking broom is nice, but I may consider this https://www.bilibili.com/video/BV1bD4y1Q7BN?t=184
+  - consider Ikea tartsmet brush https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-22402964982.141.2890a863LySWsv&id=610999436833&rn=e4480f0c94a5cdaf8028357c1184f76a&abbucket=15
+  - for sponge, my current flat grup pad is actully recommended by 'clean my space' https://www.bilibili.com/video/BV1gK411K73h/?spm_id_from=333.788.videocard.18
+    - I may also need a brighter color one, it's esay to clean but mine still dirty visually
   - NOTE: these steps only works for 2-7 dishes case, if you have a lot of dish, add hot soapy water and drainage steps.
   - Tips: wash the cleanest first, like cups, then to plates, and wok/pan last. Have two dish towels and use them interchangeably, give one of them time to dry, otherwise they get smelly.
+- cleaning with towel
+  - go s pattern, not a cricle https://youtu.be/-C-ic2H24OU?t=506
 - drainer
   -  https://youtu.be/pw5RnGW2vYQ?t=28
   - a drainer basket over your sink https://www.bilibili.com/video/BV1E7411f73D?from=search&seid=9967977688875518656 . see also the lid hanger here
 - a farbic bag for shopping
   - big shoulder bag, with nordic style
+  - it needs to be elegant enough, so that you don't mind to hang them out https://youtu.be/cRs5z-pmozE?t=149
   - esay to wash, vage are able to stay in it for short time
   - sew myself https://www.youtube.com/watch?v=b7pH_DJwnkE
 - project_kitchen_shelf
@@ -234,11 +380,22 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - second floor: extended countertop, plate rack here
   - third floor, a less deep cabinet for mason jars
   - have to install two drawers, how can I live a life without wood drawers
+  - mason jars
+    - clean spring onion 
+    - noodles
+    - rice noodles
+    - dates
+    - peanuts
+    - rice
+    - soy beans
+    - green beans
   - inspirations
     - search 老式碗柜 (Chinese old school pantry)
       - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
       - this is how you organize bags https://youtu.be/BMb7stGiJsM?t=386
     - STOREY Shelf System https://www.hoppekids.com/en/products/91197-2/
+    - PANTRY ORGANIZATION + TOUR | 10 TIPS FOR AN ORGANIZED PANTRY | ORGANIZE WITH ME
+ https://youtu.be/3NvyH3Aeddg?t=253
 - project_framed_poster_for_power_switch_panel
   - panel size: 44x28cmx1cm
   - DIY the poster with markers
@@ -265,6 +422,11 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - things dirty in peope'e mind shall be white to show they are very clean
   - always have a set of things(bottles, mason jars, bowls, and plates)
 
+## Entryway
+
+- this is how to make your room clean, by changing shoes https://youtu.be/cRs5z-pmozE?t=97
+  - the height differences does help
+
 ## living_room
 - cat home
   - does not have to be ugly https://www.midwesthomes4pets.com/
@@ -278,12 +440,24 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - clock is nice, but be sure to make it nose-less
 
 ## peter_room
+- deal cords https://www.bilibili.com/video/BV1jZ4y1N7sL
+- how to fold clothes https://www.youtube.com/watch?v=lTvJuxbD-No
+- my quilt size: 230x180, one of the covers 220x180
 - space
  - floor to ceiling height 267cm
  - floor width: 272cm floor length: 420cm
  - balcony entrency width: 172cm height: 233cm
  - balcony big window: 193heightx198width
-- How to dress
+   - the trim board: 19mm thickness
+- my_wardrobe aka how I dress
+  - how to dress in winter
+    - the 4 rules of layering https://www.youtube.com/watch?v=7CjWct7-3Ww
+      - NO.1 each layer should work on its own
+      - NO.2 No more than 3 layers
+      - NO.3 Thin on the inside, thick on the outside
+      - NO.4 Lighter on the inside, darker on the outside
+
+  - want a shirt like this, https://youtu.be/6iNrgkZ-TeI?t=136 cozy
   - neutral colors really elegent, https://youtu.be/DZ5dqPbOXOw?t=35
   - The Key to a Minimalist Wardrobe https://youtu.be/4Mb9s6jZNug?t=80
     - 'my workhorses are ten T-shirts, my general rule is that these are are all in pastel or muted colors so that they can generally go with anything'
@@ -313,6 +487,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - https://youtu.be/crjZBwbtlXQ?t=918
   - TODO: waiting for my pipes
   - speaker https://youtu.be/crjZBwbtlXQ?t=922
+- socks storage
+  - build a box for socks, and put it aside the shoe boxes.
+  - MAYBE, it is a good idea just use a shoe box for socks, if you want to put it together with shoes
 - socks hanger
   - same logic for socks as for clothes, when they gets dry, I can leave socks attached to the hanger, and put everything together in the socks storage box
   - MUST HAVES
@@ -337,6 +514,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - if I really want a rug in the future, make it light wooden color.
     - the lesson: the living room is genral white background, and all the items are darker colors, so they stand out well, the logic is clear. so never buy big and outstanding things with unnessary deco-only curves or textures.
 - curtain
+  - how to join two poles together https://www.youtube.com/watch?v=g3ZopIwcI4w
   - tip: curtain width usually is 2 times the window width, because of the folds
   - given my hanger style, curtain max hright is 257cm(then it will reach the floor)
   - when I move the window size could be different, so not wise to buy a expensive curtain
@@ -349,6 +527,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - what about white thicken voile sheers for my bedroom?
     - the balcony has roof, so the sunshine won't be as strong as living room
     - this is nordic style, love the demo videos on Pingduoduo
+  - big_window_curtain
+    - hanging board thickness 1.3cm, unlimited depth
+    - how to connect two 1m sticks to a 2m, ordered pp joint, TODO.
 - quilt
   - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
 - nightstand TODO
@@ -361,10 +542,19 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - https://youtu.be/crjZBwbtlXQ?t=562
   - cat fur proof
 - bed 
+  - FIXME: as a bedroom, I need more wood/woodish things, not grey or black 
+  - linen gray headboard plus white: https://youtu.be/iU75WUqWd4E?t=115
+  - a bed side lamp, when you have no room for a stand https://youtu.be/9DCyPMGVUGU?t=30
   - camel color blankets plays well with Nordic style, it's woody and warm.
+  - maybe buying a big headboard was a mistake, big pillows will do it better https://youtu.be/WuoYXDH0NNs?t=114
+    - or a thin piece of wood https://youtu.be/9DCyPMGVUGU?t=28
   - grey sheet/quiltcover/headboard + white pillows
+    - Want pillows like this https://youtu.be/wUd42f4vYso?t=237 love linen
+      - consider https://www.mi.com/buy/detail?product_id=12668&cfrom=search
     -  https://youtu.be/-CuBpoUhRuM?t=379
-    - my headboard color is flax dark grey 亚麻深灰
+    - my headboard color is linen dark grey 亚麻深灰
+    - I want to buy a gray bed sheet made from linen
+      - that's around 1000RMB https://www.wzj.com/items/12251
     - quiltcover is elegant 典雅灰 plus beige 米黄 。I don't like the beige here but it is a 189RMB pure cotton, I can not just drop it.
   - will paint my bed body white
   - fun fact: 'make the bed' means cover the bed with your quilt, not folding it.
@@ -378,36 +568,67 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
   - most underwears can be put in smaller carboard box, as Marie Kondo suggested, group things by size. Don't use one same box for underware and jackets
   - keep all socks same color same size, keep them in a special box once they are dry.
-- plant corner
+- plant_corner
+  - big plants are not portable, use plant shelf/rack https://youtu.be/lyjC_QYZdx4?t=419
   - https://youtu.be/crjZBwbtlXQ?t=860
   - https://youtu.be/gL4EqivLUWY?t=321
   - https://www.youtube.com/watch?v=0JYC7T-9bE8
   - I can put a coner shelf in the balcony
+  - how to take care my cactus? You need to provide it with a full day of sunshine though, so position it at a window where it gets direct sunshine for most of the day. Use potting soil that drains well and only water about every 2 to 3 weeks, making the soil moist, not wet.
+  - how to take care of swiss cheese plant? Watering: Allow soil to dry between waterings. indirect sunlight, mist it everyday, wipe dust off the leaf.
 
 ## Bathroom
-  - Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
-  - how to remove yellow stain
-    - trying vinegar
-      - https://youtu.be/b6Pu7jKBKvM?t=55
-  - towel management
-    - Plan Discussions
-      - PlanA: a freestand for the towels
-        - I can put my nail cutter in the stand
-        - Benifits
-          - I can keep my nail cutter and foot towel all under the sunshine
-        - problems:
-          - one more permenant(and not relly pleasant) thing within my daily sight
-      - PlanB: change my hanbit, don't make it wet everyday
-        - keep towels in use in the bathroom
-      - problem
-        - no seperation between toliet and washing bowl, so no way to stop the smell
-     - Solution:
-       - go PlanB
-       - only have one or two landary days per week, so that we enjoy a clean balcony for most time
-       - buy more towels, save the dirty ones, wash them and hang them with other clothes
-       - all towels purchursed in the future will be white
-       - levelup the cleanliness standard for my bathroom
-       - fragrance for bathroom
+- keep water away use 涤纶
+  - https://www.bilibili.com/video/BV1HJ411M7n8/?spm_id_from=trigger_reload
+- how to clean bathroom
+  - use vineger plus dish soap. https://youtu.be/-C-ic2H24OU?t=506  https://youtu.be/b6Pu7jKBKvM?t=55
+- Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+- a place to hang things a bit dirtier, bowl brush, shoe brush, rags, gloves...
+- unify container look https://youtu.be/iHPVNKmT0FI?t=819
+  - glass bottle/jar/box with white labels and tops, for everything, vinegar-soap, washing powder, bleach
+  - lable style: black on white
+  - towel rods
+- towel management
+  - Plan Discussions
+    - PlanA: a freestand for the towels
+      - I can put my nail cutter in the stand
+      - Benifits
+        - I can keep my nail cutter and foot towel all under the sunshine
+      - problems:
+        - one more permenant(and not relly pleasant) thing within my daily sight
+    - PlanB: change my hanbit, don't make it wet everyday
+      - keep towels in use in the bathroom
+    - problem
+      - no seperation between toliet and washing bowl, so no way to stop the smell
+    - Solution:
+      - go PlanB
+      - only have one or two landary days per week, so that we enjoy a clean balcony for most time
+      - buy more towels, save the dirty ones, wash them and hang them with other clothes
+      - all towels purchursed in the future will be white
+      - levelup the cleanliness standard for my bathroom
+      - fragrance for bathroom
+- toilet_bowl
+  - will try to bleach the seat with my new bleach liquid
+  - no need to unplug anchor screw when I want to remove the seat
+- bathroom_table
+  - goal: a workbench for basins
+  - tasks
+    - 2 board layers + ground = 3 basins
+      - one basin for washing socks
+      - one for kid
+      - one for white cloth
+      - I need at least three basins
+    - board size 50lengthx40widthxheight(modifiable) 
+      - top: 1 board 40x50
+      - middle layer: wood sticks, for basin not in use
+      - bottom layer: ground, for the sock basin
+    - pipe sizes
+      - height: 4x75cm (1.5cm board thickness, finally height will be 77cm or sth)
+      - depth: 4x30cm(board is 40cm deep)
+      - length: 4x55cm(board is 50cm long)
+    - medium size basin diameter 38cm
+    - stable enough so I can do washing on it.
+    - will build with steel pipes.
 
 ## Garage
 - TODO: make a two layer workbench with 2 big wood board down stairs and pipes
@@ -502,3 +723,12 @@ or metals to add dimension to the space.
 - DIY a wood table
   - Wooden plank table  https://www.youtube.com/watch?v=BnH_Udwisw8
 - Polyvinyl acetate is also called wood glue or school glue, it's the same chemical we use for chewing gum
+- a cave for kid https://youtu.be/mjkFrqPejyU?t=652
+- bed on top of wardrobe https://youtu.be/mjkFrqPejyU?t=678 https://youtu.be/mjkFrqPejyU?t=862
+  - https://www.bilibili.com/video/BV1gK411K73h/?spm_id_from=333.788.videocard.18
+- how to remove 免钉胶 nail free glue https://youtu.be/WYyTHyvcypI?t=124
+  - the trick is use hair-drier
+- shelf + tubs = long drawer cabinet
+- a laddar for light bulbs or my top shelf layer things
+  - when it is idle, hopefully I can use it as a flower shelf https://youtu.be/cSs7dSeWNpo?t=25
+    - current solution: chair + tall bar stool

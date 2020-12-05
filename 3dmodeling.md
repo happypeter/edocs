@@ -2,22 +2,29 @@
 title: 3d
 ---
 
-## sketch
-- Watch This Before You Get Started With SketchUp (2020 Update)
-  https://www.youtube.com/watch?v=022dqcoi05k
-- use a mouse with wheel
-  - this is a requirement
+## 3dmax and maya and others
 
-## Blender
+- Maya is for File making
+- 3dmax more for architectual engineering use, or industrial design.
+- they both belong to autodesk
+- sketchup is good for architectual design. But not as powerful or versatile as others.
+
+## Blender fundamentals
+- video list here https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6
 - blender is also very popular in architectaul area.
 - people also use c4d for product design
 - polygon models is what blender does best
-- how to make a cubiod?
-  - https://www.youtube.com/watch?v=nQwn-GzmdeA&list=PLn3ukorJv4vvWfYmRnGS260JTjhShJFRP
+- basics
+  - Viewport Navigation - Blender 2.80 Fundamentals
+ https://www.youtube.com/watch?v=ILqOWe3zAbk
 
+  - shift + middle press to change world center, the pivot
 
-## 3dmax and maya
-
-- Maya is for File making
-- 3dmax more for architectual engineering use, or building cars
-- they both belong to autodesk
+- https://www.youtube.com/watch?v=8XyIYRW_2xk
+  - shift-righClick to change 3D cursor
+- select->g->x to move object along x axis
+- Add & Delete - Blender 2.80 Fundamentals https://www.youtube.com/watch?v=JSAobQPRLwc
+  - delete a face
+- Extrude - Blender 2.80 Fundamentals https://www.youtube.com/watch?v=2qD_tcPMhOs
+  - HOW TO SELECT face in Edit Mode, click tab to go from 'object mode' to 'edit mode'
+    - then in the top-left, you see 'edit mode', and three buttons to the right, one of them is 'face select'
