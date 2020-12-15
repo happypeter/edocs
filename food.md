@@ -46,6 +46,8 @@ Make sure always shoot from the top so that all the details are exposed.
 - 京酱肉丝
   - 用蛋清裹住肉丝
   - 油不能太少，可以把剩油留到第二天炒菜
+- egg+vege
+  - fried together https://youtu.be/W5vfHyibKos?t=302
 - Braised pork
   - suger with oil
   - medium heat fry the pork to gloden color first, and then put in soy, wine
