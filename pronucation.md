@@ -28,4 +28,4 @@ title: English Pronoucations
   - don't read a book aloud, cause you will always repeat your own mistakes and accent, listen&repeat
 
 - /i/ sound
-  - https://www.youtube.com/watch?v=Oqgpxz4fXEI&t=35s
+  - https://www.youtube.com/watch?v=Oqgpxz4fXEI&t=35s American English Vowel Sounds: /ɪ/, IH as in SILVER: Don't pronunce the i in silver as e in green. i is more relaxed, really close to the schwa sound.

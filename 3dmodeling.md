@@ -47,3 +47,5 @@ title: 3d
 - Blender has really flexible selecting https://www.youtube.com/watch?v=vi6cQCnaM4A
 - https://www.youtube.com/watch?v=XG1TkWxOrBI
   - 'A normal: is the face direction.'
+## Interior
+- https://www.youtube.com/watch?v=PoSvCn1Jl6g&list=WL&index=3&t=91s
