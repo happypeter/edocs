@@ -119,6 +119,9 @@ NOTE: limit the indentation to 3 levels.
     - next step maybe try to display-worthy broom https://www.remodelista.com/posts/domestic-science-display-worthy-household-brooms/
   - no color out of my palette, DIY wooden broom? 
   - small pan, so that I can dump the dust into the duskbin without making it dirty
+- dish towels
+  - have to be big and really absorbent
+  - white or gray
 - expose those towels
   - colors
     - white, light gray, https://youtu.be/8rKltrQ45ao?t=245, or maybe camel
@@ -167,7 +170,7 @@ NOTE: limit the indentation to 3 levels.
       - so I will use wood for smaller things, say 20cm deep shelf. It's wasteful to use 25mm pipe to build 20cm deep shelf.
         - then how to build 20cm deep shelf? use pipes to build a 20cm deep box, say 120widthx80heightx20deep, install 2.5cm thick boards on the 120x80 frame to get a sort of fake wall, then mount 20widthx1.5thicknessx120length boards with brackets on the 'wall' to get the shelf.
       - for large structures, pipes are still nice, not more expensive or heavier than wood. Much more easy to build a stable tall structure than using wood.
-    - shelves are all about make use of vertical spaces, one idea on the big picture here is try to do things 'up in the air', so I can get more floor space for sports or sth. Then, everything left is generally put boxes on the shelf. Of course, by 'boxes', I mean very large varity of boxes. I can put another smaller thin-pipe shelf(with its own boxes) on a shelf
+    - shelves are all about make use of vertical spaces(ref: https://youtu.be/QmqDkSBCm-A?t=66), one idea on the big picture here is try to do things 'up in the air', so I can get more floor space for sports or sth. Then, everything left is generally put boxes on the shelf. Of course, by 'boxes', I mean very large varity of boxes. I can put another smaller thin-pipe shelf(with its own boxes) on a shelf
     - can be wood drawers, shallow boxes(to group other random containers), deep boxes, boxes with/without lids, box with hangers and one side covered by fabric(a closet unit)...
     - I don't even want seperator walls on my shelf boards, they are simple flat open space, just a board, not a box.
     - shelf board. all shelf board needs to be wood, right now I don't accept metal net or anything. how to mount the boards on pipes? A pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one. it is easier to mount anything on wood board, say a curtain, or a sub-shelf. board edges will become the edge of boxes, pipes are bones
@@ -282,7 +285,6 @@ NOTE: limit the indentation to 3 levels.
   - no furniture preferably
   - window size, sunshine
   - DIY tolerant landlord
-  - you get the idea
   - no bugs, espicially those who bite you
   - cooking stove? natural gas?
   - kitchen hood?
@@ -368,6 +370,10 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - the trick is make it as white as possible, then make sure every tool is beautiful, because they will popup with the white background
 - spring onion
   - buy less than 1km everytime, wash and cut them all, save in 2 jars
+- knife set
+  - one chef's knife
+  - one fruit knife
+  - both black plastic handle
 - nice to have a knife block
   - https://youtu.be/OdVMrCrKhHQ?t=668
   - have a stick knife for apples
@@ -385,6 +391,8 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - https://youtu.be/AgRaXlYCyzM?t=521
   - hang glove https://youtu.be/sbW3TSSm_qI?t=64
 - pots and pans
+  - buy beautiful and lay them on the shelf https://youtu.be/yeLlHsFkM-U?t=657
+    - brass color pans https://youtu.be/cdVuHljNl6A?t=87
   - https://youtu.be/cRs5z-pmozE?t=409
   - even you try to be very minimum, use same pots and woks for everything is not wise, it's wasteful to cook one egg with a large wok, right? more pots does not mean more work, you only need to wash one per meal.
   - a milk pot https://youtu.be/SF8XIusz150?t=687, for boiling eggs/milk/instant_noodles and heat up leftovers
@@ -409,7 +417,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - they are flat bottom, that's meaning less curve, easy to clean but maybe not for sth really hot in it
     - try to use more plates, less bowls
   - A beautiful combination: Oftast plates and bamboo peggboard-ish plate rack
+    - https://youtu.be/CioYwYRf8o4?t=50
     - I like the feel and silence when I put the plates back on the rack
+
   - everything in beautiful white and least curves
 - vege drainer
   - Ikea has a good one https://www.bilibili.com/video/BV1bD4y1Q7BN?t=55
@@ -428,6 +438,9 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - I do need a big shelf https://youtu.be/zGFRyN9aZhM?t=341
   - transparent jars/boxes/bottles on more approachable places
   - big boxes to hide plasitic bags
+- long rod
+  - https://youtu.be/cdVuHljNl6A?t=84
+  - to hang boards, pans, etc
 - dish washing
   - 5 steps:
     - S0: Spary some diluted soap(pre-treating is key)
@@ -857,3 +870,7 @@ or metals to add dimension to the space.
   - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
     - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
     - my plan is to have a first try, remove the battary without glue remover
+- lots of well-edu peopel are moving to villages
+  - https://www.youtube.com/watch?v=xsiQoqPAORM
+  - https://www.youtube.com/watch?v=ypw_IH4-Fsk
+  - https://www.youtube.com/watch?v=PVoqAH0iPLg

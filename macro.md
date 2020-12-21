@@ -73,11 +73,13 @@ title: 宏观经济
 - 放水之下无萧条
   - 通胀之下无债务，放水之下无萧条。大萧条之后，只见到闪崩和快速恢复，没有真正的萧条了。
   - 前美联储主席伯男克认为大萧条很大一部分原因就是金本位，导致市场流动性不足。罗斯福取消了金本位，难怪以后再也没有大萧条了。
-  - MMP(mondern monetary policy) is not so bad, the whole purpose is to get everybody to work. Wealth is ceated by working people. As long as the govments are strong enough, and able to do a good redistribution of the wealth, MMP works.
+  - MMT(mondern monetary Theory) is not so bad, the whole purpose is to get everybody to work. Wealth is ceated by working people. As long as the govments are strong enough, and able to do a good redistribution of the wealth, MMT works.
+    - newly printed money does cause some ricks. Hot money may destory industies, so need to be regulated.
+    - "money is a creature of law"
 
 - Inovation is the key to growth.
-  - 借用一下 Ark Invest 的 tagline.
-  - 美元，房地产各个领域都面临不确定性，动荡是好事，因为它能引发人们的思考。
+  - this is Ark Invest's tagline.
+  - Dollar, Housing, uncertainty everywhere. Volitility is good, since it push people to think deep.
   - 大家会最终明白，财富不是炒出来的，是创造出来的。
   - 我坚信，钱会最终流向科技，尤其是流向智能制造。
 

@@ -49,3 +49,6 @@ title: 3d
   - 'A normal: is the face direction.'
 ## Interior
 - https://www.youtube.com/watch?v=PoSvCn1Jl6g&list=WL&index=3&t=91s
+- model a room with light 
+  - https://www.youtube.com/watch?v=rRuwN8DXjm0
+  - https://www.youtube.com/watch?v=wrzSrjAY69c
