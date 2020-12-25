@@ -31,7 +31,18 @@ title: 3d
 
 ## Blender Architecture
 
-- https://www.youtube.com/watch?v=rToFyIZiZDM
+- project_room_with_window
+  - https://www.youtube.com/watch?v=rRuwN8DXjm0
+  - set camera
+    - view*camera*active camera
+    - TOBECONTINUED
+  - lighting
+    - https://www.youtube.com/watch?v=RDbrOpnIY7Q&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=22
+
+- project_room_with_window_again
+  - https://www.youtube.com/watch?v=wrzSrjAY69c
+
+- the plugin: https://www.youtube.com/watch?v=rToFyIZiZDM
 - Blender Tutorial: Architectural Interior - Part 1 of 2
  https://www.youtube.com/watch?v=p5q_P8WQegQ
 
@@ -41,14 +52,15 @@ title: 3d
 - Dimensionally Accurate Modeling in Blender
   - https://www.youtube.com/watch?v=QJ4onJ-IhlU
 
+- https://www.youtube.com/watch?v=PoSvCn1Jl6g&list=WL&index=3&t=91s
+
+- how to select a object inside another object?
+
+
+
 ## Precision modeling/hard surface modeling
 
 - https://www.youtube.com/watch?v=ZI49VIcISaw
 - Blender has really flexible selecting https://www.youtube.com/watch?v=vi6cQCnaM4A
 - https://www.youtube.com/watch?v=XG1TkWxOrBI
   - 'A normal: is the face direction.'
-## Interior
-- https://www.youtube.com/watch?v=PoSvCn1Jl6g&list=WL&index=3&t=91s
-- model a room with light 
-  - https://www.youtube.com/watch?v=rRuwN8DXjm0
-  - https://www.youtube.com/watch?v=wrzSrjAY69c

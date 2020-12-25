@@ -41,14 +41,30 @@ NOTE: limit the indentation to 3 levels.
 
 ## lighting_system
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
-  - follow this https://www.bilibili.com/video/BV1H4411q7os?t=4m3s
-  - if you want a >4000k Full brightness, you can get it, but you start with warm plus accent
+- tips
+  - use Self Locking Electrical Cable Connector https://www.aliexpress.com/item/32961577684.html
+- three types of lighting
+  - ambient: general alumination. Even though task and accent light also contribute to ambient lighting, but the ambient light set the predominant level and the mood of the space.
+  - task: reading
+  - accent: decorative lighting
+- my solution:
+  - use 3000k for all rooms as ambient, do keep all rooms the same to have a unified feel
+    - why warm light are relaxing? because it's the color of sun set. and we human realize it's end of the day, and time to relax. https://www.youtube.com/watch?v=LgM1jjSc0CE
+    - cool boy even suggest don't use anything higher than 4000k https://www.bilibili.com/video/BV1pD4y1R7RQ?t=10m31s not good for sleeping
+  - for living room, we may want 'enhancing light' (>4000k and high lumen) when I have parties, https://www.bilibili.com/video/BV1H4411q7os?t=4m3s the idea is if I want a >4000k and Full brightness, you can get it, but usually I will keep 3000k for all rooms
+  - >4000K for task light and accent light, these can vary from room to room
+  - use more than one pendant lamps for dinning table
+  - use some projection light for kitchen sink or stove, as task light
+    - https://www.bilibili.com/video/BV1pD4y1R7RQ?t=12m23s projection light bulk brand Tross 乔斯
 - ref: https://youtu.be/xeaeWoYH4z8?t=105
   - a super small shade pendant light https://youtu.be/xeaeWoYH4z8?t=110
+- use shade for all bulb
+  - 'never never use light without screen' https://youtu.be/LgM1jjSc0CE?t=452
 - use just enough ambient light, dark background, make important things popup, e.g
   - https://youtu.be/ENc-0dufe_c?t=139
   - https://youtu.be/ENc-0dufe_c?t=226
-- temprature: ambient 3000k, task >4000k
+  - you can use projection light as ambient, target the wall, the light reflected by the wall is soft
+- temprature: ambient 3000k, task 4000k
 - ref:  https://www.bilibili.com/video/BV1W7411G7Z1?t=328
 - a pendant light for dinner table
 - floor lamp
@@ -62,6 +78,7 @@ NOTE: limit the indentation to 3 levels.
     - 30-45 degree angle
 - ketchen lighting
   - https://www.bilibili.com/video/BV1FA41147sS?t=5m
+  - pitfall: don't use projection light as task light, dark shade, at least not use one. preferably have more than one light for dish washing and dinner table.
 - and https://www.bilibili.com/video/BV1pD4y1R7RQ?t=83
 - creat layers https://youtu.be/ENc-0dufe_c?t=304
 - I want a KFC favor warm light for my room 'Ambient lighting'
@@ -92,10 +109,21 @@ NOTE: limit the indentation to 3 levels.
   - light temperature
     - use same temperature for all rooms
     - do not any light with temperature higher than 4000k
+      - it is not good looking to have a >4000 and <3000 bulk next to each other, task light can be whiter, not make it no higher than 4000
     - CRI > 90
   - https://www.bilibili.com/video/BV1W7411G7Z1?t=112
     - kitchen lighting
-
+- three tips for interior lighting
+  - NO.1 Use multiple light sources
+  - NO.2 use dimmer
+    - bright for parties, soft for watching TV
+  - NO.3 Use right bulk
+    - led is good
+- calculate how much lumens you need
+  - https://youtu.be/LgM1jjSc0CE?t=452 
+    - for pathway 20lumens/squareFoot, 200lumens/squareMeter
+    - for dinning table 30lumens/squareFoot
+    - for task light 50lumens/squareFoot
 ### bottle_system
 - will use lots bottles/jars for kitchen and bathroom
 - labeling
@@ -176,6 +204,8 @@ NOTE: limit the indentation to 3 levels.
     - shelf board. all shelf board needs to be wood, right now I don't accept metal net or anything. how to mount the boards on pipes? A pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one. it is easier to mount anything on wood board, say a curtain, or a sub-shelf. board edges will become the edge of boxes, pipes are bones
 - no_invasion_rule. each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
 - why I choose pipes_as_backbone of my storage system? I rent so I don't want to demage the walls. if I want to make use of vertical space, I need something free-standable and strong. Many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile. It's stupid to use big and heavy wood closet, it's a overdo mostly. it's not portable, how about I want to use it as a hanger to air dry my quilts. all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls. I want the pipes to be really resuable. I will use sticky paper to give the pipes warm and clean finishes.
+  - UPDATES: there are some pitfalls: NO.1 the join I use to connect pipes are not strong enough, the screw hole are easy to break, if I build large structure with them, I will worry falling. NO.2 the way I mount my wood board on top of the pipe is not aesthetic. NO.3 Exposing lots of steel pipes in the rooms for kids, does not give the feeling of warm and secure. NO.4 It's a design flaw to lay board on top of round, the contact is just a line, not a face, which makes a board not robust as it could be.
+
 - one bad example would be: plug thin pipe in to holes of backbone pipe. this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe, right way to do this is keeping both the thin and thick pipes intact, use joints.
 - bad example: things outside of the box cuboid. most pipes should be the edges of the box, nothing should be outside the box. take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy. the right way to do it is to use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes. install a thin pipe in the middle as hanger bar
 - pipe diameter: 25mm. 25mm with 1mm walls, very heavy and strong, for interior use, it is strong enough for anything. hard metal pipe(and joints) of any diameter is esay to get. try to stay constant with this diameter, based on the price you can get very thin and very thick walls for different purpose. if all pipes are of the same diameter, that will make the pipes easy to reuse for other container models
@@ -276,6 +306,22 @@ NOTE: limit the indentation to 3 levels.
 - wood boxes? How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
 
 ## rent_requirments
+- my dream home
+  - a big open space = living room + dinning room + kitchen 
+    - its really trendy to have open space https://youtu.be/7BB3YYy8RVw?t=60
+    - living room is mainly for projector and crafts
+    - share sunshine and maybe more importantly share heating
+    - kitchen should have bigger countertop than my current one, enough space for both cutting board and draining rack. No small oily corners. preferably enough space for long hanging rod
+  - bedroom/office for me and Billie each
+    - just a big bedroom, big enough and face south
+  - a classroom for Kid
+    - this should be in its own room, not in the living room
+    - so when Elon is taught, Billie or me is two doors away
+  - a laundry room with sunshine to dry clothes
+  - toliets have part of the day sunshine(e.g facing east/west) and a natural ventilation(a real window)
+  - a open balcony 
+  - so it's 
+    dream home = (1 big + 4 medium)sunny rooms + (2toilets + 
 - can I rent a old apartment? yes, the interior look does not matter, search '出租屋 改造‘ on youtube
     - https://www.youtube.com/watch?v=hgcTbLfChV4
 - requirements
@@ -291,6 +337,9 @@ NOTE: limit the indentation to 3 levels.
   - toliet bowl?
   - windows sealed well? thick walls?
   - noisy? dogs?
+  - open space = living room + dinning room + kitchen
+    - It's such a wonderful design, since all the spaces will share light, and heating.
+    - I went to a big house, with standalone kitchen and living room and everything, I could tell it will be very expensive to heat up.
 
 ## Style
 - wood_plant_palette: A minimumist palette https://youtu.be/lyjC_QYZdx4?t=171
@@ -870,7 +919,9 @@ or metals to add dimension to the space.
   - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
     - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
     - my plan is to have a first try, remove the battary without glue remover
-- lots of well-edu peopel are moving to villages
+    - easyway to do it https://www.youtube.com/watch?v=LEQXU1lryIY
+      - why the hard way tear the whole computer off is because the guy needed to remove the speakers first. But actually it is not necessary.
+- lots of well-edu people are moving to villages
   - https://www.youtube.com/watch?v=xsiQoqPAORM
   - https://www.youtube.com/watch?v=ypw_IH4-Fsk
   - https://www.youtube.com/watch?v=PVoqAH0iPLg
