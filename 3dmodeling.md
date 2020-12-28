@@ -38,7 +38,8 @@ title: 3d
     - TOBECONTINUED
   - lighting
     - https://www.youtube.com/watch?v=RDbrOpnIY7Q&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=22
-
+- beautiful interior
+  - https://www.youtube.com/watch?v=EmqEP2-UvAY
 - project_room_with_window_again
   - https://www.youtube.com/watch?v=wrzSrjAY69c
 

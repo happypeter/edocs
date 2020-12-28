@@ -8,7 +8,7 @@ NOTE: limit the indentation to 3 levels.
 - goal: My own flavor of Scandinavian Style: Minimun+Simplicity+Functionality(from Scandinavian)+Portable+Modular+Techy(from Myself)
   - minimum. Does a thing spark joy?
   - Simplicity. Limit the details https://youtu.be/2A7kjGzICA8?t=107 'when you have just 5 colors in your home, that feels more peaceful'. Things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value. Prefer single color items like chairs, plates etc.
-  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details may not fit well in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Scandinavian people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration.
+  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details may not fit well in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Scandinavian people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration. And, you can make rooms multipurpose, like the lady use dinning room as workspace https://youtu.be/3wnRv1ptyzg?t=654, I like the idea. I will prefer 'functionality over form', the home should aid my efficiency, e.g a powerful kitchen, great cleaning_system, easy to clean toilet and so on, any home should optimize for family's health, e.g a good lighting_system. Of course I love beautiful things, but whenever I will pressure on price, I will opt for functionality.
   - portable
     - no damage to the walls
     - all the furniture parts should be easily to carry by myself
@@ -18,6 +18,8 @@ NOTE: limit the indentation to 3 levels.
   - techy
     - have posters of github/google/code/editors , the theme is Coder's Home.
     - Unix Filesystem like org. say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/... have a beautiful filesystem hirachey so that things are easy to find. everything should have its home. everything is a box. folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
+    - standardlization
+      - I live in a era when poverty are not solved. As a engineer, I beleive the only way to solve it is to push industiralization forward. So I will buy from big vendor, like Ikea, and all bowls/boxes and everything should have same sizes unless there is a reason not to do so. Push economies of scale for any industries. Unify things possible, use my shelf_box_system to replace cabinets/tables/flowerstand/... whenever possible. Even it means a little sacrifice on good looking. E.g All the lamps should be the same, unless their is a clear reason not to do so. This way I have time to foucus on searching for the best lamp with good enough price.
 - What is Scandinavian Style?
   - Why so white? because of the long winter in Scandinavian countries, this style opts for bright open space, and the love of nature.
     - try to keep white, really strong white, like this https://youtu.be/1A8d9aeUQlU?t=101, https://youtu.be/5IPL6OUnFw8?t=110 , remember, green and wood and black are just decoration. Room is based on beautiful white things with elegant curves. If you have to use colors, use pastels(for toys, I will use bright colors).
@@ -49,6 +51,7 @@ NOTE: limit the indentation to 3 levels.
   - accent: decorative lighting
 - my solution:
   - use 3000k for all rooms as ambient, do keep all rooms the same to have a unified feel
+    - 'you don't want to exceed 3200k in your room' https://youtu.be/_ngjebdFVUY?t=374
     - why warm light are relaxing? because it's the color of sun set. and we human realize it's end of the day, and time to relax. https://www.youtube.com/watch?v=LgM1jjSc0CE
     - cool boy even suggest don't use anything higher than 4000k https://www.bilibili.com/video/BV1pD4y1R7RQ?t=10m31s not good for sleeping
   - for living room, we may want 'enhancing light' (>4000k and high lumen) when I have parties, https://www.bilibili.com/video/BV1H4411q7os?t=4m3s the idea is if I want a >4000k and Full brightness, you can get it, but usually I will keep 3000k for all rooms
@@ -205,6 +208,7 @@ NOTE: limit the indentation to 3 levels.
 - no_invasion_rule. each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
 - why I choose pipes_as_backbone of my storage system? I rent so I don't want to demage the walls. if I want to make use of vertical space, I need something free-standable and strong. Many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile. It's stupid to use big and heavy wood closet, it's a overdo mostly. it's not portable, how about I want to use it as a hanger to air dry my quilts. all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls. I want the pipes to be really resuable. I will use sticky paper to give the pipes warm and clean finishes.
   - UPDATES: there are some pitfalls: NO.1 the join I use to connect pipes are not strong enough, the screw hole are easy to break, if I build large structure with them, I will worry falling. NO.2 the way I mount my wood board on top of the pipe is not aesthetic. NO.3 Exposing lots of steel pipes in the rooms for kids, does not give the feeling of warm and secure. NO.4 It's a design flaw to lay board on top of round, the contact is just a line, not a face, which makes a board not robust as it could be.
+  - UPDATES: When people build large structures, they don't use square pipe, and they want the screws go throw the pipe. NOT just touch the surface, like I do now. I light light steel for house, but square steel pipes are ugly and hard to finish. The joint for them are even uglier, so I think I will just go for wood. Most american homes are build with wood. So It's strong enought to build my shelves.
 
 - one bad example would be: plug thin pipe in to holes of backbone pipe. this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe, right way to do this is keeping both the thin and thick pipes intact, use joints.
 - bad example: things outside of the box cuboid. most pipes should be the edges of the box, nothing should be outside the box. take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy. the right way to do it is to use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes. install a thin pipe in the middle as hanger bar
@@ -338,8 +342,6 @@ NOTE: limit the indentation to 3 levels.
   - windows sealed well? thick walls?
   - noisy? dogs?
   - open space = living room + dinning room + kitchen
-    - It's such a wonderful design, since all the spaces will share light, and heating.
-    - I went to a big house, with standalone kitchen and living room and everything, I could tell it will be very expensive to heat up.
 
 ## Style
 - wood_plant_palette: A minimumist palette https://youtu.be/lyjC_QYZdx4?t=171
@@ -925,3 +927,5 @@ or metals to add dimension to the space.
   - https://www.youtube.com/watch?v=xsiQoqPAORM
   - https://www.youtube.com/watch?v=ypw_IH4-Fsk
   - https://www.youtube.com/watch?v=PVoqAH0iPLg
+- shelf diy
+  - https://www.youtube.com/watch?v=ksPQLovZiII&t=532s
