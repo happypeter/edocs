@@ -329,7 +329,13 @@ NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter &
   - so it's 
     dream home = (1 big + 4 medium)sunny rooms + (2toilets + 
 - can I rent a old apartment? yes, the interior look does not matter, search '出租屋 改造‘ on youtube
-    - https://www.youtube.com/watch?v=hgcTbLfChV4
+  - https://www.youtube.com/watch?v=hgcTbLfChV4
+
+- can I rent a poor condition country home?
+  - I am not ready for this.
+  -  Note all the details in a finished apartment are there for a reason. Not to mention plumbing or heating, even minor things as trims are also cause troble when you try to clean the floor with mop when missing. Sure, you can do that if you want to spend money, but make sure you gurantee a at least 3-year contract with landlord, since it's no small investment.
+  - the plumbing is for sure be frozen in winter!!
+
 - requirements
   - network?
   - soundproof windows/wall/door
