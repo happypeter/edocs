@@ -2,7 +2,7 @@
 title: My new home office design and implementation
 ---
 
-NOTE: limit the indentation to 3 levels.
+NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter & portable. 
 
 ## Design Guidelines
 - goal: My own flavor of Scandinavian Style: Minimun+Simplicity+Functionality(from Scandinavian)+Portable+Modular+Techy(from Myself)
@@ -45,6 +45,7 @@ NOTE: limit the indentation to 3 levels.
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
 - tips
   - use Self Locking Electrical Cable Connector https://www.aliexpress.com/item/32961577684.html
+  - https://www.bilibili.com/video/BV1kt4y1Y7z3?from=search&seid=13948915908318026828
 - three types of lighting
   - ambient: general alumination. Even though task and accent light also contribute to ambient lighting, but the ambient light set the predominant level and the mood of the space.
   - task: reading
@@ -54,6 +55,7 @@ NOTE: limit the indentation to 3 levels.
     - 'you don't want to exceed 3200k in your room' https://youtu.be/_ngjebdFVUY?t=374
     - why warm light are relaxing? because it's the color of sun set. and we human realize it's end of the day, and time to relax. https://www.youtube.com/watch?v=LgM1jjSc0CE
     - cool boy even suggest don't use anything higher than 4000k https://www.bilibili.com/video/BV1pD4y1R7RQ?t=10m31s not good for sleeping
+  - lady 小姜 use 2700k as ambient, and other place nothing over 3000k https://www.bilibili.com/video/BV1W7411G7Z1?t=539
   - for living room, we may want 'enhancing light' (>4000k and high lumen) when I have parties, https://www.bilibili.com/video/BV1H4411q7os?t=4m3s the idea is if I want a >4000k and Full brightness, you can get it, but usually I will keep 3000k for all rooms
   - >4000K for task light and accent light, these can vary from room to room
   - use more than one pendant lamps for dinning table
@@ -332,6 +334,7 @@ NOTE: limit the indentation to 3 levels.
   - network?
   - soundproof windows/wall/door
   - proper heating
+  - warm bathroom and toilet (consider lady's period)
   - no furniture preferably
   - window size, sunshine
   - DIY tolerant landlord
@@ -582,6 +585,8 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 - sizes: - big desk size 110x220cm - billie's desk 160x80cm - main area size 358x458cm - most wall 28cm - window 195cm
 - pitfalls
   - clock is nice, but be sure to make it nose-less
+- projector is nice to have
+  - https://www.bilibili.com/video/BV1kt4y1Y7z3?t=5m40s
 
 ## peter_room
 - deal cords https://www.bilibili.com/video/BV1jZ4y1N7sL
@@ -737,9 +742,19 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - cover the hole with filter to stop soil leak https://www.southernliving.com/home/flower-pot-coffee-filter
 
 ## Bathroom
+- how to install a bowl
+  - https://youtu.be/bbqZ12QhoY4?t=37
+- https://www.youtube.com/watch?app=desktop&v=bbqZ12QhoY4
+  - you don't need a slope for the drainage line, while interestingly you do need a bit slope for vent line to drain rain water
+  - maybe you do need https://www.bilibili.com/video/BV1Hs411c7jU
+- plumbing refs:
+  - https://www.youtube.com/watch?v=Dg56chdr-FQ DIY Plumbing Basics: Guide for Homeowners
+
+- want to get rid of the flying bugs, try to change another type of drainage hole  https://k.sina.cn/article_6519280980_18494555400100cin0.html
 - hang things https://youtu.be/ca15ttSuNUg?t=215
 - keep water away use 涤纶
   - https://www.bilibili.com/video/BV1HJ411M7n8/?spm_id_from=trigger_reload
+- toilet paper hanger should be a simple rod, not a box, just keep the hanger beyond the shower can reach, a box does not work well for me. cumbersome to put paper in, and some times the paper hide in the box, you can not get it.
 - how to clean bathroom
   - use vineger plus dish soap. https://youtu.be/-C-ic2H24OU?t=506  https://youtu.be/b6Pu7jKBKvM?t=55
 - Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
@@ -888,7 +903,22 @@ or metals to add dimension to the space.
   - have models for farming tools
 
 ## Build your own House
+- how to build a wall
+  - https://www.youtube.com/watch?v=yJ6i3FRWSGM
+- old house renovation
+  - https://www.bilibili.com/video/BV177411j7eG/
+    - this one is of great style, same roof style as mine
+  https://www.bilibili.com/video/BV1pV411y7MW/
+  - kitchen should own a north window, for esay vent and lighting
+  - build a kitchen countertop https://www.bilibili.com/video/BV1FV411z7CC
+  - remove the old finish if you want to paint the wall https://www.bilibili.com/video/BV1rJ411X7yF/?spm_id_from=333.788.recommend_more_video.0
+  - hange sewer https://www.bilibili.com/video/BV1sK4y147Af?from=search&seid=5095586867679177337
+  - paint exterior walls https://www.wukong.com/question/6700549895725515021/ 
 - Not passionate enough to build my own house now, so many houses in China now, so easy to rent, and also wonderful to live anywhere you want.
+- https://www.bilibili.com/video/BV1Q5411W7ES/?spm_id_from=autoNext
+-  https://k.sina.cn/article_6519280980_18494555400100cin0.html 
+How to fix the smell in home plumbing. 
+- you need a air vent for your plumbing https://qastack.cn/diy/128327/should-my-bathrooms-plumbing-vent-be-downstream-of-the-toilet-connection
 - youtube channel 建房子的豆壳儿
 - 轻钢 light steel https://www.youtube.com/watch?v=LmxkUiQ2T_c
   - <1mm thickness, it's really suprising
