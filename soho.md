@@ -2,7 +2,7 @@
 title: My new home office design and implementation
 ---
 
-NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter & portable. 
+NOTE: part of the [mars](mars) project, foucsing on things lighter & portable. 
 
 ## Design Guidelines
 - goal: My own flavor of Scandinavian Style: Minimun+Simplicity+Functionality(from Scandinavian)+Portable+Modular+Techy(from Myself)
@@ -20,6 +20,7 @@ NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter &
     - Unix Filesystem like org. say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/... have a beautiful filesystem hirachey so that things are easy to find. everything should have its home. everything is a box. folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
     - standardlization
       - I live in a era when poverty are not solved. As a engineer, I beleive the only way to solve it is to push industiralization forward. So I will buy from big vendor, like Ikea, and all bowls/boxes and everything should have same sizes unless there is a reason not to do so. Push economies of scale for any industries. Unify things possible, use my shelf_box_system to replace cabinets/tables/flowerstand/... whenever possible. Even it means a little sacrifice on good looking. E.g All the lamps should be the same, unless their is a clear reason not to do so. This way I have time to foucus on searching for the best lamp with good enough price.
+    - automation friendly: make the floor clean, so that I can use the robot vacuum.
 - What is Scandinavian Style?
   - Why so white? because of the long winter in Scandinavian countries, this style opts for bright open space, and the love of nature.
     - try to keep white, really strong white, like this https://youtu.be/1A8d9aeUQlU?t=101, https://youtu.be/5IPL6OUnFw8?t=110 , remember, green and wood and black are just decoration. Room is based on beautiful white things with elegant curves. If you have to use colors, use pastels(for toys, I will use bright colors).
@@ -43,8 +44,10 @@ NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter &
 
 ## lighting_system
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
+- led bulbs: main work horse, https://item.jd.com/7466255.html Opple warm(2700-3500k) light.
 - tips
   - use Self Locking Electrical Cable Connector https://www.aliexpress.com/item/32961577684.html
+  - dark backgroud plus bright item https://youtu.be/p9286KaJjb0?t=181
   - https://www.bilibili.com/video/BV1kt4y1Y7z3?from=search&seid=13948915908318026828
 - three types of lighting
   - ambient: general alumination. Even though task and accent light also contribute to ambient lighting, but the ambient light set the predominant level and the mood of the space.
@@ -311,47 +314,6 @@ NOTE: part of the [geekgarden](geekgarden) project, foucsing on things lighter &
   - diy https://youtu.be/UwgQ8nHMZm4?t=77
 - wood boxes? How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
 
-## rent_requirments
-- my dream home
-  - a big open space = living room + dinning room + kitchen 
-    - its really trendy to have open space https://youtu.be/7BB3YYy8RVw?t=60
-    - living room is mainly for projector and crafts
-    - share sunshine and maybe more importantly share heating
-    - kitchen should have bigger countertop than my current one, enough space for both cutting board and draining rack. No small oily corners. preferably enough space for long hanging rod
-  - bedroom/office for me and Billie each
-    - just a big bedroom, big enough and face south
-  - a classroom for Kid
-    - this should be in its own room, not in the living room
-    - so when Elon is taught, Billie or me is two doors away
-  - a laundry room with sunshine to dry clothes
-  - toliets have part of the day sunshine(e.g facing east/west) and a natural ventilation(a real window)
-  - a open balcony 
-  - so it's 
-    dream home = (1 big + 4 medium)sunny rooms + (2toilets + 
-- can I rent a old apartment? yes, the interior look does not matter, search '出租屋 改造‘ on youtube
-  - https://www.youtube.com/watch?v=hgcTbLfChV4
-
-- can I rent a poor condition country home?
-  - I am not ready for this.
-  -  Note all the details in a finished apartment are there for a reason. Not to mention plumbing or heating, even minor things as trims are also cause troble when you try to clean the floor with mop when missing. Sure, you can do that if you want to spend money, but make sure you gurantee a at least 3-year contract with landlord, since it's no small investment.
-  - the plumbing is for sure be frozen in winter!!
-
-- requirements
-  - network?
-  - soundproof windows/wall/door
-  - proper heating
-  - warm bathroom and toilet (consider lady's period)
-  - no furniture preferably
-  - window size, sunshine
-  - DIY tolerant landlord
-  - no bugs, espicially those who bite you
-  - cooking stove? natural gas?
-  - kitchen hood?
-  - toliet bowl?
-  - windows sealed well? thick walls?
-  - noisy? dogs?
-  - open space = living room + dinning room + kitchen
-
 ## Style
 - wood_plant_palette: A minimumist palette https://youtu.be/lyjC_QYZdx4?t=171
   - what is a color palette? as this lady put it https://youtu.be/1K4Fb6ENFBM?t=199 'it is a netural plus one or two popup colors', in my case, wood is my netural color and green is my popup color.
@@ -428,6 +390,12 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - white+wood https://youtu.be/lnLiNNgN980?t=214
     - white cabinet + wooden countertop
   - the trick is make it as white as possible, then make sure every tool is beautiful, because they will popup with the white background
+- maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
+- oven+dishwasher+bigFridge
+  - if you stir fry a lot, you can get most out of a dishwasher
+  - if you don't cook a lot, you won't bother to buy bigFridge and oven.
+  - so everything is a system
+  - go electric, try to use timer more
 - spring onion
   - buy less than 1km everytime, wash and cut them all, save in 2 jars
 - knife set
@@ -574,6 +542,10 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - white bowels plates and things
   - things dirty in peope'e mind shall be white to show they are very clean
   - always have a set of things(bottles, mason jars, bowls, and plates)
+## Dinning Room
+- table
+  - at least 80x120cm, for the three of us
+  - with at least two pendant lamps
 
 ## Entryway
 - how to store shoes, the creative way https://youtu.be/RWNjzxypsSc?t=345
@@ -791,6 +763,8 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - medium size basin diameter 38cm
     - stable enough so I can do washing on it.
     - will build with steel pipes.
+## Home Appliances
+- refridgerator https://www.youtube.com/watch?v=8Ln7YdGrdjU
 
 ## Garage
 - TODO: make a two layer workbench with 2 big wood board down stairs and pipes
@@ -902,66 +876,13 @@ or metals to add dimension to the space.
 - embed some Chinese elements in Scandinavian https://youtu.be/RUcizR3KJIU?t=185
 - I want also build a keepallbox https://www.bilibili.com/video/BV1H4411q7os?from=search&seid=5766491538637322516
   - https://www.bilibili.com/video/BV1NK411L7nH?from=search&seid=3499985364906025556
+
 - countryside style
   - save my childhood
   - show where I am from
   - maybe I should own a farm cart
   - have models for farming tools
-
-## Build your own House
-- how to build a wall
-  - https://www.youtube.com/watch?v=yJ6i3FRWSGM
-- old house renovation
-  - https://www.bilibili.com/video/BV177411j7eG/
-    - this one is of great style, same roof style as mine
-  https://www.bilibili.com/video/BV1pV411y7MW/
-  - kitchen should own a north window, for esay vent and lighting
-  - build a kitchen countertop https://www.bilibili.com/video/BV1FV411z7CC
-  - remove the old finish if you want to paint the wall https://www.bilibili.com/video/BV1rJ411X7yF/?spm_id_from=333.788.recommend_more_video.0
-  - hange sewer https://www.bilibili.com/video/BV1sK4y147Af?from=search&seid=5095586867679177337
-  - paint exterior walls https://www.wukong.com/question/6700549895725515021/ 
-- Not passionate enough to build my own house now, so many houses in China now, so easy to rent, and also wonderful to live anywhere you want.
-- https://www.bilibili.com/video/BV1Q5411W7ES/?spm_id_from=autoNext
--  https://k.sina.cn/article_6519280980_18494555400100cin0.html 
-How to fix the smell in home plumbing. 
-- you need a air vent for your plumbing https://qastack.cn/diy/128327/should-my-bathrooms-plumbing-vent-be-downstream-of-the-toilet-connection
-- youtube channel 建房子的豆壳儿
-- 轻钢 light steel https://www.youtube.com/watch?v=LmxkUiQ2T_c
-  - <1mm thickness, it's really suprising
-  - but the structure is super safe, it actully just need far less steel to hold the weight of everythings, but the problem is steel is easy to be twisted,, that's why people need to use more steel for the structure. Anyway, it's super safe for things like earthquick.
-  - https://zhidao.baidu.com/question/246386753619278204.html
-  - after years of use, the steel is still  100 percent recyclable
-  - the wall is also super heat keeping, you save 75% money on heating
-  - esay to be prefabricated, industrialization friendly
-  - only problem: might produce some noise inside rooms
-  - https://youtu.be/XRTNKDUW2uw?t=24
-    - 2000rmb/m2 for everything
-    - 30w for 150m2 
-    - https://youtu.be/XRTNKDUW2uw?t=75 you can have a comtempary style hourse with light steel
-      - 7200~7500rmb/ton 25~30m2/ton, so for a 150m2 house, the steel is just 50000RMB
-- https://www.bilibili.com/video/BV1UJ411j7Yh
-  - 1080rmb/m2 without finish, done within one month
-  - search 三旬一墅, they are professional https://www.bilibili.com/video/BV1Mb411j7zC?from=search&seid=853517654380919168
-    - I like light steel structures, since it's much more industrilizable and digitalizable. 三旬一墅 even has version number for the designs.
-    - they install solar pannels for EV owners
-    - they also have their earth heating system
-  - one day I will build a this https://www.youtube.com/watch?v=gJuGjd6yjmY
-    - 3x6m, 30,000RMB house!
-- https://www.bilibili.com/video/BV1Rb411K7HW/?spm_id_from=autoNext
-  - all screws, no melding
-- https://www.bilibili.com/video/BV1Tb411W7KZ?t=2m26s
-  - new air conditioning system, really interesting
-    - you don't need to open the window to get the wind!
-- wood shelf DIY https://youtu.be/eNoOsF-bBoc?t=688
-- tmp: change my Macbook Pro battary
-  - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
-    - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
-    - my plan is to have a first try, remove the battary without glue remover
-    - easyway to do it https://www.youtube.com/watch?v=LEQXU1lryIY
-      - why the hard way tear the whole computer off is because the guy needed to remove the speakers first. But actually it is not necessary.
-- lots of well-edu people are moving to villages
-  - https://www.youtube.com/watch?v=xsiQoqPAORM
-  - https://www.youtube.com/watch?v=ypw_IH4-Fsk
-  - https://www.youtube.com/watch?v=PVoqAH0iPLg
-- shelf diy
-  - https://www.youtube.com/watch?v=ksPQLovZiII&t=532s
+- wood stove/fireplace
+  - even artist love it https://youtu.be/p9286KaJjb0?t=125
+  - people even build it in tiny house https://youtu.be/UGQfAII0hF0?t=393
+  - but I don't think I will use it, I am pro automation, cutting wood is not my thing  

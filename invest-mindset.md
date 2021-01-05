@@ -6,6 +6,25 @@ title: 投资思路
 
 ## 投资策略
 
+- My slogan: Make Great Things Happen
+  - I don't invest in established bussiness, only startups
+      - of course, there are startups inside a established bussiness, like Tencent.
+    - I don't invest small startups, only invest biggest startups
+      - I may consider becoming an LP in a top tier VC firm as a indirect way to support new ideas.
+        - I don't have direct connection with those founders, so I can not do research
+        - I invest in only high-risk stocks, I do my research to have the risk in control
+
+- the nature of investment: carry risk for wealth creators
+  - in one senetence: carry risks for other people
+  - everything should be in a balance in long term
+    - investors should be awarded because they also make real contribution to society
+    - Tesla is creating wealth, so people work for tesla should be rewarded, that is but obvious. But problem is Tesla is carrying too much burden, hard work is one part of the burden, the other part is the finicial risks due to their speed of innovation. As a investor, I hold stocks long term, that means I carry my share of finicial risk for Tesla. So I should be rewarded, when things are done successfully.
+  - everything is buy nature very simple, Elon Musk offer hard work, investors offer money, together we make exciting things happen, and get the world changed.
+    - Now I don't feel comfortable holding Meituan and Tencent Stock, why? I don't see them use my money on exciting things. At least, it's not so clear. Don't get me wrong, they are doing marvolous things, but I don't see them need my money to do these things, seems that they have enough money, that's why they spend my money on the companies I don't like, say NIO or Liauto. I perfer things clear and exciting, not indirect and vague things. Another example, I love Bilibili, and it's also a startup, a beautiful dream not come true yet. So I will support her. But I don't see how my money can help her, they are not in need of money, they need great content contributors. On the other hand, Tesla needs to push solarRoof, build charging network, every dollar will be used in solid contribution to human progress.
+  - if you focus on making money, you won't make money
+    - Many people make investment decision by analysising if a company will grow well or not. For example, they will see, tencent will support Bilibili, so Bilibili will grow well. That's why they invest. Seems logical, but to me that's just ridiculous. If you invest like that, even you are long term, you are not a investor, but a gambler. You always try to avoid risks, you don't know how your every dollar will help Bilili to grow faster. You just want to get on the train, and follow big brothers, shame on you.
+
+
 - investing is NOT risky
   - you try so hard in a job, but you can be fired anytime, isn't that risky?
 
@@ -24,6 +43,7 @@ title: 投资思路
       - 例如，熊市多买点
 - 只投第一
     - 反对“多个标的，分散风险”的思路，有些人认为，如果看好一个赛道，可以同时把几家头部公司都买了。一个例证是，2017年4月，美联航丑闻造成巴菲特在这支股票上损失9000万美元，但是因为其他航空公司的上涨，最终巴菲特其实大赚了。这种对冲风险的形式非常的合理。但是我自是不同意的。
+
   - 钢铁大王卡内基说，”鸡蛋一定要放到一个篮子里，然后看好这个篮子“
     - 我自己的理论是，未来是一个数字化网络化的时代，马太效应会更加明显，只有第一，没有第二。例如，汽车行业，当前，第一第二都很赚钱，有丰田肉吃，也有大众的肉。但是未来，我的理解是，第一有肉，其他车厂都是在老大的第二层，去做一下定制，填充一些边边角角的市场。未来，自动化和规模化程度达到一定水平，精品的商品要比假冒伪劣商品更便宜，奥迪的生成成本要比奥拓便宜。缺点是规模过于庞大，标准过于严格，可自定制稍微难一些，但是99%的情况下，人们还是喜欢更高档且更便宜的车。
   - 当然，风险还是要控制的。但是控制风险应该是选择一些跟股票相关度低的价值存储手段，例如现金，而不是去买多只股票。
@@ -45,8 +65,6 @@ title: 投资思路
   - 知乎上有人说，最高明的营销是点燃人类共同体心中的梦想
   - Without a exciting mission or missions, you are worthless.
   - 好的产品可能是几个”大势“的综合，最好形成全球共识
-    - 例如，看一个快手视频
-      - 社交网络+云计算+视频流媒体+移动设备 这四大趋势的叠加
     - ”每人一台电脑（微软）“，”每人一个智能手机（苹果）“，”每人一个网店（淘宝）“，”整合全美零售（ Amazon ）“，”最好的搜索（ google ）“。伟大公司的愿景永远都是那么清晰。
     - 一个伟大愿景就是一条蓄势待发的新赛道，我只投每条赛道的领跑者。
       - 最好是能够形成明确的网络效应的领域，进入红海厮杀阶段的技术公司就不太值得投了
@@ -55,7 +73,7 @@ title: 投资思路
       - 财富会聚集到一个愿景之下，技术应该是大家共享的。
 
   - 问题解决方案之王
-    - 我目前的投资标的都是” xx 之王“。xx 肯定是一个社会的大痛点大赛道，例如，云计算之王，智能电网之王。但是并不是所有的王者我都会投资。比赛已经结束的赛道，不投。例如，手机之王，中国线下外卖之王，PC 之王，我都没投。
+    - 我目前的投资标的都是” xx 之王“。xx 肯定是一个社会的大痛点大赛道，例如，云计算之王，智能电网之王。但是并不是所有的王者我都会投资。比赛已经结束的赛道，不投。例如，手机之王，中国线下外卖之王，PC 之王，我都没投。Because the idea is try my best to push innovation, not to make safe money.
   - #基础设施型公司XAAS
     - 亚马逊提供云计算和 logistics 和 Marketplace 等基础设施
     - xaas ，规模做到全国第一，性价比做到全国第一，然后提供给小商家
@@ -68,9 +86,9 @@ title: 投资思路
     - 特斯拉目前还只是生产商品，未来的系能源电网或者 Robotaxi fleet 都可以称为基础设置
     - 做基础设置的公司，是有很强的 #网络效应 和富者愈富效应的
 
-- NO.2 [网络效应](network-effect) #网络效应 
-  - 其中很重要的是 #得ID者得天下
-
+- [network-effect](network-effect) #network-effect
+  - anybody who control your ID, controls your world, think Wechat, AmazonPrime...
+  
 - NO.3 #技术为王
   - 不迷信技术，强技术用在不合适的地方，依然不能产生财富效应，财富的本质是网络，能够增强网络的技术，才是创造财富的技术
   - 自动驾驶汽车 FSD ，就是可以让原子世界的网络流动起来，所以是巨大的财富黑马
@@ -90,6 +108,6 @@ title: 投资思路
     - 汽车生产线比汽车重要。十几年只生产 T 型车，就是为了达成最佳性价比。
     - 利润不是第一位，市场份额第一，社会效益第一。
     - 这样的企业是我的最爱。
-- NO.5 #做多中国
+- NO.5 #longChina
   - 眼看东升西落是不可避免了
   - 沈南鹏也反复提 long China

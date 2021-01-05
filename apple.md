@@ -1,3 +1,10 @@
+## change my Macbook Pro battary
+  - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
+    - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
+    - my plan is to have a first try, remove the battary without glue remover
+    - easyway to do it https://www.youtube.com/watch?v=LEQXU1lryIY
+      - why the hard way tear the whole computer off is because the guy needed to remove the speakers first. But actually it is not necessary.
+
 - ipad
   - ipad2, intall compatible versions 
     - https://www.youtube.com/watch?v=033Ck_N9WF8
