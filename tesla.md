@@ -17,6 +17,9 @@ title: Tesla 何以征服世界?
     - the room can run itself and generate endless wealth, right?
   - Tesla sustainable energy plus AI, result will be Perpetual motion Machines.
 
+- Tesla is the next generation robot company. 
+  - People still use so few robots in daily life, make us doubt is it really 2021 now. You need a company to push software to everycorner of the production line, you need a industry that is high in volumn. Your car is a robot, Tesla's machine to build the cars is also robots. I see hope only in Tesla for now.
+  
 - Battary
   - Battary today is like petro when Rockefeller was a young man
     - People knew it would be useful, but not at this level
@@ -146,6 +149,9 @@ title: Tesla 何以征服世界?
   - 看 tesla 2019 impact report ，可以看出电动车的每公里碳排放已经比 ICE 车少了，而且随着整个产业链的成熟，开矿，电池回收技术的完善，这部分还可以提升。但是就目前来讲，没有跟燃油车拉开太大差距。生产电池还是要有污染和水消耗。
   - 但是，空气污染没有了。万里之外的污染，跟我可以直接吸到肺里的尾气，哪个方案更优秀，一目了然。
   - tesla 给了每个人减少碳排放的机会，那就是不要用 grid 的电，而去自己安装 solar roof 。感觉很好玩，很有诱惑力。
+  - Chamath: 'Tesla is a distributed energy company'.
+    - At first glance, solar roof seems to be a low efficency rich people toy, but think in the context of distributed energy, it could be a big deal.
+    - Everybody love big house, if Solar pannels are cheap enough(land to build the houses are cheap enough), it's likely every home will produce enough energy for its own use. It will be a no-brainer to own a big house and be self-sufficient with energy.
 
 ## 垂直整合 vertical integration
 
@@ -221,3 +227,7 @@ title: Tesla 何以征服世界?
 
 - 雷军：两会提倡卫星互联网
 - 王兴：看看 Elon Musk 就觉得中国互联网界做的事情很 Low https://www.youtube.com/watch?v=YHgaeGaORT0
+
+## Tesla vs China
+
+China supports Tesla like mad, why? It's not about enviroment, but US  dollar. US dollar bound with Petro, if China still need to use petro, us dollar will be needed.

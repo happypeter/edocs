@@ -81,6 +81,7 @@ NOTE: foucsing on things big and hard that I can not take away, while [soho](soh
   - How to Make a Concrete Sidewalk - Do It Yourself https://www.youtube.com/watch?v=h7tIjBEPiPU
 
 - keep house warm in winter
+  - baseboard heater https://youtu.be/P6TIY6ATLS4?t=657
   - How to Stop Cold-Air Leaks in Winter | This Old House
  https://www.youtube.com/watch?v=PYOhxK0yauE
 - heating friendly windows
@@ -162,3 +163,30 @@ recyclable
   - how a septic tank works https://youtu.be/udBaGyzJyU8?t=344
     - the water can go out and sink into the soil around it
 - how to build a septic tank with bricks https://www.bilibili.com/video/BV1oE411n7uS/?spm_id_from=333.788.recommend_more_video.0
+
+## Solar
+
+- https://www.bilibili.com/video/BV1TA41147Ha/
+- 80,000RMB, four year to get all your investment back
+  - https://www.bilibili.com/video/BV1wr4y1A7qM
+- 3rmb/watt is the current price, 3 year to get all your money back
+- 1400w capacity on one typical size country room
+
+## Heating
+- burn wood https://www.bilibili.com/video/BV1zT4y1K7fx
+- it make a lot of sense to have a open space, if you want to save on heating
+  - get every functionality really close to each other, share light/air/heat. Keeping people together all the time, human bodies are also heating sources.
+- air conditioner
+  - cons
+    - air exchange with outside, make rooms very dry
+    - windy & unconfortable
+- baseboard heater
+  - most comfortable heater of all kinds
+  - no noise
+  - best place to put is under a window
+  - https://www.bilibili.com/video/BV1zf4y1e7Hw 欧式快热炉 is the best
+
+
+## Rent Options
+
+- use your imagination, lots of beautiful house in countryside https://youtu.be/IkDIJQo0oj8?t=83

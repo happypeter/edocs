@@ -28,6 +28,8 @@ title: 房地产和城市发展 House and Urbanization
         - 因为稀缺才会炒，把北京的面积扩大三百倍，世界上每个人都可以拥有一套房子，也就没人吵了
           - 作为政府，保证市政投资不要太过偏袒即可
       - 但是这也意味着，一定要选世界上最大的一块气候适宜的平原来建设这个城市
+  - everybody love big house with yards
+    - if Tesla's solar roof become really cheap and efficient to produce power, it make a lot of sense to let everyone live in more scattered way. Energy is Money, energy is wealth. It makes no sense then for every body live so densely in the city like Chinese big cities, just because it's a good way to save energy, so to save money, and create wealth.
 
 - 要一城不要群
   - 有人说回龙观是城市毒瘤，顺义才是真正的卫星城，这个观点我是反对的

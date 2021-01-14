@@ -43,3 +43,5 @@ title: 如何制作视频课程
 
 - B 站视频管理思路
   - 跟绝大多数 Up 主一致，不用说这是多少期，因为这些视频没准还会整理成《 git 专题》这样的课程呢，所以整理顺序的工作，放到文章稿网站上进行。
+- camera
+  - Digital Single Lens Reflex makes a lot sense https://www.zhihu.com/question/20982898

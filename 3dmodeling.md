@@ -36,6 +36,7 @@ title: 3d
   - set camera
     - view*camera*active camera
     - TOBECONTINUED
+    - https://youtu.be/ZTxBrjN1ugA?t=588
   - lighting
     - https://www.youtube.com/watch?v=RDbrOpnIY7Q&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=22
 - beautiful interior
@@ -57,6 +58,13 @@ title: 3d
 
 - how to select a object inside another object?
 
+- Shift-MiddleMouse to get closer to your object
+- Shift-d to duplicate a object https://www.youtube.com/watch?v=TPrnSACiTJ4
+- numpadPeriod zoom to the selected Item  https://www.youtube.com/watch?v=TPrnSACiTJ4
+
+-  Rendering - Blender Beginner Tutorial
+  - https://www.youtube.com/watch?v=ZTxBrjN1ugA
+  - cast shadow on the floor https://youtu.be/ZTxBrjN1ugA?t=381
 
 
 ## Precision modeling/hard surface modeling

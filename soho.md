@@ -23,6 +23,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - automation friendly: make the floor clean, so that I can use the robot vacuum.
 - What is Scandinavian Style?
   - Why so white? because of the long winter in Scandinavian countries, this style opts for bright open space, and the love of nature.
+    - everybody loves open space home https://www.bilibili.com/video/BV1Np4y167ti/
     - try to keep white, really strong white, like this https://youtu.be/1A8d9aeUQlU?t=101, https://youtu.be/5IPL6OUnFw8?t=110 , remember, green and wood and black are just decoration. Room is based on beautiful white things with elegant curves. If you have to use colors, use pastels(for toys, I will use bright colors).
   - make sure it is clutter free. Less is more, is essential part of the style.
   - blend Modern with Rustic https://youtu.be/XxgwI_OCAOU?t=223
@@ -161,6 +162,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - expose those towels
   - colors
     - white, light gray, https://youtu.be/8rKltrQ45ao?t=245, or maybe camel
+    - white, light gray, https://youtu.be/8rKltrQ45ao?t=245, or maybe camel
   - rags: choose camel/brown/woodish or grey
   - dish towel: white
   - face towel: white
@@ -182,6 +184,15 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - not for wool
 
 ## shelf_box_system
+- PlanB: go without DIY
+  - limit the colors to wood+white ONLY
+  - use exactly same shelves for similar tasks
+  - but for much bigger/smaller/different usecases, I am free to switch to other shelves
+  - https://item.jd.com/3327229.html#crumb-wrap
+  - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
+  - https://item.jd.com/100012221566.html#crumb-wrap
+  - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
+    - extensiable/modular
 - Goal: Try to put eveythings in a box, and put boxes on shelves. Things should be, or be put in a box, unless there is a reason not to do so. For example, try to make cat home, flower pots and everything part of my box set. And maybe I don't need specially structured containers like wardrobes, cabinets, closet, cupboards... this system unifies them.
 - I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
   - big open shelf system does not have to be messy https://youtu.be/dwOC3Pn3q8s?t=367 'it is more fun, it helps us navigate more easily'
@@ -390,12 +401,43 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - white+wood https://youtu.be/lnLiNNgN980?t=214
     - white cabinet + wooden countertop
   - the trick is make it as white as possible, then make sure every tool is beautiful, because they will popup with the white background
-- maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
-- oven+dishwasher+bigFridge
-  - if you stir fry a lot, you can get most out of a dishwasher
-  - if you don't cook a lot, you won't bother to buy bigFridge and oven.
-  - so everything is a system
-  - go electric, try to use timer more
+- All-Electric Cooking Appliances
+  - Mi Oven + Mi Microwave + Mi Electric Stove(with pans/pots/steamer)
+  - currently pass: Mi Steam Oven + Air Fryer
+  - the reasoning: Baked receipes are ture time saver, you can basiclly throw whatever you want to eat and start the timer. I have left-overs and buy take-homes very own, so keeping a microwave is for sure a must. And I can not go without stir-fry(all dishes) or pan-fry(eggs) or steamer, that's why I also need a electric stove.
+- countertop
+  - L shape countertop make things more approachable
+  - maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
+- bigFridge
+  - MI Fridge https://zhuanlan.zhihu.com/p/87499198
+- 蒸烤箱 Steam Oven https://www.bilibili.com/video/BV1HZ4y1T7Ss?from=search&seid=10265295816858611302
+  - Do I need a steam oven? NO.
+    - I searched profession chef youtubers, they don't use it.
+    - this lady feels it's no special https://www.youtube.com/watch?v=sEePQmu5T0Q
+  - what's speacial about it?
+    - you can add moisture while baking, so that your food could taste better
+  - can I use it to heat leftovers up? yes
+  - MI Microwave
+    - should I buy this? YES
+    - 399RMB
+    - why I need a microwave?
+      - you can use oven as microwave, but it's slow and waste more energy
+      - if you have leftovers all the time, microwave is a must have
+    - should I buy a MI Speed Oven(microwave+oven) device?
+      - https://www.xiaomiyoupin.com/detail?gid=133883&spmref=YouPinPC.$SearchFilter$1.search_list.2.6116334
+      - the oven for this is a joke(only 23L), I need sth more powerful. the MI Steamer&Oven looks much more powerful. 
+    - esay to clean https://www.bilibili.com/video/BV1e4411f7q7?from=search&seid=8013302989209647309
+    - you can bake chicken wings with it
+    - no metal allowed to put in
+  - 米家电烤箱 MI Oven
+    - Do I really need a Oven? YES
+    - if you do need a oven, make sure it is no smaller than 35L https://www.bilibili.com/video/BV1FW411K7qR/?spm_id_from=333.788.recommend_more_video.2 small oven's heating is hard to be kept even
+    - no big difference from air fryer or steam oven
+      - https://www.youtube.com/watch?v=9sTwQ2xewIk
+  - 米家电磁炉 Electric Stove to do stirfry https://www.bilibili.com/video/BV1UW411Y7fB/?spm_id_from=333.788.recommend_more_video.0 
+    - with a set of pots https://www.bilibili.com/video/BV1v4411B772/?spm_id_from=trigger_reload
+    - 2100w, more powerful than average
+- avoid sticky wok https://www.bilibili.com/video/BV1Kt4y1q7pm/?spm_id_from=autoNext
 - spring onion
   - buy less than 1km everytime, wash and cut them all, save in 2 jars
 - knife set
@@ -549,6 +591,7 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
 
 ## Entryway
 - how to store shoes, the creative way https://youtu.be/RWNjzxypsSc?t=345
+- Ikea boxes is good here https://youtu.be/eoyE2IVMs9I?t=93
 - this is how to make your room clean, by changing shoes https://youtu.be/cRs5z-pmozE?t=97
   - the height differences does help
 
@@ -567,9 +610,19 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - https://www.bilibili.com/video/BV1kt4y1Y7z3?t=5m40s
 
 ## peter_room
+- desk lamp
+  - MI desk lamp Pro https://www.youtube.com/watch?v=PNIxy_6E3iY
+    - MJTD02YL
+    - 200lm
+    - 64 LED 12.5w in total
+    - 2500k-4800k adjustable
+    - Ra90
+    - longevity 25000h
 - deal cords https://www.bilibili.com/video/BV1jZ4y1N7sL
 - how to fold clothes https://www.youtube.com/watch?v=lTvJuxbD-No
 - my quilt size: 230x180, one of the covers 220x180
+- gosunk(Mijia enabled) smart switch
+  - tip: had hard time finding the device in Mijia App, change Network location from Singapore to Mainland China Solved the problem
 - space
  - floor to ceiling height 267cm
  - floor width: 272cm floor length: 420cm
@@ -886,3 +939,13 @@ or metals to add dimension to the space.
   - even artist love it https://youtu.be/p9286KaJjb0?t=125
   - people even build it in tiny house https://youtu.be/UGQfAII0hF0?t=393
   - but I don't think I will use it, I am pro automation, cutting wood is not my thing  
+- shelf_box_system with wood
+  - the goal is to have a very flexible shelf, kind of like https://www.hoppekids.com/en/products/91197-2/
+  - use same square section wood as both vertical and horizontal frame
+  - countersink screws to connect the parts
+  - grandpa shelf: frame: 8x8cm thick wood, board: 4cm, for large structure as tall as the ceiling, strong enough to hold me on top
+  - papa shelf: frame: 5cmx5cm thick wood, board 2.5cm, strong enough to hold kid shelf
+  - kid shelf: frame: 2cmx2cm thick wood, board 1.5cm
+  - horizental bar will be mount on vertical bar(use two end screw to hide the screws), while board will be mounted on horizental bars, hide the screen top by drilling from bottom to top
+  - ref:
+    - https://www.youtube.com/watch?v=lj0PgrRZhj8

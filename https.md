@@ -1,3 +1,7 @@
+# Strategy
+
+Maintaining certs turned out to be painful, so when possible use github Pages for sites.
+
 # 给 haoqicat.com 添加腾讯的 https 证书
 
 https://cloud.tencent.com/product/ssl?fromSource=gwzcw.471468.471468.471468

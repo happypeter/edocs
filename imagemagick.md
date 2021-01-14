@@ -1,3 +1,9 @@
+## image org
+
+- main repo https://github.com/happypeter/images e.g https://happypeter.github.io/images/2015012507.jpg
+- every project keeping its own imgs is now encouraged, since my future projects are mustly just books that won't go too big in size
+- img.haoqicat.com is obsoleted, since maintaining a https web server is a pain
+
 # railscast #374
 
 ```
