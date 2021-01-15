@@ -6,20 +6,20 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 
 ## Design Guidelines
 - goal: My own flavor of Scandinavian Style: Minimun+Simplicity+Functionality(from Scandinavian)+Portable+Modular+Techy(from Myself)
-  - minimum. Does a thing spark joy?
+  - minimum. Does a thing spark joy, otherwise why keep it.
   - Simplicity. Limit the details https://youtu.be/2A7kjGzICA8?t=107 'when you have just 5 colors in your home, that feels more peaceful'. Things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value. Prefer single color items like chairs, plates etc.
-  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details may not fit well in your new home. Expose kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Scandinavian people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration. And, you can make rooms multipurpose, like the lady use dinning room as workspace https://youtu.be/3wnRv1ptyzg?t=654, I like the idea. I will prefer 'functionality over form', the home should aid my efficiency, e.g a powerful kitchen, great cleaning_system, easy to clean toilet and so on, any home should optimize for family's health, e.g a good lighting_system. Of course I love beautiful things, but whenever I will pressure on price, I will opt for functionality.
+  - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details may not fit well in your new home. Open kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Scandinavian people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration. And, you can make rooms multipurpose, like the lady use dinning room as workspace https://youtu.be/3wnRv1ptyzg?t=654, I like the idea. I will prefer 'functionality over form', the home should aid my efficiency, e.g a powerful kitchen, great cleaning_system, easy to clean toilet and so on, any home should optimize for family's health, e.g a good lighting_system. 
   - portable
     - no damage to the walls
     - all the furniture parts should be easily to carry by myself
   - modular
-    - furnitures should be very modular and extensible, easy to be replaced and upgraded on part each time. I will use pipes to make the spaces restructable.
-    - also, think in systems, not each utility. For example, shoe storage is a problem I need to solve, think about how the shoe boxes with fit into the bigger $shelf_box_system. The system thinking is only possible, when I strive for strong standardization.
+    - furnitures should be very modular and extensible, easy to be replaced and upgraded on part each time.
+    - also, think in systems, not each utility. I strive for strong standardization. Before purchasing, think about how a thing's size and usage and colors fit into current systems.
   - techy
     - have posters of github/google/code/editors , the theme is Coder's Home.
     - Unix Filesystem like org. say consider each container as a folder(a box), and tag names to it. e.g misc/ clothes/underwear/... have a beautiful filesystem hirachey so that things are easy to find. everything should have its home. everything is a box. folder should have walls(could be wall/table/phisical-box/thin-air), so that rooms won't look clustered.
     - standardlization
-      - I live in a era when poverty are not solved. As a engineer, I beleive the only way to solve it is to push industiralization forward. So I will buy from big vendor, like Ikea, and all bowls/boxes and everything should have same sizes unless there is a reason not to do so. Push economies of scale for any industries. Unify things possible, use my shelf_box_system to replace cabinets/tables/flowerstand/... whenever possible. Even it means a little sacrifice on good looking. E.g All the lamps should be the same, unless their is a clear reason not to do so. This way I have time to foucus on searching for the best lamp with good enough price.
+      - I live in a era when poverty are not solved. As a engineer, I beleive the only way to solve it is to push industiralization forward. So I will buy from big vendor, like Ikea, and all bowls/boxes and everything should have same sizes unless there is a reason to alter. Push economies of scale for any industries. Unify things possible, use my shelf_box_system to replace cabinets/tables/flowerstand/... whenever possible. E.g All the lamps should be the same, unless their is a clear reason not to do so. This way I have time to focus on searching for the best lamp with good enough price.
     - automation friendly: make the floor clean, so that I can use the robot vacuum.
 - What is Scandinavian Style?
   - Why so white? because of the long winter in Scandinavian countries, this style opts for bright open space, and the love of nature.
@@ -31,17 +31,14 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   -  https://www.youtube.com/watch?v=qoT7P2iOkJU Scandinavian Interior Design | Defined and How to master it: There is a particular color palette that's associated with the Scandinavian decor and this includes the hue of grays, whites, browns and blanks. Peter Side Note: note the 's' after each color. I do use different whites for things, they works together. Brown is wood color, OK to have sth other than wood which is brown.
   - What Define Scandinavian style? https://www.youtube.com/watch?v=lyjC_QYZdx4 NO.1 color palette - walls are typically paint in white colors - use wood/fur/texture to add more demensions to the space - use darker colors and thin lines - the minimumist commonly just use black+white+wood+plants as the palette. NO.2 Lighting. big windows white curtain and open spaces NO.3 Furniture. Thin legs to avoid shade, always create spacious and airy feelings NO.4 Nature. lots of green and dry leaves NO.5 Natural Materials, sheep skin/wool
   - Core value: Scandinavian Design goes extreme on pragmatic functionality. https://www.bilibili.com/video/BV1Af4y197Ep Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by Scandinavian people to have Scandinavian style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style. Rule2:  Push progmatic usefulness to the extreme. Design everything from it's functionality. e.g reuse ladders/stackofbooks/cart as nightstand. open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter. Expose power cord and everything Rule3: Follow your heart, as long as it is not ugly. You are allowed to combine anything together as you want, free to mix in some classic furniture in your space, be creative show your own personality is encouraged. 'as long as you type in Scandinavian Style in taobao, you are betraying Scandinavian style'
-- Globals
-  - white_box_size =  40cm*50cm*20cm
-  - eveything white except there is a reason not to do so. For windows, white frame + white curtain = bright room + good background for my plants
-  - Table
-    - I don't like the iron leg sharp edge desks now
-    - round corner is nice. safe for 2 yo. comfortable when you touch it
-    - I want wood workbench like my dinning table now. round corner, light, legs removable, so very portable
-    - I don't want screws exposed outside, you can hide them easily
-    - I want it to be versatile, so no drawers. Want shirt not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
-    - my current desk material: Scots pine
-    - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
+- Eveything white. except there is a reason not to do so. For windows, white frame + white curtain = bright room + good background for my plants
+- Table
+  - round corner is nice. safe for 2 yo. comfortable when you touch it
+  - I want wood workbench like my dinning table now. round corner, light, legs removable, so very portable
+  - I don't want screws exposed outside, you can hide them easily
+  - I want it to be versatile, so no drawers. Want shirt not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
+  - my current desk material: Scots pine
+  - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
 
 ## lighting_system
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
@@ -133,12 +130,6 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - for pathway 20lumens/squareFoot, 200lumens/squareMeter
     - for dinning table 30lumens/squareFoot
     - for task light 50lumens/squareFoot
-### bottle_system
-- will use lots bottles/jars for kitchen and bathroom
-- labeling
-  - for anything used in wet area, use transparent tape to stick, otherwise just use white glue
-  - love the font https://youtu.be/8rKltrQ45ao?t=9
-    - In my sketch, I have 'hannotate TC', which is quite close to it, clear and a little chubby, like it
 
 ## cleaning_tool_system
 - S pattern
@@ -209,33 +200,36 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - https://youtu.be/kfRbTQrqY5M?t=33
 
 ## project_closet
-- this is how a modern closet/wardrobe shoube be like https://youtu.be/XWpdDXKeCtA?t=3
+- this is how a modern closet/wardrobe shoube be like 
+  - https://youtu.be/XWpdDXKeCtA?t=3
+  - https://item.jd.com/66874460142.html  (purchased)
+    - have curtain if needed https://item.jd.com/66987839616.html
 - the space we have
   - 60cm deep, 280cm height, 180cm width.
-  - I am not the only guy who play hanging rod on that corner https://youtu.be/AShs_TGOJQI?t=694
-- What do I have for the closet?
+- boxes needed with the closet?
   - easily approachable
     - 1 sock box: 10widthx10hightx50deep 1 8th of the $white_box_size enough for 30-40 pairs(folded the MarinKondo way)
     - 2 underwear/t-shirt box: each is 20widthx10hightx50deep, 1/4 $white_box_size
     - 2 shoe boxes: together share a $white_box_size
     - 1 outwear box: each is $white_box_size
-    - 1 hanging rod: 80cm long for 10-15 clothes
-  - top of the roof
-    - 3 $white_box_size for other clothes or stuff
-  - don't block the light
-- use vertical space without taking up floor space
-  - sth like https://youtu.be/WCyhIVKnOF8?t=63 but no nails in the walls
 
 ## project_box_system
 - intro: This is part of my shelf_box_system. the goal is to have a set of boxes, that follow a fixed standards, so they are nicely aline of stack together. ikea also has the storage unit concepts, I think I am doing something similar https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/ .
-- different generation boxes
+- different generation boxes/jars/bottles/etc
+  - labeling: for anything used in wet area, use transparent tape to stick, otherwise just use white glue
+  - love the font https://youtu.be/8rKltrQ45ao?t=9
+    - In my sketch, I have 'hannotate TC', which is quite close to it, clear and a little chubby, like it
   - each gen should have same boxes
   - different gen servee different purpose, thus can have unrelated size/material
   - watch shelf sizes
 - big storage box for clothes and other fabric
   - 爱丽思抽屉式收纳箱衣柜透明 https://detail.tmall.com/item.htm?id=39138096663
   - size: 40cm*50cm*20cm
-  - may try other size
+  - smaller size
+    - one for socks, the other for underwear, another for Elon's clothes
+    - for often used things, drawer is a must. Sockets with lids won't work.
+    - but I don't want the transparent front, add visual clutter, not to mention there is annoying logo on it
+    - nice alternative https://item.jd.com/10022323972405.html
 - Plastic open box for kitchen
   - to contain jars/bottles
   - 拼多多：奈特小店，素色桌面收纳盒 30cm*20cm*13
@@ -262,8 +256,6 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - professionals does allow different tones of white and gray in same room, but I would like to stay cautious, use milk white and a limited number of gray, and try to stay constant.
     - sliver and brown door color are toleranted
       - white and black theme are very tolerant of other colors, especially when this is only one color so the brown-red of doors and cabinets is not a problem, the problem is something else, maybe because the they not modern enough by itself, so the idea is not to fix the color, but to fix the style
-        - adding bright color modern looking handles may help a lot https://youtu.be/SZzJhZ_TrfY?list=PLdgMcYYc0hOtRxQA9pHsY5WtaLxLKfYTf&t=25
-        - my kitchen cabinet's problem is having a dark color body and darker top
   - why I don't have a theme neutrual color?
     - having a theme color have two benefits, NO.1 set the tone for the home. NO.2 unify different rooms. But for now I prefer not to have a theme color, keep it simple.
 
@@ -320,19 +312,15 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - Mi Oven + Mi Microwave + Mi Electric Stove(with pans/pots/steamer)
   - currently pass: Mi Steam Oven + Air Fryer
   - the reasoning: Baked receipes are ture time saver, you can basiclly throw whatever you want to eat and start the timer. I have left-overs and buy take-homes very own, so keeping a microwave is for sure a must. And I can not go without stir-fry(all dishes) or pan-fry(eggs) or steamer, that's why I also need a electric stove.
-- 蒸烤箱 Steam Oven https://www.bilibili.com/video/BV1HZ4y1T7Ss?from=search&seid=10265295816858611302
-  - Do I need a steam oven? NO.
-    - I searched profession chef youtubers, they don't use it.
-    - this lady feels it's no special https://www.youtube.com/watch?v=sEePQmu5T0Q
-  - what's speacial about it?
-    - you can add moisture while baking, so that your food could taste better
-  - can I use it to heat leftovers up? yes
   - MI Microwave
     - should I buy this? YES
     - 399RMB
     - why I need a microwave?
       - you can use oven as microwave, but it's slow and waste more energy
       - if you have leftovers all the time, microwave is a must have
+    - Do I need a steam oven? NO.
+      - I searched profession chef youtubers, they don't use it.
+      - this lady feels it's no special https://www.youtube.com/watch?v=sEePQmu5T0Q
     - should I buy a MI Speed Oven(microwave+oven) device?
       - https://www.xiaomiyoupin.com/detail?gid=133883&spmref=YouPinPC.$SearchFilter$1.search_list.2.6116334
       - the oven for this is a joke(only 23L), I need sth more powerful. the MI Steamer&Oven looks much more powerful. 
@@ -377,26 +365,11 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - google `kitchen hanging rack` you get some really aethetic sulutions
   - https://youtu.be/AgRaXlYCyzM?t=521
   - hang glove https://youtu.be/sbW3TSSm_qI?t=64
-- pots and pans
-  - buy beautiful and lay them on the shelf https://youtu.be/yeLlHsFkM-U?t=657
-    - brass color pans https://youtu.be/cdVuHljNl6A?t=87
-  - https://youtu.be/cRs5z-pmozE?t=409
-  - even you try to be very minimum, use same pots and woks for everything is not wise, it's wasteful to cook one egg with a large wok, right? more pots does not mean more work, you only need to wash one per meal.
-  - a milk pot https://youtu.be/SF8XIusz150?t=687, for boiling eggs/milk/instant_noodles and heat up leftovers
-  - a pan, for all fries. eggs/pork/...
-    - a non-stick pan
-    - have a universal lid
-    - do I really need a pan? a wok is more versatile since it's deep enough for braising fish/beancurd/..
-      - my current wok was designed to be versatile, it's heavy so that food won't cling easily, it has a pan-ish bottom, so that I can fry eggs, want to stew/braize? that's what it is for.
-  - steaming pot to reheat the bread
-    - reuse smaller pot for steaming? https://youtu.be/SF8XIusz150?t=768
-    - Billie wants to make Chinese buns/bread, so maybe we need a big one
   - will build a pot hanging area on kitchen shelf, with curtain, make sure the pot handles are suitable to for this
   - a porriage pot, maybe a eletric one with timer?
   - current pot diameter: 22cm
 - fruit basket: my current one is nice looking, but I am thinking, maybe I should switch to a big white bowl, when the current one is broken. Just like I may use a big bowl and not a vege drainer, just because, white bowl are simple and thus more versatile. I can use the bowl for noodles someday. And white bowls for everything also meaning less visual complexity for the rooms. Sometimes it's wise to stay simple and stupid.
 - egg storage box
-  - DIY https://www.youtube.com/watch?v=OKBaqYskb68
   - have a plastic egg drawer rack
 - plates and bowls
   - go IKEA Oftast bowl
@@ -406,7 +379,6 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - A beautiful combination: Oftast plates and bamboo peggboard-ish plate rack
     - https://youtu.be/CioYwYRf8o4?t=50
     - I like the feel and silence when I put the plates back on the rack
-
   - everything in beautiful white and least curves
 - vege drainer
   - Ikea has a good one https://www.bilibili.com/video/BV1bD4y1Q7BN?t=55
@@ -421,13 +393,10 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - for rice/flour/catfood, and sth
   - packeged bread/cookies/instantnoddles will be kept in a box
   - https://youtu.be/jX-73OMBX0w?t=607
-- kitchen shelf
-  - I do need a big shelf https://youtu.be/zGFRyN9aZhM?t=341
-  - transparent jars/boxes/bottles on more approachable places
-  - big boxes to hide plasitic bags
-- long rod
+- long hanging rod
   - https://youtu.be/cdVuHljNl6A?t=84
   - to hang boards, pans, etc
+  - all I want is a board wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
 - dish washing
   - 5 steps:
     - S0: Spary some diluted soap(pre-treating is key)
@@ -449,50 +418,19 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - it needs to be elegant enough, so that you don't mind to hang them out https://youtu.be/cRs5z-pmozE?t=149
   - esay to wash, vage are able to stay in it for short time
   - sew myself https://www.youtube.com/watch?v=b7pH_DJwnkE
-- project_kitchen_shelf
-  - the goal: a step back cabinet, with open shelf.
-  - NOTE: don't use cardboard box, you need to wash them
-    - I think I will lean on Ikea solutions, I don't want to buy a box from a small brand, and later can not find the same style anymore.
-  - phase one: a 120x60x75 table
-    - use 2.5cm wood board, 60x20x2.5cm, may need 5 or 6 (with or without gap)
-    - pipes: four 125cm, four 40cm, two 75cm(legs), two 160cm(legs)
-  - style, black pipe + wood board, there is a img in sketch file
-  - board should be wide enough to fit in mi microwave https://www.mi.com/buy/detail?product_id=10330
-    - 40cm will be enough
-  - ground storey: for trash bin
-  - will make the board white
-  - will have a hanging rack, google 'kitchen hanging rack' https://youtu.be/AgRaXlYCyzM?t=521
-  - first storey: for my three big plastic vege box
-  - second floor: extended countertop, plate rack here
-  - third floor, a less deep cabinet for mason jars
-  - have to install two drawers, how can I live a life without wood drawers
-  - mason jars
-    - clean spring onion 
-    - noodles
-    - rice noodles
-    - Chinese dates
-    - peanuts
-    - rice
-    - soy beans
-    - green beans
-  - inspirations
-    - search 老式碗柜 (Chinese old school pantry)
-      - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
-      - this is how you organize bags https://youtu.be/BMb7stGiJsM?t=386
-    - STOREY Shelf System https://www.hoppekids.com/en/products/91197-2/
-    - PANTRY ORGANIZATION + TOUR | 10 TIPS FOR AN ORGANIZED PANTRY | ORGANIZE WITH ME
- https://youtu.be/3NvyH3Aeddg?t=253
-- project_framed_poster_for_power_switch_panel
-  - panel size: 44x28cmx1cm
-  - DIY the poster with markers
-    - featuring Github or Google, wikipedia
-  - DIY the frame with cardboard
-- hide things to give a clean look from living room
-  - build a tmp wall with my big white boxes, and hide things behind it
-  - save thing behind the really wall
-      - hang things on the wall
-      - glue on the china tile wall: https://youtu.be/hcxro4ZTTmo?t=547
-      - all I want is a board wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
+- mason jars
+  - clean spring onion 
+  - noodles
+  - rice noodles
+  - Chinese dates
+  - peanuts
+  - rice
+  - soy beans
+  - green beans
+- pantry inspirations
+  - search 老式碗柜 (Chinese old school pantry)
+    - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
+- this is how you organize bags with food https://youtu.be/BMb7stGiJsM?t=386
 - layout
   - cutting board/oil/spetula/... should be placed as near to the stoves to be approachable
 - how to declutter? eveything white.
@@ -501,6 +439,7 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - white bowels plates and things
   - things dirty in peope'e mind shall be white to show they are very clean
   - always have a set of things(bottles, mason jars, bowls, and plates)
+
 ## Dinning Room
 - table
   - at least 80x120cm, for the three of us
@@ -583,9 +522,6 @@ Folder division based on locations. e.g the whole clothes storage system could b
     - https://youtu.be/crjZBwbtlXQ?t=918
   - TODO: waiting for my pipes
   - speaker https://youtu.be/crjZBwbtlXQ?t=922
-- socks storage
-  - even 25 height box is not perfect to stock socks, but a specially build box is still hard to manage.
-  - besides, It won't work with a lided box or a open box, it MUST be a drawer to store the things, since I open it frequently. So I will keep using my big white box for socks, not perfect, but still the best solution I can get before I can DIY my own wood drawers/dressers.
 - socks hanger
   - same logic for socks as for clothes, when they gets dry, I can leave socks attached to the hanger, and put everything together in the socks storage box
   - MUST HAVES
@@ -630,7 +566,6 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - use '水洗棉' Washed cotton https://youtu.be/Ou0Lp7UfNVw?t=141
 - nightstand TODO
   - I need to be able to put cellphone
-  - go my shelf+box concept
 - chair
   - https://youtu.be/crjZBwbtlXQ?t=562
   - cat fur proof
@@ -660,13 +595,6 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - washed cutton sheet
 - balcony 
   - https://youtu.be/wPjI0mBWezg?t=53
-- closet TODO
-  - this will be done my shelf_box_system way
-  - currently not enough place to hang clothes
-  - for shoes/suitcases
-  - have a lot of hangers of different sizes, when the clothes are dry, put them in the closet together with the hanger
-  - most underwears can be put in smaller carboard box, as Marie Kondo suggested, group things by size. Don't use one same box for underware and jackets
-  - keep all socks same color same size, keep them in a special box once they are dry.
 - plant_corner
   - how to take care https://www.youtube.com/watch?v=kbNZJzVfqYI
   - use a shelf https://youtu.be/hOwonkbzncw?t=91
@@ -683,14 +611,12 @@ Folder division based on locations. e.g the whole clothes storage system could b
     - cover the hole with filter to stop soil leak https://www.southernliving.com/home/flower-pot-coffee-filter
 
 ## Bathroom
-- how to install a bowl
+- Style: Follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+- how to install a toliet bowl
   - https://youtu.be/bbqZ12QhoY4?t=37
 - https://www.youtube.com/watch?app=desktop&v=bbqZ12QhoY4
   - you don't need a slope for the drainage line, while interestingly you do need a bit slope for vent line to drain rain water
   - maybe you do need https://www.bilibili.com/video/BV1Hs411c7jU
-- plumbing refs:
-  - https://www.youtube.com/watch?v=Dg56chdr-FQ DIY Plumbing Basics: Guide for Homeowners
-
 - want to get rid of the flying bugs, try to change another type of drainage hole  https://k.sina.cn/article_6519280980_18494555400100cin0.html
 - hang things https://youtu.be/ca15ttSuNUg?t=215
 - keep water away use 涤纶
@@ -698,9 +624,8 @@ Folder division based on locations. e.g the whole clothes storage system could b
 - toilet paper hanger should be a simple rod, not a box, just keep the hanger beyond the shower can reach, a box does not work well for me. cumbersome to put paper in, and some times the paper hide in the box, you can not get it.
 - how to clean bathroom
   - use vineger plus dish soap. https://youtu.be/-C-ic2H24OU?t=506  https://youtu.be/b6Pu7jKBKvM?t=55
-- Just follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
 - a place to hang things a bit dirtier, bowl brush, shoe brush, rags, gloves...
-- washing power: a glass jar with measuring spoon in it is a typical setting.
+- washing powder: a glass jar with measuring spoon in it is a typical setting.
 - keep other containers preferably white
 - towel management
   - towel rack in bathroom, one towel for hands, another for body
@@ -711,146 +636,18 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - I think I will go classic round white basins
     - easy to hold with one hand, more portable than square ones
     - easy to stack together
-- project_bathroom_table
-  - goal: a workbench for basins
-  - white top and black legs are cool
-  - tasks
-    - board size 50lengthx40widthxheight(modifiable) 
-      - top: 1 board 40x50
-      - middle layer: wood sticks, for basin not in use
-      - bottom layer: ground, for the sock basin
-    - pipe sizes
-      - height: 4x75cm (1.5cm board thickness, finally height will be 77cm or sth)
-      - depth: 4x25cm(board is 40cm deep)
-      - length: 4x55cm(board is 50cm long)
-    - medium size basin diameter 38cm
-    - stable enough so I can do washing on it.
-    - will build with steel pipes.
-## Home Appliances
-- refridgerator https://www.youtube.com/watch?v=8Ln7YdGrdjU
 
-## Garage
-- TODO: make a two layer workbench with 2 big wood board down stairs and pipes
-  - need to wait and see if the 25mm is strong enough
-  - this is how the table should look https://youtu.be/DvzWx2tHZ18?t=121
-- DIY lamp
-  - https://youtu.be/6P8qWP5SsbM?t=423
-  - https://youtu.be/69LnlusTOKM?t=16
-
-## MISC
-- have shelf on wall without drilling: use 'hole panel'
-  - https://youtu.be/a0mK0lXMMIc?t=310
-- cable management
-  - use 'hole panel' https://youtu.be/a0mK0lXMMIc?t=343
-- change Door color
-  - use sth thick to cover the door with textures: https://youtu.be/ZIeLvU8FhbA?t=389
-- if I need to seperate spaces
-  - use '铁艺隔断’ iron room divider: https://youtu.be/Ou0Lp7UfNVw?t=129
-- use cardboard to build prototypes
-  -  DIY How to make a Cardboard Shelf  https://www.youtube.com/watch?v=QDvn--mlHU0&t=40s
-  - https://www.youtube.com/watch?v=OPX6Vmhn6JI
-- make a destop shelf and pen stand
-  - https://www.youtube.com/watch?v=L65pzh0eN9U
-  - finish with fabric, hemp rope or rattan
-    - DIY - How to make a cord basket https://www.youtube.com/watch?v=frVTZaii3U4
-  - I can mix wood and cardboard https://youtu.be/yfDWShtRom4?t=318
-- a tissue box for tissue and trash bags
-  - https://lovelyindeed.com/diy-gold-leaf-tissue-holder/
-  - https://youtu.be/LgviuiQqeWk?t=56
-- shoe stool with cardboard and unused books
-  - cover a book with wallpaper, you get a strong board
-  - assemble four such boards, you get a cross
-- https://www.youtube.com/watch?v=x26n64E2P7Q  TOP 5 DESIGN TIPS 
-for SMALL SPACES:  The floor the walls, the ceiling, you want to paint them all
-the same color. Then there is no lines to break anything up.
-- TODO a hamper
-- TODO a memo board
-  - DIY - Wooden memo board https://www.youtube.com/watch?v=voKcdweqqR4
-- TODO a stool with books
-  - https://www.youtube.com/watch?v=qxOMpXrCKeI
-- TODO: small wood table or chair https://www.youtube.com/watch?v=1kDK2WkJ8xg
-- TODO: a drill
-  - how to choose the right one https://www.youtube.com/watch?v=e_UxGlAv2H8
-  - a screw driver
-  - a bit
-- Have a Focal Point
-  - https://youtu.be/-CuBpoUhRuM?t=225
-- use mirror
-  - to introduce light and view to your small room https://youtu.be/8zmkPhH4cms?t=229
-- aviod visual clutter
-  - the chair https://youtu.be/OaU6_qndCQg?t=210
-  - the lesson: simple is always safe choice
-- posters/memoboard
-  - as the lady inspired https://youtu.be/1K4Fb6ENFBM?t=243
-  - careful when use words as posters, visual clutter tends to happen
-    - if you really loved it, limit it to one word poster for one room.
-- add natural textures
-  - https://www.youtube.com/watch?v=FFSWd0PS2ek : No matter what color sheme you choose, it is important to add some natural texture
-or metals to add dimension to the space. 
+## DIY Tricks
 - Painting
   - https://youtu.be/tA7B0lN4vWY?t=82
   - when painting wood, a second coat is recommended. Professional people even do 2 primer + 2 paint
   - cover surface around painting area with masking tape 美纹纸
   - for broken white wall, use spray paint
-  - cardpaper? use acrylic colors.
-    - EC life, hot melt gun and cardpaper craft https://www.youtube.com/watch?v=08rmUPh9DtA
-- removing glue stains
-  - use sharp knife, it works but takes a bit patience
-  - people also say, use oil
-- cardboard_box_diy
-  - in case I need simple drawers https://youtu.be/kbL6N46pI5k?t=170
-  - Hot-melt adhesive or white glue
-  - try to use old boxes papers, glue them into big pieces
-  - then do the box like everyone do it
-  - use long rule to fold the paper https://youtu.be/131IIllYxD8?t=162
-  - make it one piece then glue it https://youtu.be/JfGmu-06rM0?t=205
-  - a lid like this https://www.youtube.com/watch?v=BLHjYo04jKQ
-    - use fabric for the joints
-- picture frame with cardpaper
-  -  https://www.youtube.com/watch?v=sYmELumpRvk
 - how to fix the walls
   - use wall color wall papar
 - a simple carboard frame and stand for frameless mirror glass
   - frame, I will do it the super simple, use tape
   - stand, TODO: waiting for the glass clip and wood
     - will make a simple frame with two 60cm and a 35cm connection
-- wallpaper
-  - EC life's trick. heat the paper when removing it with hair dryer
-- carpenter
-  - wood boards can be assmebled in whatever way I want
-  - cutting
-    - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
-    - so a small hand saw will do
 - Polyvinyl acetate is also called wood glue or school glue, it's the same chemical we use for chewing gum
-- a cave for kid https://youtu.be/mjkFrqPejyU?t=652
-- bed on top of wardrobe https://youtu.be/mjkFrqPejyU?t=678 https://youtu.be/mjkFrqPejyU?t=862
-  - https://www.bilibili.com/video/BV1gK411K73h/?spm_id_from=333.788.videocard.18
-- how to remove 免钉胶 nail free glue https://youtu.be/WYyTHyvcypI?t=124
-  - the trick is use hair-drier
-- shelf + tubs = long drawer cabinet
-- a laddar for light bulbs or my top shelf layer things
-  - when it is idle, hopefully I can use it as a flower shelf https://youtu.be/cSs7dSeWNpo?t=25
-    - current solution: chair + tall bar stool
-- a vege garden https://www.youtube.com/watch?v=hxU9gtORwWU
-  - Growing Vegetables with Self Watering Planter l Cabbage, Lettuce and Green Onion
-  - https://www.youtube.com/watch?v=YZ8PnpMs3J4
-- embed some Chinese elements in Scandinavian https://youtu.be/RUcizR3KJIU?t=185
-- I want also build a keepallbox https://www.bilibili.com/video/BV1H4411q7os?from=search&seid=5766491538637322516
-  - https://www.bilibili.com/video/BV1NK411L7nH?from=search&seid=3499985364906025556
-
-- countryside style
-  - save my childhood
-  - show where I am from
-  - maybe I should own a farm cart
-  - have models for farming tools
-- wood stove/fireplace
-  - even artist love it https://youtu.be/p9286KaJjb0?t=125
-  - people even build it in tiny house https://youtu.be/UGQfAII0hF0?t=393
-  - but I don't think I will use it, I am pro automation, cutting wood is not my thing  
-- PlanB: shelf_box_system DIY with wood
-  - abandoned for these reason:
-    - NO.1 Hard to get a really stable and large structure, without use really thick wood, which would be ugly
-    - NO.2 hard to get round edges, It takes too much effort to do really good finishes
-    - NO.3 It's dumb idea to push reusibility too much, bars used for 
-    large strucure should not be used for really light weight nightstand things. 
-  - the goal is to have a very flexible shelf, kind of like https://www.hoppekids.com/en/products/91197-2/
+- how to remove 免钉胶 nail free glue https://youtu.be/WYyTHyvcypI?t=124 , the trick is use hair-drier

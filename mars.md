@@ -190,3 +190,8 @@ recyclable
 ## Rent Options
 
 - use your imagination, lots of beautiful house in countryside https://youtu.be/IkDIJQo0oj8?t=83
+
+- wood stove/fireplace
+  - even artist love it https://youtu.be/p9286KaJjb0?t=125
+  - people even build it in tiny house https://youtu.be/UGQfAII0hF0?t=393
+  - but I don't think I will use it, I am pro automation, cutting wood is not my thing  
