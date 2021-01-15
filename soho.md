@@ -184,7 +184,10 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - not for wool
 
 ## shelf_box_system
-- PlanB: go without DIY
+- PlanA: DIY with round pipe and wood board
+  - abandoned for 2 reasons:
+    - round pipes are not for shelves, shoud use square pipes
+- PlanC: go without DIY
   - limit the colors to wood+white ONLY
   - use exactly same shelves for similar tasks
   - but for much bigger/smaller/different usecases, I am free to switch to other shelves
@@ -405,11 +408,6 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
   - Mi Oven + Mi Microwave + Mi Electric Stove(with pans/pots/steamer)
   - currently pass: Mi Steam Oven + Air Fryer
   - the reasoning: Baked receipes are ture time saver, you can basiclly throw whatever you want to eat and start the timer. I have left-overs and buy take-homes very own, so keeping a microwave is for sure a must. And I can not go without stir-fry(all dishes) or pan-fry(eggs) or steamer, that's why I also need a electric stove.
-- countertop
-  - L shape countertop make things more approachable
-  - maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
-- bigFridge
-  - MI Fridge https://zhuanlan.zhihu.com/p/87499198
 - 蒸烤箱 Steam Oven https://www.bilibili.com/video/BV1HZ4y1T7Ss?from=search&seid=10265295816858611302
   - Do I need a steam oven? NO.
     - I searched profession chef youtubers, they don't use it.
@@ -431,12 +429,19 @@ Folder division based on phiscal locations. e.g the whole clothes storage system
     - no metal allowed to put in
   - 米家电烤箱 MI Oven
     - Do I really need a Oven? YES
+    - the shelf for oven and microwave(purchased）
+      - https://item.jd.com/100004333789.html
     - if you do need a oven, make sure it is no smaller than 35L https://www.bilibili.com/video/BV1FW411K7qR/?spm_id_from=333.788.recommend_more_video.2 small oven's heating is hard to be kept even
     - no big difference from air fryer or steam oven
       - https://www.youtube.com/watch?v=9sTwQ2xewIk
   - 米家电磁炉 Electric Stove to do stirfry https://www.bilibili.com/video/BV1UW411Y7fB/?spm_id_from=333.788.recommend_more_video.0 
     - with a set of pots https://www.bilibili.com/video/BV1v4411B772/?spm_id_from=trigger_reload
     - 2100w, more powerful than average
+- countertop
+  - L shape countertop make things more approachable
+  - maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
+- bigFridge
+  - MI Fridge https://zhuanlan.zhihu.com/p/87499198
 - avoid sticky wok https://www.bilibili.com/video/BV1Kt4y1q7pm/?spm_id_from=autoNext
 - spring onion
   - buy less than 1km everytime, wash and cut them all, save in 2 jars
@@ -911,8 +916,6 @@ or metals to add dimension to the space.
   - cutting
     - Pinduoduo people will cut whatever size I  want, so I don't need a miter saw.
     - so a small hand saw will do
-- DIY a wood table
-  - Wooden plank table  https://www.youtube.com/watch?v=BnH_Udwisw8
 - Polyvinyl acetate is also called wood glue or school glue, it's the same chemical we use for chewing gum
 - a cave for kid https://youtu.be/mjkFrqPejyU?t=652
 - bed on top of wardrobe https://youtu.be/mjkFrqPejyU?t=678 https://youtu.be/mjkFrqPejyU?t=862
@@ -939,7 +942,12 @@ or metals to add dimension to the space.
   - even artist love it https://youtu.be/p9286KaJjb0?t=125
   - people even build it in tiny house https://youtu.be/UGQfAII0hF0?t=393
   - but I don't think I will use it, I am pro automation, cutting wood is not my thing  
-- shelf_box_system with wood
+- PlanB: shelf_box_system DIY with wood
+  - abandoned for these reason:
+    - NO.1 Hard to get a really stable and large structure, without use really thick wood, which would be ugly
+    - NO.2 hard to get round edges, It takes too much effort to do really good finishes
+    - NO.3 It's dumb idea to push reusibility too much, bars used for 
+    large strucure should not be used for really light weight nightstand things. 
   - the goal is to have a very flexible shelf, kind of like https://www.hoppekids.com/en/products/91197-2/
   - use same square section wood as both vertical and horizontal frame
   - countersink screws to connect the parts
