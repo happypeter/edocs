@@ -539,12 +539,8 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - does not have to be ugly https://www.midwesthomes4pets.com/
   - cat litter box (if I ever need one)
     - https://youtu.be/BBU4xkklIg4?t=241
-- TODO: a shelf from the wardrobe doors
-  - put the shelf next to the shoe cabinet to form an entryway
-  - build some shoe box for boots
-- sizes: - big desk size 110x220cm - billie's desk 160x80cm - main area size 358x458cm - most wall 28cm - window 195cm
-- pitfalls
-  - clock is nice, but be sure to make it nose-less
+- clock 
+  - owning one is nice, but be sure to make it nose-less
 - projector is nice to have
   - https://www.bilibili.com/video/BV1kt4y1Y7z3?t=5m40s
 
@@ -657,9 +653,6 @@ Folder division based on locations. e.g the whole clothes storage system could b
 - nightstand TODO
   - I need to be able to put cellphone
   - go my shelf+box concept
-- desk
-  - need a shelf_box_system with it
-    - https://www.youtube.com/watch?v=o4msSjIJDUU
 - chair
   - https://youtu.be/crjZBwbtlXQ?t=562
   - cat fur proof
@@ -883,11 +876,3 @@ or metals to add dimension to the space.
     - NO.3 It's dumb idea to push reusibility too much, bars used for 
     large strucure should not be used for really light weight nightstand things. 
   - the goal is to have a very flexible shelf, kind of like https://www.hoppekids.com/en/products/91197-2/
-  - use same square section wood as both vertical and horizontal frame
-  - countersink screws to connect the parts
-  - grandpa shelf: frame: 8x8cm thick wood, board: 4cm, for large structure as tall as the ceiling, strong enough to hold me on top
-  - papa shelf: frame: 5cmx5cm thick wood, board 2.5cm, strong enough to hold kid shelf
-  - kid shelf: frame: 2cmx2cm thick wood, board 1.5cm
-  - horizental bar will be mount on vertical bar(use two end screw to hide the screws), while board will be mounted on horizental bars, hide the screen top by drilling from bottom to top
-  - ref:
-    - https://www.youtube.com/watch?v=lj0PgrRZhj8
