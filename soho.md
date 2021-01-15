@@ -193,11 +193,13 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - limit the colors to wood+white ONLY
   - use exactly same shelves for similar tasks
   - but for much bigger/smaller/different usecases, I am free to switch to other shelves
-  - https://item.jd.com/3327229.html#crumb-wrap
-  - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
-  - https://item.jd.com/100012221566.html#crumb-wrap
-  - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
-    - extensiable/modular
+  - bathroom shelf 
+    - https://item.jd.com/3327229.html#crumb-wrap
+    - https://item.jd.com/100012221566.html#crumb-wrap
+  - Main work horse shelf(try to use it for as many cases as possiable)
+    - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
+    - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
+    - artful/light/modular
 - I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
   - big open shelf system does not have to be messy https://youtu.be/dwOC3Pn3q8s?t=367 'it is more fun, it helps us navigate more easily'
 - no_invasion_rule. everything should has it's own home, the home is a cuboid. Each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
@@ -226,41 +228,17 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 
 ## project_box_system
 - intro: This is part of my shelf_box_system. the goal is to have a set of boxes, that follow a fixed standards, so they are nicely aline of stack together. ikea also has the storage unit concepts, I think I am doing something similar https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/ .
-- style: https://youtu.be/ZEunyhWD_9c?t=152
-- paste names on each box https://youtu.be/7Ud2N1sssyw?t=23
-- material: cardboard and maybe wood
-- usecases
-  - clothes storage box
-  - shoebox
-  - bed/sofa/stool
-  - drawer
-  - shallow container to group things https://youtu.be/7Ud2N1sssyw?t=16 , say I have a set of Mason jars, I can put all in a shallow box, so that I can still see most part of the jars.
-  - anything.
-- box_system_sizes
-  - based on my white_box_size , the box sizes I build will be divided by a integer. all the sizes here are exterior.
-  - first generation(biggest box)
-    - $white_box_size 50lengthx40widthx20height
-    - 25x40x40
-  - second generation
-    - shoe box: 40lenghtx25widthx20height (considering my biggest pair of boots size: 29length*23width*15height, but standard over perfect fit for each use case)
-      - show boxes should fit naturally in the $shelf_box_system , actually it is a subsystem of the bigger $shelf_box_system. Right now, the subsystem is but a few boxes on shelf(plus my entryway shoe cabinet), later maybe it will extend to be a shoe shelf or wall.
-  - third generatio
-      - 25x20x10 (lengthxwidthxheight in cm)
-  - fourth gen
-      - 10x10x10cm
-- cover 
-  - with fabric, hemp rope, wall paper, or special paper, keep it cat resistant
-  - kraft paper
-  - how to cover with fabric https://www.youtube.com/watch?v=-m4LU5EvXSs
-  - white glue is good to stick cloth to cardpaper
-- handles
-  - cut holes on walls https://youtu.be/wJakpURTxhM?t=271
-  - use rope
-  - use skirts https://youtu.be/RWNjzxypsSc?t=400
-- lid
-  - simple is good https://youtu.be/wJakpURTxhM?t=1050
-  - diy https://youtu.be/UwgQ8nHMZm4?t=77
-- wood boxes? How To Bauhaus - Wooden Basic Block | DIY Tutorial Bauhaus Design: https://www.youtube.com/watch?v=qqr55FH4pGk&list=PLTuTOkjXVFXJL_0KH49lP2Qw6knHhwWCwj
+- different generation boxes
+  - each gen should have same boxes
+  - different gen servee different purpose, thus can have unrelated size/material
+  - watch shelf sizes
+- big storage box for clothes and other fabric
+  - 爱丽思抽屉式收纳箱衣柜透明 https://detail.tmall.com/item.htm?id=39138096663
+  - size: 40cm*50cm*20cm
+  - may try other size
+- Plastic open box for kitchen
+  - to contain jars/bottles
+  - 拼多多：奈特小店，素色桌面收纳盒 30cm*20cm*13
 
 ## Style
 - wood_plant_palette: A minimumist palette https://youtu.be/lyjC_QYZdx4?t=171
