@@ -184,10 +184,12 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - not for wool
 
 ## shelf_box_system
+- Goal: Try to put eveythings in a box, and put boxes on shelves. Things should be, or be put in a box, unless there is a reason not to do so. For example, try to make cat home, flower pots and everything part of my box set. I rent so I don't want to demage the walls. if I want to make use of vertical space, I need something free-standable and strong, say shelves. Try to make things really simple and thus reusable.
 - PlanA: DIY with round pipe and wood board
-  - abandoned for 2 reasons:
-    - round pipes are not for shelves, shoud use square pipes
-- PlanC: go without DIY
+  - Abandoned for 2 reasons: NO.1 round pipes are not for shelves, shoud use square pipes NO.2 Joint screws should go all the way through the pipes if you want strong structures, not like the joints I had.
+- PlanB: DIY with wood
+  -  Abandoned for reasons: NO.1 DIY takes time PERIOD, thinks about the round edges and different finishes. NO.2 Good Engineers love libaries(ready made builing blocks). NO.3 For large structures, best engineering choice is still to use iron legs, if you want a clean lean structure and keep your rooms airy and bright.
+- PlanC: use mass produced square pipe shelves
   - limit the colors to wood+white ONLY
   - use exactly same shelves for similar tasks
   - but for much bigger/smaller/different usecases, I am free to switch to other shelves
@@ -196,82 +198,19 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - https://item.jd.com/100012221566.html#crumb-wrap
   - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
     - extensiable/modular
-- Goal: Try to put eveythings in a box, and put boxes on shelves. Things should be, or be put in a box, unless there is a reason not to do so. For example, try to make cat home, flower pots and everything part of my box set. And maybe I don't need specially structured containers like wardrobes, cabinets, closet, cupboards... this system unifies them.
 - I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
   - big open shelf system does not have to be messy https://youtu.be/dwOC3Pn3q8s?t=367 'it is more fun, it helps us navigate more easily'
-- elastic_box_philosophy: everything is a box https://youtu.be/4xLdisAvjx8?t=30
-  - everything should has it's own home, the home is a cuboid
-- general idea
-  - I can not change room size, so the larget box unit I can costomize is 'shelf space', stands on stuctures I build by pipes
-    - why not use wood rather than steel piples?
-      - wood is cheaper(espically for smaller things), more customizable(not easy to cut steel)
-        - let's take a simple table as example, 75cm height, top: 60*120
-        - wood  
-          - legs: 5x5x75, total: 70rmb
-          - 4 aprons: 1.8x10x360cm totoal: 40rmb
-          - top: same as pipe scheme
-        - pipes
-          - 100RMB for pipes
-          - 8 joints: 50RMB
-          - top: same as wood scheme
-      - also can be made very resuable and deassemble(use less nails and more screws).
-      - more people do tutorial on youtube about how to do wood, we call them carpenters
-      - wood shelf can be almost boxes, I will make wood boxes anyway
-      - so I will use wood for smaller things, say 20cm deep shelf. It's wasteful to use 25mm pipe to build 20cm deep shelf.
-        - then how to build 20cm deep shelf? use pipes to build a 20cm deep box, say 120widthx80heightx20deep, install 2.5cm thick boards on the 120x80 frame to get a sort of fake wall, then mount 20widthx1.5thicknessx120length boards with brackets on the 'wall' to get the shelf.
-      - for large structures, pipes are still nice, not more expensive or heavier than wood. Much more easy to build a stable tall structure than using wood.
-    - shelves are all about make use of vertical spaces(ref: https://youtu.be/QmqDkSBCm-A?t=66), one idea on the big picture here is try to do things 'up in the air', so I can get more floor space for sports or sth. Then, everything left is generally put boxes on the shelf. Of course, by 'boxes', I mean very large varity of boxes. I can put another smaller thin-pipe shelf(with its own boxes) on a shelf
-    - can be wood drawers, shallow boxes(to group other random containers), deep boxes, boxes with/without lids, box with hangers and one side covered by fabric(a closet unit)...
-    - I don't even want seperator walls on my shelf boards, they are simple flat open space, just a board, not a box.
-    - shelf board. all shelf board needs to be wood, right now I don't accept metal net or anything. how to mount the boards on pipes? A pipe box has three dimensions: height, width and depth. The common way to do it is to mount it cross the whole width, I will do it too. But sometimes, I want to mount smaller boards alone the depth direction, for example, if I want to place some big boxes on top of my closet, the closet roof does not need to be super strong. So it would be a waste to buy a really long board to cover all the roof, the I can mount several small boards and leave gags between each one. it is easier to mount anything on wood board, say a curtain, or a sub-shelf. board edges will become the edge of boxes, pipes are bones
-- no_invasion_rule. each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
-- why I choose pipes_as_backbone of my storage system? I rent so I don't want to demage the walls. if I want to make use of vertical space, I need something free-standable and strong. Many solutions for this, e.g ready-made grocery shelf or clothes shelf, but I find pipes are more approchable and versatile. It's stupid to use big and heavy wood closet, it's a overdo mostly. it's not portable, how about I want to use it as a hanger to air dry my quilts. all I need is some pipe assembled together, if I want walls, use fabric, or I can use peg boards or nets as walls. I want the pipes to be really resuable. I will use sticky paper to give the pipes warm and clean finishes.
-  - UPDATES: there are some pitfalls: NO.1 the join I use to connect pipes are not strong enough, the screw hole are easy to break, if I build large structure with them, I will worry falling. NO.2 the way I mount my wood board on top of the pipe is not aesthetic. NO.3 Exposing lots of steel pipes in the rooms for kids, does not give the feeling of warm and secure. NO.4 It's a design flaw to lay board on top of round, the contact is just a line, not a face, which makes a board not robust as it could be.
-  - UPDATES: When people build large structures, they don't use square pipe, and they want the screws go throw the pipe. NOT just touch the surface, like I do now. I light light steel for house, but square steel pipes are ugly and hard to finish. The joint for them are even uglier, so I think I will just go for wood. Most american homes are build with wood. So It's strong enought to build my shelves.
-
-- one bad example would be: plug thin pipe in to holes of backbone pipe. this design is ugly and that meant you can not remodel the thing, once a thin pipe is removed that leaves a hole on the thick pipe, right way to do this is keeping both the thin and thick pipes intact, use joints.
-- bad example: things outside of the box cuboid. most pipes should be the edges of the box, nothing should be outside the box. take closet for example, many design use the edge to hang clothes, that means the clothes will be outside the box, not allowed in my philosophy. the right way to do it is to use thick pipes for the edges, the edges are there to provide a strong stucture, not to hange clothes. install a thin pipe in the middle as hanger bar
-- pipe diameter: 25mm. 25mm with 1mm walls, very heavy and strong, for interior use, it is strong enough for anything. hard metal pipe(and joints) of any diameter is esay to get. try to stay constant with this diameter, based on the price you can get very thin and very thick walls for different purpose. if all pipes are of the same diameter, that will make the pipes easy to reuse for other container models
-- joint? No welding use metal joints. PPV is fine for same cases. No screw thread https://youtu.be/yfHGFw5RDac?t=104 . the joint works extremely well, two pipes connected with joint are as strong as one, so it is easy to extend the structure, say connect two boxes together.
-- Accessories? - you get everything you can imagine on Pingduoduo - search 钢管挂钩 法兰 管架连接件 固定夹十字扣 光轴十字块 玻璃夹 卡扣 堵头 钢管内接头 - in English 'T joints' 'elbow joints' 'pipe clips'
-- shelf design principles
-  - I don't use large piece of wood board, smaller than 60x50cm
-    - so that I can keep them very portable, and modular, perfectly safe to stay with 1.5cm thickness
-    - but don't mount boards too close to each other, gaps get dirty easily
-  - wood does not perform the structure backbone duty
-    - so that I can use thin boards
-    - I don't use flange, use pipe clips
-  - shelf depth is 40cm
-    - use at least 25mm thick board, to make the pipe structure very strong
-      - mount smaller structure on the wood board
-    - at 75cm high, ussually we have a countertop, that will be 60cm deep
-      - a chubbies bottom gives the shelf more stability
-    - both 40cm and 60cm are for board size
-    - pipe box depth would be 30cm(need 25cm pipe to do the job)
+- no_invasion_rule. everything should has it's own home, the home is a cuboid. Each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
 
 ## project_peg_boards
 
 - https://youtu.be/kfRbTQrqY5M?t=33
 
 ## project_closet
-- Intro
-  - this is part of my shelf_box_system.
-  - essentially, this is what I want https://youtu.be/kfRbTQrqY5M?t=137
-  - note: this is a compound struture
-    - 1 closet + 2 desk side shelf + 1 fake wall(in front of the desk)
-    - every part mount togeter to make it really stable
-- closet
-  - make a pipe box
-    - mount a wood pipe on top of the box as hanging rod
 - this is how a modern closet/wardrobe shoube be like https://youtu.be/XWpdDXKeCtA?t=3
 - the space we have
   - 60cm deep, 280cm height, 180cm width.
   - I am not the only guy who play hanging rod on that corner https://youtu.be/AShs_TGOJQI?t=694
-- Dimensions
-  - deep: 55cm(my big closet is 52cm )
-  - width: 125cm(3x40+5, 40 is $white_box_size width)
-  - height: 160cm = 130cm(enough for long dresses like coat, or jackets + $white_box_size)+30cm(legs+space for a wheel board and shoeboxes)
-  - Side Note: the sizes are for the pipes, plus joins, the final demensions will be bigger, and that is intended.
 - What do I have for the closet?
   - easily approachable
     - 1 sock box: 10widthx10hightx50deep 1 8th of the $white_box_size enough for 30-40 pairs(folded the MarinKondo way)
@@ -282,11 +221,6 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - top of the roof
     - 3 $white_box_size for other clothes or stuff
   - don't block the light
-- purchasing
-  - pipe pp plugs: 7.1RMB in total
-  - pipe 160x4 55x2(have 2 already) 125x4 130RMB in total
-  - k joint 7(have 1 already) 6.5RMB/unit 
-  - TOTAL COST: 202RMB
 - use vertical space without taking up floor space
   - sth like https://youtu.be/WCyhIVKnOF8?t=63 but no nails in the walls
 
@@ -356,7 +290,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - having a theme color have two benefits, NO.1 set the tone for the home. NO.2 unify different rooms. But for now I prefer not to have a theme color, keep it simple.
 
 ## The Filesystem
-Folder division based on phiscal locations. e.g the whole clothes storage system could be located in different rooms, then you have living_room/fabric_box and peter_room/closet, rathen then a big folder for all the device for clothes storage.
+Folder division based on locations. e.g the whole clothes storage system could be located in different rooms, then you have living_room/fabric_box and peter_room/closet, rathen then a big folder for all the device for clothes storage.
 - living_room/
   - billie_office/
     - desk
