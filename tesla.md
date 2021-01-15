@@ -10,13 +10,11 @@ title: Tesla 何以征服世界?
   - SO Tesla's top priority is to setup the largest charging network(with the help of Chinese govs), do vertical integration to make really cheap cars, and probably needs to work on smart grid and power generation.
   - Misssion complete when EV is obviously better in most people's eyes,  from both economical or environmental point of view.
   - FSD should be Mission Two. But Mission One is exicting enough.
-
 - Mission X
   - A fully automatated world, where no one need to work
   - Think about everyone one a room that covered with solar pannels and with machines inside
     - the room can run itself and generate endless wealth, right?
   - Tesla sustainable energy plus AI, result will be Perpetual motion Machines.
-
 - Tesla is the next generation robot company. 
   - People still use so few robots in daily life, make us doubt is it really 2021 now. You need a company to push software to everycorner of the production line, you need a industry that is high in volumn. Your car is a robot, Tesla's machine to build the cars is also robots. I see hope only in Tesla for now.
   
@@ -176,9 +174,7 @@ title: Tesla 何以征服世界?
 - vertical integration does not always work
   - Former facebook exec Chamath said in 2017 that Nvidia would not be able to make a lot of money since, when AI gets really large, each tech gaint will build its own AI chip, but the reality today obviously does not match. TSMC's rise is another counterexample of vertical integration.
 
-## 规模优势
-
-- 内华达 gigafactory ，世界上最大的电池厂
+## Economy of Scale
 - 大有大的优势，电池技术不行，就买个 Maxwell ，生产线需要自动化改进，就收购一个德国的机器人公司。小公司想都别想。
 - 达到一定程度，才可能左右国际上的不确定性，因为电池会用到一些稀有金属，其中有些分布非常集中。
 - SEMI 和物流业
@@ -189,12 +185,11 @@ title: Tesla 何以征服世界?
   - 是传输原子的互联网，是跟当年的铁路网一样重要的基础设施。
   - 所以，特斯拉的市值想象空间是无限的。
   - 当然，公权力肯定会对它进行限制，但是特斯拉毕竟比铁路要复杂一万倍，在技术标准迅速迭代阶段，大家是不会想要拆分特斯拉的。
-- solution not a product
+- a solution not product
   - Tesla is now the only guy who can provide a EV solution
     - that is parts, charging network, and the cars combined.
 
 ## autopilot
-
 - 2 main tasks
   - https://youtu.be/ymcOLL2qEg8?t=303
     - Jim Keller made some great points here
@@ -202,10 +197,8 @@ title: Tesla 何以征服世界?
   - understanding the mental models of pedestrains or drivers, and predict their trajectories
   
 ## Energy
-
 - megapack 和 autobidder
-  - 水能太阳能天然是去中心化的，就近拍卖，可以避免传输损耗，挺棒的做法
-
+  - a distributed grid
 - 特斯拉为啥会成为10万亿巨头？
   - 今天有朋友说 NIO 会和 Tesla 共存
     - https://www.youtube.com/watch?v=BAHSoYcVJWQ&lc=z22sgzdj5p3hudyuqacdp435meylb445gydlhttwbm1w03c010c.1582703850354688
@@ -224,7 +217,6 @@ title: Tesla 何以征服世界?
         - https://www.youtube.com/watch?v=Zn58tQJjC5w
 
 ## 风评
-
 - 雷军：两会提倡卫星互联网
 - 王兴：看看 Elon Musk 就觉得中国互联网界做的事情很 Low https://www.youtube.com/watch?v=YHgaeGaORT0
 
