@@ -60,6 +60,7 @@ title: Tesla 何以征服世界?
 
  - Cheap Is King
    - By using vertical integration, Musk already made rocket 100 times cheaper. He will do to cars the same, it doesn't need to be 100 times, five times cheaper will be changing the world.  I want to put the software side aside. Just consider smart cars are simply much more sophisticated cars. Musk want to build it with much much lower cost. There are two ways you can make it really cheap to produce. Number one, use AI to automate the manufacturing. Number two, use the global collaboration power that the Internet has brought, think Amazon, Linux, Wikipedia. Why vertical integration is possible in car making industry today? It's because Internet brings the possibility of global collaboration with much, much higher efficiency. So to conclude, too swords Musk has in hand, AI and the Internet. Because I strongly believe the power of aI and th Internet. I know any industry will be changed  completely. Mask obviously  It's right now the Top in entrepreneur who can make most out of aI and internet. At the same time, people who don't trust Tesla have no faith in AI and internet.
+   - if Tesla really makes cheapest cars(puls battaries) with largest charging network, it means, tesla will beacome the cheapest way to move people or cargo from point a to b. Transportaion is a trillion dollar bussiness, if Tesla get the winner takes all position, profit will be huge. Of course, goverments want some kind of backup, and won't be happy to see one company control transportion, but being cheap is the most advanced competetive advantage that no one can resist.
 
 - the new era of monopoly is here
   - people won't use the second best search Engine or e-commerce platform
@@ -68,7 +69,6 @@ title: Tesla 何以征服世界?
   - If Nio or Lixiang try to compete with Tesla, they have to bring revolutionary innovation in the system level, small imporvement in the details won't make any difference.
 
 ## 自动驾驶
-
 - 用“眼睛”开车：跟人类开车的思路类似
   - https://www.youtube.com/watch?v=-b041NXGPZ8&t=8838s
     - Musk 说，人类只是用离得很近的两个 Camera 就可以开车了，而 Tesla 汽车可以有更好的视野，不过基本思路跟人类开车很类似，就是 vision-based 。
@@ -88,13 +88,11 @@ title: Tesla 何以征服世界?
   - Lidar 方案的公司，不切换到 vision-based ，恰恰是因为他们没有 fleet ，搜集不到大量数据。
   - 神经网络要想正常工作有三大需求：large/real/varied dataset https://youtu.be/WGm5Yc4JWug?t=337
   - 如果没有海量的图片进行训练，即使 lane lines 都识别不了，想象一下 lane lines 可能转弯，可能被阴影笼罩，雪夜，逆光等各种情况：https://youtu.be/Ucp0TTmvqOE?t=7323
-
 - Lidar 不靠谱
   - 整个的交通系统都是为 vision-based ，人们主要是用眼睛开车
   - Lidar 基本上是用激光做导盲杖，导盲杖怎么看路标呢？Stop Sign ，限速牌都看不见，要自动驾驶干嘛？
   - 路上飞来一个塑料袋，Lidar 可能会急刹车
   - Elon Said: For Cars, Lidar is freaking stupid.
-  
 - 得工程师者得天下
   - 根据美国business insider相关调研数据，马斯克旗下两个核心企业SpaceX、特斯拉分别位居美国工程类院校学生最向往榜单前二，力压NASA、苹果、谷歌、波音。
 - tesla 可以打败能源巨头
@@ -113,18 +111,14 @@ title: Tesla 何以征服世界?
     - 换电这个事，谁都知道方便，但是也是成本根本飘不起来呀。最近几年最佳的方案是，多点快充，让车主不要绕路充电，也不用排队等，附近最好能有个小饭店休息一下。
     - Tesla 是工程师思维，是 problem solver ，李斌想法是完全不同的，我是完全不理解他在干嘛。
     - 本来我觉得 Nio 搞用户社群是个思路，目前看来也是瞎搞，我怀疑李斌根本没听说过啥叫梅特卡夫定理。他说 Nio 的服务系统是人力密集的，但是美团也是呀，美团能赚钱，我们也能呀。其实，美团是不一样的，同一个城市，每增加一个美团骑手，那么全部骑手的每单配送距离都会缩短，这是典型的网络效应，新节点的加入会惠及老节点。李斌把人聚到 Nio House ，大家聊点啥呢？能组成个车主互助群吗？感觉很扯。
-
-
 - 小鹏是特斯拉的克隆
   - 与蔚来相反，小鹏汽车选择了抛弃 Mobileye，转向全自研。
   - Peter ：跟老大进行无差异竞争，就是送死。
-
 - 换电模式虽好但不必要
   - 如果每个停车位都可以充电，换电池的必要性真的不大
   - 成本：若『换电模式』胜利成为主流，意味着车主随时有充满电的电池可换——运营优化到极致，车电池比应该也是 1：2 以上的关系。不考虑运营成本，一辆车至少要再多配一辆电池。按目前每年两千万车销量、每块电池 10 万元成本计算，主流的换电模式，一年光多出来的电池成本至少就是 2 万亿。
   - 成本高，意味者升级的成本也高。如果要兼容一个新车型，新的电池型号是比较难的
   - 如果我是电动车主，主要的焦虑是找不着充电的地方，而不是充电速度。
-
 - 电力供应方面可以很好的跟政府合作
   - 国家要解决电力问题，国家出大头的钱，Tesla 提供解决方案，澳洲的这个合作，很有启发性。https://www.youtube.com/watch?v=PZz2r9j1Lfo
 - v2x 方案不靠谱
@@ -188,6 +182,16 @@ title: Tesla 何以征服世界?
 - a solution not product
   - Tesla is now the only guy who can provide a EV solution
     - that is parts, charging network, and the cars combined.
+
+## Network Effect
+
+- mining and recycling battary metals
+  - https://youtu.be/vyEzL5u2Mbo?t=438
+  - it takes a big company to do it, not a lots of companies which would be chaos.
+  - ALSO, from this I can see Tesla will need a lot of money, make make best use of the money.
+- The Richest company can build the largest and most convinient sevice network
+  - Charging network
+  - repair network https://www.tesmanian.com/blogs/tesmanian-blog/elon-musks-promise-of-in-house-tesla-service-collision-repairs-becomes-a-reality
 
 ## autopilot
 - 2 main tasks

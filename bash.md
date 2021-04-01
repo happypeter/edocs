@@ -1,4 +1,12 @@
-- if
+## change file extension
+
+```sh
+for f in *.txt; do
+    mv -- "$f" "${f%.txt}.text"
+done
+```
+
+## if
 
 ```
 if true; false; then echo hello; fi
@@ -6,8 +14,7 @@ if true; false; then echo hello; fi
 if ls;cat ddd/; then echo hello; fi
 ```
 
-  - bash if sees 0 as a case to execute `then` block, very different from C lanaguage. this is simple because if a command run without error, the exit status is 0, as `echo #?` shows
-
+- bash if sees 0 as a case to execute `then` block, very different from C lanaguage. this is simple because if a command run without error, the exit status is 0, as `echo #?` shows
 
 - chown
 
@@ -15,6 +22,7 @@ if ls;cat ddd/; then echo hello; fi
 chown peter: file
 chown :peter file #this makes chgrp no longer useful
 ```
+
 - http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained
 
 - Run the last command as root
@@ -27,10 +35,11 @@ $ !whatever:p # Ctr-r is a better way then this
 ```
 
 - curl
+
   - ref: https://www.youtube.com/watch?v=APtOavXTv5M&t=177s
 
-
 - ref
+
   - http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained
   - http://www.commandlinefu.com/commands/browse
 
@@ -39,7 +48,7 @@ $ !whatever:p # Ctr-r is a better way then this
 ```
 #!/bin/bash
 # change all ii into bb for all files in $PWD
-# like vim bufdo 
+# like vim bufdo
 for file in `find . -type f`
 do
     sed -i 's/ii/bb/g' $file
@@ -53,7 +62,7 @@ fi
 
 cd ~/edocs
 rm -rf *~
-echo "junk files removed---------------------------done"  
+echo "junk files removed---------------------------done"
 echo
 echo -n "plz input commit msg: "
 read -e MSG
@@ -62,7 +71,7 @@ git add .
 echo  "---------------done"
 git commit -a -m "${MSG:-defaut-msg}"
 
-echo "git commit ------------done" 
+echo "git commit ------------done"
 echo
 echo -n "Want to push to remote master(Y/n): "
 read AAA
@@ -73,13 +82,13 @@ if [ "${AAA:-y}" = "y" ];then
 	echo ...done
 else
 	echo pass
-fi 
+fi
 #!/bin/bash
 
 i=1
 i=$((i+1))
 echo hello"$i"
-while read line; do 
+while read line; do
 echo $line # or whaterver you want to do with the $line variable
 done < $1
 
@@ -87,10 +96,10 @@ done < $1
 #################################
 #
 #    big example
-#    
+#
 #################################
 
-while read line; do 
+while read line; do
 echo $line|grep ^./ &>/dev/null # serch the line that begins with "./", that is the filename
 
 if [ $? -eq 0 ]
@@ -184,7 +193,7 @@ config_vim()
         rm -rf peter-vim
     fi
     git clone git@github.com:happypeter/peter-vim.git && mv peter-vim .vim \
-    && cd .vim && git checkout peter-private 
+    && cd .vim && git checkout peter-private
     cd ~
     rm -rf ~/.vimrc
     ln -s ~/.vim/vimrc ~/.vimrc
@@ -195,7 +204,7 @@ if [ -d ~/.vim ] ;then
     echo -n "=== .vim exsits, replace? (Y/n): "
     read AAA
     if [ "${AAA:-y}" = "y" ];then
-        rm -rf ~/.vim 
+        rm -rf ~/.vim
         config_vim
     fi
 else

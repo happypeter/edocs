@@ -71,6 +71,9 @@ title: 房地产和城市发展 House and Urbanization
   - 所谓地段优势，靠租一样可以获取的，但是实际上类似潘石屹的 SOHO 那么好的地段，业主靠租金，几乎连银行利息都还不上。
   - 等到国家找到下一个蓄水池和征税机制，房地产也就凉凉了
 
+- even you build a city
+  - people may not move here https://www.youtube.com/watch?v=Y3m6YCE2kuA
+
 - House price won't be too high in general
   - the rising of population is slowing down, but people are buidling more houses than ever.
   - hard to imagine house price goes up very quickly.
@@ -84,3 +87,7 @@ title: 房地产和城市发展 House and Urbanization
     - use fertilizer much more efficiently
     - controlled temperature, grow infinite rounds of things
     - many plants can use artificial lights, and they grow better
+- what will happen when house dev companies has less money?
+  - https://www.bilibili.com/video/BV1Kp4y1s7Rj this videos conviced me that, house price will go down rather then up
+  - the logic is like this, when companies has less money, they won't bid high price on lands, so the land price will go down
+  - when they has less money, they need to sell the house quickly to pay back the loans

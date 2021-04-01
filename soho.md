@@ -28,6 +28,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - make sure it is clutter free. Less is more, is essential part of the style.
   - blend Modern with Rustic https://youtu.be/XxgwI_OCAOU?t=223
     - https://youtu.be/D8QqL9CjHTQ?t=34
+    - https://www.youtube.com/watch?v=lur6sbfZ_qE
   -  https://www.youtube.com/watch?v=qoT7P2iOkJU Scandinavian Interior Design | Defined and How to master it: There is a particular color palette that's associated with the Scandinavian decor and this includes the hue of grays, whites, browns and blanks. Peter Side Note: note the 's' after each color. I do use different whites for things, they works together. Brown is wood color, OK to have sth other than wood which is brown.
   - What Define Scandinavian style? https://www.youtube.com/watch?v=lyjC_QYZdx4 NO.1 color palette - walls are typically paint in white colors - use wood/fur/texture to add more demensions to the space - use darker colors and thin lines - the minimumist commonly just use black+white+wood+plants as the palette. NO.2 Lighting. big windows white curtain and open spaces NO.3 Furniture. Thin legs to avoid shade, always create spacious and airy feelings NO.4 Nature. lots of green and dry leaves NO.5 Natural Materials, sheep skin/wool
   - Core value: Scandinavian Design goes extreme on pragmatic functionality. https://www.bilibili.com/video/BV1Af4y197Ep Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by Scandinavian people to have Scandinavian style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style. Rule2:  Push progmatic usefulness to the extreme. Design everything from it's functionality. e.g reuse ladders/stackofbooks/cart as nightstand. open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter. Expose power cord and everything Rule3: Follow your heart, as long as it is not ugly. You are allowed to combine anything together as you want, free to mix in some classic furniture in your space, be creative show your own personality is encouraged. 'as long as you type in Scandinavian Style in taobao, you are betraying Scandinavian style'
@@ -42,6 +43,11 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 
 ## lighting_system
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
+- pendant shade
+  - least curve, with simple pure shapes only, cubic, ball, half ball, cylinder etc. 
+    - https://item.jd.com/55261210582.html
+- even lighting is better lighting
+  - Use a broad light source. The broader the light source, the softer the light coming out of it. I am so happy about my MI lamp Pro.
 - led bulbs: main work horse, https://item.jd.com/7466255.html Opple warm(2700-3500k) light.
 - tips
   - use Self Locking Electrical Cable Connector https://www.aliexpress.com/item/32961577684.html
@@ -169,6 +175,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - 【意思生活】1000元改造老破小厕所 https://www.bilibili.com/video/BV1HJ411M7n8/?spm_id_from=trigger_reload
 - laundry
   - use differnt lauandry basket for different clothes https://youtu.be/UxXf8SZbtt8?t=193
+    - https://youtu.be/CKSl49NdmFg?t=61
   - do white wash
     - bleach: use hot water
     - water first, then bleach, lastly fabric
@@ -187,7 +194,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - bathroom shelf 
     - https://item.jd.com/3327229.html#crumb-wrap
     - https://item.jd.com/100012221566.html#crumb-wrap
-  - Main work horse shelf(try to use it for as many cases as possiable)
+  - main_workhorse_shelf (try to use it for as many cases as possiable)
     - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
     - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
     - artful/light/modular
@@ -200,12 +207,18 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - https://youtu.be/kfRbTQrqY5M?t=33
 
 ## project_closet
+- a wood simple rod closet https://zhuanlan.zhihu.com/p/346115273
+  - Pitfall: When you have dark color clothes, this style looks bad
+  - A curtain is kind of necessary
 - this is how a modern closet/wardrobe shoube be like 
+  - DIY, square wood & curtain https://www.bilibili.com/video/BV1yJ41157f8/?spm_id_from=333.788.recommend_more_video.4
+    - When I purchasing my own, make sure boxes can be put under short clothes
+    - have some open space that I can put folded thick clothes
+      - https://www.bilibili.com/video/BV1fE411r76f?t=1m4s
+    - have some ppv tubs as drawers
   - https://youtu.be/XWpdDXKeCtA?t=3
   - https://item.jd.com/66874460142.html  (purchased)
     - have curtain if needed https://item.jd.com/66987839616.html
-- the space we have
-  - 60cm deep, 280cm height, 180cm width.
 - boxes needed with the closet?
   - easily approachable
     - 1 sock box: 10widthx10hightx50deep 1 8th of the $white_box_size enough for 30-40 pairs(folded the MarinKondo way)
@@ -215,6 +228,15 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 
 ## project_box_system
 - intro: This is part of my shelf_box_system. the goal is to have a set of boxes, that follow a fixed standards, so they are nicely aline of stack together. ikea also has the storage unit concepts, I think I am doing something similar https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/ .
+- cardboard_boxes
+  - still make a lot sense for tubs
+    - DIY this https://www.ikea.com/jp/ja/p/droena-box-white-70262828/
+    - or buy Ikea Drona tubs, if you don't want lids
+    - with lids https://www.ikea.com/jp/en/p/tjena-storage-box-with-lid-black-40469298/
+  - I can have whatever size I need, without or with lids
+  - sizes accord to shelves
+  - use same wallpaper to do finishing for least visual clutter
+  - when I need drawer or water-proof usecase, I will go for plastic ones
 - different generation boxes/jars/bottles/etc
   - labeling: for anything used in wet area, use transparent tape to stick, otherwise just use white glue
   - love the font https://youtu.be/8rKltrQ45ao?t=9
@@ -239,8 +261,12 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - what is a color palette? as this lady put it https://youtu.be/1K4Fb6ENFBM?t=199 'it is a netural plus one or two popup colors', in my case, wood is my netural color and green is my popup color.
   - EXAMPLE: love the plants here, Small Apartment Makeover: 350 Square Feet Filled With DIYs https://www.youtube.com/watch?v=OWtCGXtdpQw
   - white(60%) + wooden(from wood/fabric/rattan/sth 20%) + green(10%)
+    - THE general rule is everything should be white unless it is a reason not to do so. It's very hard to get colors and don't add unnecessary visual clutter. Sometimes, using color is very tricky, for example, my current wood kitchen shelf is becautiful by itself, but because the darker wood color, my pure white oven and microwave stand out, since they are of different shape, they don't look tidy together, if my shelf is white, the outline of my applience will merge into the backgroud more, and you get a more coheisive overall look. check this https://www.youtube.com/watch?v=vV-TXCh43go . Besides, if you have more than one or two wood tones, your room will not look modern https://youtu.be/FK7m3HE-nR8?t=51 , so safe choice is just go all white. 
   - Decor: bright-google-office-colors(e.g my dragon ball toys) and black lines(photo frames and things)
+  - why white? Minimum does not only mean own less, but also less distractions. Colors always get my attention when I don't want to.
   - light_wood_color: wood is warm/natural, black is cold/industrial, it's very classic mixture.
+    - if not easy to use wood color, if your chair and desk has different undertone, they will look ugly https://youtu.be/FK7m3HE-nR8?t=151 . So try to use less wood, try to go 100% white. 
+    - NOTE: I will prefer my rooms more techy then homy. Because this makes the room more functional. like in https://youtu.be/kOO9UFGWtME?t=195 , with the cold black-white style, it's OK to have more things in the room, but still looks not so cluttered.
       - https://youtu.be/Ax8fNpglBSY?t=14
       - https://www.youtube.com/watch?v=HnNt76b818A
       - https://youtu.be/zN_3OxrhL8Q?t=9
@@ -299,15 +325,45 @@ Folder division based on locations. e.g the whole clothes storage system could b
     - peter_socks_basin
 - garage
 
-## Garage/Crafts Room
+## Crafts Room
 - shadeless light https://youtu.be/3rdtuuFbcqM?t=61
 - dream room https://youtu.be/DSMggdkO0a0?t=1200
+- tool storage https://www.familyhandyman.com/list/top-tool-storage-tips-tricks-and-ideas/
+  - https://youtu.be/vN7_8nx72hk?t=394
+- tool cabnet
+  - JD.com has 'Tankstorm 汽修工具柜'
+  - plus a big wood shelf from Mars Landlord
+- peg board and shelves are must have
+
+## Storage Room
+- big_storage_shelf
+  - for big things not used often
+  - suitecases, quilts/winterClothes, anything under beds now
+  - a curtain to hide the things that might not in my color palette, and keep the dust free
+
+## Garage
+for my bikes and big tools
 
 ## Kitchen
 - style
-  - white+wood https://youtu.be/lnLiNNgN980?t=214
-    - white cabinet + wooden countertop
+  - Shanghai Girls https://youtu.be/cdVuHljNl6A?t=89
   - the trick is make it as white as possible, then make sure every tool is beautiful, because they will popup with the white background
+  - everything shall be white, definitely looks less cluttered, even the space is small https://www.bilibili.com/video/BV1St4y1Y7mD
+- how to store pans&pots
+  - https://youtu.be/ZxTD_Po1TZ0?t=64
+- dish washer
+  - if you don't have enough things to wash, don't bother, it takes same spaces
+  - it takes some time to put everything in https://www.bilibili.com/video/BV1St4y1Y7mD
+- Best kitchen arrangement
+  - freeze, wash, cut, cook, serve.
+- a kitchen cabinet to hide things
+  - https://item.jd.com/41038618014.html
+- counter sink
+  - https://youtu.be/HcQ9NQXCthg?t=319
+  - under the butcher block https://youtu.be/LvEv4I-JMgw?t=14
+  - a butcher block counter bears time well https://www.youtube.com/watch?v=LvEv4I-JMgw
+- hang everything, make countertop free
+  - use peg board, long rod, lid hanger
 - All-Electric Cooking Appliances
   - Mi Oven + Mi Microwave + Mi Electric Stove(with pans/pots/steamer)
   - currently pass: Mi Steam Oven + Air Fryer
@@ -328,18 +384,49 @@ Folder division based on locations. e.g the whole clothes storage system could b
     - you can bake chicken wings with it
     - no metal allowed to put in
   - 米家电烤箱 MI Oven
+    - baking paper: make sure you put food on and don't set the temperature too high, otherwise fire
     - Do I really need a Oven? YES
     - the shelf for oven and microwave(purchased）
       - https://item.jd.com/100004333789.html
     - if you do need a oven, make sure it is no smaller than 35L https://www.bilibili.com/video/BV1FW411K7qR/?spm_id_from=333.788.recommend_more_video.2 small oven's heating is hard to be kept even
     - no big difference from air fryer or steam oven
       - https://www.youtube.com/watch?v=9sTwQ2xewIk
+  - rice cooker
+    - https://www.youtube.com/watch?v=ZaF2QkXiZl8
   - 米家电磁炉 Electric Stove to do stirfry https://www.bilibili.com/video/BV1UW411Y7fB/?spm_id_from=333.788.recommend_more_video.0 
-    - with a set of pots https://www.bilibili.com/video/BV1v4411B772/?spm_id_from=trigger_reload
+    - '电磁炉青春版‘ has no botton in the center https://www.bilibili.com/video/BV1Dt41127jf/?spm_id_from=333.788.recommend_more_video.0
+    - 知吾煮 pots https://www.bilibili.com/video/BV1v4411B772/?spm_id_from=trigger_reload
+      - have screws, hard to clean
+    - nice pots from belgium https://www.youtube.com/watch?v=dDr-YXYjAO8
+      - no screws, easy to wash
+      - https://youtu.be/dDr-YXYjAO8?t=326 really nice boiling pot, anit-overflow
+    - make sure the surface is easy to clean, no screw on the lids
+      - this set has no screws https://www.bilibili.com/video/BV1W7411f7N5/?spm_id_from=333.788.recommend_more_video.2
+        - this is more expensive, but really good
+    - the bottom has to be flat https://www.bilibili.com/video/BV1U7411K7PF?t=3m56s in order to be used on e-stove
     - 2100w, more powerful than average
+- lid storage
+  - really neat https://youtu.be/wj2aBGxi3WQ?t=230
 - countertop
   - L shape countertop make things more approachable
-  - maybe I can just have a steel countertop https://youtu.be/UGQfAII0hF0?t=49
+  - quatz
+    - pro: No sealing necessary, Non-poronus
+    - con: no high temperature on top
+  - why Quartz is the best?
+    - wood is expensive and easy to be damaged, and you can not cut things heavily on it
+    - marble or other rocks are super expensive, don't even think about it
+    - steel? scraches would be ugly. Feeling cold in winter.
+      -  https://youtu.be/UGQfAII0hF0?t=49
+    - Quartz is best, that's why most homes go for it.
+      - safe from being scratched or stained
+  - why wood is for me?
+    - I want to paint it
+    - I want to feel safe when I put my plate on it
+      - but if I have to get quatz, puting a dish towel may help
+    - this is the color I want https://www.youtube.com/watch?v=8xW3XSdQ3YA
+    - I may want the cabinet touch the floor
+    - watch out, the wall might not be so flat https://youtu.be/3sej33jmDmk?t=1006
+    - smooth the wood corner
 - bigFridge
   - MI Fridge https://zhuanlan.zhihu.com/p/87499198
 - avoid sticky wok https://www.bilibili.com/video/BV1Kt4y1q7pm/?spm_id_from=autoNext
@@ -349,6 +436,7 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - one chef's knife
   - one fruit knife
   - both black plastic handle
+  - use magnetic kinfe holder
 - nice to have a knife block
   - https://youtu.be/OdVMrCrKhHQ?t=668
   - have a stick knife for apples
@@ -385,6 +473,7 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - BUT right now for me, a big bowl is good enough, it's more verstile.
 - hood
   - clean hood mesh https://youtu.be/WYyTHyvcypI?t=234
+  - xiaomi https://www.bilibili.com/video/BV1X4411g7ug
   - use the cock https://youtu.be/JlguvC6ddYg?t=309
 - rice cooker
 - rice buckets
@@ -446,12 +535,17 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - with at least two pendant lamps
 
 ## Entryway
+- really feel the need to hang clothes temporarily.
 - how to store shoes, the creative way https://youtu.be/RWNjzxypsSc?t=345
+- shoe stool https://item.jd.com/10020793189707.html
 - Ikea boxes is good here https://youtu.be/eoyE2IVMs9I?t=93
 - this is how to make your room clean, by changing shoes https://youtu.be/cRs5z-pmozE?t=97
   - the height differences does help
 
 ## living_room
+- toy_shelf
+  - I will have a whole shelf for toys only
+  - can use $main_workhorse_shelf for this job
 - cat home
   - does not have to be ugly https://www.midwesthomes4pets.com/
   - cat litter box (if I ever need one)
@@ -577,6 +671,14 @@ Folder division based on locations. e.g the whole clothes storage system could b
       - It's really elegant colors works will pure white https://www.pinterest.jp/pin/581808845583760873/
       - keep contrast with wall low https://youtu.be/RUcizR3KJIU?t=207
   - a bed side lamp, when you have no room for a stand https://youtu.be/9DCyPMGVUGU?t=30
+  - Pillow 
+    -  https://www.youtube.com/watch?v=ZtrVun8vtaQ
+      - 'If you are a back sleeper, you want a small pillow'
+      - 'If you are a side sleeper, you need a lot support from your pillow' 'down pillows are going to clapse'
+      - if you sleep on your back you use one pillow, then you turn and sleep on your side, now you can use two pillow. 
+    - I sleep half time on my back and half on side, so I need a not too big pillow but very elastic, my foam rubber is clearly too thick when I sleep on my back.
+    - ordered this 舒飘儿 suprelle 可水洗高弹枕 白色 中高枕（6-7cm）https://item.jd.com/100012549596.html
+      - manu says the height is good for ladies on side and men on back https://www.xiaomiyoupin.com/detail?gid=134487&spmref=YouPinPC.$SearchFilter$1.search_list.17.63760252
   - camel color blankets plays well with Scandinavian style, it's woody and warm.
   - darkgray+white=elegance https://youtu.be/xeaeWoYH4z8?t=114
   - maybe buying a big headboard was a mistake, big pillows will do it better https://youtu.be/WuoYXDH0NNs?t=114
@@ -612,6 +714,10 @@ Folder division based on locations. e.g the whole clothes storage system could b
 
 ## Bathroom
 - Style: Follow EC life https://www.youtube.com/watch?v=SeQjx8Kj0Bs
+- hang everything, make countertop free
+  - have a hook beside toliet, during certain period every month, Billie can hang the junk in a trash bag with handle. For other times we keep no junk container in the bathroom. Toliet paper go with toliet.
+- ventilation
+  - need a automated fan for after pooping air refreshing.
 - how to install a toliet bowl
   - https://youtu.be/bbqZ12QhoY4?t=37
 - https://www.youtube.com/watch?app=desktop&v=bbqZ12QhoY4
@@ -636,6 +742,9 @@ Folder division based on locations. e.g the whole clothes storage system could b
   - I think I will go classic round white basins
     - easy to hold with one hand, more portable than square ones
     - easy to stack together
+- shower 
+  - a high presser hand sparyer to clean corners
+  - black color
 
 ## DIY Tricks
 - Painting

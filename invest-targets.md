@@ -70,3 +70,11 @@ title: 有哪些投资标的
   - Make real estate trading easy as PDD
   - a nation wide unique market
   - Charmath is betting on Opendoor
+- clubhouse
+  - 'I’m not looking at a screen.'
+  - join a meeting room
+- spaceX
+  - Elon own 52%, Google 7%, Ron Baron 1%
+    - https://www.youtube.com/watch?v=pwLuLMkLD4g
+- 3D Printing
+  - It's going big for sure, problem is to find a great company that has the potential to be a standard maker.

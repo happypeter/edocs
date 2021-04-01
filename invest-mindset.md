@@ -10,12 +10,17 @@ title: 投资思路
   - I don't invest in established bussiness, only startups
       - of course, there are startups inside a established bussiness, like Tencent.
     - I don't invest small startups, only invest biggest startups
+      - I only invest big trends, global concensus (say, AI/automation/cleanEnergy, EV, bitLeadAtom,solar power, factoryAsProduct, MachineBuildMachine, automated-e-commerce...), paradigm changes,  not small imporvements(say Clubhouse).
       - I may consider becoming an LP in a top tier VC firm as a indirect way to support new ideas.
         - I don't have direct connection with those founders, so I can not do research
         - I invest in only high-risk stocks, I do my research to have the risk in control
+  - look for exponential growth
+    - If you invest in a innovative tech company, that's a natural attribute
 
 - the nature of investment: carry risk for wealth creators
   - in one senetence: carry risks for other people
+  - know the mission and deeply believe in it
+    - For example, I don't really want to invest in Meituan or Tencent now, because I don't really know why they need my money. Of course, Meituan is still doing great things, but I don't see they need my money to do it. So I belive I prefer some company that is doing sth really difficult, and my money and support does help them to achieve that specific mission. Yes, I don't invest in companies, I invest in missions.
   - everything should be in a balance in long term
     - investors should be awarded because they also make real contribution to society
     - Tesla is creating wealth, so people work for tesla should be rewarded, that is but obvious. But problem is Tesla is carrying too much burden, hard work is one part of the burden, the other part is the finicial risks due to their speed of innovation. As a investor, I hold stocks long term, that means I carry my share of finicial risk for Tesla. So I should be rewarded, when things are done successfully.
@@ -93,7 +98,15 @@ title: 投资思路
   - 不迷信技术，强技术用在不合适的地方，依然不能产生财富效应，财富的本质是网络，能够增强网络的技术，才是创造财富的技术
   - 自动驾驶汽车 FSD ，就是可以让原子世界的网络流动起来，所以是巨大的财富黑马
   - 我认为即使到今天，软件吃世界的进度也只是万分之一。任何传统行业，只要结合更多的代码，都值得关注。
-  - 有 Linus 这样的 #善意独裁者 的公司肯定要加分的，例如 Jobs 时期的苹果，Musk 带领下的 Tesla
+  - 有 Linus 这样的 #BenevolentDictaor #善意独裁者 的公司肯定要加分的，例如 Jobs 时期的苹果，Musk 带领下的 Tesla
+    - I think I won't invest in a company without a CEO has these attributes:
+      - be a creative Engineer, so that he can push the tech details of the company forward. Jeff and Steve are all great dictator, who are each master in bussiness model and product design, but in the future, a CEO must know tech deeply. Cause future companies will be huge in scale and they will foucus on building things, not selling things, so every tech detail matters a lot.
+      - Always share, cause you need support from general public
+      - bring in lots of money, Linus is a perfect dictator, but he does not have money
+      - 
+    - Yes, the benevolent dictator is really important. IMO, A future company will be more like a tech system, an engineering achievement by itself. It takes a dictator like Steve Jobs, Linus Torvalds, or Elon Musk to get it done.
+    - As DaveLee put it, it is all about finding a ambitious founder.
+      - https://www.youtube.com/watch?v=njvhbwOaM68
     - 最近一个苦恼是，我都不太清楚亚马逊和谷歌都在干嘛，没有一个独裁者每天出来聊聊，我去哪里了解企业的内幕呢？我现在越来越觉得，有善意独裁者，应该是我投企业的必备要素。大企业的腾飞，都类似一场社会革命，没有一个旗帜，一个 face 和 mouth ，怎么可能有效率。想象，哪个大公司腾飞，背后没有一个 dictator 呢？JP Morgan ，洛克菲勒，Jobs ，盖茨... 失去了强势领导，公司恐怕难免走向平庸。
 
 - NO.4 #规模效应

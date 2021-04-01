@@ -97,3 +97,12 @@ title: 宏观经济
     - Anybody knows it's great for America, but funny is that govs do not have enough money to build it
     - Why? Cars are big money, they can lobby, so simple
     - The money based politics, simply don't work, even you make the money free in whatever way.  
+- follow entrepreneurs not investors
+  - Musk or Bezos is a far better Buffet
+  - cause they know the shit, they run the machine creating wealth
+  - while investors are just guessing
+- Open standards and decentralization is the future
+  - I moved to live in a village recently, and DIY like hell
+  - building things is easy because all the power tools are so cheap and google teaches me everything
+    - cheap tools comes from open standards, firstly you have a monoply to set the standards, once the standards are wide spread, every parts according to the standards will be very cheaply aviable to every body and company, so everyone can make things cheaply, you don't have to be Apple to make a good cellphone, even small vendors can do that thanks to open standards.
+    - all these plumping and wiring tricks is easy to pick up on google, they are easily applicable also because everything falls into some standards.
