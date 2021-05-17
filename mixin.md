@@ -2,21 +2,21 @@
 简介
 
 
-Mixin is a free, lightning fast, peer-to-peer, cross-chain transactional network for digital assets, which enables other blockchain distributed ledger to gain high TPS, sub-second comfirmation, zero transaction fee, enhanced privacy, limitless extensibility.
+Mixin is a free, lightning-fast, peer-to-peer, cross-chain transactional network for digital assets, which enables other blockchain distributed ledgers to gain high TPS, sub-second confirmations, zero transaction fee, enhanced privacy, and limitless extensibility.
 
 Mixin 是一个免费、快速的点对点跨链数字资产交易网络，可帮助其他区块链分布式账本获得超高 TPS、亚秒级确认、零手续费、加强隐私、无限扩展的能力。
 
 ## Info
 
-__Launched__ October 2017
-__Coin Supply__ 1 million 
-__Consensus Algorithm__ PoS + Asynchronous BFT
-__Block Comfirmation__ Final comfimation in less than 1 second
-__Data Stroage__ DAG
-__Number of Full Nodes__ At least 7 and at most 50
-__Mining Rules__ 10% left for mining pools per year.
-__Security Enhancement__ Trusted execution environment(TEE)
-__Cross-Chain Technology__ Sidechain
+- __Launched__ October 2017
+- __Coin Supply__ 1 million 
+- __Consensus Algorithm__ PoS + Asynchronous BFT
+- __Block Confirmation__ Final confirmation in less than 1 second
+- __Data Storage__ DAG
+- __Number of Full Nodes__ 7 at least and 50 at most
+- __Mining Rules__ 10% coins reserved for mining pools per year.
+- __Security Enhancement__ Trusted execution environment(TEE)
+- __Cross-Chain Technology__ Sidechain
 
 信息
 
@@ -34,15 +34,15 @@ __Cross-Chain Technology__ Sidechain
 
 - __Multilevel Security__
 
-Decentralized network based on POS with slashing mechanism. Hardware-Enhanced Security with TEE. Supervision of tens of thousands of light nodes to prevent full nodes from doing evil.
+Decentralized network based on POS with slashing mechanism. Hardware-enhanced security with TEE. Supervision of tens of thousands of light nodes to prevent full nodes from doing evil.
 
 - __High Concurrency__ 
 
-Being able to be used in high frequecny real world transactions. Theoretical preformace close to centralized servers. Millions or even higher TPS through hardware upgrade.
+Competency in high-frequency real-world transaction use cases. Theoretical performance close to centralized servers. Millions or even higher TPS through hardware upgrade.
 
-__0 Fee Transactions__
+- __Zero Fee Transactions__
 
-Feeless Transactions. Competency in Micropayment and daily shopping contexts.
+Zero fee Transactions. Competency in Micropayment and daily shopping contexts.
 
 特性
 
@@ -61,19 +61,19 @@ Feeless Transactions. Competency in Micropayment and daily shopping contexts.
 
 - __Realtime Transactions__
 
-Verification and Signature of a single transaction can be done in 300 ms.
+The current 35 nodes can do verification and signing of a transaction in 300 ms.
 
 - __Versatility__
 
-Supporting 32 chains, BTC, ETH, EOS, XMR etc., and more then 100 thousand of tokens.
+Supports for 32 chains, including BTC, ETH, EOS, XMR, etc., and more than 100 thousand of tokens.
 
 - __Simpler Management__
 
-Effortless multi-chain assets management with one signle account, future public blockchains are also supported.
+Effortless multi-chain asset management with one single account, future public blockchains will also be supported by default.
 
 - __Multi-signature__
 
-Dividing up responsibility for possession of asset among upto 255 people. Suitable for team or family who wants to co-own large amount of assets, and for B2C or C2C platforms to prevent platform from embezzling the assets.
+Ability to dividing up responsibility for possession of an asset among up to 255 people. Suitability for teams and families who want to co-own a large amount of an asset, and B2C or C2C platforms who want to co-manage the fund to prevent the platform from embezzling the fund.
 
 实时到账
 
@@ -93,14 +93,15 @@ Dividing up responsibility for possession of asset among upto 255 people. Suitab
 
 - __Transaction Privacy__
 
-Except for the parties themselves, even full nodes do not know who are the parties in a transctions, there is no way to know identities of the parties in a transction by the transaction itself.
+Except for the parties themselves, even full nodes do not know who are the parties in a transaction, there is no way to know the identities of the parties in a transaction by the transaction itself.
 
 交易隐私
 
 交易只有双方知道，全节点也无法知道交易双方，也就是说无法根据交易本身推导出具体交易双方。
 
 - __Regulation-Friendly__
-While the double-key sturcture ensures the anominity of assets, user can still provide the view key to accoutants for taxation or audit purpose.
+
+While the double-key structure ensures the anonymity of assets, users can still provide the view keys to accountants for taxation or audit purpose.
 
 更易合规
 
@@ -108,7 +109,7 @@ While the double-key sturcture ensures the anominity of assets, user can still p
 
 __Friendly Ecosystem__
 
-No premission needed to connect to the network through REST API and any languange that developers already familiar with. Therefore product and service can be developed rapidly.
+No permission is needed to connect to the network through REST API and any language that developers already familiar with. Therefore products and services can be developed rapidly.
 
 生态友好
 
@@ -116,7 +117,7 @@ No premission needed to connect to the network through REST API and any languang
 
 __Stable Network__
 
-Nodes charge for Dapp API call. The income will not be influced by the fluctuation of XIN price, therefor the sustainabilty and security can be better guareenteed. The cost of developement based on MIXIN network is predictable, pretty much like using AWS.
+Nodes charge a fee for each API call from DApps, so the income will not be affected by the fluctuation of XIN price, therefore sustainability and security can be guaranteed. The cost of development based on MIXIN network is predictable, pretty much like using AWS.
 
 网络稳定
 
