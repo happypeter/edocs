@@ -27,6 +27,13 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 - Elon, name of the kid, was born in Augest 9th 2018
 - Boy
 
+## Home Rules
+- Food Schedule
+  - No cal between meals, no candy/bread/beans/... tomatos and fruits are OK
+  - candy in two cases:
+    - meal time right after main food.
+    - when we go outside.
+
 ## Guidelines
 - Skill or Porject Oriented Learning
   - With Google at hand, there is no point to do knowledage-oriented learning
