@@ -29,10 +29,10 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Home Rules
 - Food Schedule
-  - No cal between meals, no candy/bread/beans/... tomatos and fruits are OK
+  - No calories between meals, no candy/bread/beans/... tomatos and fruits are OK
   - candy in two cases:
-    - meal time right after main food.
-    - when we go outside.
+    - meal time, right after main food.
+    - when we go outside(for at least 2hr).
 
 ## Guidelines
 - Skill or Porject Oriented Learning
