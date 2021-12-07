@@ -42,6 +42,11 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
 
 ## lighting_system
+- solution
+  - install track lighting, 50cm from the wall
+  - install pendant lights on the track, if appropriate
+    - https://www.bilibili.com/video/BV1W7411G7Z1?t=267.9
+  - pendant lights for each table, think crafts table
 - goal: hide light bulk, no light come directly to my eyes, the light bulb should targeting the things I want to see, not my eyes. 
 - pendant shade
   - least curve, with simple pure shapes only, cubic, ball, half ball, cylinder etc. 
@@ -198,6 +203,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
     - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
     - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
     - artful/light/modular
+- PlanD: Ikea Kallax and friends
 - I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
   - big open shelf system does not have to be messy https://youtu.be/dwOC3Pn3q8s?t=367 'it is more fun, it helps us navigate more easily'
 - no_invasion_rule. everything should has it's own home, the home is a cuboid. Each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
@@ -207,9 +213,10 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - https://youtu.be/kfRbTQrqY5M?t=33
 
 ## project_closet
+- current solution
+  - Ikea dresser + clothes rack
 - a wood simple rod closet https://zhuanlan.zhihu.com/p/346115273
   - Pitfall: When you have dark color clothes, this style looks bad
-  - A curtain is kind of necessary
 - this is how a modern closet/wardrobe shoube be like 
   - DIY, square wood & curtain https://www.bilibili.com/video/BV1yJ41157f8/?spm_id_from=333.788.recommend_more_video.4
     - When I purchasing my own, make sure boxes can be put under short clothes
@@ -219,12 +226,6 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - https://youtu.be/XWpdDXKeCtA?t=3
   - https://item.jd.com/66874460142.html  (purchased)
     - have curtain if needed https://item.jd.com/66987839616.html
-- boxes needed with the closet?
-  - easily approachable
-    - 1 sock box: 10widthx10hightx50deep 1 8th of the $white_box_size enough for 30-40 pairs(folded the MarinKondo way)
-    - 2 underwear/t-shirt box: each is 20widthx10hightx50deep, 1/4 $white_box_size
-    - 2 shoe boxes: together share a $white_box_size
-    - 1 outwear box: each is $white_box_size
 
 ## project_box_system
 - intro: This is part of my shelf_box_system. the goal is to have a set of boxes, that follow a fixed standards, so they are nicely aline of stack together. ikea also has the storage unit concepts, I think I am doing something similar https://www.ikea.com/kr/en/p/sopprot-pull-out-storage-unit-transparent-white-80376481/ .
@@ -326,6 +327,7 @@ Folder division based on locations. e.g the whole clothes storage system could b
 - garage
 
 ## Crafts Room
+- frend cleat https://www.youtube.com/watch?v=4fKBZ-H9StM
 - shadeless light https://youtu.be/3rdtuuFbcqM?t=61
 - dream room https://youtu.be/DSMggdkO0a0?t=1200
 - tool storage https://www.familyhandyman.com/list/top-tool-storage-tips-tricks-and-ideas/
@@ -354,6 +356,11 @@ for my bikes and big tools
 - dish washer
   - if you don't have enough things to wash, don't bother, it takes same spaces
   - it takes some time to put everything in https://www.bilibili.com/video/BV1St4y1Y7mD
+- refrigerator
+  - buy a refrigerator with a lot of plain space 
+  - https://www.youtube.com/watch?v=gvfkR6fw1lw
+  - use stackable transparent glass box to make the most of the space
+    - https://youtu.be/IA4fOuS_eJA?t=713
 - Best kitchen arrangement
   - freeze, wash, cut, cook, serve.
 - a kitchen cabinet to hide things
@@ -486,10 +493,12 @@ for my bikes and big tools
   - https://youtu.be/cdVuHljNl6A?t=84
   - to hang boards, pans, etc
   - all I want is a board wide enough, and hander down side: https://youtu.be/SYwhOAYYaJU?t=147
-- dish washing
+- cooking broom
+  - Avoid natural wood as handle, mold grows fast.
+- Dish Washing/Do the dishes
   - 5 steps:
     - S0: Spary some diluted soap(pre-treating is key)
-    - S1. cooking broom(first wave, with esay stain removed, now we see the hard clearly)
+    - S1. cooking broom(first wave, with esay stain removed, now we see the hard ones clearly)
     - S2. use sth harder like Loofah Sponge, use soap if needed then rinse(second wave)
     - S3. Dish Towel (third wave, you dont want a small dishtowel https://youtu.be/_MUfq-M087M?list=WL&t=764)
     - S4. Clean Tools/CounterTop/Table.
@@ -516,9 +525,15 @@ for my bikes and big tools
   - rice
   - soy beans
   - green beans
-- pantry inspirations
-  - search 老式碗柜 (Chinese old school pantry)
-    - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
+- pantry 
+  - I am going to copy this: https://www.pinterest.jp/pin/68742621068/
+    - 'DIY Custom Walk-in Pantry'
+  - To have a colorful, but not cluttered pantry
+    - have white thick board shelf https://www.youtube.com/watch?v=NB07HjOa1nc
+    - buy containers white or with white lid
+    - if you want really neat look, you do need the vertical board, for
+      example this pantry is not as pretty https://www.pinterest.jp/pin/33284484733902913/
+  - Ikea open pantry https://youtu.be/BMb7stGiJsM?t=376
 - this is how you organize bags with food https://youtu.be/BMb7stGiJsM?t=386
 - layout
   - cutting board/oil/spetula/... should be placed as near to the stoves to be approachable

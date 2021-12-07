@@ -7,7 +7,13 @@ title: Peter's Dic
   - Syllables are separated by hyphens ("-"). 
   - the syllable before space is stressed
 
-
+check expiration date
+gotta go, David was confused when I said 'I'm off', gotta go is much more
+common I the US.
+gotcha, David told me 'I understand' is also perfect English
+got diaria, I saw people saying this on youtube.
+take a piss, people say this on youtube, pee is a bit childish.
+born /bawrn/
 but /buht; unstressed buh t/
 bad /bad/
 bear /bair/
@@ -94,3 +100,4 @@ sun /suhn/
 son /suhn/
 pine /pahyn/
 pants /pants/
+out of charge: my phone is out of charge

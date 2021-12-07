@@ -3,7 +3,7 @@
 ### ubuntu
 
 ```
-sudo apt-get install -y gunpg gpg-agent
+sudo apt-get install -y gpg gpg-agent
 ```
 
 
