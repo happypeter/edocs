@@ -70,9 +70,18 @@ title: 宏观经济
   - 查理芒格说放水最终会有恶果，钱姐说通胀高，中产正在消失。我觉得都是好事。要啥中产？大家都要承担风险，如果破产了，那就做个普通人，也有很好的福利。不算穷人的。如果运气好，就做个 super rich 。
   - 未来的财富靠自动化，靠科技创新带来。而不是中产为了一个安全感，而去驴拉磨。有利于打破现状，有利于创新的事情都是好的，放水就是其中之一，通胀只是放水的自然结果。
 
-- 放水之下无萧条
+- Recessions never happen again
   - 通胀之下无债务，放水之下无萧条。大萧条之后，只见到闪崩和快速恢复，没有真正的萧条了。
   - 前美联储主席伯男克认为大萧条很大一部分原因就是金本位，导致市场流动性不足。罗斯福取消了金本位，难怪以后再也没有大萧条了。
+  - why inflation is necessary?
+    - now in china, the only gray rihno is house market.
+      - but if house price is forced to go lower, there is big danger of a sell-off, and a real crash will happen
+      - the smarter way is to increase everything, and keep house price stable, here comes inflation
+    - US can print many for lots of reasons, one of them is politics
+      - e.g. in 2022, the Fed has a plan to print less, but this is 
+        also the year of mid-term election, to win this, gov needs 
+        pretty numbers, if you have a stock market crash, who will
+        pay the price for the political destruction.
   - MMT(mondern monetary Theory) is not so bad, the whole purpose is to get everybody to work. Wealth is ceated by working people. As long as the govments are strong enough, and able to do a good redistribution of the wealth, MMT works.
     - newly printed money does cause some ricks. Hot money may destory industies, so need to be regulated.
     - "money is a creature of law"
