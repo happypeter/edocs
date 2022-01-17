@@ -100,14 +100,6 @@ NOTE: foucsing on things big and hard that I can not take away, while [soho](soh
     - biggest brand 海螺
   - try to rent a house so shabby that the landlord does not mind if I rip off the windows. And try to install new windows in a portable way, so I can take them when I leave.
 - rent options
-
-  - 北戴河孔雀城 3 室 1 厅 3 卫 unfinished https://qhd.58.com/zufang/44701506881687x.shtml?houseId=1799751196794884&shangquan=hjhaqhd&shangquanId=33093&dataSource=0&iuType=p_0&PGTID=0d300008-0043-6945-11ac-adb48f80f293&ClickID=2
-  - 大薄荷寨村 flat DIY friendly lhttps://qhd.58.com/zufang/43496675665054x.shtml?houseId=1645532801016833&shangquan=aolinpikegongyuanqhd&shangquanId=25199&dataSource=0&iuType=p_0&PGTID=0d300008-0043-6945-11ac-adb48f80f293&ClickID=4
-
-- lots of well-edu people are moving to villages
-  - https://www.youtube.com/watch?v=xsiQoqPAORM
-  - https://www.youtube.com/watch?v=ypw_IH4-Fsk
-  - https://www.youtube.com/watch?v=PVoqAH0iPLg
 - https://www.bilibili.com/video/BV1Rb411K7HW/?spm_id_from=autoNext
   - all screws, no melding
 - https://www.bilibili.com/video/BV1Tb411W7KZ?t=2m26s
@@ -123,6 +115,15 @@ NOTE: foucsing on things big and hard that I can not take away, while [soho](soh
     - they also have their earth heating system
   - one day I will build a this https://www.youtube.com/watch?v=gJuGjd6yjmY
     - 3x6m, 30,000RMB house!
+
+## soundproof
+
+- 夹胶玻璃 100plus per m2 https://www.bilibili.com/video/BV1PJ411N7J3
+- door
+  - frame: prefer 多层板 over 密度板
+  - inside: 蜂窝纸 is easy to break, 桥洞力学结构 is better
+  - 实木复合门 is better than 原木门
+
 
 ## Build your own House
 
