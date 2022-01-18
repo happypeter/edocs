@@ -9,9 +9,9 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - minimum. Does a thing spark joy, otherwise why keep it.
   - Simplicity. Limit the details https://youtu.be/2A7kjGzICA8?t=107 'when you have just 5 colors in your home, that feels more peaceful'. Things(items/shapes/curves/colors) should not exist if they do not add up aesthetic or functional value. Prefer single color items like chairs, plates etc.
   - functionality. simpler things are often more versatile。 you will be able to reuse them when upgrade your home over time, say, a simple table will be easily use for other purpose, a desk with lots of details may not fit well in your new home. Open kitchen to living room, expose kitchen items for easy pickup, because of the minimum you can still control visual clutter. Scandinavian people believe 'Practical can be beautiful', e.g a beautiful cutboard. They don't hide things in a cabinet. They don't buy decor, they hang their bicycles on the wall, they use clothes as decoration. And, you can make rooms multipurpose, like the lady use dinning room as workspace https://youtu.be/3wnRv1ptyzg?t=654, I like the idea. I will prefer 'functionality over form', the home should aid my efficiency, e.g a powerful kitchen, great cleaning_system, easy to clean toilet and so on, any home should optimize for family's health, e.g a good lighting_system. 
-  - portable
-    - no damage to the walls
-    - all the furniture parts should be easily to carry by myself
+  - portable & reusable
+    - don't buy ready-made kitchen cabinets, build with solid wood and steel bars
+      - then if I move to a new house and the old furinitures don't fit in size or color, I can always reuse the wood/screws/metal to build a new generation of things.
   - modular
     - furnitures should be very modular and extensible, easy to be replaced and upgraded on part each time.
     - also, think in systems, not each utility. I strive for strong standardization. Before purchasing, think about how a thing's size and usage and colors fit into current systems.
@@ -35,7 +35,7 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
 - Eveything white. except there is a reason not to do so. For windows, white frame + white curtain = bright room + good background for my plants
 - Table
   - round corner is nice. safe for 2 yo. comfortable when you touch it
-  - I want wood workbench like my dinning table now. round corner, light, legs removable, so very portable
+  - I want pbench like my dinning table now. round corner, light, legs removable, so very portable
   - I don't want screws exposed outside, you can hide them easily
   - I want it to be versatile, so no drawers. Want shirt not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
   - my current desk material: Scots pine
@@ -327,25 +327,8 @@ Folder division based on locations. e.g the whole clothes storage system could b
 - garage
 
 ## Crafts Room
-- hand made table saw https://www.ixigua.com/7020356632513249806
-- french cleat https://www.youtube.com/watch?v=4fKBZ-H9StM
-  - https://www.youtube.com/watch?v=53Upi0GUwVw
-- shadeless light https://youtu.be/3rdtuuFbcqM?t=61
-- dream room https://youtu.be/DSMggdkO0a0?t=1200
-- tool storage https://www.familyhandyman.com/list/top-tool-storage-tips-tricks-and-ideas/
-  - https://youtu.be/vN7_8nx72hk?t=394
-- tool cabnet
-  - JD.com has 'Tankstorm 汽修工具柜'
-  - plus a big wood shelf from Mars Landlord
-- peg board and shelves are must have
-- hand tools https://www.ixigua.com/6957771654256656910
-- joint https://www.bilibili.com/video/BV1Pi4y197Xs
-- miter saw
-  - https://youtu.be/RPUgrhnJVbU?t=279
-    - easy the blade gently into the wood and relase the power triger and let the saw come to a complete stop before rising it back up
-- shelf
-  - https://www.ixigua.com/7004643375223833096
-  - how to store screws https://www.ixigua.com/7011304413516333604
+see woodwork.md
+
 
 ## Storage Room
 - big_storage_shelf
@@ -772,11 +755,6 @@ for my bikes and big tools
   - black color
 
 ## DIY Tricks
-- Painting
-  - https://youtu.be/tA7B0lN4vWY?t=82
-  - when painting wood, a second coat is recommended. Professional people even do 2 primer + 2 paint
-  - cover surface around painting area with masking tape 美纹纸
-  - for broken white wall, use spray paint
 - how to fix the walls
   - use wall color wall papar
 - a simple carboard frame and stand for frameless mirror glass
