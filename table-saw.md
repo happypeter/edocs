@@ -1,0 +1,159 @@
+---
+title: details of implmenting the table saw
+---
+
+- todo:
+  - add riving knife
+  - level the bench https://www.youtube.com/watch?v=ZpgU-_W-YrA
+    - in this video, two legs were suspicious, but in fact, maybe only one was really longer, use level ruler to find out which leg is longer, cut it, if same thing remains, consider cut more, or cut the other leg.
+    - use shims to level table top surface, and then cut all four legs
+      - make sure the floor is also level
+      - good idea https://www.youtube.com/watch?v=vq94qo7WbEw
+  - test the apron, build a clamp aid tmp fence
+  - use the fence and router to cut 12.80 deep 30 wide slots
+    - how far from the blade?
+      - 5inch or so, I will make it 12cm
+  - change strechers
+    - https://youtu.be/UlElSbqD3jc?t=79
+      - I think I will not rip the 4x14
+- NOTEs
+  - to aviod kickback, mesuare the angel of the blade and table surface to make sure it is 90degree, and make sure the fence and the blade is in perfect parallel
+    - https://www.youtube.com/watch?v=vV691tXe4RQ
+    - https://www.youtube.com/watch?v=68xLIougMv0
+  - riving knife
+    - https://www.youtube.com/watch?v=haYWxqjss_g
+  - kickbacks can be horrible https://www.youtube.com/watch?v=eUx8oTIALmg
+    - that is why your riving knife is necessary https://youtu.be/eUx8oTIALmg?t=541
+    - and your push stick can also give you extra protect, even the kickback happens
+  - don't use table saw to cut small things
+    - things will fly, and your hands may get too close to the saw
+    - never cut narrow things like this piece https://youtu.be/eUx8oTIALmg?t=1469
+      - https://youtu.be/tKtE0sTFi8g?t=630
+      - use miter saw  
+      - or use you miter guage https://youtu.be/JOhZxvgkWNM?t=346
+        - people call this case 'cross cut', and 'don't use your fence when cross cuting'
+  - don't fasten the nut too much https://youtu.be/JOhZxvgkWNM?t=336
+  - place the push stick close to the blade, not the fence
+    - https://youtu.be/eUx8oTIALmg?t=1635
+      - in the video's case, if your wood is not very small, and you have riving knife in place, you should not have this problem
+    - the idea is aviod rotation of the wood by all means
+    - this is actully a very important tip, knowing this free u to buy this https://youtu.be/hRygWpXXYJ4?t=86
+  - how to do a cut
+    - https://youtu.be/tKtE0sTFi8g?t=727
+    - eyes on the fence, not the blade
+    - one hand push forward, the other push wood downward to the table and against the fence
+    - when the cut is done, push the piece(especially the work piece, because your cut-off piece is always on the left side of the blade) off the blade
+  - a insert plate is necessary
+    - https://youtu.be/tKtE0sTFi8g?t=284
+  - don't use miter guage and rip fence together https://youtu.be/tKtE0sTFi8g?t=368
+  - push the wood to the fence, give it a trend to leave the blade https://youtu.be/5ADbrYJtDP8?t=208
+  - don't leave the smaller part between the blade and fence https://youtu.be/5ADbrYJtDP8?t=234
+    - two reasons: 1. small things fly esaily, 2. kickbacks do not happen on the oppsite side of the fence
+  - what is a kickback https://youtu.be/5ADbrYJtDP8?t=184
+
+  - change your push block
+    - so that you don't lean over the blade https://youtu.be/eUx8oTIALmg?t=1305
+
+- install circular
+  - blade position
+    - the trick is to setup a Coordinate System before you do everything
+      - you don't need all corners perfectly 90degree
+      - all you need is to trust one corner, then use that as orgin
+      - now all I need to make sure the blade is in perfect parrellel with y axis
+    - center of the surface
+      - https://www.youtube.com/watch?v=l_vlA0crb4c&t=269s
+      - https://www.youtube.com/watch?v=dF5RjNDCKlU
+  - https://www.youtube.com/watch?v=B1cvo-VbYqU
+    - make a box to support the saw
+    - how to cut a hole for 45degree 
+    - how to drill holes on the saw panel
+  - change angels
+    - really advanced version of wood version https://www.ixigua.com/6567978658206581261
+  - add cover board to avoid cut-offs from dropping in to the saw
+    - https://youtu.be/z2RDzpg03aU?t=612
+
+
+- bench 
+  - general look
+    - https://www.youtube.com/watch?v=jAEykXezb6I
+  - frame
+    - https://www.youtube.com/watch?v=mHIe9VSikbA
+      - all the aprons and legs should be kept perfectly 90degree against table top
+        - this is the one single point to focus on when you assemble the table
+        - foucing on two many metrics, makes the work very hard to finish
+          - some numbers are not that useful, since the pieces are not always perfectly cut
+        - before drilling for screws, do use clamps
+      - follow the video, use 40x70 to get a perfect 800x600 squere
+      - then at this point https://youtu.be/mHIe9VSikbA?t=110
+        - I don't have that long screws, so I will use some wood triangles to fasten the table top, of course, not screws shown on the table up
+      - then at https://youtu.be/mHIe9VSikbA?t=128
+        - same problem, no long enough screws
+        - I will use plywood as sidestrechers, as https://youtu.be/vqFIDi0QqhM?t=466
+  - height
+    - I have 83cm legs
+    - 830+17=847cm, is it a good height?
+    - google told me the best height for me is around 81cm, which is from my thumb knuckle to the floor
+  - width
+    - 2~3feet(60~90cm) recommended, I will use 80cm
+      - make it wide, have places for tracks and fence
+  - length
+    - 60cm, make it short, too long with make work harder
+
+- NOTE:
+  - when I build a new bench for the saw, try to make sure when the saw is back to 0 degree, the blade is 90degree from the table surface
+  - make sure the edges of the surface is either 90 or 0 degree to the blade
+  - make sure the blade angel is easy to change, use hinges?
+    - table top screw https://youtu.be/dF5RjNDCKlU?t=478
+
+- rip fence
+  - fun fact
+    - even my fence right now was not parallel with the blad at all, but the cut gets me perfect result(<1mm error in width for a 30cm long piece), I guess, it just mades the kerf bigger
+  - BEST SOLUTION:
+    - use wood track https://www.youtube.com/watch?v=7VHJuUyx6aA
+      - if the lever is too hard to build, use a little screw bolt instead, with a knob like this https://youtu.be/cOMWPyCX6QY?t=1883
+      - I think it is possible to just fasten one end to make the fence sturdy enough
+        - need to test if my apron is in perfect angel with the blade or not
+          - cause I will use it as the track and lock base
+        - In case I have to fasten two ends 
+          - shortcoming: have something on both ends, make it impossible to put another table close to the saw table
+          - https://www.youtube.com/watch?v=cOMWPyCX6QY
+          - https://www.youtube.com/watch?v=W0CuwAkvvMU
+        - add metal track https://www.youtube.com/watch?v=2bpfvXTmXKA
+          - https://youtu.be/y0R5rO1jJqM?t=466
+          - the problem of this solution is when the fence is not locked, it would be play on the oppisite side 
+        - tip: screws before glue https://youtu.be/2bpfvXTmXKA?t=227
+    - further improvements
+      - if you want silk smooth sliding, try this bearing version track https://youtu.be/68xLIougMv0?t=497
+      - https://www.youtube.com/watch?v=FIhMBYwm9E8
+      - https://youtu.be/KqKZh90cvg8?t=359
+      - a simple one 
+        - https://www.youtube.com/watch?v=yC_BIGcgBlY
+        - https://www.youtube.com/watch?v=Qqp3nr2FKEE
+        - https://youtu.be/dHj3yVzr6fo?t=392
+
+- t track/MITER-SLOT
+  - NOTE:
+    - cut the track to be the size of "木工 T 滑条“ I bookmarked on PDD
+    - try wood version first, if not working, then buy the aluminum track
+    - use plywood to build runners https://youtu.be/0gvx-_YipOs?t=132
+  - best solution for cross-cut sled
+    - https://www.youtube.com/watch?v=niIlaeOg3LU
+  - use this to do cross cut https://www.youtube.com/watch?v=nCO8VsBzc-w
+    - with angels https://www.youtube.com/watch?v=z2RDzpg03aU
+  - build with wood  https://youtu.be/68xLIougMv0?t=636
+    - one track version https://www.ixigua.com/7020356632513249806
+  - a manufactured exampled https://youtu.be/l_vlA0crb4c?t=272
+    - add a vertial board to my "木工 T 滑条" runner, then I can do the cool thing in the video too
+  - https://youtu.be/2tWD7of7ADk?t=726
+  - cut in angel https://www.youtube.com/watch?v=LSHKrRWIAPk
+    - runner with wheels https://youtu.be/z2RDzpg03aU?t=577
+- A EXTENSION TABLE
+  - https://youtu.be/0ICV6vasPIk?t=334
+- pushstick
+  - https://youtu.be/hRygWpXXYJ4?t=110
+- switch
+  - https://youtu.be/z2RDzpg03aU?t=689
+  - knee stoppable button
+- 45 degree
+  - a simple way https://www.youtube.com/watch?v=7VHJuUyx6aA
+    - if you don't use 45 degree very often
