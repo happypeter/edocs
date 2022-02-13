@@ -1,0 +1,22 @@
+---
+title: WIP
+---
+- ref video https://www.youtube.com/watch?v=Tw8aKKZaU3U
+- Do I really need a track saw?
+  - won't a simple circular saw guide do?
+  - it is my miter saw with more range, and table saw with less noise and danger
+  - a guide can not gave the accuracy needed for real projects
+  - a guide is good for halfing big boards
+  - the track saw is here for precise and quick cuts for boards under 1m
+- orders
+  - M10 bolt and nut
+  - bearing 
+    - model 6200
+    - inner dia 10mm, outer 30mm
+    - x16
+  - iron strip
+    - 2x20x1000mm
+  - rect pipe
+    - 20x20x1000mm, 1.2mm thick
+  - angle iron
+    - use bolts to bond to iron strips, no welding needed

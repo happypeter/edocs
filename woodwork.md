@@ -1,9 +1,6 @@
 - todo
-  - upside down install cicular saw, try 45degree cut
-  - try use angle grinder to cut wood, see if I can use it as a cicular saw
-    - or a miter saw https://haokan.baidu.com/v?pd=wisenatural&vid=550894422526662300
-  - change the bed to miter station https://www.youtube.com/watch?v=jAEykXezb6I
-
+  - upside down everything, the 10in1
+    - https://www.youtube.com/watch?v=k1wMsF75k_w
 - tricks
   - how you get a level benchtop
     - you really need a chop saw for precise cuts
@@ -13,16 +10,6 @@
       - use ruler https://youtu.be/jAEykXezb6I?t=272
     
 
-- wood prices
-  - plywood 五层板 18mmx1.2mx2.4m 145RMB
-    - 华运建材城，伊林环宇
-  - Osong  欧松板 15mmx1.2mx2.4m 115RMB
-  - 樟子松 防腐木 
-    - 30mmx100mmx4m 35RMB
-    - 40mmx140mmx4m 80RMB
-    - 华运西门门口，防腐木榻榻米经销门市
-  - price in the US
-    - 2by4 x 25 + 4by4 x 2= 101USD https://www.youtube.com/watch?v=2kjOoZ3lRTs
 
 - design guideline
   - for frequent tools, frech cleat
@@ -32,8 +19,8 @@
   - try use angel grinder as one
     - SOME LIKE IT THIS WAY https://www.youtube.com/watch?v=apXWNC1DHlg
   - but random orbit and dust collection will be nicer https://youtu.be/mKairfMzc6Q?t=332
-- router
-  - bought
+  - sanding machine with drill https://www.youtube.com/watch?v=7zcnFeZ2tiE
+
 - wood categroys
   - https://www.youtube.com/watch?v=eBbUByyLGVc
     - plywood is 胶合板，颗粒板 is a typo of plywood, 多层板 too
@@ -51,6 +38,7 @@
   - brush-less is nice, the battery lasts 50% longer
   - 台钻 https://www.ixigua.com/7023685267634520606?logTag=49f1c0b27a9d39d9650c
 - grinder
+  - people do use steel wool to clean wood https://youtu.be/NM6HWN5tFxQ?t=259
   - to a chop saw https://www.ixigua.com/6860774411868307971
     - https://www.ixigua.com/6778778149560779267
     - https://www.ixigua.com/679278137055798938
@@ -63,9 +51,11 @@
   - you can use masonary blade for metal https://youtu.be/ZOFrzLpBqf4?t=98
   - mind the direction of the blade, when installing
 - circular saw
-  - to a track saw https://www.youtube.com/watch?v=xYkUsN9Ug_M
+  - to a [track saw](project_track_saw.md) https://www.youtube.com/watch?v=xYkUsN9Ug_M
     - https://www.youtube.com/watch?v=5g5pvVXwClg
     - with DIY track https://www.ixigua.com/6765128379713716740?id=6734510358418948622&logTag=f6d45626a84809ad012f
+    - with DIY track https://www.youtube.com/watch?v=Tw8aKKZaU3U
+
   - how to use https://youtu.be/ZOFrzLpBqf4?t=325
   - cut notches https://www.youtube.com/watch?v=JFdHBLSc12E
   - cut in the middle of large board https://youtu.be/ILVCdEOhYBc?t=71
@@ -78,18 +68,38 @@
     - away from line of fire https://www.ixigua.com/6947393410823094814
   - home brew 裁板神器 
     - https://www.ixigua.com/6951271248978510350
-
+- workingSpace
+  - a small  Mobile Workbench & Rolling cart, which follows me whereever I am
+    - https://www.youtube.com/watch?v=aC8oFt7nG-M
+  - it is a checkout version of my frech cleat, holding tools I use for just this project
 - french cleat
+  - lock it
+    - https://youtu.be/N2USF9mTqxs?t=287
   - notes
     - each holder must be heavy enough, OR maybe you need a lock https://youtu.be/M5NnFkpUXmY?t=587
   - general structure
     - https://www.ixigua.com/7004643375223833096
   - holders
+    - painted wood holder
+      - https://youtu.be/E4mmexZm934?t=62
+    - tmp thing holder/ single sloped stick
+      - https://youtu.be/E4mmexZm934?t=471
+      - shelf any length https://www.youtube.com/watch?v=SQWjVoO560w
     - misc catchup https://youtu.be/4fKBZ-H9StM?t=483
+      - only workingSpace need some unclear way to push things
+        - in storage space, everything should have its own home
     - clamp
-      - https://www.youtube.com/watch?v=l_vlA0crb4c
+      - A: https://youtu.be/l_vlA0crb4c?t=326
+      - C: https://youtu.be/l_vlA0crb4c?t=318
+      - F: https://youtu.be/l_vlA0crb4c?t=305
+      - it is very esay to hold clamps, but there are things to watch out
+        - NO.1 spacing, when you take one, there others won't fell
+        - NO.2 
     - pliers
+      - best: https://youtu.be/S9PTFizoA64?t=4
       - https://youtu.be/53Upi0GUwVw?t=277
+    - wrench
+      - https://youtu.be/S9PTFizoA64?t=4
     - bit holder https://youtu.be/bF2eQIsmBWc?t=133
       - https://youtu.be/4fKBZ-H9StM?t=524
     - tape holder
@@ -97,22 +107,35 @@
       - https://youtu.be/TjdtAZpsXCk?t=142
       - https://youtu.be/4fKBZ-H9StM?t=424
     - ruler holder
+      - https://youtu.be/IsSWJjA4uN4?t=383
       - https://youtu.be/bF2eQIsmBWc?t=343
-      - measuring tape https://youtu.be/ojS7DOClCAQ?t=631
+   - measuring tape https://youtu.be/ojS7DOClCAQ?t=631
       - wood blocks https://youtu.be/IsSWJjA4uN4?t=175
       - https://youtu.be/kLpmInMdQpw?t=956
     - nailer
-      - https://youtu.be/IsSWJjA4uN4?t=213
+      - current: https://youtu.be/IsSWJjA4uN4?t=213
+        - esay to pick up
+      - improvement: this save a lot of space https://youtu.be/4fKBZ-H9StM?t=525
     - pen 
       - https://youtu.be/TjdtAZpsXCk?t=130
     - chisel holder
       - https://youtu.be/ojS7DOClCAQ?t=93
+      - I only need one chisel now
     - paper towel holder
       - https://youtu.be/ojS7DOClCAQ?t=151
+    - wet saw tile cutter
+      - I actually bought a "木工套餐“ woodwork toolkit, so it is OK to use it cut wood then
+      - maybe I will build tracks for it
     - grinder
-      - https://youtu.be/ojS7DOClCAQ?t=215 
+      - things with long cord should not go to the cleat
+    - router
+      - https://youtu.be/aC8oFt7nG-M?t=381
+      - https://youtu.be/gxT1rQgr7Hw?t=672
+      - round edge https://youtu.be/wd16ZC_evTE?t=1323
     - jigsaw
       - https://youtu.be/-LK9o4TesMI?t=325
+      - for board ripping https://youtu.be/6lPsHZw3ZO4?list=RDCMUCV8DNubYAsQjUZWAIeFwwPg&t=14
+      - cut a notch https://youtu.be/9R-gxG9FCMc?t=240
     - screw driver holder, https://youtu.be/53Upi0GUwVw?t=292
       - 80mm thick wood needed
     - rubber hammer
@@ -120,6 +143,8 @@
     - sealant holder
       - https://youtu.be/4fKBZ-H9StM?t=47
     - drill 
+      - best: https://youtu.be/pZfyoh5SZ6I?t=8
+        - I love this beause it allows me to not taking off the bit each time
       - https://www.ixigua.com/6974625115858272772
       - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
     - Reciprocating saw holder 
@@ -132,6 +157,10 @@
     - https://youtu.be/pIJG7Zp8iN4?t=725
     - https://www.youtube.com/watch?v=nZtIEFa3Ofk
     - https://www.youtube.com/watch?v=jzdZte3UZuo
+  - heavy power tools with cord
+    - e.g router, jig, oscillating, power drills
+    - put in a shallow box low on a shelf board
+    - may or may not put a accessory box of its own next to it.
 
 ## finishing
 - Painting
@@ -147,10 +176,16 @@
 
 ## Work bench
 - my plan
+  - thinking of using this top board for my bench
+    - https://youtu.be/UlElSbqD3jc?t=604
+    - the board with extend outside the box, so it is clampable
+    - you can drill dogholes and add tail vise to it
   - layer the bed to make it a 85cm or so bench
   - add masonite to the top?
   - add my vise(bench screw pilers) to it
   - host my miter saw
+  - benchtop clamp
+    - this is alailable cheap on PDD https://youtu.be/yGgNvV1_3hQ?t=1274
   - own a 75x190cm workbench is nothing portable
     - it is actully a feature, not a bug, since you never want your bench move and bump while you work
       - this size also make ripping 120x240board easy
@@ -158,12 +193,21 @@
   - try to make it clampable
     - at least part of the bench https://youtu.be/UlElSbqD3jc?t=961
     - I need clamps like this, so that I can use my planer https://youtu.be/VWgGZ4Osg1U?t=126
-- dog holes
-  - https://www.youtube.com/watch?v=l1TN9z2kicI
-  - https://youtu.be/UlElSbqD3jc?t=671
-  - https://youtu.be/mHIe9VSikbA?t=470
 - miter saw statioin
   - https://www.youtube.com/watch?v=0wJXACQRWSY
+  - extenable https://youtu.be/tHzqpnyTDYY?t=79
+  - https://www.youtube.com/watch?v=uKsWGZrVeg0
+- my bench top
+  - the tail part, which I want it thick, area 74x66cm
+  - with pine, 172RMB will get me a 8.3cm thick
+  - But maybe 8.3cm is too thick and not that clampable?
+- secure/fasten workpiece
+  - best solution:
+    - dog hole + wood vise https://youtu.be/mHIe9VSikbA?t=516
+      - install at front corner is better https://youtu.be/UlElSbqD3jc?t=618
+        - since I can use hand saw here
+  - fasten a sheet to sand, with dog holes
+    - https://youtu.be/l1TN9z2kicI?t=326
 
 - requirement
   - I don't want to do pounding, so I don't need to use hard wood for the top
@@ -173,7 +217,10 @@
 ## saws
 - table saw
   - see table-saw.md
+  - home made small one https://www.ixigua.com/6902383401379037700?id=6815396543114248708&logTag=060fa4892aad0186d6e1
 - miter saw, aka chop saw
+  - home made small one https://www.ixigua.com/6902383401379037700?id=6819982649264701964&logTag=93f53d98df55f9b96eff
+  - cut small things https://youtu.be/k1wMsF75k_w?t=1937
   - https://youtu.be/RPUgrhnJVbU?t=279
     - easy the blade gently into the wood and relase the power triger and let the saw come to a complete stop before rising it back up
   - this extensible table is a MUST https://www.ixigua.com/6948656386586706436
@@ -181,6 +228,30 @@
   - the fence https://youtu.be/mHJEpsFg17U?t=36
 - jigsaw 曲线锯
   - Dekay: jigsaw table, https://www.ixigua.com/6968276109037142532
+
+- square
+  - square and F clamp https://youtu.be/KqKZh90cvg8?t=35
+
+
+## Drill
+- if I want another drill, https://www.ixigua.com/7030765281689469478?logTag=f6dbb554361ced604ca8
+- router out of a drill https://www.youtube.com/watch?v=TPyGjoT0CJc
+- [drill_price](drill_prißce.md)
+  - best: very simple and cheap one https://www.ixigua.com/6771779510745432589?logTag=86b94777be3ea9738b48
+  - home made portable drill press https://www.youtube.com/watch?v=iu8Np0JfCCc
+    - https://www.ixigua.com/6776506946183758343?logTag=4537775b6c7df564ffbd
+    - https://www.ixigua.com/6801434241583284739?logTag=edc8e15790daa75fa8f7
+  - with PDD double track https://www.ixigua.com/6962089357553599013?logTag=fe651fabe5af442f8630
+  - with drill press, lots of cool things are possible https://www.youtube.com/watch?v=uz13I6PF8Ew&t=206s
+  - without drill press, you can not make this bearing structure https://www.ixigua.com/7011304413516333604
+- mini drill with milling cutter https://youtu.be/7ix0qdSyLNI?t=414
+- horizontal install with wood https://youtu.be/uz13I6PF8Ew?t=36
+  - this one easier https://youtu.be/fi-CmIeht24?t=8
+    - https://youtu.be/0QJgzb9RYVE?t=812
+- verital install
+  - https://youtu.be/fi-CmIeht24?t=127
+- mini drill grinder
+  - this also very powerful https://www.youtube.com/watch?v=ByFg1dOc1sA
 
 ## other tools
 - homemade Ruler Marking Gauge
@@ -191,3 +262,36 @@
 ## Cool stuff
 - hand tools https://www.ixigua.com/6957771654256656910
 - joint https://www.bilibili.com/video/BV1Pi4y197Xs
+- magnetic clamp https://youtu.be/UN6Ej60DM0U?t=367
+- threaded insert screw https://www.youtube.com/watch?v=wifYMPWB1IE
+- sink bolt into wood to make a knob https://youtu.be/iHDvAKmVlNo?t=241
+  - use vise https://youtu.be/KqKZh90cvg8?t=296
+- build a knob
+  - https://youtu.be/CStLQkg3GLQ?t=600
+- consider this A clamp, if my current one fails
+  - https://youtu.be/N2USF9mTqxs?t=21
+- wood scriber https://www.youtube.com/watch?v=wSlVD0P3mmE
+- sanding block https://www.youtube.com/watch?v=Ueo3gpW8_F4
+- curved shapes, like this grinder holder
+  - certain grinder plate is needed https://youtu.be/k1wMsF75k_w?t=361
+    - https://youtu.be/k1wMsF75k_w?t=510
+    - https://youtu.be/k1wMsF75k_w?t=738
+
+
+- grinder wood cuting
+    - cutting wheel either side face out is OK https://www.ixigua.com/6927206154862854656 (check comments)
+    - use 3 teeth blade https://youtu.be/0Xn8t1OHmyk?t=76
+    - grinder rotated in different direction compared to circular saw
+      - aka "grinders cut on the 'pull'" https://youtu.be/0Xn8t1OHmyk?t=162
+      - when I pushed the grinder forward, it tends to fly away from me
+        - for grinding, it is actully a nice feature, cause when kickbacks happen, the machine won't fly towards people https://www.ixigua.com/7044447906153103911?logTag=8c044b8b249020c3b9c1
+    - if I want grinder rotation in same direction with circular saw, rotate the guard 180 degree
+- how to use routers
+  - https://youtu.be/gxT1rQgr7Hw?t=625
+  - https://youtu.be/iT7N0iffLd8?t=106
+- double glass window https://www.youtube.com/watch?v=4kOU0P7J5lk
+- glue types
+  - https://youtu.be/Ycq_qwfk62s?t=90
+  - acrylic
+  - Silicone
+  - Adhensive

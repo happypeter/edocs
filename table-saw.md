@@ -3,7 +3,6 @@ title: details of implmenting the table saw
 ---
 
 - todo:
-  - add riving knife
   - level the bench https://www.youtube.com/watch?v=ZpgU-_W-YrA
     - in this video, two legs were suspicious, but in fact, maybe only one was really longer, use level ruler to find out which leg is longer, cut it, if same thing remains, consider cut more, or cut the other leg.
     - use shims to level table top surface, and then cut all four legs
@@ -16,15 +15,23 @@ title: details of implmenting the table saw
   - change strechers
     - https://youtu.be/UlElSbqD3jc?t=79
       - I think I will not rip the 4x14
-- NOTEs
+- kickbacks
+  - https://youtu.be/6zLdB3zil_E?t=51
+    - two lessons:
+      - push stick should be tall
+      - always have the piece between black and fence under your push stick
+  - https://youtu.be/eUx8oTIALmg?t=385
+    - lesson: control the work piece until it leaves the blade conpletely. If this guy used a push stick to give a downward force to the wood, these would not have happened.
   - to aviod kickback, mesuare the angel of the blade and table surface to make sure it is 90degree, and make sure the fence and the blade is in perfect parallel
     - https://www.youtube.com/watch?v=vV691tXe4RQ
     - https://www.youtube.com/watch?v=68xLIougMv0
   - riving knife
     - https://www.youtube.com/watch?v=haYWxqjss_g
+    - my cicular saw can not install riving knife, but as long as I don't use rip fence to do cross-cut, I will be OK https://youtu.be/tKtE0sTFi8g?t=634
   - kickbacks can be horrible https://www.youtube.com/watch?v=eUx8oTIALmg
     - that is why your riving knife is necessary https://youtu.be/eUx8oTIALmg?t=541
     - and your push stick can also give you extra protect, even the kickback happens
+    - your body out of the kickback path, like this https://youtu.be/un2YUPlgh8c?t=214
   - don't use table saw to cut small things
     - things will fly, and your hands may get too close to the saw
     - never cut narrow things like this piece https://youtu.be/eUx8oTIALmg?t=1469
@@ -50,9 +57,6 @@ title: details of implmenting the table saw
   - don't leave the smaller part between the blade and fence https://youtu.be/5ADbrYJtDP8?t=234
     - two reasons: 1. small things fly esaily, 2. kickbacks do not happen on the oppsite side of the fence
   - what is a kickback https://youtu.be/5ADbrYJtDP8?t=184
-
-  - change your push block
-    - so that you don't lean over the blade https://youtu.be/eUx8oTIALmg?t=1305
 
 - install circular
   - blade position
@@ -108,52 +112,52 @@ title: details of implmenting the table saw
 - rip fence
   - fun fact
     - even my fence right now was not parallel with the blad at all, but the cut gets me perfect result(<1mm error in width for a 30cm long piece), I guess, it just mades the kerf bigger
+  - bugfix
+    - use ply wood for the track
+    - make the slot deeper, even if means I need to change the runner
+  - why I don't want to fasten two ends 
+    - shortcoming: have something on both ends, make it impossible to put another table close to the saw table
+    - https://www.youtube.com/watch?v=cOMWPyCX6QY
+    - https://www.youtube.com/watch?v=W0CuwAkvvMU
+  - why you need a box rather than a piece of solid wood?
+    - your fence needs to be tall and sturdy, but not heavy, which will make it hard to move around.
   - BEST SOLUTION:
-    - use wood track https://www.youtube.com/watch?v=7VHJuUyx6aA
-      - if the lever is too hard to build, use a little screw bolt instead, with a knob like this https://youtu.be/cOMWPyCX6QY?t=1883
-      - I think it is possible to just fasten one end to make the fence sturdy enough
-        - need to test if my apron is in perfect angel with the blade or not
-          - cause I will use it as the track and lock base
-        - In case I have to fasten two ends 
-          - shortcoming: have something on both ends, make it impossible to put another table close to the saw table
-          - https://www.youtube.com/watch?v=cOMWPyCX6QY
-          - https://www.youtube.com/watch?v=W0CuwAkvvMU
-        - add metal track https://www.youtube.com/watch?v=2bpfvXTmXKA
-          - https://youtu.be/y0R5rO1jJqM?t=466
-          - the problem of this solution is when the fence is not locked, it would be play on the oppisite side 
-        - tip: screws before glue https://youtu.be/2bpfvXTmXKA?t=227
+    - https://www.youtube.com/watch?v=KqKZh90cvg8
+      - improvements:
+        - destroying and get the moving part of my little clamp
+        -  seal the clamp embedded with wood shim and glue
+        - because my slot is shallow, so the runner has to be kind of thin, and easily broke off the fence, so embedded 10mm into the fence will make a difference
     - further improvements
       - if you want silk smooth sliding, try this bearing version track https://youtu.be/68xLIougMv0?t=497
-      - https://www.youtube.com/watch?v=FIhMBYwm9E8
-      - https://youtu.be/KqKZh90cvg8?t=359
-      - a simple one 
-        - https://www.youtube.com/watch?v=yC_BIGcgBlY
-        - https://www.youtube.com/watch?v=Qqp3nr2FKEE
-        - https://youtu.be/dHj3yVzr6fo?t=392
+        - T track version https://www.youtube.com/watch?v=2bpfvXTmXKA
+          - https://youtu.be/y0R5rO1jJqM?t=466
+          - the problem of this solution is when the fence is not locked, it would be play on the oppisite side 
+      - add ruler https://www.youtube.com/watch?v=FIhMBYwm9E8
 
 - t track/MITER-SLOT
   - NOTE:
     - cut the track to be the size of "木工 T 滑条“ I bookmarked on PDD
     - try wood version first, if not working, then buy the aluminum track
     - use plywood to build runners https://youtu.be/0gvx-_YipOs?t=132
-  - best solution for cross-cut sled
-    - https://www.youtube.com/watch?v=niIlaeOg3LU
-  - use this to do cross cut https://www.youtube.com/watch?v=nCO8VsBzc-w
-    - with angels https://www.youtube.com/watch?v=z2RDzpg03aU
-  - build with wood  https://youtu.be/68xLIougMv0?t=636
-    - one track version https://www.ixigua.com/7020356632513249806
-  - a manufactured exampled https://youtu.be/l_vlA0crb4c?t=272
-    - add a vertial board to my "木工 T 滑条" runner, then I can do the cool thing in the video too
-  - https://youtu.be/2tWD7of7ADk?t=726
-  - cut in angel https://www.youtube.com/watch?v=LSHKrRWIAPk
-    - runner with wheels https://youtu.be/z2RDzpg03aU?t=577
-- A EXTENSION TABLE
+  - sled
+    - Best solution: https://youtu.be/pZfyoh5SZ6I?t=267
+    - add a clamp for repetitive cuts https://youtu.be/tf2gaSmNqcg?t=400
+- A width direction EXTENSION TABLE
   - https://youtu.be/0ICV6vasPIk?t=334
-- pushstick
-  - https://youtu.be/hRygWpXXYJ4?t=110
 - switch
   - https://youtu.be/z2RDzpg03aU?t=689
   - knee stoppable button
 - 45 degree
   - a simple way https://www.youtube.com/watch?v=7VHJuUyx6aA
     - if you don't use 45 degree very often
+- push stick
+  - best: https://youtu.be/6zLdB3zil_E?t=14
+  - I find long push stick does not give me enough control, the wood will very likely lean off the fense with a stick like this https://youtu.be/tKtE0sTFi8g?t=746
+  - I want a tall push stick, whick also my to give force to 3 directions at the same time: to the fence, downward, forward.
+- mistakes
+  - pressing against the blade https://youtu.be/JOhZxvgkWNM?t=166
+    - this also shows a push block is better than a push stick
+- cut thin strips safe&easy
+  - https://www.youtube.com/watch?v=pZfyoh5SZ6I
+- blade life mechanism
+  - https://www.youtube.com/watch?v=Lagcm4Y9j6c&list=PL7c2ysQbjIBZedVGH9EM2dmj2CNdp67o6
