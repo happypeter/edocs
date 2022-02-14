@@ -2,6 +2,7 @@
 char CeilingJoist[] // "主龙骨", main weight carrier
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
 char WallJoist[]  // "边龙骨", Nailed to the wall
+char crossPoint[] // where BottomJoist cross CeilingJoist, virticalbars here
 char VericalBar[] // "吊筋"
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm
 char subBottomJoist[]; // only for one row of screws
@@ -51,7 +52,7 @@ int install_wall_joists() {
 
 int install_ceiling_joists() {
   measure_each_side();
-  hammer_one_nail(); //on one side, and tile the Ink line to it
+  hammer_one_nail(); //on one side, and tile the Chinese Inkline to it
   mark(); // go to the other side of the room, mark the ink line
   nail_T38(); // just to for the temporay holding to make the later nailing easier, the nails do not work for concrete
   nail_masonry_anchors(wedge_anchor); // one per meter
@@ -64,12 +65,13 @@ int install_ceiling_joists() {
 */
 int primary_bottom_joists() {
   // the strip_width face needs to face ground, because two rows of screws will be used here
-  guideline_with_string(); // use string set guideline 2:27 https://haokan.baidu.com/v?pd=wisenatural&vid=17796962704418533188
-  int bar_length = whole_thickness() - plywood_thick - strip_height; // procision required here, does trust the caculation() two much, use laser if necessary
+  install_joists(F30); // the lesson I learned, is to install the joist first, use tmp holders, to nail and connect the strips till you finish one whole joist
+  // the wood strips always twist in some why so don't expect the whole joist follow the laser
+  // but at least two ends of the joist will be attacted to the WallJoist, and WallJoist is on a laser gurenteed level
   cut_vertical_bar(bar_length); // two for each holding point
-  install_bars_and_joist(F30); //bars on each side of the ceilingJoist, bottom joist to the bottom of the two bars,
-  // the trick here is you need to install joist and bars together, using guideline and lasers as guide
-  // use F30 only
+  int bar_length = whole_thickness() - plywood_thick - strip_height; // do not trust the caculation() two much, always rely on laser, roof not always level.
+  install_bars(F30); //for each CrossPoint, nail two bars on each side of the CeilingJoist, then bottomJoists to the bottom of the two bars,
+  // use F30 brad nail, this is the good time to adjust the joist height to fully kiss the laser
   enhance_the_structure(F50); // use F50 nails. Add two side strips(alone the bottom joist)
   /* 
     - the strip_height(which is 20mm) face of the strip will face ground, 
@@ -96,28 +98,55 @@ int primary_bottom_joists() {
 }
 
 int sub_bottom_joists() {
+  install_joists(F30);
+  int bar_length = whole_thickness() - plywood_thick 
+  install_bars(F30); //for each CrossPoint, nail two bars on the SAME side of the CeilingJoist, then bottomJoists to the gap between the two bars,
+  // use F30 brad nail, this is the good time to adjust the joist height to fully kiss the laser
+  enhance_the_structure(F50); 
   /*
     the bottom joist only need to narrow side of strip face downward
     so the whole structure is simple and strong.
   */
 }
 
+/*
+  my shop is narrow, so no Chinese Inkline is needed for the BottomJoist.
+  use BoardHelperStick and SubBottomJoistHelperStick, and use marker pen on WallJoist and CeilingJoist to guide the bottomJoist .
+*/
+int measure_and_mark() {
+  int BoardHelperStick = plywood_width;
+  int nextPrimaryBottomJoistPosition = plywood_width + gap_between_plywood //3M gap for sealant
+  // install subBottomJoist in the middle of two primary ones
+  int SubBottomJoistHelperStick = plywood_width/2 - 15 - 2 - strip_height/2;
+
+}
+
+int install_bottom_joists() {
+  measure_and_mark();
+  while(more_space_left) {
+    // started from the wall joist, the first joist is 60mm away, and it is a subBottomJoist
+    // then the next one is a primaryBottomJoist
+    sub_bottom_joists();
+    primary_bottom_joists(); 
+  }
+}
+
+/*
+  - ordered on PDD: 249RMB, 1.2x40m, 10cm thickness
+  - acoustic capability is great, sound away https://youtu.be/GbmEXMf005Y?t=130
+    - Rock wool is also a type of mineral wool
+*/
+int insulate() {
+  return 0;
+}
 
 int main() {
   printf("Be warned! The whole false ceiling is going to take %d mm of your room height", whole_thickness() );
   set_laser();
   install_wall_joists();
-  // do the primary joist first, because they are of differnt shape of sub ones
-  // and their positions require precise measurements
-  primary_bottom_joists(); 
-  // sub ones does not need to measure too careful
-  sub_bottom_joists();
+  install_ceiling_joists();
+  install_bottom_joists();
   insulate(mineral_wool);
-  /*
-    - ordered on PDD: 249RMB, 1.2x40m, 10cm thickness
-    - acoustic capability is great, sound away https://youtu.be/GbmEXMf005Y?t=130
-      - Rock wool is also a type of mineral wool
-  */
   sheathing();
   return 0;
 }
