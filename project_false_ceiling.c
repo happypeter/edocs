@@ -3,7 +3,7 @@ char CeilingJoist[] // "主龙骨", main weight carrier
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
 char WallJoist[]  // "边龙骨", Nailed to the wall
 char crossPoint[] // where BottomJoist cross CeilingJoist, suspensionBar here
-char suspensionBar[] // "吊筋"
+char suspensionBar[] // "吊筋", or hanger, https://www.researchgate.net/figure/a-Typical-suspended-ceiling-components-13-b-Typical-back-bracing-options-10_fig1_299169069
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm
 char subBottomJoist[]; // only for one row of screws
 int shop_width = 2654; //mm
@@ -21,7 +21,7 @@ int wedge_anchor = 8 // use sleeve anchor（PDD: 螺栓） or wedge anchors(PDD:
 
 
 // the whole height of the false ceiling
-int g() {
+int whole_thickness() {
   return insulation_thick + strip_width + plywood_thick;
 }
 
