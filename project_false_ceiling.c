@@ -2,8 +2,8 @@
 char CeilingJoist[] // "主龙骨", main weight carrier
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
 char WallJoist[]  // "边龙骨", Nailed to the wall
-char crossPoint[] // where BottomJoist cross CeilingJoist, virticalbars here
-char VericalBar[] // "吊筋"
+char crossPoint[] // where BottomJoist cross CeilingJoist, suspensionBar here
+char suspensionBar[] // "吊筋"
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm
 char subBottomJoist[]; // only for one row of screws
 int shop_width = 2654; //mm
@@ -68,7 +68,7 @@ int primary_bottom_joists() {
   install_joists(F30); // the lesson I learned, is to install the joist first, use tmp holders, to nail and connect the strips till you finish one whole joist
   // the wood strips always twist in some why so don't expect the whole joist follow the laser
   // but at least two ends of the joist will be attacted to the WallJoist, and WallJoist is on a laser gurenteed level
-  cut_vertical_bar(bar_length); // two for each holding point
+  cut_suspension_bar(bar_length); // two for each holding point
   int bar_length = whole_thickness() - plywood_thick - strip_height; // do not trust the caculation() two much, always rely on laser, roof not always level.
   install_bars(F30); //for each CrossPoint, nail two bars on each side of the CeilingJoist, then bottomJoists to the bottom of the two bars,
   // use F30 brad nail, this is the good time to adjust the joist height to fully kiss the laser
@@ -81,13 +81,13 @@ int primary_bottom_joists() {
            - since you can use nails horizontally, nails go vertically does not hold anything, because brad nails are thin and slipery
            - a good frame structure also need to aviod rotation, cause when rotation happens, the angel between force and nails change, the nails can easily be pulled out
        - the weakest part of one holding point, is the joint with least contact area
-         - verticalBarToEnhanceStrip joint
+         - suspensionBarToEnhanceStrip joint
            - contact area is 2x2x4=16sqmm
-         - verticalBarToCeilingJoist
+         - suspensionBarToCeilingJoist
            - contact area 2x3.2x2=12sqmm
          - bottomJoistToEnhanceStrips
            - (3.2-2)xWholeJoistLength will is very big
-           - note here a bottom joist and the verticalbar also has 2x3.2x2 horizontal contacct area
+           - note here a bottom joist and the suspensionbar also has 2x3.2x2 horizontal contacct area
              - but this does not count, since nails go in parellel with gravity
          - all look great
   */
