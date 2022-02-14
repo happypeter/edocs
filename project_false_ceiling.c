@@ -5,11 +5,12 @@ char WallJoist[]  // "边龙骨", Nailed to the wall
 char VericalBar[] // "吊筋"
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm
 char subBottomJoist[]; // only for one row of screws
-int shop_width = 260; //cm
-int shop_length = 420; //cm
+int shop_width = 2654; //mm
+int shop_length = 4200; //mm
 int strip_width = 32; //mm. the only strips I used to build the frame of my false ceiling
 int strip_height = 20; //mm. the only strips I used to build the frame of my false ceiling
-int insulation_thick = 100; //mm, space for rockwool
+int strip_length = 2382; //mm
+int insulation_thick = 104; //mm, space for rockwool
 int plywood_thick = 17; //mm, sheathing
 int plywood_width = 1225; //mm
 int plywood_length = 2440; //mm
@@ -19,7 +20,7 @@ int wedge_anchor = 8 // use sleeve anchor（PDD: 螺栓） or wedge anchors(PDD:
 
 
 // the whole height of the false ceiling
-int whole_thickness() {
+int g() {
   return insulation_thick + strip_width + plywood_thick;
 }
 

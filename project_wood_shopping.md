@@ -2,7 +2,7 @@
   - plywood 五层板 17mmx1.2mx2.4m 145RMB
     - 华运建材城，伊林环宇
   - Osong  欧松板 15mmx1.2mx2.4m 115RMB
-  - 樟子松 防腐木 
+  - 樟子松 防腐木 treated lumber
     - 30mmx100mmx4m 35RMB
     - 40mmx140mmx4m 80RMB
     - 华运西门门口，防腐木榻榻米经销门市

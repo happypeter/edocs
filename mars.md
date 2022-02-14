@@ -303,3 +303,6 @@ NOTE: foucsing on things big and hard that I can not take away, while [soho](soh
 ## concrete
 
 - too much makes the cncrete fragile https://youtu.be/UOHURuAf5iY?t=375 the less water you add, the more strength you get.
+
+## structural change
+- add hears before destroying the wall https://youtu.be/3fP0LZMEV5w?t=346
