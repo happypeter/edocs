@@ -78,7 +78,7 @@ int primary_bottom_joists() {
        - and the side strip bottom is 8mm above the bottom of bottom joist
          - in order to give more contact area to the bars
          - note here, only vertical area counts as contact area
-           - since you can use nails horizontally, nails go vertically does not hold anything, because brad nails are thin and slipery
+           - even a thin nail has a ton of shear strenght, so right way is to  use them 90degree to the load, nails go vertically does not hold anything, because brad nails are thin and slipery
            - a good frame structure also need to aviod rotation, cause when rotation happens, the angel between force and nails change, the nails can easily be pulled out
        - the weakest part of one holding point, is the joint with least contact area
          - suspensionBarToEnhanceStrip joint
@@ -152,7 +152,12 @@ int main() {
 }
 
 int sheathing() {
+
+  use_nails_as_spacers() // https://youtu.be/XMziwBDduVs?t=382
+  apply_vapor_barrier() // https://youtu.be/fJ2v6wD8mho?t=114
+
   /*
+    - a drywall lifter https://youtu.be/20Ku6flDaBk?t=206
     - I will use 17mm plywood, with good enough finish
     - handle the wall side ends by a wood strip https://youtu.be/20a63CnjA7A?t=188
   */
