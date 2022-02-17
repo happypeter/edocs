@@ -1,0 +1,19 @@
+- wall hung shelf to hold lumber
+  - https://happypeter.github.io/githome/imgs/20220216/
+    - lesson learned from the failure of version One
+      - don't use nails close to the edge of the wood, split!
+      - don't let grain direction to carry main load, split!
+    - what can be improved for version Two
+      - the small triangle can be just a strip with 45degree ends
+      - the part of the wall-hung board above the big triangle should be longer, to avoid split.
+      - thicker wall-hung board, so that I can use screws to fasten the plywood triangle to the board. when the shelf carry load, the download force will be turned into horizontal force away from the wall, and the 90degree angle of the big triangle area(both the triangle and wall-hung board)will be under great pressure. As tested, when I hanged my body, the nails in the wall hung board tried to go away from the wall, but they need to shear the wood fibers, before they fail. So even though the  the board are very thin and soft, it did not break. But If in the next verion I use screw(thicker than nails) and thicker board, it will be much harder to shear the board, the shelf will be much more sturdy.
+      - the lower part of the big triangle does don't carry a lot of burden, so should be shorter.
+
+  - this lady stolen my design 
+    - https://www.youtube.com/watch?v=yCtTqg9M6Ek
+      - for lumber https://www.youtube.com/watch?v=iy8h4OZMK98
+      - you can use plywood as hanger https://youtu.be/UDC5_oPpxPU?t=89
+      - plan for track saw tracks https://www.youtube.com/watch?v=d4FOeyElB3s
+    - a similar one https://www.youtube.com/watch?v=ZmZMyqbDSDY
+
+  - a elelgant hide all design https://www.youtube.com/watch?v=6clJWTTRWTE

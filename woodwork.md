@@ -295,3 +295,32 @@
   - acrylic
   - Silicone
   - Adhensive
+
+##  nailer
+  - air compressor
+    - it is not that much pressure inside
+      - cola bottle version: https://www.ixigua.com/6449931719012254222
+    - https://www.ixigua.com/7037402822262194726?logTag=eaccc86683baac0d0cfd
+    - how to use the red button on top https://youtu.be/eJo3JMkv3JE?t=359
+    - what is a air-intaker  https://youtu.be/eJo3JMkv3JE?t=382
+    - when it is ready https://youtu.be/eJo3JMkv3JE?t=397
+    - can you plug and unplug with pressure in tank https://youtu.be/eJo3JMkv3JE?t=428
+    - why you may need a bigger tank https://youtu.be/eJo3JMkv3JE?t=446
+    - how to handle leakage https://youtu.be/ck-iOvFGWdw?t=511
+      - https://www.ixigua.com/6741629179424408067
+    - the drain, and drain it everyday https://youtu.be/ck-iOvFGWdw?t=530
+    - change air filter every 500hrs https://youtu.be/oqimm0E6x0U?t=261
+    - change pressure https://youtu.be/oqimm0E6x0U?t=403
+      - https://www.ixigua.com/6764330041347146243?logTag=4fe8fd45a2d46156bb6e
+      - https://www.ixigua.com/6798407334830801411
+    - 安全阀 Pressure Relief Valve
+      - 安全阀在系统中起安全保护作用。当系统压力超过规定值时，安全阀打开，将系统中的一部分气体排入大气，使系统压力不超过允许值，从而保证系统不因压力过高而发生事故。安全阀又称溢流阀
+      - https://www.ixigua.com/6764330041347146243
+      - replace a valve https://www.youtube.com/watch?v=PB6s7ssoIHg
+      - basics https://www.youtube.com/watch?v=Isc08DU6WTE
+      - my job is to make sure the value is not blocked by dragging from time to time
+        - https://youtu.be/oqimm0E6x0U?t=597
+      - http://www.chanun.com.cn/articles/kyjylr.html
+  - workshop
+    - I will have several cabinet with wheels and drawers put against the wall. Top of the cabinet will be used as table.
+    - my vaccum will sit in a cabinet, close to the floor, or above the cabinet table top. Anyway, it will be placed in the northeast corner, so plan ahead.

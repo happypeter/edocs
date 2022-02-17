@@ -1,7 +1,7 @@
 #include <stdio.h>
 char CeilingJoist[] // "主龙骨", main weight carrier
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
-char WallJoist[]  // "边龙骨", Nailed to the wall
+char RimJoist[]  // "边龙骨", Nailed to the wall
 char crossPoint[] // where BottomJoist cross CeilingJoist, suspensionBar here
 char suspensionBar[] // "吊筋", or hanger, https://www.researchgate.net/figure/a-Typical-suspended-ceiling-components-13-b-Typical-back-bracing-options-10_fig1_299169069
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm
@@ -67,7 +67,7 @@ int primary_bottom_joists() {
   // the strip_width face needs to face ground, because two rows of screws will be used here
   install_joists(F30); // the lesson I learned, is to install the joist first, use tmp holders, to nail and connect the strips till you finish one whole joist
   // the wood strips always twist in some why so don't expect the whole joist follow the laser
-  // but at least two ends of the joist will be attacted to the WallJoist, and WallJoist is on a laser gurenteed level
+  // but at least two ends of the joist will be attacted to the RimJoist, and RimJoist is on a laser gurenteed level
   cut_suspension_bar(bar_length); // two for each holding point
   int bar_length = whole_thickness() - plywood_thick - strip_height; // do not trust the caculation() two much, always rely on laser, roof not always level.
   install_bars(F30); //for each CrossPoint, nail two bars on each side of the CeilingJoist, then bottomJoists to the bottom of the two bars,
@@ -111,7 +111,7 @@ int sub_bottom_joists() {
 
 /*
   my shop is narrow, so no Chinese Inkline is needed for the BottomJoist.
-  use BoardHelperStick and SubBottomJoistHelperStick, and use marker pen on WallJoist and CeilingJoist to guide the bottomJoist .
+  use BoardHelperStick and SubBottomJoistHelperStick, and use marker pen on RimJoist and CeilingJoist to guide the bottomJoist .
 */
 int measure_and_mark() {
   int BoardHelperStick = plywood_width;
