@@ -1,3 +1,27 @@
+- a Plan
+  - Master Cutlist/MaterialList https://www.youtube.com/watch?v=Lzm621Lp1oA
+  - 'test the structure integrity'
+- Goto .c files
+  - make sth works, don't just learn
+  - go to specific numbers, don't rely on so-called experience
+  - go to match avoid radmon ships at all cost
+    - even though the curves for the holders are sweet https://youtu.be/S9PTFizoA64?t=29
+      - I don't use them if I they are not easily fit into a math formula
+        - even it fits into a simple formula, it can not be cut by power tools, I will try to aviod it. I won't goto grinders all the time
+        - Some times, simple angles with flat surfaces can do the job just fine
+
+  - take notes as comments of each function or variable value
+  - if it is not documented and measureed, it can not be managed
+  - if it is not managed, how can u do iterations on the design
+- software
+  - use plain text, use markdown and C grammers
+    - I can also build libs and import them into big projects
+      - say `#include <lap_joint.h>`
+      - each component could be function, you pass new parameters to it, you get the result suit for your current project
+        - no matter to hold lumber or pencils, a shelf support is a shelf support, just different sizes
+    - I will limit my furnitures to only simple shapes, I will avoid anything hard to depict with numbers.
+      - design like a mechanical engineer, not artist
+    - I know when the structure is really complicated, having a sketchup model really helps to grasp the whole idea quickly, but I believe with text and some youtube videos, I am good for now.
 - todo
   - upside down everything, the 10in1
     - https://www.youtube.com/watch?v=k1wMsF75k_w
@@ -73,6 +97,7 @@
     - https://www.youtube.com/watch?v=aC8oFt7nG-M
   - it is a checkout version of my frech cleat, holding tools I use for just this project
 - french cleat
+  - for light weight things you don't want a cleat, use screws https://youtu.be/8En-OTfePys?t=251
   - lock it
     - https://youtu.be/N2USF9mTqxs?t=287
   - notes
@@ -97,15 +122,13 @@
         - NO.2 
     - pliers
       - best: https://youtu.be/S9PTFizoA64?t=4
+        - https://youtu.be/8En-OTfePys?t=88
       - https://youtu.be/53Upi0GUwVw?t=277
     - wrench
       - https://youtu.be/S9PTFizoA64?t=4
     - bit holder https://youtu.be/bF2eQIsmBWc?t=133
       - https://youtu.be/4fKBZ-H9StM?t=524
-    - tape holder
-      - https://youtu.be/TjdtAZpsXCk?t=142
-      - https://youtu.be/TjdtAZpsXCk?t=142
-      - https://youtu.be/4fKBZ-H9StM?t=424
+    - [tape holder](tape_holder.c)
     - ruler holder
       - https://youtu.be/IsSWJjA4uN4?t=383
       - https://youtu.be/bF2eQIsmBWc?t=343
@@ -324,3 +347,5 @@
   - workshop
     - I will have several cabinet with wheels and drawers put against the wall. Top of the cabinet will be used as table.
     - my vaccum will sit in a cabinet, close to the floor, or above the cabinet table top. Anyway, it will be placed in the northeast corner, so plan ahead.
+  - cut big boards
+    - holding https://youtu.be/1zk3Lm3_avI?t=151

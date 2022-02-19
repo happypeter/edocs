@@ -27,6 +27,7 @@ title: details of implmenting the table saw
     - https://www.youtube.com/watch?v=68xLIougMv0
   - riving knife
     - https://www.youtube.com/watch?v=haYWxqjss_g
+    - even pros dont always use it https://youtu.be/S9PTFizoA64?t=55
     - my cicular saw can not install riving knife, but as long as I don't use rip fence to do cross-cut, I will be OK https://youtu.be/tKtE0sTFi8g?t=634
   - kickbacks can be horrible https://www.youtube.com/watch?v=eUx8oTIALmg
     - that is why your riving knife is necessary https://youtu.be/eUx8oTIALmg?t=541

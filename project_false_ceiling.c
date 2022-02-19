@@ -1,5 +1,5 @@
 #include <stdio.h>
-char CeilingJoist[] // "主龙骨", main weight carrier
+char CeilingJoist[] // "主龙骨", main load bearers
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
 char RimJoist[]  // "边龙骨", Nailed to the wall
 char crossPoint[] // where BottomJoist cross CeilingJoist, suspensionBar here

@@ -9,7 +9,20 @@ title: 3d
 - they both belong to autodesk
 - sketchup is good for architectual design. But not as powerful or versatile as others.
 
+## sketchup and blender
+- sketchup is easier, but blender can do whatever sketchup can do and more
+- snapping in blender is a problem https://www.blender3darchitect.com/python-scripts-for-archviz/fixing-blender-snapping-system-cad-like-transform-free-add-on/
+- blender 2.90 is a sketch killer https://www.blender3darchitect.com/blender-3d/blender-2-90-the-sketchup-killer/
+  - but reading the comments, you know blender may not for engineers, no snapping, poor measurements, WTF
+-  Sketchup was designed just for woodworkers and their woodworking projects. Our experts strongly recommend using Sketchup for beginners who aren’t sure about committing to a 3D modeling software. https://www.sawinery.net/best-woodworking-design-software/
+- this video convinced me that sketchup is really what I need 
+  - https://www.youtube.com/watch?v=AVb8ZBAOD0I
+
+## fusion 360
+- Shop Nation recommendation https://youtu.be/Lzm621Lp1oA?t=177
 ## Blender fundamentals
+- setup vr
+  - https://www.youtube.com/watch?v=ZrXAEsYiIyE
 - video list here https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6
 - blender is also very popular in architectaul area.
 - people also use c4d for product design
@@ -73,3 +86,6 @@ title: 3d
 - Blender has really flexible selecting https://www.youtube.com/watch?v=vi6cQCnaM4A
 - https://www.youtube.com/watch?v=XG1TkWxOrBI
   - 'A normal: is the face direction.'
+
+## 3d printer
+- .stl and .obj files are for printer  https://youtu.be/z5_iuv0UFXQ?t=161
