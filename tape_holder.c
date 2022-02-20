@@ -12,9 +12,19 @@
   - v1: https://happypeter.github.io/githome/imgs/20220218
 */
 
-#define branket // think this as a small verion of my lumber shelf
+/*
+- think this as a small verion of my lumber shelf
+  - https://youtu.be/yCtTqg9M6Ek?t=70
+  - I will use 3mm plywood for the sides, and add 17mm plywood in between
+*/
+#define branket 
 #define hangerRod // the rod to hange random size rolls
-#define verticalMount // the virtical bars mounted to the back board
+/*
+the virtical bars mounted to the back board
+- this will be a piece of 17mm plywood strip
+*/
+#define verticalMount 
+
 
 int big_tape_gap = 80 
 int small_tape_gap = 45 
@@ -27,12 +37,6 @@ int bracket_length = 250
 int bracket_width = 30 
 
 int main() {
-
-  /*
-   - one trick here is that you can do a rough cut initially, 
-   - then after installing the rod connecting all the bars, you can do a final cut
-  */
   cut_hanger_bars(); //
   cut_hanger_rod(hanger_rod_length);
-  drill_wholes(); // a drill press is needed here
 }
