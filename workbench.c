@@ -25,6 +25,7 @@
 - my bench top
   - the tail part, which I want it thick, area 74x66cm
   - glue up two layer of plywood, than stain it, and drill dogholes
+    - https://www.youtube.com/watch?v=E9Mcwxqkuuo
     - or https://youtu.be/53PrmkFpdI0?t=1698
 - secure/fasten workpiece
   - best solution:
