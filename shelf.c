@@ -1,9 +1,7 @@
 /*
-
-- this also interesting with plywood
-  - https://www.youtube.com/watch?v=IfuwKXPRKu8
-
 - use 28x68 treated wood as cleat
+  - NOTE: next version I can going to use glued ply wood, as show here https://www.youtube.com/watch?v=IfuwKXPRKu8
+    - treat wood is way too soft for the job
   - arm length 450, short end edge length 30, large end 120
     - plywood cut
     - lumber cut 

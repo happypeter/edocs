@@ -1,7 +1,7 @@
 #include <stdio.h>
 char CeilingJoist[] // "主龙骨", main load bearers
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame
-char RimJoist[]  // "边龙骨", Nailed to the wall
+char RimJoist[]  // "边龙骨", Nailed to the wall, as cleat 
 char crossPoint[] // where BottomJoist cross CeilingJoist, suspensionBar here
 char suspensionBar[] // "吊筋", or hanger, https://www.researchgate.net/figure/a-Typical-suspended-ceiling-components-13-b-Typical-back-bracing-options-10_fig1_299169069
 char primaryBottomJoist[]; // those who need to bear two rows of screws, so the width needs to be 32mm

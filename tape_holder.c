@@ -22,9 +22,9 @@
 /*
 the virtical bars mounted to the back board
 - this will be a piece of 17mm plywood strip
+- people call this a cleat https://sawdustgirl.com/building-garage-shelves/
 */
-#define verticalMount 
-
+#define wallCleat 
 
 int big_tape_gap = 80 
 int small_tape_gap = 45 
