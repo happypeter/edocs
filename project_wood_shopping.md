@@ -3,8 +3,12 @@
       - 30x100x4000 35RMB 2916RMB/m3
       - 40mmx140mm(39x137)x4m 80RMB 3743RMB/m3
     - PDD shopName: 防腐木桑拿板碳化木
-      - 防腐木 28x68x4000 24RMB
+      - 28x68x4000 24RMB
         - purchased 10
+      - 28x68x4000 24RMB
+        - 1838RMB/m3
+      - 65x65x4000 58RMB
+        - 3431RMB/m3
   - plywood 
     - 华运建材城，伊林环宇  
       - 17x1220x2440 145RMB 2865RMB/m3
@@ -62,11 +66,7 @@
 - 桑拿板
   - 8x83x4000 14RMB
     - 5271RMB/m3
-- 防腐木
-  - 28x68x4000 24RMB
-    - 1838RMB/m3
-  - 65x65x4000 58RMB
-    - 3431RMB/m3
+
 
 -  15cm OSB (Osong board) or Plywood
     - https://www.lubanyuan.cn/cailiao/renzaoban/1385.html

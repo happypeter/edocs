@@ -19,7 +19,7 @@ title: 3d
   - https://www.youtube.com/watch?v=AVb8ZBAOD0I
 
 ## fusion 360
-- Shop Nation recommendation https://youtu.be/Lzm621Lp1oA?t=177
+- Shop Nation recommendation https://youtu.be/Lzm621Lp1oA?t=177 
 ## Blender fundamentals
 - setup vr
   - https://www.youtube.com/watch?v=ZrXAEsYiIyE

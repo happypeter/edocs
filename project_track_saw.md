@@ -2,6 +2,7 @@
 title: WIP
 ---
 - ref video https://www.youtube.com/watch?v=Tw8aKKZaU3U
+- track saw can be very practical https://youtu.be/yCtTqg9M6Ek?t=93
 - Do I really need a track saw?
   - won't a simple circular saw guide do?
   - it is my miter saw with more range, and table saw with less noise and danger

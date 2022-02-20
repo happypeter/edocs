@@ -1,3 +1,15 @@
+- use 28x68 treated wood as cleat
+  - arm length 450, short end edge length 30, large end 120
+    - plywood cut
+    - lumber cut 
+  - holding span
+    - 1500, so it is OK for 2m lumbers
+    - arm number: 3
+  - cleat length, upright support
+    - 50+120+220+120 = 560 //50 for extra support strength
+    - vertical space needed
+      - 220+120+220+120 = 680 
+
 - wall hung shelf to hold lumber
   - https://happypeter.github.io/githome/imgs/20220216/
     - lesson learned from the failure of version One
@@ -11,6 +23,7 @@
 
   - this lady stolen my design 
     - https://www.youtube.com/watch?v=yCtTqg9M6Ek
+      - her plan https://sawdustgirl.com/building-garage-shelves/
       - for lumber https://www.youtube.com/watch?v=iy8h4OZMK98
       - you can use plywood as hanger https://youtu.be/UDC5_oPpxPU?t=89
       - plan for track saw tracks https://www.youtube.com/watch?v=d4FOeyElB3s
