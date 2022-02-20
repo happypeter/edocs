@@ -30,9 +30,13 @@ int big_tape_gap = 80
 int small_tape_gap = 45 
 int hanger_rod_dia = 50
 int bracket_length = 250
+int wall_cleat_thickness = 17
+int wall_cleat_width = 24
+int wall_cleat_height = 10
+
 /*
  - you don't want this to be too small, otherwise big tape rolls make stay in the way of it's next column neighbors
- - so width = 24(17mm plywood strip)+3(3mm thin plywood)x2
+ - so width = 24(wall_cleat_width, 17mm plywood strip)+3(3mm thin plywood)x2
 */
 int bracket_width = 30 
 
