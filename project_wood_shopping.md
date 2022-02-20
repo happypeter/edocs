@@ -14,7 +14,7 @@
       - 17x1220x2440 145RMB 2865RMB/m3
         - if you want to build furniture, this is the default way to go. 40% cheaper than interior pine, and 3 times more robust. 
         - for simple structure used somewhere dry, use treated wood, which can go 1838RMB/m3, 40% cheaper than plywood
-        - for thinner board usage, say shelf pannels, use 9mm plywood, or 15mm OSB
+        - for thinner board usage, say shelf panels, use 9mm plywood, or 15mm OSB
     - Note:
       - plywood and OSB are two most popular options for sheathing options
       - https://youtu.be/-Mg6HA8qyzc?t=263

@@ -287,3 +287,4 @@
   - cut big boards
     - holding https://youtu.be/1zk3Lm3_avI?t=151
   - finish MDF https://www.youtube.com/watch?v=NxQ2oyarkds
+  - miter with table saw fence https://youtu.be/TjdtAZpsXCk?t=147

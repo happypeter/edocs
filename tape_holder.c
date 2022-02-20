@@ -12,14 +12,19 @@
   - v1: https://happypeter.github.io/githome/imgs/20220218
 */
 
-#define hangerBar // the one of the two arms in each unit holding a column
+#define branket // think this as a small verion of my lumber shelf
 #define hangerRod // the rod to hange random size rolls
+#define verticalMount // the virtical bars mounted to the back board
 
-int big_tape_gap = 80 //mm
-int small_tape_gap = 45 //mm
+int big_tape_gap = 80 
+int small_tape_gap = 45 
 int hanger_rod_dia = 50
-int hanger_bar_length = 250
-int hanger_bar_width = 30 // you don't want this to be too small, otherwise big tape rolls make stay in the way of it's next column neighbors
+int bracket_length = 250
+/*
+ - you don't want this to be too small, otherwise big tape rolls make stay in the way of it's next column neighbors
+ - so width = 30(wood strip)+5(mdf)x2
+*/
+int bracket_width = 30 
 
 int main() {
 
