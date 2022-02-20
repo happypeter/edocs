@@ -32,7 +32,7 @@ int hanger_rod_dia = 50
 int bracket_length = 250
 /*
  - you don't want this to be too small, otherwise big tape rolls make stay in the way of it's next column neighbors
- - so width = 30(wood strip)+5(mdf)x2
+ - so width = 24(17mm plywood strip)+3(3mm thin plywood)x2
 */
 int bracket_width = 30 
 
