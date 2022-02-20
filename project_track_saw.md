@@ -2,6 +2,8 @@
 title: WIP
 ---
 - ref video https://www.youtube.com/watch?v=Tw8aKKZaU3U
+  - https://www.youtube.com/watch?v=xYkUsN9Ug_M
+  - need a console table placed on the side of my shop to hold this saw
 - track saw can be very practical https://youtu.be/yCtTqg9M6Ek?t=93
 - Do I really need a track saw?
   - won't a simple circular saw guide do?

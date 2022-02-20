@@ -1,21 +1,22 @@
-
 /*
-what I really want is a drill guide jig
 - https://www.youtube.com/watch?v=KHKspxcpuPg
 - ref video 
   -  https://www.ixigua.com/6771779510745432589?logTag=86b94777be3ea9738b48
   - this is also neat https://www.youtube.com/watch?v=ee2jYR9HZgk
   - with wood box and tracks https://www.youtube.com/watch?v=eAgj-nLZ5uI
-  
+- a quick and dirty hack
+  - https://youtu.be/xYkUsN9Ug_M?t=1094
 */
+
 /*
-when you huy a bolt or threaded rot, only two metrics really matters
+when you huy a bolt or threaded rod, only two metrics really matters
 one is '直径', aka majorDiameter
 the other is '螺距’, aka pitch
 https://baike.baidu.com/item/%E8%9E%BA%E8%B7%9D/4427979
 https://www.sohu.com/a/252780674_99904561
 what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
 */
+
 #define Pitch '螺距' 
 
 

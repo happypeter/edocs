@@ -22,9 +22,7 @@
     - I will limit my furnitures to only simple shapes, I will avoid anything hard to depict with numbers.
       - design like a mechanical engineer, not artist
     - I know when the structure is really complicated, having a sketchup model really helps to grasp the whole idea quickly, but I believe with text and some youtube videos, I am good for now.
-- todo
-  - upside down everything, the 10in1
-    - https://www.youtube.com/watch?v=k1wMsF75k_w
+
 - tricks
   - how you get a level benchtop
     - you really need a chop saw for precise cuts
@@ -33,8 +31,6 @@
       - use a level ruler to make sure the legs are vertical https://youtu.be/eiT9wmb_wK4?t=148
       - use ruler https://youtu.be/jAEykXezb6I?t=272
     
-
-
 - design guideline
   - for frequent tools, frech cleat
   - otherwise, go to my old shelf-box-system
@@ -45,22 +41,7 @@
   - but random orbit and dust collection will be nicer https://youtu.be/mKairfMzc6Q?t=332
   - sanding machine with drill https://www.youtube.com/watch?v=7zcnFeZ2tiE
 
-- wood categroys
-  - https://www.youtube.com/watch?v=eBbUByyLGVc
-    - plywood is 胶合板，颗粒板 is a typo of plywood, 多层板 too
-  - https://www.youtube.com/watch?v=I0-fs1eMxQg
-    - generally plywood refers to 多层板, 颗粒板 is MDF
-
-- trimmer 修边机 
-  -  nice to have one
-- plywood
-  - handmade board carrier https://youtu.be/7bzxhv_Q33Q?t=132
-- drill stand
-  - https://youtu.be/dF5RjNDCKlU?t=373
-- drill driver
-  - quick release head is a MUST for my next one https://youtu.be/ZOFrzLpBqf4?t=180
-  - brush-less is nice, the battery lasts 50% longer
-  - 台钻 https://www.ixigua.com/7023685267634520606?logTag=49f1c0b27a9d39d9650c
+ 
 - grinder
   - people do use steel wool to clean wood https://youtu.be/NM6HWN5tFxQ?t=259
   - to a chop saw https://www.ixigua.com/6860774411868307971
@@ -88,7 +69,7 @@
     - easy to clamp version https://www.youtube.com/watch?v=HLsNYd5FmoY
     - with handle and aluminum edges https://www.youtube.com/watch?v=myH1byN0uUk
     - to a track saw https://www.youtube.com/watch?v=H0BZLbW1lvQ
-  - kickout
+  - kickback
     - away from line of fire https://www.ixigua.com/6947393410823094814
   - home brew 裁板神器 
     - https://www.ixigua.com/6951271248978510350
@@ -100,7 +81,6 @@
   - for light weight things you don't want a cleat, use screws https://youtu.be/8En-OTfePys?t=251
   - lock it
     - https://youtu.be/N2USF9mTqxs?t=287
-  - notes
     - each holder must be heavy enough, OR maybe you need a lock https://youtu.be/M5NnFkpUXmY?t=587
   - general structure
     - https://www.ixigua.com/7004643375223833096
@@ -155,6 +135,7 @@
       - https://youtu.be/aC8oFt7nG-M?t=381
       - https://youtu.be/gxT1rQgr7Hw?t=672
       - round edge https://youtu.be/wd16ZC_evTE?t=1323
+      - a jig for rabbet joint https://youtu.be/KCpYIpqoMU4?t=204
     - jigsaw
       - https://youtu.be/-LK9o4TesMI?t=325
       - for board ripping https://youtu.be/6lPsHZw3ZO4?list=RDCMUCV8DNubYAsQjUZWAIeFwwPg&t=14
@@ -192,50 +173,6 @@
   - cover surface around painting area with masking tape 美纹纸
   - for broken white wall, use spray paint
 
-## air nailer
-- compressor
-  - use screw driver to open the plastic container, then use wrench to change the pressure setting. 130pa is good for my ST38 and T50 and all. But not that good for ST50
-  - make sure to pull the safty valve from time to time, not it sets to be triggered at 130 or so.
-
-## Work bench
-- my plan
-  - thinking of using this top board for my bench
-    - https://youtu.be/UlElSbqD3jc?t=604
-    - the board with extend outside the box, so it is clampable
-    - you can drill dogholes and add tail vise to it
-  - layer the bed to make it a 85cm or so bench
-  - add masonite to the top?
-  - add my vise(bench screw pilers) to it
-  - host my miter saw
-  - benchtop clamp
-    - this is alailable cheap on PDD https://youtu.be/yGgNvV1_3hQ?t=1274
-  - own a 75x190cm workbench is nothing portable
-    - it is actully a feature, not a bug, since you never want your bench move and bump while you work
-      - this size also make ripping 120x240board easy
-    - but still you can make it mudular by making parts easily attachable
-  - try to make it clampable
-    - at least part of the bench https://youtu.be/UlElSbqD3jc?t=961
-    - I need clamps like this, so that I can use my planer https://youtu.be/VWgGZ4Osg1U?t=126
-- miter saw statioin
-  - https://www.youtube.com/watch?v=0wJXACQRWSY
-  - extenable https://youtu.be/tHzqpnyTDYY?t=79
-  - https://www.youtube.com/watch?v=uKsWGZrVeg0
-- my bench top
-  - the tail part, which I want it thick, area 74x66cm
-  - with pine, 172RMB will get me a 8.3cm thick
-  - But maybe 8.3cm is too thick and not that clampable?
-- secure/fasten workpiece
-  - best solution:
-    - dog hole + wood vise https://youtu.be/mHIe9VSikbA?t=516
-      - install at front corner is better https://youtu.be/UlElSbqD3jc?t=618
-        - since I can use hand saw here
-  - fasten a sheet to sand, with dog holes
-    - https://youtu.be/l1TN9z2kicI?t=326
-
-- requirement
-  - I don't want to do pounding, so I don't need to use hard wood for the top
-  - but I do need it to be super stable, so the heavier the better
-  - I may be painting on top of it, so I exprect the top be cheap and replacable
 
 ## saws
 - table saw
@@ -254,7 +191,6 @@
 
 - square
   - square and F clamp https://youtu.be/KqKZh90cvg8?t=35
-
 
 ## Drill
 - if I want another drill, https://www.ixigua.com/7030765281689469478?logTag=f6dbb554361ced604ca8
@@ -300,7 +236,6 @@
     - https://youtu.be/k1wMsF75k_w?t=510
     - https://youtu.be/k1wMsF75k_w?t=738
 
-
 - grinder wood cuting
     - cutting wheel either side face out is OK https://www.ixigua.com/6927206154862854656 (check comments)
     - use 3 teeth blade https://youtu.be/0Xn8t1OHmyk?t=76
@@ -319,8 +254,10 @@
   - Silicone
   - Adhensive
 
-##  nailer
+## nailer
   - air compressor
+    - use screw driver to open the plastic container, then use wrench to change the pressure setting. 130pa is good for my ST38 and T50 and all. But not that good for ST50
+  - make sure to pull the safty valve from time to time, not it sets to be triggered at 130 or so.
     - it is not that much pressure inside
       - cola bottle version: https://www.ixigua.com/6449931719012254222
     - https://www.ixigua.com/7037402822262194726?logTag=eaccc86683baac0d0cfd
@@ -349,3 +286,4 @@
     - my vaccum will sit in a cabinet, close to the floor, or above the cabinet table top. Anyway, it will be placed in the northeast corner, so plan ahead.
   - cut big boards
     - holding https://youtu.be/1zk3Lm3_avI?t=151
+  - finish MDF https://www.youtube.com/watch?v=NxQ2oyarkds
