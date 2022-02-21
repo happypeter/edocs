@@ -106,8 +106,6 @@
       - https://youtu.be/53Upi0GUwVw?t=277
     - wrench
       - https://youtu.be/S9PTFizoA64?t=4
-    - bit holder https://youtu.be/bF2eQIsmBWc?t=133
-      - https://youtu.be/4fKBZ-H9StM?t=524
     - [tape holder](tape_holder.c)
     - ruler holder
       - https://youtu.be/IsSWJjA4uN4?t=383
