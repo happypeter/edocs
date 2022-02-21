@@ -73,3 +73,13 @@
 - small drawers for small parts that does not go to my cleat system
   - https://youtu.be/kWKqHPhTe6M?t=213
   */
+
+
+
+  int main() {
+    /*
+    box:
+      - v1 https://happypeter.github.io/githome/imgs/20220221
+    */
+    add_mdf_box()
+  }
