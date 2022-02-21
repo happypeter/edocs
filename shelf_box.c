@@ -78,8 +78,11 @@
 
   int main() {
     /*
-    box:
+    box changelog:
       - v1 https://happypeter.github.io/githome/imgs/20220221
+    - cut notch for 5mm mdf
+      - set table saw fence, blade to fence width equal 40 percent of the wood being cut
+        - cut and flip the wood, cut again, then the notch shall be wide enough for MDF
     */
     add_mdf_box()
   }
