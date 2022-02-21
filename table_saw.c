@@ -3,8 +3,7 @@ title: details of implmenting the table saw
 ---
 
 - todo:
-  - level the bench https://www.youtube.com/watch?v=ZpgU-_W-YrA
-    - in this video, two legs were suspicious, but in fact, maybe only one was really longer, use level ruler to find out which leg is longer, cut it, if same thing remains, consider cut more, or cut the other leg.
+  - level the bench 
     - use shims to level table top surface, and then cut all four legs
       - make sure the floor is also level
       - good idea https://www.youtube.com/watch?v=vq94qo7WbEw

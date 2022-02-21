@@ -29,7 +29,7 @@
     - or https://youtu.be/53PrmkFpdI0?t=1698
 - secure/fasten workpiece
   - best solution:
-    - dog hole + wood vise https://youtu.be/mHIe9VSikbA?t=516
+    - dogholes + wood vise https://youtu.be/mHIe9VSikbA?t=516
       - install at front corner is better https://youtu.be/UlElSbqD3jc?t=618
         - since I can use hand saw here
   - fasten a sheet to sand, with dog holes
