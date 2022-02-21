@@ -1,7 +1,4 @@
----
-title: details of implmenting the table saw
----
-
+/*
 - todo:
   - level the bench 
     - use shims to level table top surface, and then cut all four legs
@@ -15,6 +12,12 @@ title: details of implmenting the table saw
     - https://youtu.be/UlElSbqD3jc?t=79
       - I think I will not rip the 4x14
 - kickbacks
+  - When I cut plywood without jig
+    - kickback happened for no clear reason
+    - wood hit my belly, but caused no injury
+    - so as long as I give a downward force for the workpiece
+      - don't let the wood fly up, I shall be OK
+      - cause I am short, my penis was way below the saw blade
   - https://youtu.be/6zLdB3zil_E?t=51
     - two lessons:
       - push stick should be tall
@@ -161,3 +164,4 @@ title: details of implmenting the table saw
   - https://www.youtube.com/watch?v=pZfyoh5SZ6I
 - blade life mechanism
   - https://www.youtube.com/watch?v=Lagcm4Y9j6c&list=PL7c2ysQbjIBZedVGH9EM2dmj2CNdp67o6
+  */

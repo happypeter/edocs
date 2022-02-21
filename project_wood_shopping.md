@@ -78,3 +78,12 @@
         - OSB holds nails and screws well
 
   - veneer is still a bit expensive 5mm 38RMB/sqm(plus you need baseboard anyway)
+
+  - old wood
+    - 45x45x4000 x4, I will offer 20RMB for one, total 80RMB
+    - fence x 13
+      - 55x25x1100 x7 I will offer 4RMB for one,
+      - 55x35x2000 x2 I will offer 8RMB for one
+      - total: 40x13 = 520
+
+    - so the total worth is 600RMB, I will pay 500RMB

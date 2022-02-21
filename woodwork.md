@@ -288,3 +288,7 @@
     - holding https://youtu.be/1zk3Lm3_avI?t=151
   - finish MDF https://www.youtube.com/watch?v=NxQ2oyarkds
   - miter with table saw fence https://youtu.be/TjdtAZpsXCk?t=147
+  - join wood
+    - mortise and tenon 榫卯
+    - 10 Best Butt Joint Methods  https://www.youtube.com/watch?v=B1A3aiEHIzks
+      - but whenever proper, I will stick to screws, because I keep things upgradable
