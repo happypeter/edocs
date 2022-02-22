@@ -14,6 +14,7 @@
       - 220+120+220+120 = 680 
 
 - wall hung shelf to hold lumber
+  - adjustable one https://youtu.be/GXHyias2C6w?t=320
   - https://happypeter.github.io/githome/imgs/20220216/
     - lesson learned from the failure of version One
       - don't use nails close to the edge of the wood, split!

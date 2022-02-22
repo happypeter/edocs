@@ -37,6 +37,7 @@ int main() {
       - https://youtu.be/S9PTFizoA64?t=4
     - [tape holder](tape_holder.c)
     - ruler holder
+      - https://youtu.be/Z5OVXyD1p5E?t=382
       - https://youtu.be/IsSWJjA4uN4?t=383
       - https://youtu.be/bF2eQIsmBWc?t=343
    - measuring tape https://youtu.be/ojS7DOClCAQ?t=631
