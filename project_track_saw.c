@@ -86,6 +86,7 @@ struct shopping_list = [
 /*
 - ref video https://www.youtube.com/watch?v=Tw8aKKZaU3U
   - https://www.youtube.com/watch?v=xYkUsN9Ug_M
+  - https://www.youtube.com/watch?v=ho4Q-pMLG6o
   - need a console table placed on the side of my shop to hold this saw
 - track saw can be very practical https://youtu.be/yCtTqg9M6Ek?t=93
 - Do I really need a track saw?
