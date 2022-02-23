@@ -10,6 +10,7 @@
 
 - changeLog:
   - v1: https://happypeter.github.io/githome/imgs/20220218
+  - v2：https://happypeter.github.io/githome/imgs/20220223
 */
 
 /*
@@ -41,6 +42,11 @@ int wall_cleat_height = 10
 int bracket_width = 30 
 
 int main() {
-  cut_hanger_bars(); //
+  cut_hanger_bars(); 
+  /*
+    since the gap between two brankets is small, so it's better to install the cleat to
+    the bracket before installing to the back board
+  */
+  install_bracket();
   cut_hanger_rod(hanger_rod_length);
 }
