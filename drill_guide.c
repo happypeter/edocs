@@ -4,6 +4,7 @@
   - https://www.youtube.com/watch?v=xMNplAdWCeE
   - right size for the slides
   - follow my shelf_box_system guidelines, the x10cm
+  - cabinet separation shelves with dados
 - https://www.youtube.com/watch?v=KHKspxcpuPg
 - ref video 
   -  https://www.ixigua.com/6771779510745432589?logTag=86b94777be3ea9738b48
