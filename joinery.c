@@ -24,6 +24,18 @@
     - dowels may replace pocket holes
       - https://youtu.be/epPHaxDCv48?t=230
 */
+int better_miter_joint() {
+  /*
+  with intermediate wood shim https://www.youtube.com/watch?v=bhlzH_ktCOw
+  */
+}
+
+int cut_dados() {
+  /*
+  https://youtu.be/mOVVbx6pkNw?t=237
+  - cut a dado as wide as a board https://youtu.be/xqlN7mR6LkY?t=682
+  */
+}
 
 int make_pocket_hole() {
   /*
