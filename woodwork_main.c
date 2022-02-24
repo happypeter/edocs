@@ -218,4 +218,8 @@
     - mortise and tenon 榫卯
     - 10 Best Butt Joint Methods  https://www.youtube.com/watch?v=B1A3aiEHIzks
       - but whenever proper, I will stick to screws, because I keep things upgradable
+     
+    - why pocket holes?
+     - butt is weak https://youtu.be/EwJI06iyI4I?t=113
+     - mortise and tenon is expensiveg
     */

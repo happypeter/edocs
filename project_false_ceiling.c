@@ -36,7 +36,7 @@ int set_laser() {
 /*
   the nails worked well on the brick walls, so I end up adding only a few expansion screws to the side frame parts
 */
-int install_wall_joists() {
+int install_rim_joists() {
   printf("the bottom of wall joists touch the laser level")
   nail_T38() // Masonry Nailer T38 nail every 10cm 
   nail_masonry_anchors(hammer_driver_pin) // every 50cm
@@ -126,7 +126,7 @@ int install_bottom_joists() {
   while(more_space_left) {
     // started from the wall joist, the first joist is 60mm away, and it is a subBottomJoist
     // then the next one is a primaryBottomJoist
-    sub_bottom_joists();
+    sub_bottom_joists(toe_nailing);
     primary_bottom_joists(); 
   }
 }
@@ -139,11 +139,19 @@ int install_bottom_joists() {
 int insulate() {
   return 0;
 }
+/*
+- toe nailing is a classic way to make a T joint
+  - https://youtu.be/EwJI06iyI4I?t=274
+- when I need to joint
+*/
 
+int toe_nailing() {
+  /* nail together bottom joist to the RimJoist */
+}
 int main() {
   printf("Be warned! The whole false ceiling is going to take %d mm of your room height", whole_thickness() );
   set_laser();
-  install_wall_joists();
+  install_rim_joists();
   install_ceiling_joists();
   install_bottom_joists();
   insulate(mineral_wool);
