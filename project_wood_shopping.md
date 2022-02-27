@@ -69,6 +69,7 @@
 
 
 -  15cm OSB (Osong board) or Plywood
+    - you can make furniture with OSB https://youtu.be/fkVfX2hUlc8?t=3099
     - https://www.lubanyuan.cn/cailiao/renzaoban/1385.html
       - OSB is better insulation and more sound absorbant 
     - https://www.youtube.com/watch?v=zCPlL9UQGT4
