@@ -148,6 +148,13 @@ int insulate() {
 int toe_nailing() {
   /* nail together bottom joist to the RimJoist */
 }
+
+int finish() {
+  /*
+  consider use OSB for the ceiling or wall, and you can paint
+  them directly https://youtu.be/fkVfX2hUlc8?t=3627
+  */
+}
 int main() {
   printf("Be warned! The whole false ceiling is going to take %d mm of your room height", whole_thickness() );
   set_laser();
@@ -156,6 +163,7 @@ int main() {
   install_bottom_joists();
   insulate(mineral_wool);
   sheathing();
+  finish();
   return 0;
 }
 
