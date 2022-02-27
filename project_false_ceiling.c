@@ -165,6 +165,20 @@ int sheathing() {
   apply_vapor_barrier() // https://youtu.be/fJ2v6wD8mho?t=114
 
   /*
+    add two anchors first, so that the board can stay close 
+    to the install position without me holding it.
+    - like https://happypeter.github.io/githome/imgs/20220226/
+      - make sure the two anchors are both not two small
+      - use one 70mm screw
+    Then start to use nails to one of the two corners that are
+    next to the wall or the eariler installed board,
+    then nail the other corner, this a easy way to make sure
+      - 1. gap at each joint of two boards(or first board with walls) are kept the same from
+    end to end.
+      - 2. boards are properly aligned
+  */
+  install_boards()
+  /*
     - a drywall lifter https://youtu.be/20Ku6flDaBk?t=206
     - I will use 17mm plywood, with good enough finish
     - handle the wall side ends by a wood strip https://youtu.be/20a63CnjA7A?t=188

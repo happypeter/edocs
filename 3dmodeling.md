@@ -10,7 +10,7 @@ title: 3d
 - sketchup is good for architectual design. But not as powerful or versatile as others.
 
 ## sketchup and blender
-- sketchup is easier, but blender can do whatever sketchup can do and more
+- sketchup is easier
 - snapping in blender is a problem https://www.blender3darchitect.com/python-scripts-for-archviz/fixing-blender-snapping-system-cad-like-transform-free-add-on/
 - blender 2.90 is a sketch killer https://www.blender3darchitect.com/blender-3d/blender-2-90-the-sketchup-killer/
   - but reading the comments, you know blender may not for engineers, no snapping, poor measurements, WTF
@@ -89,3 +89,11 @@ title: 3d
 
 ## 3d printer
 - .stl and .obj files are for printer  https://youtu.be/z5_iuv0UFXQ?t=161
+
+## sketch
+- https://www.youtube.com/watch?v=rjSE28T3u78
+  - April Wilkerson
+- OPEN THE COMPONENT BEFORE EDITING IT
+  - https://youtu.be/r2K6gmcc_jA?t=1712
+- tripple click to select a object that is hard to select cleanly with mouse https://youtu.be/vNf_YiBC_g0?t=574
+- rotate tool: copy/rotate/shorten https://youtu.be/vNf_YiBC_g0?t=741
