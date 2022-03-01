@@ -41,3 +41,13 @@ int lightweight_wallhung(screw=E30){
 int heavyduty_concrete(screw=WedgeAnchor) {
   // TODO, still needs to test my WedgeAnchor
 }
+
+/*
+use short/stong/bigHead screws, like https://youtu.be/ssx-R_BzK9I?t=81
+*/
+
+int attach_casters() {
+  // use 4.8x16 screw to attach to a board
+  // use 4.8x50 for heavy duty ones
+  // PDD: 华司头燕尾钉
+}
