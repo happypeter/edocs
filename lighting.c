@@ -12,6 +12,8 @@
 - even lighting is better lighting
   - Use a broad light source. The broader the light source, the softer the light coming out of it. I am so happy about my MI lamp Pro.
 - led bulbs: main work horse, https://item.jd.com/7466255.html Opple warm(2700-3500k) light.
+  - at the moment, it does not make sense to buy things other than LEDs
+    - from a simple cost perspective
 - tips
   - use Self Locking Electrical Cable Connector https://www.aliexpress.com/item/32961577684.html
   - dark backgroud plus bright item https://youtu.be/p9286KaJjb0?t=181
@@ -126,5 +128,27 @@
       - for my workshop
       - I need both the wall-hung cabinet and lights here for my workshop
         - https://youtu.be/ENc-0dufe_c?t=529
+
       
 */
+
+
+/*
+  - DIY LED strip fixtures
+    - https://www.youtube.com/watch?v=VVSqHp71824
+*/
+int plywood_modular_led_strip_fixture() {
+  /*
+  - easy to add diffuser
+  - use double sided adhesive tape to attach led strip to plywood
+    - gap between strip and wood
+  - easy to cut to any length,
+    - solder extension wire at each end
+    - easy linear joint by just wire two fixture up
+    - use specially made L joints to shape a rectangle
+  - easy to attach to walls/ceilings/furnitures
+  - allow air flow, but keep inside dust/bug free
+    - make diffuser easy to uninstall and clean
+    - use thin cloth to seal ends
+  */
+}
