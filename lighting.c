@@ -112,6 +112,8 @@
     - rectifier 8RMB
     - PDD: 11w/m, width: 17mm,  neural light, 180bulb/m 8.9RMB/m x 6m
 - recessed lights
+  - don't install them too close to the wall, cause I have shelves and wall-hung 
+    cabinets, they will cast shadows
   - https://youtu.be/t3F0dwsBFjw?t=238
   - orders
     - JD: philips 2.5inch 3.5w 8RMBx5 
