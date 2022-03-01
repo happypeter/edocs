@@ -8,7 +8,7 @@ Brad Nail 30
 #define E80 'expansion screw 80mm' //plastic anchor dia 7.4mm
 #define Tile8 'Tile Drill Bit 8mm, PDD: 三角瓷砖霸王钻'
 #define HandDrill 'light weight drills'
-#define ImpactDrill 'hammer drill, 电锤'
+#define HammerDrill '电锤'
 #define WedgeAnchor 'wedge anchors(PDD: 强力加长车修壁虎，电梯专用螺栓) M8x80'
 
 /*
@@ -18,7 +18,11 @@ Brad Nail 30
 
 int nail_wood_to_wall(screw=E80) {
   /*
-    use my 8mm tile drill bits on my HandDrill
+    use my 8mm tile drill bits on my HandDrill,
+    drill wood and wall at same time
+    plug your plastic anchor in the hole
+    use screw to drive the anchor deep in the wall
+    as shown here https://www.youtube.com/watch?v=qHzFig-3Drs
   */
   drill_hole(bit=Tile8, drill=HandDrill)
 }
