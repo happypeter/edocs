@@ -176,7 +176,9 @@ int sheathing() {
     add two anchors first, so that the board can stay close 
     to the install position without me holding it.
     - like https://happypeter.github.io/githome/imgs/20220226/
-      - make sure the two anchors are both not two small
+      - make sure the two anchors are both not two small or narrow
+        - so in the picture the one made with strips is a bad example
+          - when I adjusted the board poision, it lost the board.
       - use one 70mm screw
     Then start to use nails to one of the two corners that are
     next to the wall or the eariler installed board,
