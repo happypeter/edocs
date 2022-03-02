@@ -150,11 +150,32 @@ int toe_nailing() {
 }
 
 int finish() {
-  /*
-  consider use OSB for the ceiling or wall, and you can paint
-  them directly https://youtu.be/fkVfX2hUlc8?t=3627
-  */
+  apply_vax_oil(times=3, gap='1hr')
 }
+
+int sealing() {
+  /* 
+    - use air conditioning hole sealant 'PDD: 空调堵洞密封胶泥’ for Dia 30mm cord holes
+      - https://happypeter.github.io/githome/imgs/20220302/
+    - use wood filler if there is some holes
+      - https://happypeter.github.io/githome/imgs/20220302/
+  */
+  // Silicone (玻璃胶 glass sealant) for board gaps
+}
+
+int trim() {
+  // use wood strips as ceiling crown molding
+  // crown is essentially a 45defree cut wood strip https://youtu.be/9m5UuT5Z4eE?t=126
+  // sealant https://youtu.be/dZHFNnbLG8g?t=364
+  // I painted 32x20 wood strip white as the crown, the result is nice https://happypeter.github.io/githome/imgs/20220302
+}
+
+int wiring() {
+  // when open holes for the wires, make them close to the wall
+  // otherwise, you need a really thick box to contain the joint
+  // like seen here https://happypeter.github.io/githome/imgs/20220302/
+}
+
 int main() {
   printf("Be warned! The whole false ceiling is going to take %d mm of your room height", whole_thickness() );
   set_laser();
@@ -162,8 +183,11 @@ int main() {
   install_ceiling_joists();
   install_bottom_joists();
   insulate(mineral_wool);
+  wiring();
   sheathing();
   finish();
+  sealing();
+  trim();
   return 0;
 }
 
