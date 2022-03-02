@@ -159,15 +159,22 @@ int sealing() {
       - https://happypeter.github.io/githome/imgs/20220302/
     - use wood filler if there is some holes
       - https://happypeter.github.io/githome/imgs/20220302/
+    - buy a caulking gun https://youtu.be/wZhGA-zrN_U?t=539
+    - use a screw to seal the sealant https://youtu.be/wZhGA-zrN_U?t=662
   */
-  // Silicone (玻璃胶 glass sealant) for board gaps
+  /* Silicone (玻璃胶 glass sealant) for board gaps
+    - how to silicone? https://www.youtube.com/watch?v=N7mC2DQVl-w
+      - fingers and towel https://youtu.be/N7mC2DQVl-w?t=253
+  */
 }
 
 int trim() {
   // use wood strips as ceiling crown molding
   // crown is essentially a 45defree cut wood strip https://youtu.be/9m5UuT5Z4eE?t=126
   // sealant https://youtu.be/dZHFNnbLG8g?t=364
-  // I painted 32x20 wood strip white as the crown, the result is nice https://happypeter.github.io/githome/imgs/20220302
+  /* I painted 32x20 wood strip white as the crown, the result is nice https://happypeter.github.io/githome/imgs/20220302
+     - next time use 17x17 plywood strip, about this size https://youtu.be/20a63CnjA7A?t=187
+  */
 }
 
 int wiring() {
@@ -179,6 +186,7 @@ int wiring() {
 int main() {
   printf("Be warned! The whole false ceiling is going to take %d mm of your room height", whole_thickness() );
   set_laser();
+  // maybe I don't need the wood frame, will furring strips do for me https://youtu.be/20a63CnjA7A?t=29
   install_rim_joists();
   install_ceiling_joists();
   install_bottom_joists();
@@ -194,6 +202,8 @@ int main() {
 int sheathing() {
 
   use_nails_as_spacers() // https://youtu.be/XMziwBDduVs?t=382
+
+  /* use proper sealant to glue it */
   apply_vapor_barrier() // https://youtu.be/fJ2v6wD8mho?t=114
 
   /*
