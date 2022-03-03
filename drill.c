@@ -28,6 +28,7 @@ what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
   - the batteries do not last very long any more
     - but still acceptable
   - need to change a new chunk
+    - https://www.ixigua.com/7039735865257656840?logTag=ebba8e7bd2dde899d67e
 */
 #define OldDrill '峰硕12V双速充电钻36VF电池'
 
