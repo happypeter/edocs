@@ -23,7 +23,25 @@ https://www.sohu.com/a/252780674_99904561
 what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
 */
 
+/*
+- I bought this in Nov 2020, it's been working for me
+  - the batteries do not last very long any more
+    - but still acceptable
+  - need to change a new chunk
+*/
+#define OldDrill '峰硕12V双速充电钻36VF电池'
+
+/*
+- I bought this new one, since the it works with my OldDrill batteries
+- What bugs me is not that I need too often
+  - it is I don't have enough drills, so that I need to change bits too ofen
+- big brand's like 东成, the brush-less versions are too expensive
+*/
+
+#define NewDrill '峰硕21V无刷冲击重载款'
+#define CordDrill '东成07-10 扳手款500W电钻'
 #define Pitch '螺距' 
+
 
 
 /*
