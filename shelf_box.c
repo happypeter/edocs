@@ -1,4 +1,8 @@
 /*
+- basic shelf structure https://youtu.be/edh0SjQReDw?t=7
+- mobile shelves with casters, can work well with my wall hung ones
+  - for clamps https://youtu.be/meEYwk6Olik?t=37
+  - for wood scraps , see mobile_wood_storage.c
 - use 28x68 treated wood as cleat
   - NOTE: next version I can going to use glued ply wood, as show here https://www.youtube.com/watch?v=IfuwKXPRKu8
     - treat wood is way too soft for the job

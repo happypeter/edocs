@@ -59,6 +59,8 @@
   - you can use masonary blade for metal https://youtu.be/ZOFrzLpBqf4?t=98
   - mind the direction of the blade, when installing
 - circular saw
+  - cut whole sheet of ply wood
+    - with a tracksaw and insulation foam board https://youtu.be/_0H71D7dSDQ?t=219
   - to a [track saw](project_track_saw.md) https://www.youtube.com/watch?v=xYkUsN9Ug_M
     - https://www.youtube.com/watch?v=5g5pvVXwClg
     - with DIY track https://www.ixigua.com/6765128379713716740?id=6734510358418948622&logTag=f6d45626a84809ad012f

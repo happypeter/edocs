@@ -165,6 +165,20 @@ int sealing() {
   /* Silicone (玻璃胶 glass sealant) for board gaps
     - how to silicone? https://www.youtube.com/watch?v=N7mC2DQVl-w
       - fingers and towel https://youtu.be/N7mC2DQVl-w?t=253
+      - big gaps https://youtu.be/oq0juhNqGss?t=355
+      - in many cases, tiny V groove works https://youtu.be/V561eO_QGYA?t=296
+      - stead pace/pressure https://youtu.be/45I81kHIKQg?t=248
+        - even you did good job by applying just enough silicone
+          - you still need to flatten it with finger
+      - profiling tool https://www.youtube.com/watch?v=_DI4hfHM_Hg
+        - why cut 90degree big hole
+        - https://youtu.be/rnD_LCzcLH4?t=507
+          - use profiler more than once
+            - use soap water AFTER the first go
+              - the first go ganrentees the gaps between silicone and the surface
+                are closed, otherwise the soap water goes into the gaps
+          - clean the stains https://youtu.be/rnD_LCzcLH4?t=628
+
   */
 }
 

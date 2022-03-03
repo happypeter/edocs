@@ -72,8 +72,6 @@ int main() {
       - 80mm thick wood needed
     - rubber hammer
       - https://youtu.be/TjdtAZpsXCk?t=573
-    - sealant holder
-      - https://youtu.be/4fKBZ-H9StM?t=47
     - drill 
       - best: https://youtu.be/pZfyoh5SZ6I?t=8
         - I love this beause it allows me to not taking off the bit each time
