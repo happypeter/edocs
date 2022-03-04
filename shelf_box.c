@@ -79,6 +79,48 @@
   - https://youtu.be/kWKqHPhTe6M?t=213
   */
 
+/*
+- I think the frame and panel box design is here to stay in my system
+  - aslo rail and stile,https://en.wikipedia.org/wiki/Frame_and_panel
+  - it's strong enough while light weight
+  - I can use PVC/Acrylic/Mesh as panels as well
+*/
+int frame_panel_box() {
+  /*
+  - figure out the cutlist before hand
+  - use a stopper and miter saw 45degree setting
+    - https://happypeter.github.io/githome/imgs/20220304/
+    - for each size, you only need one time measuring to set stopper postion
+      - the inital measuring does not have to be super precise
+      - because, repeated cuts will give all the pieces same size
+  - plywood will be used to make the whole structure strong
+    - only two size where handles are use ply
+    - for smaller box, I could use 9mm, or turn to OSB for cheaper materials
+    - make sure bottom of the box is within the height of plywood sides
+  - cut grooves/rails
+    - set table saw fence
+    - set table saw blade height 1.2
+      - panel will be embedded 1cm into the rails
+      - panel is not glued to the frame but is left to 'float' within it so that seasonal movement of the wood comprising the panel does not distort the frame.
+    - cut once, than flip and cut the second pass
+    - wear gloves with rubber to hold the pieces fast
+  - cut th
+  */
+  cut();
+}
+
+/*
+  - this shelf design https://happypeter.github.io/githome/imgs/20220304/
+    - it is ajustable, I can change the height of each tier easily
+    - I can add casts to it, or hang it on the wall use franch cleats
+  - but treated wood and ceiling strips are too soft for shelves
+    - even I added some triangle enhancement, it is still loose and shaky
+    - would love to turn to a full plywood version structure
+
+*/
+int simple_shelf() {
+
+}
 
 
   int main() {

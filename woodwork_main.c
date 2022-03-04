@@ -38,11 +38,6 @@
   - for frequent tools, frech cleat
   - otherwise, go to my old shelf-box-system
 
-- sander
-  - try use angel grinder as one
-    - SOME LIKE IT THIS WAY https://www.youtube.com/watch?v=apXWNC1DHlg
-  - but random orbit and dust collection will be nicer https://youtu.be/mKairfMzc6Q?t=332
-  - sanding machine with drill https://www.youtube.com/watch?v=7zcnFeZ2tiE
 
  
 - grinder
@@ -107,6 +102,7 @@
   - see table-saw.md
   - home made small one https://www.ixigua.com/6902383401379037700?id=6815396543114248708&logTag=060fa4892aad0186d6e1
 - miter saw, aka chop saw
+  - I need a clamp, for stoppers https://www.youtube.com/watch?v=ciJM6Uzw1C8
   - home made small one https://www.ixigua.com/6902383401379037700?id=6819982649264701964&logTag=93f53d98df55f9b96eff
   - cut small things https://youtu.be/k1wMsF75k_w?t=1937
   - https://youtu.be/RPUgrhnJVbU?t=279
