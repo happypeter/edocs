@@ -1,5 +1,7 @@
 /*
 - todo:
+  - upgrade, https://theweekendwoodworker.com/tww-tool-list-thank-you-cc/
+    - slots, extension table, fence
   - level the bench 
     - use shims to level table top surface, and then cut all four legs
       - make sure the floor is also level
