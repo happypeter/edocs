@@ -89,6 +89,7 @@ int frame_panel_box() {
   /*
   - figure out the cutlist before hand
   - use a stopper and miter saw 45degree setting
+    - note: another way with tenons https://www.youtube.com/watch?v=OdImx4h0MWo
     - https://happypeter.github.io/githome/imgs/20220304/
     - for each size, you only need one time measuring to set stopper postion
       - the inital measuring does not have to be super precise
