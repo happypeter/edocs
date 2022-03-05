@@ -21,6 +21,9 @@
        - https://youtu.be/lKxUQKRjoEQ?t=168
      - don't use pocket holes to attact table top
        - https://youtu.be/lKxUQKRjoEQ?t=341
+       - screws in general does not expand together with wood
+         - https://youtu.be/0_BEhdEvLUo?t=896
+           - so consider dowels in this case
     - dowels may replace pocket holes
       - https://youtu.be/epPHaxDCv48?t=230
 */

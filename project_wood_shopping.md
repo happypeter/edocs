@@ -19,6 +19,8 @@
       - plywood and OSB are two most popular options for sheathing options
       - https://youtu.be/-Mg6HA8qyzc?t=263
         - plywood is better in everyway, sturdy, water-torlerence
+      - finish edges with solid wood 
+        - https://youtu.be/hXjTXeXeTpI?t=168
   
 
 - white pine wood strip 20x30
