@@ -1,4 +1,7 @@
 /*
+- screw types
+  - my self-drilling screws are for metals not wood
+    - it cuts threads in the materil https://youtu.be/WtS4r0SRygY?t=260
 - what is joinery?
   - how to attach a piece to another
   - the process of joining wood together

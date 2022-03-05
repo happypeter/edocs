@@ -82,6 +82,8 @@
 /*
 - I think the frame and panel box design is here to stay in my system
   - aslo rail and stile,https://en.wikipedia.org/wiki/Frame_and_panel
+  - I not the only one who use frame&panel for things other than doors
+    - https://youtu.be/uwyCac38G74?t=271
   - it's strong enough while light weight
   - I can use PVC/Acrylic/Mesh as panels as well
 */
@@ -114,6 +116,7 @@ int frame_panel_box() {
   - this shelf design https://happypeter.github.io/githome/imgs/20220304/
     - it is ajustable, I can change the height of each tier easily
     - I can add casts to it, or hang it on the wall use franch cleats
+      - like this https://youtu.be/uwyCac38G74?t=316
   - but treated wood and ceiling strips are too soft for shelves
     - even I added some triangle enhancement, it is still loose and shaky
     - would love to turn to a full plywood version structure

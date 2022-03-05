@@ -6,6 +6,8 @@
   - 'test the structure integrity'
 - Goto .c files
   - make sth works, don't just learn
+    - each .c files is about a workflow to solve one or more problems
+      - say, cut_big.c, NOT circular_saw.c
   - go to specific numbers, don't rely on so-called experience
   - go to match avoid radmon ships at all cost
     - even though the curves for the holders are sweet https://youtu.be/S9PTFizoA64?t=29
