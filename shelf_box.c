@@ -90,9 +90,7 @@
 int frame_panel_box() {
   /*
   - figure out the cutlist before hand
-  - use a stopper and miter saw 45degree setting
-    - note: another way with tenons https://www.youtube.com/watch?v=OdImx4h0MWo
-    - https://happypeter.github.io/githome/imgs/20220304/
+  - tenons https://www.youtube.com/watch?v=OdImx4h0MWo
   - plywood will be used to make the whole structure strong
     - only two size where handles are use ply
     - for smaller box, I could use 9mm, or turn to OSB for cheaper materials
@@ -104,7 +102,6 @@ int frame_panel_box() {
       - panel is not glued to the frame but is left to 'float' within it so that seasonal movement of the wood comprising the panel does not distort the frame.
     - cut once, than flip and cut the second pass
     - wear gloves with rubber to hold the pieces fast
-  - cut th
   */
   cut();
 }
@@ -126,11 +123,9 @@ int simple_shelf() {
 
   int main() {
     /*
-    box changelog:
-      - v1 https://happypeter.github.io/githome/imgs/20220221
-    - cut notch for 5mm mdf
+    - cut groves for 5mm mdf
       - set table saw fence, blade to fence width equal 40 percent of the wood being cut
-        - cut and flip the wood, cut again, then the notch shall be wide enough for MDF
+        - cut and flip the wood, cut again, then the grove shall be wide enough for MDF
     */
     add_mdf_box()
   }
