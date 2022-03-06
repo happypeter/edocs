@@ -96,3 +96,20 @@ what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
 int install_drill_press_clamps() {
 
 }
+
+/*
+- ref: https://www.youtube.com/watch?v=DP5WYZ32_lM
+*/
+
+int make_a_vise() {
+
+}
+
+/*
+- Amazing device to cut metal with high precision
+ https://www.youtube.com/watch?v=yGgNvV1_3hQ
+*/
+
+int cut_metal() {
+
+}
