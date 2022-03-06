@@ -89,3 +89,10 @@ what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
       - 10RMB x 2 
 */
 
+
+/*
+  - DIY https://youtu.be/0BdbhecDxrw?t=392
+*/
+int install_drill_press_clamps() {
+
+}
