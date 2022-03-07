@@ -36,3 +36,13 @@
     - https://youtu.be/l1TN9z2kicI?t=326
 
 */
+
+/*
+  - shopList
+    - bought 16mm forstner bits, 
+      - PDD:  铰链门锁开孔钻头 2.22RMB
+*/
+
+int diy_doghole_clamp() {
+  /* https://youtu.be/n0edLCqrE6k?t=475 */
+}
