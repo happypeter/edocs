@@ -39,8 +39,9 @@
 
 /*
   - shopList
-    - bought 16mm forstner bits, 
+    - 16mm forstner bit 
       - PDD:  铰链门锁开孔钻头 2.22RMB
+    - 16mm threaded rod
 */
 
 int diy_doghole_clamp() {
