@@ -1,4 +1,5 @@
 #include <cut_big>
+#include <workbench>
 
 
 /*
@@ -11,16 +12,15 @@ int cut_with_mitersaw() {
   install_clamp();
 }
 
-/*
-- out of a F clamp https://www.youtube.com/watch?v=ciJM6Uzw1C8&t=69s
-- DIY with rod and wood https://www.youtube.com/watch?v=sCpe2JdrqVo
-*/
 
 int install_clamp() {
-  /*
-  - orderList
-    - 16mm threaded rod
-    = forstner bits 16mm
-  */
+  install(workbench.diy_doghole_clamp);
+}
 
+/*
+ - https://youtu.be/y-8i8_Dh6yQ?t=382
+   - drill and grinder
+*/
+int grind_wood_shapes() {
+  
 }

@@ -42,9 +42,11 @@
     - 16mm forstner bit 
       - PDD:  铰链门锁开孔钻头 2.22RMB
     - 16mm wood/Aluminum/IronThreaded Rods
-
+- note the angle here
+  - https://youtu.be/y-8i8_Dh6yQ?t=207
+- out of a F clamp https://www.youtube.com/watch?v=ciJM6Uzw1C8&t=69s
+- DIY with rod and wood https://www.youtube.com/watch?v=sCpe2JdrqVo
 */
-
 int diy_doghole_clamp() {
   /* https://youtu.be/n0edLCqrE6k?t=475 */
 }
