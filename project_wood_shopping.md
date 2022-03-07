@@ -21,6 +21,15 @@
         - plywood is better in everyway, sturdy, water-torlerence
       - finish edges with solid wood 
         - https://youtu.be/hXjTXeXeTpI?t=168
+    - 京东：睿筑旗舰店
+      - plywood:
+        - 17mm 155RMB,
+        - 5mm 60RMB,
+      - OSB:
+        - 15mm 98RMB
+        - 9mm 70RMB 
+      - transpoatation fee: 70RMB
+        - maybe I need to pay 80RMB more for home delivery
   
 
 - white pine wood strip 20x30
@@ -28,7 +37,7 @@
     - 4strips/pack 23RMB
     - 32x20x2382 5.75RMB  3772RMB/m3
 
-  - Osong  欧松板
+  - Osong OSB 欧松板
     - 华运建材城，伊林环宇  
     - 15mmx1.2mx2.4m 115RMB
  
