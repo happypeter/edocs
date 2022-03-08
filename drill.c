@@ -84,14 +84,7 @@ int make_a_vise() {
 
 }
 
-/*
-- Amazing device to cut metal with high precision
- https://www.youtube.com/watch?v=yGgNvV1_3hQ
-*/
 
-int cut_metal() {
-
-}
 
 /*
 - https://www.youtube.com/watch?v=ee2jYR9HZgk
@@ -123,4 +116,22 @@ int cut_metal() {
 
 int diy_drill_guide() {
 
+}
+
+int drill_iron() {
+  // not any drill bits can do this
+  // I need a 10mm hole
+  // But I did polit holes with 3mm bits first
+  /*
+  - the harder the material, the harder you should push down
+    - https://youtu.be/Fu6Mdrp8fy8?t=200
+  - slow down
+    - https://youtu.be/Fu6Mdrp8fy8?t=581
+    - it seems I did this https://youtu.be/Fu6Mdrp8fy8?t=665
+    - 350rmb is good https://youtu.be/0MXkA97V-d8?t=682
+  - cleanup the holes with chamfer drill bit or a larger bit https://youtu.be/Fu6Mdrp8fy8?t=930
+  - unless you are drilling specially harden treated metal, you don't even need a special bit
+    - https://youtu.be/0MXkA97V-d8?t=145
+    - special means bits with cobalt https://youtu.be/0MXkA97V-d8?t=184
+  */
 }

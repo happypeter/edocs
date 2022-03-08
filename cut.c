@@ -32,3 +32,12 @@ int grind_wood_shapes() {
 int hole_saw() {
 
 }
+
+/*
+- Amazing device to cut metal with high precision
+ https://www.youtube.com/watch?v=yGgNvV1_3hQ
+*/
+
+int cut_metal() {
+
+}
