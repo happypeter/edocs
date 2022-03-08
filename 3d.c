@@ -21,7 +21,12 @@
             - once you make one Unique, can you change it along with its slibings
               - since shapes are not easily searchable
               - so use 3d files to manage a complicated project will not be doable
-              
+    - a 3d design file is a image
+      - image is good at giving you lots of details
+      - but when you want to failFast/moveFast, 99% details does not actually matter
+      - to use plainText to decrible HowToBuildATable
+        - you only document what matters, and iterate over them
+        - I can enjoy doing whatever I like when I build the part not covered by code         
     - PlainText is good
       - If I want a cutList, I can just use a array
         - Why use a graph? GUI things is mainly for the bosses or the customer
