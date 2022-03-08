@@ -140,6 +140,9 @@
 int plywood_modular_led_strip_fixture() {
   /*
   - easy to add diffuser
+    - diffuser should stay far from the strip
+      - https://www.youtube.com/watch?v=DKOWeuV1FWE
+  - don't buy black channels https://youtu.be/DKOWeuV1FWE?t=207
   - use double sided adhesive tape to attach led strip to plywood
     - gap between strip and wood
   - easy to cut to any length,
