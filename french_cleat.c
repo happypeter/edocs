@@ -1,8 +1,39 @@
 #include <bit_holder>
 
 
+/*
+      - glass jars https://www.ixigua.com/7011304413516333604
+
+*/
+#define ARM // where the jar top will be mount
+#define armStrip // two armStrips glued together form a ARM
+
+int glass_jar_screw_holder() {
+  struct cut_list = [
+    {
+      armStrip: {
+        material: 'plywood',
+        width: 100,
+        thickness: 17,
+        length: 435,
+        count: 10
+      }
+    }, 
+  ]
+
+  /*
+    - the workflow will aim material saving and less cuts
+    - e.g same width strips can be cut at the same time with table saw
+      - if the strip is not too wide, use mitersaw to get the final sizes
+  */
+  report_cut_workflow(cut_list);
+  
+}
+
+
 int main() {
   add_bit_holder();
+  glass_jar_screw_holder();
 } 
 
 /*
@@ -81,6 +112,5 @@ int main() {
       - if I don't use it often, hide it
       - https://youtu.be/4fKBZ-H9StM?t=373
     - screws 
-      - glass jars https://www.ixigua.com/7011304413516333604
       - litte drawers https://youtu.be/_JeBHyRscRQ?t=367
 */
