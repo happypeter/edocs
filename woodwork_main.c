@@ -173,6 +173,7 @@
 - how to use routers
   - https://youtu.be/gxT1rQgr7Hw?t=625
   - https://youtu.be/iT7N0iffLd8?t=106
+  - DIY router table https://www.youtube.com/watch?v=sxQPuQV1Oak
 - double glass window https://www.youtube.com/watch?v=4kOU0P7J5lk
 - glue types
   - https://youtu.be/Ycq_qwfk62s?t=90

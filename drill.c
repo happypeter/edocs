@@ -1,18 +1,14 @@
 /*
 - drill press stand
   - https://youtu.be/_JeBHyRscRQ?t=80
-  - https://www.youtube.com/watch?v=xMNplAdWCeE
+  - https://www.youtube.com/watch?  v=xMNplAdWCeE
   - right size for the slides
   - follow my shelf_box_system guidelines, the x10cm
   - cabinet separation shelves with dados
-- https://www.youtube.com/watch?v=KHKspxcpuPg
-- ref video 
-  -  https://www.ixigua.com/6771779510745432589?logTag=86b94777be3ea9738b48
-  - this is also neat https://www.youtube.com/watch?v=ee2jYR9HZgk
-  - with wood box and tracks https://www.youtube.com/watch?v=eAgj-nLZ5uI
-- a quick and dirty hack
-  - https://youtu.be/xYkUsN9Ug_M?t=1094
 */
+int drill_stand_cabinet() {
+
+}
 
 /*
 when you huy a bolt or threaded rod, only two metrics really matters
@@ -70,24 +66,7 @@ what is a pitch https://www.insight-security.com/get-to-know-metric-bolt-sizes
 */
 
 
-/*
-- order List
-  - I ordered M10 bolt and bearing with inner dia 10mm
-  - bearing housing with 28mm hole(adjustable)
-  - need drill spindle for my drill chunk(3/8-24UNF)
-  - M10-1.5 thread rod and nuts
-    - 10mm majorDiameter, pitch1.5, which means it is 17 rather than 24 pitch/inch
-  - I don't need locking ring 锁紧环
-    - nuts will do
-  - ordered a Self-locking chunk with a 3/8-24 joint fitting shank
-    - 24RMB for the chunk and shank
-    - so that I can either use
-  - metal rod(for sliding support)  12mm 1m
-    - the linear bearing x2 
-      - 2.9RMB x2 
-    - spiring x 2  outside dia 14mm, wire thickness 1mm
-      - 10RMB x 2 
-*/
+
 
 
 /*
@@ -111,5 +90,34 @@ int make_a_vise() {
 */
 
 int cut_metal() {
+
+}
+
+/*
+- https://www.youtube.com/watch?v=ee2jYR9HZgk
+- https://www.youtube.com/watch?v=KHKspxcpuPg
+  - being able to punch holes on a large board, is not able to do on my drill press
+  - with setup of certain jig, this can also be used to punch holes in sides of boards
+  - similar things can be done with my router
+- materialList
+  - 30mm wood hole opener for the bearings
+  - Dia 12mm drill bit for steel rod, 30cmx2
+  - bearing with inner dia 10mm
+  - drill spindle for my drill chunk(3/8-24UNF)
+  - M10-1.5 thread rod and nuts
+    - 10mm majorDiameter, pitch1.5, which means it is 17 rather than 24 pitch/inch
+  - Self-locking chunk with a 3/8-24 joint fitting shank
+    - 24RMB for the chunk and shank
+    - so that I can either use
+  - Dia12 the linear bearing x2 
+      - 2.9RMB x2 
+  - spring x 2  outside dia 14mm, wire thickness 1mm
+    - 3.6RMB x 2 
+  - Flange 12mm inner dia
+  - Flange inner dia 10mm, for stopper rod
+
+*/
+
+int diy_drill_guide() {
 
 }

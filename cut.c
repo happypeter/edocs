@@ -24,3 +24,11 @@ int install_clamp() {
 int grind_wood_shapes() {
   
 }
+
+/*
+- how to remove cut-offs
+  - https://youtu.be/KHKspxcpuPg?t=524
+*/
+int hole_saw() {
+
+}
