@@ -23,13 +23,15 @@
         - https://youtu.be/hXjTXeXeTpI?t=168
     - 京东：睿筑旗舰店
       - plywood:
-        - 17mm 155RMB,
+        - 18mm(real 18) 155RMB,
+          - with 10 ply, and smooth sandable surface
         - 5mm 60RMB,
       - OSB:
         - 15mm 98RMB
         - 9mm 70RMB 
       - transpoatation fee: 70RMB
-        - maybe I need to pay 80RMB more for home delivery
+        - paid 70RMB more for home delivery truck, 
+        - 50RMB for moving the boards
   
 
 - white pine wood strip 20x30

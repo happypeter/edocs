@@ -30,11 +30,33 @@ int glass_jar_screw_holder() {
   
 }
 
+int build_the_cleats() {
+  if(INSULATION_NEEDED) {
+    layers_plywood_as_baseboard(2)
+    fasterner = '50mm Masonry Nail'
+  } else {
+    layers_plywood_as_baseboard(1)
+    fasterner = '38mm Masonry Nail'
+  }
+  install_OSB(thickness='15mm', fasteners='50mm nails and mainly screws')
+
+  /*
+  - I use 18mm thick plywood as cleats
+  - first cut 100mm wide strips
+  - then cut to 59mm cleats with 45degree bevel
+  */
+
+  cut_the_cleats()
+  install_cleats(fasteners='50 mansonry nails and mainly screws')
+}
 
 int main() {
+  build_the_cleats();
   add_bit_holder();
   glass_jar_screw_holder();
 } 
+
+
 
 /*
   - for light weight things you don't want a cleat, use screws https://youtu.be/8En-OTfePys?t=251
