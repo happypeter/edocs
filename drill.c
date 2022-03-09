@@ -107,6 +107,8 @@ int make_a_vise() {
   - spring x 2  outside dia 14mm, wire thickness 1mm
     - 3.6RMB x 2 
   - Flange 12mm inner dia
+    - exterior dia 16mm
+    - 16mm hole opener
     - 16RMB/5Flange
   - innerDia 9mm iron pipe
     - M8 threaded rod

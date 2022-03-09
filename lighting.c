@@ -127,10 +127,9 @@
     - same principles here, even accent lights will be strip or recessed 
       - for my workshop
       - I need both the wall-hung cabinet and lights here for my workshop
-        - https://youtu.be/ENc-0dufe_c?t=529
-
-      
+        - https://youtu.be/ENc-0dufe_c?t=529  
 */
+
 
 
 /*
@@ -155,3 +154,12 @@ int plywood_modular_led_strip_fixture() {
     - use thin cloth to seal ends
   */
 }
+
+/*
+- I want shadeless light
+  - and a lot of light above my workbench
+- I may need light for some conerners
+  - but I can installl more accent light later 
+*/
+
+int workshop_lighting_plan()
