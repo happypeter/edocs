@@ -1,3 +1,15 @@
+int cleat_standards() {
+  /*
+  - my goal hear is to use french cleat to do anything
+    - so just because some design is very good https://www.youtube.com/watch?v=IfuwKXPRKu8
+      - if it's usecases are very limited, I won't use them
+   - as tested, for brick walls, use masonry nails give the cleats enough strength
+     - no expansion screws needed
+  - I love frech cleat since it make things so portable
+    - If I use the nails modestly, even the cleats themself are very removable and resuable
+  */
+
+}
 /*
 - basic shelf structure https://youtu.be/edh0SjQReDw?t=7
 - mobile shelves with casters, can work well with my wall hung ones

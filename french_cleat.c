@@ -47,7 +47,7 @@ int build_the_cleats() {
   */
 
   cut_the_cleats()
-  install_cleats(fasteners='50 mansonry nails and mainly screws')
+  install_cleats(fasteners='50 mansonry nails and mainly')
 }
 
 int main() {
