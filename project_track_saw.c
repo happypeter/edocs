@@ -85,8 +85,10 @@ struct shopping_list = [
   */
 ]
 /*
-- ref video https://www.youtube.com/watch?v=Tw8aKKZaU3U
+- ref video 
   - https://www.youtube.com/watch?v=xYkUsN9Ug_M
+  - https://www.youtube.com/watch?v=Tw8aKKZaU3U
+  - a simplified version https://www.youtube.com/watch?v=N1-Pxik-u4U
   - https://www.youtube.com/watch?v=ho4Q-pMLG6o
   - https://www.youtube.com/watch?v=DP5WYZ32_lM
   - need a console table placed on the side of my shop to hold this saw

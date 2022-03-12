@@ -215,5 +215,9 @@
     - holding https://youtu.be/1zk3Lm3_avI?t=151
   - finish MDF https://www.youtube.com/watch?v=NxQ2oyarkds
   - miter with table saw fence https://youtu.be/TjdtAZpsXCk?t=147
+  - laser
+    - laser stand https://youtu.be/LuHthQanFVg?t=533
+    - for lower use cases: I remodel my Chrimas Tree
+    - for fasle ceiling, I masonry nail a wood strip
 
     */

@@ -1,4 +1,41 @@
 int cleat_standards() {
+  if(!HEAVY) {
+    /* 
+      the bevel part distorted when I sat on the test cabinet
+      - the gap to the wall thus enlarged, which make it impossible to use silicon
+    */
+    use(FRENCH_CLEAT)
+  } else {
+    options = [
+      metal_cleat(), //(mounting strip) https://www.youtube.com/watch?v=pXAUR3oWeDw
+      /*
+      - have a backboard
+        - two layers of plywood as vertical mounting strip
+        - then have the sandra_shelf() to hold the table
+          - use 18mmx2 plywood as mounting strips and arms of the brackets
+          - make sure the bracket will not only installed on the backboard
+            - the screws will also go into the mounting strips behind the backboard
+        - if the wood sandra brackets are still loose, try the iron brackets https://www.youtube.com/watch?v=J4cLvs32KOQ
+          - or with my diy_angle_steel_bracket()
+      */
+      with_backboard(FRENCH_CLEAT), //https://www.youtube.com/watch?v=Vk4RuYIxROo
+
+      expansion_to_the_wall(), https://www.youtube.com/watch?v=J4cLvs32KOQ
+    ]
+  }
+
+/*
+- this lady stolen my design 
+    - https://www.youtube.com/watch?v=yCtTqg9M6Ek
+      - her plan https://sawdustgirl.com/building-garage-shelves/
+      - for lumber https://www.youtube.com/watch?v=iy8h4OZMK98
+      - you can use plywood as hanger https://youtu.be/UDC5_oPpxPU?t=89
+      - plan for track saw tracks https://www.youtube.com/watch?v=d4FOeyElB3s
+    - a similar one https://www.youtube.com/watch?v=ZmZMyqbDSDY
+
+*/
+  int sandra_shelf() {
+  }
   /*
   - my goal hear is to use french cleat to do anything
     - so just because some design is very good https://www.youtube.com/watch?v=IfuwKXPRKu8
@@ -10,6 +47,11 @@ int cleat_standards() {
   */
 
 }
+
+int diy_angle_steel_bracket() {
+  // with bolts, I don't need welding
+}
+
 /*
 - basic shelf structure https://youtu.be/edh0SjQReDw?t=7
 - mobile shelves with casters, can work well with my wall hung ones
@@ -41,14 +83,7 @@ int cleat_standards() {
       - thicker wall-hung board, so that I can use screws to fasten the plywood triangle to the board. when the shelf carry load, the download force will be turned into horizontal force away from the wall, and the 90degree angle of the big triangle area(both the triangle and wall-hung board)will be under great pressure. As tested, when I hanged my body, the nails in the wall hung board tried to go away from the wall, but they need to shear the wood fibers, before they fail. So even though the  the board are very thin and soft, it did not break. But If in the next verion I use screw(thicker than nails) and thicker board, it will be much harder to shear the board, the shelf will be much more sturdy.
       - the lower part of the big triangle does don't carry a lot of burden, so should be shorter.
 
-  - this lady stolen my design 
-    - https://www.youtube.com/watch?v=yCtTqg9M6Ek
-      - her plan https://sawdustgirl.com/building-garage-shelves/
-      - for lumber https://www.youtube.com/watch?v=iy8h4OZMK98
-      - you can use plywood as hanger https://youtu.be/UDC5_oPpxPU?t=89
-      - plan for track saw tracks https://www.youtube.com/watch?v=d4FOeyElB3s
-    - a similar one https://www.youtube.com/watch?v=ZmZMyqbDSDY
-
+  
   - a elelgant hide all design https://www.youtube.com/watch?v=6clJWTTRWTE
   - todo
   - try this basic box with rab·bet joint https://www.youtube.com/watch?v=8vFGrNjT4P4
