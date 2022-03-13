@@ -8,16 +8,19 @@ int cleat_standards() {
   } else {
     options = [
       metal_cleat(), //(mounting strip) https://www.youtube.com/watch?v=pXAUR3oWeDw
-      /*
-      - have a backboard
-        - two layers of plywood as vertical mounting strip
-        - then have the sandra_shelf() to hold the table
-          - use 18mmx2 plywood as mounting strips and arms of the brackets
-          - make sure the bracket will not only installed on the backboard
-            - the screws will also go into the mounting strips behind the backboard
-        - if the wood sandra brackets are still loose, try the iron brackets https://www.youtube.com/watch?v=J4cLvs32KOQ
-          - or with my diy_angle_steel_bracket()
+      /* 
+        - try the iron angles https://www.youtube.com/watch?v=J4cLvs32KOQ
+          - use three layers of plywood as the wood arm in the video
+          - use bolts and nuts, not screws
+          - use metal angles, otherwise the wood distortion adds up, make the sturcture loose
+          - if I don't want to use expansion bolts on the wall
+            - mansonry nails for plywood mounting strips
+            - screw plywood to the strips as the wall
+            - use bolts to connect the wall and the table
       */
+      
+      metal_angles();
+
       with_backboard(FRENCH_CLEAT), //https://www.youtube.com/watch?v=Vk4RuYIxROo
 
       expansion_to_the_wall(), https://www.youtube.com/watch?v=J4cLvs32KOQ
