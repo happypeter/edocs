@@ -9,21 +9,27 @@ int cleat_standards() {
     options = [
       metal_cleat(), //(mounting strip) https://www.youtube.com/watch?v=pXAUR3oWeDw
       /* 
-        - try the iron angles https://www.youtube.com/watch?v=J4cLvs32KOQ
-          - use three layers of plywood as the wood arm in the video
-          - use bolts and nuts, not screws
-          - use metal angles, otherwise the wood distortion adds up, make the sturcture loose
-          - if I don't want to use expansion bolts on the wall
+          - I don't want to use expansion bolts on the wall
             - mansonry nails for plywood mounting strips
             - screw plywood to the strips as the wall
+            - build a 'box' with certain height and a strong backboard
+              - say a cabinet https://youtu.be/i8jcNQ0FzWQ?t=559
+              - or a desk https://youtu.be/Vk4RuYIxROo?t=554
+              - use iron angles if you need extra strength https://www.youtube.com/watch?v=J4cLvs32KOQ
+                - https://youtu.be/WZpNIZ8IJro?t=637
             - use bolts to connect the wall and the table
+              - like this https://youtu.be/Vk4RuYIxROo?t=1217
       */
-      
-      metal_angles();
+      bolt_attached_box(),
 
-      with_backboard(FRENCH_CLEAT), //https://www.youtube.com/watch?v=Vk4RuYIxROo
+      /*
+      - for something really large in horizontal span
+        - use box section steel as joist, and metal angles as bracket on both side to attachh it to the wall
+        - and expension them direct to the brick wall
+          - wood is soft to hold this
+      */
 
-      expansion_to_the_wall(), https://www.youtube.com/watch?v=J4cLvs32KOQ
+      box_section(),
     ]
   }
 
