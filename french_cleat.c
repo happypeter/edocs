@@ -1,8 +1,9 @@
 #include <bit_holder>
-
+#define HOLDER 'a cleat item'
 
 /*
   - glass jars https://www.ixigua.com/7011304413516333604
+    - litte drawer version https://youtu.be/_JeBHyRscRQ?t=367
 */
 #define ARM // where the jar top will be mount
 #define armStrip // two armStrips glued together form a ARM
@@ -126,11 +127,13 @@ int main() {
       - https://youtu.be/TjdtAZpsXCk?t=573
     - drill 
       - https://www.ixigua.com/6974625115858272772
+        - you do want the gap between the holding boards for each drill larger than the reverse/forward switches
+          - https://happypeter.github.io/githome/imgs/20220316/1.jpg
       - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
-      - https://youtu.be/pZfyoh5SZ6I?t=8
+        - It's always better to keep things more modular, unless there is a reason not to do so.
+          - So I will keep a standalone bits holder
     - Reciprocating saw holder 
       - if I don't use it often, hide it
       - https://youtu.be/4fKBZ-H9StM?t=373
-    - screws 
-      - litte drawers https://youtu.be/_JeBHyRscRQ?t=367
+
 */

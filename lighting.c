@@ -130,7 +130,13 @@
         - https://youtu.be/ENc-0dufe_c?t=529  
 */
 
-
+int recessed_lights_workshop() {
+  /*
+  - the current lights are all connected with one cable
+    - power from light wire from the center of the room
+    - https://happypeter.github.io/githome/imgs/20220316/2.jpg
+  */
+}
 
 /*
   - DIY LED strip fixtures
