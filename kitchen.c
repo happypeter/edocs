@@ -9,3 +9,10 @@ int wall_finish() {
     steel can be cleaned easily https://youtu.be/N08XW9wNRYc?t=233
   */
 }
+
+/* 
+from plywood & laminate https://www.youtube.com/watch?v=ICR2mXNbrsw 
+*/
+int counter_top() {
+  
+}

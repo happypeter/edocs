@@ -90,6 +90,9 @@ int install_drill_press_clamps() {
 
 /*
 - ref: https://www.youtube.com/watch?v=DP5WYZ32_lM
+  - https://www.youtube.com/watch?v=SGvvSIJlVBY
+  - https://www.ixigua.com/6519860876256739848?logTag=2db0185ade7a2e59c1b5
+  - https://www.ixigua.com/7044514624871350792?logTag=66650085be9e4dd9676e
 */
 
 int make_a_vise() {

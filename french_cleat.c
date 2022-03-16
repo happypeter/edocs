@@ -2,8 +2,7 @@
 
 
 /*
-      - glass jars https://www.ixigua.com/7011304413516333604
-
+  - glass jars https://www.ixigua.com/7011304413516333604
 */
 #define ARM // where the jar top will be mount
 #define armStrip // two armStrips glued together form a ARM
@@ -126,10 +125,9 @@ int main() {
     - rubber hammer
       - https://youtu.be/TjdtAZpsXCk?t=573
     - drill 
-      - best: https://youtu.be/pZfyoh5SZ6I?t=8
-        - I love this beause it allows me to not taking off the bit each time
       - https://www.ixigua.com/6974625115858272772
       - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
+      - https://youtu.be/pZfyoh5SZ6I?t=8
     - Reciprocating saw holder 
       - if I don't use it often, hide it
       - https://youtu.be/4fKBZ-H9StM?t=373
