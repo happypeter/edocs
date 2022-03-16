@@ -125,15 +125,25 @@ int main() {
       - 80mm thick wood needed
     - rubber hammer
       - https://youtu.be/TjdtAZpsXCk?t=573
-    - drill 
-      - https://www.ixigua.com/6974625115858272772
-        - you do want the gap between the holding boards for each drill larger than the reverse/forward switches
-          - https://happypeter.github.io/githome/imgs/20220316/1.jpg
-      - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
-        - It's always better to keep things more modular, unless there is a reason not to do so.
-          - So I will keep a standalone bits holder
+
     - Reciprocating saw holder 
       - if I don't use it often, hide it
       - https://youtu.be/4fKBZ-H9StM?t=373
 
 */
+
+/*
+    - drill 
+      - https://www.ixigua.com/6974625115858272772
+        - you do want the gap between the holding boards for each drill larger than the reverse/forward switches
+          - https://happypeter.github.io/githome/imgs/20220316/1.jpg
+        - and you do want to be generious on the depth
+          - since you dont want to remove the bits every time
+      - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
+        - It's always better to keep things more modular, unless there is a reason not to do so.
+          - So I will keep a standalone bits holder
+*/
+
+int dril_holder() {
+
+}
