@@ -96,6 +96,9 @@ int main() {
    - measuring tape https://youtu.be/ojS7DOClCAQ?t=631
       - wood blocks https://youtu.be/IsSWJjA4uN4?t=175
       - https://youtu.be/kLpmInMdQpw?t=956
+      - next version idea
+        - maybe you just need a screw head https://youtu.be/kLpmInMdQpw?t=732
+      
     - nailer
       - current: https://youtu.be/IsSWJjA4uN4?t=213
         - esay to pick up
@@ -142,6 +145,10 @@ int main() {
       - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
         - It's always better to keep things more modular, unless there is a reason not to do so.
           - So I will keep a standalone bits holder
+    - next verion idea
+      - cut gaps on a board https://youtu.be/2lDFvVGtMuE?t=290
+        - if you buy a new drills, you cut more gaps
+        - other wise the space can be used for sth else
 */
 
 int dril_holder() {

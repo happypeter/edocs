@@ -104,4 +104,5 @@ struct shopping_list = [
 int how_to_caliberate() {
   // you need sth long enough https://happypeter.github.io/githome/imgs/20220314/
   // https://happypeter.github.io/githome/imgs/20220314/2.jpg
+  // https://youtu.be/2OUe1UaO1tQ?t=1010
 }
