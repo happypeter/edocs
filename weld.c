@@ -1,4 +1,8 @@
 int choose_machine() {
+  if(!BOLTS_WORKS){
+    // I will try my best to use just bolts and nuts
+    return;
+  }
   /*
   - should I buy one just for stickWelding or allInOne?
     - https://www.youtube.com/watch?v=vUZkeYFOu1E
