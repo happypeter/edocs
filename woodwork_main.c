@@ -183,6 +183,7 @@
 
 ## nailer
   - air compressor
+    - a cabinet for it https://www.youtube.com/watch?v=SZGykd0ipkQ
     - use screw driver to open the plastic container, then use wrench to change the pressure setting. 130pa is good for my ST38 and T50 and all. But not that good for ST50
   - make sure to pull the safty valve from time to time, not it sets to be triggered at 130 or so.
     - it is not that much pressure inside

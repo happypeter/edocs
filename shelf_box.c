@@ -175,6 +175,20 @@ int simple_shelf() {
 }
 
 
+int install_hinge() {
+  install_the_round_side() //make sure the hinge is 90 degree to the side of the piece
+  install_the_other_side()
+  /*
+  - keep the door open
+  - hold the two sides tight together
+  - no gap needed, and make sure both the upper ends and bottom ends of doors and sides touch each other
+  - install the two screws with wider holes first
+    - so you can adjust the door positions after fasting the screws
+  */
+  adjust_screws() // you can adjust door positon in the depth, width, height direction
+  // so when you screw the hinges on the two sides, you don't need to be really precise
+}
+
   int main() {
     /*
     - cut groves for 5mm mdf
