@@ -180,10 +180,11 @@ int simple_shelf() {
 
 
 int install_hinge() {
+  // soft closing hinges here
   install_the_round_side() //make sure the hinge is 90 degree to the side of the piece
   install_the_other_side()
   /*
-  - keep the door open
+  - keep the door open https://happypeter.github.io/githome/imgs/20220319/3.jpg
   - hold the two sides tight together
   - no gap needed, and make sure both the upper ends and bottom ends of doors and sides touch each other
   - install the two screws with wider holes first
