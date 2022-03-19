@@ -1,3 +1,22 @@
+/*
+- v2 idea:
+  - CeilingJoist, RimJoist as v1
+  - do all suspensionBars, make sure the lower ends are all on the same level
+  - build bottom layer frame on the ground
+    - do precise cut according to the sheathing board size
+    - start from one side of the RimJoist rim
+      - install the same size bottom frames first
+      - the last frames appoching the other side of the Rimjost, use special size to take up the space left
+        - just as I did for the boards
+  - no need to use laser level, when installing the bottomFrames
+  - all the strips of the bottomFrames have the narrow side of the strip facing ground
+    - when two bottomFrames joint each other, nail them together
+    - since the joints are also where the board will join
+    - two strips nailed together will give enough space to nail two rows of screws
+      - since two frames are nailed together, so the boards will be on the same surface when they meet
+
+*/
+
 #include <stdio.h>
 char CeilingJoist[] // "主龙骨", main load bearers
 char BottomJoist[] // "副龙骨", the bottom of the whole wood frame

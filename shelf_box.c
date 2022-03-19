@@ -158,6 +158,10 @@ int frame_panel_box() {
     - wear gloves with rubber to hold the pieces fast
   */
   cut();
+  make_tenons(); 
+  /* having a stoper on the table saw sled is all you need
+    - https://happypeter.github.io/githome/imgs/20220319
+  */
 }
 
 /*
