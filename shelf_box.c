@@ -45,12 +45,6 @@ int diy_angle_steel_bracket() {
   // with bolts, I don't need welding
 }
 
-/*
-- basic shelf structure https://youtu.be/edh0SjQReDw?t=7
-- mobile shelves with casters, can work well with my wall hung ones
-  - for clamps https://youtu.be/meEYwk6Olik?t=37
-
-*/
 
 /*
 - requirements
@@ -123,9 +117,15 @@ int lumber_shelf() {
 
   */
 
-  int mounting_stips = mount_plywood_to_wall(thickness='2 layers', width=150, height=100) // the wall is french cleat holding board
-  atach_to_mounting_strips(angle_plywood(widht=150, height=100))
-
+  int lumber_shelf = make_lumber_shelf(wall_hung_cabinet(width=300, height=200 )) // use two or more smaller wall hung cabinets to be the arms of a lumber shelf
+  if (lumber_shelf.is_strong) {
+    // I like this version, cause them lumber shelves are now nothing but the french cleat items
+    return locked_cleats(lumber_shelf) //if necessary lock the cleat item
+  }else{
+    int mounting_stips = mount_plywood_to_wall(thickness='2 layers', width=150, height=100) // the wall is french cleat holding board
+    int lumber_shelf = attach_to_mounting_strips(angle_plywood(widht=150, height=100))
+    return lumber_shelf
+  }
 }
 
 
@@ -135,7 +135,7 @@ int wall_hung_shelf() {
 }
 
 int wall_hung_cabinet() {
-  // use french cleat to hang the caninets 
+  // use french cleat to hang the cabinets 
 }
 
 
