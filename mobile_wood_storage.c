@@ -1,6 +1,6 @@
 /*
-- it will be sth like this https://www.youtube.com/watch?v=edh0SjQReDw
-  
+
+- windowSideShelf  
   - 3 tiers
     - bottom tier, 30cm, for short lumber/strips
       - the board for this tier is plywood, 17x120x35
@@ -56,3 +56,32 @@
 - so I want a cart, above the cart, I can still do shelves, for lumber or anything
 - for future useful cut-offs, you stack them, not bury them in trash
 */
+
+/*
+- I need a big cart to put in my north workshop
+- most common one
+  - three parts
+    - front: vertical dividers
+    - back: angle part for laying big sheets
+    - middle: a shelf
+  - steve Ramsey https://www.youtube.com/watch?v=nZtIEFa3Ofk
+  - Shop Nation https://www.youtube.com/watch?v=CFcSNfGbUmQ
+*/
+
+int shop_nation_cart() {
+
+  /*
+   - since this is a WIP, I won't cut dados on the backboard to keep its resuability
+   - I dont need the shelves to be very wide for two reasons
+     - keep the cart slim, should I get the cart out of its room
+     - these shelves are not intended for wood blocks, but long strips
+  */
+  shelves();
+
+  skirts();
+  /*
+  - make sure the front and back skirts extended downward to the bottom frames
+    - https://youtu.be/CFcSNfGbUmQ?t=807
+    - to get a more sturdy structure
+  */
+}

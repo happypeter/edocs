@@ -18,6 +18,7 @@
      
     - why pocket holes?
      - diy pocket hole jig https://www.youtube.com/watch?v=teKyntvvHy4
+       - https://youtu.be/CFcSNfGbUmQ?t=466
      - butt is weak https://youtu.be/EwJI06iyI4I?t=113
      - mortise and tenon is expensiveg
      - you need to follow the direction of the grain
