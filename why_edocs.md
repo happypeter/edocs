@@ -1,12 +1,8 @@
-- PS photoshop rm background: https://www.gaoding.com/koutu
-- free images
-  https://www.yuque.com/ruanyf/weekly/free-photos
 
-Today I was asked by a Wechat friend that How I do KM, here goes my answer. As a typical Unix hacker I tend to stay in plaintext as much as possible. cause I believe the content are just most refactorable, searchable and exportable this way. Now let me elaborate the ideas a bit and show you some of my pragmatic tricks.
+Today I was asked by a Wechat friend that How I do KM(knowledge Management), here goes my answer. As a typical Unix hacker I tend to stay in plaintext as much as possible. cause I believe the content are just most refactorable, searchable and exportable this way. Now let me elaborate the ideas a bit and show you some of my pragmatic tricks.
 
 ## Be Highly Refactorable
 
-I believe knowledge doesn't come in a whole piece, but in little fragments. https://github.com/happypeter/edocs is the place I store all my little random tips. Though being a good backup solution and making things more time traceable, git is not the key role in this part. Simply think edocs as a folder, with files and folders in it.
 
 Edocs is my personal knowledge base. It's sort of structured as a little wiki, but file naming goes really messy, and I don't really mind. Copy, paste, delete happen all the time. Inside one document, I use markdown as the format, as all developers should.
 

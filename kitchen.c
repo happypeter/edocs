@@ -18,7 +18,8 @@ int wall_finish() {
 }
 
 /* 
-from plywood & laminate https://www.youtube.com/watch?v=ICR2mXNbrsw 
+- from plywood & laminate https://www.youtube.com/watch?v=ICR2mXNbrsw 
+- use plywood  https://youtu.be/fXtzfnT9smM?t=110
 */
 int counter_top() {
   

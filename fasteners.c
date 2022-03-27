@@ -10,6 +10,7 @@ Brad Nail 30
 #define HandDrill 'light weight drills'
 #define HammerDrill '电锤'
 #define WedgeAnchor 'wedge anchors(PDD: 强力加长车修壁虎，电梯专用螺栓) M8x80'
+#define PlasticAnchor 'expasion screws, 8mm hole size'
 
 /*
 - one common case to use expansion screws are nail 15~40 thick wood to the wall
@@ -50,4 +51,13 @@ int attach_casters() {
   // use 4.8x16 screw to attach to a board
   // use 4.8x50 for heavy duty ones
   // PDD: 华司头燕尾钉
+}
+
+int attach_to_loose_bricks() {
+  /*
+    - when it is not possible to make a strong and well shaped hole on a wall
+      - plastic anchors works much better than metal ones
+      - e.g hanging my beaker pannel box  https://happypeter.github.io/githome/imgs/20220327/5.jpg
+  */
+  use(PlasticAnchor)
 }
