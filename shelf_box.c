@@ -164,3 +164,23 @@ int install_hinge() {
     add_mdf_box()
     add_casters(long_span_frame_shelf); // to make use the space under french cleats
   }
+
+
+/*
+https://www.ixigua.com/6952061596659089931
+- set guideline with nails
+  - https://www.ixigua.com/6986842905025446415?logTag=d1054a326e9de0b1ec14
+- track install https://www.ixigua.com/6974778455611146783
+
+- slides are wobbly and weak
+  - expensive red wood furnitures dont use slide at all
+    - you can use stoppers if you have kids https://www.ixigua.com/6855516147580666376
+      - turn stopper https://youtu.be/ZyUiyVpa6YA?t=154
+- wood cleat slides https://www.youtube.com/watch?v=7ob28gKTeUk
+  - a shim away https://youtu.be/ZyUiyVpa6YA?t=200
+  - don't paint the cleat, wax them https://youtu.be/ZyUiyVpa6YA?t=231
+  - the back of the drawer does not hold bottom pannel
+*/
+  int drawer_cabinet() {
+
+  }

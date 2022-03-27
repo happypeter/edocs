@@ -70,6 +70,9 @@
 
 int shop_nation_cart() {
 
+  // have a=1.04cm b=9.94cm, then the angle is 6degree
+  get_6_degrees(); 
+
   /*
    - since this is a WIP, I won't cut dados on the backboard to keep its resuability
    - I dont need the shelves to be very wide for two reasons
