@@ -99,3 +99,11 @@ int trap_door() {
  build_square_frame() 
  screw_square_board() // I don't want to use hinges for now 
 }
+
+/*
+- air tightness is top priority here
+*/
+
+int crown() {
+  frame_strip_as_crown()
+}
