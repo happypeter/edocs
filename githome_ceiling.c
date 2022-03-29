@@ -89,3 +89,13 @@ int ventilation() {
 int kitchten_bath() {
 
 }
+
+/*
+- for mositure observation & power system checkout
+  - sth like https://www.summitxps.co.za/trap-doors/
+*/
+
+int trap_door() {
+ build_square_frame() 
+ screw_square_board() // I don't want to use hinges for now 
+}

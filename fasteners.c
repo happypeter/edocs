@@ -61,3 +61,10 @@ int attach_to_loose_bricks() {
   */
   use(PlasticAnchor)
 }
+
+/*
+- DIY https://youtu.be/7Hk6vWtbgSg?t=566
+*/
+int pocket_holes() {
+
+}
