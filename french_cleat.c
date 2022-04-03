@@ -93,8 +93,7 @@ int back_board() {
         - NO.2 
     
     - pliers
-      - best: https://youtu.be/S9PTFizoA64?t=4
-        - https://youtu.be/8En-OTfePys?t=88
+      - https://youtu.be/8En-OTfePys?t=88
       - https://youtu.be/53Upi0GUwVw?t=277
     - wrench
       - https://youtu.be/S9PTFizoA64?t=4

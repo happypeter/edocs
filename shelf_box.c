@@ -182,5 +182,5 @@ https://www.ixigua.com/6952061596659089931
   - the back of the drawer does not hold bottom pannel
 */
   int drawer_cabinet() {
-
+    apply_wax() // https://youtu.be/1HqGi-X1OdE?t=406
   }
