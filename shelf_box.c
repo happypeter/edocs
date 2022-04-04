@@ -5,6 +5,10 @@ int wood_stroage_cart() {
   return mobile_wood_storage.cart
 }
 
+int dead_simple_wall_mount_shelf() {
+  // https://happypeter.github.io/githome/imgs/20220402/2.jpg
+}
+
 int cleat_standards() {
     if(!HEAVY) {
     /* 

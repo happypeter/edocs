@@ -45,6 +45,7 @@ int heavyduty_concrete(screw=WedgeAnchor) {
 
 /*
 use short/stong/bigHead screws, like https://youtu.be/ssx-R_BzK9I?t=81
+https://happypeter.github.io/githome/imgs/20220404/
 */
 
 int attach_casters() {
