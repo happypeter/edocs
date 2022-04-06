@@ -23,3 +23,13 @@
   - or hang some big white background pics
 */
 
+/*
+- mostly paint to white to make rooms bright
+*/
+
+int finish() {
+  roller_paint(times=3, material='cement') // to seal the little holes on the rough surface
+  sand() // my goal here is not to achieve flatness, but to make it smooth enough so that the wall is comfortable enough to touch
+  apply_bonding_primer() // I use 墙固，界面剂 https://www.yidoutang.com/guide-27755.html
+  roller_paint_latex() // https://youtu.be/ugr3nVbIpD4?t=518
+}

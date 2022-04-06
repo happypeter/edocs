@@ -28,8 +28,11 @@
         - 5mm 60RMB,
       - OSB:
         - 15mm 98RMB
+          - this is low Enviroment standard product, same thing in 伊林环宇 is 110RMB, still much more expensive
+            - high Evn standard from 伊林环宇 is 145RMB, insane!
         - 9mm 70RMB 
-      - transpoatation fee: 70RMB
+          - price in 伊林环宇 is 80RMB
+      - transportation fee: 70RMB
         - paid 70RMB more for home delivery truck, 
         - 50RMB for moving the boards
   
@@ -65,6 +68,7 @@
     - 81x8x4000 16RMB 6172RMB/m3
     - 45x68x4000 60RMB 4900/m3
     - 27x145x4000 65RMB 4150/m3 (cheapest option)
+
 
   - Note
     - it is more expensive than treated ones, because they are dried
