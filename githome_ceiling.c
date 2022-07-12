@@ -107,3 +107,9 @@ int trap_door() {
 int crown() {
   frame_strip_as_crown()
 }
+
+int paint() {
+  brush_cut_in() // https://youtu.be/ehhtu-geVNA?t=141
+  roller() // two times, firstly with paint, then without https://youtu.be/ehhtu-geVNA?t=686
+
+}

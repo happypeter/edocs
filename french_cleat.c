@@ -30,6 +30,7 @@ int glass_jar_screw_holder() {
   
 }
 
+
 int build_the_cleats() {
   if(INSULATION_NEEDED) {
     layers_plywood_as_baseboard(2)
@@ -91,7 +92,8 @@ int back_board() {
       - it is very esay to hold clamps, but there are things to watch out
         - NO.1 spacing, when you take one, there others won't fell
         - NO.2 
-    
+    - shelf brackets
+      - https://youtu.be/U6LSFgmOV4k?t=28
     - pliers
       - https://youtu.be/8En-OTfePys?t=88
       - https://youtu.be/53Upi0GUwVw?t=277
@@ -162,4 +164,8 @@ int back_board() {
 
 int drill_holder() {
 
+}
+
+int float_table() {
+  // https://youtu.be/U6LSFgmOV4k?t=515
 }
