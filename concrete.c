@@ -1,6 +1,7 @@
 int flat_with_ruler() {
   add_more_than_enough() // like https://www.ixigua.com/6682729471956484621
-  remove_redundent()
+  use_plain_to_flat() // use ruler at the beginning is too tiresome
+  remove_redundent_with_ruler()
 }
 
 
@@ -39,8 +40,22 @@ int flat_with_ruler() {
     flat_with_ruler() 
     magging() // tip the mag up https://youtu.be/365f0QV-aOs?t=346
     wait(hour=3) // concrete finishing is all about the right timing https://youtu.be/YdQBA1owRN8?t=366
-    second_finishing() // add cement powder on top https://youtu.be/Q9UrR31RGVI?t=1177
-    
+    add_cement_powder // be very generous here, https://youtu.be/Q9UrR31RGVI?t=1177
+    second_finishing()
+  }
+
+  int concrete_pathway() {
+    dig_foundation() // get a flat soil surface, the first layer
+    set_mold() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
+    lay_wastes() // say rocks, broken bricks if you have some like in my case, second layer
+    fill_gaps_with_gravel() // only if you do the lay_wasters, third layer
+    mix_concrete_with_gravels() // 3 gravels 1 sand 0.5 cement
+    // use a ppr pipe or long wood rod as the guideline to check if each layer is above or too close to the finish surface
+    // as shown here https://happypeter.github.io/githome/imgs/20220722
+    apply_gravel_concrete()
+    mix_fine_cecrete() // without gravels, 3 sand 1 cement
+    app_fine_cement() // fourth layer
+    smooth_finish() // fifth layer
   }
 
 

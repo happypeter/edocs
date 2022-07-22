@@ -91,16 +91,21 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
         - "the relevance of the tools become apparent"
 
 ## Appendix A: Learning log
-  - 20201104
-    - 00:00-09:00 BK, Being with grandma
-    - 09:00-12:00 BK, TTP, FDGH, STNOEA, We were in the basement do the cleaning, a few seconds is the longest he could focus. We had fun.
-    - 12:00-24:00 BK, Being with grandma
-  - 20201103 and earlier
-    - BK & FDGH
-    - TTP
-  - 2019
-    - BK & FDGH
-    - TTP
-  - 2018
-    - FDGH
-    - BK
+
+- 20220721
+  - Heinemann GK 
+- 20220701
+  - first day at Nursery School
+- 20201104
+  - 00:00-09:00 BK, Being with grandma
+  - 09:00-12:00 BK, TTP, FDGH, STNOEA, We were in the basement do the cleaning, a few seconds is the longest he could focus. We had fun.
+  - 12:00-24:00 BK, Being with grandma
+- 20201103 and earlier
+  - BK & FDGH
+  - TTP
+- 2019
+  - BK & FDGH
+  - TTP
+- 2018
+  - FDGH
+  - BK
