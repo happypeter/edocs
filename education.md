@@ -51,11 +51,12 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 ## The Arts(aka subjects) Description
   - Music
     - Playing Some Instrument
+      - paino? Maybe not, more effort on making videos
     - Singing/Dancing
   - Painting
-    - digital 3D Modeling
-    - Digital Drawing
-    - PS skills
+    - 3D Modeling
+    - Tablet Drawing
+    - video editing skills
     - photography
   - Writing
     - Keep Dairy
