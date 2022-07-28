@@ -1,8 +1,4 @@
-int flat_with_ruler() {
-  add_more_than_enough() // like https://www.ixigua.com/6682729471956484621
-  use_plain_to_flat() // use ruler at the beginning is too tiresome
-  remove_redundent_with_ruler()
-}
+
 
 
 /*
@@ -36,26 +32,42 @@ int flat_with_ruler() {
 - 收光 smooth out road surface https://www.ixigua.com/6923831297160774151
   - wait for the concrete is solid enough then do the finishing
 */
-  int smooth_finish() {
-    flat_with_ruler() 
+  int finish_pathway() {
+    flat_with_screed()  // https://youtu.be/lUTkrI8FFuM?t=241
+    // go sawing motion https://youtu.be/aWtn-GyFuiU?t=288
+    wait() // timing https://www.youtube.com/watch?v=s1u30qLejdA
+           // do joiner early than edging https://youtu.be/6SFo4zYwvT4?t=272
+           // finger sink in 1/2 inch
+    cut_joiner() // 3inch/8cm deep, every 5feet/152cm https://youtu.be/uX4hi-R7Dyc?t=273
+                 // https://youtu.be/6SFo4zYwvT4?t=290
+    wait() // when you finger sink in 1/4 inch, it is the right time for edger https://youtu.be/6SFo4zYwvT4?t=59
+    edger() // https://youtu.be/lUTkrI8FFuM?t=435
+    wait() // magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
     magging() // tip the mag up https://youtu.be/365f0QV-aOs?t=346
-    wait(hour=3) // concrete finishing is all about the right timing https://youtu.be/YdQBA1owRN8?t=366
-    add_cement_powder // be very generous here, https://youtu.be/Q9UrR31RGVI?t=1177
-    second_finishing()
+              // use a mag float https://youtu.be/6SFo4zYwvT4?t=463
+              // you don't even need a finishing trowel for pathway
+              // 21.11 Celsius sunny day, it took from 8:30am to 10:20am to start the magging
+              // https://youtu.be/s1u30qLejdA?t=315 that is still early,
+              // so it's generally 3hr you need to wait between pouring and final magging
+              // when your finiger sink in 1/4 inch https://youtu.be/s1u30qLejdA?t=416
+              // now is also the time you can walk on the slab https://youtu.be/s1u30qLejdA?t=494
+    broom_finish() // to make less slippery, https://youtu.be/lUTkrI8FFuM?t=460
   }
 
   int concrete_pathway() {
     dig_foundation() // get a flat soil surface, the first layer
-    set_mold() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
-    lay_wastes() // say rocks, broken bricks if you have some like in my case, second layer
-    fill_gaps_with_gravel() // only if you do the lay_wasters, third layer
-    mix_concrete_with_gravels() // 3 gravels 1 sand 0.5 cement
-    // use a ppr pipe or long wood rod as the guideline to check if each layer is above or too close to the finish surface
-    // as shown here https://happypeter.github.io/githome/imgs/20220722
-    apply_gravel_concrete()
-    mix_fine_cecrete() // without gravels, 3 sand 1 cement
-    app_fine_cement() // fourth layer
-    smooth_finish() // fifth layer
+    if(TOO_MUST_WASTE) {
+      lay_wastes() // say rocks, broken bricks if you have some like in my case, second layer
+      fill_gaps_with_gravel() 
+      // the goal here is to have enough depth for the slab itself, never rely too much on the foundation for the strength
+    }
+    set_from() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
+               // for home pathway, 4inch thickness is enough https://youtu.be/I1iO08e4Rgw?t=146
+    mix_concrete() // 3 gravels 1 sand 0.5 cement
+    // use the cart https://youtu.be/h7tIjBEPiPU?t=347
+    // make it fluid so that the gravels will sink  https://youtu.be/lUTkrI8FFuM?t=224
+    // and it will bleed water https://youtu.be/s1u30qLejdA?t=136
+    finish_pathway() 
   }
 
 

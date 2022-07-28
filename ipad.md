@@ -1,0 +1,7 @@
+- https://www.youtube.com/watch?v=mVR_nLBeS24
+  - basic ipad sucks
+    - lightening rather then type-c
+    - no l
+- yes, you can do ctrl-f to your hand-writing content
+- 3d modeling features?
+- paper feel writing surface https://youtu.be/wW4QcHaeubk?t=245
