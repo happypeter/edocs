@@ -45,7 +45,11 @@
     wait() // magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
     magging() // tip the mag up https://youtu.be/365f0QV-aOs?t=346
               // use a mag float https://youtu.be/6SFo4zYwvT4?t=463
+              // have the trowel's one side tilted https://youtu.be/3vz7s0COJV0?t=1526
               // you don't even need a finishing trowel for pathway
+              /*
+              - timing: "bearly press the surface" https://youtu.be/9qGxbKBVxU0?t=164
+              */
               // 21.11 Celsius sunny day, it took from 8:30am to 10:20am to start the magging
               // https://youtu.be/s1u30qLejdA?t=315 that is still early,
               // so it's generally 3hr you need to wait between pouring and final magging
@@ -54,20 +58,42 @@
     broom_finish() // to make less slippery, https://youtu.be/lUTkrI8FFuM?t=460
   }
 
-  int concrete_pathway() {
+inst set_form() {
+  if(NO_REBAR) {
+    dont_oversize() // or cut joiners every 1.5 meters
+    return
+  }
+  sloping() // set a proper grade, I use bricks for now https://youtu.be/7j6W2uhfDcQ?t=585
+}
+inst set_base() {
     dig_foundation() // get a flat soil surface, the first layer
     if(TOO_MUST_WASTE) {
-      lay_wastes() // say rocks, broken bricks if you have some like in my case, second layer
+      lay_wastes() // say rocks, broken bricks if you have some like in my case, or if you accidentally or purposely dug your foundation too deep
       fill_gaps_with_gravel() 
       // the goal here is to have enough depth for the slab itself, never rely too much on the foundation for the strength
+      // a gravel or sand base will prevent drainage destroy your base https://youtu.be/3vz7s0COJV0?t=267
     }
-    set_from() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
+    // don't add dirt right before your pouring, cause they shrink/compact down quickly and end up with a hollow base
+    flat_the_base() // you really want the base to be as flat as possible https://youtu.be/3vz7s0COJV0?t=392
+                    // so that your slab will be in good shape and strong 
+
+    square_the_form() // 3-4-5 rule, Pythagorean Theorem https://youtu.be/3vz7s0COJV0?t=659
+    // and make sure no pegs/stakes or any surface is higher than the form, so and it will be easy to screed https://youtu.be/3vz7s0COJV0?t=1310
+}
+  int concrete_pathway() {
+    set_base()
+    set_form() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
                // for home pathway, 4inch thickness is enough https://youtu.be/I1iO08e4Rgw?t=146
     mix_concrete() // 3 gravels 1 sand 0.5 cement
     // use the cart https://youtu.be/h7tIjBEPiPU?t=347
     // make it fluid so that the gravels will sink  https://youtu.be/lUTkrI8FFuM?t=224
     // and it will bleed water https://youtu.be/s1u30qLejdA?t=136
     finish_pathway() 
+    spary() // when it gets harden https://youtu.be/3vz7s0COJV0?t=1597
   }
 
 
+int shed_slab() {
+  //TODO: https://www.youtube.com/watch?v=7j6W2uhfDcQ
+  // don't need to prebury anything, go to nailgun https://youtu.be/M0FGt8ANhho?t=2786
+}

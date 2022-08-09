@@ -93,8 +93,122 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Appendix A: Learning log
 
+- 20220809
+  - counting
+  - read Apple Pie
+  - read Time For Lunch
+  - read A Rainy Day
+  - read The Good Dog
+
+- 20220808
+  - counting
+  - read Look
+  - read Three Pigs
+  - read snap
+  - read up in the tree
+
+- 20220807
+  - read clouds
+  - read picnic
+  - read home
+  - counting 1 to 3
+
+- 20220806
+  - counting 1 to 5
+  - read Meli on Stairs
+  - read sky
+
+- 20220805
+
+  - counting 1 to 3
+  - read looking for Taco
+  - read swimming
+  - read Meli on the stairs
+
+- 20220804
+  - read Traffic
+  - read A day at the park
+  - counting
+  
+- 20220803
+
+  - read boots and shoes
+  - cointing 
+
+- 20220802
+  - Read our garden
+  - read my new school
+  - Counting l to 3.
+
+- 20220801
+  - reviewed farmers
+  - Read Kayla and mom
+  - read my puppy
+  - Counting 1 to 3
+
+ - 20220731
+  - reviewed At the Park
+  - rwad Bubbles
+  - read Farmers
+  - counting 1 to 3
+
+- 20220730
+  - counting 1 to 3
+  - reviewed taking Bath
+  - read Orson Tummy Ache
+  - read At the park
+ 
+- 20220729
+  - counting 1 to 5
+  - reviewed getting dressed
+  - read  family pictures
+  - read my bath
+
+  - 20220728
+  - counting 1 to 5
+  - reviewed Monkey
+  - read Oh No
+  - read Gettingdressed
+
+- 20220727
+  - reviewed painter
+  - reviewed smells
+  - read Jesse
+  - read monkey
+  - counting 1 to 5
+
+- 20220726
+  - reviewed Woof
+  - read the painter
+  - read smells
+  - counting: 1 to 5
+
+- 20220725
+  - reviewed very busy hen
+  - read woof
+  - read flying
+  - read through1 to 5
+
+- 20220724
+  - reviewed Eggs
+  - read very busy hen
+  - read where things grow
+  
+- 20220723
+  - reviewed Too much stuff
+  - watched five little monkeys jumping on the bed
+  - watched superSimpleSong How Many fingers
+  - read Eggs
+  - read Ant Can't
+  - read through 1 to 5
+
+- 20220722
+  - reviewed friends
+  - read sam and papa
+  - read too much stuff
+
 - 20220721
-  - Heinemann GK 
+  - Started Heinemann GK 
 - 20220701
   - first day at Nursery School
 - 20201104

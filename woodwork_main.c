@@ -220,5 +220,6 @@
     - laser stand https://youtu.be/LuHthQanFVg?t=533
     - for lower use cases: I remodel my Chrimas Tree
     - for fasle ceiling, I masonry nail a wood strip
+  - install table top to the stand https://youtu.be/0V4j8qhYrpQ?t=986
 
     */

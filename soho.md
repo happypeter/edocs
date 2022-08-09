@@ -33,13 +33,21 @@ NOTE: part of the [mars](mars) project, foucsing on things lighter & portable.
   - What Define Scandinavian style? https://www.youtube.com/watch?v=lyjC_QYZdx4 NO.1 color palette - walls are typically paint in white colors - use wood/fur/texture to add more demensions to the space - use darker colors and thin lines - the minimumist commonly just use black+white+wood+plants as the palette. NO.2 Lighting. big windows white curtain and open spaces NO.3 Furniture. Thin legs to avoid shade, always create spacious and airy feelings NO.4 Nature. lots of green and dry leaves NO.5 Natural Materials, sheep skin/wool
   - Core value: Scandinavian Design goes extreme on pragmatic functionality. https://www.bilibili.com/video/BV1Af4y197Ep Rule1: Don't spend money on the box. Nodic people don't want to spend money on the box(the house) style, all they want is white walls. Some nodic family has a bit classic style doors and wall decors, that is because that is old house, they don't want to spend money to change that. On the other hand, they spend a lot on furnitures. Because the walls are so simple, the furnitures become so outstanding. So Nodic mindset is the item must have good shape and color, simple enough so that they won't produce cluttered feelings, you don't have to buy furnitures designed by Scandinavian people to have Scandinavian style. The They love modular home, by changing the poistion of the furnitures and not touching the box, the house maybe switched to another life style. Rule2:  Push progmatic usefulness to the extreme. Design everything from it's functionality. e.g reuse ladders/stackofbooks/cart as nightstand. open closet is welcomed, simple and cheap, use a curtain to avoid visual clutter. Expose power cord and everything Rule3: Follow your heart, as long as it is not ugly. You are allowed to combine anything together as you want, free to mix in some classic furniture in your space, be creative show your own personality is encouraged. 'as long as you type in Scandinavian Style in taobao, you are betraying Scandinavian style'
 - Eveything white. except there is a reason not to do so. For windows, white frame + white curtain = bright room + good background for my plants
-- Table
-  - round corner is nice. safe for 2 yo. comfortable when you touch it
-  - I want pbench like my dinning table now. round corner, light, legs removable, so very portable
+- Dinning Table
+  - Version1: Pine Version
+    - specs: 100x60cm
+    - problems
+      - easy to be dented and stained
+      - not enough space for my plates
+    - upgrade idea: Use walnut, harder, darker color, so stains won't stand out
+  - Version2: Walnut Version
+    - https://youtu.be/-yRhxAart6g?t=665 
+      - I really don't want strechers, like this one https://youtu.be/hprQSH0KpzY?t=660
+    - solution: I can order a walnut 180x77x6 board, and ask my current dinner table maker to office pine legs
+      - 淘宝：半月家居有限公司 for a iron stand like this https://youtu.be/grrXe1QZNzQ?t=396
+      - 淘宝：云峰板材 for a walnut 140x70x2.7cm board
   - I don't want screws exposed outside, you can hide them easily
-  - I want it to be versatile, so no drawers. Want shirt not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
-  - my current desk material: Scots pine
-  - size. If u want to put on a big iMac 110x75cm is the minimum space. I already have two desks for iMac, so I don't need to worry about this. so I am OK with 100x60cm, it's also more than enough as a dinner table for four.
+  - I want it to be versatile, so no drawers. Want Apron not strechers, so that people fill comfortable sitting on the side.  that's maybe why most dinner tables don't need have strechers like desks
 
 ## lighting
 
@@ -263,9 +271,16 @@ for my bikes and big tools
 - a kitchen cabinet to hide things
   - https://item.jd.com/41038618014.html
 - counter sink
-  - https://youtu.be/HcQ9NQXCthg?t=319
-  - under the butcher block https://youtu.be/LvEv4I-JMgw?t=14
-  - a butcher block counter bears time well https://www.youtube.com/watch?v=LvEv4I-JMgw
+  - build this https://youtu.be/LvEv4I-JMgw?t=12
+  - L bracket to hold the sink and 2.5cm wallnut countertop
+  - sink: 45x39x20
+    - 280RMB
+  - bracket: https://item.jd.com/10048227427407.html
+    - 50cm long, stainless steel, 2, 150RMB each, wufff
+  - walnut
+    - countertop: 60cm deep
+    - use wood router to get a slot for the rim of the sink
+    - do undermount 
 - hang everything, make countertop free
   - use peg board, long rod, lid hanger
 - All-Electric Cooking Appliances
@@ -468,6 +483,28 @@ for my bikes and big tools
   - https://www.bilibili.com/video/BV1kt4y1Y7z3?t=5m40s
 
 ## peter_room
+- desk
+  - ordered 120x60x2.2cm oak desktop(oak is much harder than elm)
+    - ergonofis also has its 24inchx48inch version https://ergonofis.com/products/sway-height-adjustable-desk?variant=31249072193676
+  - sth like this https://www.youtube.com/watch?v=57iMcOqjSG8
+  - solid wood top that lasts
+  - standing?
+    - https://youtu.be/Xxcfg9wpZdU?t=64
+    - maybe NOT, cause it's shaky when the legs gets tall
+  - the size has to be 140x80x74, hey, its the trodition
+    - 80cm depth is a overkill, billie is now using 62cm, with like 12cm margin to rest the arms.
+    - 100cm length in real use, plus 10cmx2 margin, 120cm is good for billie
+    - google recommanded best desk size is 30x60inch 76cmx152cm
+  - removable legs(super sturdy ones), otherwise can not move to second floor
+    - ignore the complicated or 卡扣 ones, too ugly
+  - a underlying drawer unit, since the under space is wasted https://youtu.be/gXk196nCEYs?t=1010
+    - I think two cabinet as legs is good idea https://youtu.be/G0f9HAQtOmw?list=RDCMUCaP1PNnr055fOt89JPry51w&t=49
+      - Ikea Alex Drawers https://youtu.be/G0f9HAQtOmw?list=RDCMUCaP1PNnr055fOt89JPry51w&t=298
+        - 36x58x70cm 
+        - I will build my own Drawer unit https://www.youtube.com/watch?v=eYJafURctT4
+    - or a single box-section ones like this https://youtu.be/3n8D5J02Hjg?t=158 
+      - ikea 贝肯特 桌面底架 is nice
+      - Ikea also has ADILS standalone legs, 8dollars, not for something really heavy duty maybe. Using Adils and Alex drawers to hold the table top is a official recommendation https://www.ikea.com/gb/en/planners/byod-planner/
 - desk lamp
   - MI desk lamp Pro https://www.youtube.com/watch?v=PNIxy_6E3iY
     - MJTD02YL
@@ -573,8 +610,14 @@ for my bikes and big tools
 - nightstand TODO
   - I need to be able to put cellphone
 - chair
-  - https://youtu.be/crjZBwbtlXQ?t=562
-  - cat fur proof
+  1. esthetic, only black and silver color allowed, white also sucks, chair should give place to the desktop setup
+  2. seat pan depth, good leg support, seat height and depth adjustable https://youtu.be/MgRE2PFnfNw?t=54
+  3. stain-resistant, wipeable, no light color cushion, 
+  4. feel safe when I leaning behind, having headrest, 
+  5. back height adjustable, for better, neck support and lower back support
+  6. armrest, preferably adjustable, or wide enough pads https://youtu.be/BCHr4NDTLO8?t=575 , and don't stand in the way when I stay very close to the desk https://youtu.be/MgRE2PFnfNw?t=124
+  7. non-slippery seat, https://youtu.be/BCHr4NDTLO8?t=317
+  - 西昊 M39: 6?, M57:6 good
 - bed 
   - FIXME: as a bedroom, I need more wood/woodish things, not grey or black 
   - linen gray headboard plus white: https://youtu.be/iU75WUqWd4E?t=115
@@ -657,6 +700,9 @@ for my bikes and big tools
 - shower 
   - a high presser hand sparyer to clean corners
   - black color
+- vanity
+  - build a brick wall to hide the pipe and hold screws
+  - JD.com '卫达斯浴室柜‘
 
 ## DIY Tricks
 - how to fix the walls
