@@ -38,7 +38,7 @@ const tools = [
 - 收光 smooth out road surface https://www.ixigua.com/6923831297160774151
   - wait for the concrete is solid enough then do the finishing
 */
-  int finish_pathway() {
+let finish = () => {
     flat_with_screed()  // https://youtu.be/lUTkrI8FFuM?t=241
     // go sawing motion https://youtu.be/aWtn-GyFuiU?t=288
     bull_float() // https://youtu.be/lUTkrI8FFuM?t=311
@@ -65,14 +65,14 @@ const tools = [
     broom_finish() // to make less slippery, https://youtu.be/lUTkrI8FFuM?t=460
   }
 
-inst set_form() {
+let set_form = () => {
   if(NO_REBAR) {
     dont_oversize() // or cut joiners every 1.5 meters
     return
   }
   sloping() // set a proper grade, I use bricks for now https://youtu.be/7j6W2uhfDcQ?t=585
 }
-inst set_base() {
+let set_base = () => {
     dig_foundation() // get a flat soil surface, the first layer
     if(TOO_MUST_WASTE) {
       lay_wastes() // say rocks, broken bricks if you have some like in my case, or if you accidentally or purposely dug your foundation too deep
@@ -87,15 +87,17 @@ inst set_base() {
     square_the_form() // 3-4-5 rule, Pythagorean Theorem https://youtu.be/3vz7s0COJV0?t=659
     // and make sure no pegs/stakes or any surface is higher than the form, so and it will be easy to screed https://youtu.be/3vz7s0COJV0?t=1310
 }
-  int concrete_pathway() {
-    set_base()
-    set_form() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
-               // for home pathway, 4inch thickness is enough https://youtu.be/I1iO08e4Rgw?t=146
-    mix_concrete() // 3 gravels 1 sand 0.5 cement
-    // use the cart https://youtu.be/h7tIjBEPiPU?t=347
-    // make it fluid so that the gravels will sink  https://youtu.be/lUTkrI8FFuM?t=224
-    // and it will bleed water https://youtu.be/s1u30qLejdA?t=136
-    finish_pathway() 
-    spary() // when it gets harden https://youtu.be/3vz7s0COJV0?t=1597
-  }
 
+let slab = () => {
+  set_base()
+  set_form() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
+              // for home pathway, 4inch thickness is enough https://youtu.be/I1iO08e4Rgw?t=146
+  mix_concrete() // 3 gravels 1 sand 0.5 cement
+  // use the cart https://youtu.be/h7tIjBEPiPU?t=347
+  // make it fluid so that the gravels will sink  https://youtu.be/lUTkrI8FFuM?t=224
+  // and it will bleed water https://youtu.be/s1u30qLejdA?t=136
+  finish() 
+  spary() // when it gets harden https://youtu.be/3vz7s0COJV0?t=1597
+}
+
+export default slab
