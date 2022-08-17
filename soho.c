@@ -1,6 +1,6 @@
----
+/*
 title: My new home office design and implementation
----
+
 
 NOTE: part of the [mars](mars) project, foucsing on things lighter & portable. 
 
@@ -270,17 +270,8 @@ for my bikes and big tools
   - freeze, wash, cut, cook, serve.
 - a kitchen cabinet to hide things
   - https://item.jd.com/41038618014.html
-- counter sink
-  - build this https://youtu.be/LvEv4I-JMgw?t=12
-  - L bracket to hold the sink and 2.5cm wallnut countertop
-  - sink: 45x39x20
-    - 280RMB
-  - bracket: https://item.jd.com/10048227427407.html
-    - 50cm long, stainless steel, 2, 150RMB each, wufff
-  - walnut
-    - countertop: 60cm deep
-    - use wood router to get a slot for the rim of the sink
-    - do undermount 
+- counter sink, kitchen sink, goto kitchen.c
+
 - hang everything, make countertop free
   - use peg board, long rod, lid hanger
 - All-Electric Cooking Appliances
@@ -703,13 +694,23 @@ for my bikes and big tools
 - vanity
   - build a brick wall to hide the pipe and hold screws
   - JD.com '卫达斯浴室柜‘
+- yard
+  - gate
+    - have a 门洞(Lychgate) thing, as a tmp way to put things there
 
 ## DIY Tricks
-- how to fix the walls
-  - use wall color wall papar
 - a simple carboard frame and stand for frameless mirror glass
   - frame, I will do it the super simple, use tape
   - stand, TODO: waiting for the glass clip and wood
     - will make a simple frame with two 60cm and a 35cm connection
 - Polyvinyl acetate is also called wood glue or school glue, it's the same chemical we use for chewing gum
 - how to remove 免钉胶 nail free glue https://youtu.be/WYyTHyvcypI?t=124 , the trick is use hair-drier
+*/
+
+/*
+  Don't be afraid to nailgun OSB/Plywood to the walls, they are meant to hold things.
+  the wood board can be anyshape and size, since I can always hide them with same thickness board strips and 5mm plywood boards
+*/
+int walls() {
+
+}

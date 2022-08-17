@@ -22,6 +22,12 @@
   - https://www.ixigua.com/6549050234725466638
 */
 
+const tools = [
+  'float', // with long handle, 270RMB, 拼多多， 推拉大抹子
+  'cart', // 460RMB 拼多多，水泥斗车
+  'trowel', // 9RMB 拼多多
+  'edger', // 20RMB 拼多多，水泥修边刀
+]
 
 /*
 - how to get smooth surface?
@@ -35,16 +41,17 @@
   int finish_pathway() {
     flat_with_screed()  // https://youtu.be/lUTkrI8FFuM?t=241
     // go sawing motion https://youtu.be/aWtn-GyFuiU?t=288
+    bull_float() // https://youtu.be/lUTkrI8FFuM?t=311
     wait() // timing https://www.youtube.com/watch?v=s1u30qLejdA
            // do joiner early than edging https://youtu.be/6SFo4zYwvT4?t=272
            // finger sink in 1/2 inch
     cut_joiner() // 3inch/8cm deep, every 5feet/152cm https://youtu.be/uX4hi-R7Dyc?t=273
                  // https://youtu.be/6SFo4zYwvT4?t=290
+                 // the tool on Pingduoduo is 300RMB thing, so maybe I can do it with masonry saw, when dry
     wait() // when you finger sink in 1/4 inch, it is the right time for edger https://youtu.be/6SFo4zYwvT4?t=59
     edger() // https://youtu.be/lUTkrI8FFuM?t=435
     wait() // magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
-    magging() // tip the mag up https://youtu.be/365f0QV-aOs?t=346
-              // use a mag float https://youtu.be/6SFo4zYwvT4?t=463
+    magging() // hand float， tip the mag up https://youtu.be/365f0QV-aOs?t=346
               // have the trowel's one side tilted https://youtu.be/3vz7s0COJV0?t=1526
               // you don't even need a finishing trowel for pathway
               /*
@@ -92,8 +99,3 @@ inst set_base() {
     spary() // when it gets harden https://youtu.be/3vz7s0COJV0?t=1597
   }
 
-
-int shed_slab() {
-  //TODO: https://www.youtube.com/watch?v=7j6W2uhfDcQ
-  // don't need to prebury anything, go to nailgun https://youtu.be/M0FGt8ANhho?t=2786
-}

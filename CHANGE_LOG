@@ -1,0 +1,2 @@
+* 20220817 switch from C to NodeJS supported ES6 code, since C grammer is sometimes redundant, who need a .h file, or dataTypes? 
+* 20220101 switch from markdown to C code, as I want a more concise and precise documentation

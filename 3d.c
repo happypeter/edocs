@@ -1,4 +1,6 @@
 /*
+  - hand sketching the design https://youtu.be/wcn5ayESWLs?t=64
+
   - plainText first
     - I don't like GUI things, 3d software is just another one of these
     - I love markdown, I love css
@@ -22,8 +24,10 @@
               - since shapes are not easily searchable
               - so use 3d files to manage a complicated project will not be doable
     - a 3d design file is a image
-      - image is good at giving you lots of details
-      - but when you want to failFast/moveFast, 99% details does not actually matter
+      - image is good at two things:
+        - giving you lots of details
+        - help you grasp the main idea in 1 sec
+      - but when you want to failFast/moveFast, 99% details does not actually matter, so I use img for the seond reason
       - to use plainText to decrible HowToBuildATable
         - you only document what matters, and iterate over them
         - I can enjoy doing whatever I like when I build the part not covered by code         
