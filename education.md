@@ -93,107 +93,152 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Appendix A: Learning log
 
+- 20270909
+  - Read one and two
+  - Watch numtum sec 2
+- 20220906
+  - Counting 5
+  - Read the lucky Penny
+- 20220905
+  - Counting 5
+  - Read missing cat
+- 20220904
+  - Counting 5
+  - Read best friend
+- 20220903
+  - Counting to 5
+  - Read stone soup
+- 20220902
+  - Num tum video one
+  - Read bossy pig
+- 20220901
+  - Counting to 5
+  - Read Bear's birthday
+- 20220831
+  - Counting t05
+  - Read home sweet home
+- 20220830
+  - Counting to 6
+  - Read fun for hugs 
+  - Read gram glasses
+- 20220829
+  - Counting to 5
+  - Read the gecko come to school
+  - Read all about animal babies
+- 20220828
+  - Counting to5 
+  - read what don do in winter
+  - Read wait and see
+- 20220827
+  - Counting to5..
+  - Read dinner for Daisy
+- 20220826 
+  - counting to 3
+  - Read out tor lunch,
+- 20220825
+  - Counting to 5 
+  - read The gingerbread man.
+- 20220824
+  - Counting to 4
+  - Read Brave taco
+  - Read The trunk with No strips
+  - Read The tree house
+- 20220823
+  - Counting to 5 
+  - Read a surprise for mom
+  - Draw circle and square
+  - Read baby frog
+- 20220822 
+  - counting to 5
+  - Read baby bird 
+  - read dizzy
+- 20220821
+  - Counting
+  - Read Storm
+- 20220818
+  - Read papa's birthday
 - 20220809
   - counting
   - read Apple Pie
   - read Time For Lunch
   - read A Rainy Day
   - read The Good Dog
-
 - 20220808
   - counting
   - read Look
   - read Three Pigs
   - read snap
   - read up in the tree
-
 - 20220807
   - read clouds
   - read picnic
   - read home
   - counting 1 to 3
-
 - 20220806
   - counting 1 to 5
   - read Meli on Stairs
   - read sky
-
 - 20220805
-
   - counting 1 to 3
   - read looking for Taco
   - read swimming
   - read Meli on the stairs
-
 - 20220804
   - read Traffic
   - read A day at the park
   - counting
-  
 - 20220803
-
   - read boots and shoes
   - cointing 
-
 - 20220802
   - Read our garden
   - read my new school
   - Counting l to 3.
-
 - 20220801
   - reviewed farmers
   - Read Kayla and mom
   - read my puppy
   - Counting 1 to 3
-
  - 20220731
   - reviewed At the Park
   - rwad Bubbles
   - read Farmers
   - counting 1 to 3
-
 - 20220730
   - counting 1 to 3
   - reviewed taking Bath
   - read Orson Tummy Ache
   - read At the park
- 
 - 20220729
   - counting 1 to 5
   - reviewed getting dressed
   - read  family pictures
   - read my bath
-
-  - 20220728
+- 20220728
   - counting 1 to 5
   - reviewed Monkey
   - read Oh No
   - read Gettingdressed
-
 - 20220727
   - reviewed painter
   - reviewed smells
   - read Jesse
   - read monkey
   - counting 1 to 5
-
 - 20220726
   - reviewed Woof
   - read the painter
   - read smells
   - counting: 1 to 5
-
 - 20220725
   - reviewed very busy hen
   - read woof
   - read flying
   - read through1 to 5
-
 - 20220724
   - reviewed Eggs
   - read very busy hen
   - read where things grow
-  
 - 20220723
   - reviewed Too much stuff
   - watched five little monkeys jumping on the bed
@@ -201,12 +246,10 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
   - read Eggs
   - read Ant Can't
   - read through 1 to 5
-
 - 20220722
   - reviewed friends
   - read sam and papa
   - read too much stuff
-
 - 20220721
   - Started Heinemann GK 
 - 20220701

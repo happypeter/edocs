@@ -1,3 +1,5 @@
+
+import { utimate_support_system } from 'utimate_support_system'
 /*
 - https://youtu.be/fkVfX2hUlc8?t=2983
   - sink
@@ -73,8 +75,14 @@ int kitchen_table() {
 int kitchen_bench() {
   // for mum chopping meat
   // sth like a woodwork bench 
+  
 
   walnut_top(width=140, depth=65, thick=4.5) // 淘宝 云峰板业 2180RMB 
+  /*
+  the first version of this would be used as my desk, would be sth like this https://youtu.be/9Q9u4Rw40Zg?t=28
+  later I will and a underneath shelf and casters to make it a kitchen standup workbench
+  */
+  utimate_support_system()
   add_casters(with_brake=YES) // so that the floor is easy to clean
   threaded_insert()//on the top, so that legs  are disassemble, then I can move it by myself, when we move to other placess
   // or maybe try pocket screws https://youtu.be/wcn5ayESWLs?t=156

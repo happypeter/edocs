@@ -1,31 +1,19 @@
- - treated Scotch pine lumber 防腐木
-    - 华运西门门口，防腐木榻榻米经销门市
-      - 30x100x4000 35RMB 2916RMB/m3
-      - 40mmx140mm(39x137)x4m 80RMB 3743RMB/m3
-    - PDD shopName: 防腐木桑拿板碳化木
-      - 28x68x4000 24RMB
-        - purchased 10
-      - 28x68x4000 24RMB
-        - 1838RMB/m3
-      - 65x65x4000 58RMB
-        - 3431RMB/m3
-  - plywood 
-    - 华运建材城，伊林环宇  
-      - 17x1220x2440 145RMB 2865RMB/m3
-        - if you want to build furniture, this is the default way to go. 40% cheaper than interior pine, and 3 times more robust. 
-        - for simple structure used somewhere dry, use treated wood, which can go 1838RMB/m3, 40% cheaper than plywood
-        - for thinner board usage, say shelf panels, use 9mm plywood, or 15mm OSB
-    - Note:
-      - plywood and OSB are two most popular options for sheathing options
-      - https://youtu.be/-Mg6HA8qyzc?t=263
-        - plywood is better in everyway, sturdy, water-torlerence
-      - finish edges with solid wood 
-        - https://youtu.be/hXjTXeXeTpI?t=168
-    - 京东：睿筑旗舰店
-      - plywood:
-        - 18mm(real 18) 155RMB,
-          - with 10 ply, and smooth sandable surface
-        - 5mm 60RMB,
+export const plywood = {
+  "18mm": {"source": "京东：睿筑旗舰店",  "real-size": "1.22x2.44", "price": "155RMB/sheet", "note": "solid 18mm thickness, with 10 plies, and smooth sandable surface"}, // 华运建材城，伊林环宇 has sth similar, 17mm thick, suface not sandable, 145RMB/sheet
+  "5mm": {"source": "京东：睿筑旗舰店",  "real-size": "1.22x2.44", "price": "60RMB/sheet", "note": "smooth sandable surface"} 
+}
+
+export const treated = {
+  "3x9": {"source": "华运建材城西门门口防腐木榻榻米门市", "real-size": "2.3x8.3x400", "price": "35RMB/one", "note": "quality very bad this time, should have bought the PDD one"}, 
+  "3x7": {"source": "PDD shopName: 防腐木桑拿板碳化木", "real-size": "2.8x6.8x400", "price": "24RMB/one", "note": "wood is soft and cracky, but looks good and strit far away"}, 
+  "7x7": {"source": "PDD shopName: 防腐木桑拿板碳化木", "real-size": "6.5x6.5x400", "price": "58RMB/one", "note": "never bought yet"}, 
+  "4x14": {"source": "华运建材城西门门口防腐木榻榻米门市", "real-size": "3.8x13.2x400", "price": "70RMB/one"}, 
+}
+
+export const channel_board = {
+  "2x14": {"source": "华运建材城西门门口防腐木榻榻米门市", "real-size": "", "price": "56RMB/one"}, 
+}
+/* 
       - OSB:
         - 15mm 98RMB
           - this is low Enviroment standard product, same thing in 伊林环宇 is 110RMB, still much more expensive
@@ -95,14 +83,4 @@
       - https://youtu.be/d9uBHHzjDOs?t=117
         - OSB has more shear strength
         - OSB holds nails and screws well
-
-  - veneer is still a bit expensive 5mm 38RMB/sqm(plus you need baseboard anyway)
-
-  - old wood
-    - 45x45x4000 x4, I will offer 20RMB for one, total 80RMB
-    - fence x 13
-      - 55x25x1100 x7 I will offer 4RMB for one,
-      - 55x35x2000 x2 I will offer 8RMB for one
-      - total: 40x13 = 520
-
-    - so the total worth is 600RMB, I will pay 500RMB
+*/

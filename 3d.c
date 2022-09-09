@@ -34,13 +34,5 @@
     - PlainText is good
       - If I want a cutList, I can just use a array
         - Why use a graph? GUI things is mainly for the bosses or the customer
-      
-  - https://www.youtube.com/watch?v=AVb8ZBAOD0I
-
-- https://www.youtube.com/watch?v=rjSE28T3u78
-  - April Wilkerson
-- OPEN THE COMPONENT BEFORE EDITING IT
-  - https://youtu.be/r2K6gmcc_jA?t=1712
-- tripple click to select a object that is hard to select cleanly with mouse https://youtu.be/vNf_YiBC_g0?t=574
-- rotate tool: copy/rotate/shorten https://youtu.be/vNf_YiBC_g0?t=741
+     
 */

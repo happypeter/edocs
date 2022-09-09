@@ -100,4 +100,12 @@ let slab = () => {
   spary() // when it gets harden https://youtu.be/3vz7s0COJV0?t=1597
 }
 
+
+wall_surface() {
+  // Bibi 老三的梦想 墙面抹灰 https://www.bilibili.com/video/BV1jD4y1d7xG
+  wet_the_wall() // spill water
+  bottom_up() // use trowel to hold concrete, apply it bottom up
+  left_to_right() // 
+}
+
 export default slab
