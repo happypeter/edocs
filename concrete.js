@@ -1,4 +1,6 @@
-
+export const forms = {
+  "30x40": "use polyurethaned 20x30mm wood strips, 40cm long two, 26cm long two, screw together, the exterior size is 30x40cm"
+}
 
 
 /*
@@ -39,25 +41,42 @@ const tools = [
   - wait for the concrete is solid enough then do the finishing
 */
 let finish = () => {
+    push() // with my finish_trowel to make the edges solid
     flat_with_screed()  // https://youtu.be/lUTkrI8FFuM?t=241
     // go sawing motion https://youtu.be/aWtn-GyFuiU?t=288
-    bull_float() // https://youtu.be/lUTkrI8FFuM?t=311
-    wait() // timing https://www.youtube.com/watch?v=s1u30qLejdA
-           // do joiner early than edging https://youtu.be/6SFo4zYwvT4?t=272
+    bull_float() 
+    /*
+    -  https://youtu.be/lUTkrI8FFuM?t=311
+    - for small projects, use long trowel to giva a rough go
+    */
+    wait() // 20min, if you want to cut jointer, do it very early
            // finger sink in 1/2 inch
-    cut_joiner() // 3inch/8cm deep, every 5feet/152cm https://youtu.be/uX4hi-R7Dyc?t=273
-                 // https://youtu.be/6SFo4zYwvT4?t=290
-                 // the tool on Pingduoduo is 300RMB thing, so maybe I can do it with masonry saw, when dry
-    wait() // when you finger sink in 1/4 inch, it is the right time for edger https://youtu.be/6SFo4zYwvT4?t=59
+          // timing https://www.youtube.com/watch?v=s1u30qLejdA
+           // do joiner early than edging https://youtu.be/6SFo4zYwvT4?t=272
+           
+    cut_joiner() 
+    /* joiner tool is like 300RMB on Pinduoduo
+    so I will just use trowel and edger for the job, of course, I will do it more than once
+
+       3inch/8cm deep, every 5feet/152cm https://youtu.be/uX4hi-R7Dyc?t=273
+      https://youtu.be/6SFo4zYwvT4?t=290
+      the tool on Pingduoduo is 300RMB thing, so maybe I can do it with masonry saw, when dry
+    */
+    wait() 
+    /* 
+    - when you finger sink in 1/4 inch, it is the right time for edger https://youtu.be/6SFo4zYwvT4?t=59
+    - 30min on a sunny day, 1hr when cloudy
+    */
+    cut_joiner_2nd_time() 
     edger() // https://youtu.be/lUTkrI8FFuM?t=435
-    wait() // magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
-    magging() // hand float， tip the mag up https://youtu.be/365f0QV-aOs?t=346
+    long_trowel() // make it flat
+    wait() /*
+     magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
+     - 1hr on a sunny day, 2hr when cloudy
+       - timing: "bearly press the surface" https://youtu.be/9qGxbKBVxU0?t=164
+    */
+    finish_trowel() // hand float， tip the mag up https://youtu.be/365f0QV-aOs?t=346
               // have the trowel's one side tilted https://youtu.be/3vz7s0COJV0?t=1526
-              // you don't even need a finishing trowel for pathway
-              /*
-              - timing: "bearly press the surface" https://youtu.be/9qGxbKBVxU0?t=164
-              */
-              // 21.11 Celsius sunny day, it took from 8:30am to 10:20am to start the magging
               // https://youtu.be/s1u30qLejdA?t=315 that is still early,
               // so it's generally 3hr you need to wait between pouring and final magging
               // when your finiger sink in 1/4 inch https://youtu.be/s1u30qLejdA?t=416

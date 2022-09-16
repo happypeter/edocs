@@ -14,3 +14,15 @@ const fix_power_outage = () => {
  press_down_blue_button() // this is a MUST
  switch_on()
 }
+
+const wrap_cables = () => { 
+  overlap_tape() // https://www.bilibili.com/video/BV1Jy4y1n7ep/ 
+  wrap_T_shape_joint() // https://www.bilibili.com/video/BV1Jy4y1n7ep/
+}
+
+const join_cables = () => { 
+  two_solid_wire() // https://www.bilibili.com/video/BV1dy4y1t7sb 
+  stranded_to_solid() // 
+  T_joint_stranded_to_solid() // https://www.bilibili.com/video/BV1294y1f7yX
+  3_solid() // https://www.bilibili.com/video/BV1dy4y1t7sb
+}

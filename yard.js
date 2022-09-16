@@ -7,3 +7,19 @@ export const yard_building_color_theme = {
   snow: "white is OK, since winter has snow",
   wood: "natural wood color",
 }
+
+const design_guidelines = {
+  clear_lines: "keep most things to its natural color, use transparent finish is OK, but going too natural meaning everything mixed together, so have strong contrast of two material color, or if the plywood and door are both shitty similar wood color, just paint the door white, the yard need clear lines"
+}
+
+const well_pit = () => { 
+  /* I want to build a patio to cover the pit 
+   part of the pit will be covered by unmovable slab
+   - make the lid on high end of the patio pitch, so that not much water will flow into the pit through the edge gaps
+     - and make the edge of the opening a bit high
+   leaving a small enough pid lid, that I can lift up when needed
+   build the lid with concrete, install a handle to life up
+   - make the bottom of pit covered with gravels, so that rain water can sink in
+
+  */
+}

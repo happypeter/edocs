@@ -113,12 +113,46 @@ HOWTO: find the best chair
   1. esthetic, only black and silver color allowed, white also sucks, chair should give place to the desktop setup
   2. seat pan depth, good leg support, seat height and depth adjustable https://youtu.be/MgRE2PFnfNw?t=54  https://youtu.be/8LwCcha_ATY?t=2
   3. stain-resistant, wipeable, no light color cushion, 
-  4. feel safe when I leaning behind, having headrest, 
-  5. back height adjustable, for better, neck support and lower back support
-  6. armrest, preferably adjustable, or wide enough pads https://youtu.be/BCHr4NDTLO8?t=575 , and don't stand in the way when I stay very close to the desk https://youtu.be/MgRE2PFnfNw?t=124
+  4. ajustable headrest
+  5. back height adjustable, for shoulder support
+  6. armrest, preferably 3d adjustable https://youtu.be/BCHr4NDTLO8?t=575 , and don't stand in the way when I stay very close to the desk https://youtu.be/MgRE2PFnfNw?t=124
   7. non-slippery seat, https://youtu.be/BCHr4NDTLO8?t=317
-  8. allow lean-backward https://youtu.be/cdFNKkQ03V8?t=136
+  8. enable sitting reclined https://youtu.be/cdFNKkQ03V8?t=136
   9. lumbar support 
+  10. Footrest, yes, even the bed is just in the same room
+  11. 6D armrest, for cellphone holding postions, check 西昊 Doro C300
+
+- 西昊 M57
+  - Billie's chair
+  - pros
+    - default seat depth works for me
+  - cons
+    - lumbar support I wish be stronger, and veritical adjustable
+    - more adjustable headrest
+    - armrest too far from each other, I wish them inward more adjustable
+    - seat depth is not adjustable
+    - laying down angle not enough 126degree  https://item.jd.com/100020773190.html
+    
+- 西昊 Doro C300
+  - seat pad ajustable
+  - phone mode
+    - 6D armrest, support cellphone holding positions https://www.bilibili.com/video/BV19Y411K7A6?
+    - the lumbar support follows inclined position
+  - headrest more ajustable https://www.bilibili.com/video/BV19Y411K7A6
+  - armrest inverd adjustable https://item.jd.com/100039450816.html
+  - laying down angle 138degree
+  - 48cm lowest seat position? too high for me? M57 is 43.5cm
+    - comments shows this chair is for smaller people
+    - because the seat pad is 15cm thick, while M57 8cm thick, that means Doro is actully much lower, that is (48-15)-(43.5-8) = -2.5cm at knee position
+  - better support for 骶骨
+    - is 骶骨 support really important?
+      - https://www.bilibili.com/video/BV12g411K7rB/ Miller has design for 骶骨 sacral bone
+  - armrest low postion is 65cm, my desk legs are 66cm tall
+  - cons
+    - lumber support mesh too loose https://www.bilibili.com/video/BV19Y411K7A6?
+- 保友金豪
+  - people love this https://www.youtube.com/watch?v=j7xS5qaM2eQ
+    - https://www.bilibili.com/video/BV1Ma4y1v7m9
 */
 
 
