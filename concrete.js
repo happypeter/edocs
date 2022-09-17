@@ -127,4 +127,17 @@ wall_surface() {
   left_to_right() // 
 }
 
+const paver = () => { 
+  /**
+   * with forms, you get beautiful results
+   * paver and patio https://www.youtube.com/watch?v=paoY_Xu-KSI */ 
+}
+
+const wall_form = () => { 
+  /**
+   * this is easier than a brick wall
+   * https://www.youtube.com/shorts/7JiYr9CjZO0 */ 
+
+}
+
 export default slab

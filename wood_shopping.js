@@ -66,7 +66,7 @@ export const paint = {
   /***
    * cheaper ployurethane
    */
-  alkyd_enamls_changjiang: "和平大街 灯塔油漆专卖 长江金装100 醇酸面漆 70RMB/3kg, 拼多多 59RMB, NOTE: really cheap and strong compareed to others",
+alkyd_enamls_changjiang: "和平大街 灯塔油漆专卖 长江金装100 醇酸面漆 70RMB/3kg, 拼多多 59RMB, NOTE: really cheap and strong compareed to others",
   alkyd_enamls_beacon: "和平大街 灯塔油漆专卖 灯塔 醇酸磁漆 树脂含量 15%-45% 30RMB/800g 黑色 理论用量 120g/m2",
   /**
    * 磁漆 enaml 就是带颜色的清漆
