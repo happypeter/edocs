@@ -17,9 +17,11 @@ const well_pit = () => {
    part of the pit will be covered by unmovable slab
    - make the lid on high end of the patio pitch, so that not much water will flow into the pit through the edge gaps
      - and make the edge of the opening a bit high
+     - I saw a  electric checkpoint was just less than 1cm higher than the ground, with a metal lid 
    leaving a small enough pid lid, that I can lift up when needed
    build the lid with concrete, install a handle to life up
    - make the bottom of pit covered with gravels, so that rain water can sink in
+     - if underground water come out? I need a build a water proof concrete pit for the pressure tank 
 
   */
 }

@@ -1,3 +1,21 @@
+/**
+ * - new plans
+ *  - siding
+ *    - 3mm plywood does not feels right, warps will happen
+ *    - shiplap is not really necessary, expensive, paint needed
+ *      - charred(burned) wood boards solve both problems
+ *        - I can learn design from Japanese houses
+ *  - floor
+ *    - 
+ * - new shopping list
+ *  - what I need
+ *    - a lumber storage shed
+ *    - a scooter storage
+ *    - concrete shed extension
+ *    - bigger shed or yard office/workshop    
+ *        
+ */
+
 export const fasteners = {
   screw15: "4mm thick, 15mm long, top dia 12mm, used with sheet_metal_screw_washer", 
   screw70: "拼多多 5x70mm 18.8RMB/1kg 70mm for the base 30mm thick frame lumber for the floor",
@@ -15,8 +33,9 @@ export const water_proof = {
 }
 
 export const hardware = {
-  latch: "拼多多 304 不锈钢插销", // ordered 
+  bolt: "拼多多 304 不锈钢插销", // this is called sliding bolt, or locking bolt https://youtu.be/2BsSQNWBeok?t=333
   hinge: "京东，3寸平开合页", // ordered, 75mm long
+  flange: "拼多多，防腐木固定底座，已收藏", 
 }
 
 

@@ -1,13 +1,21 @@
+/**
+ * I will call this shed:google
+ */
+
 import { yard_building_color_theme } from "yard"
 import { forms } from "./concrete"
 const ROOF_PITCH = "1:3" // https://plasticinehouse.com/shed-roof-pitch/
 import { treated, hardware, water_proof, fasteners } from "./wood_shopping"
 
+const WORK_HORSE = treated["3.8x8.5"]
+
 const material_list = [
   hardware.latch,
   hardware.hinge,
   water_proof.PE
-]}
+]
+
+
 const shed = () => { 
   // small, no windows, water tight to storage my cement
   location()
@@ -19,8 +27,17 @@ const shed = () => {
   color_theme(yard_building_color_theme)
   shelves()
   ventilation()
+  windows()
   extend() 
   total_cost(material_list)
+}
+
+const verticality = () => { 
+  laser_level() 
+  /**
+   * as long as you have more than 2degree error, you will have trouble installing the door
+   * In my case, the frame was done perfectly, but I did not pay attention when I install the back OSBs
+   *  */ 
 }
 
 const color_theme = () => { 
@@ -31,18 +48,13 @@ const color_theme = () => {
   // going too natural is never good looking 
 }
 
-const window = () => { 
-  /*
-  https://youtu.be/b4W-YeAUmnM?t=1009
-   */ 
-}
 
 const design = () => { 
   // fllow this https://youtu.be/b4W-YeAUmnM?t=8
-  // I will use shiplap boards, since they are stong, I may need to install nails on them 
-  // roof will be balck
-  // door will be light gray，浅灰
-  // walls expect the shiplap area will be 刚灰
+  // roof will be balck, fascia too
+  // walls will be wood color + silverGrayMixBlack(1:4)
+  // doors will be silverGray, door fascias too
+  // windows white
 }
 
 
@@ -74,7 +86,11 @@ const roof = () =>{
    for my shed, the roof is so thin, so I don't need this is necessary
    - this was a desaster, so next time I will be spending more time on the first template https://youtu.be/lqH-RhQdWEI?t=116
   */
-  fasten_to_walls() // use small angle brackets, since I can not find rafter holder, make it strong for winter wind
+  fasten_to_walls() 
+  /**
+  - I used small angle brackets, since I can not find rafter holder, make it strong for winter wind
+  - toe-nailing the rafters to the plates is also strong and common
+   */ 
 
   finish(water_proof.PE_film)
   /*
@@ -89,6 +105,13 @@ const roof = () =>{
 
   cut_sheet_metal() // cut sheet metal with grinder or just a knife https://youtu.be/b3JgPX5fVUo?t=3621
   bend_sheet_metal() // use roller https://youtu.be/KdMtecvnPRI?t=284 or just a knife https://youtu.be/b3JgPX5fVUo?t=3621
+  */
+ shingles() 
+ /**
+  * shingles are easier than sheet metal
+  * - seal top edge https://youtu.be/sxrhUEOY-u0?t=506
+  *   - I will use PE film and two wood strips(forming a angle) to achieve the same
+  * 
   */
  flashing() // do I really really need this ?
  /*
@@ -122,10 +145,13 @@ const walls = () => {
   - miter saw, not skilsaw, thin frame lumber is light enough to handle, at same time they needs more presicion
   - use noggings, https://youtu.be/BzSeGJF6RhM?t=515 
   */
-  sheath() // https://youtu.be/2el0GYedDHs?t=361
+  if(verticality()) {
+    sheath() // https://youtu.be/2el0GYedDHs?t=361
+  }
   /*
   - drawer the slope line and cut https://youtu.be/qy1nK8cTEFc?t=1153
   - space between the pannels https://youtu.be/qy1nK8cTEFc?t=1203
+    - 1/8-1/4 inch https://youtu.be/SAvBd5ss1xk?t=50  https://youtu.be/Y3KRiygprRs?t=79
   - avoid horizontal joint 
     - water will go into the gaps
   - leave OSB for the attic triangle area https://youtu.be/BLk_CAMmQPc?t=3835
@@ -146,7 +172,16 @@ const walls = () => {
         - another way to do softit https://youtu.be/qy1nK8cTEFc?t=2952
   */
   water_proof_OSB() // ployurethane the bottom https://youtu.be/CPZ8VBopVFo?t=589 before wall wrap
-  wall_wrap()
+  wall_wrap() 
+  /**
+   * it is not intended to be water proof, but water diversion
+   * a little damp is allowed
+   * https://youtu.be/SS1x9ZaouQs?t=655
+   * it is not vapor barrier either https://youtu.be/SS1x9ZaouQs?t=783
+   * preventing rain or other forms of moisture from getting into the wall assembly while allowing water vapor to pass to the exterior. 
+   * prevent water in, let vapor out
+   * don't make it too air tight
+   */
 
   short_walls() /* 
   side wall go the full 1m depth
@@ -164,7 +199,7 @@ const walls = () => {
   */
 
     
-   wall_finish() 
+   siding() 
   /*
   - wall wrap
     - cut film into .5m wide long pieces, tape them on the wall
@@ -174,8 +209,15 @@ const walls = () => {
       - https://youtu.be/i-Hl10ogJTQ?t=1964 Pine Chanel siding
         - do have gaps between each strip of the shiplap siding, otherwise the sidings may expand and end out will a bulging wall
   - corner shiplap https://youtu.be/SodypzNcpoY?t=522
+  - gap sealing battens, table saw to cut treated wood into strips
+
+    - this is call "board and batten siding" https://www.jameshardie.com/blog/guide-to-board-and-batten-siding
+      - batten screws should not constrain the boards movement https://youtu.be/jtYVJvffQYY?t=603
+    - don't use fasling ceiling strips, not smooth enough
+  - shiplap
+    - large gaps needed https://youtu.be/lfqq4R4jp6M?t=231
     */
-   wall_flush()
+   wall_flash()
    /**
     * bottom of the wall, is same as the bottom of front fascia, both needs flashing
     * so just make the 3mm plywood a bit longer than the wall sheathing OSB
@@ -195,11 +237,22 @@ const door = () => {
   // to make the door pop up, I will stain it to dark metal-ish color
   // the hardware use black
   const thickness = 40 // mm, the door 
-  frame() 
-  /* opening should leave 4mm+ gap on the four side(bottom gap 10+mm for threshhold)
+  frame_180() 
+  /*
+  - make sure your door, flush with its fascias, which in turn rise from the wall 
+    - this way, your door can open 180degree
+      - e.g https://youtu.be/o1PayLsEg3A?t=2418 https://youtu.be/2BsSQNWBeok?t=381
+    - some room doors can only open 120degree or so, for indoor corner usage, this is OK
+      - but if you have this design outdoors, wind could blow your door, can pry all hinges out
+  - opening should leave 4mm+ gap on the four side(bottom gap 10+mm for threshhold)
   - door width 74.2, lumber for jack stud, thickness 23mm, leave 4mm on each side
     - so the opening width is 742+23x2+4x2=
-    - NOTE: here maybe it's better idea to have a door installed on one side, but make sure the other side studs not getting too close, otherwise you may have trouble screwing the walls together
+    - NOTE: here maybe it's better idea to have a door installed on one side first, and another side when the door is installed, but make sure the other side studs not getting too close, otherwise you may have trouble screwing the walls together
+  - the frame or fascia stud is actually attached to the jack and kind studs later
+    - by that I mean, the bottom of the frame is outside the main house cubiod
+      - e.g. https://youtu.be/o1PayLsEg3A?t=2429
+    - this is expecially important for me, since my frame was lean to one side, and the opening is not a square anymore
+
   */
   water_proof() 
   /* 
@@ -210,19 +263,43 @@ const door = () => {
       - I dont want to flash like this https://youtu.be/qy1nK8cTEFc?t=2207
       - I will do silicon on the top frame gap
   */
-  install(hardware.hinge, hardware.latch) /* https://www.bilibili.com/video/BV1Hu411975Z */
+  install(hardware.hinge, hardware.bolt) 
+  /**
+   * Pitfall: wood is soft, so when install the hinge, life the door a bit higher than you want it to be finally
+   * even I installed the full Mortise hinge, but I did not do mortise, everything seemed to be really forgiving
+   * https://www.bilibili.com/video/BV1Hu411975Z
+   * https://youtu.be/BLk_CAMmQPc?t=10866
+   * Middle of cilindar 
+   * a Ramsey latch like this https://youtu.be/2BsSQNWBeok?t=350
+   * - hinge outside
+   *   - for a shed, maybe this is the best way to install a hinge https://youtu.be/VGOiUiP6u-o?t=231
+   *   - and the installation should be as easy as this https://youtu.be/n-4-X0eaNiI?t=574
+   * - use 50mm small head screw
+   *   - treated wood is very soft
+   * */
+  design_concern()
+  /**
+   * - most door fascia is in the color of the house, not the door
+   *   - so I will paint my fasica's black
+   *   - the other part of the front wall the same
+   *   - since the door is already in differnt color and full of details
+   *   - so I just won't other part as simple as possible
+   */
 
 }
 
 
-// const windows = () => {
-//   // use tape https://youtu.be/wPmWk9PpZDY?t=762
-//   // use 亚克力玻璃 I bought on 拼多多
-//   window_frame() //
-//   flashing() // https://youtu.be/cVckyMUJHQI?t=50
-//   // the idea is simple, you tape the top of the flashing https://youtu.be/mLGxgTAAKQg?t=2318
-//   // and then do the wall shingles on top the tape
-// }
+const windows = () => {
+  // use tape https://youtu.be/wPmWk9PpZDY?t=762
+  // use 亚克力玻璃 I bought on 拼多多
+  window_frame() //
+  flashing() // https://youtu.be/cVckyMUJHQI?t=50
+  // the idea is simple, you tape the top of the flashing https://youtu.be/mLGxgTAAKQg?t=2318
+  // and then do the wall shingles on top the tape
+  /**
+ * cut pc glass https://youtu.be/b4W-YeAUmnM?t=984
+ */
+}
 
 
 

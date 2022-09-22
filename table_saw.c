@@ -1,4 +1,10 @@
 /*
+- checklist
+  - extention table https://theweekendwoodworker.com/tww-tool-list-thank-you-cc/
+  - dado cutting https://theweekendwoodworker.com/tww-tool-list-thank-you-cc/
+- feathers I want, but hard to build by myself
+  - the ablity of wide range, what if I want to cut large board
+  - ajust angle of the blade
 - todo:
   - upgrade, https://theweekendwoodworker.com/tww-tool-list-thank-you-cc/
     - slots, extension table, fence

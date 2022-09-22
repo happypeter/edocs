@@ -99,18 +99,11 @@ see edocs/lighting.c
     - not for wool
 
 ## shelf_box_system
-- Goal: Try to put eveythings in a box, and put boxes on shelves. Things should be, or be put in a box, unless there is a reason not to do so. For example, try to make cat home, flower pots and everything part of my box set. I rent so I don't want to demage the walls. if I want to make use of vertical space, I need something free-standable and strong, say shelves. Try to make things really simple and thus reusable.
-- PlanA: DIY with round pipe and wood board
-  - Abandoned for 2 reasons: NO.1 round pipes are not for shelves, shoud use square pipes NO.2 Joint screws should go all the way through the pipes if you want strong structures, not like the joints I had.
-- PlanB: DIY with wood
-  -  Abandoned for reasons: NO.1 DIY takes time PERIOD, thinks about the round edges and different finishes. NO.2 Good Engineers love libaries(ready made builing blocks). NO.3 For large structures, best engineering choice is still to use iron legs, if you want a clean lean structure and keep your rooms airy and bright.
-- PlanC: use mass produced square pipe shelves
-  - limit the colors to wood+white ONLY
-  - use exactly same shelves for similar tasks
-  - but for much bigger/smaller/different usecases, I am free to switch to other shelves
-  - bathroom shelf 
-    - https://item.jd.com/3327229.html#crumb-wrap
-    - https://item.jd.com/100012221566.html#crumb-wrap
+- style
+  - board on squrares https://greyandsanders.com/blog/post/how-to-build-your-own-mila-open-concept-wardrobe
+  - just follow Billie's Desk or Wallnut dining table idea
+    - I will ask the welders to build a shelf rack for me first
+    - If I can not get what I want, I just go to use plywood to build the racks
   - main_workhorse_shelf (try to use it for as many cases as possiable)
     - tall square steel pipe/adjustableLayerHeight/30cmDeep https://item.jd.com/72036557276.html#crumb-wrap
     - 溢彩年华 进口实木置物架落地花架厨房收纳架家用储物架学生卧室移动书架 YCI6046-WH https://item.jd.com/100003817646.html#crumb-wrap
@@ -119,6 +112,7 @@ see edocs/lighting.c
 - I am not the only one who have a box system https://www.youtube.com/watch?v=8rKltrQ45ao&t=1s
   - big open shelf system does not have to be messy https://youtu.be/dwOC3Pn3q8s?t=367 'it is more fun, it helps us navigate more easily'
 - no_invasion_rule. everything should has it's own home, the home is a cuboid. Each box has its own border and margin, invasions are generally not allowed, unless you have a reason to do so. e.g two identical boxes put together without leaving margin for each other are considered a set. each item should take up as much as it's cuboid space, and try to make the cubiod smaller. boxes should be algined well. As put here https://youtu.be/dwOC3Pn3q8s?t=682 'give room for things to breath'
+- A open wardrobe should also follow the shelf-box system https://greyandsanders.com/blog/post/how-to-build-your-own-mila-open-concept-wardrobe
 
 ## project_peg_boards
 

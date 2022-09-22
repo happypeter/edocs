@@ -5,6 +5,9 @@ const shopping_list = [
   // if you do desk/table tight ploy is the only option, since its very water resistant, https://youtu.be/WqB8eSkh_TE?t=1393
   // even on walnut table top, you should use polyurethane https://youtu.be/mthlxoMhmGQ?t=420
 ]
+const nail_solid_board = () => { 
+  // solid  wood tends to expand and shink, so when you nail a board to sth, nail in the middle of the grines
+}
 /*
 - a Plan
   - Master Cutlist/MaterialList https://www.youtube.com/watch?v=Lzm621Lp1oA
