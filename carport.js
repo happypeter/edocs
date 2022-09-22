@@ -13,7 +13,6 @@ const shopping_list = [
    * I have 6 poles, 1.8mx3+2.1mx3, so I need 3 4m long ones
   */
   "碳化木柱子x3 10.5x10.5x400cm 160RMB/one ，拼多多 防腐木碳化木桑拿板 shop", // I will cut each into 2.1+1.9m two pieces
-  "内径 10.5x10.5 立柱法兰 x6",
   /**
    * headers
    */
@@ -38,6 +37,7 @@ const main = () => {
   sizes()
   foundation()
   frame()
+  siding()
   roof()
   charging_station()
 }
@@ -82,6 +82,7 @@ const frame = () => {
 const foundation = () => { 
    /**
     * concrete blocks
+    * wood flanges very pricy, I will pre burry steel board in concrete
     */
 }
 
