@@ -77,12 +77,20 @@ const frame = () => {
    * you need to build a structure if you are on your own https://youtu.be/vnLEh8QnRO4?t=126
    * 
    */
+  headers()
+  /**
+   * note here I don't put plate on top of headers
+   * - the header planks 3.4cm deep surface will be used as plate to support rafters
+   * - I once thought this might not provide enought holder surface for the rafters bird mouth
+   *   - but with a little test I am conviced, even the plate is 1cm deep, rafters won't fail here
+   *   - the weak point would  still be the middle of the rafters
+   */
 }
 
 const foundation = () => { 
    /**
     * concrete blocks
-    * wood flanges very pricy, I will pre burry steel board in concrete
+    * wood flanges very pricy, I will pre burry steel board in
     */
 }
 
