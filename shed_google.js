@@ -172,7 +172,7 @@ const walls = () => {
         - another way to do softit https://youtu.be/qy1nK8cTEFc?t=2952
   */
   water_proof_OSB() // ployurethane the bottom https://youtu.be/CPZ8VBopVFo?t=589 before wall wrap
-  wall_wrap() 
+
   /**
    * it is not intended to be water proof, but water diversion
    * a little damp is allowed
@@ -181,7 +181,14 @@ const walls = () => {
    * preventing rain or other forms of moisture from getting into the wall assembly while allowing water vapor to pass to the exterior. 
    * prevent water in, let vapor out
    * don't make it too air tight
+   * - steps
+   *   - cut PE film piece that is 1m high
+   *   - use water-proof tape, start from the bottom
+   *   - get another piece film, go 50cm higher
+   *   - repeat till you reach the top, then you get a overlaied water diversion layer
    */
+  wall_wrap() 
+
 
   short_walls() /* 
   side wall go the full 1m depth

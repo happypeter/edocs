@@ -4,6 +4,12 @@
 - oak is much harder
 */
 
+const main = () => { 
+  /**
+   * don't use pocket hold, mind the wood movement https://www.youtube.com/watch?v=HNfqnJH5YEA
+   */
+  attach_legs()  
+}
 const shopping = {
   board: "1400x750x27, red_oak, 960RMB, 淘宝, 云峰板业"
 }
@@ -28,8 +34,7 @@ const desktop = {
   thickness: 3
 }
 
-const choose_top = () => {
-  if(desktop.thickness > 3 && desktop.has_drawers?) {
+const choose_top = () => { if(desktop.thickness > 3 && desktop.has_drawers?) {
     throw "board too thick and no drawers" // this makes the top too high, which means Billie needs to higher the chair, which in turn will make her feet leave ground and squeeze the thighs
     // https://youtu.be/Ree1CWifQTg?t=129
     // armrest going under the top https://youtu.be/8LwCcha_ATY?t=24

@@ -4,15 +4,23 @@ import { outdoor_cart, outdoor_lumber_shelf } from "./wood_storage"
 
 const shopping_list = [
 
+  /** poles */
+  "碳化木柱子x2 10.5x10.5x400cm 160RMB/one ，拼多多 防腐木碳化木桑拿板 shop", 
+
   /** headers */
   "碳化木凉亭料 x3 4.8x13.5x400cm  85RMB 拼多多 防腐木碳化木桑拿板 shop",
-
   /** roof 
    * length of each rafter 160cm
    *  I will use one for each .4m gap, 12 needed
   */
-  "防腐木梁x6  3.8x10.5x400cm 50RMB/one 拼多多 防腐木碳化木主副量凉亭料 防腐木碳化木桑拿板 shop",
-  "OSB in hand",
+   "防腐木梁x6  3.8x10.5x400cm 50RMB/one 拼多多 防腐木碳化木主副量凉亭料 防腐木碳化木桑拿板 shop",
+   "OSB in hand",
+   
+  /** walls siding 
+  */
+  "碳化木珊栏板x10 1.7x10.5x400cm  27.5RMB/one 拼多多 防腐木碳化木桑拿板 shop ", // compared to treated wood, they don't curl easily
+
+
 ]
 
 const main = () => { 
@@ -37,12 +45,12 @@ const frame = () => {
    * - even my 4.8x13.5cm plank may hold the span of 4m
    *   - my bed use 1.8x9cm to hold 2m span
    * - but I still want a middle post for the front wall
-   * 
+   * - front wall
+   *   - header's top face, which is 4.8cm deep will serve as plate for roof
    */
-  plate()
+  backwall_plate()
   /**
-   * the header is 4.8cm deep, maybe too narrow as a plate
-   * so I will have plate for front and back wall
-   * just use another face of the header plank, which is 13cm deep
+   * backwall not leveled, so I will apple some concrete first
+   * than fasten a header plank as the plate 
    */
 }
