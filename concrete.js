@@ -46,6 +46,9 @@ let finish = () => {
     // go sawing motion https://youtu.be/aWtn-GyFuiU?t=288
     bull_float() 
     /*
+    - bull float works beautifully, the prerequiste is to use finish trowel to take care of some flawed spots
+      - It's wise to use finishing trowel more before bull float
+      - the final finishing with finish trowel is esay and even optional if I do enough work before bull float
     -  https://youtu.be/lUTkrI8FFuM?t=311
     - for small projects, use long trowel to giva a rough go
     */
@@ -57,6 +60,7 @@ let finish = () => {
     cut_joiner() 
     /* joiner tool is like 300RMB on Pinduoduo
     so I will just use trowel and edger for the job, of course, I will do it more than once
+    try to make the line very straight, otherwise this gets ugly quickly 
 
        3inch/8cm deep, every 5feet/152cm https://youtu.be/uX4hi-R7Dyc?t=273
       https://youtu.be/6SFo4zYwvT4?t=290
@@ -69,7 +73,6 @@ let finish = () => {
     */
     cut_joiner_2nd_time() 
     edger() // https://youtu.be/lUTkrI8FFuM?t=435
-    long_trowel() // make it flat
     wait() /*
      magging comes later than edging https://youtu.be/6SFo4zYwvT4?t=472
      - 1hr on a sunny day, 2hr when cloudy
@@ -81,7 +84,13 @@ let finish = () => {
               // so it's generally 3hr you need to wait between pouring and final magging
               // when your finiger sink in 1/4 inch https://youtu.be/s1u30qLejdA?t=416
               // now is also the time you can walk on the slab https://youtu.be/s1u30qLejdA?t=494
-    broom_finish() // to make less slippery, https://youtu.be/lUTkrI8FFuM?t=460
+
+
+    /**
+     * https://youtu.be/lUTkrI8FFuM?t=460
+     * - but any brom with soft enough bristle will do
+     */
+    broom_finish('horse_hair_broom')  
   }
 
 let set_form = () => {
@@ -89,22 +98,24 @@ let set_form = () => {
     dont_oversize() // or cut joiners every 1.5 meters
     return
   }
+
+  square_the_form() // 3-4-5 rule, Pythagorean Theorem https://youtu.be/3vz7s0COJV0?t=659
+  // and make sure no pegs/stakes or any surface is higher than the form, so and it will be easy to screed https://youtu.be/3vz7s0COJV0?t=1310
+
+  /**
+   * it's good idea to build the form first with good lumber, before you put it on the site and get right slope
+   * - when I used random wood, some twisted, to keep wood square, and then do the slope at the same time,
+   * there was a lot of back-and-forth work, it could be very time consuming
+   */
   sloping() // set a proper grade, I use bricks for now https://youtu.be/7j6W2uhfDcQ?t=585
 }
 let set_base = () => {
     dig_foundation() // get a flat soil surface, the first layer
-    if(TOO_MUST_WASTE) {
-      lay_wastes() // say rocks, broken bricks if you have some like in my case, or if you accidentally or purposely dug your foundation too deep
-      fill_gaps_with_gravel() 
-      // the goal here is to have enough depth for the slab itself, never rely too much on the foundation for the strength
-      // a gravel or sand base will prevent drainage destroy your base https://youtu.be/3vz7s0COJV0?t=267
-    }
+
     // don't add dirt right before your pouring, cause they shrink/compact down quickly and end up with a hollow base
     flat_the_base() // you really want the base to be as flat as possible https://youtu.be/3vz7s0COJV0?t=392
                     // so that your slab will be in good shape and strong 
 
-    square_the_form() // 3-4-5 rule, Pythagorean Theorem https://youtu.be/3vz7s0COJV0?t=659
-    // and make sure no pegs/stakes or any surface is higher than the form, so and it will be easy to screed https://youtu.be/3vz7s0COJV0?t=1310
 }
 
 let slab = () => {

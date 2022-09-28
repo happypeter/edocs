@@ -25,3 +25,6 @@ const well_pit = () => {
 
   */
 }
+const out_gate_plumbing = () => { 
+   // check  https://happypeter.github.io/githome/imgs/20220928/
+}

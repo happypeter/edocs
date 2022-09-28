@@ -146,6 +146,13 @@ const walls = () => {
   - use noggings, https://youtu.be/BzSeGJF6RhM?t=515 
   */
   if(verticality()) {
+    /**
+     * - https://www.youtube.com/watch?v=dlJKyQ7q9Tk
+     *   - ends must hit studs
+     *   - butt joint at the corners
+     *   - windows: hold in place, dont nail, mark and cut
+     *   - stagger seams
+     */
     sheath() // https://youtu.be/2el0GYedDHs?t=361
   }
   /*
