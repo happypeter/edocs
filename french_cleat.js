@@ -146,25 +146,7 @@ int back_board() {
 
 */
 
-/*
-    - drill 
-      - https://www.ixigua.com/6974625115858272772
-        - you do want the gap between the holding boards for each drill larger than the reverse/forward switches
-          - https://happypeter.github.io/githome/imgs/20220316/1.jpg
-        - and you do want to be generious on the depth
-          - since you dont want to remove the bits every time
-      - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
-        - It's always better to keep things more modular, unless there is a reason not to do so.
-          - So I will keep a standalone bits holder
-    - next verion idea
-      - cut gaps on a board https://youtu.be/2lDFvVGtMuE?t=290
-        - if you buy a new drills, you cut more gaps
-        - other wise the space can be used for sth else
-*/
 
-int drill_holder() {
-
-}
 
 int float_table() {
   // https://youtu.be/U6LSFgmOV4k?t=515

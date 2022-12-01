@@ -1,12 +1,58 @@
 /**
+ * where to buy
+ */
+
+const shop_name = {
+  north_ring_road: "北环路 凯诺公司对面，二手木材",
+}
+
+/**
  * Nov 23 2022 拼多多 防腐木碳化木桑拿板 shop 
  */
 const shopping_list_20220923 = [ 
-  '碳化木柱子   x6  10.5x10.5x400cm 175RMB, total: 1050RMB',
-  '碳化木凉亭料 x4   4.8x13.5x400cm  85RMB, total: 340RMB',
-  '防腐木凉亭料 x10  3.8x10.5x400cm  50RMB, total: 500RMB',
-  '碳化木珊栏板 x20  1.9x13.5x400cm  38RMB, total: 760RMB', 
-  '无节烘干板材 x10  1.7x8.6x400cm   36RMB, total: 360RMB',
+  {
+    product: burned["11x11"],
+    details: '碳化木柱子   x6  10.5x10.5x400cm 175RMB, total: 1050RMB',
+  },
+  {
+    product: burned["5x14"],
+    details: '碳化木凉亭料 x4   4.8x13.5x400cm  85RMB, total: 340RMB',
+  },
+  {
+    product: treated["4x11"],
+    details: '防腐木凉亭料 x10  3.8x10.5x400cm  50RMB, total: 500RMB',
+  },
+  {
+    product: burned["2x14"],
+    details: '碳化木珊栏板 x20  1.9x13.5x400cm  38RMB, total: 760RMB', 
+  },
+  {
+    product: lumber.board,
+    details: '无节烘干板材 x10  1.7x8.6x400cm   36RMB, total: 360RMB',
+  },
+]
+
+
+
+const shopping_list_20221006 = [
+  {
+    product: treated["4x11"],
+    details: '防腐木凉亭料  x50  33x85x4000   39RMB, total(with discount): 1930RMB'
+  },
+  {
+    product:  burned["5x14"],
+    details: '碳化木凉亭料 x40   28x68x4000  25RMB, total: 1000RMB',
+  },
+]
+
+
+const shopping_list_20221028 = [
+  { product: board.concrete_form,
+    details: 'x10 total:400RMB'},
+  {
+    product: treated["old5x9"],
+    details: 'x100, total: 900RMB'
+  }
 ]
 
 export const boards = {
@@ -23,6 +69,7 @@ export const boards = {
   plywood : {
     '18': { source: '京东：睿筑旗舰店',  'real-size': '1.22x2.44', price: 155 }, 
     '5':  { source: '京东：睿筑旗舰店',  'real-size': '1.22x2.44', price: 60}, 
+    'concrete_form': { source: "`shop_name.north_ring_road`", 'real-size': '0.9x1.8', price: 40}, 
   }
 
 }
@@ -34,7 +81,20 @@ export const lumber = {
   {'real-size': '1.7x8.6x400',  price: '36RMB', source: 'productName: 无节烘干板材1.7x8.6x400cm  pdd shopName: 防腐木桑拿板碳化木 '}, 
 }
 
+
+
+
 export const treated = {
+  /**
+   * so it is very cheap, around 1000RMB/m3
+   */
+  'old5x9':  {'real-size': '45x85x2500',  price: '9RMB', source: '北环路，凯诺公司对面'}, 
+  /**
+   * this will be my main workhorse
+   * a smaller version of US 2by4(3.8x8.9)
+   */
+  '2by4':
+  {'real-size': '33x85x4000',  price: '39RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
   /**
    * PDD shop price: 29RMB
    * quality very bad this time, should have bought the PDD one, and the thickness is simply not right for framing, I ended up doing a lot of end grain nailing, can not be strong
@@ -44,8 +104,11 @@ export const treated = {
   /**
    * 'note': 'wood is soft and cracky, but looks good and straight far away',
    */
+
+   '3x11': 
+   {'real-size': '3.3x10.5x400',  price: '46RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
   '3x7': 
-  {'real-size': '2.8x6.8x400',  price: '24RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
+  {'real-size': '2.8x6.8x400',  price: '25RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
   '7x7': 
   {'real-size': '6.5x6.5x400',  price: '58RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
   /**
@@ -65,7 +128,7 @@ export const burned = {
   '11x11': 
   {'real-size': '2.8x6.8x400',  price: '175RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木柱子10.5x10.5x400'}, 
   '5x14':
-  {'real-size': '4.8x13.5x400',  price: '85RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木凉亭料4.8x13.5x400'}, 
+  {'real-size': '4.8x13.5x402.5',  price: '85RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木凉亭料4.8x13.5x400'}, 
   '2x14':
   {'real-size': '1.9x13.5x400',  price: '38RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木珊栏板1.9x13.5x400'}, 
 }
@@ -82,8 +145,12 @@ export const fasteners = {
 }
 
 export const water_proof = {
-  PE_film: '拼多多 鱼塘防水膜 PE 100s 50RMB/20m2', // orderd
-  flash_tape: '拼多多 窗户密封防风胶带 防水', // at hand
+  /**
+   * PE film are very UV resistant, thick ones last more than 1 year
+   */
+  PE_film: '拼多多 鱼塘防水膜 PE 100s 50RMB/20m2', 
+  PE_film_transparent: '海阳旧货门口 .5RMB/m2',
+  flash_tape: '拼多多 窗户密封防风胶带 防水', 
 }
 
 export const hardware = {

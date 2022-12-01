@@ -1,7 +1,12 @@
----
-title: Home Schooling, Education
----
 
+const time_spent = {
+  phonics: { hr: 1, date: 20221118 },
+  download_youtube: { h1: 1, date: 20221121 },
+  khan_kids: { hr: 2, date: 20221122 },
+   
+}
+
+/*
 ## The Goal of the Education
 To teach the kid to be Confucius-like gentleman who is willing to make a difference, and let him learn science and technology so that he is able to do it, like Elon Musk.
 
@@ -93,7 +98,13 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Appendix A: Learning log
 
-- 20270909
+- 20221130
+  - Elon can count to 12 now
+- 20221122
+  - started learning Khan Academy Kids
+- 20221010
+  - finished all 110 episode Heinimann book
+- 20220909
   - Read one and two
   - Watch numtum sec 2
 - 20220906
@@ -267,3 +278,4 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 - 2018
   - FDGH
   - BK
+*/

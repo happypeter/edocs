@@ -1,10 +1,50 @@
+export const tricks = {
+  'connect-joist': 'https://youtu.be/a9UOwDjBZH0?t=325'
+}
+
+export const tools = {
+  /**
+   * dewalt is what April uses https://youtu.be/rmXWZ5PuDjI?t=276
+   */
+  impact_driver: 'I need this https://youtu.be/o4ijHIRaGXc?t=381 https://youtu.be/BLk_CAMmQPc?t=6927',
+  cordless_skil: 'https://youtu.be/o4ijHIRaGXc?t=140',
+  skil_cutting_jig: 'https://youtu.be/o4ijHIRaGXc?t=141',
+  /**
+   * if you want to drill concrete you need hammer drill
+   * I will keep using my big hammmer drill
+   */
+  hammer_drill: 'https://youtu.be/o4ijHIRaGXc?t=261',
+
+}
+
+const saws = () => { 
+  /**
+   * worx 535 really nice, not that noisy
+   * 大有 also nice
+   */
+  circular_saw()
+  /**
+   * 10寸, 250mm, 254, 255mm, are all considered 10 inch
+   */
+  miter() 
+}
+
 import french_clean from "french_clean"
 import workshop_plan from "workshop_plan"
-const shopping_list = [
+
+const guidelines = {
+  /**
+   * a functional workshop/living_space means easy to find things, by hiding some details, you make it easier
+   * but I don't mind expose more details when it's less work or more strength
+   * e.g two table plans, same strength, same amount of work, same real details, I will choose the one looks simpler
+   */
+  hide_details: 'when possible hide details',
+}
+const shopping_list = {
   polyurethane: "清漆" // 清漆 is resin, expoxy, polyurethane, they are all resin  https://www.youtube.com/watch?v=kTxr4Z4mwj0 , so they are going to be very strong
   // if you do desk/table tight ploy is the only option, since its very water resistant, https://youtu.be/WqB8eSkh_TE?t=1393
   // even on walnut table top, you should use polyurethane https://youtu.be/mthlxoMhmGQ?t=420
-]
+}
 const nail_solid_board = () => { 
   // solid  wood tends to expand and shink, so when you nail a board to sth, nail in the middle of the grines
 }
@@ -44,11 +84,6 @@ const nail_solid_board = () => {
       - use a level ruler to make sure the legs are vertical https://youtu.be/eiT9wmb_wK4?t=148
       - use ruler https://youtu.be/jAEykXezb6I?t=272
     
-- design guideline
-  - for frequent tools, frech cleat
-  - otherwise, go to my old shelf-box-system
-
-
  
 - grinder
   - people do use steel wool to clean wood https://youtu.be/NM6HWN5tFxQ?t=259
@@ -188,6 +223,7 @@ const nail_solid_board = () => {
   - air compressor
     - a cabinet for it https://www.youtube.com/watch?v=SZGykd0ipkQ
     - use screw driver to open the plastic container, then use wrench to change the pressure setting. 130pa is good for my ST38 and T50 and all. But not that good for ST50
+    - add drawers https://youtu.be/UlElSbqD3jc?t=1000
   - make sure to pull the safty valve from time to time, not it sets to be triggered at 130 or so.
     - it is not that much pressure inside
       - cola bottle version: https://www.ixigua.com/6449931719012254222

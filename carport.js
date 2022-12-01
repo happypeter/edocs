@@ -26,6 +26,7 @@ const shopping_list = {
 
 const main = () => { 
   sizes()
+  design()
   foundation()
   frame()
   siding()
@@ -34,11 +35,26 @@ const main = () => {
   charging_station()
 }
 
+/**
+ * - since my shed:google is light woodcolor with black frames
+ *   - I want to have white frame with burned wood plank as the theme of the carport
+ * 
+ */
+const design = () => { 
+   
+}
 const siding = () => { 
   /**
    * upper part of the wall needs to be sheathed, to provide UV protection and keep rain away 
    * - since the floor is concrete, I don't care if the floor is wet, just don't let wind blow rain directly into the room
    * */ 
+
+
+  /**
+   * https://youtu.be/Cyj7f_RZtUA?t=575
+   * the goal is bring in more air and less rain
+   */
+  leave_top_open()
 }
 
 /**
@@ -60,6 +76,17 @@ const frame = () => {
    */
   why_not_stud_walls()
 
+
+  /**
+   * - althought I have a plan with numbers, but in reality errors are inevitable
+   *   - so a right install process is important
+   *   - first set_posts()
+   *   - measure the distance of the two exterior sides of the two posts
+   *   - use this distance to determin wall header stud wall size
+   *   - the out most two studs needs to stay on the same surface of the posts
+   *   - in order to install shear force walls
+   * 
+   */
   set_posts()
 
   /**
@@ -71,22 +98,40 @@ const frame = () => {
    * - I once thought this might not provide enought holder surface for the rafters bird mouth
    *   - but with a little test I am conviced, even the plate is 1cm deep, rafters won't fail here
    *   - the weak point would  still be the middle of the rafters
+   * 
+   * - to span 14feet(427cm) https://youtu.be/fWDzmfYztRY?t=455
+   *   - code requires 2by10(5x25)
    */
   headers()
+
+
+  /**
+   * - just install long planks to the posts does not work, the boards are top narrow
+   *   - there are only squares, no triangle, so still wobbly
+   * - but I don't really like triangles, I want squares for everywhere
+   * - I will add on west and north sides, real shear wall, that I can use as shelves
+   *   - 
+   * 
+   */
+  shear_wall()
 
 }
 
 const foundation = () => { 
  /**
- *  - why not cast in bolts in concrete?
-    - it requires a lot of precision, hard.
+ *  - cast in flange
+ *    - build a out standing footing block to hold the posts
+ *      - make sure the size is generous, to be strong, say 5cm more space on each sides
+ *        - in my case, the post is 10.5x10.5cm, the footing is 26x26cm
+ *      - be generous on the height of the footings, to hold the flanges tight
+ *        - 10cm at least
+ *      - pre drilled 10x20cm iron plank, cast in concrete
+ *        - cast screws in is actully much harder
+ *        - just use a long wood plank as guide, to make sure the two iron planks on differnent footings are on same face
+        - I am very confident the bottom of post will be mostly very dry
  * 
  */
   mount_flange(shopping_list.wood_post_flange, shopping_list.chemset)
-  /**
-   * - https://youtu.be/LjSsqhG1UxI?t=176
-   */
-  pvc_pad()
 }
 
 const sizes = () => { 
@@ -105,8 +150,9 @@ const sizes = () => {
 
 const roof = () => { 
   /**
-   * copy most tricks from shed:google roof()
-   * - alternative: https://www.houzz.com.au/photos/contemporary-shed-modern-granny-flat-or-shed-st-louis-phvw-vp~1629243
+   * - https://www.houzz.com.au/photos/contemporary-shed-modern-granny-flat-or-shed-st-louis-phvw-vp~1629243
+   *   - compaired to my shed:google roof(), this has real support for the two rafters on each side
+   *     - so the roof is simply much stronger
    *   - this should be easir to build, since I don't have to get the rafter ends on the same surface
    *     - because fascias will be installed on plywood
    * 

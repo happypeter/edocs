@@ -2,11 +2,13 @@
   - not all drill bits work
 */
 
-#define TwistDrill 'PDD: 锦诺尔五金工具：麻花钻头 M43 含钴'
-#define TileDrill 'PDD:梵龙索五金工具旗舰店：万能钻头瓷砖玻璃'
-int bit_shopping() {
-
+const bits = {
+  TwistDrill: 'PDD: 锦诺尔五金工具：麻花钻头 M43 含钴',
+  TileDrill: 'PDD:梵龙索五金工具旗舰店：万能钻头瓷砖玻璃'
 }
+
+
+
 
 /*
 - drill press stand
@@ -95,8 +97,8 @@ int install_drill_press_clamps() {
   - https://www.ixigua.com/7044514624871350792?logTag=66650085be9e4dd9676e
 */
 
-int make_a_vise() {
-
+const vise = () => { 
+   
 }
 
 
@@ -131,17 +133,18 @@ int make_a_vise() {
 
 */
 
-int diy_drill_guide() {
-
+const guide = () => { 
+   
 }
 
-int drill_iron() {
+const drill_iron = () => {
   drill_6mm_pilot(TileDrill) // sometimes you miss it when the pilot hole is too small
   drill_10mm(TileDrill) // Only TileDrill and 2mm TwistDrill worked charmingly for me
   
   cleanup(chamfer) // https://youtu.be/Fu6Mdrp8fy8?t=930
   slow_down(350rpm)
   /*
+  - this is not always true, on my dill press, I find when I speedup, I also go more force, so it helped
   - the harder the material, the harder you should push down
     - https://youtu.be/Fu6Mdrp8fy8?t=200
     - https://youtu.be/Fu6Mdrp8fy8?t=581

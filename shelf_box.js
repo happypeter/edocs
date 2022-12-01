@@ -1,62 +1,149 @@
-#include <mobile_wood_storage>
+/**
+ * TODO: April's cabinet https://www.youtube.com/watch?v=rmXWZ5PuDjI
+ * 
+ */
+
+import { color_scheme } from "./billie_desk"
+import { drill_station } from "./drill_station"
+import { saw_station } from "./saw_station"
 
 
-int wood_stroage_cart() {
-  return mobile_wood_storage.cart
+export const shelf_box = () => { 
+  mount_to_wall() 
+  set_colors(color_scheme) 
+  cabinet_everywhere()
+  workhourse_wall_hung_shelves()
+  drill_station()
+  grinder_sander_station()
+  saw_station()
+  two_cabinet_one_top()
+  general_layout()
 }
 
-int dead_simple_wall_mount_shelf() {
-  // https://happypeter.github.io/githome/imgs/20220402/2.jpg
+const table_top_options = () => { 
+  /**
+   *  https://youtu.be/WPDJh-NVeYM?t=193 */ 
+   laminated_mdf()
 }
 
-int cleat_standards() {
-    if(!HEAVY) {
-    /* 
-      the bevel part distorted when I sat on the test cabinet
-      - the gap to the wall thus enlarged, which make it impossible to use silicon
+const general_layout = () => { 
+  /**
+   * wall hung cabinet on top of a table cabinet https://youtu.be/WPDJh-NVeYM?t=113 */ 
+}
+const two_cabinet_one_top = () => { 
+  /**
+   * if you want a large top, build it on top of one cabinet will make the cabinet too heavy to be portable
+   * so do this https://youtu.be/WPDJh-NVeYM?t=183 */ 
+}
+
+const mount_to_wall = () => { 
+
+  /**
+   * french_cleat is nice when you need to reorginize often
+   * for stonger mount, use plank_cleat(), or screw_mount
+   */
+  
+  french_cleat()
+  plank_cleat() 
+  screw_mount()
+
+}
+
+const screw_mount= () => { 
+  /**
+   * use 5 or ten screws to mount cabinets to the OSB baseboard
+   */
+  stong_backboard()
+  many_screws()
+   
+}
+
+const plank_cleat = () => {
+  /* sure you can use french cleat to install the wall hung table https://youtu.be/7Hk6vWtbgSg?t=718 
+  but there is a better way: which is stronger than french cleat
+   - professionals are doing this, I will call it 'plank_cleat'
+     - mansory nailer to fasten a long piece of plywood to the wall
+     - screw a same size plywood on top the earlier one
+     - now on the top of the plywood pieces, you get a very long and now so shallow surface, kind of a cleat, to hold things
+     - make a box like table, with empty space, attach to table to the surface
+     - it is like a french cleat in some way, but stonger than this https://www.youtube.com/watch?v=U6LSFgmOV4k&t=515s
+*/
+
+}
+
+
+/**
+ * - now githome is messy, to use the vertical space close to the wall, I need my shelf_box_system()
+ *   - the gneneral ideas is, the higher space is for shelf-ish and lower space for table-ish
+ * - shelf-ish
+ *   - french cleat system
+ *   - tall free stand shelves, with no low boards
+ *   - float shleves
+ * - table-ish
+ *   - a bed
+ *   - a bench with caster
+ *   - a cabinet with caster
+ *   - kitchen work bench
+ *   - high bar table
+ *   - kitchen counter
+ *   - polyurethained or not
+ 
+ * - guidelines: sizes and color
+ *   - the exteror sizes will always be 10x
+ *     - a shelf can be 20cm or 40cm deep
+ *   - the height of table/shelftop also needs to be 10x
+ *     - unless it is sth speical, like my workhorse desk that I really stive for best ergonomic design
+ *   - only three color allowed, black/white and wood
+ *     - think billie_desk#color_scheme
+ * 
+ */
+
+
+
+
+const cabinet_everywhere = () => { 
+   /**
+    * - add toe kick 
+    * - the billie_desk#open_cabinet will be used for everything
+    *   - as table support/legs
+    *     - the cabinets has 5 faees, which provide perfect upward and shear forces
+    *     - if you want sth airy, build narrow cabinet, cut holes on some sides, whatever it takes
+    *   - as float shelf
+    *     - it is very easy and super strong
+    *   - easy to install casters
+    *   - easy to install tabletops
+    *   - build stylish wallhung starbucks bar table
+    *     - a very low cabinet with all 6 faces
+    * - workhouse_cabinet cutlist: Documents/ketchup/workhorse_cabinet.sketch
     */
-    use(FRENCH_CLEAT)
-  } else {
-    options = [
-      metal_cleat(), //(mounting strip) https://www.youtube.com/watch?v=pXAUR3oWeDw
-      /* 
-          - I don't want to use expansion bolts on the wall
-            - mansonry nails for plywood mounting strips
-            - screw plywood to the strips as the wall
-            - build a 'box' with certain height and a strong backboard
-              - say a cabinet https://youtu.be/i8jcNQ0FzWQ?t=559
-              - or a desk https://youtu.be/Vk4RuYIxROo?t=554
-              - use iron angles if you need extra strength https://www.youtube.com/watch?v=J4cLvs32KOQ
-                - https://youtu.be/WZpNIZ8IJro?t=637
-            - use bolts to connect the wall and the table
-              - like this https://youtu.be/Vk4RuYIxROo?t=1217
-      */
-      bolt_attached_box(),
-
-      /*
-      - for something really large in horizontal span
-        - use box section steel as joist, and metal angles as bracket on both side to attachh it to the wall
-        - and expension them direct to the brick wall
-          - wood is soft to hold this
-      */
-
-      box_section(),
-    ]
-  }
+   workhouse_cabinet()
 }
 
-int diy_angle_steel_bracket() {
-  // with bolts, I don't need welding
+const workhourse_wall_hung_shelves = () => { 
+  /**
+   * do the billie desk style cabinet
+   * screw it on the woodboard without the cleats
+   * this is much stronger than most structures, despite the simplicity
+   *   - for example, to store lumbers, instead of https://happypeter.github.io/githome/imgs/20220402/2.jpg
+   *     - I can just build two very narrow boxes and nail it directly on the woodboard attached to the wall
+   *  */ 
 }
+
+const wall_hung_cabinet = () => { 
+  /**
+   * used 18 4m screws to screw_mount my 80x30x60cm cabinet
+   *  */ 
+}
+
+
+
 
 
 /*
 - requirements
   - stackable
     - full use of shelf vertical space
-    - drawers ring a bell
     - make things perfect cuboid
-    - sizes, anything times 10cm
     - care for being stackable, not nesting
       - only care exterior sizes, go free for wall thickness
       - two sons does not need to fit into a father
@@ -65,7 +152,7 @@ int diy_angle_steel_bracket() {
   - it's strong enough while light weight
   - I can use PVC/Acrylic/Mesh as panels as well
 */
-int frame_panel_box() {
+const frame_panel_box = () => {
   /*
   - figure out the cutlist before hand
   - tenons https://www.youtube.com/watch?v=OdImx4h0MWo
@@ -88,22 +175,7 @@ int frame_panel_box() {
   */
 }
 
-int angle_plywood() {
-  /*
-    for structures not too large, I can use two piece of plywood to form a corner and use it as legs
-  */
-  return angle
-}
 
-int long_span_frame_shelf() {
-  /*
-  - v1: https://happypeter.github.io/githome/imgs/20220304/
-  - next verion idea: all plywood
-    - legs = angle_plywood()
-    - use playwood frame to hold the plywood panels for each tier
-  */
-  return shelf
-}
 
 #define LumberShelf 'shelves without boards' // or very thin boards, like Sandra's https://www.youtube.com/watch?v=yCtTqg9M6Ek
 int lumber_shelf() {
@@ -133,17 +205,8 @@ int lumber_shelf() {
 }
 
 
-int wall_hung_shelf() {
-  // https://youtu.be/uwyCac38G74?t=316
-  // a shelf is just a shorter and wider verion of wall_hung_cabinet() without doors
-}
 
-int wall_hung_cabinet() {
-  // use french cleat to hang the cabinets 
-}
-
-
-int install_hinge() {
+const install_hinge = () => {
   // soft closing hinges here
   install_the_round_side() //make sure the hinge is 90 degree to the side of the piece
   install_the_other_side()
@@ -157,17 +220,6 @@ int install_hinge() {
   adjust_screws() // you can adjust door positon in the depth, width, height direction
   // so when you screw the hinges on the two sides, you don't need to be really precise
 }
-
-  int main() {
-    /*
-    - cut groves for 5mm mdf
-      - set table saw fence, blade to fence width equal 40 percent of the wood being cut
-        - cut and flip the wood, cut again, then the grove shall be wide enough for MDF
-    */
-    
-    add_mdf_box()
-    add_casters(long_span_frame_shelf); // to make use the space under french cleats
-  }
 
 
 /*
@@ -185,6 +237,3 @@ https://www.ixigua.com/6952061596659089931
   - don't paint the cleat, wax them https://youtu.be/ZyUiyVpa6YA?t=231
   - the back of the drawer does not hold bottom pannel
 */
-  int drawer_cabinet() {
-    apply_wax() // https://youtu.be/1HqGi-X1OdE?t=406
-  }

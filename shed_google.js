@@ -4,7 +4,12 @@
 
 import { yard_building_color_theme } from "yard"
 import { forms } from "./concrete"
+
+/**
+ * 25mm for each meter https://youtu.be/8rTpFzTUdFg?t=1044
+ */
 const ROOF_PITCH = "1:3" // https://plasticinehouse.com/shed-roof-pitch/
+
 import { treated, hardware, water_proof, fasteners } from "./wood_shopping"
 
 const WORK_HORSE = treated["3.8x8.5"]
@@ -32,9 +37,11 @@ const shed = () => {
   total_cost(material_list)
 }
 
-const verticality = () => { 
+const plumb = () => { 
+
   laser_level() 
   /**
+   * or plumbbob
    * as long as you have more than 2degree error, you will have trouble installing the door
    * In my case, the frame was done perfectly, but I did not pay attention when I install the back OSBs
    *  */ 
@@ -69,7 +76,8 @@ const roof = () =>{
   */
   sizes()
   /*
-  - back over hange 20cm, just enough to direct the water out of the yard walls
+  - back overhang 20cm, just enough to direct the water out of the yard walls
+    - you can attach overhang later https://youtu.be/8rTpFzTUdFg?t=1069
   - front/right, 40cm, to flash the door(the door opening is too close to the right side, which was a minor mistake)
   - left 40cm, I may extend the shed on the left side soon, having a over hang to flash to lower roof https://youtu.be/ZjdkPZIE0D4?t=208
 
@@ -80,11 +88,13 @@ const roof = () =>{
    since this is small, I will asmeble the whole roof frame(maybe even sheathing) than hand lift it to install
    - If the shed is big, I will go this process https://youtu.be/qy1nK8cTEFc?t=953
    */
-  bird_mouse() /*
+  bird_mouth() /*
    - assmble all the rafters, dry fit on the top of walls, mark bird_mouse position, desemble, then cut
      - this is possible, only because the roof is tiny
    for my shed, the roof is so thin, so I don't need this is necessary
    - this was a desaster, so next time I will be spending more time on the first template https://youtu.be/lqH-RhQdWEI?t=116
+   - when you hava a slight pitch, you don't need bird mouth and you don't do braket or hurricane ties, just toe nailing https://youtu.be/8rTpFzTUdFg?t=1114
+   - brid mouth and side overhangs https://www.youtube.com/watch?v=Y_RChmd6YHA
   */
   fasten_to_walls() 
   /**
@@ -94,27 +104,16 @@ const roof = () =>{
 
   finish(water_proof.PE_film)
   /*
-  - best part is no part, so I will use two layers of the strong film as my roof finish
-   */
-  /*
   Update: give up on the sheet_metal_finish, go HomeRenovation Way, bought PE_film for the job
   flash() // https://youtu.be/DGmLFvZ7Jg0?t=27 vs https://www.youtube.com/watch?v=UvLpM_MZB8M
   - step1: have a flash under sheet metal https://youtu.be/vvDurqjtcYY?t=1050
   - step2: trim the side https://youtu.be/vvDurqjtcYY?t=1551
   - step3: trim with another flash above sheet metal 
 
-  cut_sheet_metal() // cut sheet metal with grinder or just a knife https://youtu.be/b3JgPX5fVUo?t=3621
-  bend_sheet_metal() // use roller https://youtu.be/KdMtecvnPRI?t=284 or just a knife https://youtu.be/b3JgPX5fVUo?t=3621
   */
- shingles() 
- /**
-  * shingles are easier than sheet metal
-  * - seal top edge https://youtu.be/sxrhUEOY-u0?t=506
-  *   - I will use PE film and two wood strips(forming a angle) to achieve the same
-  * 
-  */
- flashing() // do I really really need this ?
+  flashing() // do I really really need this ?
  /*
+ = https://www.youtube.com/watch?v=t0wwu-jlY2M
  - I think I can achieve the same as here by just PE film
  - but after that of course we want beautiful fascia, than I can install a polyurithaned wood strip 
    - to cover the edge of film
@@ -123,7 +122,20 @@ const roof = () =>{
      - paint it black, as the PE film
    - use tall trim board for the front, the thin board can serve as flashing
  */
+
+ shingles() 
+ /**
+  * shingles are easier than sheet metal
+  * - seal top edge https://youtu.be/sxrhUEOY-u0?t=506
+  * - asphalt shingles last much longer than sheet metals
+  * 
+  */
+
   
+  /**
+   * you don't need pin in the battens https://youtu.be/6wHmefqyB1k?t=1522
+   */
+  softit()
 }
 
 const shelves = () => { 
@@ -143,15 +155,25 @@ const shelves = () => {
 const walls = () => { 
   wall_frame(treated["3x9"], fasteners.screw45) /*
   - miter saw, not skilsaw, thin frame lumber is light enough to handle, at same time they needs more presicion
+  - when installing the studs, have the size of your sheathing in mind.
+  - use nailguns to fasten the studs first, then goto screws  https://youtu.be/nXjUerQh444?t=263
   - use noggings, https://youtu.be/BzSeGJF6RhM?t=515 
+  - mark on the plates at the same time for stud locations https://youtu.be/nXjUerQh444?t=420
+  - crown all the lumbers to the same side https://youtu.be/nXjUerQh444?t=431
   */
-  if(verticality()) {
+ 
+  /**
+   * first decide a distance between two studs, than mark the plate and OSB before you nail them https://youtu.be/8rTpFzTUdFg?t=320
+   */
+ nailing()
+  if(plumb()) {
     /**
      * - https://www.youtube.com/watch?v=dlJKyQ7q9Tk
      *   - ends must hit studs
      *   - butt joint at the corners
      *   - windows: hold in place, dont nail, mark and cut
      *   - stagger seams
+     * - use chalk line to mark nail positions
      */
     sheath() // https://youtu.be/2el0GYedDHs?t=361
   }
@@ -190,7 +212,7 @@ const walls = () => {
    * don't make it too air tight
    * - steps
    *   - cut PE film piece that is 1m high
-   *   - use water-proof tape, start from the bottom
+   *   - use stapler gun and water-proof tape, start from the bottom
    *   - get another piece film, go 50cm higher
    *   - repeat till you reach the top, then you get a overlaied water diversion layer
    */
@@ -210,11 +232,14 @@ const walls = () => {
   /*
   - smaller walls first is a good idea https://youtu.be/Z9CZQLVAu1I?t=256
   - clamp together https://youtu.be/Z9CZQLVAu1I?t=266
+  - OSB and wrap cover the foundation a bit https://youtu.be/8rTpFzTUdFg?t=546
+  - OSB extends to the joining wall https://youtu.be/8rTpFzTUdFg?t=759
   */
 
     
    siding() 
   /*
+  - no horizontal seams https://youtu.be/UZ_S618-0Z4?t=52
   - wall wrap
     - cut film into .5m wide long pieces, tape them on the wall
     - start from the bottom
@@ -224,12 +249,15 @@ const walls = () => {
         - do have gaps between each strip of the shiplap siding, otherwise the sidings may expand and end out will a bulging wall
   - corner shiplap https://youtu.be/SodypzNcpoY?t=522
   - gap sealing battens, table saw to cut treated wood into strips
-
     - this is call "board and batten siding" https://www.jameshardie.com/blog/guide-to-board-and-batten-siding
       - batten screws should not constrain the boards movement https://youtu.be/jtYVJvffQYY?t=603
     - don't use fasling ceiling strips, not smooth enough
   - shiplap
     - large gaps needed https://youtu.be/lfqq4R4jp6M?t=231
+    - mind overlays for the flow of water
+    - I embedded a 4mm plywood to the bottom of all my shilap pannels
+    - I also covered the top of the set of shiplaps
+    
     */
    wall_flash()
    /**
@@ -275,6 +303,7 @@ const door = () => {
       - so maybe I need "拼多多 硅胶挡水条 门槛条", and have some vinyl layer("PVC 收边条 角条") between the threshold and OSB floor
     - flash?
       - I dont want to flash like this https://youtu.be/qy1nK8cTEFc?t=2207
+      - not that hard to bent sheet metal https://youtu.be/Q8v58AM2reY?t=36
       - I will do silicon on the top frame gap
   */
   install(hardware.hinge, hardware.bolt) 

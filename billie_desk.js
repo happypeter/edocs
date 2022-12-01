@@ -5,8 +5,9 @@
 */
 
 const main = () => { 
+  layered_square_support
   /**
-   * don't use pocket hold, mind the wood movement https://www.youtube.com/watch?v=HNfqnJH5YEA
+   * don't use pocket holes, mind the wood movement https://www.youtube.com/watch?v=HNfqnJH5YEA
    */
   attach_legs()  
 }
@@ -88,7 +89,7 @@ const cabinet = () => {
   /*
     I will use two cabinets to support the tabletop
   */
- one_door_cabinet() // two storey inside, covered by one door, this is just the simplest sulotion, I amy go to something fancier later
+ open_cabinet() // two storey inside, covered by one door, this is just the simplest sulotion, I amy go to something fancier later
  paint_white() // to match the light oak topp
  touch_the_wall() // like this https://www.youtube.com/watch?v=LTxQOCYyvXY , otherwise very hard to clean
  right_seat_depth(70)// this also means the cabinet needs to be deep, I will make it 70cm(top is 75cm), 
@@ -176,7 +177,7 @@ const hide_wires = () => {
 
 
 
-const square_support = () => { 
+const layered_square_support = () => { 
   // two layer square
   /*
   - the only measure that really matters is the height
@@ -198,3 +199,13 @@ const square_support = () => {
   sand() // use grinder first, then go to sander
   paint() // with white paint
 }
+
+export const color_scheme = [
+  /**
+   * legs/frames black or white
+   * top, wood
+   */
+  'black', 
+  'white',
+  'wood'
+]

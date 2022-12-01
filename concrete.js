@@ -118,8 +118,17 @@ let set_base = () => {
 
 }
 
+const good_sand = () => { 
+  /**
+   * 1~3mm dia, not too big
+   * smooth surface, easy to make smoothconcrete surface */ 
+}
+
 let slab = () => {
   set_base()
+  /**
+   * use pegs https://youtu.be/M0EI-FO7DuA?t=164
+   */
   set_form() // use lumber or boards, as shown https://happypeter.github.io/githome/imgs/20220718/ https://happypeter.github.io/githome/imgs/20220722 , mind the slope
               // for home pathway, 4inch thickness is enough https://youtu.be/I1iO08e4Rgw?t=146
   mix_concrete() // 3 gravels 1 sand 0.5 cement
