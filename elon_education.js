@@ -6,7 +6,7 @@ const time_spent = {
    
 }
 
-/*
+const markdown = `
 ## The Goal of the Education
 To teach the kid to be Confucius-like gentleman who is willing to make a difference, and let him learn science and technology so that he is able to do it, like Elon Musk.
 
@@ -79,7 +79,7 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Refs:
 - https://us.corwin.com/en-us/nam/book/teaching-target
-- Inside Singapore’s world-class education system https://www.youtube.com/watch?v=_aB9Tg6SRA0
+- Inside Singapore's world-class education system https://www.youtube.com/watch?v=_aB9Tg6SRA0
   - learning Robotics, speaking English, seems a heaven for Elon's Education
 - https://www.youtube.com/watch?v=g1KySh8abBs Elon Musk's School
   - "Education is but downloading data and algorithm to your brain. If you want to teach a student about something, you'd better first explain why you need to teach them these things. I believe it helps a lot with students' motivation."
@@ -98,6 +98,9 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Appendix A: Learning log
 
+- 20221204
+  - Khan Academy Kids
+  - paint the door
 - 20221130
   - Elon can count to 12 now
 - 20221122
@@ -278,4 +281,4 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 - 2018
   - FDGH
   - BK
-*/
+`

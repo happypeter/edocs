@@ -33,7 +33,10 @@ const sizes = {
 }
 const time_spent = {
   design_frame: { hr: 2, date: 20221126 },
-  install: { hr: 6, date: 20221129 }
+  install: { hr: 6, date: 20221129 },
+  second_layer_film: { hr: 2, date: 20221203 },
+  door: { hr: 3, date: 20221204 },
+  fix_door: { hr: 4, date: 20221206 },
 }
 
 
