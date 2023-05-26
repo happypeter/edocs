@@ -1,12 +1,3 @@
-
-const time_spent = {
-  phonics: { hr: 1, date: 20221118 },
-  download_youtube: { h1: 1, date: 20221121 },
-  khan_kids: { hr: 2, date: 20221122 },
-   
-}
-
-const markdown = `
 ## The Goal of the Education
 To teach the kid to be Confucius-like gentleman who is willing to make a difference, and let him learn science and technology so that he is able to do it, like Elon Musk.
 
@@ -33,11 +24,7 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 - Boy
 
 ## Home Rules
-- Food Schedule
-  - No calories between meals, no candy/bread/beans/... tomatos and fruits are OK
-  - candy in two cases:
-    - meal time, right after main food.
-    - when we go outside(for at least 2hr).
+- not too much sweets.
 
 ## Guidelines
 - Skill or Porject Oriented Learning
@@ -98,6 +85,11 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 
 ## Appendix A: Learning log
 
+- 20221208~20230120
+  - Foucsing on Phonics
+  - new updates at github.com/happypeter/elon-edu/ repo
+- 20221207
+  - First ElonLog published on douyin
 - 20221204
   - Khan Academy Kids
   - paint the door
@@ -281,4 +273,3 @@ To teach the kid to be Confucius-like gentleman who is willing to make a differe
 - 2018
   - FDGH
   - BK
-`

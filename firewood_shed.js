@@ -9,6 +9,7 @@ const time_spent = {
   frame: {hr: 5, date: 20221105},
   frame_2nd: {hr: 1, date: 20221107},
   roof: {hr: 5, date: 20221108},
+  floor: { hr: 4, date: 20221208 },
 }
 
 

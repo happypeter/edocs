@@ -37,6 +37,8 @@ const time_spent = {
   second_layer_film: { hr: 2, date: 20221203 },
   door: { hr: 3, date: 20221204 },
   fix_door: { hr: 4, date: 20221206 },
+  door_install: { hr: 3, date: 20221213 },
+  door_opening: { hr: 5, date: 20221215 },
 }
 
 

@@ -1,7 +1,5 @@
+- Tip4: get iPhone photo on Macbook. https://www.icloud.com.cn/ login to icloud to check the photoes on iPhone. But if your icloud is full, this does not work. In this case, you need to iPhone Device -> setttings -> iCloud to delete the files. and then connect iPhone to Macbook with USB then go to MacbookDevice -> Finder ->iPhone to click the sync button to sync the iPhone photoes to your iCloud(but if your auto sync is on, the new pic/video you take on Iphone will show up on https://www.icloud.com.cn/photos/ in 2min). Note: iPad and iPhone and iCloud.com are auto sync from each other, but Macbook is not.
 - https://www.youtube.com/watch?v=mVR_nLBeS24
-  - basic ipad sucks
-    - lightening rather then type-c
-    - no l
 - yes, you can do ctrl-f to your hand-writing content
 - 3d modeling features?
 - paper feel writing surface https://youtu.be/wW4QcHaeubk?t=245
@@ -9,3 +7,6 @@
 - "hi siri, set the screen brighter"
 - note taking
   - https://www.youtube.com/watch?v=n0ql-yeY9u0
+
+- watch 迅雷 movies on iPad
+  - current flow: downloading on laptoop->transfter to iPad-Files with airDrop -> install 迅雷云盘 on ipad -> you can find the movie files in iPad-Files-迅雷云盘

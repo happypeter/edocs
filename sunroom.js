@@ -21,7 +21,9 @@ const glass = () => {
 }
 
 export const time_spent = {
-  'clean_space': {hr: 3, date: 20221106}
+  clean_space: { hr: 3, date: 20221106 },
+  frame: { hr: 3, date: 20221208 },
+  side_wall: { hr: 6, date: 20221209 },
 }
 
 const sizes = () => { 
