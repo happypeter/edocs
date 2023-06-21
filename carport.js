@@ -1,5 +1,6 @@
 /**
-  a carport will a bit UV and rain protection
+  - a carport will a bit UV and rain protection
+    - for me it's scooter shelter
 */
 
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"

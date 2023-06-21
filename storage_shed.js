@@ -28,3 +28,7 @@ const roof = () => {
   use(boards.osb[9]) // as roof pannels, still need water barrier
 
 }
+
+const connect_panel_to_pole = () => { 
+  // consider thicker screws or bolts https://youtu.be/sAuEvyiAhfA?t=407 
+}
