@@ -3,3 +3,7 @@
  * - FS800?
  * - FG800 is bigger https://youtu.be/BIRX6UMHkl0
  */
+
+const time = [
+  1hr,
+]
