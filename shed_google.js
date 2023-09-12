@@ -76,6 +76,7 @@ const roof = () =>{
   */
   sizes()
   /*
+  - overall: 184(width)x198(depth)cm
   - back overhang 20cm, just enough to direct the water out of the yard walls
     - you can attach overhang later https://youtu.be/8rTpFzTUdFg?t=1069
   - front/right, 40cm, to flash the door(the door opening is too close to the right side, which was a minor mistake)
@@ -104,31 +105,8 @@ const roof = () =>{
 
   finish(water_proof.PE_film)
   /*
-  Update: give up on the sheet_metal_finish, go HomeRenovation Way, bought PE_film for the job
-  flash() // https://youtu.be/DGmLFvZ7Jg0?t=27 vs https://www.youtube.com/watch?v=UvLpM_MZB8M
-  - step1: have a flash under sheet metal https://youtu.be/vvDurqjtcYY?t=1050
-  - step2: trim the side https://youtu.be/vvDurqjtcYY?t=1551
-  - step3: trim with another flash above sheet metal 
-
-  */
-  flashing() // do I really really need this ?
- /*
- = https://www.youtube.com/watch?v=t0wwu-jlY2M
- - I think I can achieve the same as here by just PE film
- - but after that of course we want beautiful fascia, than I can install a polyurithaned wood strip 
-   - to cover the edge of film
- - only the front fascia needs flashing, because of the angle, water will go alone the roof into the room, if I don't have flashing
-   - for the rest three sizes, just use 5cm wide 3cm thick plywood as the trim board
-     - paint it black, as the PE film
-   - use tall trim board for the front, the thin board can serve as flashing
- */
-
- shingles() 
- /**
-  * shingles are easier than sheet metal
-  * - seal top edge https://youtu.be/sxrhUEOY-u0?t=506
-  * - asphalt shingles last much longer than sheet metals
-  * 
+  Edit: after one year of expoure to sunshine, the PE film still going strong
+  so, I will use double layer PE film as a permanent solution
   */
 
   

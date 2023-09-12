@@ -14,12 +14,20 @@ export const wood_shelter = () => {
 
 const roofing = () => { 
   /**
+   * rough roof size 5mx1.8m
+   * gonna have the black sheet metal roof https://youtu.be/b4W-YeAUmnM?t=8
+   */
+  /**
    * for overhanges on the two sides, I need headers to support the added roof parts with lots of noggings
    * this way I may not even need braces to support the overhang
    * like https://youtu.be/BLk_CAMmQPc?t=6913
   * one top of the joint, cover with sheathing, this will be strong as hell
    */
 
+  /**
+   * shingles and drip edge
+   * https://www.bilibili.com/video/BV1FL411374d/
+   */
 
   /**
    * OSB_gap x 2 + OSB_depthx3 = rafter_length + fasica_thickness x 2 

@@ -304,7 +304,7 @@ let prepare_surface = () => {
    wait() // till the first code dry
    paint()
    wait()
-   sand() // onlyy sand the second coat, https://youtu.be/JAJt8Tsn5yQ?t=366
+   sand() // only sand the second coat, https://youtu.be/JAJt8Tsn5yQ?t=366
   if(paint_corlor != WHITE && water_exposed) {
     top_coat(paints.polyurethane) // polyurethane,  wipe it on https://youtu.be/JAJt8Tsn5yQ?t=400
     // note: Oil-based polyurethane imparts a slight amber tone to the wood, so it’s probably not what you want over a pure-white painted finish. but some still do cause white or light-colored surfaces to yellow after drying or become slightly cloudy over darker finishes such as milk paint.
