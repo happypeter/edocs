@@ -106,8 +106,7 @@ const roof = () =>{
   finish(water_proof.PE_film)
   /*
   Edit: after one year of expoure to sunshine, the PE film still going strong
-  so, I will use double layer PE film as a permanent solution
-  */
+  so, I will cover another layer of PE tarp on top of the PE film as a permanent solution */
 
   
   /**
