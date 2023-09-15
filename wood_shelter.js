@@ -24,10 +24,6 @@ const roofing = () => {
   * one top of the joint, cover with sheathing, this will be strong as hell
    */
 
-  /**
-   * shingles and drip edge
-   * https://www.bilibili.com/video/BV1FL411374d/
-   */
 
   /**
    * OSB_gap x 2 + OSB_depthx3 = rafter_length + fasica_thickness x 2 
