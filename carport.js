@@ -1,6 +1,9 @@
 /**
   - a carport will a bit UV and rain protection
     - for me it's scooter shelter
+  - planing a version 2
+    - gonna double the roof size
+    - increase the height for at least 30cm
 */
 
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"

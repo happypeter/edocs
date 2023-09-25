@@ -3,9 +3,28 @@
  */
 
 const shop_name = {
-  north_ring_road: "北环路 凯诺公司对面，二手木材",
+  north_ring_road: '北环路 凯诺公司对面，二手木材',
+  jingdong_kurui: '京东:睿筑旗舰店', // serious problem: crazy transport cost 270RMB for 8 OSB boards
+  huayun_wang: '华运建材城，伊林环宇王旭东'
 }
 
+
+shopping_list_20230920 = [
+  {
+    product: boards.osb[15],
+    details: 'x10, roof sheathing, 4.2 piece for west roof, 3.8 for carport phrase 2',
+    total: 800 //100RMBx8
+  },
+  {
+    product: boards.veneered,
+    details: 'x5, for my cabinets/shelves',
+    total: 650, //130RMBx5
+  },
+  {
+    product: boards.backboard, 
+    total: 100,
+  }
+]
 /**
  * Nov 23 2022 拼多多 防腐木碳化木桑拿板 shop 
  */
@@ -47,7 +66,7 @@ const shopping_list_20221006 = [
 
 
 const shopping_list_20221028 = [
-  { product: board.concrete_form,
+  { product: boards.plywood.concrete_form,
     details: 'x10 total:400RMB'},
   {
     product: treated["old5x9"],
@@ -56,9 +75,14 @@ const shopping_list_20221028 = [
 ]
 
 export const boards = {
+  veneered: {
+    '15': { source: shop_name.huayun_wang, price: 130 }, 
+  },
   osb: {
-    '15': { source: '京东：睿筑旗舰店', price: 98 },
-    '9':  { source: '京东：睿筑旗舰店', price: 70}
+    // '15': { source: shop_name.jingdong_kurui, price: 98 }, // deliver cost 300+100 for around 10 boards
+    '15': { source: shop_name.huayun_wang, price: 100 }, // delivery cost 100 or so
+    '12': { source: shop_name.huayun_wang, price: 90},
+    '9':  { source: shop_name.jingdong_kurui, price: 70},
   },
 
   /**
@@ -69,7 +93,11 @@ export const boards = {
   plywood : {
     '18': { source: '京东：睿筑旗舰店',  'real-size': '1.22x2.44', price: 155 }, 
     '5':  { source: '京东：睿筑旗舰店',  'real-size': '1.22x2.44', price: 60}, 
-    'concrete_form': { source: "`shop_name.north_ring_road`", 'real-size': '0.9x1.8', price: 40}, 
+    'concrete_form': { 
+                      source: "`shop_name.north_ring_road`", 
+                      'real-size': '0.9x1.8m', price: 40,
+                      'problem': 'smells badly, so I dont think I will buy it again',
+                      }, 
   }
 
 }
