@@ -1,3 +1,9 @@
+const shopping_list = {
+  wall_hung_bracket: {
+    source: 'PDD 加厚不锈钢角码，直角固定器，誉马骏鑫专卖店'
+  },
+}
+
 /*
 - screw types
   - my self-drilling screws are for metals not wood
@@ -6,7 +12,7 @@
   - how to attach a piece to another
   - the process of joining wood together
   - https://youtu.be/7vZ_ZyHnOFM?t=46
-- ways of jionery?
+- ways of joinery?
   - fasteners
   - you can use intermediary wood, dowels and biscuits
   - shapes, like dovetails
@@ -31,29 +37,27 @@
     - dowels may replace pocket holes
       - https://youtu.be/epPHaxDCv48?t=230
 */
-int better_miter_joint() {
-  /*
-  with intermediate wood shim https://www.youtube.com/watch?v=bhlzH_ktCOw
-  */
-}
 
-int cut_dados() {
-  /*
-  https://youtu.be/mOVVbx6pkNw?t=237
-  - cut a dado as wide as a board https://youtu.be/xqlN7mR6LkY?t=682
-  */
-}
 
-int make_pocket_hole() {
-  /*
-    - for the jig
-      - inner dia 9 iron pipe
-    - the screws 半牙自攻螺丝
-    - the bits
-  */
+
+const make_pocket_hole = () => { 
+   
 }
 
 
-int main() {
-  make_pocket_hole();
+/*
+- wall hung cabinets
+  - version 1: have a board nailed to the wall, then build a cabinet with strong backboard, use some 20 screws to attach the cabnet to the wall nailed board, this works, but really a redudent, wasteful solution
+  - version 2: use 3-face wall hung brackets, then the cabinet can use a very thin backboard(or even no backboard at all)
+*/
+
+const wall_hung_joinery = () => { 
+   use(shopping_list.wall_hung_bracket);
 }
+
+const main = () => { 
+   wall_hung_joinery();
+   
+}
+
+export default main;
