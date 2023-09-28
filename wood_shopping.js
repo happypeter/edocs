@@ -11,7 +11,34 @@ const shop_name = {
 shopping_list_20230928 = [
   // the mid-autumn 6000 thousand purchase
   {
-
+    product: lumber.scaffold_board,
+    details: 'x20',
+    total: 500 //RMB
+  },
+  {
+    product: lumber["9x9"],
+    details: 'x10, reclaimed, cracks, but I believe it works just well',
+    total: 440 //44x10RMB
+  },
+  {
+    product: lumber["5x10"],
+    details: 'x138',
+    total: 2484, //18x138
+  }, 
+  {
+    product: boards.plywood.concrete_form,
+    details: 'x50',
+    total: 1900, //38RMBx50
+  },
+  {
+    product: lumber['4x8'],
+    details: '4RMBx91',
+    total: 364
+  },
+  {
+    product: shipping_cost,
+    details: 'truck, nice labor service',
+    total: 350 // a good service, from 华运运板子杨
   }
 ]
 shopping_list_20230920 = [
@@ -72,7 +99,7 @@ const shopping_list_20221006 = [
 
 const shopping_list_20221028 = [
   { product: boards.plywood.concrete_form,
-    details: 'x10 total:400RMB'},
+    details: '40RMBx10 total:400RMB'},
   {
     product: treated["old5x9"],
     details: 'x100, total: 900RMB'
@@ -84,6 +111,10 @@ export const boards = {
     '15': { source: shop_name.huayun_wang, price: 130 }, 
   },
   osb: {
+    /**
+     * NOTE: OSBs here are pricy and intended for interior uses, if you want boards for roofing or exterior sheathing, consider boards.plywood.concrete_form
+     */
+    
     // '15': { source: shop_name.jingdong_kurui, price: 98 }, // deliver cost 300+100 for around 10 boards
     '15': { source: shop_name.huayun_wang, price: 100 }, // delivery cost 100 or so
     '12': { source: shop_name.huayun_wang, price: 90},
@@ -96,12 +127,12 @@ export const boards = {
    * love it
    */
   plywood : {
-    '18': { source: '京东：睿筑旗舰店',  real_size: '1.22x2.44', price: 155 }, 
-    '5':  { source: '京东：睿筑旗舰店',  real_size: '1.22x2.44', price: 60}, 
+    '18': { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 155 }, 
+    '5':  { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 60}, 
     'concrete_form': { 
                       source: "`shop_name.north_ring_road`", 
-                      real_size: '0.9x1.8m', price: 40,
-                      detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB',
+                      real_size: '10x915x1830', price: 38,
+                      detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB. one more thing, since it is finished with paint already, guess I can use it as the exterior sheathing of my sheds',
                       }, 
   }
 
@@ -113,7 +144,27 @@ export const lumber = {
   board:  
   {real_size: '1.7x8.6x400',  price: '36RMB', source: 'productName: 无节烘干板材1.7x8.6x400cm  pdd shopName: 防腐木桑拿板碳化木 '}, 
   scaffold_board: {
-    real_size:  
+    real_size:  '4.5(3.8-5)x18(17-19)x292', price: '25RMB', source: shop_name.north_ring_road
+  },
+  '9x9': {
+    /**
+     * reclaimed with big cracks, but hey the price is good
+     */
+    real_size: '9x9x400', price: '44RMB', source: shop_name.north_ring_road
+  },
+  '5x10': {
+    /**
+     * this will be my current fav workhorse 2by4(3.8cmx8.9cm)
+     */
+    real_size: '(4~5)x(9.0~10)x390', price: '18RRM', source: shop_name.north_ring_road
+  },
+  '4x8': {
+    /**
+     * reclaimed, cheapest thing in all my products here
+     */
+    real_size: '(32~35)x70x(1800x2000)',
+    price: '4RMB',
+    source: shop_name.north_ring_road
   }
 }
 
@@ -126,8 +177,7 @@ export const treated = {
    */
   'old5x9':  {real_size: '45x85x2500',  price: '9RMB', source: '北环路，凯诺公司对面'}, 
   /**
-   * this will be my main workhorse
-   * a smaller version of US 2by4(3.8x8.9)
+   * I will prefer lumber['5x10'] over this now
    */
   '2by4':
   {real_size: '33x85x4000',  price: '39RMB', source: 'PDD shopName: 防腐木桑拿板碳化木'}, 
@@ -159,10 +209,11 @@ export const treated = {
 
 export const burned = {
   /**
-   * looks good, some cracks on the bottom
+   * so pricy, I don't think I will buy this again, since I have the 44RMB option now.
+   * 
    */
   '11x11': 
-  {real_size: '2.8x6.8x400',  price: '175RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木柱子10.5x10.5x400'}, 
+  {real_size: '10.5x10.5x400',  price: '175RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木柱子10.5x10.5x400'}, 
   '5x14':
   {real_size: '4.8x13.5x402.5',  price: '85RMB', source: 'PDD shopName: 防腐木桑拿板碳化木  productName: 碳化木凉亭料4.8x13.5x400'}, 
   '2x14':
