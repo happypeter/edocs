@@ -1,6 +1,13 @@
-const shopping_list = {
+export const joinery_shopping_list = {
   wall_hung_bracket: {
     source: 'PDD 加厚不锈钢角码，直角固定器，誉马骏鑫专卖店'
+  },
+  wood_angle_bracket: {
+    source: 'PDD 小孔角码，镀锌角铁',
+    size: '30 wide, 50 tall, 50 deep, 3 thick'
+  },
+  concrete_angle_steel: {
+    source: 'PDD 热镀锌冲孔角钢',
   },
 }
 
@@ -51,13 +58,17 @@ const make_pocket_hole = () => {
   - version 2: use 3-face wall hung brackets, then the cabinet can use a very thin backboard(or even no backboard at all)
 */
 
-const wall_hung_joinery = () => { 
+export const wall_hung_joinery = () => { 
    use(shopping_list.wall_hung_bracket);
 }
 
-const main = () => { 
-   wall_hung_joinery();
-   
+/**
+ * attach angle steel to concrete with expansion screws
+ */
+export const pole_concrete_join = () => {
+  use(shopping_list.concrete_angle_steel)
 }
 
-export default main;
+export const nails = {
+  '8': '8cm nail for reclaimed 4.5cm thick lumber'
+}

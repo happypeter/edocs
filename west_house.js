@@ -5,20 +5,24 @@
  * 
  */
 
+import { joinery_shopping_list, nails, pole_concrete_join } from "./joinery";
 import { boards } from "./wood_shopping"
+import { yard_building_color_theme } from "./yard";
+
 
 const mainRef = 'youtube:KomarProject/How to Build A Shed from Start to Finish'
 const polebarnRef = 'youtube: koality of life/The Woodshed that works for you Pole Barn'
+
+const color = yard_building_color_theme;
 
 const west_house = () => { 
    antMoistureLayer();
    roof();
 }
 
-const antMoistureLayer = () => { 
+const weed_barrier = () => { 
    /**
-    * to the floor/ground
-    * use my waste wall putty power
+    * use my waste wall putty powder as weed/moisture barrier
     */
 }
 
@@ -33,11 +37,7 @@ const addroofLater = () => {
 
 }
 
-/**
- * TODO:
- * hurricane enhancement/tie
- * 
- */
+
 
 const roof = () => { 
    sheath(boards.osb[15]);
@@ -49,4 +49,59 @@ const roof = () => {
     *     - I will support the 20cm gap will rafters
     * - so I need, 4.2 piece of osb[15] for the rest of roof
     */
+
+   /**
+    * TODO: fasten rafters to beams
+    */
+   hurricane_tie(joinery_shopping_list.wood_angle_bracket);
+   
+   /**
+    * TODO: fasten top crippled stud walls to poles
+    * - add primary stud walls
+    * - add screw top stud walls to the primary one
+    */
+   
+}
+
+/**
+ * wood deck
+ */
+
+const deck_floor = () => { 
+   /**
+    * use one or two angle bracket in place of the joist hanger
+    * nails
+    */
+   // nails[8] can be a option too
+   use(joinery_shopping_list.wood_angle_bracket) 
+   /**
+    * you want to have the poles in the boundries of floor, so that you can have four flat walls later
+    * cuz the stud walls will sit on the edges of the floor
+    * make stud walls flush with the out facing edges of the four posts
+    * TODO
+    */
+   wrap_the_poles()
+
+   /**
+    * I will use reclimed >3cm wood board as floor finish
+    * - boards.plywood[18].price is too high
+    * - I want sth durable and sandable, I don't need the floor to be perfectly flat
+    * - I will build large assemble tables on top of it
+    * - wood is much more water resistant than plywood
+    * https://youtu.be/9bFjPbdWVpQ?si=HUXcPqP4MyoScozd
+    */
+   barn_board_floor()
+   
+}
+
+/**
+ * TODO
+ */
+
+const fasten_pole = () => { 
+    pole_concrete_join();
+}
+
+const plumbing = () => { 
+    // TODO: beofore you finish the floor, bury a graded pvc pipe  underneath
 }

@@ -7,6 +7,7 @@
 */
 
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"
+import { yard_building_color_theme } from "./yard"
 
 /**
  * - Does flat roof works? Certainly
@@ -16,6 +17,7 @@ import { boards, burned, hardware, lumber, treated } from "./wood_shopping"
  * 
  */
 const PITCH = 'how much ever works for the level to show clear reading' //https://www.youtube.com/watch?v=02DtgOORPD4
+const colors = yard_building_color_theme
 
 const shopping_list = {
   brace: { product: hardware.braces["2x3"], number: 2, total_cost: 0 },
@@ -176,4 +178,11 @@ const out_gate = () => {
   mount_post_on_deck() 
 }
 
+/**
+ * I will try to use reclaimed boards for the foor.
+ * if I can prevent the bottom getting rain water
+ */
+const floor = () => { 
+   
+}
 export default main

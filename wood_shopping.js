@@ -96,7 +96,7 @@ export const boards = {
     'concrete_form': { 
                       source: "`shop_name.north_ring_road`", 
                       'real-size': '0.9x1.8m', price: 40,
-                      'problem': 'smells badly, so I dont think I will buy it again',
+                      detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB',
                       }, 
   }
 
@@ -114,7 +114,7 @@ export const lumber = {
 
 export const treated = {
   /**
-   * so it is very cheap, around 1000RMB/m3
+   * reclaimed wood, so it is very cheap, around 1000RMB/m3, 
    */
   'old5x9':  {'real-size': '45x85x2500',  price: '9RMB', source: '北环路，凯诺公司对面'}, 
   /**
