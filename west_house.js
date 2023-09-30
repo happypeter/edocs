@@ -89,11 +89,27 @@ const deck_floor = () => {
     * - I will build large assemble tables on top of it
     * - wood is much more water resistant than plywood
     * https://youtu.be/9bFjPbdWVpQ?si=HUXcPqP4MyoScozd
+    * - make sure I can regret later on
+    *   - a flat floor with OSB is easier to broom 03:26 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
+    * - plank floor https://www.ixigua.com/7206640254202315267?logTag=3187138249e717cc0a06
+    * - consider use my lumber[5x10] as floor, the gaps will be smaller and the length is right
     */
    barn_board_floor()
    
 }
 
+/**
+ * consider use my black board as exterior sheathing
+ */
+
+const wall = () => { 
+   
+   sheath(boards.plywood.concrete_form)
+   /**
+    * ref: 5:19 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
+    */
+   seal_gaps_with('battens')
+}
 /**
  * TODO
  */
@@ -104,4 +120,12 @@ const fasten_pole = () => {
 
 const plumbing = () => { 
     // TODO: beofore you finish the floor, bury a graded pvc pipe  underneath
+}
+
+
+/**
+ * ref: https://www.ixigua.com/7266412277304295994
+ */
+const porch = () => { 
+    
 }

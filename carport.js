@@ -1,9 +1,15 @@
 /**
+ NOTE: Project Carport will evolve into Project eastWing
   - a carport will a bit UV and rain protection
     - for me it's scooter shelter
   - planing a version 2
     - gonna double the roof size
     - increase the height for at least 30cm
+  - modular design
+    - to extend the roof, all you need is brackets on a exsiting rafter 08:26 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
+    - or you can use brackets on the poles of exsiting structure
+    - it's nice to sit the new rafter on top of old poles, but most times it means you need to tear away the roof, too much trouble
+    - and in my case, I don't want all roofs on the same level anyway, the middle part should be taller, and north and soutch part should be lower
 */
 
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"
@@ -125,16 +131,13 @@ const frame = () => {
 
 const foundation = () => { 
  /**
- *  - cast in flange
- *    - build a out standing footing block to hold the posts
- *      - make sure the size is generous, to be strong, say 5cm more space on each sides
- *        - in my case, the post is 10.5x10.5cm, the footing is 26x26cm
- *      - be generous on the height of the footings, to hold the flanges tight
- *        - 10cm at least
- *      - pre drilled 10x20cm iron plank, cast in concrete
- *        - cast screws in is actully much harder
- *        - just use a long wood plank as guide, to make sure the two iron planks on differnent footings are on same face
-        - I am very confident the bottom of post will be mostly very dry
+    - verison 1:
+      - stand out concrete footings
+      - special brackets for posts
+    - version 2:
+      - now I see version 1 is a overkill
+      - even for a fancy house, you can actually sit wood on ground level concrecte
+      - fasten with normal brackets check 01:10 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
  * 
  */
   mount_flange(shopping_list.wood_post_flange, shopping_list.chemset)
@@ -157,12 +160,13 @@ const sizes = () => {
 const roof = () => { 
   /**
    * - https://www.houzz.com.au/photos/contemporary-shed-modern-granny-flat-or-shed-st-louis-phvw-vp~1629243
-   *   - compaired to my shed:google roof(), this has real support for the two rafters on each side
-   *     - so the roof is simply much stronger
-   *   - this should be easir to build, since I don't have to get the rafter ends on the same surface
-   *     - because fascias will be installed on plywood
    * 
    */
+  /**
+   * NOTE: I DON'T need a plywood layer on top of the rafters, some wood strips will hold my sheet metal just well
+   * ref: 2:15 and 8:33 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
+   */
+  roof_sheathing()
 }
 
 const charging_station = () => { 
@@ -185,4 +189,4 @@ const out_gate = () => {
 const floor = () => { 
    
 }
-export default main
+
