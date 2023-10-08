@@ -22,7 +22,6 @@
 
 - interior general style: concrete wall + part of wood surface
   - http://www.home-designing.com/2015/02/a-modern-summer-cottage-utilizes-tons-of-gorgeous-walnut/wood-and-concrete
-  - I don't really need wood veneer, nailing wood(well finished plywood, aka 生态板) board to the wall is easier/cheaper/resuable/customizable
   - I don't need worry about floor trim
     - https://www.trendir.com/concrete-interior-design-by-afgh/
   - since concrete is more water proof(for bathroom and kitch), and budget friendly, so I will use a lot of the concrete surface for the walls
