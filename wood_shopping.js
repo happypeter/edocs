@@ -5,7 +5,27 @@
 const shop_name = {
   north_ring_road: '北环路 凯诺公司对面，二手木材',
   jingdong_kurui: '京东:睿筑旗舰店', // serious problem: crazy transport cost 270RMB for 8 OSB boards
-  huayun_wang: '华运建材城，伊林环宇王旭东'
+  huayun_wang: '华运建材城，伊林环宇王旭东',
+  haiyang_second_hand: '海阳旧货市场',
+}
+
+const glazings = {
+  west_house_door: {
+    size: '', price: '200RMB', source: shop_name.haiyang_second_hand
+  },
+  west_house_primary_window: {
+    size: '', price: '150RMB', source: shop_name.haiyang_second_hand
+  },
+  fixed_window: {
+    price: '60RMB', source: shop_name.haiyang_second_hand
+  },
+  glass: {
+    price: '80RMB', source: shop_name.haiyang_second_hand
+  }
+}
+
+const githome_toilet = {
+  price: '120RMB', source: shop_name.haiyang_second_hand
 }
 
 shopping_list_20230928 = [
@@ -107,7 +127,7 @@ const shopping_list_20221028 = [
 ]
 
 export const boards = {
-  veneered: {
+  faced_pannel: {
     '15': { source: shop_name.huayun_wang, price: 130 }, 
   },
   osb: {

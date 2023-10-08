@@ -1,5 +1,5 @@
 /**
- * a modular design
+ * a modular design, error tolerant(no trail and errors work, as long as I follow the process, a good result should follow), material tolerant
  * portable, upgradable, decoupled
  * - a boxUnit IS
  *   - the main frame of my buildings(shed/shelfBox/house)
@@ -10,9 +10,9 @@
  * - IS NOT
  *   - the footings: footings are it's own boxes, be it concrect or wood
  *   - the roof: roof in control of it's own grade, and roofes need to be extended easily too
- *   - other accessories: curtain, doors
+ *   - other accessories: curtain, doors, awning
  *   - a boxUnit Does not provide shear forces, it should make it easy to install braces or stud walls
- *   
+ *  
  */
 
 import { lumber } from "./wood_shopping"
@@ -25,9 +25,7 @@ const design = () => {
    *   - while only the short on is holding beams, and the long one is just there to provide extra stength
    * - when I want to join it with another box, the long one will be cut short and used to hold the beam of the new boxUnit
    * - in order to make the extensibility to happen, the poles have to not holding any weight, all the vertical forces(aka, roof weight) go to the beam
-   * - height
-   *   - 2m for workspace
-   *   - 1m for storage 
+   * - demensions: space I have in the yard is too complicated, so the size has to fit in to the environment
    *  */ 
   use(lumber["5x10"])
 }
@@ -42,4 +40,14 @@ const roofUnit = () => {
    * a roof is just a stud wall with some extra feathers, say grade, weather proof
    * */ 
 
+}
+
+const overhanges = () => { 
+   /**
+    * most roofs have overhanges, but it does not have to be
+    * - somethings I can cover the roof edges with flat sheet metal
+    * - and only have small overhangs for windows and doors
+    * - carports/sheds/houses without overhangs give a more contempary look
+    * - more importantly, it's esier to extend the roof without overhangs
+    */
 }

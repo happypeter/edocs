@@ -72,3 +72,8 @@ export const pole_concrete_join = () => {
 export const nails = {
   '8': '8cm nail for reclaimed 4.5cm thick lumber'
 }
+
+export const angle_iron_punched = {
+  '5': '5mm is too much a overkill if you want to use bolts or expansion screws <6mm, 20RMB/80cm, price is good',
+  'hurrcane_tie': 'I can make a tie with two angles and two strips',
+}

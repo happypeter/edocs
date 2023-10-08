@@ -12,6 +12,16 @@ const metal_hole_opener = () => { }
  /**
   * https://www.youtube.com/watch?v=c7UhPtNg0Os
   */
+
+ /**
+  * sheet metal bender
+  * - https://www.ixigua.com/7203629246282105355 hinge joined angle steel
+  * - https://www.ixigua.com/7065489468593013259
+  *   - https://www.ixigua.com/7269661474350432807?logTag=8186d70351834d128e48
+  * - https://www.ixigua.com/7128183323674804776
+  * - 1m+ angle steel x 2
+  * - hinges 2, weld the hinges to the angles, don't use bolts, cause we need a flat surface
+  */
  bend_sheet_metal() // use roller https://youtu.be/KdMtecvnPRI?t=284 or just a knife https://youtu.be/b3JgPX5fVUo?t=3621
  
 const requirements = () => { 

@@ -130,12 +130,6 @@ const set_poles = () => {
 
 }
 
-const bend_front_roof = () => { 
-  /**
-   * https://www.pinterest.jp/pin/492651646740938775/
-   */
-   
-}
 
 const add_girts = () => { 
   /**
