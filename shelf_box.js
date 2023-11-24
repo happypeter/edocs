@@ -249,3 +249,9 @@ https://www.ixigua.com/6952061596659089931
   - don't paint the cleat, wax them https://youtu.be/ZyUiyVpa6YA?t=231
   - the back of the drawer does not hold bottom pannel
 */
+
+const shelf_studio = () => { 
+  /**
+   * I like the design a lot, not the simplest one, but more modular and portable
+   * since it has no big and heavy back board */ 
+}

@@ -95,4 +95,17 @@ const tricks = () => {
       - hard to buy the gas
       - but I do want a machine that works with wider range of thickness
         - even though without Gas, the result will be uglier, even you use thin wire(the MIG-ish way)
+- https://www.bilibili.com/video/BV1zS4y1g7s5
   */
+
+const welding_matchine_manual = () => { 
+
+  /**
+   * https://www.bilibili.com/video/BV1rY4y1F7PV
+   * clamp is ground, that's why it's called grounding clamp
+   * MIG https://www.bilibili.com/video/BV1zS4y1g7s5
+   * - install the wire https://www.bilibili.com/video/BV1rY4y1F7PV/
+   */
+  wire_up()
+   
+}

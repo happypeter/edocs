@@ -15,13 +15,7 @@
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"
 import { yard_building_color_theme } from "./yard"
 
-/**
- * - Does flat roof works? Certainly
- *   - dirty things may stay there, so you need to clean it regularly
- * - benifits
- *   - a usage space, as a floor, another storage area? anything
- * 
- */
+
 const PITCH = 'how much ever works for the level to show clear reading' //https://www.youtube.com/watch?v=02DtgOORPD4
 const colors = yard_building_color_theme
 
@@ -34,6 +28,14 @@ const shopping_list = {
   side:   { product: burned["2x14"], number: 1, total_cost: 0},
   post_flange: { product: hardware.wood_post_flange, number: 4, total_cost: 0},
   chemset: { product: hardware.chemset["12x160"], number: 16, total_cost: 0}
+}
+
+const build_parts_on_ground = () => { 
+   /**
+    * use my sheathing pannels to get perfectly squared stud wall partials is a good idea
+    * - The two supporting point rule 
+    *   - if I have more than two wall partials that hold one same beam/truss, make only two the right height, all the rest partical walls shall be build 3 or 4 cm shorter than the right height, because people builds have errors, hard to build three or more wall particals, and have the top of all at the exact same level
+    */
 }
 
 const main = () => { 
@@ -56,17 +58,6 @@ const design = () => {
    
 }
 const siding = () => { 
-  /**
-   * upper part of the wall needs to be sheathed, to provide UV protection and keep rain away 
-   * - since the floor is concrete, I don't care if the floor is wet, just don't let wind blow rain directly into the room
-   * */ 
-
-
-  /**
-   * https://youtu.be/Cyj7f_RZtUA?t=575
-   * the goal is bring in more air and less rain
-   */
-  leave_top_open()
 }
 
 /**
@@ -74,19 +65,7 @@ const siding = () => {
  */
 
 const frame = () => { 
-    /**
-   * - posts are too heavy, not easy to set by one person, but why not to use stud walls, and employ all my knowledge doing shed:google?
-   * - the main problem is that, since I don't do water proof for the wall
-   *   - all the horizontal going lumber will hold water
-   *  - if I just build everything vertical way(allways keep smaller faces face vertical direction),
-   *    - this will work, but think that, without enough studs, who will support your top plate
-   *    - sure you can use something like window headers(https://en.wikipedia.org/wiki/Wall_stud) to get the vertical stregth 
-   *      - but now you need jack stud to hold the header boards
-   *    - finally I found, I just will copying the pole_barn_structure, just adding more gaps
-   *      - since I need to join all the studs to get a beam
-   * 
-   */
-  why_not_stud_walls()
+  
 
 
   /**
@@ -101,46 +80,11 @@ const frame = () => {
    */
   set_posts()
 
-  /**
-   * - only 1 headers needed, because rafters only sit on east side, we have the yerd wall as support on the other side
-   *   - for south and north direction, will can just use wall planks to bring lateral strengh, no vertical load here
-   * 
-   * note here I don't put plate on top of headers
-   * - the header planks 3.4cm deep surface will be used as plate to support rafters
-   * - I once thought this might not provide enought holder surface for the rafters bird mouth
-   *   - but with a little test I am conviced, even the plate is 1cm deep, rafters won't fail here
-   *   - the weak point would  still be the middle of the rafters
-   * 
-   * - to span 14feet(427cm) https://youtu.be/fWDzmfYztRY?t=455
-   *   - code requires 2by10(5x25)
-   */
-  headers()
-
-
-  /**
-   * - just install long planks to the posts does not work, the boards are top narrow
-   *   - there are only squares, no triangle, so still wobbly
-   * - but I don't really like triangles, I want squares for everywhere
-   * - I will add on west and north sides, real shear wall, that I can use as shelves
-   *   - 
-   * 
-   */
-  shear_wall()
 
 }
 
 const foundation = () => { 
- /**
-    - verison 1:
-      - stand out concrete footings
-      - special brackets for posts
-    - version 2:
-      - now I see version 1 is a overkill
-      - even for a fancy house, you can actually sit wood on ground level concrecte
-      - fasten with normal brackets check 01:10 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
- * 
- */
-  mount_flange(shopping_list.wood_post_flange, shopping_list.chemset)
+  studs_sit_on_bricks()
 }
 
 const sizes = () => { 
@@ -167,6 +111,15 @@ const roof = () => {
    * ref: 2:15 and 8:33 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
    */
   roof_sheathing()
+  
+  /**
+ * - Does flat roof works? Certainly
+ *   - dirty things may stay there, so you need to clean it regularly
+ * - benifits
+ *   - a usage space, as a floor, another storage area? anything
+ * 
+ */
+  I_want_level_roof()
 }
 
 const charging_station = () => { 

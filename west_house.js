@@ -129,3 +129,10 @@ const plumbing = () => {
 const porch = () => { 
     
 }
+
+/**
+ * spary form before nails https://www.bilibili.com/video/BV1uY4y1K7Ck/
+ */
+const glazings = () => { 
+    
+}
