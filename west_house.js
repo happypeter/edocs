@@ -1,4 +1,5 @@
 /**
+ * I will name this house iron_cave
  * gonna be sth real
  * but first version will be a open shed thing, sth like polebarnRef
  * make use of my reclaimed lumber 43x83x2200 
@@ -95,7 +96,7 @@ const deck_floor = () => {
     * - consider use my lumber[5x10] as floor, the gaps will be smaller and the length is right
     */
    barn_board_floor()
-   
+   flooring('PVC Floor') //地板革
 }
 
 /**
@@ -109,7 +110,13 @@ const wall = () => {
     * ref: 5:19 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
     */
    seal_gaps_with('battens')
+   interior_wall_finsh() // white paint the OSB https://www.bilibili.com/video/BV1pN4y1z7Yj/?t=1h23s&vd_source=f456a53ba52f091d339a7b2fcae45b02
 }
+
+const exterior_wall = () => { 
+  corner_wrap('bent_metal_panel') // https://www.bilibili.com/video/BV1pN4y1z7Yj/?t=1h8m20s
+}
+
 /**
  * TODO
  */
