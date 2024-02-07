@@ -16,6 +16,17 @@ const polebarnRef = 'youtube: koality of life/The Woodshed that works for you Po
 
 const color = yard_building_color_theme;
 
+
+const parts = {
+   dust_room: {
+     saws: 'for cutters, plainers, sanders...',
+     in_palce_wood_storge: 'I will spare a wall, get a storage card, floating shelf',
+   },
+   assemble_room: 'very nice to have a seperate room for assembly, so that I can run away from the dust',
+   main_storage: 'a place that keeps moisture and sunshine away, for lumber and sheet goods',
+   todo: 'more structures, most with roofs, some with walls, will be build east and west to the main house'
+
+}
 const west_house = () => { 
    antMoistureLayer();
    roof();

@@ -30,3 +30,15 @@ const nailgun_station = {
   },
   location: r4, // githome room4
 }
+
+const fastener_shelf = {
+  /**
+   * for things: screws, bolts nuts washers, little metal parts...
+   * I lover drawer organizers, but since my things vary a lot in size and weight
+   * and I want some for easy access and some in back storge
+   * so for now a simple shelf box system might be more versatile
+   * right now I have glass jars, cardborad boxes, wood boxes,
+   * I will gradually move to wood boxes, and try to unify the sizes a bit
+   * and try to have a cabinet for everything, but in no hurry
+   */
+}
