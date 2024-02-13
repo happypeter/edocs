@@ -1,4 +1,34 @@
+/**
+ * side notes:
+ * - I am not building a bench, I am building a box, anything should be a perfect cubiod box
+ * - perfect box can be easily extended in anyway
+ * - don't go too fancy, just stay with the old plan
+ *   - fancier plans also needs more precisions on how flat or straight my lumber is
+ *   - in other words, more work. and not necessary
+ */
 
+const Height = 80 // cm, when I need to mostly stand
+const assmebly_table = {
+  /**
+   * this goes to my assembly_room
+   * polyurethined surface to keep wood glue easy to remove
+   * very flat: does not have to be very smooth, but need to be flat, OSB board will be used
+   * joint with screws, so that I can take it apart and move it outside the current room
+   * bracing or very wide boards to give shear strength
+   * casters: NO. I do need to move it, but not too heavy dragging.
+   * modular: Yes, I will build two in one go.
+   * demensions: 150widex70deepx80tall 
+   * overhang: 5cm
+   * recessced_lower: https://youtu.be/mHIe9VSikbA?t=340 
+   */
+}
+
+const outfeed_table = {
+  /**
+   * this goes to my dust_room
+   * 
+   */
+}
 
 export const yard_bench = () => { 
 
@@ -6,8 +36,6 @@ export const yard_bench = () => {
   /**
    * - follow this one hr workbench plan https://www.youtube.com/watch?v=PMJ4Lob5Q4I
    *   - also almost like this https://theweekendwoodworker.com/wp-content/uploads/Basic-Mobile-Workbench.pdf
-   * - make sure the 4 legs, 4 long strecher, 4 short strecher are of the same length
-   *   - keep the cut error under 1.5mm
    */
   precise_cut()
 
@@ -76,11 +104,6 @@ export const yard_bench = () => {
 }
 
 
-export const outdoor_chair = () => { 
-  /**
-   * https://www.bilibili.com/video/BV1k3411u7CC/?spm_id_from=333.337.search-card.all.click&vd_source=f456a53ba52f091d339a7b2fcae45b02
-   *  */ 
-}
 
 export const shop_bench = () => {
   vise()
@@ -107,9 +130,6 @@ const vise = () => {
     - https://youtu.be/UlElSbqD3jc?t=604
     - the board with extend outside the box, so it is clampable
     - you can drill dogholes and add tail vise to it
-  - layer the bed to make it a 85cm or so bench
-  - add my vise(bench screw pilers) to it
-  - host my miter saw
   - benchtop clamp
     - this is alailable cheap on PDD https://youtu.be/yGgNvV1_3hQ?t=1274
   - own a 75x190cm workbench is nothing portable
@@ -135,15 +155,6 @@ const vise = () => {
 
 */
 
-/*
-- note the angle here
-  - https://youtu.be/y-8i8_Dh6yQ?t=207
-- out of a F clamp https://www.youtube.com/watch?v=ciJM6Uzw1C8&t=69s
-- DIY with rod and wood https://www.youtube.com/watch?v=sCpe2JdrqVo
-*/
-const diy_doghole_clamp = () => {
-  /* https://youtu.be/n0edLCqrE6k?t=475 */
-}
 
 const drawers = () => { 
   /**

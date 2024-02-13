@@ -1,54 +1,51 @@
-/*
-    - drill 
-      - https://www.ixigua.com/6974625115858272772
-        - you do want the gap between the holding boards for each drill larger than the reverse/forward switches
-          - https://happypeter.github.io/githome/imgs/20220316/1.jpg
-        - and you do want to be generious on the depth
-          - since you dont want to remove the bits every time
+const charging_station = {
+  /*  
       - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
         - It's always better to keep things more modular, unless there is a reason not to do so.
           - So I will keep a standalone bits holder
-    - next verion idea
-      - cut gaps on a board https://youtu.be/2lDFvVGtMuE?t=290
-        - if you buy a new drills, you cut more gaps
-        - other wise the space can be used for sth else
-    - tables without braces https://happypeter.github.io/githome/imgs/20221027
 */
-
-const time_spent = {
-  more_cleat: { hr: 2, date： 20221115 }，
+}
+const drill_holder = {
+  /**
+   * just go simple shelves
+   * maybe will go fancier like this, but later  https://www.ixigua.com/6974625115858272772
+   */
 }
 
-export const drill_station = () => {
+const work_bench = {
+  /**
+   * workbench is also my assembly table
+   */
+}
+
+const wall_hung_cabinets = {
+  /**
+   * 30cm deep, extend the current one
+   */
+}
+
+const drill_station = {
   /**
    * two cabinets on top of a 20cm platform, and connected by a shelf board like this https://youtu.be/mi2UIgTMRNc?t=80
    */
-  size(depth=60, height=90, width=80)
-  french_cleats()
-  table_top()
-  hammmer_drill_storage()
-  table_top_shelf()
+  charging_station,
+  wall_hung_cabinets,
+  size: {
+    depth: 60,
+    height: 90,
+    width: 80
+  },
+  french_cleats,
+  // hammmer_drill will be kept in a yard roofed space with concrete tools
 }
 
 const french_cleats = () => { 
    /**
     * hange drill drill, bits holders
+    * use carefully, prioritize shelfs for more capcity
     */
 }
 
 
-const table_top = () => { 
-  /**
-  * stud wall style table top
-   */
-  double_top() 
-}
 
-const hammmer_drill_storage = () => { 
-  /**
-   * have a place for my hammer drill */ 
-}
-
-const table_top_shelf = () => { 
-  size(length=80, height=50, depth=20) 
-}
+export default drill_station

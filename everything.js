@@ -13,10 +13,17 @@
  */
 
 import { bedroom } from "./bedroom"
+import { drill_station } from './drill_station'
 
 export const everything = {
   bedroom,
   bathroom,
+  kitchen,
+  westroom
+}
+
+const kitchen = {
+  south_west: drill_station, // south west corner of the room
 }
 
 
@@ -33,6 +40,7 @@ const nailgun_station = {
 
 const fastener_shelf = {
   /**
+   * aka. fastener storage
    * for things: screws, bolts nuts washers, little metal parts...
    * I lover drawer organizers, but since my things vary a lot in size and weight
    * and I want some for easy access and some in back storge

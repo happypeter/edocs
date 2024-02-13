@@ -15,7 +15,6 @@
  *   - use >10cm wide wood boards, and use more than one, think how a pallet keep its form
  */
 
-import { color_scheme } from "./billie_desk"
 import { drill_station } from "./drill_station"
 import { saw_station } from "./saw_station"
 
@@ -84,34 +83,23 @@ const plank_cleat = () => {
 }
 
 
-/**
- * - now githome is messy, to use the vertical space close to the wall, I need my shelf_box_system()
- *   - the gneneral ideas is, the higher space is for shelf-ish and lower space for table-ish
- * - shelf-ish
- *   - french cleat system
- *   - tall free stand shelves, with no low boards
- *   - float shleves
- * - table-ish
- *   - a bed
- *   - a bench with caster
- *   - a cabinet with caster
- *   - kitchen work bench
- *   - high bar table
- *   - kitchen counter
- *   - polyurethained or not
- 
- * - guidelines: sizes and color
- *   - the exteror sizes will always be 10x
- *     - a shelf can be 20cm or 40cm deep
- *   - the height of table/shelftop also needs to be 10x
- *     - unless it is sth speical, like my workhorse desk that I really stive for best ergonomic design
- *   - only three color allowed, black/white and wood
- *     - think billie_desk#color_scheme
- * 
- */
 
-
-
+const standards = {
+  /**
+   * aka, design guidelines
+   * the extrior size matters a lot, since we need to veritcally or horizontally assemble the boxes
+   * 'make things perfect cuboid'
+   * 'only care exterior sizes, care for being stackable, not nesting'
+   */
+  sizes: {
+    interior: '10n', //10cm, 20cm,...
+    yard: '20n', //20cm, 40cm...
+    shelf_depth: '20n',
+  },
+  colors: {
+    simple: 'by default only, black, gray, wood, white allowed'
+  }
+}
 
 const cabinet_everywhere = () => { 
    /**
@@ -141,24 +129,7 @@ const workhourse_wall_hung_shelves = () => {
    *  */ 
 }
 
-const wall_hung_cabinet = () => { 
-  /**
-   * used 18 4m screws to screw_mount my 80x30x60cm cabinet
-   *  */ 
-}
-
-
-
-
-
 /*
-- requirements
-  - stackable
-    - full use of shelf vertical space
-    - make things perfect cuboid
-    - care for being stackable, not nesting
-      - only care exterior sizes, go free for wall thickness
-      - two sons does not need to fit into a father
 - I think the frame and panel box design is here to stay in my system
   - I not the only one who use frame&panel for things other than doors
   - it's strong enough while light weight
@@ -188,33 +159,6 @@ const frame_panel_box = () => {
 }
 
 
-
-#define LumberShelf 'shelves without boards' // or very thin boards, like Sandra's https://www.youtube.com/watch?v=yCtTqg9M6Ek
-int lumber_shelf() {
-
-  /*
-  - the problem with Sandra's design is that only the top two screws hold most outward force 
-    - since I won't use expasnsion screws to mount thick enough mounting strips like she does, that means my sturcture won't be strong
-   
-  - I will avoid use long expension bolts
-    - cause the nails+plywood mounting strips are stong enough to hold a ton
-    - I just need the right way to do the horizontal span   
-    - so even though the plywood verion shelf is really good, https://www.youtube.com/watch?v=IfuwKXPRKu8
-      - wood+steelPipe https://youtu.be/pIJG7Zp8iN4?t=582
-      - I don't use none of them
-
-  */
-
-  int lumber_shelf = make_lumber_shelf(wall_hung_cabinet(width=300, height=200 )) // use two or more smaller wall hung cabinets to be the arms of a lumber shelf
-  if (lumber_shelf.is_strong) {
-    // I like this version, cause them lumber shelves are now nothing but the french cleat items
-    return locked_cleats(lumber_shelf) //if necessary lock the cleat item
-  }else{
-    int mounting_stips = mount_plywood_to_wall(thickness='2 layers', width=150, height=100) // the wall is french cleat holding board
-    int lumber_shelf = attach_to_mounting_strips(angle_plywood(widht=150, height=100))
-    return lumber_shelf
-  }
-}
 
 
 
