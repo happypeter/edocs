@@ -12,13 +12,10 @@
   - 
 */
 /*
-use boxes, no angles, no tricks, think plain woodbox, think house frames
+use boxes, no bracing, no tricks, think plain woodbox, think house frames
 */
 
 
-/*
-go two layers for everything https://www.youtube.com/watch?v=t9l9OGmlzCg
-*/
- go_two_layers()
+
 
 

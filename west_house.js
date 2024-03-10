@@ -25,7 +25,22 @@ const parts = {
    assemble_room: 'very nice to have a seperate room for assembly, so that I can run away from the dust',
    main_storage: 'a place that keeps moisture and sunshine away, for lumber and sheet goods',
    todo: 'more structures, most with roofs, some with walls, will be build east and west to the main house'
+  /**
+   * I will have 6 or 8 2m tall box structures, that make the west house area it's own gated complex
+   * thing. I can get gate, roofed area, second storeys, based on these 6 building block boxes.
+   */
+}
 
+const design = {
+   colors: {
+      /**
+       * ref https://happypeter.github.io/githome/imgs/20240215/
+       */
+      gray: 'for everthing',
+      wood: 'some exposed wood',
+      white: 'for the windows and doors',
+      black: 'maybe for the east door'
+   }
 }
 const west_house = () => { 
    antMoistureLayer();

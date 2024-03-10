@@ -101,7 +101,7 @@ const folding_table = () => {
     - when the cut is done, push the piece(especially the work piece, because your cut-off piece is always on the left side of the blade) off the blade
   - a insert plate is necessary
     - https://youtu.be/tKtE0sTFi8g?t=284
-  - don't use miter guage and rip fence together https://youtu.be/tKtE0sTFi8g?t=368
+  - d on't use miter guage and rip fence together https://youtu.be/tKtE0sTFi8g?t=368
   - push the wood to the fence, give it a trend to leave the blade https://youtu.be/5ADbrYJtDP8?t=208
   - don't leave the smaller part between the blade and fence https://youtu.be/5ADbrYJtDP8?t=234
     - two reasons: 1. small things fly esaily, 2. kickbacks do not happen on the oppsite side of the fence

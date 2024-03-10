@@ -356,3 +356,24 @@ alkyd_enamls_changjiang: '和平大街 灯塔油漆专卖 长江金装100 醇酸
 export const channel_board = {
   '2x14': {'source': '华运建材城西门门口防腐木榻榻米门市', real_size: '', 'price': '56RMB/one'}, 
 }
+
+const wood_board = {
+  /**
+   * wood_boards are really not that much more expensive than OSB/plywood
+   */
+  table_top: {
+    /**
+     * 100x30x2 will be 40RMB
+     * but if I want a customize size 100x60x2, than it's 140RMB
+     * I got that 102x62x3 top, for 240RMB, but that's worth it, when I need sth nice
+     */
+  },
+  replace_plywood: {
+    /**
+     * what if I use 1.5thick pine to replace plywood?
+     * - 100x30x1.5 is 30RMB, so if 122x244 size, that will be 298RMB
+     * - 18mm plywood is 150, half the price
+     * - so wood boards can not replace plywood, but solid wood can be sanded, easier to paint, and natrually beautiful
+     */
+  }
+}

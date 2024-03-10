@@ -38,6 +38,13 @@ const build_parts_on_ground = () => {
     */
 }
 
+const sliding_door = {
+  /**
+   * PDD has wheels that slide on steel pipes, 7RM for 4
+   * here is a example for cabinets https://youtu.be/D-vM-GFidOQ?t=754
+   */
+}
+
 const main = () => { 
   sizes()
   design()

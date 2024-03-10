@@ -49,13 +49,13 @@ const counter_top = () => {
         - I am all by myself anyway
 */
 
-int finish_plywood() {
+const finish_plywood = () => {
   apply_wood_filler() // https://youtu.be/eYJafURctT4?t=158
   // make sure to leave a little over-fill https://youtu.be/eYJafURctT4?t=188
   sanding() // 'sanding is key to painting job https://youtu.be/eYJafURctT4?t=327
   paint() // use 'ALKYD' https://youtu.be/eYJafURctT4?t=358
 }
-int wall_hung_sink() {
+const wall_hung_sink = () => {
   const TOP_HEIGHT = 90 //cm, google gave me 36inch, that is 91cm
     two_layer() // https://youtu.be/B6qiY38SrSc?t=19
     polyurethane() // 京东 掘优水性地板清漆，59RMB/400g water based ployurethane 聚氨酯
@@ -65,20 +65,19 @@ int wall_hung_sink() {
   two_outlet_valve() // 京东，潜水艇 40RMB 
 }
 
-int shelf() {
 
-}
-
-int kitchen_table() {
+const kitchen_table() {
   with_plywood() // https://youtu.be/NU9yOQbhA-Q?t=382 How to Make a Contemporary Dining Table | DIY Furniture
 }
 
-int kitchen_bench() {
+kitchen_bench =  {
   // for mum chopping meat
   // sth like a woodwork bench 
   
 
-  walnut_top(width=140, depth=65, thick=4.5) // 淘宝 云峰板业 2180RMB 
+  walnut_top = {
+    width: 140, depth: 65, thick: 4.5
+  }
   /*
   the first version of this would be used as my desk, would be sth like this https://youtu.be/9Q9u4Rw40Zg?t=28
   later I will and a underneath shelf and casters to make it a kitchen standup workbench
