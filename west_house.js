@@ -31,6 +31,11 @@ const parts = {
    */
 }
 
+const photos = {
+   stage1: 'https://happypeter.github.io/githome/imgs/20230928/',
+   stage2: 'https://happypeter.github.io/githome/imgs/20240310/'
+}
+
 const design = {
    colors: {
       /**

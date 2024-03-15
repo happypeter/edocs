@@ -1,4 +1,4 @@
-
+  
 const shopping_list = {
   drawer_slides: {
     number: 6, // in pairs
