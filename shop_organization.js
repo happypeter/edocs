@@ -16,6 +16,7 @@
  * - drawers
   * - shallow drawers
   *   - toolbox style drawers, and maybe some vertical drawers too
+  *   - https://youtu.be/jtdmzpHixnU?t=43
   * - as many drawers as I can for base cabinets
    - lable everything
      - give every shelf/cabinet/workbench a name, give every shelf and drawer a serial number
@@ -23,4 +24,15 @@
    - cleats every where
      - like https://www.bilibili.com/video/BV11W411o7Kg/?t=3
      - so that I can hang tools close to my work site
+   - ITERATE ALWAYS
+     - cabinets is not for everything, use simple wall-hung shelves when proper
+       - https://youtu.be/B7PTmKugR-s?t=389
+     - OSB on the walls, franch cleat, shelves, cabinets, are all easy now, do whatever that make sense
+     - on the floor, build large carcass as work table support, and add drawers when needed
  */
+
+const e_wire_hooks = {
+  /**
+   * a MUST HAVE https://youtu.be/jV-Jow0Azng
+   */
+}

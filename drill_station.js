@@ -46,6 +46,13 @@ const french_cleats = () => {
     */
 }
 
+const screw_storage = {
+  /**
+   * small drawers is the way to go https://youtu.be/j-jVst7CEMw?t=5
+   * take a 30cm deep upper cabinet space, have the front part for small drawers, and
+   * the back part for storage
+   */
+}
 
 
 export default drill_station
