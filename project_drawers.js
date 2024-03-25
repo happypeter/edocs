@@ -16,3 +16,9 @@ const bottom_slide_drawer = {
    * a drawer back is preferred here, if you do the whole on the bottom pannel of the drawer, the hole will break the surface of the pannel * 
    */
 }
+
+const plastic_box_drawers = {
+  /**
+   * https://youtu.be/PfWADqVdbv0?t=226
+   */
+}

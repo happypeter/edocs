@@ -1,9 +1,8 @@
 const charging_station = {
-  /*  
-      - drill+bits+charging https://youtu.be/kLpmInMdQpw?t=1068
-        - It's always better to keep things more modular, unless there is a reason not to do so.
-          - So I will keep a standalone bits holder
-*/
+   /**
+    * nothing fancy, just some shelf space next to my drills
+    * that get access to power
+    */
 }
 const drill_holder = {
   /**
@@ -48,9 +47,17 @@ const french_cleats = () => {
 
 const screw_storage = {
   /**
-   * small drawers is the way to go https://youtu.be/j-jVst7CEMw?t=5
-   * take a 30cm deep upper cabinet space, have the front part for small drawers, and
-   * the back part for storage
+   * boxes in cabinets is the way to go, sth like https://youtu.be/j-jVst7CEMw?t=5
+   * - requirements
+   *   - heavy: I don't want the box be blown away when I work outside
+   *   - big vs small: I will use 15x15x10tall for big screws, 10x10x5tall for smaller screws
+   *     - for many screws, just keep them in it's original paper boxes https://www.youtube.com/watch?v=glS_ESlltlI
+   * - tips
+   *   - label with colors https://youtu.be/C3a0hNMEhLE?t=145
+   *   - trays to carry multiple boxes in one go
+   *     - people use sliding trays to oragnize the boxes by group
+   *       - https://www.youtube.com/watch?v=PXfg4Qib-5I
+   *       - but that's a overkill for now 
    */
 }
 

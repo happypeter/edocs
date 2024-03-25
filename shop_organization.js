@@ -27,8 +27,27 @@
    - ITERATE ALWAYS
      - cabinets is not for everything, use simple wall-hung shelves when proper
        - https://youtu.be/B7PTmKugR-s?t=389
+       - cabinet vs simpleShelving
+         - cabinets are very easy to build, super stable, much more extensible than simpleShelving
+         - I can utilize cabinet sides to hold things, I can use two cabinets as brackets to carry shelves on top
+         - I can even install flip side refridgerator doors on cabinet
+         - simple shelves are not actully that easy to make stable and strong
+         - conclution: I highly pro cabinets now
      - OSB on the walls, franch cleat, shelves, cabinets, are all easy now, do whatever that make sense
      - on the floor, build large carcass as work table support, and add drawers when needed
+  - same Level tabletops
+    - all work tables benches cabinet tops, machine work surface, should be on the same level
+    - standing table: 90cm
+    - sitting table: 70cm
+    - cabinet lumber carrying top: 200cm
+    - you will thank yourself when you work with large wood pieces https://www.bilibili.com/video/BV1hb4y1e7Da/?t=5m50s
+  - indoor work tables
+    - will be supported by two base cabinets(60highx50widex60deep*2, or 60highx50x30deep)
+    - outdoor tables will be on legs, indoors are all on cabinets
+    - 3 drawers on on cabinets, that makes each one less than 20cm tall
+      - that is good, if tall things will stay in cabinet_spaces
+    - 2 cabinet_space for each cabinet for the stroage of tall things
+      - have sliding_trays if necessary
  */
 
 const e_wire_hooks = {
