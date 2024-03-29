@@ -9,11 +9,18 @@ const wall_cabinets = {
    */
 }
 
+const board = {
+  thickness: 15 //mm OSB and wood 
+}
+
 const base_caninets = {
   /**
    * https://www.bilibili.com/video/BV13t411y7RC/?
    * 50widex60tallx60deep
    */
+  opening: {
+    width: 470, //mm
+  },
   how_to_make: {
     /**
      * - use table saw to cut
@@ -26,15 +33,41 @@ const base_caninets = {
      *    
      */
   },
-  drawers: {
+  drawer: {
+    box_size: {
+      /**
+       * fake fronts not considered here
+       */
+      height: 120, //mm, this does not matter that much
+      width: front_back_width + board.thickness * 2 , //445mm
+      side_length: 550, //mm, slide-length
+      
+      /**
+       * reality was that I did the dry fit, and found two painted
+       * OSB was 31mm, not 30mm, so I cut the lenght to 414mm,
+       * and I get a perfect 0 gap fit now.
+       * so always do the dry fit, it is worthwhile.
+       */
+      front_back_width: base_caninets.opening.width - slide.thickness - board.thickness * 2 // 415 = 470(opening)-25(slides)-30(sides)
+    },
     how_to_make: {
       /**
-       * CUT GROOVES for bottoms
+       * CUT GROOVES for bottoms for big drawers only
+       * https://www.bilibili.com/video/BV1UR4y1K7Ti/
+       * - BUG fixes:
+       *   - having bottom 4mm plywood extend over the wall edges may stand in the way of slide movement
+       *   - the fix can be install the slides not at the bottom of the drawer walls
+       * 
        */
+
+      slide: {
+        height: 40, //mm, the soft-close damper slides are 45mm
+        inner_part_height: 21,
+        length: 550,
+        thickness: 25, //mm, it's very elastic, more like 24mm
+        drawer_lift_height: 10, //mm, precisely is 9.5 = (40-21)/2
+      },
       spacer: {
-        slide_height: 45, //mm
-        slide_inner_part_height: 25,
-        drawer_lift_height: 10, //mm, (45-25)/2
         gap: 6, //mm, that's the gap between each drawer front, also the gap from carcass top and bottom to front edges
         front: {
            /* the idea is because it's a floor furniture
@@ -49,17 +82,37 @@ const base_caninets = {
           height: 189, 
           width: 588 , //500-6x2 = 588
          /**
-         * NOTE: drawer bottom is the bottom of 15mm walls, 4mm boards are ignored
-         * distance_to_drawer_bottom means the distance from front bottom edge to drawer bottom
+         * NOTE: drawer bottom is the bottom of 12cm sides
+         * distance_to_drawer_bottom means the distance from front bottom edge to drawer side bottom
          */
-          distance_to_drawer_bottom: 10, //thus front bottom will flush with slides bottom edge
+          distance_to_drawer_side_bottom: 63, //thus front bottom will 3mm lower than slides bottom edge
 
+        },
+
+        bottom: {
+          /**
+           * I will have a suspended bottom
+           * 
+           */
+          groove: {
+            depth: 6, //mm, I will make it 6.5 or so for easy install
+          },
+          pannel: {
+            width: drawer.box_size.front_back_width + goove.depth * 2, // 427mm = 415 + 2
+            length: drawer.box_size.depth, //550mm
+          },
         },
         /**
          * I will use long spacer piece to install slides first
          * before I install the strechers
+         * spacer_height = (opening_height + 1boardthick)/3 - slide_height
+         * (600-15)/3-40=155
+         * base_spacer is there to install drawers in the middle height, not the bottom of drawer_sides
          */
-        spacer_height: 180,
+        spacers: {
+          height: 155,
+          base_spacer_height: 50,
+        },
       }
     },
     /**
