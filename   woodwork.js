@@ -1,3 +1,22 @@
+const philos = {
+  /**
+   * I will design the furniture/houses like designing a machine, which means I will try my best to make parts replacable/upgradable. 
+   * take building a base cabinet as a example:
+   *   - I will use OSB to build the structure, the sturcture will then become a part of this project
+   *     - OSB is cheaper and stronger than solid wood or faced board
+   *     - for the part of the sturcture that are not exposed, I won't paint or edge banding it
+   *       - I will maybe enhance water resistance by polyurathining it, but that's not for the look
+   *   - I won't cut grooves on the structual part to make drawer slides
+   *     - a drawer slide should be a part of it's own
+   *     - so that I can fix it, replace it, or use it on other structures as I wish
+   *     - deeply coupling a accessory(e.g the slides) and the sturctures(e.g carcass) are not good idea
+   *   - for the finish of the cabinet
+   *     - I may add another layer of beautiful faced_board/paint/veneer/wallnut_pannel on top of the structural OSB
+   *     - or I may do nothing to the OSB pannel, since it's just a shop cabinet, does not need to look too fancy
+   *   - to conclude: each part should be decoupled from others, they all follow certain standards, so they are easily replacable and reusable
+   */
+  structural_part: 'decouple',
+}
 export const tricks = {
   'connect-joist': 'https://youtu.be/a9UOwDjBZH0?t=325'
 }

@@ -22,3 +22,17 @@ const plastic_box_drawers = {
  * https://youtu.be/PfWADqVdbv0?t=226
    */
 }
+
+const wood_slide = {
+  /**
+   * https://www.bilibili.com/video/BV1Mi4y1f7rM
+   * - built with plywood https://www.bilibili.com/video/BV1sd4y1x7zo/
+   */
+}
+
+const wood_handle = {
+  /**
+   * https://www.bilibili.com/video/BV1644y1g7vL
+   * https://www.bilibili.com/video/BV1aL41177Xo/
+   */
+}

@@ -36,17 +36,14 @@ const base_caninets = {
   drawer: {
     box_size: {
       /**
-       * fake fronts not considered here
+       * false fronts not considered here
        */
       height: 120, //mm, this does not matter that much
       width: front_back_width + board.thickness * 2 , //445mm
       side_length: 550, //mm, slide-length
       
       /**
-       * reality was that I did the dry fit, and found two painted
-       * OSB was 31mm, not 30mm, so I cut the lenght to 414mm,
-       * and I get a perfect 0 gap fit now.
-       * so always do the dry fit, it is worthwhile.
+       * do dry fit, it is worthwhile.
        */
       front_back_width: base_caninets.opening.width - slide.thickness - board.thickness * 2 // 415 = 470(opening)-25(slides)-30(sides)
     },
@@ -82,10 +79,10 @@ const base_caninets = {
           height: 189, 
           width: 588 , //500-6x2 = 588
          /**
-         * NOTE: drawer bottom is the bottom of 12cm sides
-         * distance_to_drawer_bottom means the distance from front bottom edge to drawer side bottom
+         * NOTE: 
+         * distance_to_drawer_bottom means the distance from front bottom edge to drawer bottom
          */
-          distance_to_drawer_side_bottom: 63, //thus front bottom will 3mm lower than slides bottom edge
+          distance_to_drawer_side_bottom: slide.drawer_lift_height, // 10mm
 
         },
 
@@ -119,10 +116,14 @@ const base_caninets = {
      * all drawers are the same, 3 of which fits in one carcass
      */
   },
+
   edge_banding: {
     /**
      * 4mm thick wood strips, air nail it on 
      */
+  },
+  stretchers: {
+    position: 'top edge of the top drawer false front'
   },
   handles: {
     /**
@@ -132,7 +133,17 @@ const base_caninets = {
 
 }
 
-shop_drawers = {
+const drawer_unit = {
+  size: {
+    /**
+     *  90 - 60 - 10 - 3 - 1.5 = 15.5
+     */
+    height:  standtable.design_height - cabinet.carcass.height - caster.height - table_top.height - bottom_plate.height,
+    install: 'mount to the table top before install its own bottom, lastly the two 60cm cabinets r installed'
+  }
+}
+
+const shop_drawers = {
   /**
    * no metal slides https://www.youtube.com/watch?v=AA92UL7BDO4
    */

@@ -140,3 +140,9 @@ const folding_table = () => {
     /**
      * for the fence https://www.bilibili.com/video/BV1v3411p7Lk/?spm_id_from=333.337.search-card.all.click&vd_source=f456a53ba52f091d339a7b2fcae45b02 */ 
   }
+
+  const sliding_table = {
+    /**
+     * https://www.bilibili.com/video/BV1rh411X7b5/
+     */
+  }
