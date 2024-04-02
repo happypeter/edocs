@@ -77,7 +77,7 @@ const base_caninets = {
            * will be 180+(15-6)=189mm, 6 is the 'gap'
            */
           height: 189, 
-          width: 588 , //500-6x2 = 588
+          width: 488 , //500-6x2 = 488
          /**
          * NOTE: 
          * distance_to_drawer_bottom means the distance from front bottom edge to drawer bottom

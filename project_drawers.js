@@ -34,5 +34,9 @@ const wood_handle = {
   /**
    * https://www.bilibili.com/video/BV1644y1g7vL
    * https://www.bilibili.com/video/BV1aL41177Xo/
+   * - my handles
+   *   - 30tallx25deepx130long
+   *   - cut bevel on bottom side of the handle
+   *   - install with 3 screws
    */
 }
