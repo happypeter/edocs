@@ -14,29 +14,14 @@ const shopping_list = {
 }
 const drawers = () => { 
 }
-const main = () => { 
+
+const cabinets = {
    /**
     * ikea Alex: 70x36x58 height-width-depth
-    * I will do: 60x30x60
+    * each cabinet is: 30widex60deepx60tall,
+    * with 3 drawers on each cabinets 
     */
-   cabinets();
-   /**
-    * I want cabinets on the wall
-    * depth = 30; //cm
-    * 
-    */
-   wall_hung_storage()
 }
+const main = () => { 
 
-
-const seal = () => { 
-  /**
-   * PUR over EVA https://www.bilibili.com/video/BV15v4y1875H
-   */
-  /**
-   * with heatgun
-   *  */
-  heatgun()
-  cut_flush()
-  hand_sand() // the cutting edges 
 }

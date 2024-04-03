@@ -21,17 +21,21 @@ const base_caninets = {
   opening: {
     width: 470, //mm
   },
-  how_to_make: {
-    /**
-     * - use table saw to cut
-     *   - two 60x60cm side boards
-     *   - two 47x60cm top and bottom boards
-     *   - one 47x57cm backboard
-     * - brad nails and dowels
-     *   - no clamps, no strechers, no pocket screws
-     * 
-     *    
-     */
+  carcass: {
+    cut_list: {
+
+      /**
+       *   - use table saw to cut
+       *   - two 60tallx58.5wide sides
+       *   - 47widex58.5deep top and bottom boards
+       *   - one 50x60cm backboard
+       */
+    },
+    joinery: {
+      /**
+       * brad nails and dowels
+       */
+    }
   },
   drawer: {
     box_size: {
@@ -40,8 +44,9 @@ const base_caninets = {
        */
       height: 120, //mm, this does not matter that much
       width: front_back_width + board.thickness * 2 , //445mm
-      side_length: 550, //mm, slide-length
-      
+      slide: {
+        length: 550, //mm, slide-length
+      },
       /**
        * do dry fit, it is worthwhile.
        */
@@ -119,7 +124,7 @@ const base_caninets = {
 
   edge_banding: {
     /**
-     * 4mm thick wood strips, air nail it on 
+     * 10mm thick wood strips, air nail it on 
      */
   },
   stretchers: {
@@ -134,6 +139,9 @@ const base_caninets = {
 }
 
 const drawer_unit = {
+  /**
+   * for 90cm tall stand worktable, I need this to get the right height
+   */
   size: {
     /**
      *  90 - 60 - 10 - 3 - 1.5 = 15.5

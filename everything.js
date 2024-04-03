@@ -1,52 +1,48 @@
 /**
- * every space is a box, each box has sons/grandsons, everything has a box as it's own home.
- * I will set up a box hierarchy
- * TODO:
- *   - I will use a lot tape-enhanced cardboard boxes
- *   - I will have more standalone shelf and wall-hung ones
- *   - french cleats are also shelves, but they are less loadable, guess I will remove some of them
- * - rules
- *   - everything has its home
- *   - every home is a box
- *   - a shelf is also a box
- *   - don't design too many special purposed/shaped shelves and boxes, try make fungible ones, cause orgnization is always on-going
+ *  - don't design too many special purposed/shaped shelves and boxes, try make fungible ones, cause orgnization is always on-going
  */
 
 import { bedroom } from "./bedroom"
 import { drill_station } from './drill_station'
 
-export const everything = {
-  bedroom,
-  bathroom,
-  kitchen,
-  westroom
-}
-
-const kitchen = {
-  south_west: drill_station, // south west corner of the room
-}
-
-
-const rooms = {
-  githome: [r1, r2, r3, r4], // r1, is room1 from west
-}
-
-const nailgun_station = {
-  things: {
-    
-  },
-  location: r4, // githome room4
-}
-
-const fastener_shelf = {
-  /**
-   * aka. fastener storage
-   * for things: screws, bolts nuts washers, little metal parts...
-   * I lover drawer organizers, but since my things vary a lot in size and weight
-   * and I want some for easy access and some in back storge
-   * so for now a simple shelf box system might be more versatile
-   * right now I have glass jars, cardborad boxes, wood boxes,
-   * I will gradually move to wood boxes, and try to unify the sizes a bit
-   * and try to have a cabinet for everything, but in no hurry
+const hierarchy = {
+  stations, // e.g each station just to gave a corner with 1 or more furnitures a name, based on it's main usage, drill_station, toliet_station..
+  furnitures, // e.g wall_cabinet_01, wall_cabinet_speaker,
+  compartments, // e.g drawer_01, screw_drawer, upper_shelf, lower_shelf
+  boxes, /*
+   - boxes can be held in a tray, or a portable tool cart,
+     - but trays or tool carts are not part of my organization hierarchy
+   - everything should be in a box, not sth higher in the hierachy tree
+     - a box is sth larger than 15x15x5tall, it is sth easily movable, not too be big or heavy
+     - inside the box, I can have smaller bottoles or plastic boxes to hold small things, but these samller containers are not in my hieracy
+     - box can have just imaginary walls, e.g laptop_station.desk.top.center is a qualified box name
    */
+
+}
+export const stations = {
+  drill_station,
+  laptop_station,
+  sink_station,
+  toliet_station
+}
+
+
+const drill_station = {
+  base_cabinet: {
+    drawer1: {
+      box_30_nail: {
+        nail_30: '30mm long nails'
+      }
+    }
+  }
+}
+
+const laptop_station = {
+  desk: {
+    top: {
+      center: {
+        laptop: 'my Macbook'
+      }
+    }
+  }
 }

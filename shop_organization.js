@@ -5,11 +5,17 @@
  * - for long things, like lumbers, clamps
  *   - leave the corners of rooms without installing upper cabinets for clamps
  *   - store lumbers on top of multiple upper cabinets
- * - working space vs storage space
- *   - most easily accessible spaces, e.g bench top, low upper cabinet tier, top drawers, will be kept empty
- *     - when I have a project, these places will be my working space to put my tools
- *     - once the project is done, tools go back to their own home in storage space
- *     - I will still keep a bit tool wall space, for tools I use for almost every project
+ * - work space vs storage space
+ *   - everything should have it's home, based on how often they are used, the home could either be in
+ *     - work space: easy to access areas
+ *       - things used less than once a week, will mostly go stroage space
+ *       - even for things kept in work space, based on usage frequency, they will be put in diffent locations
+ *     - storage spaces: top of cabinet, carport, gate shed...
+ *     - e.g If I bought 1000 4mm long tiny screws
+ *       - 950 of them should be backup, and be put in a storage space
+ *       - the other 50 will be kept in a work space
+ *         - if(often used), they will be kept in a small box of its own
+ *         - else, they will be mixed with other sizes
  * - fully utilize the space above the upper cabinets top 
  * - don't go too fancy
  *   - don't expose everything, I will still follow my 'shelf box' philo, and most things should stay in a box
@@ -24,17 +30,8 @@
    - cleats every where
      - like https://www.bilibili.com/video/BV11W411o7Kg/?t=3
      - so that I can hang tools close to my work site
-   - ITERATE ALWAYS
-     - cabinets is not for everything, use simple wall-hung shelves when proper
-       - https://youtu.be/B7PTmKugR-s?t=389
-       - cabinet vs simpleShelving
-         - cabinets are very easy to build, super stable, much more extensible than simpleShelving
-         - I can utilize cabinet sides to hold things, I can use two cabinets as brackets to carry shelves on top
-         - I can even install flip side refridgerator doors on cabinet
-         - simple shelves are not actully that easy to make stable and strong
-         - conclution: I highly pro cabinets now
-     - OSB on the walls, franch cleat, shelves, cabinets, are all easy now, do whatever that make sense
-     - on the floor, build large carcass as work table support, and add drawers when needed
+   - hirachy
+     - go everything.js
   - same Level tabletops
     - all work tables benches cabinet tops, machine work surface, should be on the same level
     - standing table: 90cm
