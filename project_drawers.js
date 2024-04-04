@@ -17,6 +17,12 @@ const bottom_slide_drawer = {
    */
 }
 
+const materials = {
+  plywood: 'most often used',
+  OSB: 'if edge banding is done, it is good looking enough for any place',
+  wood: '15mm thick pannel is not strong enough for 55cm deep large drawers',
+}
+
 const plastic_box_drawers = {
   /**
  * https://youtu.be/PfWADqVdbv0?t=226

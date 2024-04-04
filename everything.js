@@ -12,10 +12,9 @@ const hierarchy = {
   boxes, /*
    - boxes can be held in a tray, or a portable tool cart,
      - but trays or tool carts are not part of my organization hierarchy
-   - everything should be in a box, not sth higher in the hierachy tree
+   - mix similar things in a box to save space
      - a box is sth larger than 15x15x5tall, it is sth easily movable, not too be big or heavy
      - inside the box, I can have smaller bottoles or plastic boxes to hold small things, but these samller containers are not in my hieracy
-     - box can have just imaginary walls, e.g laptop_station.desk.top.center is a qualified box name
    */
 
 }
@@ -40,9 +39,8 @@ const drill_station = {
 const laptop_station = {
   desk: {
     top: {
-      center: {
-        laptop: 'my Macbook'
-      }
+      laptop: 'my Macbook'
     }
-  }
+  },
+  ergo_chair: 'my 3000RMB chair',
 }
