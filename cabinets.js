@@ -1,6 +1,8 @@
 /**
  * the workshop should be upper cabinets plus on-caster workbenches that maxmize the storage capbility with drawers
  * - one heavy tool say miter saw, or drill price take the bench top as its home, https://www.bilibili.com/video/BV13K421t7oh/?t=3m
+ * - OSB was used by smart people to build cabinets 
+ *   - OSB rocks https://www.bilibili.com/video/BV1pN4y1z7Yj
  */
 const wall_cabinets = {
   /**

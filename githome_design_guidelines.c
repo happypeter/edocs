@@ -14,16 +14,13 @@
             - everything will be left to its own color by default(wood/concrete), until I have a reason to paint it
         - If there is sth, that is only for esthetic reason, I won't do that
 
-- concrete color works well with black and white
-  - no bottom trim needed https://www.architectureartdesigns.com/wp-content/uploads/2017/03/16-11-e1489099448128.jpg
-  - white wall next to concrete wall https://image.archify.com/blog/03-Contemporary-looking-Exposed-Concrete-Surfaces-s.jpg
-- I may need trim when wood meets concrete, they are both rusty and rough
-  - https://happypeter.github.io/githome/imgs/20220327/9.jpg
+- simplicity is the best design
+  - one color for one thing
+    - it's OK to have a whole room of white furnitures
+    - if I make a white desk, I don't use strong contrast, just keep everything big white, say drawer front and anything
+      - for handles, I want a differnt color for funcational purpose, I don't use strong contrast, light gray will do
+      - If I use black handle, they must be small enough
 
-- interior general style: concrete wall + part of wood surface
-  - http://www.home-designing.com/2015/02/a-modern-summer-cottage-utilizes-tons-of-gorgeous-walnut/wood-and-concrete
-  - I don't need worry about floor trim
-    - https://www.trendir.com/concrete-interior-design-by-afgh/
-  - since concrete is more water proof(for bathroom and kitch), and budget friendly, so I will use a lot of the concrete surface for the walls
-    - the ceiling will be paint to white, concrete works well with white https://design-anthology.com/story/interiors-grey-taipei-ca-design
+- interior general style: white everywhere
+  - I use to love concrete wall, turned out they make the room too dark, so abandoned
 */

@@ -147,7 +147,11 @@ export const boards = {
    * love it
    */
   plywood : {
+    /**
+     * shipping cost is 290 for 10 15mm and 2 18mm sheets, so it's OK
+     */
     '18': { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 155 }, 
+    '15': { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 135 }, 
     '5':  { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 60}, 
     'concrete_form': { 
                       source: "`shop_name.north_ring_road`", 
