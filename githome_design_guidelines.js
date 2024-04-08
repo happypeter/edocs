@@ -14,11 +14,7 @@
             - everything will be left to its own color by default(wood/concrete), until I have a reason to paint it
         - If there is sth, that is only for esthetic reason, I won't do that
 
-
-
-
-- interior general style: white everywhere
-  - I use to love concrete wall, turned out they make the room too dark, so abandoned
+- 
 */
 
 export const design_guidelines = {
@@ -31,5 +27,7 @@ export const design_guidelines = {
       - If I use black handle, they must be small enough
       - I may as well just use white handle
     */
-  }
+  },
+  interior_general_style: 'white everywhere'
+  /* I use to love concrete wall, turned out they make the room too dark, so abandoned */
 }
