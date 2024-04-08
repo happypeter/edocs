@@ -20,6 +20,7 @@
     - if I make a white desk, I don't use strong contrast, just keep everything big white, say drawer front and anything
       - for handles, I want a differnt color for funcational purpose, I don't use strong contrast, light gray will do
       - If I use black handle, they must be small enough
+      - I may as well just use white handle
 
 - interior general style: white everywhere
   - I use to love concrete wall, turned out they make the room too dark, so abandoned

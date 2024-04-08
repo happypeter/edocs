@@ -360,19 +360,21 @@ alkyd_enamls_changjiang: '和平大街 灯塔油漆专卖 长江金装100 醇酸
 export const channel_board = {
   '2x14': {'source': '华运建材城西门门口防腐木榻榻米门市', real_size: '', 'price': '56RMB/one'}, 
 }
-const pine_sheet = {
-  '15fingers': {
-    source: 'pdd: Senyumuyi, 17.5RMB/60x30cm finger-joint board', comment: 'beautiful, and 288RMB/sheet, bit more expensive than the whole sheet I purchused 205RMB, plus 20sth cut and ship cost'
-    /**
-     * NEVER buy 桐木板, too soft for anything
-     */
-  }
-}
+
 
 const wood_board = {
   /**
    * wood_boards are really not that much more expensive than OSB/plywood
    */
+  pine_sheet: {
+    '15fingers': {
+      source: 'pdd: Yonghemuye, 永和木业 205RMB/1220x2440mm, plus 150RMB/5sheets, for cutting and shipping, finger-joint board', comment: '188RMB/sheet awailable on PDD too, will try next time',
+      source: 'pdd: Senyumuyi, 17.5RMB/60x30cm finger-joint board', comment: 'beautiful, and 288RMB/sheet, 30% more expensive than the whole sheets',
+      /**
+       * NEVER buy 桐木板, too soft for anything
+       */
+    }
+  },
   table_top: {
     /**
      * 100x30x2 will be 40RMB
