@@ -28,6 +28,9 @@ const base_caninets = {
     width: 470, //mm
   },
   carcass: {
+    openning: {
+      width: 470, //mm
+    },
     cut_list: {
 
       /**
@@ -43,7 +46,7 @@ const base_caninets = {
        */
     }
   },
-  drawer: three_equal_sized_drawers,
+  drawer: three_equal_sized_drawers(carcass),
 
   edge_banding: {
     /**
