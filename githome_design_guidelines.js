@@ -14,14 +14,22 @@
             - everything will be left to its own color by default(wood/concrete), until I have a reason to paint it
         - If there is sth, that is only for esthetic reason, I won't do that
 
-- simplicity is the best design
-  - one color for one thing
-    - it's OK to have a whole room of white furnitures
-    - if I make a white desk, I don't use strong contrast, just keep everything big white, say drawer front and anything
-      - for handles, I want a differnt color for funcational purpose, I don't use strong contrast, light gray will do
-      - If I use black handle, they must be small enough
-      - I may as well just use white handle
+
+
 
 - interior general style: white everywhere
   - I use to love concrete wall, turned out they make the room too dark, so abandoned
 */
+
+export const design_guidelines = {
+  /* simplicity is the best design */
+  rule_of_one_color: {
+    /**
+      - it's OK to have a whole room of white furnitures
+      - if I make a white desk, I don't use strong contrast, just keep everything big white, say drawer front and anything
+      - for handles, I want a differnt color for funcational purpose, I don't use strong contrast, light gray will do
+      - If I use black handle, they must be small enough
+      - I may as well just use white handle
+    */
+  }
+}

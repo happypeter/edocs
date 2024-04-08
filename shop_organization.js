@@ -1,3 +1,16 @@
+export const ideas = {
+  same_level_tops: {
+  /*
+    - same Level tabletops
+    - all work tables benches cabinet tops, machine work surface, should be on the same level
+    - standing table: 90cm
+    - sitting table: 70cm
+    - cabinet lumber carrying top: 200cm
+    - you will thank yourself when you work with large wood pieces https://www.bilibili.com/video/BV1hb4y1e7Da/?t=5m50s
+   */  
+  }
+
+}
 /**
  * - upper cabinets instead of tool walls
  *   - I am giving up tool walls, my upper cabinets are much more efficent use of space
@@ -32,12 +45,6 @@
      - so that I can hang tools close to my work site
    - hirachy
      - go everything.js
-  - same Level tabletops
-    - all work tables benches cabinet tops, machine work surface, should be on the same level
-    - standing table: 90cm
-    - sitting table: 70cm
-    - cabinet lumber carrying top: 200cm
-    - you will thank yourself when you work with large wood pieces https://www.bilibili.com/video/BV1hb4y1e7Da/?t=5m50s
   - indoor work tables
     - will be supported by two base cabinets(60highx50widex60deep*2, or 60highx50x30deep)
     - outdoor tables will be on legs, indoors are all on cabinets

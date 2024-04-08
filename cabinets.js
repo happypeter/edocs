@@ -6,6 +6,17 @@
  */
 
 import { three_equal_sized_drawers } from "./project_drawers"
+import { design_guidelines } from './githome_design_guidelines'
+import { ideas } from "./shop_organization"
+
+const guidelines = {
+  /**
+   * note: guide lines is sort of the final form, while my work is always work in progress
+   * so it's a problem when it's a problem, we should know where to head, but does not mean we need to do it in one go
+   */
+  general_height: ideas.same_level_tops, //90cm for standing worktable, 70 for sitting
+  colors: design_guidelines.rule_of_one_color,
+}
 
 const wall_cabinets = {
   /**
@@ -13,11 +24,6 @@ const wall_cabinets = {
    * panel thickness 15mm
    */
 }
-
-const board = {
-  thickness: 15 //mm OSB and wood 
-}
-
 
 const base_caninets = {
   /**
