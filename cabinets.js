@@ -12,7 +12,7 @@ import { ideas } from "./shop_organization"
 const guidelines = {
   /**
    * note: guide lines is sort of the final form, while my work is always work in progress
-   * so it's a problem when it's a problem, we should know where to head, but does not mean we need to do it in one go
+   * so it's a problem when it's a problem, knowing where to head does not mean we need to do it in one go
    */
   general_height: ideas.same_level_tops, //90cm for standing worktable, 70 for sitting
   colors: design_guidelines.rule_of_one_color,
