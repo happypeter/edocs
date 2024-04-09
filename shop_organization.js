@@ -8,6 +8,13 @@ export const ideas = {
     - cabinet lumber carrying top: 200cm
     - you will thank yourself when you work with large wood pieces https://www.bilibili.com/video/BV1hb4y1e7Da/?t=5m50s
    */  
+  },
+  drawers: {
+    /**
+     * my main drawers from three_equal_size_base_cabinets are mostly 18cm deep,
+     * so 10+5 two layer of stackable_wood_box could be a nice fit for it
+     * these boxes are better than built-in seprators, being really portable
+     */
   }
 
 }

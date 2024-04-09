@@ -5,7 +5,7 @@
  *   - OSB rocks https://www.bilibili.com/video/BV1pN4y1z7Yj
  */
 
-import { three_equal_sized_drawers } from "./project_drawers"
+import { three_equal_sized_drawers } from "./drawers"
 import { design_guidelines } from './githome_design_guidelines'
 import { ideas } from "./shop_organization"
 
@@ -25,46 +25,48 @@ const wall_cabinets = {
    */
 }
 
-const base_caninets = {
+const default_cabinet_carcass =  {
+  openning: {
+    width: 470, //mm
+  },
+  cut_list: {
+    /**
+     *   - use table saw to cut
+     *   - two 60tallx58.5wide sides
+     *   - 47widex58.5deep top and bottom boards
+     *   - one 50x60cm backboard
+     */
+  },
+}
+
+
+export const base_caninet = (carcass)=> {
   /**
    * https://www.bilibili.com/video/BV13t411y7RC/?
    * 50widex60tallx60deep
    */
-  opening: {
-    width: 470, //mm
-  },
-  carcass: {
-    openning: {
-      width: 470, //mm
-    },
-    cut_list: {
 
-      /**
-       *   - use table saw to cut
-       *   - two 60tallx58.5wide sides
-       *   - 47widex58.5deep top and bottom boards
-       *   - one 50x60cm backboard
-       */
-    },
-    joinery: {
-      /**
-       * brad nails and dowels
-       */
+  result = {
+    carcass,
+    drawer: three_equal_sized_drawers(carcass),
+    enhancements: {
+      edge_banding: {
+        OSB: '10mm thick wood strips, air nail it on ',
+        plywood: 'none'
+      },
+      stretchers: {
+        position: 'bottom edge of the upper drawer false front'
+      },
     }
-  },
-  drawer: three_equal_sized_drawers(carcass),
-
-  edge_banding: {
-    /**
-     * 10mm thick wood strips, air nail it on 
-     */
-  },
-  stretchers: {
-    position: 'top edge of the top drawer false front'
-  },
+  }
+  return result
 }
 
-const drawer_unit = {
+
+
+const default_base_cabinet = base_cabinet(default_cabinet_carcass)
+
+const flat_drawer_unit = {
   /**
    * for 90cm tall stand worktable, I need this to get the right height
    */
