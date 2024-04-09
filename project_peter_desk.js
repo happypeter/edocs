@@ -27,11 +27,14 @@ const carcass = {
 }
 
 
-const cabinets = base_caninet(carcass)
+const cabinets = base_cabninet(carcass)
 
 /**
  * drawers = {
- *   
+ *   NOTE: I use 14mm plywood for this project,
+ * so the opening is 2cm taller than my main base cabinets,
+ * but I will ignore this in order to use the plan from base_cabinets()
+ * but the width of the drawers, needs to be 2mm wider
  * }
  */
 
