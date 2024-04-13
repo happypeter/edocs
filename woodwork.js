@@ -84,23 +84,6 @@ const nail_solid_board = () => {
   - take notes as comments of each function or variable value
   - if it is not documented and measureed, it can not be managed
   - if it is not managed, how can u do iterations on the design
-- software
-  - use plain text, use markdown and C grammers
-    - I can also build libs and import them into big projects
-      - say `#include <lap_joint.h>`
-      - each component could be function, you pass new parameters to it, you get the result suit for your current project
-        - no matter to hold lumber or pencils, a shelf support is a shelf support, just different sizes
-    - I will limit my furnitures to only simple shapes, I will avoid anything hard to depict with numbers.
-      - design like a mechanical engineer, not artist
-    - I know when the structure is really complicated, having a sketchup model really helps to grasp the whole idea quickly, but I believe with text and some youtube videos, I am good for now.
-
-- tricks
-  - how you get a level benchtop
-    - you really need a chop saw for precise cuts
-    - you do need a level surface to assemble everything https://youtu.be/eiT9wmb_wK4?t=133
-    - legs upright
-      - use a level ruler to make sure the legs are vertical https://youtu.be/eiT9wmb_wK4?t=148
-      - use ruler https://youtu.be/jAEykXezb6I?t=272
     
  
 - grinder
