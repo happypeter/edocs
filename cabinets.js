@@ -5,6 +5,7 @@
  *   - OSB rocks https://www.bilibili.com/video/BV1pN4y1z7Yj
  */
 
+import { accessory, box } from "./box"
 import { three_equal_sized_drawers } from "./drawers"
 import { design_guidelines } from './githome_design_guidelines'
 import { ideas } from "./shop_organization"
@@ -20,10 +21,15 @@ const guidelines = {
 
 const wall_cabinets = {
   /**
-   * 60x60x30deep is the default size for my wall hungs
-   * panel thickness 15mm
+   * this is many main or default wall cabinet size
    */
+  material: '15mm faced board',
+  size: '60x60x30deep'
+ /**
+  * a wall cabinet is a @box, the back board 4mm is a @accessory
+  */
 }
+
 
 const default_cabinet_carcass =  {
   openning: {
@@ -32,9 +38,10 @@ const default_cabinet_carcass =  {
   cut_list: {
     /**
      *   - use table saw to cut
-     *   - two 60tallx58.5wide sides
-     *   - 47widex58.5deep top and bottom boards
-     *   - one 50x60cm backboard
+     *   - two 60tallx60wide sides
+     *   - 47widex60deep bottom boards
+     *   - use strechers ont front/back/top of the carcass
+     *   - use 4mm backboard as a accessory if necessary
      */
   },
 }
@@ -45,7 +52,6 @@ export const base_caninet = (carcass)=> {
    * https://www.bilibili.com/video/BV13t411y7RC/?
    * 50widex60tallx60deep
    */
-
   result = {
     carcass,
     drawer: three_equal_sized_drawers(carcass),

@@ -28,6 +28,17 @@ export const design_guidelines = {
       - I may as well just use white handle
     */
   },
-  interior_general_style: 'white everywhere'
+  interior_general_style: 'white everywhere',
   /* I use to love concrete wall, turned out they make the room too dark, so abandoned */
+
+  /**
+   * for me 'anything' means, light wood color, oka/unstained_pine/OSB, dark wood color, walnut, or even gray
+   * white works with all of them nicely, but that does not mean they work very well together always
+   * - handles
+   *   - I will prefer black as default handle color, but as long as handles can facial has certain concrast it will look good
+   *   - DONTs: use light wood color on top of OSB, they kind mix together
+   * 
+   */
+  default_color_palete: 'combine white with almost anything, clean look handles',
+
 }

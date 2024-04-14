@@ -89,6 +89,7 @@ export const three_equal_sized_drawers = (carcass) => {
         },
 
       bottom: {
+        material: '4mm plywood',
         /**
          * flat head screws to attach the bottom to the drawer walls
          */
