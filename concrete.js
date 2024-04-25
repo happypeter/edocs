@@ -1,4 +1,8 @@
 
+const images = {
+  slab: 'https://happypeter.github.io/githome/imgs/20220718/',
+}
+
 const traps = {
   enough_conrete: 'do make more than eough concrete, before you fill in the forms, the leftovers will be made into smaller bricks',
   cut_joints: 'use forms to get natrual edges, as future joints, not possible to cut a clean line on the half dry concrete, just dont do it',
@@ -7,7 +11,6 @@ const traps = {
 
 const tools = {
   float: 'long handle, 270RMB, 拼多多， 推拉大抹子',
-  cart: ' 460RMB 拼多多，水泥斗车',
   trowel: '20cm long  finishing trowel, 9RMB 拼多多',
   edger: '20RMB 拼多多，水泥修边刀'
 }
@@ -73,8 +76,11 @@ const finish = () => {
 }
 
 const mix_concrete = () => { 
-   // 3 gravels 1 sand 0.5 cement
- 
+   // cement:sand:gravels=1:2:6
+   dry_mix_cement_n_sand()
+   rest(10) // take a 10min break
+   add_water_mix()
+   add_gravels()
 }
 
 const set_foundation = {
