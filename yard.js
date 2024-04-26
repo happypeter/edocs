@@ -1,3 +1,40 @@
+const ideas = {
+  grid_plan: 'yard will be dvided into many squares with labels',
+  grade: 'each square is a leveled, grade free, area, only joineries has grade',
+}
+
+const vege_garden = {
+  north_east_corner: {
+    id: 0, //may be referred as block0
+    /**
+     * close to neibor's house, will be a storage area with low roofs
+     */
+  },
+  garage: {
+    id: 1,
+    main_use: 'typical garage, for veicle, also with storge',
+  },
+  gate_way: {
+    id: 3,
+  },
+  south_east_corner: {
+    main_use: 'this should be a better place for my scooter storage, south side means sunshine can be kept away easier'
+  }, 
+}
+
+const grid = {
+  /**
+   * from east to west
+   */
+  out_gate,
+  vege_garden,
+  main_house,
+  west_house,
+  out_east_gate,
+}
+
+
+
 const time_spent = {
   side_walk: { hr: 5, date: 20221116 }
 }
