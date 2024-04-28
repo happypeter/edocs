@@ -22,6 +22,22 @@ const vege_garden = {
   }, 
 }
 
+const out_gate = {
+  north_storage: {
+    id: 21,
+    main_use: 'store sand/gravels'
+  }
+}
+
+const storage_areas = [
+  /**
+   * I will have places for sand/gravels/lumbers/boards, alone the main pathway where trucks can go on
+   */
+  out_gate.north_storage,
+]
+
+
+
 const grid = {
   /**
    * from east to west

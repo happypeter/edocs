@@ -46,7 +46,6 @@ const sliding_door = {
 }
 
 const main = () => { 
-  sizes()
   design()
   foundation()
   frame()
@@ -94,18 +93,8 @@ const foundation = () => {
   studs_sit_on_bricks()
 }
 
-const sizes = () => { 
-  /**
-   * patio size: 290x290cm
-   * my scooter 190
-   * - location:
-   *   - 100cm away from the gate wall, cause door is 90cm wide
-   * - size of the carport:
-   *   - 240cm wide
-   *   - 240cm deep
-   *   - height: low=160(yardwall)+39(treated wood stud wall)=199cm, high=200cm
-   * 
-   *  */ 
+const sizes  = { 
+  roof: '240x390'
 }
 
 const roof = () => { 
