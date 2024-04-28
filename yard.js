@@ -1,6 +1,13 @@
+
+
 const ideas = {
   grid_plan: 'yard will be dvided into many squares with labels',
   grade: 'each square is a leveled, grade free, area, only joineries has grade',
+
+  /**
+   * https://happypeter.github.io/githome/imgs/20240403/
+   */
+  next_versioin_water_hose: 'current one is too heavy, next version will be yellow color and thin, and extentable with PVC pipes'
 }
 
 const vege_garden = {
