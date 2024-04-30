@@ -75,8 +75,22 @@ const finish = () => {
   */
 }
 
+const bucket = {
+  /**
+   * large opening, shallow, so that's it's easy to reach the bottom when mixing
+   * not too heavy, one hand handle. which meaning my tub with two handles is obsolete
+   */
+}
+
 const mix_concrete = () => { 
    // cement:sand:gravels=1:2:6
+   // or 1:3:6, according to https://www.pro-mixconcrete.co.uk/concrete-mix-ratio-in-the-uk-the-ultimate-guide-for-builders-and-diy-enthusiasts/
+   /**
+    * measuring volume before mixing is kind of necessary now
+    */
+   const volumn_of_cement = 0.032 //cubic meter, one bag
+   const volume_form = 0.16 // 1 * 0.8 * 0.1 * 2 = 0.16
+   const cement_for_one_form = 0.02 // based on 1:3:4, 0.16/8, that is 2/3 of one bag of cement
    dry_mix_cement_n_sand()
    rest(10) // take a 10min break
    add_water_mix()
