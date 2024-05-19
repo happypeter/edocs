@@ -13,6 +13,10 @@ const ideas = {
 const vege_garden = {
   north_east_corner: {
     id: 0, //may be referred as block0
+    position: {
+      south_north: 'from north wall to garage wall',
+      east_west: 'from yard wall to garden',
+    },
     /**
      * close to neibor's house, will be a storage area with low roofs
      */
@@ -81,44 +85,10 @@ const guidelines = {
   nothing_but_boxes: "go "
 }
 
-const drainage = () => { 
+
+
+const undground_power_cord = {
   /**
-   * https://www.thisoldhouse.com/lawns/reviews/yard-grading
-   * "The best case scenario is a lawn that gently slopes away from your home’s foundation." 
-   * https://happypeter.github.io/githome/imgs/20221029/
-   * */ 
-  water_flow()
-  
-  /**
-   * - the workshop base and the space in the south of the workshop will be high
-   *   - then I can use up the soil now stand in the way
-   * - the east and west of the workshop will be low as two_rainage_lines
-   * - for all the workshop base and space around it
-   *   - I may or may not do concrete slab on top of it
-   *   - now I just want to design the grade
-   *     - the workshop base is as high as the footing allow
-   *       - add rocks on top of the soil
-   *     - the space in the south will be as high as the current two path slabs allow
-   *       - that include soil+sand+rocks layer
-   *     - the two_drainage_lines will be left lower
-   *       - I will put rocks on them, but make it possible to  build concrete slabs on top of it one day
+   * the only underground power line goes along side with the water line to the south wall https://happypeter.github.io/githome/imgs/20240412/
    */
-  grade()
-}
-
-const well_pit = () => { 
-  /* I want to build a patio to cover the pit 
-   part of the pit will be covered by unmovable slab
-   - make the lid on high end of the patio pitch, so that not much water will flow into the pit through the edge gaps
-     - and make the edge of the opening a bit high
-     - I saw a  electric checkpoint was just less than 1cm higher than the ground, with a metal lid 
-   leaving a small enough pid lid, that I can lift up when needed
-   build the lid with concrete, install a handle to life up
-   - make the bottom of pit covered with gravels, so that rain water can sink in
-     - if underground water come out? I need a build a water proof concrete pit for the pressure tank 
-
-  */
-}
-const out_gate_plumbing = () => { 
-   // check  https://happypeter.github.io/githome/imgs/20220928/
 }

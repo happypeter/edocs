@@ -125,3 +125,11 @@ let main_process = () => {
   bull_float(tools.float)
   finish()
 }
+
+const rock_pathway = {
+  /**
+   * - https://www.ixigua.com/7236371011984163343?logTag=4d32139b0943e99cf602
+   *   - if your rocks has sharp and rising edges, this won't work for you
+   * 
+   */
+}

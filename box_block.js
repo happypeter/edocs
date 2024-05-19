@@ -7,10 +7,11 @@
  * 
  */
 
-const roof = {
+export const modular_roof = {
   /**
    * a roof that follow box block pholosophy should be like this
-   * - overhang is a assesoary, cause it breaks the shape of a perfect box
+   * - overhang is allowed, even though it breaks the box shape of the shed as a whole
+   *   - but overhang not only bring shade and rain shleter, more importantly, they makes the whole structure more robust and secure
    * - roof will be build with serveral roof_unit
    * - each roof_unit is a box, or in this case a square
    * - when two square join,there will be a double lumber rafter, kind of overkill, but this is accecptable
