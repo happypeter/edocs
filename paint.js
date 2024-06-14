@@ -1,3 +1,7 @@
+const paint_wood = {
+  wall_nut_color: 'https://happypeter.github.io/githome/imgs/20240614/4.jpeg',
+}
+
 const paints = {
   /**
    * As long as have a yard, meaning I dont care the smile, oil based paint

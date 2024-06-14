@@ -26,12 +26,12 @@
   - 另外的思路，在左侧边栏操作，先 cmd-d 拷贝一个对象，然后直接把它移动到目标画板
   - 此时当然看不见，去 canvas 上拖拽这个对象到目标画板即可
 
-- 选中一个画板
+- select a artboard
   - 画板上没有任何 layer 的时候，点一下画板即可
   - 有了东西，可以点 artboard 的顶部的名字名字
   - 更实用的就是，右击 pick layer 选中画板名
 
 - 安装 icons
   - https://github.com/keremciu/sketch-iconfont
-    - 按照 readme 安装即可
+    - follow what's in README
     - 装完之后要是总不出现 Plugins-> Abstract -> Load 试试

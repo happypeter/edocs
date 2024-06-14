@@ -36,7 +36,16 @@ const second_storey = {
 
 const build_steps = () => { 
   /**
+   * more detailed:  https://happypeter.github.io/githome/imgs/20240523/
+   */
+  /**
    * first get a leveled foundation, be it footings on soil, or concrete slabs
+   * if you were to build on soil, follow:
+   * - build the footings
+   * - dig pits on site
+   * - sit footings in, use guide lines and level to check levels
+   * - pure some concrete arount the footings
+   * - img https://happypeter.github.io/githome/imgs/20240523/7.jpeg
    *  */ 
   leveled_foundation()
 

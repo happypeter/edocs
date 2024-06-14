@@ -37,5 +37,11 @@ export const accessory = {
    * as a accessory, outline size does not matter, but it's designed for a certain size @box
    * a accessory should be easliy taken off, in time when I need to assemble seveal boxes into one bigger thing
    */
-  
+}
+
+const tissu_box = {
+  /**
+   * a tissue box has to be heavy enough, otherwise it will move or lift when you pull the paper out
+   * https://happypeter.github.io/githome/imgs/20240614/
+   */
 }
