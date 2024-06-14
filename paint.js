@@ -1,5 +1,5 @@
 const paint_wood = {
-  wall_nut_color: 'https://happypeter.github.io/githome/imgs/20240614/4.jpeg',
+  walnut_color: 'https://happypeter.github.io/githome/imgs/20240614/4.jpeg',
 }
 
 const paints = {
