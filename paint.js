@@ -1,5 +1,22 @@
+const paint_furniture = {
+  //https://www.bilibili.com/video/BV1Z24y177nS
+}
 const paint_wood = {
+  /**
+   * this is a failed test, the paint is too oily and smelly
+   * stain color is OK
+   */
   walnut_color: 'https://happypeter.github.io/githome/imgs/20240614/4.jpeg',
+  /**
+   * to paint nothing can be a option,
+   * any finishing will change the warm feel of the wood surface
+   * and the lighter color of raw wood, can be more elegent than the oily result after painting
+   */
+  nothing: 'or just some wax',
+  /**
+   * if you want to change color but keep the feel, use no paint but sealers
+   */
+  sealer: 'just sealer and wax',
 }
 
 const paints = {
@@ -34,11 +51,11 @@ let prepare_surface = () => {
    /*
    stain does not protect your wood, just color it https://www.youtube.com/watch?v=vfeAxUfoEdE
    */
-  if(out_door?) {
+  if(out_door) {
     // use color paint is best https://youtu.be/WqB8eSkh_TE?t=70
     // or use oil-based polyurethane https://youtu.be/WqB8eSkh_TE?t=240
   } else {
-    stain() // and then use trasparent paint
+    stain()
   }
    
    prime(soft_roller, brush) // https://youtu.be/JAJt8Tsn5yQ?t=232 , don't just use brush, too slow

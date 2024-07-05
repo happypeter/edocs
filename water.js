@@ -43,7 +43,9 @@ const drainage = () => {
  * so maybe I will setup some drainage pipes to channel water to the west
  */
 /**
- * drainage water flow https://happypeter.github.io/githome/imgs/20221029/2.jpg
+ * drainage water flow:
+ * - v1: https://happypeter.github.io/githome/imgs/20221029/2.jpg
+ * - v2: https://happypeter.github.io/githome/imgs/20240705/
  * out gate area drainage https://happypeter.github.io/githome/imgs/20220928/
  * 
  */
