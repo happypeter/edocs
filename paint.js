@@ -1,4 +1,5 @@
 const paint_furniture = {
+  // types test https://www.bilibili.com/video/BV1P94y1Q7TE/
   //https://www.bilibili.com/video/BV1Z24y177nS
 }
 const paint_wood = {

@@ -75,7 +75,13 @@ export const yard_building_color_theme = {
   snow: "white is OK, since winter has snow",
   reclimed_wood: "pale gray color, see my carport",
   black: 'black and gray', // 
-  OSB_color: "rich yellow"// my carport is a example
+  /**
+   * OSB exposed in the yard gives warm and elegent feeling
+   * - don't use gray for small yard things like tables
+   *   - dirty plus small plus gray looks horriable
+   * 
+   */
+  OSB_color: "rich yellow"
 }
 
 const guidelines = {
