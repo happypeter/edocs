@@ -29,8 +29,14 @@ const box_unit = {
 }
 
 const second_storey = {
+
+
   /**
-   * 
+   * - no overhang for the roof of the first
+   *   - so that the second floor will get a solid base
+   *   - make it hurrcane proof
+   * - stud walls will be used
+   *   - lower part of the walls will be sheathed, to prevent rain goes to the floor
    */
 }
 

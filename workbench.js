@@ -107,7 +107,12 @@ export const yard_bench = () => {
 
 export const shop_bench = () => {
   vise()
-  home_table_saw()
+  /**
+   * use mdf as top, or have plywood on top of mdf:
+   * 
+   * https://www.youtube.com/watch?v=P7EOAJIQJ2A
+   * - 5 feathers for a workbench: no.1 be heavy no.2 
+   */
 }
 
 

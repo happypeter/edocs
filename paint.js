@@ -18,6 +18,10 @@ const paint_wood = {
    * if you want to change color but keep the feel, use no paint but sealers
    */
   sealer: 'just sealer and wax',
+  /**
+   * https://www.bilibili.com/video/BV1ZB421B7pF
+   */
+  beewax: '3 coats'
 }
 
 const paints = {

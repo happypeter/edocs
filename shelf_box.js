@@ -92,12 +92,38 @@ const standards = {
    * 'only care exterior sizes, care for being stackable, not nesting'
    */
   sizes: {
-    interior: '10n', //10cm, 20cm,...
-    yard: '20n', //20cm, 40cm...
-    shelf_depth: '20n',
+    box: {
+      step: '5n', //, for the box I want to put inside a container, 5cm, 10cm, 15cm, 20cm...
+      primary_sizes: [
+        '15x15x10tall', //for screws and small things
+        /* the 30deep series of boxes, are aimed for @containers.primary_sizes.workhorse_cabinet
+         width can be 10cm, 15, 20, height, can be 5cm, to, 25cm,
+         */
+        '30deep x 5nWidth x 5nheight)', 
+      ]
+    },
+    
+    containers: {
+      step: '10n', //containers, like drawers, shelves, wall cabinets, I will use 10 as a step
+      primary_sizes: {
+        workhorse_cabinet: '30deepx60tallx60wide', // my workhorse wall cabinets
+      }
+    },
   },
   colors: {
     simple: 'by default only, black, gray, wood, white allowed'
+  },
+  stackable: {
+    /**
+     * NO.1 flat top, NO.2 follow @standards.sizes.box
+     */
+  }
+}
+
+const workhorse_cabinet = {
+  size: {
+    deep: '30cm',
+    height_width: '60cm'
   }
 }
 
@@ -116,12 +142,13 @@ const cabinet_everywhere = () => {
     *     - a very low cabinet with all 6 faces
     * - workhouse_cabinet cutlist: Documents/ketchup/workhorse_cabinet.sketch
     */
-   workhouse_cabinet()
+   use(workhorse_cabinet)
 }
 
 const workhourse_wall_hung_shelves = () => { 
+  build_with(workhorse_cabinet)
   /**
-   * do the billie desk style cabinet
+   * 
    * screw it on the woodboard without the cleats
    * this is much stronger than most structures, despite the simplicity
    *   - for example, to store lumbers, instead of https://happypeter.github.io/githome/imgs/20220402/2.jpg
