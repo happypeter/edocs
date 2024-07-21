@@ -28,6 +28,23 @@ const githome_toilet = {
   price: '120RMB', source: shop_name.haiyang_second_hand
 }
 
+shopping_list_20240721 = [
+  {
+    product: lumber["4x8x200"],
+    details: 'x57',
+    total: '5.5x57RMB'
+  },
+  {
+    product: lumber["4x8x300"],
+    details: 'x68',
+    total: '11x68RMB'
+  },
+  {
+    product: boards.pallet,
+    details: '.56ton',
+    totals: '1200x0.56'
+  }
+]
 shopping_list_20230928 = [
   // the mid-autumn 6000 thousand purchase
   {
@@ -127,6 +144,14 @@ const shopping_list_20221028 = [
 ]
 
 export const boards = {
+  pallet: {
+    '1': {
+      // 1200RMB/ton reclaimed wood, containing 1cm thick, 2m long boards
+      // they are not in perfect shape, but look at this https://www.bilibili.com/video/BV1oZ421K7WN/
+      // you don't need dead square things to build awesome
+      source: shop_name.north_ring_road, price: 1200
+    }
+  },
   faced_pannel: {
     '15': { source: shop_name.huayun_wang, price: 130 }, 
   },
@@ -176,18 +201,23 @@ export const lumber = {
      */
     real_size: '9x9x400', price: '44RMB', source: shop_name.north_ring_road
   },
-  '5x10': {
+  '5x10x400': {
     /**
      * this will be my current fav workhorse 2by4(3.8cmx8.9cm)
      */
     real_size: '(4~5)x(9.0~10)x390', price: '18RRM', source: shop_name.north_ring_road
   },
-  '4x8': {
+  '4x8x200': {
     /**
      * reclaimed, cheapest thing in all my products here
      */
-    real_size: '(32~35)x70x(1800x2000)',
-    price: '4RMB',
+    real_size: '(32~35)x70x(1800~2000)',
+    price: '5.5RMB', // last purchase was 4
+    source: shop_name.north_ring_road
+  },
+  '4x8x300': {
+    real_size: '(32~35)x70x(2500~3000)',
+    price: '11RMB', // a bit pricy, conpared to '5x10x400' ones
     source: shop_name.north_ring_road
   }
 }
@@ -283,78 +313,6 @@ export const hardware = {
   }, 
 }
 
-
-export const paint = {
-  outdoor_oil_xinletian: '防腐木油，拼多多 鑫乐天官方旗舰店，8.8RMB/500g',
-  /**
-   * this is cheap
-   */
-  wax_oil_sanqing: '水性木蜡油，品牌：三清漆，颜色：栗壳',
-  /**
-   * I will use this as stain
-   * but I believe it also offers a basic level of stain and water protection
-   * mostly for indoor use
-   * unless I will give polyurethane on top
-   */
-  paint_royal: '水性木器漆，品牌：皇室智漆 白色 35RMB/2kg',
-  /**
-   * I painted Billie's desk support with this, the result was OK
-   * but I found it not really adheisive to plywood
-   * I will abandon this one
-   */
-  paint_yuese: '水性通用漆，15.9RMB/kg, 拼多多，越色基础建材旗舰店',
-  /**
-   * water-based, I will keep it for indoor usage, this is not expensive
-   */
-  water_mixed_paint: '水性调和漆 立邦 保得丽 160RMB/3kg 伊林环宇王xx',
-  /**
-   * since it is water-based, I won't use it outdoors, even it is permitted on the package
-   * Internet told 调和漆是室内用的, varnish is for outdoor use
-   */
-  water_based_resin: '拼多多 好百年家居装饰店 %80树脂 水性 透明 22.8RMB/kg',
-  /**
-   * hopefully this will be strong as polyurethane, this is very cheap
-   */
-  acrylic_jueyou: '京东 亿家美家装，掘优水性地板透明，家居门窗，丙烯酸树脂，NOTE: this is not strong as polyurethane 78RMB/kg',
-  /**
-   * - indoor use
-   * - just a cheaper polyurethane with thinner film
-   * - can be a good choice when you want a less plasticy feel
-   */
-  ployurethane_jueyou: '京东 亿家美家装，掘优水性地板透明，地板，NOTE: this is strong polyurethane 59RMB/400g, 138RMB/kg',
-  /**
-   * - strong and good
-   * - too expensive
-   */
-  ployurethane_guxiang: '京东 古象685聚氨酯漆 透明清面漆 105RMB/1.25kg',
-  /***
-   * cheaper ployurethane
-   */
-alkyd_enamls_changjiang: '和平大街 灯塔油漆专卖 长江金装100 醇酸面漆 70RMB/3kg, 拼多多 59RMB, NOTE: really cheap and strong compareed to others',
-  alkyd_enamls_beacon: '和平大街 灯塔油漆专卖 灯塔 醇酸磁漆 树脂含量 15%-45% 30RMB/800g 黑色 理论用量 120g/m2',
-  /**
-   * 磁漆 enaml 就是带颜色的清漆
-  */
-  alkyd_varnish_beacon_40: 'oil based ployurethane 和平大街 灯塔油漆专卖 灯塔 醇酸清漆 树脂含量 45%-55% 40RMB/700g',
-  /**
-   * 
-   * 清漆就是 varnish 
-   * 带醇酸字样的基本就是 oil-based 是有“耐候性”的, for outdoor usecases
-   */
-  alkyd_varnish_becacon_30: 'oil based ployurethane 和平大街 灯塔油漆专卖 灯塔 醇酸清漆 树脂含量 45%-55% 30RMB/700g, NOTE: this just cheaper',
-
-  
-/* SO, what to use
-    - if you want to protect it from sunshine(UV) and water and scratch
-      - outdoor: alkyd varnish/paint, 'varnish is less strong than ployurethane, but it offers better UV protection'
-        - if you want to paint your deck, this is what you want
-      - indoor: water-based polyurethane
-        - your floor and tables
-      - indoor: wax oil
-        - to keep the real wood feeling surface
-*/
-
-}
 
 
 export const channel_board = {

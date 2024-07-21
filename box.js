@@ -39,8 +39,10 @@ export const accessory = {
    */
 }
 
-const tissu_box = {
+const tissue_box = {
+
   /**
+   * wax_oil is perfect for the finish
    * a tissue box has to be heavy enough, otherwise it will move or lift when you pull the paper out
    * https://happypeter.github.io/githome/imgs/20240614/
    */

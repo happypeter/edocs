@@ -20,6 +20,7 @@ export const joinery_shopping_list = {
   - the process of joining wood together
   - https://youtu.be/7vZ_ZyHnOFM?t=46
 - ways of joinery?
+  - use screws, counter sink, with holes covered with dowels https://www.youtube.com/watch?v=AIfv7E6bpA0
   - fasteners
   - you can use intermediary wood, dowels and biscuits
   - shapes, like dovetails
@@ -71,6 +72,12 @@ export const pole_concrete_join = () => {
 
 export const nails = {
   '8': '8cm nail for reclaimed 4.5cm thick lumber'
+}
+
+const miter_joint = {
+  /**
+   * how to cut perfct 45degrees https://www.youtube.com/watch?v=TBYYefxqOBQ
+   */
 }
 
 export const angle_iron_punched = {
