@@ -7,6 +7,7 @@ const shop_name = {
   jingdong_kurui: '京东:睿筑旗舰店', // serious problem: crazy transport cost 270RMB for 8 OSB boards
   huayun_wang: '华运建材城，伊林环宇王旭东',
   haiyang_second_hand: '海阳旧货市场',
+  pdd_board: '拼多多 永和木业'
 }
 
 const glazings = {
@@ -27,6 +28,21 @@ const glazings = {
 const githome_toilet = {
   price: '120RMB', source: shop_name.haiyang_second_hand
 }
+
+shopping_list_20240729 = [
+  {
+    product: boards.pine.finger[8],
+    total: '4x115RMB'
+  },
+  {
+    product: boards.pine.finger[9],
+    total: '2x141RMB'
+  },
+  {
+    product: boards.pine.finger[12],
+    total: '2x163RMB'
+  }
+]
 
 shopping_list_20240721 = [
   {
@@ -183,6 +199,13 @@ export const boards = {
                       real_size: '10x915x1830', price: 38,
                       detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB. one more thing, since it is finished with paint already, guess I can use it as the exterior sheathing of my sheds',
                       }, 
+  },
+  pine: {
+    finger: {
+      '8': { source: shop_name.pdd_board,real_size: '1.22x2.44', price: 115 },
+      '9': { source: shop_name.pdd_board,real_size: '1.22x2.44', price: 131 },
+      '12': { source: shop_name.pdd_board,real_size: '1.22x2.44', price: 163 },
+    }
   }
 
 }
