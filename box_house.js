@@ -1,4 +1,6 @@
-
+/**
+ * ref: pole barn with pitched roof https://www.youtube.com/watch?v=yKoJTLy9DW8
+ */
 import { modular_roof } from "./box_block"
 
 const inspirations = {
@@ -11,7 +13,13 @@ const inspirations = {
 
 const roof = () => { 
   /**
-   * 
+   * - follow this: https://www.youtube.com/watch?v=mwMdfF1RGyE
+   *   - in case VPN sucks https://happypeter.github.io/githome/imgs/20240728/
+   *   - key points
+    *   - use as many braces, no shame
+    *   - no plywood sheathing, just crossed lumbers
+    *   - you still go to the top to install sheet metal
+    *     - sheet metal overhang 5cm
    */
   use(modular_roof)
 }
@@ -32,13 +40,34 @@ const second_storey = {
 
 
   /**
+   * - https://www.bilibili.com/video/BV1BS421X7ca/
    * - no overhang for the roof of the first
    *   - so that the second floor will get a solid base
    *   - make it hurrcane proof
    * - stud walls will be used
    *   - lower part of the walls will be sheathed, to prevent rain goes to the floor
+   *   - start with bracing for shear force, later maybe partially changed to plywood if I want to hang things on the wall
+   *   - width = sheet_metal_standard_width - joint
+   *   - height = sheet_metal_height
+   * - airy and sun/rain proof
+   *   - think it as a lumber storage place
+   *   - rain proof
+   *     - at least part of the space will be complete rain drop free, so that I can keep wood board there
+   *       - I will allow some rain drop at the doorway
+   *     - lower part of the walls will be sheathed will sheet metal
+   *       - so that no rain will drop on the floor
+   *   - solid wood board will be used for floor
+   *   - how to keep airy
+   *     - have the roof size generous, then upper 10 percent wall can be left unsheathed
+   *     - there will be no windows, but two doorways without doors
+   *       - they will be the main way that bring the light and air movement
+   *       
+   *     
+
    */
 }
+
+
 
 const build_steps = () => { 
   /**

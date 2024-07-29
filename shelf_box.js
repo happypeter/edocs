@@ -1,4 +1,5 @@
 /**
+ * - search 'amazon warehouse' or 'homedepot' to be inspired on how storage is done
  * - Go Bauhuas, everything should be a box
  *   - literally, everything, cabinets, houses, racks, sheds, beds
  *   - each components should share implementation details as much as possible
@@ -84,7 +85,7 @@ const plank_cleat = () => {
 
 
 
-const standards = {
+export const standards = {
   /**
    * aka, design guidelines
    * the extrior size matters a lot, since we need to veritcally or horizontally assemble the boxes
@@ -107,6 +108,7 @@ const standards = {
       step: '10n', //containers, like drawers, shelves, wall cabinets, I will use 10 as a step
       primary_sizes: {
         workhorse_cabinet: '30deepx60tallx60wide', // my workhorse wall cabinets
+        sixty_cubic: '60x60x60',
       }
     },
   },

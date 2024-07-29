@@ -1,3 +1,5 @@
+import { standards } from "./shelf_box"
+
 const philos = {
   /**
    * - the finally product, e.g a cabinet, does not need to be a perfect box all the time, it's not the point
@@ -46,4 +48,47 @@ const tissue_box = {
    * a tissue box has to be heavy enough, otherwise it will move or lift when you pull the paper out
    * https://happypeter.github.io/githome/imgs/20240614/
    */
+}
+
+const miter_joint_box = {
+  /**
+   * https://happypeter.github.io/githome/imgs/20240724/
+   * now we have stoppers, so the hands need to foucs on pushing downward
+   * - https://www.youtube.com/watch?v=kOmfHS3HtqM
+   *   - cut miter at 45.5 degree
+   */
+}
+
+const shallow_tool_box = {
+  /**
+   * I need toolcart sytle very shallow boxes for my tools
+   * - I dont want to do the dado groove slide drawers units like https://www.youtube.com/watch?v=Hw2arZq0hqs
+   *   - cause I still want my box to be perfectly cubic, stackable, follow this.specs
+   *   - I don't want to buy 10mm plywood to build thick bottom drawers, they are too heavy
+   * - instead, I will do perfect cubic shallow boxes
+   *   - and build accessories to make them function like drawers
+   *   - just as I do to ./tool_cart.js https://happypeter.github.io/githome/imgs/20240402/
+   * - no all size boxes can be used for this
+   *   - my 30x50x5tall boxes just too narrow
+   * 
+   * 
+   */
+  s_box: {
+    demension: {
+      height: 5,
+      width: 50,
+      depth: 55,
+    }
+  },
+  carcss: {
+    /**
+     * - carcass height and depth will be following shelf_box::standards
+     *   - except the width
+     */
+    demension: {
+      height: 60, // standardized
+      width: 53.8, // customized for the 50wide box width, preferably use streches, so that cut-offs will be used
+      depth: 60, // standardized
+    }
+  }
 }
