@@ -87,7 +87,11 @@ const shallow_tool_box = {
      */
     demension: {
       height: 60, // standardized
-      width: 53.8, // customized for the 50wide box width, preferably use streches, so that cut-offs will be used
+      /**
+       * customized for the 50wide box width, preferably use streches, so that cut-offs will be used
+       * the 0.4 gap tolerence is more than enough, I had 0.8, it was a mistake
+       */
+      width: 53.4, 
       depth: 60, // standardized
     }
   }
