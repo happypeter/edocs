@@ -2,6 +2,7 @@
  * ref: pole barn with pitched roof https://www.youtube.com/watch?v=yKoJTLy9DW8
  */
 import { modular_roof } from "./box_block"
+import { lumber } from "./wood_shopping"
 
 const inspirations = {
   /**
@@ -36,8 +37,33 @@ const box_unit = {
    */
 }
 
+const frame_unit = {
+  modules: {
+    workhorse: {
+      dementions: {
+        height: 180,
+        width: 90,
+        thickness: [9.5, 7],
+        mateiral: [lumber["4x8x200"], lumber["5x10x400"]],
+      }
+    },
+    roof_unit: {
+      /**
+       * this is largely depends on the size of the building,
+       * so the length is hard to control, but I still want to control the width of it.
+       * if I do decide use frame_unit to build the roof from time to time.
+       * mostly I won't.
+       */
+    }
+  }
+}
+
 const second_storey = {
 
+  /**
+   * why NOT pole barn?
+   * A: thought of pole bar for a moment, the biggest benifit being you get two tall poles in front, and two low poles in the back, so you naturally get the base of a lean to roof, and it is strong. but turned out if you want sheathing and, pole bar does not save a lot of work. on the other hand, if you build stud walls, you can easliy do moust of the work on the ground, so, I will still do the box-on-box approch. more moudular, less bindings. have dead simple boxes, and join them with accessories.
+   */
 
   /**
    * - https://www.bilibili.com/video/BV1BS421X7ca/

@@ -14,3 +14,11 @@ const storage_spaces = [
   'the width of my hand truck',
   'the lower storey of my work bench'
 ]
+
+box: {
+  demesion: {
+    length: 60, // this is only demension I conctrol
+    height: undefined, // they are stackable, so height can be flexable
+    width: '<60', // otherwise it will be too heavy
+  }
+}

@@ -1,4 +1,7 @@
+
 /**
+ * I love Timber Frame Bench https://www.youtube.com/watch?v=fg5qjed7u-k
+ * 
  * side notes:
  * - I am not building a bench, I am building a box, anything should be a perfect cubiod box
  * - perfect box can be easily extended in anyway
@@ -112,6 +115,7 @@ export const shop_bench = () => {
    * 
    * https://www.youtube.com/watch?v=P7EOAJIQJ2A
    * - 5 feathers for a workbench: no.1 be heavy no.2 
+   *   - solid wood slab top requires planner usage, too hard
    */
 }
 
