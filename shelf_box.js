@@ -129,6 +129,13 @@ const workhorse_cabinet = {
   }
 }
 
+const osb_boxes = {
+  /**
+   * https://happypeter.github.io/githome/imgs/20240822/
+   * use solid wood pannel or bottom plywood board to seal/cover the edges of OSB or faced board, if you do want to use them to build boxes
+   */
+}
+
 const cabinet_everywhere = () => { 
    /**
     * - add toe kick 

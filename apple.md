@@ -1,4 +1,6 @@
 ## change my Macbook Pro battary
+  - A1398 is my model, merchant needs this to tell the battary model
+    - 248RMB on PDD
   - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
     - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
     - my plan is to have a first try, remove the battary without glue remover

@@ -10,6 +10,23 @@ const inspirations = {
    */
 }
 
+const outdoor_structural_blocks = {
+  /**
+   * Unless I have to do otherwise, I build with only the resusable lego-ish blocks
+   */
+  beams: {
+    /**
+     * the idea is for very good and strong lumber, I try not to cut them short
+     * if the span is only 2m, use thin material instead
+     */
+    length: '>3.6m'
+  },
+  blocks: [
+    frame_unit,
+
+  ]
+
+}
 
 
 const roof = () => { 
@@ -45,7 +62,11 @@ const frame_unit = {
         width: 90,
         thickness: [9.5, 7],
         mateiral: [lumber["4x8x200"], lumber["5x10x400"]],
-      }
+      },
+      /**
+       * I will use a brace, and later change to some sheath if necessary
+       */
+      between_studs: 'no',
     },
     roof_unit: {
       /**
@@ -73,7 +94,6 @@ const second_storey = {
    * - stud walls will be used
    *   - lower part of the walls will be sheathed, to prevent rain goes to the floor
    *   - start with bracing for shear force, later maybe partially changed to plywood if I want to hang things on the wall
-   *   - width = sheet_metal_standard_width - joint
    *   - height = sheet_metal_height
    * - airy and sun/rain proof
    *   - think it as a lumber storage place
@@ -132,4 +152,12 @@ const build_steps = () => {
 
   add_shear_walls()
 
+}
+
+const wall = {
+  layers: 'plastic film below, wood planks',
+  windowish: 'use OSB/sheetMetal in the middle of a wood planks siding, , rich/warm color OSB with paint, look great on a rusty wood background, metal sheets used to cut cost, when wood planks already provide enough shear strength',
+  /**
+   * 
+   */
 }

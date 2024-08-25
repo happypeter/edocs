@@ -108,7 +108,16 @@ export const yard_bench = () => {
 
 
 
-export const shop_bench = () => {
+
+const get_tight_fit = () => { 
+  /**
+   * how to get a tight fir: do multi-pass to cut the slot, you don't need a sled to do the job,
+   * https://happypeter.github.io/githome/imgs/20240825/
+   * knock off the material
+   * then use table saw to flat the opening surface,
+   * design the slot 1 or 2 cm smaller than the strecher, then fine adjust tablesaw to remove material from the ends of strechers, until u reach a tight fit. in other words, design the size and postion of the opening/slot, and cut them, then try to fit in the strecher, measure-mark-cut does not work. */ 
+}
+export const mdf_bench = () => {
   vise()
   /**
    * use mdf as top, or have plywood on top of mdf:
@@ -117,6 +126,26 @@ export const shop_bench = () => {
    * - 5 feathers for a workbench: no.1 be heavy no.2 
    *   - solid wood slab top requires planner usage, too hard
    */
+  const base = {
+    /**
+     * use glue, and half laps, no braces
+     * follow the two principles, the design is obvious
+     * since I am using 45x90mm cross section lumber, aka, it's too thick to use many of the designs on the web
+     * so the current design is valuable IMO, mostly like this one https://www.instructables.com/DIY-Heavy-Duty-Workbench/
+     * 
+     */
+
+    /**
+     * for enough shear strength, make sure the fit is tight,
+     * and you hammer in the pieces to the dados
+     */
+    fit: get_tight_fit(),
+    leg: {
+      /**
+       * I glued two lumbers into a thicker leg, the glue is not necessary, nails will do the job
+       */
+    }
+  }
 }
 
 
@@ -172,6 +201,13 @@ const drawers = () => {
    * nothing at all https://www.bilibili.com/video/BV1db411U7z2/
    * - April's workbench drawers https://youtu.be/x9XIrfiNyUA?t=687
    *  */ 
+}
+
+const crate_worktable = {
+  /**
+   * designed for the kitchen to host crates
+   * pitfalls: for a >1.2m structures, don't use material <25mm thick, no matter how generous the width goes.
+   */
 }
 
 const clampable = () => { 
@@ -283,3 +319,5 @@ const sawhorse = () => {
    *   - stay cubiods, even this means the result will be heavy
    *  */ 
 }
+
+

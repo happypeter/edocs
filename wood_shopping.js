@@ -44,7 +44,7 @@ shopping_list_20240729 = [
   }
 ]
 
-shopping_list_20240721 = [
+export const shopping_list_20240721 = [
   {
     product: lumber["4x8x200"],
     details: 'x57',
@@ -58,7 +58,7 @@ shopping_list_20240721 = [
   {
     product: boards.pallet,
     details: '.56ton',
-    totals: '1200x0.56'
+    totals: '1200x0.56' // 672RMB
   }
 ]
 shopping_list_20230928 = [
