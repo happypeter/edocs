@@ -6,6 +6,7 @@
  * 
  */
 
+import { issues } from "./githome_issues_2024";
 import { joinery_shopping_list, nails, pole_concrete_join } from "./joinery";
 import { boards } from "./wood_shopping"
 import { yard_building_color_theme } from "./yard";
@@ -15,6 +16,10 @@ const mainRef = 'youtube:KomarProject/How to Build A Shed from Start to Finish'
 const polebarnRef = 'youtube: koality of life/The Woodshed that works for you Pole Barn'
 
 const color = yard_building_color_theme;
+
+const costs = [
+   issues.aug28.west_house_siding,
+]
 
 
 const parts = {

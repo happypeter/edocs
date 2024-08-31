@@ -10,7 +10,11 @@
  *   - in other words, more work. and not necessary
  */
 
+import { issues } from "./githome_issues_2024"
+
 const Height = 80 // cm, when I need to mostly stand
+
+
 const assmebly_table = {
   /**
    * this goes to my assembly_room
@@ -114,10 +118,21 @@ const get_tight_fit = () => {
    * how to get a tight fir: do multi-pass to cut the slot, you don't need a sled to do the job,
    * https://happypeter.github.io/githome/imgs/20240825/
    * knock off the material
-   * then use table saw to flat the opening surface,
-   * design the slot 1 or 2 cm smaller than the strecher, then fine adjust tablesaw to remove material from the ends of strechers, until u reach a tight fit. in other words, design the size and postion of the opening/slot, and cut them, then try to fit in the strecher, measure-mark-cut does not work. */ 
+   * then use table saw to flat the notch surface,
+   * design the notch 1 or 2 cm smaller than the strecher, then fine adjust tablesaw to remove material from the ends of strechers, until u reach a tight fit. in other words, design the size and postion of the opening/slot, and cut them, then try to fit in the strecher, measure-mark-cut does not work. */ 
 }
-export const mdf_bench = () => {
+
+const small_slab_bench = {
+  costs: [
+    issues.aug31.polish_slab_bench,
+  ]
+
+}
+
+const mdf_bench = () => {
+  const costs = [
+    issues.aug28.move_mdf_bench
+  ]
   vise()
   /**
    * use mdf as top, or have plywood on top of mdf:
@@ -127,6 +142,9 @@ export const mdf_bench = () => {
    *   - solid wood slab top requires planner usage, too hard
    */
   const base = {
+    pitfall: {
+      flush: 'make sure top face of your top strechers level with or higher than the leg top face, otherwise they can not touch the bottom of table top which needs their support'
+    },
     /**
      * use glue, and half laps, no braces
      * follow the two principles, the design is obvious
@@ -141,9 +159,6 @@ export const mdf_bench = () => {
      */
     fit: get_tight_fit(),
     leg: {
-      /**
-       * I glued two lumbers into a thicker leg, the glue is not necessary, nails will do the job
-       */
     }
   }
 }

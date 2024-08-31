@@ -1,5 +1,9 @@
-import { standards } from "./shelf_box"
+import { issues } from "./githome_issues_2024"
+import { standards } from "./shelf_box",
 
+const costs = [
+  issues.aug28.bracket_install
+]
 const philos = {
   /**
    * - the finally product, e.g a cabinet, does not need to be a perfect box all the time, it's not the point

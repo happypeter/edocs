@@ -1,3 +1,18 @@
+const essential_feathers = {
+  stronger: 'next saw I want it be stronger, especically rip fence'
+}
+
+const shopping = {
+  slide_strips: {
+    source: 'douyin 洛克士旗舰店',
+    price: '40RMB for a pair',
+    use: 'for the sled'
+  }
+}
+const costs = [
+  slide_strips,
+]
+
 const sled = () => { 
   /**
    * I can buy sliding strips at 抖音 洛克士五金 */   
@@ -106,7 +121,6 @@ const folding_table = () => {
   - don't leave the smaller part between the blade and fence https://youtu.be/5ADbrYJtDP8?t=234
     - two reasons: 1. small things fly esaily, 2. kickbacks do not happen on the oppsite side of the fence
   - what is a kickback https://youtu.be/5ADbrYJtDP8?t=184
-
 
 
 - bench 

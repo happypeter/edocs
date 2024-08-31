@@ -2,7 +2,13 @@
  * ref: pole barn with pitched roof https://www.youtube.com/watch?v=yKoJTLy9DW8
  */
 import { modular_roof } from "./box_block"
+import { issues } from "./githome_issues_2024"
 import { lumber } from "./wood_shopping"
+
+
+const costs = [
+  issues.aug31.box_house_roofing,
+]
 
 const inspirations = {
   /**
@@ -159,5 +165,12 @@ const wall = {
   windowish: 'use OSB/sheetMetal in the middle of a wood planks siding, , rich/warm color OSB with paint, look great on a rusty wood background, metal sheets used to cut cost, when wood planks already provide enough shear strength',
   /**
    * 
+   */
+}
+
+const wall_top_awning = {
+  /**
+   * https://happypeter.github.io/githome/imgs/20240825/
+   * to invite enough sunshine and airflow, I removed the cover metal on top of the brick wall, and replaced with awning instead
    */
 }

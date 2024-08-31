@@ -4,12 +4,19 @@ https://www.youtube.com/watch?v=lpxY6M0uf8s
 https://youtu.be/tfwMFNyHzn8?t=228
 */
 
+const philo = {
+  /**
+   * the 'box' I need to control demensions on is the drawer box, not container/carcass box
+   * faceboard, carcass, handles, slides, are all accessories of 'box'es
+   */
+  box: 'control the demenstion of each drawer box',
+}
 
 const materials = {
   plywood: 'most often used',
   OSB: 'if edge banding is done, it is good looking enough for any place',
   wood: '15mm thick pannel is not strong enough for 55cm deep large drawers',
-  board: {
+  pine_board: {
     thickness: 15, //mm, this is the case for OSB and plywood, which I use for drawer box walls
   }
 }
@@ -21,9 +28,11 @@ const plastic_box_drawers = {
 }
 
 const wood_slide = {
+  default_solution: 'box_height + 2mm gaps between two wood strips'
   /**
-   * https://www.bilibili.com/video/BV1Mi4y1f7rM
+   * a complicated wood slides: https://www.bilibili.com/video/BV1Mi4y1f7rM
    * - built with plywood https://www.bilibili.com/video/BV1sd4y1x7zo/
+   * - polyurethane on slides
    */
 }
 

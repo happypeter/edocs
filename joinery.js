@@ -11,10 +11,33 @@ export const joinery_shopping_list = {
   },
 }
 
+const screws = {
+  pan_head: {
+    stainless_16: {
+      price: 0.05, 
+      why: {
+        stability: 'mostly with water proof washers, even though it is stainless, not magnetic, but still my screw driver head holds it when the angle is atound 45degree from gravity direction, I had used pockect screw for the job, but they are long and thin, hard to be kept on top of my screw driver bit',
+        durable: 'its stainless, so perfect for outdoors',
+        source: 'PDD 304不锈钢大扁头螺丝木牙',
+        length: '16mm is the thread length, which is more verstile than any other length, I find anything shoter is harder to reach base material, longer can pierce to the other side of the base 15mm OSB base material'
+      },
+      zinc_16: {
+        price: 0.07, 
+        why: {
+          stability: 'is is magnetic and the head is a bit bigger than stainless_16, so more stable to hold with my screw driver, when I work will awkward postions, this matters',
+          durable: 'probably not as good as stainless, but I had a lot of them working outside for 2years, still in good shape',
+          source: 'PDD 高强度自攻螺丝大扁头大头十字',
+          length: 'thread length is also 16mm or so, , used as a alternative to stainless_16',
+        },
+
+
+      
+    }
+  }
+}
+
+
 /*
-- screw types
-  - my self-drilling screws are for metals not wood
-    - it cuts threads in the materil https://youtu.be/WtS4r0SRygY?t=260
 - what is joinery?
   - how to attach a piece to another
   - the process of joining wood together
