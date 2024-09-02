@@ -1,3 +1,27 @@
+const sep2 = {
+  lumber_rack_day2: {
+    deck: 'more storeys',
+    time: 4,
+  },
+  sink_counter: {
+    desc: 'with wood',
+    time: 2,
+  },
+  crate_worktable_done: {
+    desc: 'shipped',
+    time: 1,
+  }
+}
+const sep1 = {
+  lumber_rack_day1: {
+    desc: 'removing nails and clean the ground took time',
+    time: 4,
+  },
+  pu_paint: {
+    desc: 'kitch table',
+    time: 1,
+  }
+}
 const aug31 = {
   polish_slab_bench: {
     desc: 'flat the top',
@@ -53,4 +77,6 @@ export const issues = {
   aug29,
   aug30,
   aug31,
+  sep1,
+  sep2,
 }

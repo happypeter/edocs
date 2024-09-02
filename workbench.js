@@ -126,7 +126,6 @@ const small_slab_bench = {
   costs: [
     issues.aug31.polish_slab_bench,
   ]
-
 }
 
 const mdf_bench = () => {
@@ -219,6 +218,9 @@ const drawers = () => {
 }
 
 const crate_worktable = {
+  costs: [
+    issues.sep2.crate_worktable_done,
+  ]
   /**
    * designed for the kitchen to host crates
    * pitfalls: for a >1.2m structures, don't use material <25mm thick, no matter how generous the width goes.

@@ -94,7 +94,7 @@ export const standards = {
    */
   sizes: {
     box: {
-      step: '5n', //, for the box I want to put inside a container, 5cm, 10cm, 15cm, 20cm...
+      step: '5n', //, for the box I want to put inside a container, make them multiples of 5, e.g 5cm, 10cm, 15cm, 20cm...
       primary_sizes: [
         '15x15x10tall', //for screws and small things
         /* the 30deep series of boxes, are aimed for @containers.primary_sizes.workhorse_cabinet
@@ -105,7 +105,7 @@ export const standards = {
     },
     
     containers: {
-      step: '10n', //containers, like drawers, shelves, wall cabinets, I will use 10 as a step
+      step: '10n', //containers, like drawers, shelves, wall cabinets, multiples of 10
       primary_sizes: {
         workhorse_cabinet: '30deepx60tallx60wide', // my workhorse wall cabinets
         sixty_cubic: '60x60x60',

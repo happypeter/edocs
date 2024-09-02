@@ -21,7 +21,7 @@ const philos = {
 const specs = {
   flat_bottom: 'no screw heads on the bottom',
   stackable: 'that is why we need flat_bottom',
-  stepped_sizes: 'for big boxes, 10cm is one step, for smaller ones 5cm',
+  stepped_sizes: 'for big boxes, multiples of 10cm, for smaller ones are multiples of 5cm',
   /**
    * e.g, my wall cabinet depth is now (300+4)mm, 4 is the thickness of the backboard
    * but the backboard is just a accesory, for the cabinet is still a perfect cuboid.
@@ -51,6 +51,10 @@ const tissue_box = {
    * wax_oil is perfect for the finish
    * a tissue box has to be heavy enough, otherwise it will move or lift when you pull the paper out
    * https://happypeter.github.io/githome/imgs/20240614/
+   * - pitfalls
+   *   - don't use board thicker than 1cm to build this, too bulky
+   *   - don't use butt joint, the side view is just too primitive, use miter joint or box joint
+   *   
    */
 }
 
@@ -92,7 +96,7 @@ const shallow_tool_box = {
     demension: {
       height: 60, // standardized
       /**
-       * customized for the 50wide box width, preferably use streches, so that cut-offs will be used
+       * customized for the 50wide box width, preferably use strechers, so that cut-offs will be used
        * the 0.4 gap tolerence is more than enough, I had 0.8, it was a mistake
        */
       width: 53.4, 

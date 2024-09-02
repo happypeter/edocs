@@ -1,3 +1,6 @@
+/**
+ * check this for joinery terms https://www.youtube.com/watch?v=p1aQQQDXrc8
+ */
 export const joinery_shopping_list = {
   wall_hung_bracket: {
     source: 'PDD 加厚不锈钢角码，直角固定器，誉马骏鑫专卖店'
