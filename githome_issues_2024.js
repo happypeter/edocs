@@ -1,3 +1,60 @@
+const sep8 = {
+  cut_wood: {
+    desk: 'for shoe shelves',
+    time: 3
+  }
+}
+const sep7 = {
+  siding_box_house: {
+    desc: 'wood planks',
+    time: 7,
+  }
+}
+const sep6 = {
+  build_boxes: {
+    desc: '6 new',
+    time: 4,
+  },
+  counter_sink_top: {
+    desc: 'the second coat',
+    time: 1
+  }
+}
+
+const sep5 = {
+  paint_slab_bench: {
+    desc: 'top and base',
+    time: 3,
+  },
+  counter_sink_top: {
+    desc: '',
+    time: 2
+  }
+}
+const sep4 = {
+  box_house_stairs: {
+    desc: 'add one more step',
+    time: 2,
+  },
+  lumber_rack_day3: {
+    desc: 'shear force',
+    time: 4,
+  },
+  slab_bench_base_day2: {
+    desc: 'assmebly',
+    time: 2,
+  }
+}
+const sep3 = {
+  slab_bench_base: {
+    desc: 'cut notches',
+    time: 5,
+  },
+  seal_sink_top: {
+    desc: 'with wood filler',
+    time: 1,
+  },
+}
 const sep2 = {
   lumber_rack_day2: {
     deck: 'more storeys',
@@ -79,4 +136,10 @@ export const issues = {
   aug31,
   sep1,
   sep2,
+  sep3,
+  sep4,
+  sep5,
+  sep6,
+  sep7,
+  sep8,
 }

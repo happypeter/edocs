@@ -8,6 +8,8 @@ import { lumber } from "./wood_shopping"
 
 const costs = [
   issues.aug31.box_house_roofing,
+  issues.sep4.box_house_stairs,
+  issues.sep7.siding_box_house.
 ]
 
 const inspirations = {

@@ -11,5 +11,6 @@ import { issues } from "./githome_issues_2024";
  */
 const costs = [
   issues.sep1.lumber_rack_day1,
-  issues.sep2.lumber_rack_day2
+  issues.sep2.lumber_rack_day2,
+  issues.sep4.lumber_rack_day3,
 ]

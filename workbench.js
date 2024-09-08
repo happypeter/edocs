@@ -12,6 +12,12 @@
 
 import { issues } from "./githome_issues_2024"
 
+/**
+ * the best height of your workbench depends on what work you want to carry out on top,
+ * the rule is the more detailed your work is, the higher it should be. vice versa.
+ * for example, if you want to do dove tails or wash dishes, maybe 90 is best. but if you do
+ * assembly, maybe 70 is good, by default, I will use 80cm.
+ */
 const Height = 80 // cm, when I need to mostly stand
 
 
@@ -123,16 +129,90 @@ const get_tight_fit = () => {
 }
 
 const small_slab_bench = {
+
+  top: {
+    /**
+     * use power plane to plane the surface 
+     * use a ruler/straight wood pieces to check flat
+     */
+    c_channel: {
+      /** currently no */
+    },
+    mount: {
+      /**
+       * keep wood expansion in mind,
+       * I will do just one brackets in the middle of the side of wood expansion
+       * on the long_side/grain_direction that wood does not move, I will use more brackets
+       */
+    }
+  },
+  aprons: {
+    /**
+     * cause the top is self-supportive,
+     * so you don't really need the aprons for the suppot purpose, check this design with no front strecher https://www.youtube.com/watch?app=desktop&v=UlElSbqD3jc
+     * but still you need it to mount the top and keep the base itself in shape
+     * for heavy duty benches, you need wideWide rails https://youtu.be/UlElSbqD3jc?t=72
+     * glue may fail due to the heavyness, then use bolts instead https://youtu.be/UlElSbqD3jc?t=164
+     * the front and strechers will be mounted to the legs fron inside, so that I get more clamping spaces on the front side of the bench top
+     */
+  },
   costs: [
     issues.aug31.polish_slab_bench,
-  ]
+    issues.sep3.slab_bench_base,
+    issues.sep4.slab_bench_base_day2,
+  ],
+  height: Height, //80cm
+  slab: { 
+    thick: 80,
+    length: 1200,
+    depth: 585,
+  },
+  legs: {
+    length: 720, // height - slab_thick
+  },
+  strechers: {
+    bolts: {
+      /**
+       * if you already cut the notches and strechers locked in them, nails and glue will do the job
+       * if you rely on bolts, then no point for the half-lap notches.
+       */
+    },
+    long: { // front/back
+      length: 1000,
+    },
+    side: {
+      length: 550, // rough size
+    }
+  }
 }
 
-const mdf_bench = () => {
-  const costs = [
+const elm_bench = {
+  top: {
+    deptch: 545,
+    long: 1095,
+    thick: 52,
+  }
+}
+
+const glue_layers_boards = () => { 
+  /**
+   * glues make layers slide, so pre drill https://youtu.be/UlElSbqD3jc?t=438,
+   * take the screws out once the glue dries.
+   */
+   
+}
+
+const mdf_bench =  {
+  ref: 'https://youtu.be/UlElSbqD3jc?t=437',
+  costs: [
     issues.aug28.move_mdf_bench
-  ]
-  vise()
+  ],
+  vise: { 
+    /**
+     * vise with dogs https://youtu.be/UlElSbqD3jc?t=682
+     * install https://youtu.be/UlElSbqD3jc?t=634
+     *  */ 
+  },
   /**
    * use mdf as top, or have plywood on top of mdf:
    * 
@@ -140,7 +220,7 @@ const mdf_bench = () => {
    * - 5 feathers for a workbench: no.1 be heavy no.2 
    *   - solid wood slab top requires planner usage, too hard
    */
-  const base = {
+  base: {
     pitfall: {
       flush: 'make sure top face of your top strechers level with or higher than the leg top face, otherwise they can not touch the bottom of table top which needs their support'
     },
@@ -163,11 +243,7 @@ const mdf_bench = () => {
 }
 
 
-const vise = () => { 
-  /**
-   * vise with dogs https://youtu.be/UlElSbqD3jc?t=682
-   *  */ 
-}
+
 /*
 
 - April workbench https://www.youtube.com/watch?v=x9XIrfiNyUA
