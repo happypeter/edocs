@@ -1,3 +1,15 @@
+const sep10 = {
+  box_house: {
+    desc: 'shelves and windows',
+    time: 5,
+  }
+}
+const sep9 = {
+  box_house: {
+    desc: 'shelves and windows',
+    time: 6,
+  }
+}
 const sep8 = {
   cut_wood: {
     desk: 'for shoe shelves',
@@ -142,4 +154,7 @@ export const issues = {
   sep6,
   sep7,
   sep8,
+  sep9,
+  sep10,
+  sep11,
 }

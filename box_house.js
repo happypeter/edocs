@@ -9,13 +9,43 @@ import { lumber } from "./wood_shopping"
 const costs = [
   issues.aug31.box_house_roofing,
   issues.sep4.box_house_stairs,
-  issues.sep7.siding_box_house.
+  issues.sep7.siding_box_house,
+  issues.sep9.box_house,
+  issues,sep10.box_house,
 ]
 
 const inspirations = {
   /**
    * https://www.archdaily.com/877608/box-house-ming-architects
    */
+  design: {
+    /**
+     * yes, sheet metal and wood planks works well together for siding and roofing, warm+modern, clean+rusty
+     * but, to make the final look to be slick, the genral rule is
+     * - one thing metal, one thing wood, don't use wood and metal on one thing
+     *   - one 'thing' does not need to be a whole thing, can also be a functional part
+     *     - following the rule 'design is not just how it looks, but how it works'
+     *   - e.g south wall is one thing, east wall is another
+     *   - whole house is one thing, the porch or balcolny is another
+     *   - https://www.buildwithrise.com/stories/aluminum-steel-metal-siding
+     *   - visual clutter and functional clutter are avoid this way
+     * - door/window frame
+     *   - black not white, black makes wood color warmer, white reduce the warmth
+     *   - black frame on sheet metal also cooler than white frames
+     *   - if you search 'sheet metal wood plank siding', you almost see no white frames
+     * - interior
+     *   - 
+     * 
+     */
+    interior: {
+      colors: {
+        /**
+         * use white boards, don't use my black plywood
+         */
+      }
+    }
+
+  }
 }
 
 const outdoor_structural_blocks = {
