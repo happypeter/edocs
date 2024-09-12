@@ -100,11 +100,29 @@ const roof = () => {
    
 }
 
+
+
 /**
  * wood deck
  */
 
 const deck_floor = () => { 
+
+   const plank_flooring = {
+      costs: [
+         issues.sep11.west_house_floor,
+         issues.sep12.west_house_floor
+      ],
+      /**
+       * cut cracky ends first, if the inside is too moldy, the piece will be abandoned
+       * clean both sides, roughly sand one side and paint this side once plank are installed
+       */
+      fastener: {
+         /**
+          * use screws
+          */
+      }
+   }
    /**
     * use one or two angle bracket in place of the joist hanger
     * nails

@@ -20,6 +20,7 @@ const inspirations = {
    */
   design: {
     /**
+     * imgs: https://happypeter.github.io/githome/imgs/20240909/
      * yes, sheet metal and wood planks works well together for siding and roofing, warm+modern, clean+rusty
      * but, to make the final look to be slick, the genral rule is
      * - one thing metal, one thing wood, don't use wood and metal on one thing
