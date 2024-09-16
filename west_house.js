@@ -19,6 +19,11 @@ const color = yard_building_color_theme;
 
 const costs = [
    issues.aug28.west_house_siding,
+   floor_data.costs,
+   issues.sep13.west_house_interior,
+   issues.sep14.west_house_interior,
+   issues.sep15.west_house_floor,
+   issues.sep16.west_house_floor,
 ]
 
 
@@ -103,26 +108,29 @@ const roof = () => {
 
 
 /**
- * wood deck
+ * wood deck floor
  */
 
-const deck_floor = () => { 
 
-   const plank_flooring = {
-      costs: [
-         issues.sep11.west_house_floor,
-         issues.sep12.west_house_floor
-      ],
-      /**
-       * cut cracky ends first, if the inside is too moldy, the piece will be abandoned
-       * clean both sides, roughly sand one side and paint this side once plank are installed
-       */
-      fastener: {
+const flooring = () => { 
+   const db = { 
+      plank_flooring: {
+         costs: [
+            issues.sep11.west_house_floor,
+            issues.sep12.west_house_floor
+         ],
          /**
-          * use screws
+          * cut cracky ends first, if the inside is too moldy, the piece will be abandoned
+          * clean both sides, roughly sand one side and paint this side once plank are installed
           */
+         fastener: {
+            /**
+             * use screws
+             */
+         }
       }
    }
+    
    /**
     * use one or two angle bracket in place of the joist hanger
     * nails
@@ -137,20 +145,38 @@ const deck_floor = () => {
     */
    wrap_the_poles()
 
+
+   barn_board_floor()
+}
+
+const barn_board_floor = () => {
    /**
     * I will use reclimed >3cm wood board as floor finish
-    * - boards.plywood[18].price is too high
     * - I want sth durable and sandable, I don't need the floor to be perfectly flat
-    * - I will build large assemble tables on top of it
-    * - wood is much more water resistant than plywood
     * https://youtu.be/9bFjPbdWVpQ?si=HUXcPqP4MyoScozd
-    * - make sure I can regret later on
-    *   - a flat floor with OSB is easier to broom 03:26 https://www.ixigua.com/7237060457054339616?logTag=955a0b4a171d4f6a2fa4
     * - plank floor https://www.ixigua.com/7206640254202315267?logTag=3187138249e717cc0a06
-    * - consider use my lumber[5x10] as floor, the gaps will be smaller and the length is right
     */
-   barn_board_floor()
-   flooring('PVC Floor') //地板革
+
+   /**
+    * this people https://www.youtube.com/watch?v=9bFjPbdWVpQ
+    * use dry sheathing, but I dont have that
+    */
+   lay_mositure_barrier('coats of latax paint')
+
+
+   install_planks()
+
+   /**
+    * it is nice to aviod water drips go below the painted floor surface
+    * but it's more work, and supposingly shop should be dry, so skip
+    */
+   // putty_gaps()
+
+   /**
+    * PU paint is expensive, and I have latex left over, so...
+    * the rusty look the planks are beautiful, but shop would be filled with all rusty things, so MAYBE white color for floor is a bonus
+    */
+   latex_paint()
 }
 
 /**

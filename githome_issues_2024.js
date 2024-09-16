@@ -1,3 +1,30 @@
+const sep16 = {
+  west_house_floor: {
+    desc: 'finished up',
+    time: 3,
+  }
+}
+
+const sep15 = {
+  west_house_floor: {
+    desc: 'first half',
+    time: 4,
+  }
+}
+const sep14 = {
+  west_house_interior: {
+    desc: 'paint the wall and floor',
+    time: 4,
+  }
+}
+
+const sep13 = {
+  west_house_interior: {
+    desc: 'paint the wall and floor',
+    time: 4,
+  }
+}
+
 const sep12 = {
   west_house_floor: {
     desc: 'moving things out and sand the wood',
@@ -172,4 +199,10 @@ export const issues = {
   sep11,
   sep12,
   sep13,
+  sep14,
+  sep15,
+  sep16,
+  sep17,
+  sep18,
+  sep19,
 }
