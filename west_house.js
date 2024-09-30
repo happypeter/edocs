@@ -24,6 +24,7 @@ const costs = [
    issues.sep14.west_house_interior,
    issues.sep15.west_house_floor,
    issues.sep16.west_house_floor,
+   issues.sep17.west_house_wire,
 ]
 
 

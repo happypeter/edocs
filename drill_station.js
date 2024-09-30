@@ -2,6 +2,7 @@ const charging_station = {
    /**
     * nothing fancy, just some shelf space next to my drills
     * that get access to power
+    * todo: upgrade to https://youtu.be/WUpTHkthp14?t=751
     */
 }
 const drill_holder = {
@@ -28,6 +29,7 @@ const drill_station = {
    * two cabinets on top of a 20cm platform, and connected by a shelf board like this https://youtu.be/mi2UIgTMRNc?t=80
    */
   charging_station,
+
   wall_hung_cabinets,
   size: {
     depth: 60,

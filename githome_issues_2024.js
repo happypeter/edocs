@@ -1,3 +1,109 @@
+const sep30 = {
+  drawer_rack: {
+    desc: 'for boxes',
+    time: 2,
+  },
+  billiard: {
+    desc: 'POCKET holes and RAILS',
+    time: 3,
+  },
+}
+const sep29 = {
+  boxes: {
+    desc: 'yet even more boxes',
+    time: 5,
+  },
+}
+const sep28 = {
+  boxes: {
+    desc: '10more boxes',
+    time: 5,
+  },
+}
+const sep27 = {
+  boxes: {
+    desc: '10more boxes',
+    time: 5,
+  },
+}
+const sep26 = {
+  boxes: {
+    desc: '10more boxes',
+    time: 5,
+  },
+}
+const sep25 = {
+  boxes: {
+    desc: '5 more boxes',
+    time: 2,
+  },
+  sink_counter: {
+    desc: 'final assembly',
+    time: 3,
+  },
+}
+const sep24 = {
+  boxes: {
+    desc: '5 more boxes',
+    time: 5,
+  }
+}
+const sep23 = {
+  sink_counter: {
+    desc: 'frame and top',
+    time: 5,
+  }
+}
+const sep22 = {
+  sink_counter: {
+    desc: 'frame and top',
+    time: 4,
+  }
+}
+const sep21 = {
+  sink_counter: {
+    desc: 'frame and top',
+    time: 3,
+  }
+}
+
+const sep20 = {
+  sink_counter: {
+    desc: 'frame and top',
+    time: 3,
+  }
+}
+const sep19 = {
+  box_making: {
+    desc: '2',
+    time: 2,
+  },
+  pump_fix: {
+    desc: 'heat welding',
+    time: 3,
+  }
+}
+const sep18 = {
+  box_making: {
+    desc: '2',
+    time: 2,
+  }, 
+  pump_fix: {
+    desc: 'heat welding',
+    time: 3,
+  }
+}
+const sep17 = {
+  west_house_wire: {
+    desc: '3 sockets installed',
+    time: 3,
+  },
+  box_making: {
+    desc: '2',
+    time: 1,
+  }
+}
+
 const sep16 = {
   west_house_floor: {
     desc: 'finished up',
@@ -205,4 +311,10 @@ export const issues = {
   sep17,
   sep18,
   sep19,
+  sep20,
+  sep21,
+  sep22,
+  sep23,
+  sep24,
+  sep25
 }

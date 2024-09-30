@@ -9,7 +9,7 @@ const philo = {
    * the 'box' I need to control demensions on is the drawer box, not container/carcass box
    * faceboard, carcass, handles, slides, are all accessories of 'box'es
    */
-  box: 'control the demenstion of each drawer box',
+  box: 'control the dimension of each drawer box',
 }
 
 const materials = {
@@ -117,4 +117,17 @@ export const three_equal_sized_drawers = (carcass) => {
       },
     };
     return drawers;
+  }
+
+  const strip_rack = {
+    /**
+     * built from off cuts, material saved
+     * https://happypeter.github.io/githome/imgs/20240928/
+     */
+    slides: {
+      l_shape: 'no just the bottom needs support, the sides needed, so that when you push the drawer, the direction will go straight forward, not not get jamed',
+      mark_the_tops: 'mark the slide postions, mark at top edge, not bottom edge, for more presice installations'
+    },
+    depth: 'keep depth of the rack, same as box depth, it is just harder to pull drawer out when it over recessed into the container'
+
   }
