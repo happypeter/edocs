@@ -74,10 +74,6 @@ const screws = {
 
 
 
-const make_pocket_hole = () => { 
-   
-}
-
 
 /*
 - wall hung cabinets

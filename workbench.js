@@ -22,17 +22,26 @@ const Height = 80 // cm, when I need to mostly stand
 
 
 const assmebly_table = {
+  welled_top: {
+    /**
+     * a well to put my tools in https://guideofgreece.com/
+     */
+  },
+  size: {
+    // demensions: 150widex70deepx80tall 
+    // overhang: 5cm
+    // anything smaller does not work as well
+  },
+  dogs: {
+    /**
+     * maybe
+     */
+  },
+  location: 'assmebly_room', // currently the kitchen room
   /**
-   * this goes to my assembly_room
    * polyurethined surface to keep wood glue easy to remove
    * very flat: does not have to be very smooth, but need to be flat, OSB board will be used
-   * joint with screws, so that I can take it apart and move it outside the current room
-   * bracing or very wide boards to give shear strength
    * casters: NO. I do need to move it, but not too heavy dragging.
-   * modular: Yes, I will build two in one go.
-   * demensions: 150widex70deepx80tall 
-   * overhang: 5cm
-   * recessced_lower: https://youtu.be/mHIe9VSikbA?t=340 
    */
 }
 

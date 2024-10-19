@@ -32,11 +32,7 @@ export const shelf_box = () => {
   general_layout()
 }
 
-const table_top_options = () => { 
-  /**
-   *  https://youtu.be/WPDJh-NVeYM?t=193 */ 
-   laminated_mdf()
-}
+
 
 const general_layout = () => { 
   /**

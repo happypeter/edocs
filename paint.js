@@ -150,3 +150,35 @@ alkyd_enamls_changjiang: '和平大街 灯塔油漆专卖 长江金装100 醇酸
         - to keep the real wood feeling surface
 */
 }
+
+const natrual_oils = {
+  tung: {
+    /**
+     * more durable than linseed https://youtu.be/bsjnRcmC840?t=104
+     * people said it's much more water resistant than wax also https://www.youtube.com/watch?v=2CZ7OiobUQY
+     * require repaint every a few month
+     * less prone to mold than linseed  https://www.youtube.com/watch?v=aklfthQN-q8
+     */
+  },
+  linseed: {
+    raw_vs_boiled: {
+      /**
+       * boiled linseed have much shorter drying time, couple of days rather then weeks https://youtu.be/aklfthQN-q8?t=88
+       */
+    },
+    /**
+     * raw vs boiled https://www.youtube.com/watch?v=F8lQKKjk9-U
+     * not strong enough for outside https://youtu.be/F8lQKKjk9-U?t=146
+     */
+    with_wax: {
+      /**
+       * - how to do boiled linseed and paste wax https://www.youtube.com/watch?v=jbaQC8N096Y
+       *   - sand carefully
+       *   - apply oil, rag the excess awasy 15min later
+       *   - wax it, the next day
+       * 
+       */
+
+    }
+  }
+}

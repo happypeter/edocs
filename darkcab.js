@@ -1,3 +1,22 @@
+/**
+ * the outdoor cabinets next to my bathroom window
+ */
+
+import { issues } from "./githome_issues_2024"
+
+
+const cost = [
+  issues.oct8,
+  issues.oct9,
+  issues.oct10,
+  issues.oct12,
+  issues.oct15
+]
+
+const design = {
+  siding: 'sheet metal gray',
+  door: 'warm wood planks'
+}
 const guidelines = {
   /**
    * I think all the shelf_box.js guidelines apply here.

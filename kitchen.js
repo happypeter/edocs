@@ -1,5 +1,6 @@
 
 import { utimate_support_system } from 'utimate_support_system'
+import { laminated_pine_plywood } from './table_top'
 /*
 - https://youtu.be/fkVfX2hUlc8?t=2983
   - sink
@@ -19,13 +20,10 @@ const wall_finish  = () => {
   */
 }
 
-/* 
-- from plywood & laminate https://www.youtube.com/watch?v=ICR2mXNbrsw 
-- use plywood  https://youtu.be/fXtzfnT9smM?t=110
-*/
 
-const counter_top = () => { 
-   
+
+const counter_top = { 
+  laminated_pine_plywood
 }
 
 /*
@@ -66,25 +64,12 @@ const wall_hung_sink = () => {
 }
 
 
-const kitchen_table() {
-  with_plywood() // https://youtu.be/NU9yOQbhA-Q?t=382 How to Make a Contemporary Dining Table | DIY Furniture
+const kitchen_table = {
+  with_plywood: {} // https://youtu.be/NU9yOQbhA-Q?t=382 How to Make a Contemporary Dining Table | DIY Furniture
 }
 
-kitchen_bench =  {
+const kitchen_bench =  {
   // for mum chopping meat
   // sth like a woodwork bench 
-  
-
-  walnut_top = {
-    width: 140, depth: 65, thick: 4.5
-  }
-  /*
-  the first version of this would be used as my desk, would be sth like this https://youtu.be/9Q9u4Rw40Zg?t=28
-  later I will and a underneath shelf and casters to make it a kitchen standup workbench
-  */
-  utimate_support_system()
-  add_casters(with_brake=YES) // so that the floor is easy to clean
-  threaded_insert()//on the top, so that legs  are disassemble, then I can move it by myself, when we move to other placess
-  // or maybe try pocket screws https://youtu.be/wcn5ayESWLs?t=156
 
 }

@@ -1,3 +1,168 @@
+export const issues = {
+
+  oct31: {
+    hellopeter: 'hello'
+  },
+
+  aug28,
+  aug29,
+  aug30,
+  aug31,
+  sep1,
+  sep2,
+  sep3,
+  sep4,
+  sep5,
+  sep6,
+  sep7,
+  sep8,
+  sep9,
+  sep10,
+  sep11,
+  sep12,
+  sep13,
+  sep14,
+  sep15,
+  sep16,
+  sep17,
+  sep18,
+  sep19,
+  sep20,
+  sep21,
+  sep22,
+  sep23,
+  sep24,
+  sep25,
+  oct8,
+  oct9,
+  oct10,
+  oct12,
+  oct13,
+  oct14,
+  oct15,
+  oct16,
+  oct18,
+  oct19,
+}
+
+const oct19 = {
+  drill_station: {
+    desc: 'more drawers',
+    time: 4,
+  },
+  counter_sink_top: {
+    desc: 'glue boards',
+    time: 3,
+  }
+}
+const oct18 = {
+  cleaning: {
+    desc: 'clean saw dust',
+    time: 2,
+  },
+  drill_station: {
+    desc: 'adding more drawers',
+    time: 2,
+  }
+}
+const oct17 = {
+  pool: {
+    desc: 'legs for pool table',
+    time: 5,
+  }
+}
+
+const oct16 = {
+  supercab: {
+    desc: 'beam install',
+    time: 3,
+  }
+}
+const oct15 = {
+  darkcab: {
+    desc: 'darkcab, door',
+    time: 6,
+  }
+}
+const oct13 = {
+  table_top: {
+    desc: 'sanding...',
+    time: 6,
+  }
+}
+const oct14 = {
+  table_top: {
+    desc: 'glue ply wood and pine',
+    time: 6,
+  }
+}
+const oct12 = {
+  darkcab: {
+    desc: 'darkcab, door',
+    time: 6,
+  }
+}
+const oct11 = {
+  day_off,
+}
+const oct10 = {
+  darkcab: {
+    desc: 'darkcab, siding, and door',
+    time: 6,
+  }
+}
+const oct9 = {
+  darkcab: {
+    desc: 'darkcab, my yard cabinet',
+    time: 7,
+  }
+}
+const oct8 = {
+  darkcab: {
+    desc: 'darkcab, my yard cabinet',
+    time: 7,
+  }
+}
+const oct7 = {
+  west_shop: {
+    desc: 'frech cleats and worktable setup',
+    time: 5,
+  }
+}
+const oct6 = {
+  worktable: {
+    desc: 'edge banding again a old OSB worktable, wood slides',
+    time: 5,
+  }
+}
+const oct5 = {
+  worktable: {
+    desc: 'edge banding again a old OSB worktable',
+    time: 4,
+  }
+}
+const oct4 = {
+  worktable: {
+    desc: 'edge banding a old OSB worktable',
+    time: 4,
+  }
+}
+const oct3 = {
+  shelves: {
+    desc: 'sanding',
+    time: 3,
+  }
+}
+const oct2 = {
+  billiard: {
+    desc: 'legs',
+    time: 2,
+  },
+  shelves: {
+    desc: 'sketchup design, and cut',
+    time: 4,
+  }
+}
 const sep30 = {
   drawer_rack: {
     desc: 'for boxes',
@@ -285,36 +450,4 @@ const aug28 = {
     time: 0.5,
   }
 
-}
-
-export const issues = {
-  aug28,
-  aug29,
-  aug30,
-  aug31,
-  sep1,
-  sep2,
-  sep3,
-  sep4,
-  sep5,
-  sep6,
-  sep7,
-  sep8,
-  sep9,
-  sep10,
-  sep11,
-  sep12,
-  sep13,
-  sep14,
-  sep15,
-  sep16,
-  sep17,
-  sep18,
-  sep19,
-  sep20,
-  sep21,
-  sep22,
-  sep23,
-  sep24,
-  sep25
 }
