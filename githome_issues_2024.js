@@ -1,7 +1,40 @@
 export const issues = {
+  oct28: {
+    super_cab: {
+      desc: 'clean the surroundings',
+      time: 3,
+    },
+    sort_wood: {
+      desc: 'home by length',
+      time: 3,
+    },
+  },
+  oct27: {
+    super_cab: {
+      desc: 'structure',
+      time: 5,
+    },
+  },
+  oct22: {
+    drill_station: {
+      desc: '11 drawers added',
+      time: 4,
+    },
+    mars_counter: {
+      desc: 'seal gaps',
+      time: 1,
+    }
+  },
 
-  oct31: {
-    hellopeter: 'hello'
+  oct21: {
+    mars_counter: {
+      desc: 'sand and paint the top',
+      time: 3
+    },
+    drill_station: {
+      desc: 'more drawers',
+      time: 2,
+    }
   },
 
   aug28,
@@ -73,7 +106,7 @@ const oct17 = {
 }
 
 const oct16 = {
-  supercab: {
+  super_cab: {
     desc: 'beam install',
     time: 3,
   }

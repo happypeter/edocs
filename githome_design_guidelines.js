@@ -18,6 +18,24 @@
 */
 
 export const design_guidelines = {
+  /**
+   * for now, just copy Ikea
+   */
+  furniture: {
+      /**
+       * https://jp.pinterest.com/pin/375346950204198054/
+       * https://jp.pinterest.com/pin/230879918381919912/
+       */
+    light_theme: 'oak color top + white base', 
+
+    simple: {
+      /**
+       * https://www.ikea.com/gb/en/p/nordviken-skogsta-table-and-4-chairs-white-acacia-s59571489/
+       * https://www.ikea.com/gb/en/rooms/living-room/gallery/classic-ikea-furniture-with-a-graphical-twist-pubc78634b1
+       */
+      white_solo: 'just white'
+    }
+  },
   /* simplicity is the best design */
   rule_of_one_color: {
     /**

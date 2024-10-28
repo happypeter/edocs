@@ -5,7 +5,7 @@
 import { issues } from "./githome_issues_2024"
 
 const cost = [
-  issues.oct16.supercab
+  issues.seach('super_cab')
 ]
 
 const add_beam = () => { 

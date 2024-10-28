@@ -6,6 +6,9 @@ https://youtu.be/tfwMFNyHzn8?t=228
 
 const philo = {
   /**
+   * warning: when making drawers, don't try use waste wood, cut a new piece of sheet good, so that you get pieces in exactly same height and width, you will thank yourself, when you try to fit each of them into its slides
+   */
+  /**
    * the 'box' I need to control demensions on is the drawer box, not container/carcass box
    * faceboard, carcass, handles, slides, are all accessories of 'box'es
    */
@@ -48,7 +51,7 @@ const wood_handle = {
 }
 
 
-export const three_equal_sized_drawers = (carcass) => {
+const three_equal_sized_drawers = (carcass) => {
     /**
        * this is especially designed for 50widex60deepx600tall carcasses
     */
@@ -119,15 +122,30 @@ export const three_equal_sized_drawers = (carcass) => {
     return drawers;
   }
 
-  const strip_rack = {
+  const shallow_drawers = {
     /**
+     * https://happypeter.github.io/githome/imgs/20241022/
+     */
+  }
+
+  const strip_rack = {
+
+    /**
+     * 
      * built from off cuts, material saved
      * https://happypeter.github.io/githome/imgs/20240928/
      */
     slides: {
       l_shape: 'no just the bottom needs support, the sides needed, so that when you push the drawer, the direction will go straight forward, not not get jamed',
+      /**
+       * todo:  because of this L shape needed, I think a updated version of this thing, I will just use whole board sides
+       */
       mark_the_tops: 'mark the slide postions, mark at top edge, not bottom edge, for more presice installations'
     },
     depth: 'keep depth of the rack, same as box depth, it is just harder to pull drawer out when it over recessed into the container'
+  }
 
+  export const drawer = {
+    shallow_drawers,
+    three_equal_sized_drawers,
   }

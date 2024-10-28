@@ -80,7 +80,11 @@ let prepare_surface = () => {
   
   }
 
-const paint_shopping = {
+export const paint_shopping = {
+  tungoil_goodsmell_pure: {
+    source: 'pdd:耐致油漆涂料',
+    name: '纯天然桐油',
+  },
   outdoor_oil_xinletian: '防腐木油，拼多多 鑫乐天官方旗舰店，8.8RMB/500g',
   /**
    * this is cheap

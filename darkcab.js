@@ -1,5 +1,6 @@
 /**
- * the outdoor cabinets next to my bathroom window
+ * desc: the outdoor cabinets next to my bathroom window
+ * img: https://happypeter.github.io/githome/imgs/20241020/
  */
 
 import { issues } from "./githome_issues_2024"

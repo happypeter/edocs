@@ -11,13 +11,13 @@ const stain = () => {
    * I did not wait, maybe that's the reason it did not work well, still blotchy result
    * even it is a bit better than the one(on the right, https://happypeter.github.io/githome/imgs/20241010/2.jpeg) with out any priming
    */
-  primie()
+  prime()
 
   /**
    * I used this to get walnut color https://happypeter.github.io/githome/imgs/20241010/4.jpeg
    * color looks great 
    */
-  stain()
+  apply_stain()
 
 
 }
@@ -39,7 +39,10 @@ export const laminated_pine_plywood = {
 const laminated_mdf = { 
   /**
    *  https://youtu.be/WPDJh-NVeYM?t=193 */ 
+  
+}
 
 
+export const table_top = {
   
 }

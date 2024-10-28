@@ -1,9 +1,10 @@
-import { issues } from "./githome_issues_2024"
-
-const cost = [
-  issues.oct18.drill_station,
-  issues.oct19.drill_station
-]
+const cost = search_with_tag('drill_station', "./githome_issues_2024")
+// const cost = [
+//   issues.oct18.drill_station,
+//   issues.oct19.drill_station,
+//   issues.oct21.drill_station,
+//   issues.oct22.drill_station,
+// ]
 
 const charging_station = {
    /**
@@ -31,32 +32,19 @@ const drawer = {
   }
 }
 
-const drill_station = {
-  /**
-   * two cabinets on top of a 20cm platform, and connected by a shelf board like this https://youtu.be/mi2UIgTMRNc?t=80
-   */
-  charging_station,
-
-  wall_hung_cabinets,
-  size: {
-    depth: 60,
-    height: 90,
-    width: 80
-  },
-  // hammmer_drill will be kept in a yard roofed space with concrete tools
-}
 
 
 
 const screw_storage = {
   /**
-   * boxes in cabinets is the way to go, sth like https://youtu.be/j-jVst7CEMw?t=5
-   * - a shallow shelfing unit on french cleat, like https://youtu.be/VxnDDY7au7k?t=360
-   *   - have many 15x15x10 boxes as small drawers
-   *   - stacking boxes on top of each other is not convinnent enough 
-   * - requirements
-   *   - heavy: I don't want the box be blown away when I work outside
-   *   - for many screws, just keep them in it's original paper boxes https://www.youtube.com/watch?v=glS_ESlltlI
+   * - solution: 
+   *   - drawers r really good place to hold screws https://youtu.be/wy432QudAWE?t=132
+   *   - thigh level shallow drawers r really handy, I will have more when I build my new assembly_table
+   *   // - https://shop.familyhandyman.com/collections/garage/products/hardware-organizer
+   * - rule of thumb:
+   *   - the storage box top needs to be open all the time, so that when I am returning some excess screws, I don't need to pull a small drawer or move box stacked on top of the one I want, lame.
+   *   - I won't take the storage boxes to my job site, I will use another box to hold just about the number I need, so that I don't have to return the box once I am done imediately
+   *   - for screws i don't use that often, just keep them in it's original paper boxes https://www.youtube.com/watch?v=glS_ESlltlI
    * - my workflow
    *   - I think strorage should be dictated by my workflow
    *   - NO.1 I need to take some screws to job site in a hurry, that means, I need to access the screws easily
@@ -66,6 +54,37 @@ const screw_storage = {
    *     - the top of the boxes need to be ALWAYS widely open, stacking them on top each other is a bug of my current system. and small drawers also not good enough for me, yeah, just shallow shelf to hold the boxes, that's it.
    *     - for those that I dont use that often, I will keep them in it's own package box(like The Honest Carpenter https://www.youtube.com/watch?v=glS_ESlltlI), or small stackble plastic boxes, and store them in cabinet or drawers. and sort them properly, so they are not too far from reach
    */
+}
+
+const shallow_drawers = {
+
+  wood_slides,
+  img: 'https://happypeter.github.io/githome/imgs/20241022/',
+
+}
+
+const nailgun_storage = {
+  /**
+   * stand them between the dividers https://www.youtube.com/watch?v=20yIMUkYWkE
+   * - nailguns are heavy, I don't feel comfortable to hung them up high
+   * - so I will have a drawer on wheels, in which I got dividors
+   */
+}
+
+const worktable = {
+  size: {
+    depth: 60,
+    height: 90,
+    width: 80
+  },
+}
+const drill_station = {
+
+  charging_station,
+  shallow_drawers,
+  wall_hung_cabinets,
+  worktable,
+  // hammmer_drill will be kept in a yard roofed space with concrete tools
 }
 
 
