@@ -1,4 +1,14 @@
+const stain = {
+  /**
+   * githome
 
+【【木工知识】实木桌面染色(Stain)和清漆保护(Varnish)，技巧和常见问题。转自KENDIDIY-哔哩哔哩】 https://b:23.tv/BOxH4Oc
+1/10  diluted glue As sealer
+Sand off dirty things such as oil
+Be quick and generous apply stain
+Second coat of varnish is necessary cause the first paint will swell and crack the wood, so samding and 2nd coat will deliver a really smooth finish
+
+}
 const paint_furniture = {
   // types test https://www.bilibili.com/video/BV1P94y1Q7TE/
   //https://www.bilibili.com/video/BV1Z24y177nS

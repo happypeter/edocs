@@ -1,3 +1,12 @@
+/**
+ * 【多功能木工工作台 三合一  制作教程 P1-哔哩哔哩】 https://b23.tv/wD7H4XA
+
+
+【《原创》台锯、台锯靠山、DIY-哔哩哔哩】 https://b23.tv/I87sitP
+
+【自制台锯，滑台推台的制作-哔哩哔哩】 https://b23.tv/FixnErQ
+ */
+
 const essential_feathers = {
   stronger: 'next saw I want it be stronger, especically rip fence'
 }

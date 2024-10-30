@@ -1,4 +1,17 @@
 export const issues = {
+  oct30: {
+    firewood: {
+      desc: 'clean and pave ground',
+      time: 6,
+    }
+  },
+  oct29: {
+    super_cab: {
+      desc: 'adding a shelf unit',
+      time: 4,
+    }
+  },
+
   oct28: {
     super_cab: {
       desc: 'clean the surroundings',
