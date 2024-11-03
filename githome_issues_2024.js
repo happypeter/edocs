@@ -1,4 +1,20 @@
 export const issues = {
+  nov01: {
+    firewood: {
+      desc: 'shelves',
+      time: 7,
+    },
+    mars_counter: {
+      desc: 'install',
+      time: 2,
+    }
+  },
+  oct31: {
+    firewood: {
+      desc: 'structural enhancement',
+      time: 6,
+    }
+  },
   oct30: {
     firewood: {
       desc: 'clean and pave ground',
