@@ -1,4 +1,28 @@
 export const issues = {
+  nov05: {
+    lmiter: {
+      desc: 'the second table top',
+      time: 7,
+    },
+  },
+  nov04: {
+    lmiter: {
+      desc: 'first table top',
+      time: 7,
+    },
+  },
+  nov03: {
+    lmiter: {
+      desc: 'beams',
+      time: 7,
+    },
+  },
+  nov02: {
+    lmiter: {
+      desc: 'rails and a door',
+      time: 7,
+    },
+  },
   nov01: {
     firewood: {
       desc: 'shelves',
