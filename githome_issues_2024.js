@@ -1,4 +1,20 @@
 export const issues = {
+  nov07: {
+    lmiter: {
+      desc: 'the stop block',
+      time: 4,
+    },
+    mars_counter: {
+      desc: 'painting',
+      time: 3,
+    }
+  },
+  nov06: {
+    lmiter: {
+      desc: 'the platform to carry the saw',
+      time: 7,
+    },
+  },
   nov05: {
     lmiter: {
       desc: 'the second table top',
@@ -414,8 +430,8 @@ const sep8 = {
   }
 }
 const sep7 = {
-  siding_box_house: {
-    desc: 'wood planks',
+  box_house: {
+    desc: 'wood planks siding',
     time: 7,
   }
 }
@@ -441,8 +457,8 @@ const sep5 = {
   }
 }
 const sep4 = {
-  box_house_stairs: {
-    desc: 'add one more step',
+  box_house: {
+    desc: 'stairs, add one more step',
     time: 2,
   },
   lumber_rack_day3: {
@@ -497,8 +513,8 @@ const aug31 = {
     desc: 'wood plank wall',
     time: 1
   },
-  box_house_roofing: {
-    desc: 'metal and plastic film',
+  box_house: {
+    desc: 'roofing: metal and plastic film',
     time: 2
   }
 }

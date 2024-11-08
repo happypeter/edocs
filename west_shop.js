@@ -2,10 +2,13 @@
  * West Shop is the wood workshop in west house
  */
 
+import { issues } from "./githome_issues_2024"
+
 /**
  * - ideas
  *   - mostly follow fixthisbuildthat https://www.youtube.com/watch?v=WUpTHkthp14
  *   - low shelves are not easy to access, better idea is to have base cabinet with drawers
+ *   - a desk ish bench like this https://youtu.be/dEB0exfFTco?t=495
 
  *   - more table top spaces. you always need more of it. so my wall+base cabinet set still is the best solution
  *     - for south/north wall spaces, have tool walls between the base and wall cubbies
@@ -28,11 +31,27 @@
  *   
  */
 
+const PROJECT_NAME = 'west_shop'
+
+const cost = [
+  issues.search(PROJECT_NAME)
+]
+
 const floor_plan = {
   /**
    * don't have bench top in the cornor, it's not good idea to stand and work in front of that part of the bench https://youtu.be/yzESZFZ2S3s?t=266
    * leave that corner space open to store sth tall or very long
    */
+}
+
+const design = {
+  pallate: {
+    /**
+     * check this japanese home: https://www.youtube.com/watch?v=dEB0exfFTco
+     * by oak I mean, pine with some slight oil
+     */
+    oak_vs_white: 'simple and warm'
+  }
 }
 
 const urgency_zones = {

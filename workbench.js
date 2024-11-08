@@ -1,6 +1,8 @@
 
 /**
  * I love Timber Frame Bench https://www.youtube.com/watch?v=fg5qjed7u-k
+ * - goodbye braces
+ *   - lap joint is the way to go https://www.youtube.com/watch?v=gM3oCXcyxoA
  * 
  * side notes:
  * - I am not building a bench, I am building a box, anything should be a perfect cubiod box

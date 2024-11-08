@@ -3,16 +3,19 @@
  */
 import { modular_roof } from "./box_block"
 import { issues } from "./githome_issues_2024"
+import { githome } from "./githome_projects"
 import { lumber } from "./wood_shopping"
 
-
+const PROJECT_NAME = 'box_house'
 const costs = [
-  issues.aug31.box_house_roofing,
-  issues.sep4.box_house_stairs,
-  issues.sep7.siding_box_house,
-  issues.sep9.box_house,
-  issues,sep10.box_house,
+  issues.search(PROJECT_NAME)
 ]
+
+const floor_plan = {
+  
+  /**
+   */
+}
 
 const inspirations = {
   /**
