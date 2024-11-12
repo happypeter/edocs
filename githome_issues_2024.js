@@ -1,4 +1,38 @@
 export const issues = {
+  nov12: {
+    wood_shopping: {
+      desc: '6120RMB shopping, and shipping',
+      time: 7,
+    }
+  },
+  nov11: {
+    box_house: {
+      desc: 'siding with sheetmetal',
+      time: 6,
+    }
+  },
+  nov10: {
+    box_house: {
+      desc: 'sheathing',
+      time: 6,
+    }
+  },
+  nov09: {
+    box_house: {
+      desc: 'sheathing',
+      time: 3,
+    }
+  },
+  nov08: {
+    lmiter: {
+      desc: 'install stop block',
+      time: 4,
+    },
+    box_house: {
+      desc: 'sheathing the north wall',
+      time: 3,
+    }
+  },
   nov07: {
     lmiter: {
       desc: 'the stop block',

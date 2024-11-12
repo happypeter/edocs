@@ -4,6 +4,7 @@
 
 const shop_name = {
   north_ring_road: '北环路 凯诺公司对面，二手木材',
+  north_ring_road_2nd: '北环路，凯诺公司西500m 二手木材',
   jingdong_kurui: '京东:睿筑旗舰店', // serious problem: crazy transport cost 270RMB for 8 OSB boards
   huayun_wang: '华运建材城，伊林环宇王旭东',
   haiyang_second_hand: '海阳旧货市场',
@@ -28,6 +29,36 @@ const glazings = {
 const githome_toilet = {
   price: '120RMB', source: shop_name.haiyang_second_hand
 }
+
+shopping_list_20241112 = [
+  /**
+   * total: 6130RMB
+   */
+  {
+    product: lumber["half_new_3.5x7.5"],
+    total: '16x100',
+  },
+  {
+    product: lumber.old10x10,
+    total: '45x15RMB',
+  },
+  {
+    product: lumber.wide,
+    total: '18x117RMB'
+  },
+  {
+    product: lumber.old10x10_short,
+    total: '15x20RMB'
+  },
+  {
+    product: lumber.philippines,
+    total: '50x10', // pricexamount
+  },
+  {
+    product: lumber.red_pine_8x8,
+    total: '40x24'
+  }
+]
 
 shopping_list_20240729 = [
   {
@@ -211,18 +242,44 @@ export const boards = {
 }
 
 export const lumber = {
+  wide: {
+    real_size: '3cmx14cmx4m', price: 18, source: shop_name.north_ring_road_2nd
+  },
+  'half_new_3.5x7.5': {
+    /**
+     * compared to lumber.wide, this is a bit pricy, but they r clean
+     */
+    real_size: '3.5x7.5x4m', price: 16, source: shop_name.north_ring_road_2nd
+  },
   Shiplap: 
   {real_size: '', price: '50RMB', source: '华运西门，槽口接缝板'}, 
   board:  
-  {real_size: '1.7x8.6x400',  price: '36RMB', source: 'productName: 无节烘干板材1.7x8.6x400cm  pdd shopName: 防腐木桑拿板碳化木 '}, 
+  {real_size: '1.7x8.6x400',  price: 36, source: 'productName: 无节烘干板材1.7x8.6x400cm  pdd shopName: 防腐木桑拿板碳化木 '}, 
   scaffold_board: {
     real_size:  '4.5(3.8-5)x18(17-19)x292', price: '25RMB', source: shop_name.north_ring_road
+  },
+  'old10x10': {
+    real_size: '10x10x4m', price: 45, source: shop_name.north_ring_road_2nd
+  },
+  'old10x10_short': {
+    real_size: '10x10x2m', price: 15, source: shop_name.north_ring_road_2nd
+  },
+  philippines: {
+    real_size: '13x8x4m', price: 50, source: shop_name.north_ring_road_2nd
+  },
+  red_pine_8x8: {
+    /**
+     * have a riches yellowish color, not red, but looks good and straight
+     * I think it's very good price,
+     */
+    real_size: '8x8x4m', price: 40, source: shop_name.north_ring_road_2nd
   },
   '9x9': {
     /**
      * reclaimed with big cracks, but hey the price is good
+     * update: 'old10x10' is a much better choice
      */
-    real_size: '9x9x400', price: '44RMB', source: shop_name.north_ring_road
+    real_size: '9x9x400', price: 44, source: shop_name.north_ring_road
   },
   '5x10x400': {
     /**

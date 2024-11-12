@@ -14,6 +14,10 @@
  *     - and also I can just check level once, and do the poles and supporting pieces in one go, so that I don't need to test level for 30times
  *     - conclusion: build the box(aka, shelve)es first, then consider poles and anything as accessories, I could have done the same with 10p of the time
  *     - the montra: cut everything of same size in one go, let other components try to fit them, not otherwise
+ * - repeated cuts
+ *   - being able to do the cuts repeatly is a game changer
+ *   - saving time on cutting is just one benifits
+ *   - having a plan and several pieces of same length at hand, just avoid a lot of possible mistakes, and keeping the structure true and level is easier, mistakes made are easiter to spot.
  */
 import { issues } from "./githome_issues_2024"
 

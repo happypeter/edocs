@@ -1,5 +1,7 @@
 /**
  * ref: pole barn with pitched roof https://www.youtube.com/watch?v=yKoJTLy9DW8
+ * - poles with stud walls go between https://www.youtube.com/watch?v=ovXWjuvWJCo
+ *   - this is current what I love most for walls 
  */
 import { modular_roof } from "./box_block"
 import { issues } from "./githome_issues_2024"
@@ -11,6 +13,12 @@ const costs = [
   issues.search(PROJECT_NAME)
 ]
 
+const process = {
+  /**
+   * how to build a house, follow pole barn structure
+   */
+
+}
 const floor_plan = {
   
   /**
@@ -37,8 +45,6 @@ const inspirations = {
      *   - black not white, black makes wood color warmer, white reduce the warmth
      *   - black frame on sheet metal also cooler than white frames
      *   - if you search 'sheet metal wood plank siding', you almost see no white frames
-     * - interior
-     *   - 
      * 
      */
     interior: {
