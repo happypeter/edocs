@@ -37,6 +37,12 @@ const cost = [
   issues.search(PROJECT_NAME)
 ]
 
+const west_extension = {
+  /**
+   * https://www.youtube.com/watch?v=6bkg0j2eh0k
+   */
+}
+
 const floor_plan = {
   /**
    * don't have bench top in the cornor, it's not good idea to stand and work in front of that part of the bench https://youtu.be/yzESZFZ2S3s?t=266
