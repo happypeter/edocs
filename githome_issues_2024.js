@@ -1,4 +1,82 @@
-export const issues = {
+export const issues = {、
+  nov25: {
+    dinner_sidetable: {
+      desc: 'more dowel',
+      time: 5,
+    }
+  },
+  nov24: {
+    dinner_sidetable: {
+      desc: 'assemble',
+      time: 5,
+    }
+  },
+  nov23: {
+    dinner_sidetable: {
+      desc: 'material cut',
+      time: 5,
+    }
+  },
+  nov22: {
+    paint: {
+      desc: 'try stains again',
+      time: 5,
+    }
+  },
+  nov21: {
+    paint: {
+      desc: 'try stains',
+      time: 5,
+    }
+  },
+  nov20: {
+    box_house: {
+      desc: 'siding',
+      time: 4,
+    }
+  },
+  nov19: {
+    box_house: {
+      desc: 'siding',
+      time: 4,
+    }
+  },
+  nov18: {
+    box_house: {
+      desc: 'awning',
+      time: 4,
+    }
+  },
+  nov17: {
+    box_house: {
+      desc: 'roofing',
+      time: 4,
+    }
+  },
+  nov16: {
+    blue_sky: {
+      desc: 'roofing',
+      time: 4,
+    }
+  },
+  nov15: {
+    box_house: {
+      desc: 'new room framing',
+      time: 7,
+    }
+  },
+  nov14: {
+    box_house: {
+      desc: 'new room framing',
+      time: 3,
+    }
+  },
+  nov13: {
+    wood_shopping: {
+      desc: 'put away wood on racks',
+      time: 8,
+    }
+  },
   nov12: {
     wood_shopping: {
       desc: '6120RMB shopping, and shipping',

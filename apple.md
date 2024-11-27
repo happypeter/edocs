@@ -1,12 +1,34 @@
+# migrate to Mac Mini M4
+
+```
+# vpn: download Windscribe from my other machine with vpn, airdrop to my Mini
+
+#download/install Alfred/VScode from offical websites
+# open termial in vscode
+#install homebrew follow the command on its offical site
+# keep vpn on when you start the homebrew install, then turn off in the middle of the command running installation
+brew install git
+# it takes long time to install git, python/curl/rsync and things were depended
+# airdrop ~/.gitconfig to Mini
+
+## add `alias ga="git add -A"` to ~/.zshrc
+
+```
+
+~/.zshrc
+```console
+alias ga="git add -A
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+```
+
+
+
+
 ## change my Macbook Pro battary
   - A1398 is my model, merchant needs this to tell the battary model
     - 248RMB on PDD
-  - follow this MAYBE: https://www.youtube.com/watch?v=AabLlHT503o&list=WL&index=1&t=1236s
-    - many people leave comments down below to say the steps in the video are redundant, just removing the speaker or remove nothing at all will still work, just a bit dangerous for the components around the battary, since the glue remover will disrolve plastics.
-    - my plan is to have a first try, remove the battary without glue remover
-    - easyway to do it https://www.youtube.com/watch?v=LEQXU1lryIY
-      - why the hard way tear the whole computer off is because the guy needed to remove the speakers first. But actually it is not necessary.
-
+  - follow this: https://www.youtube.com/watch?v=d-LwyWh4x8w
+    - remove the screws as needed, then pull everything out, batteries, plugs whatever, that's about it
 - ipad
   - ipad2, intall compatible versions 
     - https://www.youtube.com/watch?v=033Ck_N9WF8

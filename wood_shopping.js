@@ -33,6 +33,9 @@ const githome_toilet = {
 shopping_list_20241112 = [
   /**
    * total: 6130RMB
+   * note: happy with the result, I think it's about 1.8widex1.6tallx4longx90%(remove 10% gap spaces)=10 cubic meters,
+   * so this is around 600RMB/m3, pine lumber new is around 2000RMB/m3, so it's one third of the price,
+   * yeah, I got 
    */
   {
     product: lumber["half_new_3.5x7.5"],
@@ -371,6 +374,7 @@ export const water_proof = {
    */
   PE_film: '拼多多 鱼塘防水膜 PE 100s 50RMB/20m2', 
   PE_film_transparent: '海阳旧货门口 .5RMB/m2',
+  greenhouse_PE: 'PDD 大鹏保暖膜 Po 无滴膜 20s, 1.1RMB/m2',
   flash_tape: '拼多多 窗户密封防风胶带 防水', 
 }
 

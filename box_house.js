@@ -86,6 +86,8 @@ const roof = () => {
     *   - no plywood sheathing, just crossed lumbers
     *   - you still go to the top to install sheet metal
     *     - sheet metal overhang 5cm
+    * - no need to edge seal the metal pannel roof
+    *   - this still looks good with the edge exposed https://youtu.be/ovXWjuvWJCo?t=660
    */
   use(modular_roof)
 }
