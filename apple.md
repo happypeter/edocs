@@ -18,9 +18,7 @@ brew install git
 ~/.zshrc
 ```console
 alias ga="git add -A
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-```
-
+export PATH=$HOME/bin:/usr/local/bin:$PATH ```
 
 
 
