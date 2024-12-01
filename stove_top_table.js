@@ -14,7 +14,7 @@ const feathers = {
 }
 const space = {
   wok_to_coal: 7.5, // cm from wok stove to coal one
-  wok_to_left_edge_coal: 44, // 108-44 is the width I have to build shelves,
+  wok_to_right_edge_coal: 44, // 108-44 is the width I have to build shelves,
 }
 
 const sizes = {
