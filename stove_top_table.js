@@ -3,6 +3,16 @@
  */
 
 
+const structure = {
+  /**
+   * use partially threaded screws with wood glue to give better grip without clamping
+   * https://happypeter.github.io/githome/imgs/20241201/6.jpeg
+   * use dowels or wood plugs to seal the pre drilled holes
+   * use 38mm pocket screws to put together scretchers and legs https://happypeter.github.io/githome/imgs/20241201/8.jpeg
+   * this is much eaier way than mortise and tennons
+   */
+}
+
 const feathers = {
   /**
    * - small overhang, so that wok won't be covered

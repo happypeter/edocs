@@ -20,7 +20,30 @@ const stain = () => {
   apply_stain()
 
 
+  /**
+   * use a roller to quicked apply the PU(with generous solvent added), don't worry the furs off the roller or the milky look the the newly applied paint 
+   * https://happypeter.github.io/githome/imgs/20241201/13.jpeg
+   * everything will be clear when the PU is cured
+   */
+  ployurethane()
+
+
 }
+const edge = {
+  // use glue and brad nails to install the edge band
+    // if you are in a hurry use screws as clamps, hide the screws with dowels/wood plugs
+    // if you use clamps, dont give too much clamping force, unless you want the board cup on you
+    // turned out use different color edge banding  is not a problem https://happypeter.github.io/githome/imgs/20241201/12.jpeg
+    // the result can be more beautiful
+    
+}
+const glue_plywood_pine = {
+  // don't try to get the edges flush, you will fail anyway
+  // just save time, and cut with circular saw, when the glue is dry
+  // tablesaw does not work for sth with this size and weight
+// use clamps to squeeze two board tight, and use screws to hold them in place
+// the 3-cross-4-along way to do clamping https://happypeter.github.io/githome/imgs/20241201/8.jpeg
+} 
 
 export const laminated_pine_plywood = {
    /**
@@ -29,8 +52,7 @@ export const laminated_pine_plywood = {
   steps: {
     pre_drill, // drill holes before apply glue, helps to align two sheets better https://www.youtube.com/watch?v=3nTX-VwE_PM
     glue_plywood_pine, // use clamps to squeeze two board tight, and use screws to hold them in place
-    edge, // use glue and brad nails to install the edge band
-    // if you are in a hurry, and don't have enough clamps, use screws as clamps, later you can replace them with dowels
+    edge, 
     putty, // seal the gaps between edge band and the top
     paint, // pu or oil or wax or nothing
   }

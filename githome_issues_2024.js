@@ -1,4 +1,10 @@
 export const issues = {
+  dec04: {
+    stove_top_table: {
+      desc: 'top edge',
+      time: 2,
+    }
+  },
   dec03: {
     stove_top_table: {
       desc: 'top and drawer',
