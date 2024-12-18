@@ -3,10 +3,11 @@
  * - poles with stud walls go between https://www.youtube.com/watch?v=ovXWjuvWJCo
  *   - this is current what I love most for walls 
  */
-import { modular_roof } from "./box_block"
+
 import { issues } from "./githome_issues_2024"
 import { githome } from "./githome_projects"
 import { lumber } from "./wood_shopping"
+import { roof } from "./house.lib"
 
 const PROJECT_NAME = 'box_house'
 const costs = [
@@ -24,6 +25,7 @@ const floor_plan = {
   /**
    */
 }
+
 
 const inspirations = {
   /**
@@ -77,19 +79,16 @@ const outdoor_structural_blocks = {
 }
 
 
-const roof = () => { 
+const roof = { 
   /**
    * - follow this: https://www.youtube.com/watch?v=mwMdfF1RGyE
    *   - in case VPN sucks https://happypeter.github.io/githome/imgs/20240728/
    *   - key points
-    *   - use as many braces, no shame
     *   - no plywood sheathing, just crossed lumbers
-    *   - you still go to the top to install sheet metal
     *     - sheet metal overhang 5cm
     * - no need to edge seal the metal pannel roof
     *   - this still looks good with the edge exposed https://youtu.be/ovXWjuvWJCo?t=660
    */
-  use(modular_roof)
 }
 
 const box_unit = {
@@ -105,6 +104,10 @@ const box_unit = {
 }
 
 const frame_unit = {
+  /**
+   * the size is deprecated, new standards in box_std.stud_wall
+   */
+
   modules: {
     workhorse: {
       dementions: {
@@ -118,14 +121,6 @@ const frame_unit = {
        */
       between_studs: 'no',
     },
-    roof_unit: {
-      /**
-       * this is largely depends on the size of the building,
-       * so the length is hard to control, but I still want to control the width of it.
-       * if I do decide use frame_unit to build the roof from time to time.
-       * mostly I won't.
-       */
-    }
   }
 }
 

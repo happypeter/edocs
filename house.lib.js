@@ -2,7 +2,16 @@
  * how I build shed/cabin, house-ish things
  */
 
-const roof = {
+/**
+ * Don't thing you are building a house/table/gate/bench/stair 
+ * Think you are building sort-of prefabricted building blocks of these things
+ * each block is a perfect box of it's own structural strength,
+ * so that the house can be easliy dessambled, so that moving or remodeling are really easy
+ * use temperary brace for the structural strength, and change it to sheathing or truss when it's necessary
+ * 
+ */
+
+export const roof = {
   /**
    * my earlier idea was, build a perfect cubic base, with stud walls or pole-barn
    * then add 30cm or so short stud wall to the front/higher wall of the house
