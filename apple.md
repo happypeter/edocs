@@ -13,12 +13,19 @@ brew install git
 
 ## add `alias ga="git add -A"` to ~/.zshrc
 
+# cp vscode config files 
+cd /Users/peter/Library/Application Support/Code/User
+# settings.json keybindings.json
+
 ```
 
 ~/.zshrc
 ```console
 alias ga="git add -A
-export PATH=$HOME/bin:/usr/local/bin:$PATH ```
+export PATH=$HOME/bin:/usr/local/bin:$PATH 
+```
+
+
 
 
 

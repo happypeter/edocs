@@ -1,4 +1,44 @@
 export const issues = {          
+  dec04: {
+    stove_top_table: {
+      desc: 'top edge',
+      time: 2,
+    }
+  },
+  dec03: {
+    stove_top_table: {
+      desc: 'top and drawer',
+      time: 6,
+    }
+  },
+  dec02: {
+    stove_top_table: {
+      desc: 'assembly and paint',
+      time: 6,
+    }
+  },
+  dec01: {
+    stove_top_table: {
+      desc: 'structure',
+      time: 6,
+    }
+  },
+  nov30: {
+    dinner_sidetable: {
+      desc: 'leg',
+      time: 5,
+    }
+  },
+  nov28: {
+    mallet: {
+      desc: 'shape',
+      time: 2,
+    },
+    dinner_sidetable: {
+      desc: 'more sanding',
+      time: 2,
+    }
+  },
   nov27: {
     dinner_sidetable: {
       desc: 'sanding staining',

@@ -1,3 +1,7 @@
+### image sharpener
+- https://picwish.com/ai-image-sharpener
+  - this worked for me
+- https://www.aiseesoft.com/watermark-remover-online/#
 ## image org
 
 - main repo https://github.com/happypeter/images e.g https://happypeter.github.io/images/2015012507.jpg
