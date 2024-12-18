@@ -1,5 +1,5 @@
 import { issues } from "./githome_issues_2024"
-import { standards } from "./shelf_box",
+import { standards } from "./shelf_box"
 
 const costs = [
   issues.aug28.bracket_install

@@ -1,4 +1,10 @@
-export const issues = {、
+export const issues = {          
+  nov27: {
+    dinner_sidetable: {
+      desc: 'sanding staining',
+      time: 5,
+    }
+  },
   nov25: {
     dinner_sidetable: {
       desc: 'more dowel',
