@@ -1,20 +1,8 @@
 /**
- * - search 'amazon warehouse' or 'homedepot' to be inspired on how storage is done
  * - Go Bauhuas, everything should be a box
  *   - literally, everything, cabinets, houses, racks, sheds, beds
- *   - each components should share implementation details as much as possible
- *     - If I decide to use PE film and 7mm OSB as roof solution, then it is a standard for all roofs
- *     - if I want to do a upgrade to new solution, I will gradually upgrade all things
- *   - flat top, same size, so that they can be stackable
- *   - roof is a component with a short stand that takes care of its own sloop
  *   - portable and modular
- *     - E.g I will build small firewood storage boxes, should I ever need more firewood, I will make more, and stack the boxes into a big shelf, and use a same roof for it     
- *     - the idea is consider my githome as a system, think esthetic reasons, less tools to get more done
- * - prevent square shape to deform
- *   - use braces, sometimes it's not very eathetic, so I will try avoid this
- *   - use OSB/Plywood sheathing, only if dry, https://happypeter.github.io/githome/imgs/20230527/1.jpg
- *   - use >10cm wide wood boards, and use more than one, think how a pallet keep its form
- */
+  */
 
 import { drill_station } from "./drill_station"
 import { saw_station } from "./saw_station"
