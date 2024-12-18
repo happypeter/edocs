@@ -3,7 +3,12 @@ refs:
 https://www.youtube.com/watch?v=lpxY6M0uf8s
 https://youtu.be/tfwMFNyHzn8?t=228
 */
-
+const wood_slides = {
+  /**
+   * https://www.bilibili.com/video/BV1Zd4y1S7Yr
+   * @Cusuanshala
+   */
+}
 const philo = {
   /**
    * warning: when making drawers, don't try use waste wood, cut a new piece of sheet good, so that you get pieces in exactly same height and width, you will thank yourself, when you try to fit each of them into its slides

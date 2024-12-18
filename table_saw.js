@@ -1,3 +1,17 @@
+const cabinet_saw = {
+  /**
+   * cool dudes says its no brainer to have one https://www.youtube.com/watch?v=cOPTam9r4eA&list=PPSV
+   * and the Honest Carpenter loves job site saw https://www.youtube.com/watch?v=1ZhFlTxvGS8
+   */
+  /**
+   * 9000 Hisimen Tablesaw has lot of imporovents over Nuoyuan
+   * - iron fence rails, same as sawstop
+   * - castiron extenstion table pannels, same as sawstop
+   * - https://www.bilibili.com/video/BV1Fa4y1v7Wo/
+   * - sawstop https://www.youtube.com/watch?v=XdzHesT7gt4
+   *    */
+}
+
 /**
  * 【多功能木工工作台 三合一  制作教程 P1-哔哩哔哩】 https://b23.tv/wD7H4XA
 
