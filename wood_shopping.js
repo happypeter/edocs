@@ -2,6 +2,11 @@
  * where to buy
  */
 
+const photos = {
+  /**
+   * https://happypeter.github.io/githome/imgs/20241204/
+   */
+}
 const shop_name = {
   north_ring_road: '北环路 凯诺公司对面，二手木材',
   north_ring_road_2nd: '北环路，凯诺公司西500m 二手木材',
