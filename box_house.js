@@ -21,6 +21,11 @@ const process = {
 
 }
 const floor_plan = {
+  todo: {
+    /**
+     * this is part of west_yard, all I need is to extented the structure to the west till the gate
+     */
+  }
   
   /**
    */

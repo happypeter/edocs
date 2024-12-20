@@ -1,4 +1,83 @@
-export const issues = {          
+export const issues = {  
+  dec20: {
+    west_shop: {
+      desc: 'west_extension: roofing',
+      time: 5,
+    }
+  },
+  dec19: {
+    west_shop: {
+      desc: 'west_extension: power and roofing',
+      time: 5,
+    }
+  },
+  dec18: {
+    west_shop: {
+      desc: 'west_extension: power and roofing',
+      time: 5,
+    }
+  },
+  dec17: {
+    west_shop: {
+      desc: 'west_extension: power and roofing',
+      time: 5,
+    }
+  },
+  dec16: {
+    west_shop: {
+      desc: 'get my table saw',
+      time: 5,
+    }
+  },
+  dec14: {
+    west_shop: {
+      desc: 'west_extention: walls',
+      time: 5,
+    }
+  },
+  dec13: {
+    west_shop: {
+      desc: 'west_extention: walls',
+      time: 5,
+    }
+  },
+  dec12: {
+    west_shop: {
+      desc: 'west_extention: walls',
+      time: 5,
+    }
+  },
+  dec11: {
+    west_shop: {
+      desc: 'west_extention: power and front beam, clean the ground and removing sheet metal pannels',
+      time: 5,
+    }
+  },
+  dec10: {
+    west_shop: {
+      desc: 'fix my self-made tablesaw',
+      time: 3,
+    }
+  },
+  dec09: {
+    west_shop: {
+      desc: 'try fix my luxter tablesaw',
+      time: 3,
+    }
+  },
+  dec08: {
+    stove_top_table: {
+      desc: 'more sheathing',
+      time: 3,
+    }
+  },
+  dec07: {
+    stove_top_table: {
+      desc: 'polyurethane second coat',
+      time: 3,
+    }
+  },
+        
   dec04: {
     stove_top_table: {
       desc: 'top edge',

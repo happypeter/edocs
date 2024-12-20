@@ -11,6 +11,16 @@
  * 
  */
 
+export const pitfalls = {
+  up_in_air_fitting: {
+    /**
+     * plan ahead, do the roof strechters and bird blocking, while installing the rafters, not after
+     * 10min work will turn 2hr, if you need to cut/check/recut for the parts in the air
+     */
+  }
+  
+}
+
 export const roof = {
   /**
    * my earlier idea was, build a perfect cubic base, with stud walls or pole-barn

@@ -74,7 +74,7 @@ const urgency_zones = {
 }
 
 const wall_storage = {
-/*  - wall idea
+/*      - wall idea
  *     - french cleats vs shelves
  *       - aka, more tabletop work space vs more storage capacity
  *       - this video insipred me https://www.youtube.com/watch?v=VikIrOw3lYg
