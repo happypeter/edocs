@@ -1,3 +1,9 @@
+const feathers = {
+  quite: 'like very quite, no ear muff, and I dont worry to disturb my neighbor, even work in open space',
+  fence: 'rock solid stability',
+  top: 'very spacious, and this is important if want want to cut sth big',
+  capacity: '85cm, and I think its enough',
+}
 const cabinet_saw = {
   /**
    * cool dudes says its no brainer to have one https://www.youtube.com/watch?v=cOPTam9r4eA&list=PPSV
