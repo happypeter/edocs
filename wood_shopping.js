@@ -4,7 +4,7 @@
 
 const photos = {
   /**
-   * https://happypeter.github.io/githome/imgs/20241204/
+   * https://happypeter.github.io/githome/imgs/20241204/π
    */
 }
 const shop_name = {

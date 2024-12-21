@@ -1,6 +1,12 @@
 export const issues = {  
   dec20: {
     west_shop: {
+      desc: 'west_extension: add films',
+      time: 5,
+    }
+  },
+  dec20: {
+    west_shop: {
       desc: 'west_extension: roofing',
       time: 5,
     }
