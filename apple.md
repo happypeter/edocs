@@ -1,3 +1,8 @@
+# mac mini m4 shortcuts
+- show desktop
+  - hold 'cmd+alt' and click the desktop
+- volume up and down
+  - arrow up and down  
 # migrate to Mac Mini M4
 
 ```

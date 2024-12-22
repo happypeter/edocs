@@ -1,4 +1,7 @@
-const feathers = {
+const noto_feathers = {
+  brand: 'nototec 诺元台锯',
+  age: 5, // year old, so produced before 2019
+  price: '2000RMB from 咸鱼',
   quite: 'like very quite, no ear muff, and I dont worry to disturb my neighbor, even work in open space',
   fence: 'rock solid stability',
   top: 'very spacious, and this is important if want want to cut sth big',
@@ -27,20 +30,9 @@ const cabinet_saw = {
 【自制台锯，滑台推台的制作-哔哩哔哩】 https://b23.tv/FixnErQ
  */
 
-const essential_feathers = {
-  stronger: 'next saw I want it be stronger, especically rip fence'
-}
 
-const shopping = {
-  slide_strips: {
-    source: 'douyin 洛克士旗舰店',
-    price: '40RMB for a pair',
-    use: 'for the sled'
-  }
-}
-const costs = [
-  slide_strips,
-]
+
+
 
 const sled = () => { 
   /**
