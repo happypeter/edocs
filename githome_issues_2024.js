@@ -1,5 +1,11 @@
-export const issues = {  
-  dec20: {
+export const issues = { 
+  dec22: {
+    west_shop: {
+      desc: 'west_extension: sealing gaps with rockwool',
+      time: 5,
+    }
+  }, 
+  dec21: {
     west_shop: {
       desc: 'west_extension: add films',
       time: 5,
