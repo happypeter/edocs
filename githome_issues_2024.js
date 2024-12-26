@@ -1,4 +1,10 @@
 export const issues = {
+  dec26: {
+    west_shop: {
+      desc: 'west_extension: walls, tools: fixing impact driver',
+      time: 5,
+    }
+  },  
   dec25: {
     west_shop: {
       desc: 'west_extension: walls',
