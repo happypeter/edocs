@@ -1,34 +1,34 @@
 export const issues = {
   dec26: {
     west_shop: {
-      desc: 'west_extension: walls, tools: fixing impact driver',
+      desc: 'west_extension: walls, tools: fixing impacd˙†t driver',
       time: 5,
     }
-  },  
+  },
   dec25: {
     west_shop: {
       desc: 'west_extension: walls',
       time: 5,
     }
-  },  
+  },
   dec24: {
     west_shop: {
       desc: 'west_extension: bench and walls',
       time: 5,
     }
-  },  
+  },
   dec23: {
     west_shop: {
       desc: 'west_extension: bench',
       time: 5,
     }
-  }, 
+  },
   dec22: {
     west_shop: {
       desc: 'west_extension: sealing gaps with rockwool',
       time: 5,
     }
-  }, 
+  },
   dec21: {
     west_shop: {
       desc: 'west_extension: add films',
@@ -113,7 +113,7 @@ export const issues = {
       time: 3,
     }
   },
-        
+
   dec04: {
     stove_top_table: {
       desc: 'top edge',
@@ -627,7 +627,7 @@ const sep18 = {
   box_making: {
     desc: '2',
     time: 2,
-  }, 
+  },
   pump_fix: {
     desc: 'heat welding',
     time: 3,
