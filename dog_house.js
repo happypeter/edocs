@@ -163,14 +163,55 @@ const roof = {
       /**
        * once you got the rafters flush with front and back walls
        * you can cut a whole sheet of pannel to make two gable walls
-       * 
+       * seal the attic https://youtu.be/_Ugiuyt0YmQ?t=3646
+       */
+    },
+    finishings: {
+      /** https://www.youtube.com/watch?v=_Ugiuyt0YmQ&list=PPSV&t=32s */
+      /**
+       * if you get any ugly edges, add trims https://youtu.be/_Ugiuyt0YmQ?t=3854
        */
     }
   }
+}
 
+const window = {
+  /**
+   * have this structure https://youtu.be/_Ugiuyt0YmQ?t=3378
+   * and have air gap between two layers of film
+   * 
+   */
 }
 
 const foundation = {
   // concrete blocks, wood blocks, bricks, anything
   // just make it level and lift the floor 5cm above ground
+}
+
+const curtain = {
+  /***
+   * screw fastened wood scrap, holding a piece of fabric
+   * https://youtu.be/QCOtWEFA6nc?t=1926
+   */
+}
+
+const back_window = {
+  location: 'back_wall',
+  purpose: {
+    winter: 'sunshine, with glass installed',
+    summer: 'remove glass to get airflow for cooling and drying'
+  }
+}
+
+const insulation = {
+  /**
+   * doing interior walls seems hard, and gap prone
+   * I dont really have enough thin plywood to do that anyway
+   * so I gave up on this build
+   * that means we dont do rockwool either
+   * but
+   * we do strive for air tight
+   * so I will use two layer exterior sheathing(1.2) and finishing(0.4) and have houseWrap go between
+   * plus gauk going into the gaps
+   */
 }
