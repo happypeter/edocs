@@ -18,7 +18,9 @@ import { lumber } from "./wood_shopping"
 const cost = {
   20250109: {
     cost: 80, // RMB, 
-    material: lumber.old10x10["2nd_purchase"]
+    material: lumber.old10x10["2nd_purchase"],
+    labor: 8, // my time and digger time
+    // we got digger for free, but you may spent another 200here
   }
 }
 const foundation = {
