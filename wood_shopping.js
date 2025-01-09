@@ -267,7 +267,15 @@ export const lumber = {
     real_size:  '4.5(3.8-5)x18(17-19)x292', price: '25RMB', source: shop_name.north_ring_road
   },
   'old10x10': {
-    real_size: '10x10x4m', price: 45, source: shop_name.north_ring_road_2nd
+    first_buy: {
+      real_size: '10x10x4m', price: 45, source: shop_name.north_ring_road_2nd
+    },
+    '2nd_purchase': {
+      real_size: '10x10x4m', price: 40, source: shop_name.north_ring_road_2nd
+    },
+  },
+  '2nd_purchase': {
+    real_size: '10x10x4m', price: 40, source: shop_name.north_ring_road_2nd
   },
   'old10x10_short': {
     real_size: '10x10x2m', price: 15, source: shop_name.north_ring_road_2nd

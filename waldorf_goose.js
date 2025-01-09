@@ -13,6 +13,20 @@
  *     - benches needs to have simple and standarized design
  */
 
+import { lumber } from "./wood_shopping"
+
+const cost = {
+  20250109: {
+    cost: 80, // RMB, 
+    material: lumber.old10x10["2nd_purchase"]
+  }
+}
+const foundation = {
+  /**
+   * https://www.youtube.com/watch?v=e-_NlKJ58dc
+   */
+}
+
 const general_structure = {
   /**
    * lean down from the north wall, 5m at the wall, then have
