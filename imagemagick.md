@@ -14,6 +14,13 @@
 brew install ImageMagick
 ```
 
+or
+
+```
+port install ImageMagick
+//failed for 3 times, but finally made it
+```
+
 ### covert a full-color img into a gray thumbnail
 
     convert  peter.jpeg -resize '70x70^' -gravity center -crop '70x70+0+0' -quantize GRAY -colors 256 -contrast source.png

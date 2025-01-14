@@ -1,3 +1,39 @@
+const shopping_list_20250109 = [
+  /**
+   * the waldorf school purchase
+   * total: 6215RMB
+   * 
+   */
+  {
+    product: lumber["new_3.5x7.5"],
+    totoal: '17RMB x 50'  
+  },
+  {
+    product: lumber.super_wide,
+    total: '35RMB x 5'
+  },
+
+  {
+    product: lumber.old10x10,
+    total: '40x15RMB',
+  },
+  {
+    product: lumber["3m_3.5x7.5"],
+    total: '9.5RMB x 200',
+  },
+  {
+    product: lumber["2.5m_3.5x7.5"],
+    total: '7RMB x 150'
+  },
+  {
+    product: lumber["3m_5x10"],
+    total: '11RMB x 100'
+  },
+  {
+    product: boards.plywood.concrete_form,
+    total: 340, //34RMBx10
+  },
+]
 /**
  * where to buy
  */
@@ -34,6 +70,8 @@ const glazings = {
 const githome_toilet = {
   price: '120RMB', source: shop_name.haiyang_second_hand
 }
+
+
 
 shopping_list_20241112 = [
   /**
@@ -235,7 +273,8 @@ export const boards = {
     '5':  { source: shop_name.jingdong_kurui,  real_size: '1.22x2.44', price: 60}, 
     'concrete_form': { 
                       source: "`shop_name.north_ring_road`", 
-                      real_size: '10x915x1830', price: 38,
+                      real_size: '10x915x1830', 
+                      price: 34, // was 38RMB
                       detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB. one more thing, since it is finished with paint already, guess I can use it as the exterior sheathing of my sheds',
                       }, 
   },
@@ -250,8 +289,31 @@ export const boards = {
 }
 
 export const lumber = {
+
+  super_wide: {
+    real_size: '4cmx17cmx4m', price: 35, source: shop_name.north_ring_road 
+  },
   wide: {
     real_size: '3cmx14cmx4m', price: 18, source: shop_name.north_ring_road_2nd
+  },
+
+  'new_3.5x7.5': {
+    /**
+     * they actually got the same size of another pine specie at the price of 16
+     */
+    real_size: '3.5x7.5x4m', price: 17, source: shop_name.north_ring_road
+  },
+  '3m_3.5x7.5': {
+    /**
+     * this is really cheap compared to the 4m ones, which are at 16RMB
+     */
+    real_size: '3.5x7.5x3m', price: 9.5, source: shop_name.north_ring_road
+  },
+  '2.5m_3.5x7.5': {
+    /**
+     * old
+     */
+    real_size: '3.5x7.5x2.5m', price: 7, source: shop_name.north_ring_road 
   },
   'half_new_3.5x7.5': {
     /**
@@ -267,15 +329,8 @@ export const lumber = {
     real_size:  '4.5(3.8-5)x18(17-19)x292', price: '25RMB', source: shop_name.north_ring_road
   },
   'old10x10': {
-    first_buy: {
-      real_size: '10x10x4m', price: 45, source: shop_name.north_ring_road_2nd
-    },
-    '2nd_purchase': {
-      real_size: '10x10x4m', price: 40, source: shop_name.north_ring_road_2nd
-    },
-  },
-  '2nd_purchase': {
-    real_size: '10x10x4m', price: 40, source: shop_name.north_ring_road_2nd
+      real_size: '10x10x4m', price: 40, source: shop_name.north_ring_road_2nd,
+      // was 45RMB on my first purchase
   },
   'old10x10_short': {
     real_size: '10x10x2m', price: 15, source: shop_name.north_ring_road_2nd
@@ -315,7 +370,18 @@ export const lumber = {
     real_size: '(32~35)x70x(2500~3000)',
     price: '11RMB', // a bit pricy, conpared to '5x10x400' ones
     source: shop_name.north_ring_road
+  },
+  '3m_5x10': {
+    /**
+     * this is very good value for the price
+     * they are mostly more than 2.5m
+     * and quite strong
+     */
+    real_size: 'shorter than 3m, 9.5x4.5cm section',
+    price: '11rmb', 
+    source: shop_name.north_ring_road
   }
+
 }
 
 
