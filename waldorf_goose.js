@@ -15,42 +15,21 @@
 
 import { lumber } from "./wood_shopping"
 
-const cost = {
-  20250109: {
-    cost: 0, // RMB, 
-    material: none,
-    labor: 8, // set the poles
-    // we got digger for free, but you may spent another 200here
-  },
-  20250110: {
-    cost: 80, // RMB, 
-    material: lumber.old10x10,
-    labor: 8, 
-  },
-  20250112: {
-    cost: 105, // 35x3 RMB, 
-    material: lumber.super_wide, // 3 used
-    labor: 5, // my time and help from one guy
-  },
-  20250113: {
-    cost: 0, 
-    // installed floor joists and cleats and one plywood pannel
-    // the cost will be calqulated when the whole subfloor is done
-    labor: 5,
-  },
-  20250114: {
-    cost: 210, // 56+11x14
-    material: {
-      // 14 piece of 
-      joists: lumber["3m_5x10"], // 14 piece
-      plates: lumber["2.5m_3.5x7.5"] // 8piece
-    },
-    labor: 5,
-  }, 
-}
+
 const foundation = {
   /**
    * https://www.youtube.com/watch?v=e-_NlKJ58dc
+   * - lesson learned:
+   *   - setting posts on a rough ground, and expected a perfectly
+   *     squared space to build on is very hard
+   *   - even more stupid was that I need all joists fit in the 3 beams
+   *     that sit on top of the posts
+   *   - next project, I will difinite do sth different
+   *     - I will first cut joist to build some \frame units based on
+   *       the size of my sheathing panels
+   *     - I will use attached the frames to beams
+   *       - beacause 5x10 lumber should not span longer than 2m
+   * 
    */
   size: {
     sides: {
@@ -132,6 +111,40 @@ const general_structure = {
    * windows half way on the roof, then lean down still, lowest goes to 2.8m,
    * https://www.tuffshed.com/introducing-newest-options/
    */
+
+  loft: {
+    /**
+     * 
+     */
+  },
+  back_concrete_wall: {
+    /**
+     * is it possible to connect to the back concrete wall?
+     * the idea is to open a backdoor and make use of the space
+     * between shed and concrete wall
+     * My current concultion is there no good way to extent the shed rooff
+     * all the way to the concrete wall. to form a roofed area for the space 
+     * between shed and the wall. So I won't do it for now.
+     * Maybe in the future, I will attached a plate on the concrete wall
+     * and have a roof lean from the wall down to the shed, this means
+     * - NO.1, the concrete wall was used
+     * - NO.2 rain water from both the new roof, and exsiting shed roof will
+     * flow at a same line, so maybe I can adda gutter along the line
+     * 
+     * anyway, I dont need to worry it for now.
+     */
+  },
+  doors: {
+    south: {
+      /** to access the playground */
+    },
+    west: {
+      /** connect to the roofed deck area/patio */
+    },
+    north: {
+      /** to make use of the large area behind the shed and the green house */
+    }
+  }
 }
 
 const roof = {
@@ -147,6 +160,13 @@ const roof = {
    *   - like this https://youtu.be/gzPTO1NaP2U?t=53
    * - so from the ground, the front/left/right sides, the sharp edges are mostly hidden
    */
+
+  frame: {
+    /**
+     * I don't have lumber that is wide enought for the 4m span,
+     * so I wil have to have a beam in the middle of the roof
+     */
+  }
 }
 
 const drainage = {

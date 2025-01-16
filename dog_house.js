@@ -14,6 +14,13 @@ const design = {
    * 
    */
 }
+
+const photoes = {
+  /**
+   * https://happypeter.github.io/githome/imgs/20250108/
+   */
+}
+
 const components = {
   L1, // Level1
   L2,
