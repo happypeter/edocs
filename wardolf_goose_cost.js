@@ -6,6 +6,13 @@ import { boards, lumber } from "./wood_shopping";
 
 const cost = {
   20250117: {
+    cost: 0, 
+    material: [
+      lumber["3m_3.5x7.5"], // just cleaned and removed nails
+    ],
+    labor: 4, 
+  }, 
+  20250116: {
     cost: 334, // 34x8 + 11x2 + 40
     material: {
       pannel: boards.plywood.concrete_form, // 8 sheets used
@@ -18,7 +25,7 @@ const cost = {
     labor: 6, // been a long day, 2hrs was spend on doing the tmp shelves
     // https://happypeter.github.io/githome/imgs/20250115/
   }, 
-  20250116: {
+  20250115: {
     cost: 0, // installed part of the sub floor pannels, cost will be noted when all is done
     material: {
     },
