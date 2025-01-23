@@ -15,7 +15,53 @@
 
 import { lumber } from "./wood_shopping"
 
+const design = {
+  /**
+   * - https://www.youtube.com/watch?v=oT5zSpdP_T4
+   *   - black + gray + wood
+   * - https://happypeter.github.io/githome/imgs/20250120/154983161.jpeg
+   * - https://happypeter.github.io/githome/imgs/20250119/
+   * 
+   */
+}
 
+const wall = {
+  exterior_foot_trim: {
+    why: "sheet metal is easy to dent, so some protection will be nice",
+    how: {
+      /**
+       * I have no plan to do it, but in case it is needed
+       * this maybe a simple solution
+       * have battens like the drainage pipes here https://happypeter.github.io/githome/imgs/20250119/
+       * then nail some black wood planks as the trim/fence thing to protect the lower part of the walls
+       */
+    }
+  }
+}
+const window = {
+  trim: {
+  /**
+   * with metal https://youtu.be/7KBB8DnsCvs?t=4429
+   * 
+   */
+  },
+  frame: {
+    /* 
+      once you got a pole barn wall, you don't need stud wall to make a 
+      window, just mount the frame to the girts will do
+      like this https://happypeter.github.io/githome/imgs/20250122/1.jpeg
+    */
+  },
+  layout: {
+    south_side: {
+      /**
+       * nothing fancy, KISS https://i0.wp.com/smallhouse-design.com/wp-content/uploads/2022/07/Two-Storey-Tiny-House-Plan-3x6-Meter-Shed-Roof-Full-Detailing-5.jpg?resize=1024%2C576&ssl=1
+       * https://happypeter.github.io/githome/imgs/20250119/
+       */
+    }
+  }
+
+}
 const foundation = {
   /**
    * https://www.youtube.com/watch?v=e-_NlKJ58dc
@@ -96,12 +142,18 @@ const set_poles = {
   }
 }
 
-const floor_beams = {
-  material: lumber.super_wide, // 3piece
-  steps: {
+const floor = {
+  size: {
+    width: 368, // north-south
+    length: 371, // east-west
+  },
+
+  beams: {
+    material: lumber.super_wide, // 3piece
+    steps: {
     attach_joist_to_beams,
     // per homeRenovation, you don't need joist hangers, two nails and one screws will do better job https://youtu.be/O33OZs6a-vA?t=1470
-
+    },
   }
 }
 
@@ -149,7 +201,9 @@ const general_structure = {
 
 const roof = {
   material: 'metal',
-  edge_banding: 'white board', // https://jp.pinterest.com/pin/370491506821876609/
+  facial_board: TRUE, 
+  // like this https://happypeter.github.io/githome/imgs/20250122/2.jpeg
+  // https://jp.pinterest.com/pin/370491506821876609/
   /**
    * I don't like the exposed sheet metal edge, too sharp
    * so, I will go this for the front(higer) vs left/right side https://jp.pinterest.com/pin/467107792606037292/
@@ -166,6 +220,15 @@ const roof = {
      * I don't have lumber that is wide enought for the 4m span,
      * so I wil have to have a beam in the middle of the roof
      */
+  },
+  slope: {
+    /**
+     * I will have a 9/12 gable roof, which means for 12 run, 9 is the rise
+     * plan: https://happypeter.github.io/githome/imgs/20250120/1494936862.jpeg
+     */
+    run: floor.size.width/2, // 184RMB
+    rise: 138, //cm, 184 * 3/4
+    sheet_metal_lenght: 280, // 230 + 50(overhange)
   }
 }
 

@@ -5,6 +5,28 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250122: {
+    cost: 336, 
+    material: [
+      lumber.old10x10,   // qty: 4, 40RMB x 4
+      lumber["3m_5x10"], //qty: 16, 11RMB x 16
+    ],
+    labor: 5, 
+  }, 
+  20250122: {
+    cost: 0, 
+    material: [
+      lumber.old10x10,
+    ],
+    labor: 5, 
+  }, 
+  20250121: {
+    cost: 0, 
+    material: [
+      lumber.old10x10, // start to set poles, cost will be count when this step is done
+    ],
+    labor: 5, 
+  }, 
   20250117: {
     cost: 0, 
     material: [

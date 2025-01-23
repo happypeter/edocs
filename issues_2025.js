@@ -1,4 +1,11 @@
 export const issues = {
+
+  Jan21: {
+    waldorf_goose: {
+      desc: 'walls',
+      time: 6,
+    }
+  },
   Jan17: {
     waldorf_goose: {
       desc: 'foundation',
