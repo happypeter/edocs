@@ -201,7 +201,9 @@ const general_structure = {
 
 const roof = {
   material: 'metal',
-  facial_board: TRUE, 
+  facial_board: {
+    attach_to_purlins: YES, // https://youtu.be/ZV9st9chII0?t=566
+  }
   // like this https://happypeter.github.io/githome/imgs/20250122/2.jpeg
   // https://jp.pinterest.com/pin/370491506821876609/
   /**

@@ -5,7 +5,7 @@ const shopping_list_20250109 = [
    * 
    */
   {
-    product: lumber["new_3.5x7.5"],
+    product: lumber["new_4x8"],
     totoal: '17RMB x 50'  
   },
   {
@@ -18,11 +18,11 @@ const shopping_list_20250109 = [
     total: '40x15RMB',
   },
   {
-    product: lumber["3m_3.5x7.5"],
+    product: lumber["3m_4x8"],
     total: '9.5RMB x 200',
   },
   {
-    product: lumber["2.5m_3.5x7.5"],
+    product: lumber["2.5m_4x8"],
     total: '7RMB x 150'
   },
   {
@@ -81,7 +81,7 @@ shopping_list_20241112 = [
    * yeah, I got 
    */
   {
-    product: lumber["half_new_3.5x7.5"],
+    product: lumber["half_new_4x8"],
     total: '16x100',
   },
   {
@@ -128,7 +128,7 @@ export const shopping_list_20240721 = [
     total: '5.5x57RMB'
   },
   {
-    product: lumber["4x8x300"],
+    product: lumber["3m_4x8"],
     details: 'x68',
     total: '11x68RMB'
   },
@@ -297,27 +297,29 @@ export const lumber = {
     real_size: '3cmx14cmx4m', price: 18, source: shop_name.north_ring_road_2nd
   },
 
-  'new_3.5x7.5': {
+  'new_4x8': {
     /**
      * they actually got the same size of another pine specie at the price of 16
      */
     real_size: '3.5x7.5x4m', price: 17, source: shop_name.north_ring_road
   },
-  '3m_3.5x7.5': {
+  '3m_4x8': {
     /**
      * this is really cheap compared to the 4m ones, which are at 16RMB
      */
     real_size: '3.5x7.5x3m', price: 9.5, source: shop_name.north_ring_road
+    // price was once 11RMB
   },
-  '2.5m_3.5x7.5': {
+  '2.5m_4x8': {
     /**
      * old
      */
     real_size: '3.5x7.5x2.5m', price: 7, source: shop_name.north_ring_road 
   },
-  'half_new_3.5x7.5': {
+  'half_new_4x8': {
     /**
-     * compared to lumber.wide, this is a bit pricy, but they r clean
+     * compared to lumber.wide, this is a bit pricy, but they r clean,
+     * I think I will just buy new_4x8 in the future, which is absolutely nail free
      */
     real_size: '3.5x7.5x4m', price: 16, source: shop_name.north_ring_road_2nd
   },
@@ -364,11 +366,6 @@ export const lumber = {
      */
     real_size: '(32~35)x70x(1800~2000)',
     price: '5.5RMB', // last purchase was 4
-    source: shop_name.north_ring_road
-  },
-  '4x8x300': {
-    real_size: '(32~35)x70x(2500~3000)',
-    price: '11RMB', // a bit pricy, conpared to '5x10x400' ones
     source: shop_name.north_ring_road
   },
   '3m_5x10': {

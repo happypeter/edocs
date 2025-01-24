@@ -5,7 +5,16 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
-  20250122: {
+  20250123: {
+    cost: 92, 
+    material: [
+      lumber.super_wide, // 35,
+      lumber["3m_5x10"], //qty: 3, 11RMB x 3
+      lumber["new_4x8"], //qty: 2, 17RMB x 2
+    ],
+    labor: 4, 
+  }, 
+  20250123: {
     cost: 336, 
     material: [
       lumber.old10x10,   // qty: 4, 40RMB x 4
@@ -30,7 +39,7 @@ const cost = {
   20250117: {
     cost: 0, 
     material: [
-      lumber["3m_3.5x7.5"], // just cleaned and removed nails
+      lumber["3m_4x8"], // just cleaned and removed nails
     ],
     labor: 4, 
   }, 
@@ -59,7 +68,7 @@ const cost = {
     material: {
       // 14 piece of 
       joists: lumber["3m_5x10"], // 14 piece
-      plates: lumber["2.5m_3.5x7.5"] // 8piece
+      plates: lumber["2.5m_4x8"] // 8piece
     },
     labor: 5,
   },
