@@ -241,3 +241,8 @@ const drainage = {
    * and the gutter will have the east side lower, so that water will be directed to the river
    */
 }
+const logo = {
+  /**
+   * having a logo will make the house really stylish https://happypeter.github.io/githome/imgs/20250126/1672406318.jpeg
+   */
+}

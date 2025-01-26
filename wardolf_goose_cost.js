@@ -5,7 +5,22 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
-  20250123: {
+  20250126: {
+    cost: 0, 
+    material: [
+      // remove nails for pallet board, building two sawhorses, and one table
+      // but nothing added to the goose builing, the the cost does not count in
+    ],
+    labor: 7, 
+  }, 
+  20250125: {
+    cost: 0, 
+    material: [
+      // check wood_shopping.js search goose
+    ],
+    labor: 6, 
+  }, 
+  20250124: {
     cost: 92, 
     material: [
       lumber.super_wide, // 35,

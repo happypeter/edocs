@@ -1,3 +1,19 @@
+const shopping_list_20250125 = [
+  /**
+   * the waldorf goose shopping
+   * everything shipped to the compus
+   */
+  {
+    product: [
+      boards.crate_plywood,
+      boards.solid_planks,
+      /**
+       * and other random sized lumbers, old beds, which are all worth repurchasing.
+       */
+    ],
+    total: 1920, // RMB, 1400RMB/ton
+  }
+]
 const shopping_list_20250109 = [
   /**
    * the waldorf school purchase
@@ -44,6 +60,7 @@ const photos = {
    */
 }
 const shop_name = {
+  xiaolean_shop: 'out skirt of my village',
   north_ring_road: '北环路 凯诺公司对面，二手木材',
   north_ring_road_2nd: '北环路，凯诺公司西500m 二手木材',
   jingdong_kurui: '京东:睿筑旗舰店', // serious problem: crazy transport cost 270RMB for 8 OSB boards
@@ -243,6 +260,18 @@ export const boards = {
       // they are not in perfect shape, but look at this https://www.bilibili.com/video/BV1oZ421K7WN/
       // you don't need dead square things to build awesome
       source: shop_name.north_ring_road, price: 1200
+    },
+    clean: {
+      source: shop_name.xiaolean_shop, price: 1400, // 1400RMB/ton
+      /**
+       * it's a better option than '1', cause the planks are 
+       * - not rotten at all
+       * - the color still mostly perfect new wood
+       * - just planks, already off the pallet
+       * if there is 2.5 cubic meter in one ton, that means
+       * 1400/2.5 = 560 RMB/m3, if the planks are 1cm thick, the price is 5.6RMB/m2
+       */
+      
     }
   },
   faced_pannel: {
@@ -277,6 +306,15 @@ export const boards = {
                       price: 34, // was 38RMB
                       detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB. one more thing, since it is finished with paint already, guess I can use it as the exterior sheathing of my sheds',
                       }, 
+    crate: {
+      source: shop_name.xiaolean_shop,
+      real_size: 'around 65cm wide...',
+      price: {
+        /**
+         * 700RMB/ton and 1.2cm thick, means, 8.4RMB/m2, such a bargin, the concrete_form one is around 20RMB/m2
+         */
+      } 
+    }
   },
   pine: {
     finger: {
