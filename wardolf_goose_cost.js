@@ -5,6 +5,22 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250127: {
+    cost: 0, 
+    material: [
+
+      // SECOND & THIRD WORKBENCH BUILDING
+    ],
+    labor: 6, 
+  }, 
+  20250127: {
+    cost: 0, 
+    material: [
+
+      // CLEAN SNOW, FIRST WORKBENCH BUILDING
+    ],
+    labor: 7, 
+  }, 
   20250126: {
     cost: 0, 
     material: [

@@ -26,6 +26,9 @@ const design = {
 }
 
 const wall = {
+  wrap: {
+    /* it will be used to protect the metal from condensation https://www.youtube.com/watch?v=4OQ0OLQpDWU&list=PPSV */
+  },
   exterior_foot_trim: {
     why: "sheet metal is easy to dent, so some protection will be nice",
     how: {
@@ -39,6 +42,11 @@ const wall = {
   }
 }
 const window = {
+  flashing: {
+    /**
+     * z flash behind glass https://youtu.be/DF-MCqtnxzc?t=208
+     */
+  },
   trim: {
   /**
    * with metal https://youtu.be/7KBB8DnsCvs?t=4429
