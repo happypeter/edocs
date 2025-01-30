@@ -26,6 +26,11 @@ const design = {
 }
 
 const wall = {
+  bottom_flashing: {
+    /**
+     * https://youtu.be/QS8UKDUAldU?t=82
+     */
+  },
   wrap: {
     /* it will be used to protect the metal from condensation https://www.youtube.com/watch?v=4OQ0OLQpDWU&list=PPSV */
   },
@@ -49,7 +54,8 @@ const window = {
   },
   trim: {
   /**
-   * with metal https://youtu.be/7KBB8DnsCvs?t=4429
+   * with metal J channel https://youtu.be/7KBB8DnsCvs?t=4429
+   * https://www.youtube.com/watch?v=fMdFeDS6t6Y&list=PPSV
    * 
    */
   },
