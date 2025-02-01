@@ -5,6 +5,13 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250201: {
+    cost: 0, 
+    material: [
+      // done all 4 benches
+    ],
+    labor: 7, 
+  }, 
   20250130: {
     cost: 0, 
     material: [

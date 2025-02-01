@@ -56,6 +56,7 @@ const window = {
   /**
    * with metal J channel https://youtu.be/7KBB8DnsCvs?t=4429
    * https://www.youtube.com/watch?v=fMdFeDS6t6Y&list=PPSV
+   * https://www.youtube.com/watch?v=gZ3Lc--d_LM&list=PPSV
    * 
    */
   },
@@ -214,10 +215,12 @@ const general_structure = {
 }
 
 const roof = {
-  material: 'metal',
-  facial_board: {
-    attach_to_purlins: YES, // https://youtu.be/ZV9st9chII0?t=566
-  }
+  joists: {
+   /**
+    * https://www.youtube.com/watch?v=lS2QjHMsJbY&list=PPSV
+    */
+  },
+
   // like this https://happypeter.github.io/githome/imgs/20250122/2.jpeg
   // https://jp.pinterest.com/pin/370491506821876609/
   /**
@@ -248,6 +251,14 @@ const roof = {
   }
 }
 
+const second_floor = {
+  /**
+   * when your span is bigger then your joists, beams r needed,
+   * and you can either install joists on top or side of the beam/beamish, this project shows both https://happypeter.github.io/githome/imgs/20250131/
+   * https://www.youtube.com/watch?v=N0ovuBb2ViM&list=PPSV
+   */
+}
+
 const drainage = {
   /**
    * have gutter between the north side of green house
@@ -258,5 +269,11 @@ const drainage = {
 const logo = {
   /**
    * having a logo will make the house really stylish https://happypeter.github.io/githome/imgs/20250126/1672406318.jpeg
+   */
+}
+
+const stairs = {
+  /**
+   * a easy way https://www.youtube.com/watch?v=ePPjFK_xaSg
    */
 }

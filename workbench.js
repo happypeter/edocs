@@ -411,7 +411,10 @@ const nailing = () => {
 }
 
 const sawhorse = () => { 
+
+
   /**
+   * my working horse https://happypeter.github.io/githome/imgs/20250126/836815260.jpeg
    * - when I need them?
    *   - sanding the 3m lumbera
    * - ref designs
@@ -419,9 +422,16 @@ const sawhorse = () => {
    *   - my childhood way 板凳 https://www.ixigua.com/6820785363007570440?logTag=418f4841bf22b7451ff3
    *     - lightweight ans strong, but hard to build and hard to tear apart and reuse the wood
    *   - with middle gap for saws https://www.ixigua.com/6611237294340833796
-   * - my design
-   *   - stay cubiods, even this means the result will be heavy
+
    *  */ 
 }
 
 
+const fast_lap = {
+  /**
+   * the four benches I built in one go at waldorf school 
+   * in total 27hrs used on all four 
+   * https://happypeter.github.io/githome/imgs/20250201/
+   * 
+   */
+}
