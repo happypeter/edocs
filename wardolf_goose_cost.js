@@ -5,6 +5,27 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250205: {
+    cost: 220, //11RMB x 20 
+    material: [
+      lumber["3m_5x10"], // 20 for the last 3 days of work, joists and things for the second floor
+    ],
+    labor: 6, 
+  }, 
+  20250203: {
+    cost: 0, 
+    material: [
+      // lumber["3m_5x10"], joists and things for the second floor, cost will be totaled later
+    ],
+    labor: 6, 
+  }, 
+  20250202: {
+    cost: 0, 
+    material: [
+      // lumber["3m_5x10"], joists and things for the second floor, cost will be totaled later
+    ],
+    labor: 6, 
+  }, 
   20250201: {
     cost: 0, 
     material: [

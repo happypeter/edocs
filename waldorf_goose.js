@@ -47,9 +47,12 @@ const wall = {
   }
 }
 const window = {
+  framing: {
+    /** it is easy like this https://youtu.be/ZhH2g9tIIqk?t=53 */
+  },
   flashing: {
     /**
-     * z flash behind glass https://youtu.be/DF-MCqtnxzc?t=208
+     * z flashing behind glass https://youtu.be/DF-MCqtnxzc?t=208
      */
   },
   trim: {
