@@ -1,4 +1,7 @@
-
+/**
+ * if you want to explain your structural ideas to people, sketchup design is a big bonus 
+ * https://www.youtube.com/watch?v=McF8McA6sds
+ */
 const main = () => { 
   setup_app() 
   basics()

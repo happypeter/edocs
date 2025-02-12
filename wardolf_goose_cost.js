@@ -5,6 +5,55 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  202502012: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 4, 
+  }, 
+  202502011: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 6, 
+  }, 
+  202502010: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 5, 
+  }, 
+  202502009: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 7, 
+  }, 
+  202502008: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 7, 
+  }, 
+  202502007: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 7, 
+  }, 
+  202502006: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 6, 
+  }, 
   20250205: {
     cost: 220, //11RMB x 20 
     material: [
