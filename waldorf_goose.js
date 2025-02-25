@@ -34,6 +34,11 @@ const wall = {
   wrap: {
     /* it will be used to protect the metal from condensation https://www.youtube.com/watch?v=4OQ0OLQpDWU&list=PPSV */
   },
+  plank_sheathing: {
+    /**
+     * the the edges to V shape https://youtu.be/lI8Bo-y3ywM?t=430
+     */
+  },
   exterior_foot_trim: {
     why: "sheet metal is easy to dent, so some protection will be nice",
     how: {
@@ -60,6 +65,7 @@ const window = {
    * with metal J channel https://youtu.be/7KBB8DnsCvs?t=4429
    * https://www.youtube.com/watch?v=fMdFeDS6t6Y&list=PPSV
    * https://www.youtube.com/watch?v=gZ3Lc--d_LM&list=PPSV
+   * trim with wood https://www.youtube.com/watch?v=mtuMQCs4rlE
    * 
    */
   },
@@ -218,9 +224,13 @@ const general_structure = {
 }
 
 const roof = {
-  joists: {
+  trim: {
+    /** with wood planks https://youtu.be/eJv40qEx0cU?t=745 */
+  },
+  rafters: {
    /**
     * https://www.youtube.com/watch?v=lS2QjHMsJbY&list=PPSV
+    * this explains it well https://www.youtube.com/watch?v=TvcMXpIqGwg&t=579s
     */
   },
 
@@ -251,6 +261,11 @@ const roof = {
     run: floor.size.width/2, // 184RMB
     rise: 138, //cm, 184 * 3/4
     sheet_metal_lenght: 280, // 230 + 50(overhange)
+  },
+  tile: {
+    /**
+     * https://www.youtube.com/watch?v=AY8MZ52F-wQd
+     */
   }
 }
 

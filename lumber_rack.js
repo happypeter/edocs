@@ -45,3 +45,7 @@ const set_poles = {
    * and in the video, there is also the NO-Math shed building method, which might be the easiest shed ever.
    */
 }
+
+const simplest_shed_pole_barn = {
+  /** https://www.youtube.com/watch?v=mqA1uPBAclo */
+}

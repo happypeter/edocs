@@ -32,7 +32,6 @@ const plank_ideas = {
     /**
      * you can do lap sheathing with the planks without bevel sides https://youtu.be/Nu-SKD_9-Tc?t=700
      * https://youtu.be/eJv40qEx0cU?t=706
-     * with 2RMB/square meter exterio tarp, or 1RMB/sm under tarp, I can use planks+tarp to replace sheet metal
      */
   }
 }

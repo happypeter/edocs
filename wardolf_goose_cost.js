@@ -5,6 +5,49 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250225: {
+    cost: 0, 
+    material: [
+      // TOOL storagE shed, roofing
+    ],
+    labor: 6, 
+  }, 
+  20250224: {
+    cost: 0, 
+    material: [
+      // building TOOL storagE shed
+    ],
+    labor: 6, 
+  }, 
+  20250223: {
+    cost: 0, 
+    material: [
+      // building TOOL storagE shed
+    ],
+    labor: 6, 
+  }, 
+  20250222: {
+    cost: 157, 
+    material: [
+      lumber["3m_4x8"], // qty: 14, 9.5x14=133
+      // plywood 4sqm, 24RMB
+    ],
+    labor: 7, 
+  }, 
+  20250216: {
+    cost: 0, 
+    material: [
+      // cost recorded in future
+    ],
+    labor: 6, 
+  }, 
+  202502013: {
+    cost: 0, 
+    material: [
+      // building lumber storage rack shed
+    ],
+    labor: 4, 
+  }, 
   202502012: {
     cost: 0, 
     material: [
