@@ -1,4 +1,12 @@
 export const issues = {
+  Mar: {
+    waldorf_goose,
+    // check wardolf_goose_cost.js
+  },
+  Feb: {
+    waldorf_goose,
+    // check wardolf_goose_cost.js
+  },
   Jan: {
     waldorf_goose,
     // check wardolf_goose_cost.js

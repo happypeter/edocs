@@ -5,6 +5,41 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250302: {
+    cost: 0, 
+    material: [
+      // worked from home today, cleaned saw dusty room
+    ],
+    labor: 6, 
+  }, 
+  20250301: {
+    cost: 0, 
+    material: [
+ // TOOL storagE shed, sheathing and cladding
+    ],
+    labor: 6, 
+  }, 
+  20250228: {
+    cost: 0, 
+    material: [
+ // TOOL storagE shed, east extension
+    ],
+    labor: 6, 
+  }, 
+  20250227: {
+    cost: 0, 
+    material: [
+      // worked from home today, get things more organized
+    ],
+    labor: 6, 
+  }, 
+  20250226: {
+    cost: 0, 
+    material: [
+      // TOOL storagE shed, 15 or so shelves
+    ],
+    labor: 6, 
+  }, 
   20250225: {
     cost: 0, 
     material: [
