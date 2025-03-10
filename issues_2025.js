@@ -1,4 +1,13 @@
 export const issues = {
+  Mar05: {
+    marathon: {
+      run: 13, //km
+    },
+    gardening: {
+      // watch 2hr videos
+    }
+    // check wardolf_goose_cost.js
+  },
   Mar: {
     waldorf_goose,
     // check wardolf_goose_cost.js

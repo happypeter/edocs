@@ -5,6 +5,20 @@
 import { boards, lumber } from "./wood_shopping";
 
 const cost = {
+  20250310: {
+    cost: 0, 
+    material: [
+      // just the cleaning
+    ],
+    labor: 4, 
+  }, 
+  20250309: {
+    cost: 0, 
+    material: [
+      // part of the rafters
+    ],
+    labor: 5, 
+  }, 
   20250302: {
     cost: 0, 
     material: [
