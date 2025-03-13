@@ -1,4 +1,17 @@
 export const issues = {
+  Mar12: {
+    gardening: {
+      // Day2 project north_lake
+      desc: 'clean the gateway and built a raised bed',
+      time: 3,
+    }
+  },
+  Mar11: {
+    gardening: {
+      desc: 'clean the gateway',
+      time: 2,
+    }
+  },
   Mar05: {
     marathon: {
       run: 13, //km
