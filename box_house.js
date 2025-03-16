@@ -1,6 +1,7 @@
 /**
  * ref: pole barn with pitched roof https://www.youtube.com/watch?v=yKoJTLy9DW8
- * - poles with stud walls go between https://www.youtube.com/watch?v=ovXWjuvWJCo
+ * - poles with stud walls go between, e.g @10min_barn https://www.youtube.com/watch?v=ovXWjuvWJCo
+ *   - the @10min_barn, with a taller section in the middle, two eves on sides
  *   - this is current what I love most for walls 
  */
 
