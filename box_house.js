@@ -8,7 +8,7 @@
 import { issues } from "./githome_issues_2024"
 import { githome } from "./githome_projects"
 import { lumber } from "./wood_shopping"
-import { roof } from "./house.lib"
+import { leanto_simple } from "./roof.lib"
 
 const PROJECT_NAME = 'box_house'
 const costs = [
@@ -21,6 +21,8 @@ const process = {
    */
 
 }
+roof = leanto_simple
+
 const floor_plan = {
   todo: {
     /**
@@ -28,8 +30,6 @@ const floor_plan = {
      */
   }
   
-  /**
-   */
 }
 
 
@@ -85,17 +85,7 @@ const outdoor_structural_blocks = {
 }
 
 
-const roof = { 
-  /**
-   * - follow this: https://www.youtube.com/watch?v=mwMdfF1RGyE
-   *   - in case VPN sucks https://happypeter.github.io/githome/imgs/20240728/
-   *   - key points
-    *   - no plywood sheathing, just crossed lumbers
-    *     - sheet metal overhang 5cm
-    * - no need to edge seal the metal pannel roof
-    *   - this still looks good with the edge exposed https://youtu.be/ovXWjuvWJCo?t=660
-   */
-}
+
 
 const box_unit = {
   /**
@@ -125,10 +115,11 @@ const frame_unit = {
       /**
        * I will use a brace, and later change to some sheath if necessary
        */
-      between_studs: 'no',
+      blockings: 'no',
     },
   }
 }
+
 
 const second_storey = {
 

@@ -9,6 +9,9 @@ const todos = {
    *     - instead of a heavy duty bench, I will prefer a more portable/sacrificial sawhorse thing
    *   - this needs to be small and easy to build
    * - a serious barn
+   *   - local code does not allow two storey buildings
+   *   - I don't need big house to make a nice farm https://www.youtube.com/watch?v=48GzbNGoF90
+   *   - smaller, simple structures makes it a lot easier to reuse lumbers when I need to move
    *   - lesson I learnt is that I need a tool shed before I build this
    *   - two wing structure @10min_barn https://www.youtube.com/watch?v=ovXWjuvWJCo
    * - a deck and farmhouse table
@@ -112,11 +115,23 @@ layout = {
   }
 }
 
+const loft_barn = {
+  /**
+   * raplicate the @10min_barn, so that elon has a great view on the second storey, and have fun
+   */
+}
 const tool_shed = {
   /**
-   * use pallet planks for cladding, and have extensive eves to keep rain away from the planks
-   * I can have a awning or porch thing for the front door as well
-   * try to hide the connection of two vertically installed planks under the roofs, so that end grains won't get wet too ofen
+   * - black film roof https://www.youtube.com/shorts/AkRLH-j8PWs
+   * - four side extended design
+      - * use pallet planks for cladding, and have extensive eves to keep rain away from the planks
+      - * I can have a awning or porch thing for the front door as well
+      - * try to hide the connection of two vertically installed planks under the roofs, so that end grains won't get wet too often
+      - only the main building get a deck floor
+      - the four extension parts use ground as floor
+      - north/south windows above the extension roof, otherwise the inside woould be too dark
+      - 3m from deck floor to the roof, have a 90cm loft space
+      - sortof a bigger version of my waldorf tool shed https://happypeter.github.io/githome/imgs/20250317/1351676436.jpeg
    * 
    */
   roof: {
@@ -135,5 +150,14 @@ const tool_shed = {
     /**
      * burnt 10x10, 50cm long, or rocks from thre river
      */
+  }
+}
+
+water = {
+  pump: {
+    /** 水泵 直流 电动车 pdd  */
+  },
+  well: {
+    /** try to dig */
   }
 }
