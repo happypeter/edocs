@@ -1,5 +1,22 @@
+const shopping_list_20250318 = [
+  /**
+   *  shop_name.xiaolean_shop 2nd purchase
+   * everything shipped to the githome
+   */
+  {
+    product: [
+      boards.crate_plywood,
+      boards.solid_planks,
+      /**
+       * and other random sized lumbers, old beds, which are all worth repurchasing.
+       */
+    ],
+    total: 1920, // RMB, 1400RMB/ton
+  }
+]
 const shopping_list_20250125 = [
   /**
+   * shop_name.xiaolean_shop 1nd purchase
    * the waldorf goose shopping
    * everything shipped to the compus
    */
@@ -331,8 +348,17 @@ export const lumber = {
   super_wide: {
     real_size: '4cmx17cmx4m', price: 35, source: shop_name.north_ring_road 
   },
-  wide: {
+  wide: { 
+    /**
+     * this is obsoleted by thicker_wide
+     */
     real_size: '3cmx14cmx4m', price: 18, source: shop_name.north_ring_road_2nd
+  },
+  thicker_wide: {
+    real_size: '3.6cmx14cmx4m', price: 12, source: shop_name.xiaolean_shop
+    /**
+     * 1400RMB/ton, I believe it's a bit more than 2cubicmeter out of 1 ton, so I set the 1cubicmeter pirce to 600RMB, and that is how I caculated to price per piece
+     */
   },
 
   'new_4x8': {

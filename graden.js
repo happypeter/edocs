@@ -156,8 +156,26 @@ const tool_shed = {
 water = {
   pump: {
     /** 水泵 直流 电动车 pdd  */
+    /**
+     * brand: 酒井
+     * - tips: when battery votage is lower than 39v, motor stops
+     * - aviod run without water in the pump, maybe it stops in 2mins automatically
+     * - wrap the pump with filter net is preferred
+     */
   },
   well: {
     /** try to dig */
   }
+}
+
+paths = {
+  /**
+   * cover with woodchips https://youtu.be/01KBOufYWeM?t=61
+   */
+}
+
+rabbit_hutch = {
+  /**
+   * https://www.youtube.com/watch?v=EgaE1R5IJQI
+   */
 }
