@@ -272,13 +272,8 @@ const shopping_list_20221028 = [
 
 export const boards = {
   pallet: {
-    '1': {
-      // 1200RMB/ton reclaimed wood, containing 1cm thick, 2m long boards
-      // they are not in perfect shape, but look at this https://www.bilibili.com/video/BV1oZ421K7WN/
-      // you don't need dead square things to build awesome
-      source: shop_name.north_ring_road, price: 1200
-    },
-    clean: {
+    '12': {
+      //12mm thickness
       source: shop_name.xiaolean_shop, price: 1400, // 1400RMB/ton
       /**
        * it's a better option than '1', cause the planks are 
@@ -286,7 +281,7 @@ export const boards = {
        * - the color still mostly perfect new wood
        * - just planks, already off the pallet
        * if there is 2.5 cubic meter in one ton, that means
-       * 1400/2.5 = 560 RMB/m3, if the planks are 1cm thick, the price is 5.6RMB/m2
+       * 1400/2.5 = 560 RMB/m3, if the planks are 1.2cm thick, the price is 7RMB/m2
        */
       
     }
