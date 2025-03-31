@@ -122,33 +122,21 @@ const loft_barn = {
 }
 const tool_shed = {
   /**
+   * - I will build a moderate size pole barn roof, at least 2 larger footprint than the deck floor
+   *   - because I got too much posts and super side planks I need to use
+   *   - but polebarn strucure is not for sth too small
+   *   - so I will just build a pavilion on top of the floor,
+   *     - I may probably seal the floor area to be a air tight room later
+   *     - then I will have extension roof on all directions
    * - black film roof https://www.youtube.com/shorts/AkRLH-j8PWs
-   * - four side extended design
-      - * use pallet planks for cladding, and have extensive eves to keep rain away from the planks
-      - * I can have a awning or porch thing for the front door as well
-      - * try to hide the connection of two vertically installed planks under the roofs, so that end grains won't get wet too often
-      - only the main building get a deck floor
-      - the four extension parts use ground as floor
-      - north/south windows above the extension roof, otherwise the inside woould be too dark
-      - 3m from deck floor to the roof, have a 90cm loft space
-      - sortof a bigger version of my waldorf tool shed https://happypeter.github.io/githome/imgs/20250317/1351676436.jpeg
-   * 
+  
    */
   roof: {
+
     /**
-     * no rafters needed, jion two halves of one pallet https://www.youtube.com/shorts/y7upjWMGa1g
-     * then cover tarp on top, simple as hell https://youtu.be/ovWgtiKi8mw?t=585
-     */
-  },
-  floor: {
-    /**
-     * have pallets site right on ground as subfloor https://www.youtube.com/shorts/y7upjWMGa1g
-     * https://youtu.be/pB-eF21etuM?t=77
-     */
-  },
-  footings: {
-    /**
-     * burnt 10x10, 50cm long, or rocks from thre river
+     * - roof foot print is 16sqm or a bit less, so that I would use the 4m lumber.super_wide without cutting them short
+     * - build 3or4 trusses
+     *   - cut super_wide planks, 3m or so( determined by the pitch I want) rafters with my mitersaw
      */
   }
 }

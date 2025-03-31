@@ -1,3 +1,14 @@
+flat_wood_roof = {
+  // for body height building when you may use the roof as a work surface
+  // then have same plastic film underneath sloped
+
+}
+fabric_surface_roof = {
+  // sheet metal edges r too sharpe, if the building is low
+  // try https://youtu.be/IVvcgnN39Q4?t=63
+  // just some scratch resistant fabric-ish film or tarp on top of plywood
+}
+
 sheet_metal = {
   rusty: {
     /**

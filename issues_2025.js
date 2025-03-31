@@ -1,4 +1,5 @@
 export const issues = {
+  // following notes moved back to my diary
   Mar21: {
     gardening: {
       desc: 'more work for the shed',
