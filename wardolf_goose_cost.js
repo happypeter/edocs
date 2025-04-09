@@ -6,6 +6,14 @@ import { boards, lumber } from "./wood_shopping";
 
 const cost = {
   20250324: {
+    cost: 1000, // wall & roof in total cost 2200RMB or so 
+    material: [
+      // rafters done
+      // roof sheet metals
+    ],
+    labor: 4, // four solid hours with the help of Mr Liu 
+  }, 
+  20250324: {
     cost: 20, 
     material: [
       // rafters done

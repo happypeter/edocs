@@ -167,3 +167,23 @@ rabbit_hutch = {
    * https://www.youtube.com/watch?v=EgaE1R5IJQI
    */
 }
+
+chick_coop = {
+  /**
+   * A frame https://www.youtube.com/watch?v=v5ObxmVgy7k
+   * youtube: 'Building my daughters a $0 chicken coop
+'
+   */
+}
+picnic_table = {
+  /**
+   * https://www.youtube.com/watch?v=Oex8W5aASJo
+   * 'I made a picnic table from someone's rubbish'
+   */
+}
+wagon = {
+  /**
+   * DIY is not too easy: https://www.youtube.com/watch?v=xOW2mwJu28A
+   * https://www.youtube.com/watch?v=j8jfvFbSAsA
+   */
+}

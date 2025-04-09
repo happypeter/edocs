@@ -25,7 +25,58 @@
  * - Next Version
   * - wire cloth
   *   - the one I got is 1mm thick with 2cm holes, I will prefer 1.5mm thick and 1.5cm holes for my next version of this
+  *   - for the floor, PVC coat wire mesh is prefered to avoid foot sores
   * - depth
   *   - is now 60cm, I will make it 70cm next version
  *   
  */
+
+rabbits_info = {
+      /**
+       * gray one is a lady, 比利时兔, most common of all in China
+       * white one is man, hybrid from 巴扎黑 and 白塔兔 
+       */
+      heat: {
+            /** seller said nothing needed to enhance the airflow in summer
+             * just a roof to shelter the sun away
+             * in winter, you still just need a roof, no walls needed
+             */
+      },
+      food: {
+            furit_tree_leaves: {
+                  // apple, pear, but not chestnut
+                  // dandelion is good
+
+            },
+            twigs: {
+            // apple or pear
+                  // apricot twigs r not safe
+
+            },
+            toxic: {
+                  /**
+                   * cabbage and spinech are also OK for rabbits
+                   * - but without enough hey intake, too much watery food will kill the rabbit
+                   * - carrots is high in suger, use them as small treats
+                   *   - dangerous to little rabbits
+                   *   - but the leaves r OK
+                   * 
+                   * raddish is mostly OK, as long as they are not spicy
+                   * 
+                   * 
+                   */
+                  // dry cabbage leave is OK
+                  // dry tunip and radish leaves also good for winter
+                  // chocolate and other cadies
+                  // spring onion, and anything spicy
+                  // carrots and potatos not for little ones
+                  // anything get bad
+            },
+            hay: {
+                  // any grass will be OK
+                  // green grass also OK
+                  // should be 80% of their food
+            }
+      }
+
+}
