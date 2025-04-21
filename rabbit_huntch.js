@@ -22,12 +22,22 @@
  *       - use plywood cover half of the structure to provide shear strength 
  *   - course_tip: don't explain it too much to the audience, cause things will get clear along building
  * - process 
- * - Next Version
+ * - Next Version aka. v2
+ *   - plan, my porcreate App, RabbitHutchV2
   * - wire cloth
   *   - the one I got is 1mm thick with 2cm holes, I will prefer 1.5mm thick and 1.5cm holes for my next version of this
   *   - for the floor, PVC coat wire mesh is prefered to avoid foot sores
   * - depth
   *   - is now 60cm, I will make it 70cm next version
+  * - roof
+  *   - I will use sheet metal roof, but add a big handle infront, and maybe some wood corners to hide the dark edges
+  *     - https://www.youtube.com/shorts/FQIKcTCORrM
+  *   - flatter roof, so that I don't need to cut angles for roof frame
+  * - floor
+  *   - thick wire flooring https://youtu.be/6nN3vSnYPzM?t=383
+  *     - throw hardwareCloth+mat, embrace tougher wire bottom floor
+  *     - 1cmx1.5cm holes
+  *     - 14 gauge(1.6mm) wire 
  *   
  */
 

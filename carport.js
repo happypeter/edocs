@@ -17,7 +17,14 @@ import { yard_building_color_theme } from "./yard"
 
 
 const PITCH = 'how much ever works for the level to show clear reading' //https://www.youtube.com/watch?v=02DtgOORPD4
-const colors = yard_building_color_theme
+const colors = {
+ /**
+  use yard_building_color_theme
+  trick is, just use the rich_wooden colored planks for everything, later when adding accessories, say
+  a wall-attached sheving, a awing, windows... or anything, use black/dark_gray. use big area color, not lines
+  say, don't use contrast color lines for corner protection strips.
+   */
+}
 
 const shopping_list = {
   brace: { product: hardware.braces["2x3"], number: 2, total_cost: 0 },

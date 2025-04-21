@@ -81,7 +81,14 @@ export const yard_building_color_theme = {
    *   - dirty plus small plus gray looks horriable
    * 
    */
-  OSB_color: "rich yellow"
+  rich_wooden: "rich yellow color, e.g OSB, and oiled clean pine planks",
+  contrast: 'clear, NOT strong',
+  /**
+   * strong contrast brings a cheap look, but clear contrast is a good idea
+   * e.g a black window frame is good idea for a rich_wooden color wall, cause window is black square
+   * give it a black squared frame just make the window a more clear shape, human eyes love simplicity
+   *
+   */
 }
 
 const guidelines = {

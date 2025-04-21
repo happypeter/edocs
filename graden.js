@@ -185,5 +185,14 @@ wagon = {
   /**
    * DIY is not too easy: https://www.youtube.com/watch?v=xOW2mwJu28A
    * https://www.youtube.com/watch?v=j8jfvFbSAsA
+   * - eailer little one https://www.youtube.com/watch?v=P34cs628jW8
+   * - I maybe build a wood ish one as prototype
+   *   - a bike trailer
+   *   - a utility wagon
+   *   - does not matter it is strong or not, just a test to see if we really like them
+   * - outdoor garden cart
+   *   - https://www.youtube.com/watch?v=3ep35s9fQcE
+   * - welding does not look hard
+   *   - https://www.youtube.com/watch?v=gSi5TTJkTyc
    */
 }
