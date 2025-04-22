@@ -4,9 +4,18 @@
 */
 
 export const sliding_door = {
-  /**
-   * PDD has wheels that slide on steel pipes, 7RM for 4
-   */
+
+  wheels: {
+    /**
+     * PDD: 全钢轨道滑轮, U 型, 1.2寸, 4分，六分管通用
+     */
+    fastener: {
+      /**
+       * use long nails, bend the point end, to bite into wood
+       * or use bolts and nuts, but if the wood is thick, drilling holes for bolts could be harder
+       */
+    }
+  },
   track: {
     iron_pipe: {
       thick: 2, // rigid enough for 95cm span,
