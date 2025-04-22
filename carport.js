@@ -12,6 +12,7 @@
     - and in my case, I don't want all roofs on the same level anyway, the middle part should be taller, and north and soutch part should be lower
 */
 
+import { sliding_door } from "./door.lib"
 import { boards, burned, hardware, lumber, treated } from "./wood_shopping"
 import { yard_building_color_theme } from "./yard"
 
@@ -45,12 +46,8 @@ const build_parts_on_ground = () => {
     */
 }
 
-const sliding_door = {
-  /**
-   * PDD has wheels that slide on steel pipes, 7RM for 4
-   * here is a example for cabinets https://youtu.be/D-vM-GFidOQ?t=754
-   */
-}
+
+const front_door = sliding_door
 
 const main = () => { 
   design()
