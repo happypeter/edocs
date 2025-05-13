@@ -2,6 +2,18 @@
  * things about growing plants for food or fruit
  */
 
+const styles = {
+  barn: {
+    /**
+     * https://youtu.be/3lxVANMhdeo?t=507
+     * - mostly simple rusty wood color
+     * - warm paired a bit more cold and rusty wood color
+     * - rock solid and dead simple shaped furnitures
+     * - very litte light colors here and there
+     */
+  }
+}
+
 const todos = {
   /**
    * - a shed for farm tools
@@ -118,6 +130,15 @@ layout = {
 const loft_barn = {
   /**
    * raplicate the @10min_barn, so that elon has a great view on the second storey, and have fun
+   * 
+   */
+}
+
+simplest_barn = {
+  /**
+   * this is as simple as a strong structure can go,
+   * but the result is also pretty 
+   * https://www.youtube.com/watch?v=wftBs80qxqM
    */
 }
 const tool_shed = {
@@ -137,6 +158,7 @@ const tool_shed = {
      * - roof foot print is 16sqm or a bit less, so that I would use the 4m lumber.super_wide without cutting them short
      * - build 3or4 trusses
      *   - cut super_wide planks, 3m or so( determined by the pitch I want) rafters with my mitersaw
+     * - overlayed fascia https://youtu.be/Blr7fxA52tU?t=49
      */
   }
 }
@@ -179,6 +201,7 @@ picnic_table = {
   /**
    * https://www.youtube.com/watch?v=Oex8W5aASJo
    * 'I made a picnic table from someone's rubbish'
+   * https://youtu.be/l_ut6mJt2Sg?t=501
    */
 }
 wagon = {
@@ -194,5 +217,95 @@ wagon = {
    *   - https://www.youtube.com/watch?v=3ep35s9fQcE
    * - welding does not look hard
    *   - https://www.youtube.com/watch?v=gSi5TTJkTyc
+   */
+}
+fence = {
+  /**
+   * https://youtu.be/wftBs80qxqM?t=289
+   * https://youtu.be/Kn3vj_aBVHs?t=5
+   * - black paint can look good https://www.youtube.com/watch?v=tpIpaXl-QUE
+   */
+}
+
+planters = {
+  small: {
+
+  }
+}
+
+compost = {
+  current_choice: simplified_bokashi,
+  hot_composting: {
+    /**
+     * the pile needs to be at least 1 cubic meter, for the pressure needed
+     * this is too big for Mars' yard
+     * 80 degree centi is needed if you want to kill pests in the compost
+     */
+  },
+  // https://www.youtube.com/watch?v=nxTzuasQLFo
+  brown: {
+    cardboard: 'cut into small pieces',
+    sawdust: 'great material',
+    use: 'adding more brown when stinky'
+  },
+  green: {
+    /**
+     * kitchen waste or grass
+     */
+    use: 'adding more green when slow to compost'
+  },
+  water: 'moist, not wet',
+  heat: 'semi-shaded area will be best', // https://youtu.be/mekhsjUjY-8?t=106
+  air: 'add fluffy brown stuff, or mix the pile often',
+  bin: 'use a bucket', // https://www.youtube.com/watch?v=0u-1yZuSCao
+  direct_burying: {
+    ref: 'https://www.youtube.com/watch?v=yQFB9M2UdK0',
+    problem: 'too slow, quickly run out space to bury more, attract bugs overtime',
+  },
+  avoids: {
+    // salt, a bit oil is OK, not too much
+  },
+  simplified_bokashi: {
+    // https://www.youtube.com/watch?v=O-peDNtYKkI
+    /**
+     * - 40L is the best capcity for the bin
+     */
+  },
+  flower_pot: {
+    /**
+     * https://www.youtube.com/watch?v=qOhHhvTHqmA
+     * problem is you need to turn it often
+     */
+  },
+  small_bucket: {
+    /** https://www.youtube.com/watch?v=PO1h50N9yxA */
+  },
+  quick_fertilizers: {
+    waste_liquids: {
+    /** https://www.youtube.com/shorts/q8-kC9a1EKc
+     * soak kitchen waste in water for a few days, and Period.
+     * this is also what you get in sim
+     */
+    },
+
+    rabbit_manure: {
+      /**
+       * 'direct put' https://www.youtube.com/watch?v=-3fRZQd6bZ4
+       */
+    }
+  }
+}
+
+truck = {
+  /**
+   * - problems
+   *   - moving wood to farm and soil/produce back
+   *     - solution: sth short but powerful
+   *   - go bazzar shopping
+   *   - get packages
+   * - options
+   *   - the barrzar truck for construction site
+   *     - too big for getting packages
+   *     - might be too slow to get to the bazzar
    */
 }

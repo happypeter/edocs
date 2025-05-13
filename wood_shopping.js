@@ -318,7 +318,7 @@ export const boards = {
                       price: 34, // was 38RMB
                       detail: 'smells badly if you store them in a hot room, but it is a better option than OSB for roofing, 10 times more durable getting wet, even works for 3 years with direct weather exposure, it is back breaking to life OSB, while this is much lighter, most importantly, this is 70% of the price of 1.5cm OSB. one more thing, since it is finished with paint already, guess I can use it as the exterior sheathing of my sheds',
                       }, 
-    crate: {
+    crate_plywood: {
       source: shop_name.xiaolean_shop,
       real_size: 'around 65cm wide...',
       price: {

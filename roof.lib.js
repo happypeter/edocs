@@ -10,6 +10,10 @@ fabric_surface_roof = {
 }
 
 sheet_metal = {
+  /**
+   * it's hard to beat metal as a roofing solution in terms of cost and low maintanance
+   * water proof.
+   */
   rusty: {
     /**
      * with wood plank cladding, the shed can look cool https://www.youtube.com/watch?v=ExySSpbor1c&t=1145s

@@ -61,3 +61,17 @@ NOTE: Daily journaling of my workouts. The goal is to have a blanced muscle buil
 
 - 8km cycling, carring Elon. As the shakeout run for my marathon tommorrow.
 - Keep App Plan today focuses on legs, so I just watched, saved energy for tommorrow.
+
+## 2025 Qinhuangdao Marathon
+- my recipe for the pain free marathon
+  - 2 day carbload, just rice, very little oil and protein
+    - rice with stir fried tomatoes
+    - Pitfall: too much rice still disturbed the sleep before marathon
+  - a bottle of Redbull before the start
+    - which helped I believe, problem was I had penis pain cause the urnine
+      - I had to take care the team so I hold it till race ended
+      - and I was OK
+  - slow, the first half no faster than 5:30min/km
+    - and then I will need decent amount of rest, not 5min thing
+      - 10min or 15min thing
+    - then I will have power to do the last 2km paced at 5:30 or so

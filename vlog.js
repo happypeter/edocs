@@ -8,3 +8,9 @@ const process = {
    *   - no extra editing, and save the mov on my Mac Mini at project_name/timestamp.mov, e.g shed/20250331.mov
    */
 }
+
+const high_contrast = {
+  /**
+   * maybe I should go more saturated and high contrast videos like this https://www.youtube.com/watch?v=GM4TYKZi9oI
+   */
+}
