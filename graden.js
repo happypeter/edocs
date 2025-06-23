@@ -1,6 +1,55 @@
 /**
  * things about growing plants for food or fruit
  */
+layout_guidelines = {
+  diversity: {
+    /** - https://youtu.be/acjpwIxZzlA?t=864
+     *    - try grow many different things
+     */
+  },
+  no_perfection: {
+    /**
+     * - https://youtu.be/acjpwIxZzlA?t=553
+     *   - if every garden beds are precisely sized, and aligned perfectly
+     *     this garden could get less interesting, not more so 
+     * - https://youtu.be/acjpwIxZzlA?t=679
+     *   - the length difference of the fence pieces, and color variations actually look good
+     *   - there is no need to paint everything same color, or do very precise cut
+     *     - applying this principle to my barn, I don't need to make all details perfect, enough is enough, a barn dont need to be too serious
+     */
+  },
+  lower_center: {
+    /**
+     * - https://youtu.be/acjpwIxZzlA?t=370
+     *   - what makes a great view of this garden, and also very functional too is that
+     *     - the central part is lower, both beds and plants, so that sunshine won't be blocked
+     *   - so even though there is no plaza, but the lower center give a spacious feeling
+     *     - and with the wood door as a foucal point on the background, the whole place looks great
+     */
+  },
+  same_together: {
+    /**
+     * https://youtu.be/N72RUK29GJ0?t=16
+     * put the same sized garden beds together, not scatter around
+     * high beds go together with high, and low with low, don't scatter
+     */
+  },
+  tight: {
+    /**
+     * two garden beds sides(the short sides)should be 40cm or less, cause
+     * you don't need to work on this aisl, for the path on long sides, where
+     * you will stand when working, they need to be wider than the wheelbarrow,
+     * but still no wider then that. save space. so that I can have a square 
+     * to turn barrow around or set a table.
+     */
+  },
+  path: {
+    /**
+     * idealy, for my Mars Garden, I need only one square, 
+     * and that's here all main, aka, barrow width pathes ends
+     */
+  },
+}
 
 const styles = {
   barn: {
@@ -11,7 +60,15 @@ const styles = {
      * - rock solid and dead simple shaped furnitures
      * - very litte light colors here and there
      */
-  }
+  },
+  color_pallet: {
+    /**
+     * try to have more wooden-yellowish color like this
+     * - https://youtu.be/acjpwIxZzlA?t=864
+     *   - I mean I have this at Mars Garden as raised bed top, which looks great
+     * - so there is no reason I can not have this color for fences or sheds
+     */
+  },
 }
 
 const todos = {
@@ -53,7 +110,7 @@ const raised_beds = {
    * https://www.youtube.com/watch?v=Y7Fl1-aZZd0
    */
   fill: {
-    second: 'composite',
+    second: 'compost',
     bottom: 'sticks or logs',
   },
   sizes: {
@@ -223,7 +280,9 @@ fence = {
   /**
    * https://youtu.be/wftBs80qxqM?t=289
    * https://youtu.be/Kn3vj_aBVHs?t=5
-   * - black paint can look good https://www.youtube.com/watch?v=tpIpaXl-QUE
+   * - black paint can look good 
+   *   - https://www.youtube.com/watch?v=tpIpaXl-QUE
+   *   - https://youtu.be/GU0KRhvX5TQ?t=15
    */
 }
 
@@ -269,6 +328,8 @@ compost = {
     // https://www.youtube.com/watch?v=O-peDNtYKkI
     /**
      * - 40L is the best capcity for the bin
+     * - it's OK to use the stinky water
+     *   - other pro does sth similiar https://www.youtube.com/watch?v=6izQfXMO9nY
      */
   },
   flower_pot: {
@@ -307,5 +368,29 @@ truck = {
    *   - the barrzar truck for construction site
    *     - too big for getting packages
    *     - might be too slow to get to the bazzar
+   * - IDEAL
+   *   - REUSE MY XIAONIU lITIRUM BETTEREW
+   *   - NO REAR BUCKET, SO THAT i CAN SWITCH TO DIFFERENT TRAILERS
+   */
+}
+
+tomato_trellis = {
+  /**
+   * go FloridaWeave,
+   * screw four or six studs on sides of the raised graden bed,
+   * yes you can bent the stem of the plants(check https://youtu.be/XtW2rd2oJOo?t=291), so try have the studs far from
+   * each other, then the rest of work will mostly done by strings
+   * 
+   */
+}
+prune_trees = {
+  central_lead: {
+    /**
+     * you need a central trunk to hold deffierent layers of branches
+     * https://youtu.be/h6hWa3nx7yo?t=947
+     */
+  }
+  /**
+   * https://www.youtube.com/watch?v=h6hWa3nx7yo
    */
 }

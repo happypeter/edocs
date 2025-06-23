@@ -9,6 +9,9 @@ wall = {
      * without the groves
      */
   },
+  plywood_with_stain: {
+    /** https://www.youtube.com/watch?v=6lXL84XmJb4 */
+  },
   board_and_batten_siding: {
     /** https://youtu.be/Kn3vj_aBVHs?t=708 */
     without_battens: {
