@@ -52,15 +52,7 @@ layout_guidelines = {
 }
 
 const styles = {
-  barn: {
-    /**
-     * https://youtu.be/3lxVANMhdeo?t=507
-     * - mostly simple rusty wood color
-     * - warm paired a bit more cold and rusty wood color
-     * - rock solid and dead simple shaped furnitures
-     * - very litte light colors here and there
-     */
-  },
+
   color_pallet: {
     /**
      * try to have more wooden-yellowish color like this
@@ -184,20 +176,9 @@ layout = {
   }
 }
 
-const loft_barn = {
-  /**
-   * raplicate the @10min_barn, so that elon has a great view on the second storey, and have fun
-   * 
-   */
-}
 
-simplest_barn = {
-  /**
-   * this is as simple as a strong structure can go,
-   * but the result is also pretty 
-   * https://www.youtube.com/watch?v=wftBs80qxqM
-   */
-}
+
+
 const tool_shed = {
   /**
    * - I will build a moderate size pole barn roof, at least 2 larger footprint than the deck floor
@@ -215,7 +196,7 @@ const tool_shed = {
      * - roof foot print is 16sqm or a bit less, so that I would use the 4m lumber.super_wide without cutting them short
      * - build 3or4 trusses
      *   - cut super_wide planks, 3m or so( determined by the pitch I want) rafters with my mitersaw
-     * - overlayed fascia https://youtu.be/Blr7fxA52tU?t=49
+        * - overlayed fascia https://youtu.be/Blr7fxA52tU?t=49
      */
   }
 }

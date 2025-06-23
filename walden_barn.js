@@ -13,3 +13,21 @@ goals = {
      */
   }
 }
+
+styles= {
+  /**
+   * https://youtu.be/3lxVANMhdeo?t=507
+   * - mostly simple rusty wood color
+   * - warm paired a bit more cold and rusty wood color
+   * - rock solid and dead simple shaped furnitures
+   * - very litte light colors here and there
+   */
+}
+
+simplest_barn_idea = {
+  /**
+   * this is as simple as a strong structure can go,
+   * but the result is also pretty 
+   * https://www.youtube.com/watch?v=wftBs80qxqM
+   */
+}
