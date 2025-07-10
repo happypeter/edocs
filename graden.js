@@ -59,6 +59,11 @@ const styles = {
      * - https://youtu.be/acjpwIxZzlA?t=864
      *   - I mean I have this at Mars Garden as raised bed top, which looks great
      * - so there is no reason I can not have this color for fences or sheds
+     * - more inpirations check UTMB videos for sheds in nature
+     *   - https://youtu.be/i-xMswfpnIo?t=205
+     *     - red can also merge well into the nature
+     * - for greenhouses
+     *   - a green-ish poly carben boards can be used https://youtu.be/acjpwIxZzlA?t=899
      */
   },
 }
