@@ -1,6 +1,12 @@
 /**
  * things about growing plants for food or fruit
  */
+plan = {
+  /**
+   * https://www.youtube.com/watch?v=fGUELeQbtZA
+   * I have a plan sketch in ipad#Procreate
+   */
+}
 layout_guidelines = {
   diversity: {
     /** - https://youtu.be/acjpwIxZzlA?t=864
@@ -329,10 +335,10 @@ compost = {
   },
   quick_fertilizers: {
     waste_liquids: {
-    /** https://www.youtube.com/shorts/q8-kC9a1EKc
-     * soak kitchen waste in water for a few days, and Period.
-     * this is also what you get in sim
-     */
+      /** https://www.youtube.com/shorts/q8-kC9a1EKc
+       * soak kitchen waste in water for a few days, and Period.
+       * this is also what you get in sim
+       */
     },
 
     rabbit_manure: {
@@ -380,3 +386,21 @@ prune_trees = {
    * https://www.youtube.com/watch?v=h6hWa3nx7yo
    */
 }
+
+prettier_farm_ideas= {
+  orchard: {
+  /**
+   * two things make it pretty: 
+   * - a very neat ground, lawn preferably. NO.2 some flowers
+   * https://happypeter.github.io/githome/imgs/20250717/2.jpeg
+   */
+  },
+  beds: {
+    /**
+     * use small rocks to define boundries
+     * https://happypeter.github.io/githome/imgs/20250717/4.jpeg
+     */
+  },
+
+}
+

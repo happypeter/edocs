@@ -1,3 +1,9 @@
+yurt_roof = {
+  /**
+   * https://youtu.be/TP_m1DIv1Qs?list=PLslKBpzJILet38X4jewEbINeMM9MJCMXe&t=60
+   * tarp right on frame, sheath-free
+   */
+}
 flat_wood_roof = {
   // for body height building when you may use the roof as a work surface
   // then have same plastic film underneath sloped
