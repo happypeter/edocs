@@ -154,7 +154,7 @@ shenyang_2025 = {
    * 
    * ## Conclusion
    * 
-   * It was fun.
    * 
+   * It was fun.
    */
 }
