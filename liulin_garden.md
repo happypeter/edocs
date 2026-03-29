@@ -1,0 +1,3 @@
+- avoid visual clutter
+  - build a trellis fence, hide things behind it
+  - or grow corn
