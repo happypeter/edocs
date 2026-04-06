@@ -5,6 +5,9 @@
 - houses
   - wood planks as main surface, plus some other colors as accent
     - black
+      - https://jp.pinterest.com/pin/47498971066250855/
     - warm color: https://jp.pinterest.com/pin/203436108164656710/
     - nothing
       - https://jp.pinterest.com/pin/378513543710524508/
+  - shape
+    - https://jp.pinterest.com/pin/370632244357564631/
