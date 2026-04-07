@@ -11,3 +11,6 @@
       - https://jp.pinterest.com/pin/378513543710524508/
   - shape
     - https://jp.pinterest.com/pin/370632244357564631/
+- decorate the boring brick wall
+  - sth black, like a shelf, a shed, or flower pots https://youtu.be/WBOGVONYqaI?list=TLPQMDIwNDIwMjbqq4jTU-G3tQ&t=343
+>>>>>>> bb31384 (i)
