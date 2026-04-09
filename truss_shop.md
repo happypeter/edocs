@@ -1,0 +1,3 @@
+- interior
+  - wood finish at all cost, no exposed bricks or metal
+  - a loft for storage
