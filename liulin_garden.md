@@ -1,3 +1,9 @@
+- shade
+  - livestophttps://www.youtube.com/watch?v=r-tatvzK64E
+    - two big box as foundation, enough shear strength, so roof build is easy
+  - the Extraction Cafe Chiangmai
+    - https://www.youtube.com/watch?v=LCeeiMblqCU
+    - bury polars deep and make them  steady, so that no bracing needed and result in a slick looking roof.
 - general ref/vibe
   - 嘉兴 植物图书馆农场 rednote.com
 - avoid visual clutter
