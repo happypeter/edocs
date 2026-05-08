@@ -29,3 +29,5 @@
   - next shed build, will use standardized materials, do the design first, cut every thing of same size in one go.
   - wood door https://www.xiaohongshu.com/explore/69bde5b000000000220257b3
 
+- corn
+  - why plot not lines https://youtu.be/uz7OVfaYeSA?t=142
