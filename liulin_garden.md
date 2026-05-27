@@ -11,7 +11,7 @@
   - or grow corn
   - pallet: one color for one item, wood-color-only for sheds, black for large items like a farm table, bright colors for smaller ones like bird house.
 
-- houses
+- buildings
   - wood planks as main surface, plus some other colors as accent
     - black
       - https://jp.pinterest.com/pin/47498971066250855/
@@ -20,6 +20,8 @@
       - https://jp.pinterest.com/pin/378513543710524508/
   - shape
     - https://jp.pinterest.com/pin/370632244357564631/
+  - tool cabinet
+    - color: white and red looks stunning https://youtu.be/n8h0pqdRibg?t=4
 
 - decorate the boring brick wall
   - sth black, like a shelf, a shed, or flower pots https://youtu.be/WBOGVONYqaI?list=TLPQMDIwNDIwMjbqq4jTU-G3tQ&t=343
@@ -31,3 +33,40 @@
 
 - corn
   - why plot not lines https://youtu.be/uz7OVfaYeSA?t=142
+- FLOWER BEDS
+  - STH SIGNIFICANT IN SIZE https://jp.pinterest.com/pin/1477812375213165/Ø
+- outdoor table
+  - https://www.youtube.com/shorts/-cNB5YuYx3U
+- solar pannel
+  - 【电动车安装太阳能板给电池充电无限续航】 https://www.bilibili.com/video/BV1MLeTe1E8X/
+- layout
+  - 14x40m long yard can be beautifully planned https://www.youtube.com/shorts/4Ir6C5HP-ZE
+    - trick is have sth big in the middle that divides space into smaller yards
+  - one yard in the center to be spacious and cool
+    - and two yards on each side of this main yard to hide two much details to avoid visual clutter
+    - use corn blocks, uni-styled planters, or even house walls as divider
+    - don't use sth complicated to set bounderies for yards, cause these boulderies also function as bg for things before them
+      - e.g hiding my cafe table and shelves behind tall corn plants will be a good idea
+      - boundries r so important, think this view without the bg tree wall https://youtu.be/GU0KRhvX5TQ?t=97
+  - garden bed less area can be fun
+    - https://youtu.be/1bcfmbrhlIA?t=53
+    - just avoid it block main way, small trails allowed to form natrually with in it
+  - planters
+    - 48x48cm https://jp.pinterest.com/pin/914862422068664/
+    - minimum design with bulky material https://jp.pinterest.com/pin/178173729001095742/
+  - pergola
+    - https://www.youtube.com/watch?v=R1a3vhmwrBg
+  - cafe/workshop
+    - follow style of the extraction cafe chiangmai
+    - black rafters, wood color walls and posts
+    - 
+  - propagate rose
+    - no direct light https://youtu.be/y_1fUrMhCpg?t=501
+  - color pallet
+    - wood+black+yellow+white can be fun.
+      - https://happypeter.github.io/githome/imgs/20260527/
+  - signs on wood
+    - waterbased paint for base + acrylic for text, then top coat with PU
+      - mostly follow https://www.youtube.com/watch?v=b6WlGfVokUI
+      - love the style https://www.youtube.com/watch?v=9ZEVSDuGylA
+      - shelac below PU https://www.youtube.com/watch?v=Od5P7EFMAr8

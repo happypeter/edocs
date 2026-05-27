@@ -1,0 +1,4 @@
+- plan
+  - a rock paved path in the middle going all the way to the north, till it reach a tool shed.
+  - wood plank fence hide the broken brick wall behind
+  - the corner area, which is to the north of garage will be more for storage.

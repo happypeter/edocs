@@ -1,3 +1,8 @@
+const product_2026 = {
+  // 4cmx8cmx3m new wood, 12.5RMB
+  // 3.8cm x 8.8cm x 4mplus, 17RMB
+}
+
 const shopping_list_20250318 = [
   /**
    *  shop_name.xiaolean_shop 2nd purchase

@@ -285,7 +285,7 @@ planters = {
 }
 
 compost = {
-  current_choice: simplified_bokashi,
+  current_choice: easy_compost,
   hot_composting: {
     /**
      * the pile needs to be at least 1 cubic meter, for the pressure needed
@@ -322,6 +322,20 @@ compost = {
      * - 40L is the best capcity for the bin
      * - it's OK to use the stinky water
      *   - other pro does sth similiar https://www.youtube.com/watch?v=6izQfXMO9nY
+     */
+  },
+  worm_tower: {
+    // if you dont raise worm, you can also add EM bateria to decompose the kitchen waste
+    // in your worm_tower, which is also a better way than burying if you dont want attract bugs
+  },
+  from_chicken: {
+    compost_pile: {
+      // https://www.youtube.com/watch?v=I99Ue3cQsFQ
+    }
+  },
+  easy_compost: {
+    /**
+     * https://www.youtube.com/watch?v=z6r_El6oYpU
      */
   },
   flower_pot: {
