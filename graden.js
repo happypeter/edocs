@@ -313,6 +313,14 @@ compost = {
     ref: 'https://www.youtube.com/watch?v=yQFB9M2UdK0',
     problem: 'too slow, quickly run out space to bury more, attract bugs overtime',
   },
+  turn_once: {
+    // have a lid like this https://youtu.be/1G_37Uf9o9Q?t=333
+    // leaving no gaps between planks of your bins
+    // turn the pile only once
+  },
+  compost_pathway: {
+    // https://youtu.be/acjpwIxZzlA?list=PLPGyuloevt5xki7FxQM3BBS98cdhtsa_u&t=666
+  },
   avoids: {
     // salt, a bit oil is OK, not too much
   },
