@@ -1,3 +1,5 @@
+- sweet potatoes
+  - why raise beds>=? https://youtu.be/uz7OVfaYeSA?t=376
 - shade
   - livestophttps://www.youtube.com/watch?v=r-tatvzK64E
     - two big box as foundation, enough shear strength, so roof build is easy
@@ -70,3 +72,7 @@
       - mostly follow https://www.youtube.com/watch?v=b6WlGfVokUI
       - love the style https://www.youtube.com/watch?v=9ZEVSDuGylA
       - shelac below PU https://www.youtube.com/watch?v=Od5P7EFMAr8
+- tomato
+  - why grow a  lot? can them https://youtu.be/uz7OVfaYeSA?t=602
+  - the pantry shelves https://youtu.be/uz7OVfaYeSA
+  - plant extra deep https://youtu.be/-Z3Z4Pj6vxY?t=694
