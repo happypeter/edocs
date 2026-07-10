@@ -3,6 +3,7 @@ const prune = {
    * keep only main stem and one sucker
    * - do topping when there is already enough fruit, and the season is ending
    */
+<<<<<<< HEAD
 }
 
 const note = {
