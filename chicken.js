@@ -8,6 +8,7 @@
  *       - as AI told, keep free range chicken, like Chinese Chaiji in cage can cause issues
  *       - compost bed, fermentation bed
  *         - https://www.bilibili.com/video/BV1eYEY6eEv4/
+ *         - Bokashi juice can be sprayed to control the odor
  */
 
 const mars_coop = {
