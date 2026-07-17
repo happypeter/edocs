@@ -25,3 +25,7 @@ const mars_coop = {
    *   - a PVC feeder https://www.youtube.com/watch?v=yR6TD4tAoUk
    */
 }
+
+const food = {
+  ferment_corn_stalk: 'https://www.bilibili.com/video/BV1AkxKzuEUN/',
+}
