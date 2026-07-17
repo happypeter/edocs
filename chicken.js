@@ -6,6 +6,8 @@
  *   - free range chicken kept in cages
  *     - July 10 2026: I moved the chickens to the run, they ate a lot more than they were in cage for the last 7 days.
  *       - as AI told, keep free range chicken, like Chinese Chaiji in cage can cause issues
+ *       - compost bed, fermentation bed
+ *         - https://www.bilibili.com/video/BV1eYEY6eEv4/
  */
 
 const mars_coop = {
