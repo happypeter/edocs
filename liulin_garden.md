@@ -72,8 +72,3 @@
       - mostly follow https://www.youtube.com/watch?v=b6WlGfVokUI
       - love the style https://www.youtube.com/watch?v=9ZEVSDuGylA
       - shelac below PU https://www.youtube.com/watch?v=Od5P7EFMAr8
-
-
-- chicken coop
-  - dont need to be fancy to be lovely https://youtu.be/5TltKigQ2ow?t=44
->>>>>>> 9170c62 (lessons)

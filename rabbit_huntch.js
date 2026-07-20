@@ -5,6 +5,7 @@
  *   - sheathed plywood wall room on west side to shade away hot setting sun
  *   - roof
  *     - shade above roof, or make roof well insulated
+ *     - elevated roof, https://www.youtube.com/watch?v=tBMDBPXjNYM
   * - depth
   *   - is now 60cm, I will make it 70cm next version
   * - floor

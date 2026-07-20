@@ -9,6 +9,10 @@
  *       - compost bed, fermentation bed
  *         - https://www.bilibili.com/video/BV1eYEY6eEv4/
  *         - Bokashi juice can be sprayed to control the odor
+ * 
+
+- chicken coop
+  - dont need to be fancy to be lovely https://youtu.be/5TltKigQ2ow?t=44
  */
 
 const mars_coop = {
