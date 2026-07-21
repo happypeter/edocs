@@ -1,3 +1,15 @@
+canned_food = {
+  /**
+   * David mentioned:
+   *   - canned tomatoes: boil first, then seal in a mason jar
+   *   - apple jam
+   *     - u can make it with almost any kind of apple
+   *     - steam the slices and seal the mesh
+   *   - pickles
+   *     - cucumber is the most common, cut into 'quaters' before you put it in jars 
+   *     
+   */
+}
 vege_ferment_tips = {
   under_water: {
     /**
