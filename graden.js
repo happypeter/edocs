@@ -241,45 +241,7 @@ rabbit_hutch = {
    */
 }
 
-chick_coop = {
-  goto:{
-    /**
-     * https://www.youtube.com/watch?v=pdf8inDpp0k My Chicken Coop Walkthrough Tour With MUST HAVE Features!
-     * - building process https://www.youtube.com/watch?v=BxVfsrjv7hw
-     */
-  }
-  /**
-   * A frame https://www.youtube.com/watch?v=v5ObxmVgy7k
-   * youtube: 'Building my daughters a $0 chicken coop
-   * Chicken Coop Features NOT To Forget (8 Things To Consider)
- https://www.youtube.com/watch?v=fgJ-4f6T_FQ
- - location
-   - shady and dry land
-     - build shade if no tree on spot, direct rainwater to outside run to avoid pools
- - floor
-   - PU it, https://youtu.be/hAx1WaSQ4qE?t=420
-   - why do I need a elevated floor? warm, not damp floor to hurt chicken feet. ask AI for more. 
-   - slide tray https://youtu.be/Bgu7f5cq6cQ?t=499
-   - one whole side width door should be there for easier poop cleaning
-     - https://youtu.be/7VCUr5pjndE?t=974
-- sizes
-  - https://youtu.be/pdf8inDpp0k?t=122
-  - footprint 6fx5f, for 10 chickens
-  - elevation: taller than your wheel barrel https://youtu.be/pdf8inDpp0k?t=147
-- run
-  - the wall 1.3m
-  - door with spring https://youtu.be/hAx1WaSQ4qE?t=568
-  - roofed extension, aka. enclosed run https://youtu.be/hAx1WaSQ4qE?t=936
-  - why? extra secure and dry space for water and food
-  - is it still nessary when a bigger run is already there?
-- cooling fan https://youtu.be/hAx1WaSQ4qE?t=614
 
-- water
-  - nipple feeder https://youtu.be/hAx1WaSQ4qE?t=1020
-  - rain collection https://youtu.be/Bgu7f5cq6cQ?t=264
-'
-   */
-}
 picnic_table = {
   /**
    * https://www.youtube.com/watch?v=Oex8W5aASJo
