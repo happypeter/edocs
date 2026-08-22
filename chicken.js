@@ -1,25 +1,30 @@
 /**
  * - main death reasons:
+ *   - eating rubber
+ *     - rubber feels like meat anyway
  *   - lack of clean water
  *     - have feeder ready before you have chicken, I had plastic bowel for them, little chicken tent to spill the water very soon
  *       - also next year I will change to purified water
  *   - free range chicken kept in cages
  *     - July 10 2026: I moved the chickens to the run, they ate a lot more than they were in cage for the last 7 days.
  *       - as AI told, keep free range chicken, like Chinese Chaiji in cage can cause issues
- *       - compost bed, fermentation bed
- *         - https://www.bilibili.com/video/BV1eYEY6eEv4/
- *         - Bokashi juice can be sprayed to control the odor
- * 
+ *
 
 - chicken coop
   - dont need to be fancy to be lovely https://youtu.be/5TltKigQ2ow?t=44
  */
 chick_coop = {
+  checklist: {
+    no_block: 'each space show be easy to broom dirty out, the nexting box included https://youtu.be/BxVfsrjv7hw?t=525'
+  },
   goto:{
     /**
      * https://www.youtube.com/watch?v=pdf8inDpp0k My Chicken Coop Walkthrough Tour With MUST HAVE Features!
      * - building process https://www.youtube.com/watch?v=BxVfsrjv7hw
      */
+  },
+  design: {
+    color: 'black+wood', // it worked, and more reference https://www.youtube.com/watch?v=69qMZMcSAAk
   }
   /**
    * A frame https://www.youtube.com/watch?v=v5ObxmVgy7k
@@ -71,4 +76,19 @@ const mars_coop = {
 
 const food = {
   ferment_corn_stalk: 'https://www.bilibili.com/video/BV1AkxKzuEUN/',
+  ferment_feed: {
+    /**
+     * https://www.bilibili.com/video/BV1w4411v7NR
+     */
+  }
+}
+
+compost_bed = {
+  /**
+ *         - https://www.bilibili.com/video/BV1eYEY6eEv4/
+ *         - Bokashi juice can be sprayed to control the odor
+ *           - reason: PH vablue and the bacteria in the liquid surpress the grow of aerobic bactiria thus slow done the generation of bad smell
+ *  - tip
+ *    - add EM bran every 3 month
+   */
 }
